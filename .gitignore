@@ -93,6 +93,20 @@ out/
 coverage/
 .turbo/
 .cache/
+next-env.d.ts
+*.tsbuildinfo
+
+# ---------------------------------------------------------------------------
+# Local SQLite database (runtime state, never committed)
+# ---------------------------------------------------------------------------
+/data/
+*.sqlite
+*.sqlite3
+
+# ---------------------------------------------------------------------------
+# Playwright (test-results/ and playwright-report/ already covered below)
+# ---------------------------------------------------------------------------
+/playwright/.cache/
 
 # ---------------------------------------------------------------------------
 # General build artifacts

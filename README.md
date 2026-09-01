@@ -7,10 +7,10 @@
 ## Project Status
 
 ```text
-Status: Pre-setup / Foundation
+Status: Early Implementation
 ```
 
-The repository currently contains its foundational structure, governance documentation, and development conventions. Application architecture, technology stack, and implementation have not yet begun.
+The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap — a running Next.js shell with no pipeline stage implemented yet — is in place (P4.1). Evidence ingestion, extraction, entity resolution, graph synthesis, analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
 
 ## ⚠️ Important Disclaimer
 
@@ -57,20 +57,29 @@ Dossier / Report
 
 ```text
 netintel-ai/
-├── docs/            # Project documentation
-│   ├── architecture/  # System architecture (not yet decided)
-│   ├── contracts/     # Interface / data contracts between components
-│   ├── data/          # Synthetic data specification and generation notes
-│   ├── demo/          # Demo runbook and walkthrough materials
-│   ├── evaluation/     # Evaluation methodology and criteria
-│   └── progress/      # Implementation ledger and visual-progress evidence
-├── evidence/        # Synthetic evidence artifacts used by the demo
-│   ├── ground-truth/  # Known-correct answers for synthetic scenarios
-│   └── synthetic/     # Generated synthetic evidence (documents, records, etc.)
-├── evaluation/      # Evaluation scripts and results
-├── scripts/         # Utility and automation scripts
-├── src/             # Application source code (not yet started)
-├── .env.example     # Environment variable template (no real secrets)
+├── docs/                  # Project documentation
+│   ├── architecture/        # ADR-001 technology stack + stack contract
+│   ├── contracts/            # Interface / data contracts between components
+│   ├── data/                  # Synthetic data specification and generation notes
+│   ├── demo/                   # Demo runbook and walkthrough materials
+│   ├── evaluation/               # Evaluation methodology and criteria
+│   └── progress/                  # Implementation ledger and visual-progress evidence
+├── evidence/               # Synthetic evidence artifacts used by the demo
+│   ├── ground-truth/         # Known-correct answers for synthetic scenarios
+│   └── synthetic/              # Generated synthetic evidence (documents, records, etc.)
+├── evaluation/             # Evaluation scripts and results
+├── scripts/                # Utility and automation scripts
+├── src/                    # Application source (Next.js App Router)
+│   ├── app/                  # Routes, layout, global styles
+│   ├── components/            # UI — components/ui (shadcn primitives), components/shell (app shell)
+│   ├── lib/                     # ai/, db/, env, graph/, pipeline/, provenance/, utils
+│   └── types/                    # Shared domain types
+├── tests/                  # tests/unit (Vitest), tests/e2e (Playwright)
+├── drizzle/                # Generated SQL migrations
+├── data/                   # Local SQLite database (git-ignored, created on first run)
+├── package.json, tsconfig.json, next.config.ts, drizzle.config.ts,
+│   vitest.config.ts, playwright.config.ts, components.json
+├── .env.example            # Environment variable template (no real secrets)
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -104,6 +113,31 @@ A single-runtime, local-first TypeScript application. Full rationale in [ADR-001
 | Local execution | `npm run dev` — Docker is not required for development or runtime |
 
 Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker for application services, and LLM agent frameworks — see [ADR-001 §10](./docs/architecture/technology-stack.md#technologiespatterns-we-are-not-using). Local model inference (Ollama) is available only as an emergency offline fallback, never the default path.
+
+## Getting Started
+
+**Status**: the application foundation (P4.1) is bootstrapped — a running shell with no investigation loaded, per the intended demonstration flow above. Pipeline stages (ingestion, extraction, entity resolution, graph synthesis, analytics, corroboration, Copilot, reporting) are not implemented yet.
+
+Requirements: Node.js 26.8.1+ (provides the built-in `node:sqlite` module). No Docker required.
+
+```bash
+npm install
+cp .env.example .env   # optional — the app runs with no AI_PROVIDER_API_KEY set
+npm run dev            # http://localhost:3000
+```
+
+Other scripts:
+
+```bash
+npm run build       # production build
+npm run typecheck   # tsc --noEmit
+npm run lint         # eslint .
+npm test              # vitest run (unit tests)
+npm run test:e2e      # playwright test (end-to-end)
+npm run db:generate   # regenerate Drizzle migrations after a schema change
+```
+
+The SQLite database is a local file at `DATABASE_URL` (default `./data/netintel.db`), created and migrated automatically on first use — nothing to provision manually.
 
 ## Development Environment
 
