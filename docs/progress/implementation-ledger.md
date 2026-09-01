@@ -28,7 +28,13 @@ This is the authoritative, append-only record of feature-by-feature implementati
 | P0.11 | Governance documentation created (`docs/*/README.md`) | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
 | P0.12 | Implementation ledger created (this document) | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
 | P0.13 | Progress evidence convention documented | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
-| P0.18 | GitHub repository governance (branch protection on `master`: block force-push, block deletion; Dependabot vulnerability alerts enabled; `docs/repository-governance.md` authored) | Completed | Claude Code (AI) | Pending (this commit) | N/A | Validated via `gh api` branch-protection and security settings checks | No |
+| P0.18 | GitHub repository governance (branch protection on `master`: block force-push, block deletion; Dependabot vulnerability alerts enabled; `docs/repository-governance.md` authored) | Completed | Claude Code (AI) | `ca693ec` | N/A | Validated via `gh api` branch-protection and security settings checks | No |
+| P1.1 | Requirements specification (`docs/requirements.md`) | Completed | Claude Code (AI) | Pending (this commit) | N/A | N/A — specification document | No |
+| P1.2 | Synthetic investigation specification — Operation DarkNet Delhi (`docs/data/synthetic-investigation-spec.md`) | Completed | Claude Code (AI) | Pending (this commit) | N/A | N/A — specification document; no data generated | No |
+| P1.3 | Ground-truth specification (`docs/data/ground-truth-spec.md`) | Completed | Claude Code (AI) | Pending (this commit) | N/A | N/A — specification document; no ground truth created | No |
+| P1.4 | Agent contract specification (`docs/contracts/agent-contracts.md`) | Completed | Claude Code (AI) | Pending (this commit) | N/A | N/A — specification document | No |
+| P1.5 | End-to-end demo contract (`docs/demo/demo-contract.md`) | Completed | Claude Code (AI) | Pending (this commit) | N/A | N/A — specification document; Copilot not implemented | No |
+| P1.6 | Evaluation specification (`docs/evaluation/evaluation-spec.md`) | Completed | Claude Code (AI) | Pending (this commit) | N/A | N/A — specification document; no evaluator implemented | No |
 
 Rows for P0.14–P0.17 (secret validation, repository validation, initial commit, GitHub synchronization) are process steps rather than tracked features and are not entered as ledger rows; their outcomes are reported in the task completion summary.
 
