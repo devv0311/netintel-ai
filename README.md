@@ -1,0 +1,119 @@
+# NetIntel AI
+
+*A synthetic-data investigative intelligence platform for demonstrating evidence ingestion, entity resolution, relationship analysis, spatial/temporal corroboration, grounded investigation assistance, and report generation.*
+
+> This project is not production software and makes no claim of production readiness. It exists to demonstrate an investigative-intelligence workflow end-to-end using synthetic data.
+
+## Project Status
+
+```text
+Status: Pre-setup / Foundation
+```
+
+The repository currently contains its foundational structure, governance documentation, and development conventions. Application architecture, technology stack, and implementation have not yet begun.
+
+## ⚠️ Important Disclaimer
+
+**This project uses exclusively synthetic, fabricated data for demonstration purposes.**
+
+This project does **not** use, and must **never** use:
+
+- Real First Information Reports (FIRs)
+- Real Call Detail Records (CDRs)
+- Real bank or financial records
+- Aadhaar or other government-issued identity information
+- Real phone numbers
+- Real financial identifiers (account numbers, card numbers, UPI IDs, etc.)
+- Private or classified investigative records
+- Any data belonging to a real person, case, or investigation
+
+All evidence, entities, cases, and datasets used in this project are entirely fictional and generated for demonstration purposes only. Any resemblance to real individuals, organizations, or investigations is coincidental and unintended.
+
+## Intended Demonstration Flow
+
+The following describes the **intended** end-to-end workflow this project aims to demonstrate. It reflects project direction, not current implementation status.
+
+```text
+Upload Evidence
+      ↓
+Ingestion
+      ↓
+Extraction
+      ↓
+Entity Resolution
+      ↓
+Graph Synthesis
+      ↓
+Analytics
+      ↓
+Spatial / Temporal Corroboration
+      ↓
+Investigation Copilot
+      ↓
+Dossier / Report
+```
+
+## Repository Structure
+
+```text
+netintel-ai/
+├── docs/            # Project documentation
+│   ├── architecture/  # System architecture (not yet decided)
+│   ├── contracts/     # Interface / data contracts between components
+│   ├── data/          # Synthetic data specification and generation notes
+│   ├── demo/          # Demo runbook and walkthrough materials
+│   ├── evaluation/     # Evaluation methodology and criteria
+│   └── progress/      # Implementation ledger and visual-progress evidence
+├── evidence/        # Synthetic evidence artifacts used by the demo
+│   ├── ground-truth/  # Known-correct answers for synthetic scenarios
+│   └── synthetic/     # Generated synthetic evidence (documents, records, etc.)
+├── evaluation/      # Evaluation scripts and results
+├── scripts/         # Utility and automation scripts
+├── src/             # Application source code (not yet started)
+├── .env.example     # Environment variable template (no real secrets)
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+Each `docs/` subdirectory contains its own `README.md` explaining its purpose, current status, and what has intentionally **not** been decided yet.
+
+## Development Rules
+
+- **GitHub is the canonical progress repository.** This repository is the single source of truth for project state.
+- **Every accepted implementation increment must be pushed immediately.** Work is not considered complete until it is committed and synchronized with the remote.
+- **Secrets must never be committed.** See `.gitignore` and `.env.example`.
+- **Synthetic evidence only.** No real investigative, personal, financial, or classified data may enter this repository at any point.
+- **AI inferences must not be represented as established facts.** Any AI-generated conclusion must be clearly distinguishable from verified evidence, with provenance preserved.
+- **Evidence provenance must be retained.** Every piece of evidence must be traceable to its origin.
+- **Major features require visual evidence.** See `docs/progress/` for the visual-progress convention.
+
+## Development Environment
+
+The development environment has been verified on the following baseline (informational only — this does not constitute an application technology-stack decision):
+
+- macOS (Apple Silicon, arm64)
+- Homebrew, Xcode Command Line Tools
+- Git and GitHub CLI, with active GitHub authentication
+- Python (latest) and Node.js (latest) toolchains available
+- Docker Desktop, operational
+
+The application technology stack (frontend, backend, database, AI/LLM provider, orchestration, etc.) has **not** been selected and will be determined in a later phase.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+## Future Documentation
+
+The following areas will be developed as the project progresses:
+
+- **Architecture** — `docs/architecture/` — system design once the technology stack is selected
+- **Contracts** — `docs/contracts/` — interface and data contracts between components
+- **Data Specification** — `docs/data/` — synthetic dataset design and generation methodology
+- **Evaluation Methodology** — `docs/evaluation/` — how correctness and quality will be measured
+- **Demo Runbook** — `docs/demo/` — how to run and present the demonstration
+- **Visual Progress** — `docs/progress/` — the implementation ledger and visual-evidence convention
+- **Implementation Ledger** — `docs/progress/implementation-ledger.md` — feature-by-feature status tracking
+
+No details beyond what is documented in this repository have been established.
