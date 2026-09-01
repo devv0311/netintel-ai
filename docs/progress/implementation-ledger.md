@@ -36,7 +36,8 @@ This is the authoritative, append-only record of feature-by-feature implementati
 | P1.5 | End-to-end demo contract (`docs/demo/demo-contract.md`) | Completed | Claude Code (AI) | `fea8622` | N/A | N/A — specification document; Copilot not implemented | No |
 | P1.6 | Evaluation specification (`docs/evaluation/evaluation-spec.md`) | Completed | Claude Code (AI) | `fea8622` | N/A | N/A — specification document; no evaluator implemented | No |
 | P2.0 | Master implementation blueprint (`docs/implementation-blueprint.md`) — milestones, task decomposition, schedule, delegation matrix, risk register | Completed | Claude Code (AI) | Pending (this commit) | N/A | N/A — planning document | No |
-| M1 | Technology Stack Selection & Environment Bootstrap | PLANNED | Unassigned | — | N/A | — | No |
+| P3.1 | Technology stack selection — ADR-001 (`docs/architecture/technology-stack.md`) and stack contract (`docs/architecture/stack-contract.md`) | Completed | Claude Code (AI) | Pending (this commit) | N/A | N/A — architecture decision record | No |
+| M1 | Technology Stack Selection & Environment Bootstrap | PARTIAL — stack selected (P3.1); environment bootstrap (project skeleton, Drizzle schema, Zod contract schemas, cached LLM client) still PLANNED | Unassigned | — | Required at completion | Required at completion | No |
 | M2 | Vertical Slice Walking Skeleton | PLANNED | Unassigned | — | Required at completion | Required at completion | No |
 | M3 | Synthetic Evidence at Full Scale (Workstream A) | PLANNED | Unassigned | — | Required at completion | Required at completion | No |
 | M4 | Ingestion & Extraction Hardening (Workstream B) | PLANNED | Unassigned | — | Required at completion | Required at completion | No |

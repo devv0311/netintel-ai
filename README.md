@@ -88,17 +88,32 @@ Each `docs/` subdirectory contains its own `README.md` explaining its purpose, c
 - **Evidence provenance must be retained.** Every piece of evidence must be traceable to its origin.
 - **Major features require visual evidence.** See `docs/progress/` for the visual-progress convention.
 
+## Technology Stack
+
+A single-runtime, local-first TypeScript application. Full rationale in [ADR-001](./docs/architecture/technology-stack.md); the definitive implementation baseline is the [stack contract](./docs/architecture/stack-contract.md).
+
+| Layer | Selection |
+| --- | --- |
+| Application | Next.js (App Router) + React + TypeScript, Tailwind CSS + shadcn/ui |
+| Backend | Next.js route handlers + typed pipeline modules (no agent framework) |
+| Data | SQLite (`better-sqlite3` + Drizzle); FTS5 for retrieval |
+| Graph | `graphology` in-memory + `sigma.js` for visualization |
+| AI | Claude API (remote inference), responses cached to disk for determinism |
+| Spatial / temporal | Leaflet + OpenStreetMap; `vis-timeline` |
+| Testing | Vitest + Playwright (Playwright also captures visual evidence) |
+| Local execution | `npm run dev` — no Docker required |
+
+Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker application services, and LLM agent frameworks — see [ADR-001 §10](./docs/architecture/technology-stack.md#technologiespatterns-we-are-not-using).
+
 ## Development Environment
 
-The development environment has been verified on the following baseline (informational only — this does not constitute an application technology-stack decision):
+Verified baseline:
 
-- macOS (Apple Silicon, arm64)
+- macOS (Apple Silicon, arm64), 18 GB RAM
 - Homebrew, Xcode Command Line Tools
 - Git and GitHub CLI, with active GitHub authentication
-- Python (latest) and Node.js (latest) toolchains available
-- Docker Desktop, operational
-
-The application technology stack (frontend, backend, database, AI/LLM provider, orchestration, etc.) has **not** been selected and will be determined in a later phase.
+- Node.js and Python toolchains available
+- Docker Desktop operational (installed, but not used by the selected stack)
 
 ## License
 
@@ -108,7 +123,7 @@ This project is licensed under the [MIT License](./LICENSE).
 
 The following areas will be developed as the project progresses:
 
-- **Architecture** — `docs/architecture/` — system design once the technology stack is selected
+- **Architecture** — `docs/architecture/` — [ADR-001 technology stack](./docs/architecture/technology-stack.md) and [stack contract](./docs/architecture/stack-contract.md) are complete; component-level system design follows
 - **Contracts** — `docs/contracts/` — interface and data contracts between components
 - **Data Specification** — `docs/data/` — synthetic dataset design and generation methodology
 - **Evaluation Methodology** — `docs/evaluation/` — how correctness and quality will be measured
