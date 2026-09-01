@@ -1,0 +1,1362 @@
+{
+  "aliasMap": [
+    {
+      "alias": "RM",
+      "entityKey": "S1"
+    },
+    {
+      "alias": "Bhai",
+      "entityKey": "S1"
+    },
+    {
+      "alias": "Silver Fox",
+      "entityKey": "S1"
+    },
+    {
+      "alias": "SilkFox",
+      "entityKey": "S1",
+      "note": "Owned by S1; operated by S3 on instruction (see W2 vs W9)."
+    },
+    {
+      "alias": "AV",
+      "entityKey": "S2"
+    },
+    {
+      "alias": "Didi",
+      "entityKey": "S2"
+    },
+    {
+      "alias": "KS",
+      "entityKey": "S3"
+    },
+    {
+      "alias": "Chhotu",
+      "entityKey": "S3"
+    },
+    {
+      "alias": "FQ",
+      "entityKey": "S4"
+    },
+    {
+      "alias": "Doctor",
+      "entityKey": "S4"
+    },
+    {
+      "alias": "VS",
+      "entityKey": "S5"
+    },
+    {
+      "alias": "Major",
+      "entityKey": "S5"
+    },
+    {
+      "alias": "NK",
+      "entityKey": "S6"
+    },
+    {
+      "alias": "Madam",
+      "entityKey": "S6"
+    },
+    {
+      "alias": "IS",
+      "entityKey": "S7"
+    },
+    {
+      "alias": "Chacha",
+      "entityKey": "S7"
+    },
+    {
+      "alias": "DY",
+      "entityKey": "S8"
+    },
+    {
+      "alias": "Guru",
+      "entityKey": "S8"
+    }
+  ],
+  "contradictions": [
+    {
+      "detail": "W3 places S5 at the Karol Bagh warehouse (CS-01); W7 gives an alibi of a wedding in Noida. CDR for S5's phone on SYN-CT-02 at ~22:05 supports W3. The contradiction must be surfaced, not silently resolved.",
+      "kind": "location_time",
+      "resolutionForbidden": true,
+      "sources": [
+        "witness:W3",
+        "witness:W7"
+      ],
+      "subject": "S5 (Vikram Singh, 'Major') whereabouts on 2025-07-19 ~22:00"
+    },
+    {
+      "detail": "FIR 3 records the vehicle as white; W5 describes it as silver.",
+      "kind": "attribute",
+      "resolutionForbidden": true,
+      "sources": [
+        "fir:003",
+        "witness:W5"
+      ],
+      "subject": "Colour of seized vehicle SYN-VEH-0004"
+    },
+    {
+      "detail": "W2 attributes 'SilkFox' to S1 (operated by S3 on instruction); W9 attributes it solely to S3. Both cannot be simple truths.",
+      "kind": "attribution",
+      "resolutionForbidden": true,
+      "sources": [
+        "witness:W2",
+        "witness:W9"
+      ],
+      "subject": "Owner of the darknet handle 'SilkFox'"
+    }
+  ],
+  "corpus": {
+    "name": "operation-darknet-delhi",
+    "seed": 20260901,
+    "version": "1.0.0"
+  },
+  "doNotMerge": [
+    {
+      "a": "S5 — Vikram Singh ('Major'), the accused enforcer",
+      "b": "W6 — Vikram Singh, an unrelated bystander witness",
+      "reason": "Identical common name; different individuals with no shared phone, account, or location."
+    }
+  ],
+  "expectedCommunities": [
+    {
+      "key": "vendor-cell",
+      "members": [
+        "S1",
+        "S3",
+        "S4",
+        "X1"
+      ]
+    },
+    {
+      "key": "logistics-courier-cell",
+      "members": [
+        "S2",
+        "S5",
+        "S7",
+        "S8",
+        "X1"
+      ]
+    },
+    {
+      "key": "laundering-cell",
+      "members": [
+        "S1",
+        "S6",
+        "M1",
+        "M2",
+        "M3"
+      ]
+    }
+  ],
+  "expectedCopilotAnswers": [
+    {
+      "expects": "All 8 primary suspects listed with the aliases in aliasMap.",
+      "question": 1
+    },
+    {
+      "boundEntities": [
+        "S3",
+        "S7"
+      ],
+      "expects": "No direct relationship between S3 (Kabir Sharma) and S7 (Imran Sheikh); they are connected only indirectly through X1 (Rahul Mehta), a shared phone contact.",
+      "question": 2
+    },
+    {
+      "boundEntities": [
+        "S1",
+        "S6"
+      ],
+      "expects": "Yes — S1 (Rohan Malhotra) to S6 (Neha Kapoor) via the mule chain SYN-AC-000001 -> SYN-MA-000001 -> SYN-MA-000002 -> SYN-MA-000003 -> SYN-SH-000001.",
+      "question": 3
+    },
+    {
+      "expects": "S5 near CS-01 at crime event C1 (P5 on SYN-CT-02 ~22:05, 2025-07-19); also S1 phone #2 and S4 co-active on SYN-CT-07 near CS-02 at C2 time.",
+      "question": 4
+    },
+    {
+      "expects": "Yes — W3 and W7 give contradictory accounts of S5's whereabouts on 2025-07-19 ~22:00 (warehouse vs. Noida wedding); report the contradiction, do not resolve it.",
+      "question": 5
+    },
+    {
+      "expects": "X1 (Rahul Mehta) has the highest betweenness — the only connector between the vendor and courier sub-cells; S1 has the highest overall reach via intermediaries.",
+      "question": 6
+    },
+    {
+      "boundEntities": [
+        "X1"
+      ],
+      "expects": "Yes — X1 (Rahul Mehta) is linked to more than one principal (S3 and S7) through recurring calls in the CDR data within the same hour on six days.",
+      "question": 7
+    },
+    {
+      "expects": "Case summary distinguishing corroborated facts (FIRs, matching CDRs) from AI inferences (the hidden S1-S4 link) and investigative leads (unverified noise relationships).",
+      "question": 8
+    }
+  ],
+  "expectedEntityMerges": [
+    {
+      "aliases": [
+        "RM",
+        "Bhai",
+        "Silver Fox",
+        "SilkFox"
+      ],
+      "canonicalLabel": "Rohan Malhotra",
+      "entityKey": "S1",
+      "sourceMentions": [
+        "subscriber-registry:suspect:S1",
+        "fir:001:accused",
+        "fir:002:accused",
+        "witness:W1",
+        "witness:W2",
+        "subscriber-registry:suspect:S1:var1",
+        "subscriber-registry:suspect:S1:var2",
+        "subscriber-registry:suspect:S1:var3"
+      ]
+    },
+    {
+      "aliases": [
+        "AV",
+        "Didi"
+      ],
+      "canonicalLabel": "Anjali Verma",
+      "entityKey": "S2",
+      "sourceMentions": [
+        "subscriber-registry:suspect:S2",
+        "fir:003:accused",
+        "fir:005:accused",
+        "witness:W4"
+      ]
+    },
+    {
+      "aliases": [
+        "KS",
+        "Chhotu"
+      ],
+      "canonicalLabel": "Kabir Sharma",
+      "entityKey": "S3",
+      "sourceMentions": [
+        "subscriber-registry:suspect:S3",
+        "fir:001:accused",
+        "witness:W2",
+        "witness:W9",
+        "subscriber-registry:suspect:S3:var1",
+        "subscriber-registry:suspect:S3:var2"
+      ]
+    },
+    {
+      "aliases": [
+        "FQ",
+        "Doctor"
+      ],
+      "canonicalLabel": "Farhan Qureshi",
+      "entityKey": "S4",
+      "sourceMentions": [
+        "subscriber-registry:suspect:S4",
+        "fir:004:accused",
+        "witness:W10"
+      ]
+    },
+    {
+      "aliases": [
+        "VS",
+        "Major"
+      ],
+      "canonicalLabel": "Vikram Singh",
+      "entityKey": "S5",
+      "sourceMentions": [
+        "subscriber-registry:suspect:S5",
+        "fir:003:accused",
+        "witness:W3",
+        "witness:W5",
+        "witness:W7"
+      ]
+    },
+    {
+      "aliases": [
+        "NK",
+        "Madam"
+      ],
+      "canonicalLabel": "Neha Kapoor",
+      "entityKey": "S6",
+      "sourceMentions": [
+        "subscriber-registry:suspect:S6",
+        "fir:002:accused",
+        "witness:W4",
+        "subscriber-registry:suspect:S6:var1",
+        "subscriber-registry:suspect:S6:var2"
+      ]
+    },
+    {
+      "aliases": [
+        "IS",
+        "Chacha"
+      ],
+      "canonicalLabel": "Imran Sheikh",
+      "entityKey": "S7",
+      "sourceMentions": [
+        "subscriber-registry:suspect:S7",
+        "fir:004:accused",
+        "fir:005:accused",
+        "witness:W8",
+        "witness:W10"
+      ]
+    },
+    {
+      "aliases": [
+        "DY",
+        "Guru"
+      ],
+      "canonicalLabel": "Deepak Yadav",
+      "entityKey": "S8",
+      "sourceMentions": [
+        "subscriber-registry:suspect:S8",
+        "fir:005:accused"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonicalLabel": "Sunil Gupta",
+      "entityKey": "M1",
+      "sourceMentions": [
+        "subscriber-registry:phone:M1:0",
+        "subscriber-registry:account:SYN-MA-000001"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonicalLabel": "Pooja Rani",
+      "entityKey": "M2",
+      "sourceMentions": [
+        "subscriber-registry:phone:M2:0",
+        "subscriber-registry:account:SYN-MA-000002"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonicalLabel": "Ashok Kumar",
+      "entityKey": "M3",
+      "sourceMentions": [
+        "subscriber-registry:phone:M3:0",
+        "subscriber-registry:account:SYN-MA-000003"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonicalLabel": "Rahul Mehta",
+      "entityKey": "X1",
+      "sourceMentions": [
+        "subscriber-registry:phone:X1:0",
+        "witness:W8"
+      ]
+    }
+  ],
+  "expectedRelationships": [
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S1",
+      "targetKey": "S2"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S1",
+      "targetKey": "S3"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S1",
+      "targetKey": "S6"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S1",
+      "targetKey": "M1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S2",
+      "targetKey": "S3"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S2",
+      "targetKey": "S5"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S2",
+      "targetKey": "S6"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S2",
+      "targetKey": "S7"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S3",
+      "targetKey": "S4"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S3",
+      "targetKey": "X1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S4",
+      "targetKey": "M3"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S5",
+      "targetKey": "S7"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S6",
+      "targetKey": "M1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S7",
+      "targetKey": "S8"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S7",
+      "targetKey": "X1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S8",
+      "targetKey": "M2"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "M1",
+      "targetKey": "M2"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "M2",
+      "targetKey": "M3"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S1",
+      "targetKey": "S2"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S3",
+      "targetKey": "S2"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "communication",
+      "sourceKey": "S4",
+      "targetKey": "S7"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "noise",
+      "relationshipType": "communication",
+      "sourceKey": "S2",
+      "targetKey": "S8"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "noise",
+      "relationshipType": "communication",
+      "sourceKey": "S7",
+      "targetKey": "PN1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "noise",
+      "relationshipType": "communication",
+      "sourceKey": "S4",
+      "targetKey": "PN2"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "cdr-dataset"
+      ],
+      "explicit": true,
+      "materiality": "noise",
+      "relationshipType": "communication",
+      "sourceKey": "S5",
+      "targetKey": "PN3"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S3",
+      "targetKey": "S1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S1",
+      "targetKey": "S2"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S2",
+      "targetKey": "S5"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S2",
+      "targetKey": "S7"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S7",
+      "targetKey": "S8"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S8",
+      "targetKey": "S4"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S1",
+      "targetKey": "M1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "M1",
+      "targetKey": "M2"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "M2",
+      "targetKey": "M3"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "M3",
+      "targetKey": "S6"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "M3",
+      "targetKey": "S4"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S6",
+      "targetKey": "S1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S6",
+      "targetKey": "M1"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "material",
+      "relationshipType": "financial",
+      "sourceKey": "S1",
+      "targetKey": "S6"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "noise",
+      "relationshipType": "financial",
+      "sourceKey": "S2",
+      "targetKey": "S8"
+    },
+    {
+      "classification": "observed_fact",
+      "evidenceRefs": [
+        "financial-ledger"
+      ],
+      "explicit": true,
+      "materiality": "noise",
+      "relationshipType": "financial",
+      "sourceKey": "S5",
+      "targetKey": "S8"
+    },
+    {
+      "classification": "ai_inference",
+      "evidenceRefs": [
+        "mule chain + CT-07 co-location"
+      ],
+      "explicit": false,
+      "materiality": "material",
+      "relationshipType": "associate",
+      "sourceKey": "S1",
+      "targetKey": "S4"
+    },
+    {
+      "classification": "ai_inference",
+      "evidenceRefs": [
+        "X1 (Rahul Mehta) shared phone contact"
+      ],
+      "explicit": false,
+      "materiality": "material",
+      "relationshipType": "associate",
+      "sourceKey": "S3",
+      "targetKey": "S7"
+    },
+    {
+      "classification": "ai_inference",
+      "evidenceRefs": [
+        "SYN-MA-000001/2/3 (mules M1–M3)"
+      ],
+      "explicit": false,
+      "materiality": "material",
+      "relationshipType": "associate",
+      "sourceKey": "S1",
+      "targetKey": "S6"
+    }
+  ],
+  "expectedSignals": [
+    {
+      "entityKey": "X1",
+      "rationale": "Sole connector between the vendor and courier sub-cells.",
+      "signal": "highest_betweenness_centrality"
+    },
+    {
+      "entityKey": "S1",
+      "rationale": "Reaches every sub-cell, though only through intermediaries.",
+      "signal": "highest_overall_influence"
+    },
+    {
+      "entityKey": "M2",
+      "rationale": "Middle hop of the four-hop laundering chain.",
+      "signal": "high_betweenness_on_fund_graph"
+    }
+  ],
+  "hiddenConnections": [
+    {
+      "between": [
+        "S1",
+        "S4"
+      ],
+      "evidenceChain": [
+        "financial: SYN-AC-000001 (S1) → SYN-MA-000001 (M1) → SYN-MA-000002 (M2) → SYN-MA-000003 (M3)",
+        "financial: SYN-MA-000003 (M3) → SYN-AC-000004 (S4) operational payments",
+        "cdr: S1 phone #2 and S4 phone co-active on SYN-CT-07 within 2025-08-14T23:05Z–23:35Z",
+        "crime: SYN-CT-07 covers CS-02, the site of lab raid C2"
+      ],
+      "reason": "The financier (S1) and the chemist (S4) are operationally linked but insulated: money reaches S4 only after laundering (S1→M1→M2→M3, then M3→S4), and the only presence link is the SYN-CT-07 co-activation on 2025-08-14.",
+      "recoverableBy": [
+        "transaction-path-analysis",
+        "temporal-spatial-cdr-correlation"
+      ]
+    }
+  ],
+  "intendedConclusions": [
+    "S1 (Rohan Malhotra) is the organising principal and financier; his link to the chemistry side (S4) exists only via the laundering chain and the SYN-CT-07 co-location — there is no direct contact anywhere in the corpus.",
+    "The laundering route is SYN-AC-000001 -> SYN-MA-000001 -> SYN-MA-000002 -> SYN-MA-000003 -> SYN-SH-000001, moved in tranches beneath a reporting threshold.",
+    "X1 (Rahul Mehta) is a non-suspect communication intermediary and the sole bridge between the vendor sub-cell (S1/S3/S4) and the courier sub-cell (S2/S5/S7/S8).",
+    "W7's alibi for S5 is contradicted by W3 and by S5's CDR on SYN-CT-02 at ~22:05 on 2025-07-19; the contradiction must be reported, not resolved.",
+    "S2<->S8 and S5<->S8 low-value transfers, and S4/S7 calls to service numbers, are immaterial noise and must not be weighted as case relationships."
+  ],
+  "keyActors": {
+    "intermediaries": [
+      {
+        "accounts": [
+          "SYN-MA-000001"
+        ],
+        "key": "M1",
+        "name": "Sunil Gupta",
+        "phones": [
+          "+99 70 000 0011"
+        ],
+        "role": "money_mule"
+      },
+      {
+        "accounts": [
+          "SYN-MA-000002"
+        ],
+        "key": "M2",
+        "name": "Pooja Rani",
+        "phones": [
+          "+99 70 000 0012"
+        ],
+        "role": "money_mule"
+      },
+      {
+        "accounts": [
+          "SYN-MA-000003"
+        ],
+        "key": "M3",
+        "name": "Ashok Kumar",
+        "phones": [
+          "+99 70 000 0013"
+        ],
+        "role": "money_mule"
+      },
+      {
+        "accounts": [],
+        "key": "X1",
+        "name": "Rahul Mehta",
+        "phones": [
+          "+99 70 000 0014"
+        ],
+        "role": "communication_intermediary"
+      }
+    ],
+    "principalSuspects": [
+      {
+        "accounts": [
+          "SYN-AC-000001"
+        ],
+        "aliases": [
+          "RM",
+          "Bhai",
+          "Silver Fox",
+          "SilkFox"
+        ],
+        "canonicalName": "Rohan Malhotra",
+        "key": "S1",
+        "phones": [
+          "+99 70 000 0001",
+          "+99 70 000 0002"
+        ],
+        "role": "Organising principal / financier of the BlackBazaar-DEL marketplace",
+        "vehicles": [
+          "SYN-VEH-0001"
+        ]
+      },
+      {
+        "accounts": [
+          "SYN-AC-000002"
+        ],
+        "aliases": [
+          "AV",
+          "Didi"
+        ],
+        "canonicalName": "Anjali Verma",
+        "key": "S2",
+        "phones": [
+          "+99 70 000 0003"
+        ],
+        "role": "Logistics coordinator",
+        "vehicles": []
+      },
+      {
+        "accounts": [
+          "SYN-AC-000003"
+        ],
+        "aliases": [
+          "KS",
+          "Chhotu"
+        ],
+        "canonicalName": "Kabir Sharma",
+        "key": "S3",
+        "phones": [
+          "+99 70 000 0004",
+          "+99 70 000 0005"
+        ],
+        "role": "Darknet vendor / marketplace listings operator",
+        "vehicles": []
+      },
+      {
+        "accounts": [
+          "SYN-AC-000004"
+        ],
+        "aliases": [
+          "FQ",
+          "Doctor"
+        ],
+        "canonicalName": "Farhan Qureshi",
+        "key": "S4",
+        "phones": [
+          "+99 70 000 0006"
+        ],
+        "role": "Chemist / production",
+        "vehicles": []
+      },
+      {
+        "accounts": [
+          "SYN-AC-000005"
+        ],
+        "aliases": [
+          "VS",
+          "Major"
+        ],
+        "canonicalName": "Vikram Singh",
+        "key": "S5",
+        "phones": [
+          "+99 70 000 0007"
+        ],
+        "role": "Enforcement",
+        "vehicles": [
+          "SYN-VEH-0002"
+        ]
+      },
+      {
+        "accounts": [
+          "SYN-AC-000006",
+          "SYN-SH-000001"
+        ],
+        "aliases": [
+          "NK",
+          "Madam"
+        ],
+        "canonicalName": "Neha Kapoor",
+        "key": "S6",
+        "phones": [
+          "+99 70 000 0008"
+        ],
+        "role": "Front-business owner (Kapoor Trading (Synthetic) Pvt Ltd) / laundering",
+        "vehicles": []
+      },
+      {
+        "accounts": [
+          "SYN-AC-000007"
+        ],
+        "aliases": [
+          "IS",
+          "Chacha"
+        ],
+        "canonicalName": "Imran Sheikh",
+        "key": "S7",
+        "phones": [
+          "+99 70 000 0009"
+        ],
+        "role": "Courier network lead",
+        "vehicles": [
+          "SYN-VEH-0003"
+        ]
+      },
+      {
+        "accounts": [
+          "SYN-AC-000008"
+        ],
+        "aliases": [
+          "DY",
+          "Guru"
+        ],
+        "canonicalName": "Deepak Yadav",
+        "key": "S8",
+        "phones": [
+          "+99 70 000 0010"
+        ],
+        "role": "Hawala / informal-value-transfer operator",
+        "vehicles": []
+      }
+    ]
+  },
+  "misleadingRelationships": [
+    {
+      "between": [
+        "S2",
+        "S8"
+      ],
+      "detail": "Six transfers of ₹200–₹500 — shared personal expenses, not case funds.",
+      "key": "MR-S2-S8-transfers",
+      "materiality": "noise",
+      "type": "financial"
+    },
+    {
+      "between": [
+        "S5",
+        "S8"
+      ],
+      "detail": "Four transfers of ₹150–₹400 — immaterial.",
+      "key": "MR-S5-S8-transfers",
+      "materiality": "noise",
+      "type": "financial"
+    },
+    {
+      "between": [
+        "S7",
+        "PN1 (food delivery)"
+      ],
+      "detail": "Repeated calls to a food-delivery hotline.",
+      "key": "MR-S7-PN1",
+      "materiality": "noise",
+      "type": "communication"
+    },
+    {
+      "between": [
+        "S4",
+        "PN2 (dental clinic)"
+      ],
+      "detail": "Calls to a dental clinic.",
+      "key": "MR-S4-PN2",
+      "materiality": "noise",
+      "type": "communication"
+    },
+    {
+      "between": [
+        "S5",
+        "PN3 (radio cab)"
+      ],
+      "detail": "Calls to a cab dispatch line.",
+      "key": "MR-S5-PN3",
+      "materiality": "noise",
+      "type": "communication"
+    }
+  ],
+  "moneyMulePaths": [
+    {
+      "approxTotalRouted": 1757930,
+      "holders": [
+        "S1",
+        "M1",
+        "M2",
+        "M3",
+        "S6"
+      ],
+      "pathAccounts": [
+        "SYN-AC-000001",
+        "SYN-MA-000001",
+        "SYN-MA-000002",
+        "SYN-MA-000003",
+        "SYN-SH-000001"
+      ],
+      "txnRefs": [
+        "SYN-TXN-00000254",
+        "SYN-TXN-00000255",
+        "SYN-TXN-00000256",
+        "SYN-TXN-00000257",
+        "SYN-TXN-00000258",
+        "SYN-TXN-00000259",
+        "SYN-TXN-00000260",
+        "SYN-TXN-00000261",
+        "SYN-TXN-00000262",
+        "SYN-TXN-00000263",
+        "SYN-TXN-00000264",
+        "SYN-TXN-00000265",
+        "SYN-TXN-00000266",
+        "SYN-TXN-00000267",
+        "SYN-TXN-00000268",
+        "SYN-TXN-00000269",
+        "SYN-TXN-00000270",
+        "SYN-TXN-00000271",
+        "SYN-TXN-00000272",
+        "SYN-TXN-00000273",
+        "SYN-TXN-00000274",
+        "SYN-TXN-00000275",
+        "SYN-TXN-00000276",
+        "SYN-TXN-00000277",
+        "SYN-TXN-00000278",
+        "SYN-TXN-00000279",
+        "SYN-TXN-00000280",
+        "SYN-TXN-00000281",
+        "SYN-TXN-00000282",
+        "SYN-TXN-00000283",
+        "SYN-TXN-00000284",
+        "SYN-TXN-00000285",
+        "SYN-TXN-00000286",
+        "SYN-TXN-00000287",
+        "SYN-TXN-00000288",
+        "SYN-TXN-00000289",
+        "SYN-TXN-00000290",
+        "SYN-TXN-00000291",
+        "SYN-TXN-00000292",
+        "SYN-TXN-00000293",
+        "SYN-TXN-00000294",
+        "SYN-TXN-00000295",
+        "SYN-TXN-00000296",
+        "SYN-TXN-00000297",
+        "SYN-TXN-00000298",
+        "SYN-TXN-00000299",
+        "SYN-TXN-00000300",
+        "SYN-TXN-00000301",
+        "SYN-TXN-00000302",
+        "SYN-TXN-00000303",
+        "SYN-TXN-00000304",
+        "SYN-TXN-00000305",
+        "SYN-TXN-00000306",
+        "SYN-TXN-00000307",
+        "SYN-TXN-00000308",
+        "SYN-TXN-00000309",
+        "SYN-TXN-00000310",
+        "SYN-TXN-00000311",
+        "SYN-TXN-00000312",
+        "SYN-TXN-00000313",
+        "SYN-TXN-00000314",
+        "SYN-TXN-00000315",
+        "SYN-TXN-00000316",
+        "SYN-TXN-00000317",
+        "SYN-TXN-00000318",
+        "SYN-TXN-00000319",
+        "SYN-TXN-00000320",
+        "SYN-TXN-00000321",
+        "SYN-TXN-00000322",
+        "SYN-TXN-00000323",
+        "SYN-TXN-00000324",
+        "SYN-TXN-00000325",
+        "SYN-TXN-00000326",
+        "SYN-TXN-00000327",
+        "SYN-TXN-00000328",
+        "SYN-TXN-00000329",
+        "SYN-TXN-00000330",
+        "SYN-TXN-00000331",
+        "SYN-TXN-00000332",
+        "SYN-TXN-00000333",
+        "SYN-TXN-00000334",
+        "SYN-TXN-00000335",
+        "SYN-TXN-00000336",
+        "SYN-TXN-00000337",
+        "SYN-TXN-00000338",
+        "SYN-TXN-00000339",
+        "SYN-TXN-00000340",
+        "SYN-TXN-00000341",
+        "SYN-TXN-00000342",
+        "SYN-TXN-00000343",
+        "SYN-TXN-00000344",
+        "SYN-TXN-00000345",
+        "SYN-TXN-00000346",
+        "SYN-TXN-00000347",
+        "SYN-TXN-00000348",
+        "SYN-TXN-00000349",
+        "SYN-TXN-00000350",
+        "SYN-TXN-00000351",
+        "SYN-TXN-00000352",
+        "SYN-TXN-00000353",
+        "SYN-TXN-00000354",
+        "SYN-TXN-00000355",
+        "SYN-TXN-00000356",
+        "SYN-TXN-00000357",
+        "SYN-TXN-00000358",
+        "SYN-TXN-00000359",
+        "SYN-TXN-00000360",
+        "SYN-TXN-00000361",
+        "SYN-TXN-00000362",
+        "SYN-TXN-00000363",
+        "SYN-TXN-00000364",
+        "SYN-TXN-00000365",
+        "SYN-TXN-00000366",
+        "SYN-TXN-00000367",
+        "SYN-TXN-00000368",
+        "SYN-TXN-00000369",
+        "SYN-TXN-00000370",
+        "SYN-TXN-00000371",
+        "SYN-TXN-00000372",
+        "SYN-TXN-00000373",
+        "SYN-TXN-00000374",
+        "SYN-TXN-00000375",
+        "SYN-TXN-00000376",
+        "SYN-TXN-00000377",
+        "SYN-TXN-00000378",
+        "SYN-TXN-00000379",
+        "SYN-TXN-00000380",
+        "SYN-TXN-00000381",
+        "SYN-TXN-00000382",
+        "SYN-TXN-00000383",
+        "SYN-TXN-00000384",
+        "SYN-TXN-00000385",
+        "SYN-TXN-00000386",
+        "SYN-TXN-00000387",
+        "SYN-TXN-00000388",
+        "SYN-TXN-00000389",
+        "SYN-TXN-00000390",
+        "SYN-TXN-00000391",
+        "SYN-TXN-00000392",
+        "SYN-TXN-00000393",
+        "SYN-TXN-00000394",
+        "SYN-TXN-00000395",
+        "SYN-TXN-00000396",
+        "SYN-TXN-00000397",
+        "SYN-TXN-00000398"
+      ]
+    }
+  ],
+  "spatialCorrelations": [
+    {
+      "at": "2025-08-14T23:05:00.000Z",
+      "basis": "S1 phone #2 and S4 phone co-active on SYN-CT-07 (covers CS-02).",
+      "entities": [
+        "S1",
+        "S4"
+      ],
+      "locationKey": "SYN-CT-07"
+    },
+    {
+      "at": "2025-07-19T22:05:00.000Z",
+      "basis": "S5 phone on the tower nearest CS-01 at crime event C1 — corroborates W3.",
+      "entities": [
+        "S5"
+      ],
+      "locationKey": "SYN-CT-02"
+    },
+    {
+      "at": "2025-08-02T09:30:00.000Z",
+      "basis": "S2 and S6 co-active near the Kapoor Trading front office (W4).",
+      "entities": [
+        "S2",
+        "S6"
+      ],
+      "locationKey": "SYN-CT-05"
+    }
+  ],
+  "temporalCorrelations": [
+    {
+      "cellTower": "SYN-CT-07",
+      "key": "TC-hidden-S1-S4",
+      "meaning": "S1's second phone and S4's phone are co-active on the tower covering the future lab-raid site — the only direct-presence link between the financier and the chemist.",
+      "phones": [
+        "+99 70 000 0002",
+        "+99 70 000 0006"
+      ],
+      "windowEnd": "2025-08-14T23:35:00.000Z",
+      "windowStart": "2025-08-14T23:05:00.000Z"
+    },
+    {
+      "cellTower": "SYN-CT-04",
+      "key": "TC-S3-S7-via-X1",
+      "meaning": "On six separate days S3 and S7 each call X1 within the same hour — the recurring bridge between the vendor and courier sub-cells.",
+      "phones": [
+        "+99 70 000 0004",
+        "+99 70 000 0009"
+      ],
+      "windowEnd": "2025-08-20T11:00:00.000Z",
+      "windowStart": "2025-07-05T10:00:00.000Z"
+    },
+    {
+      "cellTower": "SYN-CT-02",
+      "key": "TC-S5-C1",
+      "meaning": "S5's phone on the tower nearest CS-01 at the time of crime event C1 — corroborates W3, contradicts W7.",
+      "phones": [
+        "+99 70 000 0007"
+      ],
+      "windowEnd": "2025-07-19T22:20:00.000Z",
+      "windowStart": "2025-07-19T21:50:00.000Z"
+    },
+    {
+      "cellTower": "SYN-CT-05",
+      "key": "TC-S2-S6-handoff",
+      "meaning": "S2 and S6 co-active near the Kapoor Trading front office during the paperwork handoff W4 describes.",
+      "phones": [
+        "+99 70 000 0003",
+        "+99 70 000 0008"
+      ],
+      "windowEnd": "2025-08-02T10:00:00.000Z",
+      "windowStart": "2025-08-02T09:15:00.000Z"
+    }
+  ]
+}

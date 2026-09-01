@@ -13,12 +13,27 @@ This directory will hold the specification for the synthetic investigative datas
 
 ## Current Status
 
-**Empty.** The synthetic dataset has not yet been designed or generated. This repository is currently in the pre-setup / foundation phase.
+**Generated (P5.1).** The Operation DarkNet Delhi corpus now exists:
 
-## What Must NOT Be Prematurely Decided
+- `synthetic-investigation-spec.md` — the case specification (design intent).
+- `ground-truth-spec.md` — the ground-truth specification.
+- `corpus.md` — the generated corpus: version `1.0.0`, seed `20260901`,
+  1,820 evidence items (5 FIRs, 8 suspects, 1,150 CDRs, 560 transactions,
+  10 witness statements, 4 crime events, plus registry/location records),
+  and the held-out ground truth. Deterministic — rebuild with
+  `npm run corpus:generate`.
 
-- The specific synthetic scenario, storyline, or case details
-- Any data that resembles, references, or is derived from real FIRs, CDRs, bank records, Aadhaar information, real phone numbers, real financial identifiers, or any other real investigative or classified data — **this is prohibited at every phase, not just this one**
-- The tooling used to generate synthetic data
+The corpus data lives under `evidence/synthetic/` and
+`evidence/ground-truth/`; the generator is `src/lib/corpus/`.
 
-Dataset generation is explicitly out of scope for this pre-setup phase and belongs to a later, dedicated phase.
+Still **not** built here: any pipeline stage (extraction, entity
+resolution, graph synthesis, analytics, corroboration, Copilot,
+reporting).
+
+## Invariants (prohibited at every phase)
+
+- No data that resembles, references, or is derived from real FIRs, CDRs,
+  bank records, Aadhaar information, real phone numbers, real financial
+  identifiers, or any other real investigative or classified data. The
+  corpus uses the unassigned `+99` country code and explicit `SYN-` /
+  `ODD/SYN/` markers throughout.

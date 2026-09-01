@@ -13,7 +13,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "corpus:generate": "node --import ./scripts/ts-resolve.mjs scripts/generate-corpus.ts"
   },
   "dependencies": {
     "next": "16.3.4",
