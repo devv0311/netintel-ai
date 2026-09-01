@@ -15,19 +15,20 @@ This is the authoritative, append-only record of feature-by-feature implementati
 
 | ID | Feature | Status | Owner/AI | Git Commit | Visual Proof | Test | Demo Ready |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| P0.1 | Mac environment verification (macOS, Apple Silicon, resources) | Completed | Human (devv) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.2 | Xcode Command Line Tools installed | Completed | Human (devv) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.3 | Homebrew installed | Completed | Human (devv) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.4 | Baseline development utilities / Docker verified | Completed | Human (devv) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.5 | Canonical public GitHub repository created (`devv0311/netintel-ai`) | Completed | Human (devv) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.6 | Repository directory structure established | Completed | Human (devv) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.7 | `.gitignore` populated | Completed | Claude Code (AI) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.8 | `.env.example` populated | Completed | Claude Code (AI) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.9 | `README.md` populated | Completed | Claude Code (AI) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.10 | `LICENSE` established (MIT) | Completed | Claude Code (AI) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.11 | Governance documentation created (`docs/*/README.md`) | Completed | Claude Code (AI) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.12 | Implementation ledger created (this document) | Completed | Claude Code (AI) | Pending (repository foundation commit) | N/A | N/A | No |
-| P0.13 | Progress evidence convention documented | Completed | Claude Code (AI) | Pending (repository foundation commit) | N/A | N/A | No |
+| P0.1 | Mac environment verification (macOS, Apple Silicon, resources) | Completed | Human (devv) | `df66560` | N/A | N/A | No |
+| P0.2 | Xcode Command Line Tools installed | Completed | Human (devv) | `df66560` | N/A | N/A | No |
+| P0.3 | Homebrew installed | Completed | Human (devv) | `df66560` | N/A | N/A | No |
+| P0.4 | Baseline development utilities / Docker verified | Completed | Human (devv) | `df66560` | N/A | N/A | No |
+| P0.5 | Canonical public GitHub repository created (`devv0311/netintel-ai`) | Completed | Human (devv) | `df66560` | N/A | N/A | No |
+| P0.6 | Repository directory structure established | Completed | Human (devv) | `df66560` | N/A | N/A | No |
+| P0.7 | `.gitignore` populated | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
+| P0.8 | `.env.example` populated | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
+| P0.9 | `README.md` populated | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
+| P0.10 | `LICENSE` established (MIT) | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
+| P0.11 | Governance documentation created (`docs/*/README.md`) | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
+| P0.12 | Implementation ledger created (this document) | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
+| P0.13 | Progress evidence convention documented | Completed | Claude Code (AI) | `df66560` | N/A | N/A | No |
+| P0.18 | GitHub repository governance (branch protection on `master`: block force-push, block deletion; Dependabot vulnerability alerts enabled; `docs/repository-governance.md` authored) | Completed | Claude Code (AI) | Pending (this commit) | N/A | Validated via `gh api` branch-protection and security settings checks | No |
 
 Rows for P0.14–P0.17 (secret validation, repository validation, initial commit, GitHub synchronization) are process steps rather than tracked features and are not entered as ledger rows; their outcomes are reported in the task completion summary.
 
