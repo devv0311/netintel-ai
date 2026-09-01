@@ -43,6 +43,34 @@ import {
  * throws too, rather than being handed to a caller unchecked.
  */
 
+// --- app_meta (small key/value store, created in P4.1) ---------------
+
+/**
+ * Reads a single `app_meta` value, or null if the key is unset. Used by
+ * the ingestion layer to record a completion marker per corpus version
+ * (src/lib/ingestion/marker.ts) — never for domain evidence.
+ */
+export async function getAppMeta(key: string): Promise<string | null> {
+  const db = getDb();
+  const rows = await db
+    .select()
+    .from(schema.appMeta)
+    .where(eq(schema.appMeta.key, key));
+  return rows[0]?.value ?? null;
+}
+
+/** Upserts a single `app_meta` value. */
+export async function setAppMeta(key: string, value: string): Promise<void> {
+  const db = getDb();
+  await db
+    .insert(schema.appMeta)
+    .values({ key, value, updatedAt: new Date() })
+    .onConflictDoUpdate({
+      target: schema.appMeta.key,
+      set: { value, updatedAt: new Date() },
+    });
+}
+
 function provenanceToColumns(p: Provenance) {
   return {
     provenanceSource: p.source,

@@ -10,7 +10,7 @@
 Status: Early Implementation
 ```
 
-The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap (P4.1) and the domain/data foundation (P4.2) — typed domain models, deterministic IDs, executable provenance, a migrated SQLite schema, and a validated fixture-loading boundary — are in place. The full synthetic investigation corpus (P5.1) — Operation DarkNet Delhi, generated deterministically from a fixed version/seed: 5 FIRs, 8 suspects, 1,150 CDRs, 560 transactions and supporting records, with a held-out ground-truth answer key kept isolated from the evidence path (`docs/data/corpus.md`) — now exists under `evidence/`. Evidence ingestion, extraction, entity resolution, graph synthesis, analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
+The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap (P4.1) and the domain/data foundation (P4.2) — typed domain models, deterministic IDs, executable provenance, a migrated SQLite schema, and a validated fixture-loading boundary — are in place. The full synthetic investigation corpus (P5.1) — Operation DarkNet Delhi, generated deterministically from a fixed version/seed: 5 FIRs, 8 suspects, 1,150 CDRs, 560 transactions and supporting records, with a held-out ground-truth answer key kept isolated from the evidence path (`docs/data/corpus.md`) — exists under `evidence/`. The **evidence ingestion workflow** (P5.2) is implemented: a real, streamed, 8-stage pipeline (validate → normalize → assign deterministic IDs → attach provenance → persist) that loads the corpus into the application and shows the investigation loaded with its evidence summary; deterministic and idempotent (`docs/data/ingestion.md`). Extraction, entity resolution, graph synthesis, analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
 
 ## ⚠️ Important Disclaimer
 
@@ -119,7 +119,7 @@ Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker for appli
 
 ## Getting Started
 
-**Status**: the application foundation (P4.1) and domain/data foundation (P4.2) are in place — a running shell with no investigation loaded, a migrated SQLite schema for the domain model, and a validated synthetic-fixture loading boundary, per the intended demonstration flow above. Pipeline stages (ingestion, extraction, entity resolution, graph synthesis, analytics, corroboration, Copilot, reporting) are not implemented yet.
+**Status**: the application foundation (P4.1), domain/data foundation (P4.2), the synthetic corpus (P5.1) and the **evidence ingestion workflow** (P5.2) are in place. You can load the Operation DarkNet Delhi synthetic corpus into the application through a real ingestion pipeline and see the investigation loaded with its evidence summary. Extraction, entity resolution, graph synthesis, analytics, corroboration, the Copilot, and reporting are later milestones.
 
 Requirements: Node.js 26.8.1+ (provides the built-in `node:sqlite` module). No Docker required.
 
@@ -128,6 +128,20 @@ npm install
 cp .env.example .env   # optional — the app runs with no AI_PROVIDER_API_KEY set
 npm run dev            # http://localhost:3000
 ```
+
+### Demo workflow
+
+```text
+start the app  →  open http://localhost:3000
+→  "Start ingestion"  (loads the Operation DarkNet Delhi synthetic corpus)
+→  watch the 8 real ingestion stages
+→  investigation loaded: 6 sources · 1,820 evidence items · 1,150 communications ·
+   560 financial transactions · 14 locations
+→  reload / "Re-run ingestion"  →  state persists, re-ingestion is idempotent
+```
+
+Ingestion is fully local and deterministic (one SQLite file, one JSON corpus,
+no Anthropic call, no Docker). Details: `docs/data/ingestion.md`.
 
 Other scripts:
 
