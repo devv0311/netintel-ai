@@ -1,0 +1,50 @@
+{
+  "investigation": {
+    "name": "Foundation Smoke Fixture — not a real investigation",
+    "status": "in_progress"
+  },
+  "evidenceSource": {
+    "sourceType": "document",
+    "label": "Fixture Source — foundation test only, not Operation DarkNet Delhi"
+  },
+  "evidenceItems": [
+    {
+      "itemType": "suspect_record",
+      "content": { "name": "Fixture Suspect A", "note": "entirely fictional" }
+    },
+    {
+      "itemType": "suspect_record",
+      "content": { "name": "Fixture Suspect B", "note": "entirely fictional" }
+    },
+    {
+      "itemType": "alias_record",
+      "content": { "entityLabel": "Fixture Suspect A", "alias": "The Ghost" }
+    }
+  ],
+  "entities": [
+    {
+      "kind": "person",
+      "canonicalLabel": "Fixture Suspect A",
+      "attributes": { "note": "entirely fictional" }
+    },
+    {
+      "kind": "person",
+      "canonicalLabel": "Fixture Suspect B",
+      "attributes": { "note": "entirely fictional" }
+    }
+  ],
+  "aliases": [
+    {
+      "entityLabel": "Fixture Suspect A",
+      "aliasValue": "The Ghost"
+    }
+  ],
+  "relationships": [
+    {
+      "sourceEntityLabel": "Fixture Suspect A",
+      "targetEntityLabel": "Fixture Suspect B",
+      "relationshipType": "associate",
+      "classification": "investigative_lead"
+    }
+  ]
+}

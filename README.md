@@ -10,7 +10,7 @@
 Status: Early Implementation
 ```
 
-The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap — a running Next.js shell with no pipeline stage implemented yet — is in place (P4.1). Evidence ingestion, extraction, entity resolution, graph synthesis, analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
+The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap (P4.1) and the domain/data foundation (P4.2) — typed domain models, deterministic IDs, executable provenance, a migrated SQLite schema, and a validated fixture-loading boundary, all with no pipeline stage running yet — are in place. Evidence ingestion, extraction, entity resolution, graph synthesis, analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
 
 ## ⚠️ Important Disclaimer
 
@@ -66,14 +66,17 @@ netintel-ai/
 │   └── progress/                  # Implementation ledger and visual-progress evidence
 ├── evidence/               # Synthetic evidence artifacts used by the demo
 │   ├── ground-truth/         # Known-correct answers for synthetic scenarios
+│   │   └── fixtures/           # Small ground-truth fixtures for testing (not the full dataset)
 │   └── synthetic/              # Generated synthetic evidence (documents, records, etc.)
+│       └── fixtures/             # Small synthetic fixtures for testing (not Operation DarkNet Delhi)
 ├── evaluation/             # Evaluation scripts and results
 ├── scripts/                # Utility and automation scripts
 ├── src/                    # Application source (Next.js App Router)
 │   ├── app/                  # Routes, layout, global styles
 │   ├── components/            # UI — components/ui (shadcn primitives), components/shell (app shell)
-│   ├── lib/                     # ai/, db/, env, graph/, pipeline/, provenance/, utils
-│   └── types/                    # Shared domain types
+│   └── lib/                     # ai/, db/ (schema + validated repository), domain/ (typed domain
+│                                   models), env, fixtures/ (synthetic + ground-truth loaders),
+│                                   graph/, pipeline/, utils
 ├── tests/                  # tests/unit (Vitest), tests/e2e (Playwright)
 ├── drizzle/                # Generated SQL migrations
 ├── data/                   # Local SQLite database (git-ignored, created on first run)
@@ -116,7 +119,7 @@ Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker for appli
 
 ## Getting Started
 
-**Status**: the application foundation (P4.1) is bootstrapped — a running shell with no investigation loaded, per the intended demonstration flow above. Pipeline stages (ingestion, extraction, entity resolution, graph synthesis, analytics, corroboration, Copilot, reporting) are not implemented yet.
+**Status**: the application foundation (P4.1) and domain/data foundation (P4.2) are in place — a running shell with no investigation loaded, a migrated SQLite schema for the domain model, and a validated synthetic-fixture loading boundary, per the intended demonstration flow above. Pipeline stages (ingestion, extraction, entity resolution, graph synthesis, analytics, corroboration, Copilot, reporting) are not implemented yet.
 
 Requirements: Node.js 26.8.1+ (provides the built-in `node:sqlite` module). No Docker required.
 

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { EVIDENCE_CLASSIFICATIONS } from "@/lib/provenance/types";
+import { EVIDENCE_CLASSIFICATIONS } from "@/lib/domain/provenance";
 
 describe("EVIDENCE_CLASSIFICATIONS", () => {
   it("matches the five classifications required by docs/requirements.md §7", () => {

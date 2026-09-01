@@ -1,0 +1,19 @@
+{
+  "expectedEntityMerges": [
+    {
+      "canonicalLabel": "Fixture Suspect A",
+      "aliases": ["The Ghost"]
+    },
+    {
+      "canonicalLabel": "Fixture Suspect B",
+      "aliases": []
+    }
+  ],
+  "expectedRelationships": [
+    {
+      "sourceLabel": "Fixture Suspect A",
+      "targetLabel": "Fixture Suspect B",
+      "relationshipType": "associate"
+    }
+  ]
+}
