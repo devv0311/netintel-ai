@@ -15,7 +15,8 @@
 | Backend | Next.js route handlers + typed pipeline modules | Pipeline execution; same process, no separate service | Baseline |
 | Orchestration | Sequential runner over six typed modules | Agent 1–6 execution; **no agent framework** | Baseline |
 | Contract enforcement | Zod | Schema validation at every stage boundary; the executable form of the agent contracts | Baseline |
-| Structured data | SQLite via `better-sqlite3` | Single store of record | Baseline |
+| Structured data | SQLite via `node:sqlite` (Node's built-in module; Node.js 26.8.1 is the verified runtime) | Single store of record | Baseline |
+| Structured data (fallback driver) | `better-sqlite3` | If `node:sqlite` has a gap (e.g. an extension-loading hook FTS5 needs) — same SQL, same Drizzle schema | Fallback |
 | Schema / queries | Drizzle ORM | Typed schema and queries (FTS5 via raw `sql` template) | Baseline |
 | Graph representation | `graphology` (in-memory, rebuilt from SQLite) | Nodes, edges, provenance-carrying graph model | Baseline |
 | Graph analytics | `graphology-metrics`, `graphology-communities-louvain`, `graphology-shortest-path` | Centrality, community detection, path analysis, intermediary identification | Baseline |
@@ -25,7 +26,7 @@
 | AI inference | Claude API via `@anthropic-ai/sdk` (remote) | Extraction, merge adjudication, Copilot | Baseline |
 | Model | `claude-opus-5` | Copilot and ambiguous-merge adjudication | Baseline |
 | Model (cost step-down) | `claude-sonnet-5` / `claude-haiku-4-5` | Bulk extraction **only** after prompt caching and the Batch API; an explicit owner decision, not a default | Optional |
-| Inference determinism | Disk cache keyed by hash of (model, prompt, schema) | Reproducibility + offline demo replay. **Not** `temperature: 0` — sampling params return 400 on Opus 5 / Sonnet 5 | Baseline |
+| Inference determinism | Disk cache keyed by hash of (model ID/version, prompt version, schema version, normalized input, generation config) — **not** input alone | Reproducibility + offline demo replay after the cache is populated. **Not** `temperature: 0` — sampling params return 400 on Opus 5 / Sonnet 5 | Baseline |
 | Structured extraction | Claude structured outputs (`output_config.format`) + `strict: true` tools | Schema-valid extraction, then Zod-validated | Baseline |
 | Local inference | Ollama (7–8B) | Offline emergency only; degraded quality, must be disclosed | Fallback |
 | Entity resolution | Deterministic blocking/scoring + LLM adjudication for the ambiguous band only | Isolates nondeterminism to one labeled, cached step | Baseline |
@@ -42,17 +43,17 @@
 | E2E testing | Playwright | Golden-path E2E | Baseline |
 | Visual evidence capture | Playwright screenshots + video | Task I4; evidence produced by the run that verifies the feature | Baseline |
 | Evaluation harness | Vitest + TypeScript over `evidence/ground-truth/` | Workstream K; reads ground truth only after pipeline output is final | Baseline |
-| Local execution | `npm run dev` | Development; **Docker is not used** | Baseline |
+| Local execution | `npm run dev` | Development; **Docker is not required** (remains installed and available for optional tooling only) | Baseline |
 | Demo delivery | Local production build on the M3 Pro | Primary demo path | Baseline |
 | Demo delivery | Vercel deployment, read-only prebuilt DB | Backup if the local environment fails | Fallback |
 
 ## Hard Constraints
 
 1. **One secret only** — `AI_PROVIDER_API_KEY`. No database, map, storage, or vector credential exists. Never commit it; `.env` is git-ignored.
-2. **No Docker for application services.** Freeing the ~7.75 GB Docker allocation is a deliberate part of the resource budget.
+2. **No application service runs in Docker.** The database is a local SQLite file, the graph is in-memory, and the app runs via `npm run dev` — not containers. Docker Desktop remains installed and may be used for optional, non-application tooling (e.g. a containerized CI/test run) without a new ADR; putting the database, graph, or any pipeline component itself into a container requires one.
 3. **Provenance is a column, not a convention** — source, location/reference, method, confidence, processing history, timestamp on every derived row. A stage that cannot populate them must fail validation rather than write a partial row.
 4. **The model never mints an identifier.** It selects from row IDs given to it; any citation that does not resolve to a real row is rejected before it reaches a user.
-5. **Cache every LLM response from the first call.** Determinism, cost, and the offline demo all depend on a warm cache; it cannot be retrofitted late.
+5. **Cache every LLM response from the first call, keyed on model + prompt version + schema version + normalized input — never on input alone.** A prompt or schema edit must miss the cache, not silently replay a pre-edit response. Determinism, cost, and the offline demo all depend on a warm, correctly-scoped cache; it cannot be retrofitted late.
 6. **Nothing on the rejected list in [ADR-001 §10](./technology-stack.md#technologiespatterns-we-are-not-using) may be reintroduced** without a new ADR.
 
 ## Build Order (M1 gate)

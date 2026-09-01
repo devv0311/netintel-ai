@@ -9,14 +9,14 @@
 
 ## 1. Executive Decision
 
-**NetIntel AI is built as a single-runtime, local-first TypeScript application: Next.js (App Router) + React + Tailwind/shadcn on the front, Next.js server-side route handlers and typed pipeline modules on the back, SQLite (better-sqlite3 + Drizzle) as the single store of record, an in-memory `graphology` graph rebuilt from SQLite for graph synthesis and analytics, `sigma.js` for graph rendering, Leaflet + OpenStreetMap for the map, and remote Claude API inference for extraction and the Copilot — with every LLM response cached to disk so the demo is deterministic and survives a network failure.**
+**NetIntel AI is built as a single-runtime, local-first TypeScript application: Next.js (App Router) + React + Tailwind/shadcn on the front, Next.js server-side route handlers and typed pipeline modules on the back, SQLite (`node:sqlite` + Drizzle) as the single store of record, an in-memory `graphology` graph rebuilt from SQLite for graph synthesis and analytics, `sigma.js` for graph rendering, Leaflet + OpenStreetMap for the map, and remote Claude API inference for extraction and the Copilot — with every LLM response cached to disk, keyed on model/prompt/schema version as well as input, so the demo is deterministic and survives a network failure.**
 
 Four decisions carry most of the weight, and each is a deliberate reduction in moving parts:
 
 1. **One language, one process, one runtime.** TypeScript end to end. Nine specialized AI agents working in parallel across twelve workstreams is a coordination problem before it is a coding problem; a second language doubles the contract surface and the ways agents can disagree.
 2. **No database server, no graph database, no vector database.** The complete dataset is roughly 1,500 records and a few hundred entities. A file-backed SQLite database plus an in-memory graph fits in tens of megabytes. Neo4j, Postgres, and Qdrant would each add a service, a schema dialect, a client, RAM, and setup hours to buy capability this dataset never needs.
 3. **No agent framework.** The six agent contracts in `docs/contracts/agent-contracts.md` describe six *stages with typed inputs and outputs* — they do not describe autonomous, open-ended exploration. They are implemented as six plain typed modules behind a sequential runner. Frameworks (LangChain, LangGraph, CrewAI, AutoGen) would insert abstraction exactly where this project's hardest requirement — provenance you can trace and explain — needs transparency.
-4. **Remote inference, cached to disk.** 18 GB of RAM cannot host a capable local model alongside a dev server, a browser, an editor, and multiple AI coding agents. Inference goes to the Claude API; every response is cached by input hash, which buys back determinism (a requirement) and removes the network from the demo-day critical path (a risk).
+4. **Remote inference, cached to disk.** 18 GB of RAM cannot host a capable local model alongside a dev server, a browser, an editor, and multiple AI coding agents. Inference goes to the Claude API; every response is cached by a composite key covering model, prompt version, schema version, and normalized input (not input alone — see the LLM Response Cache subsection in §3), which buys back determinism (a requirement) and removes the network from the demo-day critical path (a risk).
 
 ---
 
@@ -27,12 +27,12 @@ Four decisions carry most of the weight, and each is a deliberate reduction in m
 | Application / UI | Next.js (App Router) + React + TypeScript |
 | Styling / components | Tailwind CSS + shadcn/ui |
 | Backend | Next.js server-side route handlers + typed pipeline modules (same process) |
-| Structured data | SQLite via `better-sqlite3`, schema/queries via Drizzle ORM |
+| Structured data | SQLite via `node:sqlite` (Node's native module), schema/queries via Drizzle ORM |
 | Graph representation | `graphology` in-memory, materialized from SQLite `nodes`/`edges` tables |
 | Graph analytics | `graphology-metrics` (centrality), `graphology-communities-louvain`, `graphology-shortest-path` |
 | Search / retrieval | SQLite FTS5 full-text + structured SQL + graph traversal (no vector DB) |
 | Evidence storage | Filesystem under `evidence/synthetic/`, metadata + normalized content in SQLite |
-| AI inference | Claude API (remote) via `@anthropic-ai/sdk`; disk cache keyed by input hash |
+| AI inference | Claude API (remote) via `@anthropic-ai/sdk`; disk cache keyed by (model, prompt version, schema version, normalized input hash) |
 | Model baseline | `claude-opus-5` for Copilot and merge adjudication; per-stage step-down is an explicit, documented cost decision (see §6) |
 | Structured extraction | Claude structured outputs (`output_config.format`) + `strict: true` tools, validated by Zod |
 | Contract enforcement | Zod schemas at every stage boundary |
@@ -61,13 +61,13 @@ Each entry gives the reason, the major tradeoff accepted, integration notes, res
 - **Resources**: ~400–700 MB for the dev server.
 - **Fallback**: if App Router server behavior causes trouble, the pipeline modules are framework-independent and can be driven by a thin Express/Fastify server or CLI without rewriting stage logic.
 
-### SQLite (`better-sqlite3`) + Drizzle ORM — store of record
+### SQLite (`node:sqlite`) + Drizzle ORM — store of record
 
-- **Reason**: zero operational surface. No server, no credentials, no container, no port. `better-sqlite3` is synchronous and fast for our size; Drizzle gives one typed schema definition that all nine agents share, without a codegen daemon or engine binary. A public repo with no database credential is a security win (§8).
-- **Tradeoff**: single-writer, and it does not deploy to serverless with write access. Accepted because the demo is local and the dataset is fixed.
-- **Integration**: FTS5 virtual tables are created via raw SQL migration and queried through Drizzle's `sql` template — Drizzle does not model FTS5 natively, and implementers should expect to hand-write those queries.
+- **Reason**: zero operational surface. No server, no credentials, no container, no port. The development environment runs Node.js 26.8.1, where `node:sqlite` is Node's built-in, synchronous SQLite module — selected over `better-sqlite3` specifically because it removes a native-addon dependency (a compiled binding that must match Node's ABI and the local toolchain) that the runtime already makes unnecessary. Drizzle gives one typed schema definition that all nine agents share, without a codegen daemon or engine binary. A public repo with no database credential is a security win (§8).
+- **Tradeoff**: `node:sqlite` is newer than `better-sqlite3` and has a smaller track record; its API surface is close enough to `better-sqlite3`'s that Drizzle's SQLite dialect works against it with the same query patterns. Accepted — the reduced dependency footprint is worth more here than the marginal maturity difference, and `better-sqlite3` remains the documented fallback (below) if a gap in `node:sqlite`'s support surfaces during implementation.
+- **Integration**: FTS5 virtual tables are created via raw SQL migration and queried through Drizzle's `sql` template — Drizzle does not model FTS5 natively, and implementers should expect to hand-write those queries. This is unaffected by the driver choice.
 - **Resources**: file on disk plus page cache; tens of MB.
-- **Fallback**: the schema is ordinary SQL; moving to Postgres later is a connection-string and dialect change, not a redesign.
+- **Fallback**: if `node:sqlite` has a gap (e.g. a missing extension-loading hook FTS5 setup needs), swap to `better-sqlite3` — same SQL, same Drizzle schema, a driver-adapter change only, not a redesign. Moving to Postgres later remains a separate, larger fallback: a connection-string and dialect change.
 
 ### `graphology` (in-memory) — graph representation and analytics
 
@@ -92,7 +92,31 @@ Each entry gives the reason, the major tradeoff accepted, integration notes, res
 - **Tradeoff**: a network dependency and a per-token cost. Both are mitigated below.
 - **Integration**: extraction uses **structured outputs** (`output_config: {format: {...}}`) and `strict: true` tool definitions so the model returns schema-valid JSON that Zod then validates at the stage boundary — the same Zod schema that enforces the agent contract. Note two API facts implementers must not get wrong: sampling parameters (`temperature`, `top_p`) are **removed on Claude Opus 5 and Sonnet 5 and return a 400** — determinism does not come from `temperature: 0`; and document `citations` are **incompatible with `output_config.format`**, so extraction uses structured outputs while citation-style grounding, if used at all, belongs only to the Copilot surface.
 - **Resources**: zero local RAM.
-- **Fallback**: **a disk cache of every LLM response keyed by a hash of (model, prompt, schema)**. Once the demo dataset has been processed, the pipeline replays from cache with no network at all. This single mechanism answers three separate requirements at once — reproducibility (`docs/requirements.md` §6), demo-day network failure (risk register), and cost. A secondary fallback is a local Ollama model for offline extraction only, accepted as degraded quality (see §6).
+- **Fallback**: the response cache described below. Once the demo dataset has been processed, the pipeline replays from cache with no network at all. This single mechanism answers three separate requirements at once — reproducibility (`docs/requirements.md` §6), demo-day network failure (risk register), and cost. A secondary fallback is a local Ollama model for offline extraction only, accepted as degraded quality (see §6).
+
+### LLM Response Cache — determinism and offline replay
+
+The cache key is **not** a hash of the input alone — an input-only key would happily serve a response generated under a prompt, schema, or model that has since changed, which defeats the reproducibility requirement it exists to satisfy rather than meeting it. The key is a composite hash over every input that can change what the model returns:
+
+- **Model ID/version** — e.g. `claude-opus-5`. A model swap must miss the cache, not silently serve a prior model's answer.
+- **System/prompt version** — an explicit version identifier on every prompt template used in the pipeline (extraction, entity-resolution adjudication, Copilot). Editing a prompt bumps its version, which invalidates only the entries generated under the old wording.
+- **Tool/schema version** — an explicit version identifier on every Zod/tool-input schema. A schema change (a field added, a type tightened) bumps its version for the same reason.
+- **Normalized input** — the actual evidence/question content, normalized (whitespace/ordering-stable) before hashing so semantically identical input hits the same entry.
+- **Relevant generation configuration** — `output_config.effort`, `max_tokens`, and any other parameter that affects output, so a configuration change is not silently masked by a stale hit.
+
+**Cached entry metadata** (minimum fields every cache record must store, in addition to the response itself):
+
+| Field | Purpose |
+| --- | --- |
+| `model` | Which model produced this response |
+| `modelVersion` | The exact model ID string sent to the API (redundant with `model` today, but keeps the record self-describing if model naming changes) |
+| `promptVersion` | Which version of the prompt template produced this response |
+| `schemaVersion` | Which version of the tool/output schema constrained this response |
+| `inputHash` | Hash of the normalized input, for lookup and for detecting an input change independent of the other fields |
+| `response` | The full response payload, in the shape the calling stage expects |
+| `createdAt` | Creation timestamp, for audit and for manual cache-invalidation sweeps |
+
+A lookup is a hit only when model, prompt version, schema version, and input hash all match the current call. This is what makes the design an actual reproducibility mechanism rather than a raw speed optimization that happens to also serve stale answers: a prompt or schema edit during development correctly produces fresh entries instead of silently replaying pre-edit behavior, while the *unmodified* majority of prior calls still replay instantly and offline.
 
 ### No agent framework — orchestration
 
@@ -145,7 +169,7 @@ Scored 1–5 on the dimensions that actually discriminate here: **Speed** (imple
 
 | Candidate | Speed | Agent | Fit | Host | Ops | Risk | Verdict |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **SQLite + Drizzle** | 5 | 5 | 4 | 5 | 5 | 4 | **Selected** |
+| **SQLite (`node:sqlite`) + Drizzle** | 5 | 5 | 4 | 5 | 5 | 4 | **Selected** |
 | PostgreSQL (Docker) | 3 | 5 | 5 | 3 | 2 | 3 | Rejected — a container, ~500 MB–1 GB RAM, credentials in a public repo's config, and setup time, to buy concurrency and types this demo never uses |
 | Prisma + SQLite | 4 | 5 | 4 | 4 | 4 | 4 | Rejected narrowly — excellent DX, but the codegen step and engine binary add friction across nine agents; Drizzle's plain-SQL closeness also makes the FTS5 work easier |
 | JSON files only | 5 | 4 | 2 | 5 | 5 | 2 | Rejected — no query layer for the provenance joins and evidence lookups the Copilot needs |
@@ -223,9 +247,19 @@ Stated plainly, because implementation agents should not rediscover these as sur
 
 The hybrid is not a hedge, it is the design: the cache is written during development anyway, so by demo time the canonical run replays from disk with zero network calls. The Ollama path exists only for the case where new, uncached evidence must be processed without connectivity, and its reduced quality is accepted and documented there.
 
+### Runtime & Docker Posture (authoritative summary)
+
+- **The default development and runtime path is the local Node.js/Next.js runtime** — `npm run dev`, nothing containerized.
+- **SQLite is local-file based** — a file on disk, no server process.
+- **The graph is in-memory** — a `graphology` instance rebuilt from SQLite at process start, not a persisted graph service.
+- **Remote Claude inference is the primary inference path** for extraction, entity-resolution adjudication, and the Copilot.
+- **Cached responses provide deterministic offline replay once the cache has been populated** — the *first* run of any given (model, prompt version, schema version, input) combination requires network access; every *subsequent* run of that same combination replays from disk with no network call, per the LLM Response Cache subsection above.
+- **Local model inference (Ollama) is an emergency fallback only**, for the case where genuinely new, uncached evidence must be processed with no connectivity — never the default path, and its degraded quality must be disclosed if it is ever used for the actual demo.
+- **Docker Desktop remains installed and available for optional infrastructure/testing use** — e.g. running Playwright in a container for CI parity, or sandboxing a future integration test — but is **not required** for ordinary development or runtime. This is a scoping distinction, not a contradiction: Hard Constraint #2 in the stack contract ("no Docker for application services") governs the architecture — no database, graph store, or pipeline component runs in a container — and does not forbid using Docker Desktop for incidental tooling that never becomes part of the running application.
+
 ### Resource Budget
 
-Against an 18 GB host (Docker is currently allocated ~7.75 GB, which this stack **releases** by not using containers):
+Against an 18 GB host (Docker Desktop is currently allocated ~7.75 GB; because no application service runs in a container, that allocation is not drawn on during ordinary development):
 
 | Component | Expected footprint | When it runs |
 | --- | --- | --- |
@@ -237,15 +271,15 @@ Against an 18 GB host (Docker is currently allocated ~7.75 GB, which this stack 
 | Playwright (headless Chromium) | 500 MB–1 GB | On demand (tests, evidence capture) |
 | Synthetic data generation script | < 300 MB | On demand (once) |
 | Evaluation harness | < 300 MB | On demand |
-| LLM inference | **0 GB local** | Remote |
-| Docker | **0 GB — not used** | Never |
+| LLM inference | **0 GB local** | Remote (cached replay after first run) |
+| Docker | **0 GB in the default path** | Not required; available on demand for optional tooling only |
 | Ollama offline fallback (if activated) | 5–6 GB | Emergency only |
 
-**Steady-state total: roughly 4–6 GB of 18 GB.** Comfortable headroom, with the largest single reclaim coming from not running Docker at all. Even with the Ollama fallback active the system lands near 10–12 GB — tight but workable if the browser and editor are trimmed.
+**Steady-state total: roughly 4–6 GB of 18 GB.** Comfortable headroom, with the largest single reclaim coming from not requiring Docker for the application. Even with the Ollama fallback active the system lands near 10–12 GB — tight but workable if the browser and editor are trimmed.
 
 **Run continuously**: Next.js dev server, SQLite, browser.
-**Run on demand**: Playwright, data generation, evaluation harness, production build.
-**Run remotely**: LLM inference; optionally embeddings if the should-have semantic path is taken.
+**Run on demand**: Playwright, data generation, evaluation harness, production build; Docker only if an implementer chooses it for optional tooling.
+**Run remotely**: LLM inference (cached after first run); optionally embeddings if the should-have semantic path is taken.
 
 ---
 
@@ -299,7 +333,7 @@ Existing controls already cover this: `.gitignore` excludes `.env` and `.env.*` 
 
 ## 9. Licensing and Open-Source Implications
 
-Every selected library is permissively licensed and compatible with this repository's MIT license: Next.js, React, Tailwind, shadcn/ui, `graphology` and its modules, `sigma.js`, Recharts, Vitest, `better-sqlite3`, `@anthropic-ai/sdk`, Zod (MIT); Drizzle, Playwright, `vis-timeline` (Apache-2.0 / dual); Leaflet (BSD-2-Clause); SQLite (public domain). OpenStreetMap tiles are ODbL — attribution is required in the map UI and must be included; the standard Leaflet attribution control satisfies this. No copyleft obligation attaches to our source. The Claude API is a paid service rather than a licensing consideration; nothing about it restricts publishing this repository.
+Every selected library is permissively licensed and compatible with this repository's MIT license: Next.js, React, Tailwind, shadcn/ui, `graphology` and its modules, `sigma.js`, Recharts, Vitest, `@anthropic-ai/sdk`, Zod (MIT); Drizzle, Playwright, `vis-timeline` (Apache-2.0 / dual); Leaflet (BSD-2-Clause); SQLite and `node:sqlite` (public domain / Node core, MIT). OpenStreetMap tiles are ODbL — attribution is required in the map UI and must be included; the standard Leaflet attribution control satisfies this. No copyleft obligation attaches to our source. The Claude API is a paid service rather than a licensing consideration; nothing about it restricts publishing this repository.
 
 ## 10. Rejected Alternatives
 
@@ -353,5 +387,5 @@ What implementation agents should take as given:
 - **Provenance is a column, not a convention.** Every derived row carries source, location, method, confidence, processing history, and timestamp. A stage that cannot populate them fails validation rather than writing a partial row.
 - **The model never mints an identifier.** It selects from row IDs supplied to it. Any citation that does not resolve to a real row is rejected by the guardrail before reaching a user.
 - **Cache every LLM response from the first call.** Determinism, cost, and demo-day resilience all depend on the cache being warm — it cannot be retrofitted the night before.
-- **Docker stays off.** If an agent proposes a container for an application service, that is a deviation from this ADR requiring a new one.
+- **No application service runs in Docker.** Docker Desktop remains installed and may be used for optional tooling (e.g. containerized CI/test runs) without a new ADR, but if an agent proposes putting the database, graph, or any pipeline component *itself* into a container, that is a deviation from this ADR requiring a new one.
 - **`claude-opus-5` is the baseline model.** Stepping down for cost is a legitimate decision for the project owner, taken deliberately after prompt caching and the Batch API have been applied — not a default an implementation agent picks unilaterally.

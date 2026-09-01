@@ -96,14 +96,14 @@ A single-runtime, local-first TypeScript application. Full rationale in [ADR-001
 | --- | --- |
 | Application | Next.js (App Router) + React + TypeScript, Tailwind CSS + shadcn/ui |
 | Backend | Next.js route handlers + typed pipeline modules (no agent framework) |
-| Data | SQLite (`better-sqlite3` + Drizzle); FTS5 for retrieval |
+| Data | SQLite (`node:sqlite` + Drizzle); FTS5 for retrieval; local file, no server |
 | Graph | `graphology` in-memory + `sigma.js` for visualization |
-| AI | Claude API (remote inference), responses cached to disk for determinism |
+| AI | Claude API (remote, primary inference path); responses cached to disk, keyed on model + prompt version + schema version + input, for deterministic offline replay once populated |
 | Spatial / temporal | Leaflet + OpenStreetMap; `vis-timeline` |
 | Testing | Vitest + Playwright (Playwright also captures visual evidence) |
-| Local execution | `npm run dev` — no Docker required |
+| Local execution | `npm run dev` — Docker is not required for development or runtime |
 
-Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker application services, and LLM agent frameworks — see [ADR-001 §10](./docs/architecture/technology-stack.md#technologiespatterns-we-are-not-using).
+Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker for application services, and LLM agent frameworks — see [ADR-001 §10](./docs/architecture/technology-stack.md#technologiespatterns-we-are-not-using). Local model inference (Ollama) is available only as an emergency offline fallback, never the default path.
 
 ## Development Environment
 
@@ -112,8 +112,8 @@ Verified baseline:
 - macOS (Apple Silicon, arm64), 18 GB RAM
 - Homebrew, Xcode Command Line Tools
 - Git and GitHub CLI, with active GitHub authentication
-- Node.js and Python toolchains available
-- Docker Desktop operational (installed, but not used by the selected stack)
+- Node.js 26.8.1 (provides the built-in `node:sqlite` module used by the stack) and Python toolchains available
+- Docker Desktop installed and operational — available for optional infrastructure/testing use, but not required by the selected stack's default development/runtime path
 
 ## License
 
