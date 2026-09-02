@@ -385,12 +385,25 @@ export function synthesizeGraph(
 
   const locations: LocationCandidate[] = [];
   const locationIdByLabel = new Map<string, string>();
+  // Cross-referencing evidence (e.g. a CDR event's `cellTower` field)
+  // names a location by its short source key (e.g. "SYN-CT-01"), not by
+  // location_record's human-readable `label` — but every extracted
+  // record carries `data.recordRef` (src/lib/extraction/extract.ts), and
+  // for a location_record that is `location:<key>`. Indexing by the
+  // bare key extracted from recordRef lets cross-referencing evidence
+  // resolve the same location without guessing or re-deriving identity.
+  const locationIdByKey = new Map<string, string>();
   for (const r of [...locationMentions].sort((a, b) => (a.id < b.id ? -1 : 1))) {
     const label = str(r.data, "observedValue");
     if (!label) continue;
     if (locationIdByLabel.has(label)) continue;
     const id = makeContentId("location", [label]);
     locationIdByLabel.set(label, id);
+    const recordRef = str(r.data, "recordRef");
+    if (recordRef) {
+      const bareKey = recordRef.startsWith("location:") ? recordRef.slice("location:".length) : recordRef;
+      locationIdByKey.set(bareKey, id);
+    }
     const rawType = r.data.locationType;
     const locationType = (
       typeof rawType === "string" && ["address", "cell_tower", "crime_scene", "other"].includes(rawType) ? rawType : "other"
@@ -429,7 +442,7 @@ export function synthesizeGraph(
       const callerId = identifierEntityId.get(`phone:${callerNumber}`);
       const calleeId = identifierEntityId.get(`phone:${calleeNumber}`);
       const cellTower = str(r.data, "cellTower");
-      const cellLocationId = cellTower ? locationIdByLabel.get(cellTower) : undefined;
+      const cellLocationId = cellTower ? (locationIdByLabel.get(cellTower) ?? locationIdByKey.get(cellTower)) : undefined;
 
       communicationEvents.push({
         id: makeContentId("communication_event", [r.id]),
