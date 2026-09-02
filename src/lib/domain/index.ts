@@ -11,3 +11,4 @@ export * from "./events";
 export * from "./relationship";
 export * from "./derived";
 export * from "./resolution";
+export * from "./corroboration";

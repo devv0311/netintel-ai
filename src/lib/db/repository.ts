@@ -35,6 +35,10 @@ import {
   ResolutionDecisionSchema,
   type ResolutionDecision,
 } from "@/lib/domain/resolution";
+import {
+  CorroborationFindingSchema,
+  type CorroborationFinding,
+} from "@/lib/domain/corroboration";
 
 /**
  * The validated data-access layer. This is the ONLY place application
@@ -541,6 +545,62 @@ export async function listAnalyticalSignals(): Promise<AnalyticalSignal[]> {
         provenance: columnsToProvenance(row),
       },
       "listAnalyticalSignals",
+    ),
+  );
+}
+
+// --- Corroboration findings (P5.7) -----------------------------------
+
+export async function insertCorroborationFinding(data: unknown): Promise<CorroborationFinding> {
+  const finding = validateOrThrow(CorroborationFindingSchema, data, "insertCorroborationFinding");
+  const db = getDb();
+  await db.insert(schema.corroborationFindings).values({
+    id: finding.id,
+    investigationId: finding.investigationId,
+    graphVersion: finding.graphVersion,
+    findingType: finding.findingType,
+    kind: finding.kind,
+    entityIds: finding.entityIds,
+    locationIds: finding.locationIds,
+    windowStart: finding.window?.start ?? null,
+    windowEnd: finding.window?.end ?? null,
+    value: finding.value,
+    method: finding.method,
+    explanation: finding.explanation,
+    classification: finding.classification,
+    evidenceItemIds: finding.evidenceItemIds,
+    supportingRecordIds: finding.supportingRecordIds,
+    ...provenanceToColumns(finding.provenance),
+  });
+  return finding;
+}
+
+export async function listCorroborationFindings(): Promise<CorroborationFinding[]> {
+  const db = getDb();
+  const rows = await db.select().from(schema.corroborationFindings);
+  return rows.map((row) =>
+    validateOrThrow(
+      CorroborationFindingSchema,
+      {
+        id: row.id,
+        investigationId: row.investigationId,
+        graphVersion: row.graphVersion,
+        findingType: row.findingType,
+        kind: row.kind,
+        entityIds: row.entityIds,
+        locationIds: row.locationIds,
+        window: row.windowStart
+          ? { start: row.windowStart, ...(row.windowEnd ? { end: row.windowEnd } : {}) }
+          : null,
+        value: row.value,
+        method: row.method,
+        explanation: row.explanation,
+        classification: row.classification,
+        evidenceItemIds: row.evidenceItemIds,
+        supportingRecordIds: row.supportingRecordIds,
+        provenance: columnsToProvenance(row),
+      },
+      "listCorroborationFindings",
     ),
   );
 }

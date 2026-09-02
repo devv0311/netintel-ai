@@ -201,6 +201,38 @@ export const analyticalSignals = sqliteTable("analytical_signals", {
   ...provenanceColumns(),
 });
 
+/**
+ * Spatial/temporal corroboration findings (P5.7). Mirrors the P5.6
+ * `analytical_signals` shape: `entity_ids`/`location_ids` are
+ * application-validated references (an `entities.id` or a `locations.id`
+ * — no `.references()`, matching the dual-target rationale on
+ * `analytical_signals.target_entity_id`). `window_start`/`window_end`
+ * are the two halves of the domain `TemporalInterval` (`window_end`
+ * null for a point-in-time or a pure spatial-proximity finding).
+ * Endpoint/classification/graph-version validity is enforced at the
+ * application layer by src/lib/corroboration/verify.ts.
+ */
+export const corroborationFindings = sqliteTable("corroboration_findings", {
+  id: text("id").primaryKey(),
+  investigationId: text("investigation_id")
+    .notNull()
+    .references(() => investigations.id),
+  graphVersion: text("graph_version").notNull(),
+  findingType: text("finding_type").notNull(),
+  kind: text("kind").notNull(),
+  entityIds: text("entity_ids", { mode: "json" }).$type<string[]>().notNull(),
+  locationIds: text("location_ids", { mode: "json" }).$type<string[]>().notNull(),
+  windowStart: text("window_start"),
+  windowEnd: text("window_end"),
+  value: text("value", { mode: "json" }).$type<Record<string, unknown>>().notNull(),
+  method: text("method").notNull(),
+  explanation: text("explanation").notNull(),
+  classification: text("classification").notNull(),
+  evidenceItemIds: text("evidence_item_ids", { mode: "json" }).$type<string[]>().notNull(),
+  supportingRecordIds: text("supporting_record_ids", { mode: "json" }).$type<string[]>().notNull(),
+  ...provenanceColumns(),
+});
+
 export const aiInferences = sqliteTable("ai_inferences", {
   id: text("id").primaryKey(),
   investigationId: text("investigation_id")
