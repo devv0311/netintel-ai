@@ -270,6 +270,86 @@ describe("synthesizeAnalytics — signal assembly", () => {
   });
 });
 
+describe("computeShortestPath", () => {
+  it("finds the shortest path through the sole bridge on a barbell graph", async () => {
+    const { computeShortestPath } = await import("@/lib/analytics/paths");
+    const result = computeShortestPath(BARBELL_ENTITIES, [], BARBELL_RELATIONSHIPS, A.id, F.id);
+    expect(result.found).toBe(true);
+    if (!result.found) return;
+    expect(result.nodeIds[0]).toBe(A.id);
+    expect(result.nodeIds[result.nodeIds.length - 1]).toBe(F.id);
+    expect(result.nodeIds).toContain(C.id);
+    expect(result.nodeIds).toContain(D.id);
+    expect(result.hopCount).toBe(result.edges.length);
+    for (const edge of result.edges) {
+      expect(edge.relationshipType).toBeTruthy();
+      expect(typeof edge.directed).toBe("boolean");
+    }
+  });
+
+  it("finds a path across a strictly one-directional ownership chain (undirected reachability, per-edge true direction preserved)", async () => {
+    const { computeShortestPath } = await import("@/lib/analytics/paths");
+    // person -> owns -> identifier is only ever stored in that direction;
+    // a strictly-directed search from the identifier back to the person
+    // would find nothing, but investigatively they ARE connected.
+    const rels = [rel("r_own", A.id, B.id, "ownership")];
+    const result = computeShortestPath([A, B], [], rels, B.id, A.id);
+    expect(result.found).toBe(true);
+    if (!result.found) return;
+    expect(result.hopCount).toBe(1);
+    expect(result.edges[0]!.source).toBe(A.id); // true stored direction preserved
+    expect(result.edges[0]!.target).toBe(B.id);
+  });
+
+  it("returns a structured not-found result for two disconnected entities, never throwing", async () => {
+    const { computeShortestPath } = await import("@/lib/analytics/paths");
+    const rels = [rel("r1", A.id, B.id), rel("r2", D.id, E.id)];
+    const result = computeShortestPath([A, B, D, E], [], rels, A.id, D.id);
+    expect(result.found).toBe(false);
+    if (result.found) return;
+    expect(result.reason.length).toBeGreaterThan(0);
+  });
+
+  it("returns a structured not-found result when the source or target does not exist", async () => {
+    const { computeShortestPath } = await import("@/lib/analytics/paths");
+    const missingSource = computeShortestPath([A], [], [], "does-not-exist", A.id);
+    expect(missingSource.found).toBe(false);
+    const missingTarget = computeShortestPath([A], [], [], A.id, "does-not-exist");
+    expect(missingTarget.found).toBe(false);
+  });
+
+  it("returns not-found (never a degenerate zero-hop path) when source equals target", async () => {
+    const { computeShortestPath } = await import("@/lib/analytics/paths");
+    const result = computeShortestPath([A], [], [], A.id, A.id);
+    expect(result.found).toBe(false);
+  });
+
+  it("respects a relationship-type filter, finding no path when the only connecting edge type is excluded", async () => {
+    const { computeShortestPath } = await import("@/lib/analytics/paths");
+    const rels = [rel("r1", A.id, B.id, "financial")];
+    const withFinancial = computeShortestPath([A, B], [], rels, A.id, B.id, ["financial"]);
+    expect(withFinancial.found).toBe(true);
+    const withoutFinancial = computeShortestPath([A, B], [], rels, A.id, B.id, ["communication"]);
+    expect(withoutFinancial.found).toBe(false);
+  });
+
+  it("never manufactures an edge — every returned edge id resolves to a real input relationship", async () => {
+    const { computeShortestPath } = await import("@/lib/analytics/paths");
+    const relIds = new Set(BARBELL_RELATIONSHIPS.map((r) => r.id));
+    const result = computeShortestPath(BARBELL_ENTITIES, [], BARBELL_RELATIONSHIPS, A.id, F.id);
+    expect(result.found).toBe(true);
+    if (!result.found) return;
+    for (const edge of result.edges) expect(relIds.has(edge.id)).toBe(true);
+  });
+
+  it("is deterministic across repeated invocations", async () => {
+    const { computeShortestPath } = await import("@/lib/analytics/paths");
+    const run1 = computeShortestPath(BARBELL_ENTITIES, [], BARBELL_RELATIONSHIPS, A.id, F.id);
+    const run2 = computeShortestPath(BARBELL_ENTITIES, [], BARBELL_RELATIONSHIPS, A.id, F.id);
+    expect(JSON.stringify(run1)).toBe(JSON.stringify(run2));
+  });
+});
+
 describe("ground-truth isolation — no forbidden import/identifier anywhere in src/lib/analytics/ (excluding explanatory doc comments)", () => {
   const GROUND_TRUTH_KEYS = [
     "expectedEntityMerges",
