@@ -17,11 +17,18 @@ import { ConfidenceSchema, ProvenanceSchema } from "./provenance";
  * (docs/contracts/agent-contracts.md): "signals are labeled as
  * Algorithmic Signal — they describe the graph, they are not
  * themselves claims about the world, and must never be presented as
- * fact." Population happens in Workstream E.
+ * fact." Populated by the P5.6 analytics milestone (src/lib/analytics/)
+ * from the P5.5 graph. "path" is reserved for a future persisted-path
+ * use case; P5.6 itself computes shortest paths live (never persisted —
+ * see docs/data/analytics.md) since a path is a query-parameterized
+ * result, not a corpus-wide signal.
  */
 export const ANALYTICAL_SIGNAL_TYPES = [
+  "degree",
   "centrality",
+  "bridge",
   "community",
+  "ranking",
   "path",
 ] as const;
 export const AnalyticalSignalTypeSchema = z.enum(ANALYTICAL_SIGNAL_TYPES);
