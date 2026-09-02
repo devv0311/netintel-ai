@@ -69,8 +69,13 @@ export const CorroborationFindingSchema = z
     findingType: CorroborationFindingTypeSchema,
     /** Coarse grouping for the investigator UI's tab switcher. */
     kind: CorroborationKindSchema,
-    /** The subject entity ids being related (1–2, sorted). A contradiction has exactly one; every other finding relates a pair. */
-    entityIds: z.array(z.string().min(1)).min(1).max(2),
+    /**
+     * The subject entity ids being related (0–2, sorted). A
+     * contradiction has exactly one; a `spatial_proximity` finding is
+     * about the two locations and carries none; every other finding
+     * relates a pair.
+     */
+    entityIds: z.array(z.string().min(1)).max(2),
     /** The persisted location ids anchoring a spatial finding (0–2, sorted). Empty for a purely temporal finding. */
     locationIds: z.array(z.string().min(1)).max(2),
     /** The temporal window this finding was observed within — null only for a pure spatial-proximity finding. */
@@ -98,5 +103,13 @@ export const CorroborationFindingSchema = z
   .refine((f) => f.findingType !== "spatiotemporal_contradiction" || f.classification === "algorithmic_signal", {
     message: "a spatiotemporal_contradiction is always an algorithmic_signal, never a corroborated_fact",
     path: ["classification"],
+  })
+  .refine((f) => f.findingType === "spatial_proximity" || f.entityIds.length >= 1, {
+    message: "only a spatial_proximity finding may omit subject entities",
+    path: ["entityIds"],
+  })
+  .refine((f) => f.findingType !== "spatiotemporal_contradiction" || f.entityIds.length === 1, {
+    message: "a spatiotemporal_contradiction relates exactly one entity to itself across two placements",
+    path: ["entityIds"],
   });
 export type CorroborationFinding = z.infer<typeof CorroborationFindingSchema>;
