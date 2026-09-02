@@ -365,3 +365,94 @@ describe("synthesizeGraph — unsupported and missing-endpoint handling", () => 
     expect(output.warnings).toEqual([]);
   });
 });
+
+describe("verify.assertProvenance — endpoint & classification invariants", () => {
+  it("rejects a relationship whose target does not resolve to a known entity or location id", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/graph/verify");
+    const bogus = {
+      id: "bad",
+      investigationId: "inv1",
+      sourceEntityId: "entity_real",
+      targetEntityId: "entity_does_not_exist",
+      relationshipType: "ownership" as const,
+      directed: true,
+      evidenceItemIds: ["item1"],
+      extractedRecordIds: ["er1"],
+      conflicts: [],
+      attributes: {},
+      classification: "observed_fact" as const,
+      provenance: baseProvenance("er1", "loc"),
+    };
+    const validated = validateOutputs([], [], [], [bogus]);
+    expect(() =>
+      assertProvenance(
+        validated.locations,
+        validated.communicationEvents,
+        validated.financialTransactions,
+        validated.relationships,
+        new Set(["entity_real"]),
+        new Set(),
+        new Set(["er1"]),
+      ),
+    ).toThrow();
+  });
+
+  it("rejects a corroborated_fact classification backed by fewer than 2 evidence items", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/graph/verify");
+    const bogus = {
+      id: "bad2",
+      investigationId: "inv1",
+      sourceEntityId: "entity_a",
+      targetEntityId: "entity_b",
+      relationshipType: "ownership" as const,
+      directed: true,
+      evidenceItemIds: ["item1"],
+      extractedRecordIds: ["er1"],
+      conflicts: [],
+      attributes: {},
+      classification: "corroborated_fact" as const,
+      provenance: baseProvenance("er1", "loc"),
+    };
+    const validated = validateOutputs([], [], [], [bogus]);
+    expect(() =>
+      assertProvenance(
+        validated.locations,
+        validated.communicationEvents,
+        validated.financialTransactions,
+        validated.relationships,
+        new Set(["entity_a", "entity_b"]),
+        new Set(),
+        new Set(["er1"]),
+      ),
+    ).toThrow();
+  });
+
+  it("accepts a well-formed relationship with resolvable endpoints and matching classification", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/graph/verify");
+    const good = {
+      id: "good1",
+      investigationId: "inv1",
+      sourceEntityId: "entity_a",
+      targetEntityId: "entity_b",
+      relationshipType: "ownership" as const,
+      directed: true,
+      evidenceItemIds: ["item1"],
+      extractedRecordIds: ["er1"],
+      conflicts: [],
+      attributes: {},
+      classification: "observed_fact" as const,
+      provenance: baseProvenance("er1", "loc"),
+    };
+    const validated = validateOutputs([], [], [], [good]);
+    const count = assertProvenance(
+      validated.locations,
+      validated.communicationEvents,
+      validated.financialTransactions,
+      validated.relationships,
+      new Set(["entity_a", "entity_b"]),
+      new Set(),
+      new Set(["er1"]),
+    );
+    expect(count).toBe(1);
+  });
+});
