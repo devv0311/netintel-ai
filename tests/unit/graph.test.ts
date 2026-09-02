@@ -513,3 +513,59 @@ describe("idempotentPersistGraph — partial retry", () => {
     expect(persisted.relationshipsSkipped).toBe(1);
   });
 });
+
+describe("buildGraphFromRows — reconstruction from persisted state", () => {
+  it("builds a graph whose node/edge counts match the input rows exactly, deterministically", async () => {
+    const { buildGraphFromRows } = await import("@/lib/graph/runtime");
+    const personA = personEntity(makeContentId("entity", ["person", "a"]), "A");
+    const personB = personEntity(makeContentId("entity", ["person", "b"]), "B");
+    const rel = {
+      id: "rel1",
+      investigationId: "inv1",
+      sourceEntityId: personA.id,
+      targetEntityId: personB.id,
+      relationshipType: "communication" as const,
+      directed: true,
+      evidenceItemIds: ["i1"],
+      extractedRecordIds: ["e1"],
+      conflicts: [],
+      attributes: {},
+      classification: "observed_fact" as const,
+      provenance: baseProvenance("e1", "loc"),
+    };
+    const g1 = buildGraphFromRows([personA, personB], [], [rel]);
+    const g2 = buildGraphFromRows([personA, personB], [], [rel]);
+    expect(g1.order).toBe(2);
+    expect(g1.size).toBe(1);
+    expect(g2.order).toBe(g1.order);
+    expect(g2.size).toBe(g1.size);
+    expect(g1.hasNode(personA.id)).toBe(true);
+    expect(g1.hasEdge(rel.id)).toBe(true);
+  });
+
+  it("getNeighborhood returns the 1-hop node/edge set around a node", async () => {
+    const { buildGraphFromRows, getNeighborhood } = await import("@/lib/graph/runtime");
+    const a = personEntity(makeContentId("entity", ["person", "na"]), "A");
+    const b = personEntity(makeContentId("entity", ["person", "nb"]), "B");
+    const c = personEntity(makeContentId("entity", ["person", "nc"]), "C");
+    const relAB = {
+      id: "relAB",
+      investigationId: "inv1",
+      sourceEntityId: a.id,
+      targetEntityId: b.id,
+      relationshipType: "communication" as const,
+      directed: true,
+      evidenceItemIds: ["i1"],
+      extractedRecordIds: ["e1"],
+      conflicts: [],
+      attributes: {},
+      classification: "observed_fact" as const,
+      provenance: baseProvenance("e1", "loc"),
+    };
+    const graph = buildGraphFromRows([a, b, c], [], [relAB]);
+    const { nodeIds, edgeIds } = getNeighborhood(graph, a.id);
+    expect(nodeIds.sort()).toEqual([a.id, b.id].sort());
+    expect(edgeIds).toEqual(["relAB"]);
+    expect(getNeighborhood(graph, "does-not-exist")).toEqual({ nodeIds: [], edgeIds: [] });
+  });
+});
