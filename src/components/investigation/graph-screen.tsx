@@ -41,11 +41,18 @@ const EDGE_TYPES = ["ownership", "communication", "financial", "co_location", "f
  * Every rendered node/edge is real, persisted graph data — never
  * decorative or fabricated.
  */
-export function GraphScreen({ initialState }: { initialState: GraphState }) {
+export function GraphScreen({
+  initialState,
+  initialFocusNodeId,
+}: {
+  initialState: GraphState;
+  /** Pre-selects and focuses this node on mount — set when the investigator navigates here from the Analytics screen ("view in graph neighborhood"). Pass a fresh `key` at the call site so re-navigating to a different node forces a remount. */
+  initialFocusNodeId?: string;
+}) {
   const [snapshot, setSnapshot] = useState<GraphSnapshot | null>(null);
-  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
+  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(initialFocusNodeId ?? null);
   const [selectedEdgeId, setSelectedEdgeId] = useState<string | null>(null);
-  const [focusMode, setFocusMode] = useState(false);
+  const [focusMode, setFocusMode] = useState(Boolean(initialFocusNodeId));
   const [hiddenKinds, setHiddenKinds] = useState<Set<string>>(new Set());
   const [hiddenTypes, setHiddenTypes] = useState<Set<string>>(new Set());
 
@@ -58,7 +65,10 @@ export function GraphScreen({ initialState }: { initialState: GraphState }) {
   useEffect(() => {
     if (initialState.status !== "synthesized") return;
     let cancelled = false;
-    fetch("/api/graph/snapshot", { cache: "no-store" })
+    const url = initialFocusNodeId
+      ? `/api/graph/snapshot?focus=${encodeURIComponent(initialFocusNodeId)}`
+      : "/api/graph/snapshot";
+    fetch(url, { cache: "no-store" })
       .then((r) => (r.ok ? (r.json() as Promise<GraphSnapshot>) : null))
       .then((data) => {
         if (!cancelled && data) setSnapshot(data);
@@ -66,6 +76,7 @@ export function GraphScreen({ initialState }: { initialState: GraphState }) {
     return () => {
       cancelled = true;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialState]);
 
   const onSelectNode = useCallback(

@@ -15,6 +15,7 @@ import type {
   StageReport,
 } from "@/lib/resolution/types";
 import type { GraphState } from "@/lib/graph/types";
+import type { AnalyticsState } from "@/lib/analytics/types";
 
 import { ResolutionStageList } from "./resolution-stage-list";
 import { ResolutionSummaryPanel } from "./resolution-summary";
@@ -65,11 +66,15 @@ function summaryFromResult(result: ResolutionResult | null): ResolutionSummary |
 export function ResolutionPanel({
   initialState,
   initialGraphState,
+  initialAnalyticsState,
   onGraphStateChange,
+  onAnalyticsStateChange,
 }: {
   initialState: ResolutionState;
   initialGraphState: GraphState;
+  initialAnalyticsState: AnalyticsState;
   onGraphStateChange?: (state: GraphState) => void;
+  onAnalyticsStateChange?: (state: AnalyticsState) => void;
 }) {
   const router = useRouter();
   const serverSummary = initialState.status === "resolved" ? initialState.summary : null;
@@ -228,7 +233,12 @@ export function ResolutionPanel({
             Re-run resolution
           </Button>
         </div>
-        <GraphPanel initialState={initialGraphState} onGraphStateChange={onGraphStateChange} />
+        <GraphPanel
+          initialState={initialGraphState}
+          initialAnalyticsState={initialAnalyticsState}
+          onGraphStateChange={onGraphStateChange}
+          onAnalyticsStateChange={onAnalyticsStateChange}
+        />
       </div>
     );
   }

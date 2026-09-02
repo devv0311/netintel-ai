@@ -12,7 +12,7 @@ import {
 
 import { cn } from "@/lib/utils";
 
-export type NavView = "evidence" | "graph";
+export type NavView = "evidence" | "graph" | "analytics";
 
 interface NavItem {
   icon: typeof FolderOpen;
@@ -27,21 +27,24 @@ interface NavSection {
 }
 
 /**
- * The application sidebar. "Evidence" and "Graph" are real, clickable
- * navigation entries once their backing stage is available — the Graph
- * entry is enabled only once P5.5 graph synthesis has actually
- * succeeded (per its milestone brief: "enable the existing Graph
- * navigation entry only when graph synthesis is successfully
+ * The application sidebar. "Evidence", "Graph", and "Analytics" are
+ * real, clickable navigation entries once their backing stage is
+ * available — the Graph entry enables once P5.5 graph synthesis has
+ * succeeded, and the Analytics entry enables once P5.6 topology
+ * analytics has succeeded (each per its own milestone brief: "enable
+ * the ... navigation entry only when ... synthesis is successfully
  * available"). Every other entry remains a disabled placeholder for a
  * later milestone.
  */
 export function Sidebar({
   activeView,
   graphEnabled,
+  analyticsEnabled,
   onNavigate,
 }: {
   activeView: NavView;
   graphEnabled: boolean;
+  analyticsEnabled: boolean;
   onNavigate: (view: NavView) => void;
 }) {
   const sections: NavSection[] = [
@@ -55,7 +58,7 @@ export function Sidebar({
         { icon: Network, label: "Graph", view: "graph", enabled: graphEnabled },
         { icon: Clock, label: "Timeline", enabled: false },
         { icon: MapIcon, label: "Map", enabled: false },
-        { icon: BarChart3, label: "Analytics", enabled: false },
+        { icon: BarChart3, label: "Analytics", view: "analytics", enabled: analyticsEnabled },
       ],
     },
     {
