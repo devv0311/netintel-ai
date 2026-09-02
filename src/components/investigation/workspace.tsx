@@ -16,6 +16,7 @@ import {
   type StageReport,
 } from "@/lib/ingestion/types";
 import type { ExtractionState } from "@/lib/extraction/types";
+import type { ResolutionState } from "@/lib/resolution/types";
 
 import { StageList } from "./stage-list";
 import { SummaryPanel } from "./summary-panel";
@@ -51,9 +52,11 @@ const NETWORK_ERROR_RESULT: IngestionResult = {
 export function InvestigationWorkspace({
   initialState,
   initialExtractionState,
+  initialResolutionState,
 }: {
   initialState: InvestigationState;
   initialExtractionState: ExtractionState;
+  initialResolutionState: ResolutionState;
 }) {
   const router = useRouter();
   const serverSummary =
@@ -232,7 +235,10 @@ export function InvestigationWorkspace({
               Re-run ingestion
             </Button>
           </div>
-          <ExtractionPanel initialState={initialExtractionState} />
+          <ExtractionPanel
+            initialState={initialExtractionState}
+            initialResolutionState={initialResolutionState}
+          />
         </div>
       );
     }

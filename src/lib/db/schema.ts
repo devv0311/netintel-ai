@@ -194,6 +194,28 @@ export const aiInferences = sqliteTable("ai_inferences", {
   ...provenanceColumns(),
 });
 
+export const resolutionDecisions = sqliteTable("resolution_decisions", {
+  id: text("id").primaryKey(),
+  investigationId: text("investigation_id")
+    .notNull()
+    .references(() => investigations.id),
+  canonicalEntityId: text("canonical_entity_id")
+    .notNull()
+    .references(() => entities.id),
+  extractedRecordIds: text("extracted_record_ids", { mode: "json" })
+    .$type<string[]>()
+    .notNull(),
+  resolutionType: text("resolution_type").notNull(),
+  status: text("status").notNull(),
+  candidateEntityIds: text("candidate_entity_ids", { mode: "json" })
+    .$type<string[]>()
+    .notNull(),
+  conflicts: text("conflicts", { mode: "json" }).$type<string[]>().notNull(),
+  reason: text("reason").notNull(),
+  classification: text("classification").notNull(),
+  ...provenanceColumns(),
+});
+
 export const investigativeLeads = sqliteTable("investigative_leads", {
   id: text("id").primaryKey(),
   investigationId: text("investigation_id")

@@ -31,6 +31,10 @@ import {
   type AIInference,
   type InvestigativeLead,
 } from "@/lib/domain/derived";
+import {
+  ResolutionDecisionSchema,
+  type ResolutionDecision,
+} from "@/lib/domain/resolution";
 
 /**
  * The validated data-access layer. This is the ONLY place application
@@ -433,6 +437,51 @@ export async function listRelationships(): Promise<Relationship[]> {
         provenance: columnsToProvenance(row),
       },
       "listRelationships",
+    ),
+  );
+}
+
+// --- Resolution decisions ----------------------------------------------
+
+export async function insertResolutionDecision(data: unknown): Promise<ResolutionDecision> {
+  const decision = validateOrThrow(ResolutionDecisionSchema, data, "insertResolutionDecision");
+  const db = getDb();
+  await db.insert(schema.resolutionDecisions).values({
+    id: decision.id,
+    investigationId: decision.investigationId,
+    canonicalEntityId: decision.canonicalEntityId,
+    extractedRecordIds: decision.extractedRecordIds,
+    resolutionType: decision.resolutionType,
+    status: decision.status,
+    candidateEntityIds: decision.candidateEntityIds,
+    conflicts: decision.conflicts,
+    reason: decision.reason,
+    classification: decision.classification,
+    ...provenanceToColumns(decision.provenance),
+  });
+  return decision;
+}
+
+export async function listResolutionDecisions(): Promise<ResolutionDecision[]> {
+  const db = getDb();
+  const rows = await db.select().from(schema.resolutionDecisions);
+  return rows.map((row) =>
+    validateOrThrow(
+      ResolutionDecisionSchema,
+      {
+        id: row.id,
+        investigationId: row.investigationId,
+        canonicalEntityId: row.canonicalEntityId,
+        extractedRecordIds: row.extractedRecordIds,
+        resolutionType: row.resolutionType,
+        status: row.status,
+        candidateEntityIds: row.candidateEntityIds,
+        conflicts: row.conflicts,
+        reason: row.reason,
+        classification: row.classification,
+        provenance: columnsToProvenance(row),
+      },
+      "listResolutionDecisions",
     ),
   );
 }

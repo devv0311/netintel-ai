@@ -1,0 +1,20 @@
+CREATE TABLE `resolution_decisions` (
+	`id` text PRIMARY KEY,
+	`investigation_id` text NOT NULL,
+	`canonical_entity_id` text NOT NULL,
+	`extracted_record_ids` text NOT NULL,
+	`resolution_type` text NOT NULL,
+	`status` text NOT NULL,
+	`candidate_entity_ids` text NOT NULL,
+	`conflicts` text NOT NULL,
+	`reason` text NOT NULL,
+	`classification` text NOT NULL,
+	`provenance_source` text NOT NULL,
+	`provenance_location` text NOT NULL,
+	`provenance_method` text NOT NULL,
+	`provenance_confidence` real NOT NULL,
+	`provenance_processing_history` text NOT NULL,
+	`provenance_timestamp` text NOT NULL,
+	CONSTRAINT `fk_resolution_decisions_investigation_id_investigations_id_fk` FOREIGN KEY (`investigation_id`) REFERENCES `investigations`(`id`),
+	CONSTRAINT `fk_resolution_decisions_canonical_entity_id_entities_id_fk` FOREIGN KEY (`canonical_entity_id`) REFERENCES `entities`(`id`)
+);

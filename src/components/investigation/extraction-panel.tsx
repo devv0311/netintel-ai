@@ -15,10 +15,13 @@ import type {
   StageReport,
 } from "@/lib/extraction/types";
 
+import type { ResolutionState } from "@/lib/resolution/types";
+
 import { ExtractionStageList } from "./extraction-stage-list";
 import { ExtractionSummaryPanel } from "./extraction-summary";
 import { ExtractionErrorView } from "./extraction-error";
 import { ExtractionFacts } from "./extraction-facts";
+import { ResolutionPanel } from "./resolution-panel";
 
 type Phase = "idle" | "running" | "done" | "error";
 
@@ -66,7 +69,13 @@ const NETWORK_ERROR_RESULT: ExtractionResult = {
  * newline-delimited event stream of POST /api/extraction — nothing here
  * is a simulated animation.
  */
-export function ExtractionPanel({ initialState }: { initialState: ExtractionState }) {
+export function ExtractionPanel({
+  initialState,
+  initialResolutionState,
+}: {
+  initialState: ExtractionState;
+  initialResolutionState: ResolutionState;
+}) {
   const router = useRouter();
   const serverSummary = initialState.status === "extracted" ? initialState.summary : null;
 
@@ -228,6 +237,7 @@ export function ExtractionPanel({ initialState }: { initialState: ExtractionStat
             Re-run extraction
           </Button>
         </div>
+        <ResolutionPanel initialState={initialResolutionState} />
       </div>
     );
   }
