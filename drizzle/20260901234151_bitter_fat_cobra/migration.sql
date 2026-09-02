@@ -1,0 +1,1 @@
+ALTER TABLE `extracted_records` ADD `classification` text NOT NULL;

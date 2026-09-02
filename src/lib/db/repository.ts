@@ -162,6 +162,7 @@ export async function insertExtractedRecord(data: unknown): Promise<ExtractedRec
     evidenceItemId: record.evidenceItemId,
     recordType: record.recordType,
     data: record.data,
+    classification: record.classification,
     ...provenanceToColumns(record.provenance),
   });
   return record;
@@ -178,6 +179,7 @@ export async function listExtractedRecords(): Promise<ExtractedRecord[]> {
         evidenceItemId: row.evidenceItemId,
         recordType: row.recordType,
         data: row.data,
+        classification: row.classification,
         provenance: columnsToProvenance(row),
       },
       "listExtractedRecords",

@@ -10,7 +10,7 @@
 Status: Early Implementation
 ```
 
-The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap (P4.1) and the domain/data foundation (P4.2) — typed domain models, deterministic IDs, executable provenance, a migrated SQLite schema, and a validated fixture-loading boundary — are in place. The full synthetic investigation corpus (P5.1) — Operation DarkNet Delhi, generated deterministically from a fixed version/seed: 5 FIRs, 8 suspects, 1,150 CDRs, 560 transactions and supporting records, with a held-out ground-truth answer key kept isolated from the evidence path (`docs/data/corpus.md`) — exists under `evidence/`. The **evidence ingestion workflow** (P5.2) is implemented: a real, streamed, 8-stage pipeline (validate → normalize → assign deterministic IDs → attach provenance → persist) that loads the corpus into the application and shows the investigation loaded with its evidence summary; deterministic and idempotent (`docs/data/ingestion.md`). Extraction, entity resolution, graph synthesis, analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
+The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap (P4.1) and the domain/data foundation (P4.2) — typed domain models, deterministic IDs, executable provenance, a migrated SQLite schema, and a validated fixture-loading boundary — are in place. The full synthetic investigation corpus (P5.1) — Operation DarkNet Delhi, generated deterministically from a fixed version/seed: 5 FIRs, 8 suspects, 1,150 CDRs, 560 transactions and supporting records, with a held-out ground-truth answer key kept isolated from the evidence path (`docs/data/corpus.md`) — exists under `evidence/`. The **evidence ingestion workflow** (P5.2) is implemented: a real, streamed, 8-stage pipeline (validate → normalize → assign deterministic IDs → attach provenance → persist) that loads the corpus into the application and shows the investigation loaded with its evidence summary; deterministic and idempotent (`docs/data/ingestion.md`). The **evidence extraction workflow** (P5.3) is implemented: a real, streamed, 7-stage pipeline (select evidence → parse content → extract explicit facts → validate → attach provenance → persist) that structures every explicitly-stated fact across the 12 evidence types into 1,996 extracted records, each classified Observed Fact with full provenance; deterministic and idempotent, with no entity resolution or investigative inference performed (`docs/data/extraction.md`). Entity resolution, graph synthesis, analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
 
 ## ⚠️ Important Disclaimer
 
@@ -74,9 +74,11 @@ netintel-ai/
 ├── src/                    # Application source (Next.js App Router)
 │   ├── app/                  # Routes, layout, global styles
 │   ├── components/            # UI — components/ui (shadcn primitives), components/shell (app shell)
-│   └── lib/                     # ai/, db/ (schema + validated repository), domain/ (typed domain
-│                                   models), env, fixtures/ (synthetic + ground-truth loaders),
-│                                   graph/, pipeline/, utils
+│   └── lib/                     # ai/, corpus/ (deterministic corpus generator/loader), db/ (schema +
+│                                   validated repository), domain/ (typed domain models), env,
+│                                   extraction/ (P5.3 extraction pipeline), fixtures/ (synthetic +
+│                                   ground-truth loaders), graph/, ingestion/ (P5.2 ingestion
+│                                   pipeline), pipeline/, utils
 ├── tests/                  # tests/unit (Vitest), tests/e2e (Playwright)
 ├── drizzle/                # Generated SQL migrations
 ├── data/                   # Local SQLite database (git-ignored, created on first run)
@@ -119,7 +121,7 @@ Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker for appli
 
 ## Getting Started
 
-**Status**: the application foundation (P4.1), domain/data foundation (P4.2), the synthetic corpus (P5.1) and the **evidence ingestion workflow** (P5.2) are in place. You can load the Operation DarkNet Delhi synthetic corpus into the application through a real ingestion pipeline and see the investigation loaded with its evidence summary. Extraction, entity resolution, graph synthesis, analytics, corroboration, the Copilot, and reporting are later milestones.
+**Status**: the application foundation (P4.1), domain/data foundation (P4.2), the synthetic corpus (P5.1), the **evidence ingestion workflow** (P5.2), and the **evidence extraction workflow** (P5.3) are in place. You can load the Operation DarkNet Delhi synthetic corpus through a real ingestion pipeline, then extract every explicitly-stated fact from it into provenance-tracked, Observed-Fact-classified records. Entity resolution, graph synthesis, analytics, corroboration, the Copilot, and reporting are later milestones.
 
 Requirements: Node.js 26.8.1+ (provides the built-in `node:sqlite` module). No Docker required.
 
@@ -138,10 +140,17 @@ start the app  →  open http://localhost:3000
 →  investigation loaded: 6 sources · 1,820 evidence items · 1,150 communications ·
    560 financial transactions · 14 locations
 →  reload / "Re-run ingestion"  →  state persists, re-ingestion is idempotent
+→  "Extract Evidence"  →  watch the 7 real extraction stages
+→  evidence extracted: 1,996 records (99 entity mentions · 60 attribute mentions ·
+   123 relationship mentions · 1,714 event mentions), each Observed Fact
+→  reload / "Re-run extraction"  →  state persists, re-extraction is idempotent
 ```
 
-Ingestion is fully local and deterministic (one SQLite file, one JSON corpus,
-no Anthropic call, no Docker). Details: `docs/data/ingestion.md`.
+Ingestion and extraction are fully local and deterministic (one SQLite file, one
+JSON corpus, no Anthropic call, no Docker). Details: `docs/data/ingestion.md`,
+`docs/data/extraction.md`. Extraction performs no entity resolution, relationship
+inference, or investigative conclusions — every extracted record states only what
+a single source explicitly says.
 
 Other scripts:
 

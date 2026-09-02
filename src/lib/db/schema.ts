@@ -87,6 +87,7 @@ export const extractedRecords = sqliteTable("extracted_records", {
     .references(() => evidenceItems.id),
   recordType: text("record_type").notNull(),
   data: text("data", { mode: "json" }).$type<Record<string, unknown>>().notNull(),
+  classification: text("classification").notNull(),
   ...provenanceColumns(),
 });
 

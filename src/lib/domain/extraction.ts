@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { ProvenanceSchema } from "./provenance";
+import { ProvenanceSchema, EvidenceClassificationSchema } from "./provenance";
 
 /**
  * An ExtractedRecord is one structured item (entity mention, event
@@ -25,6 +25,15 @@ export const ExtractedRecordSchema = z.object({
   recordType: ExtractedRecordTypeSchema,
   /** The extracted payload, shaped according to recordType. */
   data: z.record(z.string(), z.unknown()),
+  /**
+   * Per docs/requirements.md §7: every fact the system produces must
+   * carry exactly one evidence classification, visible wherever it is
+   * displayed. Extraction only ever reads a single directly-stated
+   * field from a single source with no inference applied, so this is
+   * always "observed_fact" for this stage — corroboration, inference,
+   * signals, and leads are all later stages' outputs, never this one's.
+   */
+  classification: EvidenceClassificationSchema,
   provenance: ProvenanceSchema,
 });
 export type ExtractedRecord = z.infer<typeof ExtractedRecordSchema>;

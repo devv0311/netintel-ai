@@ -15,10 +15,12 @@ import {
   type InvestigationSummary,
   type StageReport,
 } from "@/lib/ingestion/types";
+import type { ExtractionState } from "@/lib/extraction/types";
 
 import { StageList } from "./stage-list";
 import { SummaryPanel } from "./summary-panel";
 import { IngestError } from "./ingest-error";
+import { ExtractionPanel } from "./extraction-panel";
 
 type Phase = "idle" | "running" | "done" | "error";
 
@@ -48,8 +50,10 @@ const NETWORK_ERROR_RESULT: IngestionResult = {
  */
 export function InvestigationWorkspace({
   initialState,
+  initialExtractionState,
 }: {
   initialState: InvestigationState;
+  initialExtractionState: ExtractionState;
 }) {
   const router = useRouter();
   const serverSummary =
@@ -228,6 +232,7 @@ export function InvestigationWorkspace({
               Re-run ingestion
             </Button>
           </div>
+          <ExtractionPanel initialState={initialExtractionState} />
         </div>
       );
     }

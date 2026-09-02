@@ -128,9 +128,9 @@ export function SummaryPanel({
       <Card>
         <span className="text-sm font-medium">Next steps</span>
         <p className="text-xs text-muted-foreground">
-          Extraction, entity resolution, graph synthesis, analytics, corroboration, the
-          Copilot, and the dossier are later milestones. Their navigation entries remain
-          unavailable until then.
+          Extraction is available below. Entity resolution, graph synthesis, analytics,
+          corroboration, the Copilot, and the dossier are later milestones — their
+          navigation entries remain unavailable until then.
         </p>
       </Card>
     </div>
