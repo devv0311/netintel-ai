@@ -14,11 +14,13 @@ import type {
   ResolvedEntitiesPage,
   StageReport,
 } from "@/lib/resolution/types";
+import type { GraphState } from "@/lib/graph/types";
 
 import { ResolutionStageList } from "./resolution-stage-list";
 import { ResolutionSummaryPanel } from "./resolution-summary";
 import { ResolutionErrorView } from "./resolution-error";
 import { ResolutionEntities } from "./resolution-entities";
+import { GraphPanel } from "./graph-panel";
 
 type Phase = "idle" | "running" | "done" | "error";
 
@@ -60,7 +62,15 @@ function summaryFromResult(result: ResolutionResult | null): ResolutionSummary |
  * Rendered only once extraction is done. Progress comes from the real
  * newline-delimited event stream of POST /api/resolution.
  */
-export function ResolutionPanel({ initialState }: { initialState: ResolutionState }) {
+export function ResolutionPanel({
+  initialState,
+  initialGraphState,
+  onGraphStateChange,
+}: {
+  initialState: ResolutionState;
+  initialGraphState: GraphState;
+  onGraphStateChange?: (state: GraphState) => void;
+}) {
   const router = useRouter();
   const serverSummary = initialState.status === "resolved" ? initialState.summary : null;
 
@@ -218,6 +228,7 @@ export function ResolutionPanel({ initialState }: { initialState: ResolutionStat
             Re-run resolution
           </Button>
         </div>
+        <GraphPanel initialState={initialGraphState} onGraphStateChange={onGraphStateChange} />
       </div>
     );
   }

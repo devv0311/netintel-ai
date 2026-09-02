@@ -7,6 +7,7 @@ import { synthesizeGraph } from "@/lib/graph/build";
 import { makeContentId, makeOpaqueId } from "@/lib/domain/ids";
 import type { Entity } from "@/lib/domain/entity";
 import type { ExtractedRecord } from "@/lib/domain/extraction";
+import type { Location } from "@/lib/domain/location";
 import type { ResolutionDecision } from "@/lib/domain/resolution";
 
 describe("createEmptyGraph", () => {
@@ -86,6 +87,19 @@ function record(
   };
 }
 
+/** A real, already-ingested Location row (P5.2), per src/lib/corpus/load.ts's id scheme. */
+function locationRow(label: string, locationType: Location["locationType"] = "cell_tower"): Location {
+  return {
+    id: makeContentId("location", [label, locationType]),
+    investigationId: "inv1",
+    label,
+    locationType,
+    latitude: 28.5,
+    longitude: 77.2,
+    provenance: baseProvenance("evidence_item_loc", "loc"),
+  };
+}
+
 describe("synthesizeGraph — ownership edges via same-item sibling lookup", () => {
   it("links a person to a phone via has_phone using the sibling person entity_mention, not name matching", () => {
     const personEntityMention = record("er_p1", "item1", "entity_mention", {
@@ -109,7 +123,7 @@ describe("synthesizeGraph — ownership edges via same-item sibling lookup", () 
     const decisions = [decision(personId, "er_p1"), decision(phoneId, "er_p2")];
     const records = [personEntityMention, hasPhone, phoneEntityMention];
 
-    const output = synthesizeGraph(entities, [], decisions, records, "inv1", NOW);
+    const output = synthesizeGraph(entities, [], decisions, records, [], "inv1", NOW);
 
     const edge = output.relationships.find((r) => r.relationshipType === "ownership");
     expect(edge).toBeDefined();
@@ -148,7 +162,7 @@ describe("synthesizeGraph — ownership edges via same-item sibling lookup", () 
     const decisions = [decision(personId, "er_p1"), decision(phoneId, "er_p2")];
     const records = [personEntityMention, hasPhone, phoneEntityMention, subscriberRel];
 
-    const output = synthesizeGraph(entities, [], decisions, records, "inv1", NOW);
+    const output = synthesizeGraph(entities, [], decisions, records, [], "inv1", NOW);
     const edges = output.relationships.filter((r) => r.relationshipType === "ownership");
     expect(edges).toHaveLength(1); // aggregated, not duplicated
     expect(edges[0]!.evidenceItemIds.sort()).toEqual(["item1", "item2"]);
@@ -174,7 +188,7 @@ describe("synthesizeGraph — identifier-anchored ownership via bounded name loo
     const decisions = [decision(vehicleId, "er_v1")];
     const records = [vehicleEntityMention, registeredTo];
 
-    const output = synthesizeGraph(entities, [], decisions, records, "inv1", NOW);
+    const output = synthesizeGraph(entities, [], decisions, records, [], "inv1", NOW);
     const edge = output.relationships.find((r) => r.relationshipType === "ownership");
     expect(edge).toBeDefined();
     expect(edge!.sourceEntityId).toBe(personId);
@@ -202,7 +216,7 @@ describe("synthesizeGraph — identifier-anchored ownership via bounded name loo
     const decisions = [decision(vehicleId, "er_v1")];
     const records = [vehicleEntityMention, registeredTo];
 
-    const output = synthesizeGraph(entities, [], decisions, records, "inv1", NOW);
+    const output = synthesizeGraph(entities, [], decisions, records, [], "inv1", NOW);
     expect(output.relationships).toEqual([]);
     expect(output.warnings.some((w) => w.includes("did not resolve to exactly one"))).toBe(true);
   });
@@ -230,12 +244,11 @@ describe("synthesizeGraph — financial chain and non-invention of a direct link
       currency: "INR",
       valueDate: NOW,
     });
-    const output = synthesizeGraph(entities, [], [], [txn1, txn2], "inv1", NOW);
+    const output = synthesizeGraph(entities, [], [], [txn1, txn2], [], "inv1", NOW);
     const financial = output.relationships.filter((r) => r.relationshipType === "financial");
     expect(financial.some((r) => r.sourceEntityId === accA.id && r.targetEntityId === accB.id)).toBe(true);
     expect(financial.some((r) => r.sourceEntityId === accB.id && r.targetEntityId === accC.id)).toBe(true);
     expect(financial.some((r) => r.sourceEntityId === accA.id && r.targetEntityId === accC.id)).toBe(false);
-    expect(output.financialTransactions).toHaveLength(2);
   });
 
   it("derives a person↔person financial edge only via the ownership chain, classified ai_inference", () => {
@@ -269,7 +282,7 @@ describe("synthesizeGraph — financial chain and non-invention of a direct link
     const decisions = [decision(personA.id, "er_pa"), decision(personB.id, "er_pb")];
     const records = [personAMention, hasAccountA, personBMention, hasAccountB, txn];
 
-    const output = synthesizeGraph(entities, [], decisions, records, "inv1", NOW);
+    const output = synthesizeGraph(entities, [], decisions, records, [], "inv1", NOW);
     const derived = output.relationships.find(
       (r) => r.relationshipType === "financial" && r.sourceEntityId === personA.id && r.targetEntityId === personB.id,
     );
@@ -282,15 +295,20 @@ describe("synthesizeGraph — financial chain and non-invention of a direct link
 });
 
 describe("synthesizeGraph — communication and co-location", () => {
-  it("builds a phone↔phone communication edge and phone↔location co_location edges from a CDR event", () => {
+  it("builds a phone↔phone communication edge and phone↔location co_location edges from a CDR event, using the already-ingested Location row", () => {
     const phoneA = identifierEntity(makeContentId("entity", ["phone", "+91-111"]), "phone", "+91-111");
     const phoneB = identifierEntity(makeContentId("entity", ["phone", "+91-222"]), "phone", "+91-222");
-    const towerLabel = "SYN-CT-07";
-    const towerId = makeContentId("location", [towerLabel]);
+    const towerLabel = "Synthetic Cell Tower CT-07 (sector grid G)";
+    const tower = locationRow(towerLabel, "cell_tower");
     const entities = [phoneA, phoneB];
+    // The location_record entity_mention (extraction's own copy of the
+    // fact) — cross-referenced by build.ts to bridge the CDR event's bare
+    // "SYN-CT-07" key to the real, already-persisted Location row above,
+    // exactly as extraction's data.recordRef format requires.
     const locationMention = record("er_loc1", "item_loc1", "entity_mention", {
       mentionKind: "location",
       observedValue: towerLabel,
+      recordRef: "location:SYN-CT-07",
       locationType: "cell_tower",
       latitude: 28.5,
       longitude: 77.2,
@@ -301,13 +319,10 @@ describe("synthesizeGraph — communication and co-location", () => {
       calleeNumber: "+91-222",
       startedAt: NOW,
       durationSeconds: 120,
-      cellTower: towerLabel,
+      cellTower: "SYN-CT-07",
     });
 
-    const output = synthesizeGraph(entities, [], [], [locationMention, cdr], "inv1", NOW);
-
-    expect(output.locations).toHaveLength(1);
-    expect(output.locations[0]!.id).toBe(towerId);
+    const output = synthesizeGraph(entities, [], [], [locationMention, cdr], [tower], "inv1", NOW);
 
     const comm = output.relationships.find((r) => r.relationshipType === "communication");
     expect(comm).toBeDefined();
@@ -315,12 +330,25 @@ describe("synthesizeGraph — communication and co-location", () => {
     expect(comm!.targetEntityId).toBe(phoneB.id);
 
     const coLocations = output.relationships.filter((r) => r.relationshipType === "co_location");
-    expect(coLocations.some((r) => r.sourceEntityId === phoneA.id && r.targetEntityId === towerId)).toBe(true);
-    expect(coLocations.some((r) => r.sourceEntityId === phoneB.id && r.targetEntityId === towerId)).toBe(true);
+    expect(coLocations.some((r) => r.sourceEntityId === phoneA.id && r.targetEntityId === tower.id)).toBe(true);
+    expect(coLocations.some((r) => r.sourceEntityId === phoneB.id && r.targetEntityId === tower.id)).toBe(true);
+  });
 
-    expect(output.communicationEvents).toHaveLength(1);
-    expect(output.communicationEvents[0]!.callerEntityId).toBe(phoneA.id);
-    expect(output.communicationEvents[0]!.cellLocationId).toBe(towerId);
+  it("still matches a location by its human-readable label directly, when evidence names it that way", () => {
+    const phoneA = identifierEntity(makeContentId("entity", ["phone", "+91-444"]), "phone", "+91-444");
+    const phoneB = identifierEntity(makeContentId("entity", ["phone", "+91-555"]), "phone", "+91-555");
+    const tower = locationRow("Fictional residence ADDR-01 (synthetic)", "address");
+    const cdr = record("er_cdr2", "item_cdr2", "event_mention", {
+      eventKind: "communication",
+      callerNumber: "+91-444",
+      calleeNumber: "+91-555",
+      startedAt: NOW,
+      durationSeconds: 60,
+      cellTower: "Fictional residence ADDR-01 (synthetic)",
+    });
+    const output = synthesizeGraph([phoneA, phoneB], [], [], [cdr], [tower], "inv1", NOW);
+    const coLocations = output.relationships.filter((r) => r.relationshipType === "co_location");
+    expect(coLocations.some((r) => r.sourceEntityId === phoneA.id && r.targetEntityId === tower.id)).toBe(true);
   });
 });
 
@@ -331,7 +359,7 @@ describe("synthesizeGraph — unsupported and missing-endpoint handling", () => 
       subject: "a",
       observedValue: "b",
     });
-    const output = synthesizeGraph([], [], [], [r], "inv1", NOW);
+    const output = synthesizeGraph([], [], [], [r], [], "inv1", NOW);
     expect(output.relationships).toEqual([]);
     expect(output.warnings.some((w) => w.includes("Unsupported relationship_mention type"))).toBe(true);
   });
@@ -342,7 +370,7 @@ describe("synthesizeGraph — unsupported and missing-endpoint handling", () => 
       subject: "+91-999",
       observedValue: "IMEI-999",
     });
-    const output = synthesizeGraph([], [], [], [r], "inv1", NOW);
+    const output = synthesizeGraph([], [], [], [r], [], "inv1", NOW);
     expect(output.relationships).toEqual([]);
     expect(output.warnings.some((w) => w.includes("never canonicalized"))).toBe(true);
   });
@@ -354,7 +382,7 @@ describe("synthesizeGraph — unsupported and missing-endpoint handling", () => 
       subject: "Nobody",
       observedValue: "+91-333",
     });
-    const output = synthesizeGraph([phoneEntity], [], [], [hasPhone], "inv1", NOW);
+    const output = synthesizeGraph([phoneEntity], [], [], [hasPhone], [], "inv1", NOW);
     expect(output.relationships).toEqual([]);
     expect(output.warnings.some((w) => w.includes("no sibling person entity_mention"))).toBe(true);
   });
@@ -362,7 +390,7 @@ describe("synthesizeGraph — unsupported and missing-endpoint handling", () => 
   it("never creates a has_alias/alias_of graph edge (resolution's job)", () => {
     const r1 = record("er_a1", "item_a1", "relationship_mention", { relationshipType: "has_alias", subject: "X", observedValue: "Y" });
     const r2 = record("er_a2", "item_a2", "relationship_mention", { relationshipType: "alias_of", subject: "X", observedValue: "Y" });
-    const output = synthesizeGraph([], [], [], [r1, r2], "inv1", NOW);
+    const output = synthesizeGraph([], [], [], [r1, r2], [], "inv1", NOW);
     expect(output.relationships).toEqual([]);
     expect(output.warnings).toEqual([]);
   });
@@ -385,17 +413,9 @@ describe("verify.assertProvenance — endpoint & classification invariants", () 
       classification: "observed_fact" as const,
       provenance: baseProvenance("er1", "loc"),
     };
-    const validated = validateOutputs([], [], [], [bogus]);
+    const validated = validateOutputs([bogus]);
     expect(() =>
-      assertProvenance(
-        validated.locations,
-        validated.communicationEvents,
-        validated.financialTransactions,
-        validated.relationships,
-        new Set(["entity_real"]),
-        new Set(),
-        new Set(["er1"]),
-      ),
+      assertProvenance(validated.relationships, new Set(["entity_real"]), new Set(), new Set(["er1"])),
     ).toThrow();
   });
 
@@ -415,17 +435,9 @@ describe("verify.assertProvenance — endpoint & classification invariants", () 
       classification: "corroborated_fact" as const,
       provenance: baseProvenance("er1", "loc"),
     };
-    const validated = validateOutputs([], [], [], [bogus]);
+    const validated = validateOutputs([bogus]);
     expect(() =>
-      assertProvenance(
-        validated.locations,
-        validated.communicationEvents,
-        validated.financialTransactions,
-        validated.relationships,
-        new Set(["entity_a", "entity_b"]),
-        new Set(),
-        new Set(["er1"]),
-      ),
+      assertProvenance(validated.relationships, new Set(["entity_a", "entity_b"]), new Set(), new Set(["er1"])),
     ).toThrow();
   });
 
@@ -445,16 +457,8 @@ describe("verify.assertProvenance — endpoint & classification invariants", () 
       classification: "observed_fact" as const,
       provenance: baseProvenance("er1", "loc"),
     };
-    const validated = validateOutputs([], [], [], [good]);
-    const count = assertProvenance(
-      validated.locations,
-      validated.communicationEvents,
-      validated.financialTransactions,
-      validated.relationships,
-      new Set(["entity_a", "entity_b"]),
-      new Set(),
-      new Set(["er1"]),
-    );
+    const validated = validateOutputs([good]);
+    const count = assertProvenance(validated.relationships, new Set(["entity_a", "entity_b"]), new Set(), new Set(["er1"]));
     expect(count).toBe(1);
   });
 });
@@ -508,7 +512,7 @@ describe("idempotentPersistGraph — partial retry", () => {
       targetEntityId: otherTargetId,
     };
 
-    const persisted = await idempotentPersistGraph([], [], [], [relA, relB]);
+    const persisted = await idempotentPersistGraph([relA, relB]);
     expect(persisted.relationshipsCreated).toBe(1);
     expect(persisted.relationshipsSkipped).toBe(1);
   });
@@ -665,7 +669,11 @@ describe("graph synthesis — full Operation DarkNet Delhi corpus", () => {
     const entities = await mod.repo.listEntities();
     const locations = await mod.repo.listLocations();
     expect(entities.length).toBe(54);
-    expect(locations.length).toBeGreaterThan(0);
+    // Locations are P5.2 ingestion's rows (14, per docs/data/corpus.md) —
+    // graph synthesis must read them, never create a second copy under a
+    // different id (a real bug this suite caught: co_location edges were
+    // matching on the wrong id scheme and about to mint duplicates).
+    expect(locations.length).toBe(14);
     for (const kind of ["person", "phone", "imei", "vehicle", "bank_account"]) {
       expect(entities.some((e) => e.kind === kind)).toBe(true);
     }
@@ -719,25 +727,18 @@ describe("graph synthesis — full Operation DarkNet Delhi corpus", () => {
     const rerun = await mod.runGraphSynthesis();
     expect(rerun.status).toBe("already_synthesized");
     expect(rerun.persisted?.relationshipsCreated).toBe(0);
-    expect(rerun.persisted?.locationsCreated).toBe(0);
-    expect(rerun.persisted?.communicationEventsCreated).toBe(0);
-    expect(rerun.persisted?.financialTransactionsCreated).toBe(0);
     const after = (await mod.repo.listRelationships()).map((r) => r.id).sort();
     expect(after).toEqual(before);
   });
 
   it("9. a partial-write retry persists only the rows still missing", async () => {
     const all = await mod.repo.listRelationships();
-    const locations = await mod.repo.listLocations();
-    const comms = await mod.repo.listCommunicationEvents();
-    const txns = await mod.repo.listFinancialTransactions();
     // Everything is already persisted from beforeAll — a repeat call over
     // the identical full set must skip 100%, proving row-level id-based
     // skipping (not just the marker) drives idempotency.
-    const persisted = await mod.idempotentPersistGraph(locations, comms, txns, all);
+    const persisted = await mod.idempotentPersistGraph(all);
     expect(persisted.relationshipsCreated).toBe(0);
     expect(persisted.relationshipsSkipped).toBe(all.length);
-    expect(persisted.locationsSkipped).toBe(locations.length);
   });
 
   it("12. contradictory attribute_mention evidence survives graph synthesis untouched", async () => {

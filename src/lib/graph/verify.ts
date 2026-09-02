@@ -1,56 +1,20 @@
-import { CommunicationEventSchema, FinancialTransactionSchema, type CommunicationEvent, type FinancialTransaction } from "@/lib/domain/events";
-import { LocationSchema, type Location } from "@/lib/domain/location";
 import { EVIDENCE_CLASSIFICATIONS } from "@/lib/domain/provenance";
 import { RelationshipSchema, type Relationship } from "@/lib/domain/relationship";
 import { validateSafe } from "@/lib/domain/validation";
 
-import type {
-  CommunicationEventCandidate,
-  FinancialTransactionCandidate,
-  LocationCandidate,
-  RelationshipCandidate,
-} from "./build";
+import type { RelationshipCandidate } from "./build";
 import { GraphServiceError } from "./errors";
 
 /**
- * Stage: validate graph outputs — every candidate must pass the same
- * Zod schema the repository enforces on write, checked explicitly here
- * (not only implicitly at insert time), mirroring
- * src/lib/resolution/verify.ts.
+ * Stage: validate graph outputs — every relationship candidate must
+ * pass the same Zod schema the repository enforces on write, checked
+ * explicitly here (not only implicitly at insert time), mirroring
+ * src/lib/resolution/verify.ts. There is nothing else to validate here:
+ * locations/communication_events/financial_transactions are P5.2
+ * ingestion's rows, read-only from this module's point of view.
  */
-export function validateOutputs(
-  locationCandidates: LocationCandidate[],
-  communicationEventCandidates: CommunicationEventCandidate[],
-  financialTransactionCandidates: FinancialTransactionCandidate[],
-  relationshipCandidates: RelationshipCandidate[],
-): {
-  locations: Location[];
-  communicationEvents: CommunicationEvent[];
-  financialTransactions: FinancialTransaction[];
-  relationships: Relationship[];
-} {
+export function validateOutputs(relationshipCandidates: RelationshipCandidate[]): { relationships: Relationship[] } {
   const errors: string[] = [];
-
-  const locations: Location[] = [];
-  for (const c of locationCandidates) {
-    const result = validateSafe(LocationSchema, c);
-    if (result.valid) locations.push(result.data);
-    else errors.push(`location "${c.label}": ${result.errors.map((e) => `${e.path?.join(".") ?? "(root)"}: ${e.message}`).join("; ")}`);
-  }
-
-  const communicationEvents: CommunicationEvent[] = [];
-  for (const c of communicationEventCandidates) {
-    const result = validateSafe(CommunicationEventSchema, c);
-    if (result.valid) communicationEvents.push(result.data);
-    else errors.push(`communication event "${c.id}": ${result.errors.map((e) => `${e.path?.join(".") ?? "(root)"}: ${e.message}`).join("; ")}`);
-  }
-
-  const financialTransactions: FinancialTransaction[] = [];
-  for (const c of financialTransactionCandidates) {
-    const result = validateSafe(FinancialTransactionSchema, c);
-    if (result.valid) financialTransactions.push(result.data);
-    else errors.push(`financial transaction "${c.id}": ${result.errors.map((e) => `${e.path?.join(".") ?? "(root)"}: ${e.message}`).join("; ")}`);
-  }
 
   const relationships: Relationship[] = [];
   for (const c of relationshipCandidates) {
@@ -63,34 +27,30 @@ export function validateOutputs(
     throw new GraphServiceError(
       "VALIDATION_FAILURE",
       "validate_endpoints",
-      "One or more graph outputs failed validation and were rejected.",
+      "One or more relationship candidates failed validation and were rejected.",
       errors,
     );
   }
 
-  return { locations, communicationEvents, financialTransactions, relationships };
+  return { relationships };
 }
 
 /**
  * Verifies every relationship's endpoints resolve to a real, currently-
- * persisted entity OR location id (never a raw name, never an id this
- * run didn't itself produce or that isn't already in the DB), that
- * classification only ever takes a value graph synthesis is allowed to
- * assign (never algorithmic_signal/investigative_lead — those belong to
- * later milestones), and that provenance is complete.
+ * persisted entity OR location id (never a raw name, never an
+ * invented id), that classification only ever takes a value graph
+ * synthesis is allowed to assign (never algorithmic_signal/
+ * investigative_lead — those belong to later milestones), and that
+ * provenance is complete.
  */
 export function assertProvenance(
-  locations: Location[],
-  communicationEvents: CommunicationEvent[],
-  financialTransactions: FinancialTransaction[],
   relationships: Relationship[],
   knownEntityIds: Set<string>,
   knownLocationIds: Set<string>,
   knownExtractedRecordIds: Set<string>,
 ): number {
   const problems: string[] = [];
-  const allLocationIds = new Set([...knownLocationIds, ...locations.map((l) => l.id)]);
-  const allValidEndpointIds = new Set([...knownEntityIds, ...allLocationIds]);
+  const allValidEndpointIds = new Set([...knownEntityIds, ...knownLocationIds]);
 
   const checkProvenance = (
     p: { source: string; location: string; method: string; confidence: number; processingHistory: string[] },
@@ -102,10 +62,6 @@ export function assertProvenance(
       problems.push(`${what}: provenance.processingHistory is empty`);
     }
   };
-
-  for (const l of locations) checkProvenance(l.provenance, `location ${l.id}`);
-  for (const c of communicationEvents) checkProvenance(c.provenance, `communication_event ${c.id}`);
-  for (const t of financialTransactions) checkProvenance(t.provenance, `financial_transaction ${t.id}`);
 
   const ALLOWED_CLASSIFICATIONS = new Set(["observed_fact", "corroborated_fact", "ai_inference"]);
   for (const r of relationships) {
@@ -134,8 +90,8 @@ export function assertProvenance(
   }
 
   if (problems.length > 0) {
-    throw new GraphServiceError("VALIDATION_FAILURE", "attach_provenance", "Provenance verification failed for one or more graph outputs.", problems);
+    throw new GraphServiceError("VALIDATION_FAILURE", "attach_provenance", "Provenance verification failed for one or more relationships.", problems);
   }
 
-  return locations.length + communicationEvents.length + financialTransactions.length + relationships.length;
+  return relationships.length;
 }

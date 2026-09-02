@@ -27,27 +27,24 @@ import { assertProvenance, validateOutputs } from "./verify";
  * persistence error all come back as `status: "failed"` with a
  * user-safe `error`.
  *
- * Graph synthesis reads only already-persisted resolved entities and
- * extracted records (via src/lib/db/repository.ts) — no file, no
- * upload, no Anthropic call, no external service, and never
- * evidence/ground-truth/.
+ * Graph synthesis reads only already-persisted resolved entities,
+ * extracted records, and locations (via src/lib/db/repository.ts) — no
+ * file, no upload, no Anthropic call, no external service, and never
+ * evidence/ground-truth/. It writes only to `relationships`; locations,
+ * communication events, and financial transactions are P5.2 ingestion's
+ * rows and are never created, updated, or duplicated here.
  */
 
 type EventSink = (event: GraphEvent) => void;
 
 function countsFrom(output: GraphBuildOutput, entitiesConsidered: number, extractedRecordsConsidered: number): GraphCounts {
-  const locationsByKind: Record<string, number> = {};
-  for (const l of output.locations) locationsByKind[l.locationType] = (locationsByKind[l.locationType] ?? 0) + 1;
   const edgesByType: Record<string, number> = {};
   for (const r of output.relationships) edgesByType[r.relationshipType] = (edgesByType[r.relationshipType] ?? 0) + 1;
   return {
     entitiesConsidered,
     extractedRecordsConsidered,
-    locationsByKind,
     nodesByKind: {},
     edgesByType,
-    communicationEventsLinked: output.communicationEvents.filter((c) => c.callerEntityId && c.calleeEntityId).length,
-    financialTransactionsLinked: output.financialTransactions.filter((t) => t.fromAccountEntityId && t.toAccountEntityId).length,
   };
 }
 
@@ -111,33 +108,33 @@ export async function runGraphSynthesis(onEvent?: EventSink): Promise<GraphResul
       },
     );
 
-    const records = await runStage<ExtractedRecord[]>(
+    const { records, locations } = await runStage(
       "load_extracted_records",
-      (rs) => `${rs.length} extracted records loaded.`,
+      (v: { records: unknown[]; locations: unknown[] }) =>
+        `${v.records.length} extracted records and ${v.locations.length} already-ingested locations loaded.`,
       async () => {
-        const all = await listExtractedRecords();
-        if (all.length === 0) {
+        const [records, locations] = await Promise.all([listExtractedRecords(), listLocations()]);
+        if (records.length === 0) {
           throw new GraphServiceError(
             "NO_EXTRACTED_RECORDS",
             "load_extracted_records",
             "No extracted records exist yet. Run extraction before running graph synthesis.",
           );
         }
-        return all;
+        return { records, locations };
       },
     );
 
     await runStage<number>(
       "map_evidence_to_entities",
-      (n) => `${n} canonical entities indexed by kind/value for evidence mapping.`,
+      (n) => `${n} canonical entities and ${locations.length} locations indexed for evidence mapping.`,
       () => entities.length,
     );
 
     const output = await runStage<GraphBuildOutput>(
       "construct_candidates",
-      (o) =>
-        `${o.locations.length} locations, ${o.communicationEvents.length} communication events, ${o.financialTransactions.length} financial transactions, ${o.relationships.length} relationship candidates constructed (${o.warnings.length} warnings).`,
-      () => synthesizeGraph(entities, aliases, decisions, records, investigation.id, synthesizedAt),
+      (o) => `${o.relationships.length} relationship candidates constructed (${o.warnings.length} warnings).`,
+      () => synthesizeGraph(entities, aliases, decisions, records as ExtractedRecord[], locations, investigation.id, synthesizedAt),
     );
 
     await runStage<number>(
@@ -152,25 +149,16 @@ export async function runGraphSynthesis(onEvent?: EventSink): Promise<GraphResul
       () => output.relationships.length,
     );
 
-    const validated = validateOutputs(output.locations, output.communicationEvents, output.financialTransactions, output.relationships);
+    const validated = validateOutputs(output.relationships);
 
     const extractedRecordIds = new Set(records.map((r) => r.id));
     const entityIds = new Set(entities.map((e) => e.id));
-    const existingLocationIds = new Set((await listLocations()).map((l) => l.id));
+    const locationIds = new Set(locations.map((l) => l.id));
 
     await runStage<number>(
       "attach_provenance",
-      (n) => `${n} graph rows carry full provenance tracing to real extracted records and canonical entities.`,
-      () =>
-        assertProvenance(
-          validated.locations,
-          validated.communicationEvents,
-          validated.financialTransactions,
-          validated.relationships,
-          entityIds,
-          existingLocationIds,
-          extractedRecordIds,
-        ),
+      (n) => `${n} relationships carry full provenance tracing to real extracted records and canonical entities/locations.`,
+      () => assertProvenance(validated.relationships, entityIds, locationIds, extractedRecordIds),
     );
 
     const markerKey = graphMarkerKey(investigation.id);
@@ -178,15 +166,10 @@ export async function runGraphSynthesis(onEvent?: EventSink): Promise<GraphResul
 
     const persisted = await runStage(
       "persistence",
-      (p) =>
-        `${p.locationsCreated} locations, ${p.communicationEventsCreated} communication events, ${p.financialTransactionsCreated} financial transactions, ${p.relationshipsCreated} relationships written; ${p.locationsSkipped + p.communicationEventsSkipped + p.financialTransactionsSkipped + p.relationshipsSkipped} already present (idempotent).`,
+      (p) => `${p.relationshipsCreated} relationships written; ${p.relationshipsSkipped} already present (idempotent).`,
       () =>
-        idempotentPersistGraph(
-          validated.locations,
-          validated.communicationEvents,
-          validated.financialTransactions,
-          validated.relationships,
-          (progress) => onEvent?.({ type: "persist_progress", label: progress.label, done: progress.done, total: progress.total }),
+        idempotentPersistGraph(validated.relationships, (progress) =>
+          onEvent?.({ type: "persist_progress", label: progress.label, done: progress.done, total: progress.total }),
         ),
     );
 
@@ -204,13 +187,7 @@ export async function runGraphSynthesis(onEvent?: EventSink): Promise<GraphResul
     counts.nodesByKind = nodesByKind;
 
     const status: GraphResult["status"] =
-      persisted.locationsCreated === 0 &&
-      persisted.communicationEventsCreated === 0 &&
-      persisted.financialTransactionsCreated === 0 &&
-      persisted.relationshipsCreated === 0 &&
-      existingMarker
-        ? "already_synthesized"
-        : "synthesized";
+      persisted.relationshipsCreated === 0 && existingMarker ? "already_synthesized" : "synthesized";
 
     await setGraphMarker(markerKey, { investigationId: investigation.id, synthesizedAt, counts });
 

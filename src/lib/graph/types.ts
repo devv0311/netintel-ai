@@ -82,20 +82,11 @@ export interface GraphError {
 export interface GraphCounts {
   entitiesConsidered: number;
   extractedRecordsConsidered: number;
-  locationsByKind: Record<string, number>;
   nodesByKind: Record<string, number>;
   edgesByType: Record<string, number>;
-  communicationEventsLinked: number;
-  financialTransactionsLinked: number;
 }
 
 export interface GraphPersisted {
-  locationsCreated: number;
-  locationsSkipped: number;
-  communicationEventsCreated: number;
-  communicationEventsSkipped: number;
-  financialTransactionsCreated: number;
-  financialTransactionsSkipped: number;
   relationshipsCreated: number;
   relationshipsSkipped: number;
 }

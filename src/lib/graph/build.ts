@@ -1,6 +1,7 @@
 import type { Alias, Entity, EntityKind } from "@/lib/domain/entity";
 import type { ExtractedRecord } from "@/lib/domain/extraction";
 import { makeContentId } from "@/lib/domain/ids";
+import type { Location } from "@/lib/domain/location";
 import type { EvidenceClassification, Provenance } from "@/lib/domain/provenance";
 import type { RelationshipType } from "@/lib/domain/relationship";
 import type { ResolutionDecision } from "@/lib/domain/resolution";
@@ -13,6 +14,21 @@ import type { ResolutionDecision } from "@/lib/domain/resolution";
  * resolution, never by raw-name matching except as a bounded fallback
  * lookup against P5.4's ALREADY-COMPUTED canonical registry (never a
  * new clustering/merge decision).
+ *
+ * IMPORTANT — locations, communication_events, and financial_transactions
+ * are NOT created here. Per src/lib/ingestion/persist.ts (Workstream B,
+ * P5.2), those three tables are already fully populated at ingestion
+ * time directly from the corpus manifest (src/lib/corpus/load.ts) — a
+ * Location's deterministic id is `makeContentId("location", [label,
+ * locationType])`, computed and persisted long before entity resolution
+ * or graph synthesis ever run. This module only READS the already-
+ * persisted `Location[]` (passed in) to resolve a CDR event's cell
+ * tower to its real, existing location id — creating a second Location
+ * row with a different id for the same real-world tower would silently
+ * double the location count and split its edges across two ids. There
+ * is nothing for graph synthesis to add to `locations`,
+ * `communication_events`, or `financial_transactions`; the only new
+ * table this milestone populates is `relationships`.
  *
  * Endpoint resolution has two paths, deliberately kept separate:
  *
@@ -61,40 +77,6 @@ export const CONFIDENCE = {
   derivedPersonEdge: 0.7,
 } as const;
 
-export interface LocationCandidate {
-  id: string;
-  investigationId: string;
-  label: string;
-  locationType: "address" | "cell_tower" | "crime_scene" | "other";
-  latitude: number;
-  longitude: number;
-  provenance: Provenance;
-}
-
-export interface CommunicationEventCandidate {
-  id: string;
-  investigationId: string;
-  callerPhone: string;
-  calleePhone: string;
-  callerEntityId?: string;
-  calleeEntityId?: string;
-  occurredAt: string;
-  durationSeconds: number;
-  cellLocationId?: string;
-  provenance: Provenance;
-}
-
-export interface FinancialTransactionCandidate {
-  id: string;
-  investigationId: string;
-  fromAccountEntityId?: string;
-  toAccountEntityId?: string;
-  amount: number;
-  currency: string;
-  occurredAt: string;
-  provenance: Provenance;
-}
-
 export interface RelationshipCandidate {
   id: string;
   investigationId: string;
@@ -111,9 +93,6 @@ export interface RelationshipCandidate {
 }
 
 export interface GraphBuildOutput {
-  locations: LocationCandidate[];
-  communicationEvents: CommunicationEventCandidate[];
-  financialTransactions: FinancialTransactionCandidate[];
   relationships: RelationshipCandidate[];
   warnings: string[];
 }
@@ -171,6 +150,7 @@ export function synthesizeGraph(
   aliases: Alias[],
   decisions: ResolutionDecision[],
   records: ExtractedRecord[],
+  locations: Location[],
   investigationId: string,
   synthesizedAt: string,
 ): GraphBuildOutput {
@@ -230,6 +210,27 @@ export function synthesizeGraph(
     const candidates = nameToPersonEntityIds.get(name);
     if (!candidates || candidates.size !== 1) return null;
     return [...candidates][0]!;
+  }
+
+  // Real, already-persisted locations (from P5.2 ingestion) — indexed by
+  // human-readable label for direct matches, and by the bare source key
+  // (extracted from a location entity_mention's own data.recordRef,
+  // e.g. "location:SYN-CT-01" -> "SYN-CT-01") for cross-referencing
+  // evidence that names a tower by its short key rather than its label
+  // (a CDR event's `cellTower` field never carries the human label).
+  const locationIdByLabel = new Map<string, string>();
+  for (const l of locations) locationIdByLabel.set(l.label, l.id);
+
+  const locationIdByKey = new Map<string, string>();
+  for (const r of records) {
+    if (r.recordType !== "entity_mention" || str(r.data, "mentionKind") !== "location") continue;
+    const label = str(r.data, "observedValue");
+    const recordRef = str(r.data, "recordRef");
+    if (!label || !recordRef) continue;
+    const realId = locationIdByLabel.get(label);
+    if (!realId) continue; // a location entity_mention with no matching persisted Location row (unexpected; skip rather than guess)
+    const bareKey = recordRef.startsWith("location:") ? recordRef.slice("location:".length) : recordRef;
+    locationIdByKey.set(bareKey, realId);
   }
 
   // --- accumulation --------------------------------------------------
@@ -298,9 +299,6 @@ export function synthesizeGraph(
 
   const relationshipMentions = records.filter((r) => r.recordType === "relationship_mention");
   const eventMentions = records.filter((r) => r.recordType === "event_mention");
-  const locationMentions = records.filter(
-    (r) => r.recordType === "entity_mention" && str(r.data, "mentionKind") === "location",
-  );
 
   // --- relationship_mentions: ownership (Path A + Path B) ---------------
 
@@ -381,55 +379,9 @@ export function synthesizeGraph(
     warnings.push(`Unsupported relationship_mention type "${relType}" on ${r.id}; skipped.`);
   }
 
-  // --- Locations (from location entity_mentions) ----------------------
-
-  const locations: LocationCandidate[] = [];
-  const locationIdByLabel = new Map<string, string>();
-  // Cross-referencing evidence (e.g. a CDR event's `cellTower` field)
-  // names a location by its short source key (e.g. "SYN-CT-01"), not by
-  // location_record's human-readable `label` — but every extracted
-  // record carries `data.recordRef` (src/lib/extraction/extract.ts), and
-  // for a location_record that is `location:<key>`. Indexing by the
-  // bare key extracted from recordRef lets cross-referencing evidence
-  // resolve the same location without guessing or re-deriving identity.
-  const locationIdByKey = new Map<string, string>();
-  for (const r of [...locationMentions].sort((a, b) => (a.id < b.id ? -1 : 1))) {
-    const label = str(r.data, "observedValue");
-    if (!label) continue;
-    if (locationIdByLabel.has(label)) continue;
-    const id = makeContentId("location", [label]);
-    locationIdByLabel.set(label, id);
-    const recordRef = str(r.data, "recordRef");
-    if (recordRef) {
-      const bareKey = recordRef.startsWith("location:") ? recordRef.slice("location:".length) : recordRef;
-      locationIdByKey.set(bareKey, id);
-    }
-    const rawType = r.data.locationType;
-    const locationType = (
-      typeof rawType === "string" && ["address", "cell_tower", "crime_scene", "other"].includes(rawType) ? rawType : "other"
-    ) as LocationCandidate["locationType"];
-    locations.push({
-      id,
-      investigationId,
-      label,
-      locationType,
-      latitude: num(r.data, "latitude") ?? 0,
-      longitude: num(r.data, "longitude") ?? 0,
-      provenance: {
-        source: r.id,
-        location: r.provenance.location,
-        method: "graph:location",
-        confidence: CONFIDENCE.direct,
-        processingHistory: [...r.provenance.processingHistory, "graph:location_created"],
-        timestamp: synthesizedAt,
-      },
-    });
-  }
-
-  // --- Events: communication + financial ------------------------------
-
-  const communicationEvents: CommunicationEventCandidate[] = [];
-  const financialTransactions: FinancialTransactionCandidate[] = [];
+  // --- Events: communication + financial (derive edges only — the
+  // communication_event/financial_transaction ROWS themselves already
+  // exist from P5.2 ingestion and are never touched here) -------------
 
   for (const r of eventMentions) {
     const kind = str(r.data, "eventKind");
@@ -444,58 +396,39 @@ export function synthesizeGraph(
       const cellTower = str(r.data, "cellTower");
       const cellLocationId = cellTower ? (locationIdByLabel.get(cellTower) ?? locationIdByKey.get(cellTower)) : undefined;
 
-      communicationEvents.push({
-        id: makeContentId("communication_event", [r.id]),
-        investigationId,
-        callerPhone: callerNumber,
-        calleePhone: calleeNumber,
-        callerEntityId: callerId,
-        calleeEntityId: calleeId,
-        occurredAt: startedAt,
-        durationSeconds: num(r.data, "durationSeconds") ?? 0,
-        cellLocationId,
-        provenance: {
-          source: r.id,
-          location: r.provenance.location,
-          method: "graph:communication_event",
-          confidence: CONFIDENCE.direct,
-          processingHistory: [...r.provenance.processingHistory, "graph:communication_event_created"],
-          timestamp: synthesizedAt,
-        },
-      });
-
       if (!callerId || !calleeId) {
         warnings.push(`communication event ${r.id}: caller or callee phone never canonicalized; no communication edge added.`);
-      } else {
-        addContribution("communication", callerId, calleeId, true, r.evidenceItemId, r.id, "graph:communication", r, {
+        continue;
+      }
+
+      addContribution("communication", callerId, calleeId, true, r.evidenceItemId, r.id, "graph:communication", r, {
+        occurredAt: startedAt,
+        durationSeconds: num(r.data, "durationSeconds"),
+      });
+      if (cellLocationId) {
+        addContribution("co_location", callerId, cellLocationId, false, r.evidenceItemId, r.id, "graph:co_location", r, {
           occurredAt: startedAt,
-          durationSeconds: num(r.data, "durationSeconds"),
         });
-        if (cellLocationId) {
-          addContribution("co_location", callerId, cellLocationId, false, r.evidenceItemId, r.id, "graph:co_location", r, {
-            occurredAt: startedAt,
-          });
-          addContribution("co_location", calleeId, cellLocationId, false, r.evidenceItemId, r.id, "graph:co_location", r, {
-            occurredAt: startedAt,
-          });
-        }
-        // derived person↔person communication edge, via ownership chain
-        const callerOwner = ownerOf.get(callerId);
-        const calleeOwner = ownerOf.get(calleeId);
-        if (callerOwner && calleeOwner && callerOwner.personId !== calleeOwner.personId) {
-          addContribution(
-            "communication",
-            callerOwner.personId,
-            calleeOwner.personId,
-            true,
-            r.evidenceItemId,
-            r.id,
-            "graph:communication_inferred",
-            r,
-            { occurredAt: startedAt, durationSeconds: num(r.data, "durationSeconds") },
-            { classification: "ai_inference", confidence: CONFIDENCE.derivedPersonEdge },
-          );
-        }
+        addContribution("co_location", calleeId, cellLocationId, false, r.evidenceItemId, r.id, "graph:co_location", r, {
+          occurredAt: startedAt,
+        });
+      }
+      // derived person↔person communication edge, via ownership chain
+      const callerOwner = ownerOf.get(callerId);
+      const calleeOwner = ownerOf.get(calleeId);
+      if (callerOwner && calleeOwner && callerOwner.personId !== calleeOwner.personId) {
+        addContribution(
+          "communication",
+          callerOwner.personId,
+          calleeOwner.personId,
+          true,
+          r.evidenceItemId,
+          r.id,
+          "graph:communication_inferred",
+          r,
+          { occurredAt: startedAt, durationSeconds: num(r.data, "durationSeconds") },
+          { classification: "ai_inference", confidence: CONFIDENCE.derivedPersonEdge },
+        );
       }
       continue;
     }
@@ -509,48 +442,31 @@ export function synthesizeGraph(
       const fromId = identifierEntityId.get(`bank_account:${fromAccount}`);
       const toId = identifierEntityId.get(`bank_account:${toAccount}`);
 
-      financialTransactions.push({
-        id: makeContentId("financial_transaction", [r.id]),
-        investigationId,
-        fromAccountEntityId: fromId,
-        toAccountEntityId: toId,
-        amount,
-        currency: str(r.data, "currency") ?? "INR",
-        occurredAt: valueDate,
-        provenance: {
-          source: r.id,
-          location: r.provenance.location,
-          method: "graph:financial_transaction",
-          confidence: CONFIDENCE.direct,
-          processingHistory: [...r.provenance.processingHistory, "graph:financial_transaction_created"],
-          timestamp: synthesizedAt,
-        },
-      });
-
       if (!fromId || !toId) {
         warnings.push(`financial transaction ${r.id}: from/to account never canonicalized; no financial edge added.`);
-      } else {
-        addContribution("financial", fromId, toId, true, r.evidenceItemId, r.id, "graph:financial", r, {
-          occurredAt: valueDate,
-          amount,
-          currency: str(r.data, "currency"),
-        });
-        const fromOwner = ownerOf.get(fromId);
-        const toOwner = ownerOf.get(toId);
-        if (fromOwner && toOwner && fromOwner.personId !== toOwner.personId) {
-          addContribution(
-            "financial",
-            fromOwner.personId,
-            toOwner.personId,
-            true,
-            r.evidenceItemId,
-            r.id,
-            "graph:financial_inferred",
-            r,
-            { occurredAt: valueDate, amount, currency: str(r.data, "currency") },
-            { classification: "ai_inference", confidence: CONFIDENCE.derivedPersonEdge },
-          );
-        }
+        continue;
+      }
+
+      addContribution("financial", fromId, toId, true, r.evidenceItemId, r.id, "graph:financial", r, {
+        occurredAt: valueDate,
+        amount,
+        currency: str(r.data, "currency"),
+      });
+      const fromOwner = ownerOf.get(fromId);
+      const toOwner = ownerOf.get(toId);
+      if (fromOwner && toOwner && fromOwner.personId !== toOwner.personId) {
+        addContribution(
+          "financial",
+          fromOwner.personId,
+          toOwner.personId,
+          true,
+          r.evidenceItemId,
+          r.id,
+          "graph:financial_inferred",
+          r,
+          { occurredAt: valueDate, amount, currency: str(r.data, "currency") },
+          { classification: "ai_inference", confidence: CONFIDENCE.derivedPersonEdge },
+        );
       }
       continue;
     }
@@ -597,5 +513,5 @@ export function synthesizeGraph(
     });
   }
 
-  return { locations, communicationEvents, financialTransactions, relationships, warnings };
+  return { relationships, warnings };
 }

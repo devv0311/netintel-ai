@@ -16,6 +16,7 @@ import type {
 } from "@/lib/extraction/types";
 
 import type { ResolutionState } from "@/lib/resolution/types";
+import type { GraphState } from "@/lib/graph/types";
 
 import { ExtractionStageList } from "./extraction-stage-list";
 import { ExtractionSummaryPanel } from "./extraction-summary";
@@ -72,9 +73,13 @@ const NETWORK_ERROR_RESULT: ExtractionResult = {
 export function ExtractionPanel({
   initialState,
   initialResolutionState,
+  initialGraphState,
+  onGraphStateChange,
 }: {
   initialState: ExtractionState;
   initialResolutionState: ResolutionState;
+  initialGraphState: GraphState;
+  onGraphStateChange?: (state: GraphState) => void;
 }) {
   const router = useRouter();
   const serverSummary = initialState.status === "extracted" ? initialState.summary : null;
@@ -237,7 +242,11 @@ export function ExtractionPanel({
             Re-run extraction
           </Button>
         </div>
-        <ResolutionPanel initialState={initialResolutionState} />
+        <ResolutionPanel
+          initialState={initialResolutionState}
+          initialGraphState={initialGraphState}
+          onGraphStateChange={onGraphStateChange}
+        />
       </div>
     );
   }

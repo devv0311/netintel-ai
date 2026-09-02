@@ -17,6 +17,7 @@ import {
 } from "@/lib/ingestion/types";
 import type { ExtractionState } from "@/lib/extraction/types";
 import type { ResolutionState } from "@/lib/resolution/types";
+import type { GraphState } from "@/lib/graph/types";
 
 import { StageList } from "./stage-list";
 import { SummaryPanel } from "./summary-panel";
@@ -53,10 +54,14 @@ export function InvestigationWorkspace({
   initialState,
   initialExtractionState,
   initialResolutionState,
+  initialGraphState,
+  onGraphStateChange,
 }: {
   initialState: InvestigationState;
   initialExtractionState: ExtractionState;
   initialResolutionState: ResolutionState;
+  initialGraphState: GraphState;
+  onGraphStateChange?: (state: GraphState) => void;
 }) {
   const router = useRouter();
   const serverSummary =
@@ -238,6 +243,8 @@ export function InvestigationWorkspace({
           <ExtractionPanel
             initialState={initialExtractionState}
             initialResolutionState={initialResolutionState}
+            initialGraphState={initialGraphState}
+            onGraphStateChange={onGraphStateChange}
           />
         </div>
       );

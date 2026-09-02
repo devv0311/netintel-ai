@@ -17,30 +17,31 @@
     "corpus:generate": "node --import ./scripts/ts-resolve.mjs scripts/generate-corpus.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "0.123.0",
+    "@radix-ui/react-slot": "1.3.3",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "drizzle-orm": "1.0.0-rc.5-169397b",
+    "graphology": "0.26.0",
+    "lucide-react": "1.39.0",
     "next": "16.3.4",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "drizzle-orm": "1.0.0-rc.5-169397b",
-    "@anthropic-ai/sdk": "0.123.0",
-    "zod": "4.5.4",
-    "graphology": "0.26.0",
-    "class-variance-authority": "0.7.1",
-    "clsx": "2.1.1",
+    "sigma": "^3.0.3",
     "tailwind-merge": "3.6.0",
-    "lucide-react": "1.39.0",
-    "@radix-ui/react-slot": "1.3.3"
+    "zod": "4.5.4"
   },
   "devDependencies": {
-    "typescript": "6.0.3",
+    "@playwright/test": "1.62.1",
+    "@tailwindcss/postcss": "4.3.3",
     "@types/node": "26.4.0",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.5",
-    "tailwindcss": "4.3.3",
-    "@tailwindcss/postcss": "4.3.3",
     "drizzle-kit": "1.0.0-rc.4",
-    "vitest": "4.1.11",
-    "@playwright/test": "1.62.1",
     "eslint": "9.39.5",
-    "eslint-config-next": "16.3.4"
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3",
+    "vitest": "4.1.11"
   }
 }
