@@ -136,7 +136,12 @@ export function GraphView({
       };
     });
     sigma.refresh();
-  }, [hiddenKinds, hiddenTypes, selectedNodeId, selectedEdgeId]);
+    // `snapshot` is included so the reducers are reapplied whenever the
+    // graph itself is rebuilt (e.g. toggling focus mode reloads the
+    // snapshot and creates a fresh Sigma instance with no reducers set)
+    // — without it, an active filter silently stops applying the moment
+    // the underlying graph changes.
+  }, [hiddenKinds, hiddenTypes, selectedNodeId, selectedEdgeId, snapshot]);
 
   return (
     <div
