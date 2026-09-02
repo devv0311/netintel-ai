@@ -415,6 +415,11 @@ export async function insertRelationship(data: unknown): Promise<Relationship> {
     sourceEntityId: relationship.sourceEntityId,
     targetEntityId: relationship.targetEntityId,
     relationshipType: relationship.relationshipType,
+    directed: relationship.directed,
+    evidenceItemIds: relationship.evidenceItemIds,
+    extractedRecordIds: relationship.extractedRecordIds,
+    conflicts: relationship.conflicts,
+    attributes: relationship.attributes,
     classification: relationship.classification,
     ...provenanceToColumns(relationship.provenance),
   });
@@ -433,12 +438,23 @@ export async function listRelationships(): Promise<Relationship[]> {
         sourceEntityId: row.sourceEntityId,
         targetEntityId: row.targetEntityId,
         relationshipType: row.relationshipType,
+        directed: row.directed,
+        evidenceItemIds: row.evidenceItemIds,
+        extractedRecordIds: row.extractedRecordIds,
+        conflicts: row.conflicts,
+        attributes: row.attributes,
         classification: row.classification,
         provenance: columnsToProvenance(row),
       },
       "listRelationships",
     ),
   );
+}
+
+/** Filters in memory, consistent with the dataset scale and the existing listAliasesForEntity precedent. */
+export async function listRelationshipsForEntity(entityId: string): Promise<Relationship[]> {
+  const all = await listRelationships();
+  return all.filter((r) => r.sourceEntityId === entityId || r.targetEntityId === entityId);
 }
 
 // --- Resolution decisions ----------------------------------------------

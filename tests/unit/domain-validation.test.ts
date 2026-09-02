@@ -109,30 +109,53 @@ describe("classification is independent of confidence on derived items", () => {
 });
 
 describe("RelationshipSchema", () => {
-  it("requires an evidence classification distinct from confidence", () => {
-    const result = RelationshipSchema.safeParse({
+  function validRelationship(overrides: Record<string, unknown> = {}) {
+    return {
       id: "rel_1",
       investigationId: "inv_1",
       sourceEntityId: "entity_1",
       targetEntityId: "entity_2",
       relationshipType: "communication",
+      directed: true,
+      evidenceItemIds: ["item_1"],
+      extractedRecordIds: ["extracted_record_1"],
+      conflicts: [],
+      attributes: {},
       classification: "corroborated_fact",
       provenance: validProvenance(),
-    });
+      ...overrides,
+    };
+  }
+
+  it("requires an evidence classification distinct from confidence", () => {
+    const result = RelationshipSchema.safeParse(validRelationship());
     expect(result.success).toBe(true);
   });
 
   it("rejects an unrecognized relationship type", () => {
-    const result = RelationshipSchema.safeParse({
-      id: "rel_2",
-      investigationId: "inv_1",
-      sourceEntityId: "entity_1",
-      targetEntityId: "entity_2",
-      relationshipType: "telepathic_link",
-      classification: "observed_fact",
-      provenance: validProvenance(),
-    });
+    const result = RelationshipSchema.safeParse(validRelationship({ id: "rel_2", relationshipType: "telepathic_link" }));
     expect(result.success).toBe(false);
+  });
+
+  it("rejects a relationship missing evidenceItemIds or extractedRecordIds", () => {
+    expect(RelationshipSchema.safeParse(validRelationship({ id: "rel_3", evidenceItemIds: [] })).success).toBe(false);
+    expect(RelationshipSchema.safeParse(validRelationship({ id: "rel_4", extractedRecordIds: [] })).success).toBe(false);
+  });
+
+  it("rejects a relationship missing the directed flag", () => {
+    const { directed: _directed, ...withoutDirected } = validRelationship({ id: "rel_5" });
+    expect(RelationshipSchema.safeParse(withoutDirected).success).toBe(false);
+  });
+
+  it("accepts a fully-populated edge with attributes and conflicts", () => {
+    const result = RelationshipSchema.safeParse(
+      validRelationship({
+        id: "rel_6",
+        attributes: { eventCount: 40, firstObservedAt: new Date().toISOString() },
+        conflicts: ["example conflict note"],
+      }),
+    );
+    expect(result.success).toBe(true);
   });
 });
 

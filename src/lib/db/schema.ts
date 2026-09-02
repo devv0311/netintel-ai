@@ -151,18 +151,29 @@ export const financialTransactions = sqliteTable("financial_transactions", {
   ...provenanceColumns(),
 });
 
+/**
+ * sourceEntityId/targetEntityId reference entities.id for most edges,
+ * but a "co_location" edge's target may instead be a locations.id (a
+ * phone/vehicle co-located with a location, not another entity).
+ * SQLite foreign keys are not enabled in this project (no `PRAGMA
+ * foreign_keys=ON` anywhere), so this dual-target shape does not
+ * require a schema-level union or a discriminator column — endpoint
+ * validity is enforced at the application layer by
+ * src/lib/graph/verify.ts, not by the DB engine.
+ */
 export const relationships = sqliteTable("relationships", {
   id: text("id").primaryKey(),
   investigationId: text("investigation_id")
     .notNull()
     .references(() => investigations.id),
-  sourceEntityId: text("source_entity_id")
-    .notNull()
-    .references(() => entities.id),
-  targetEntityId: text("target_entity_id")
-    .notNull()
-    .references(() => entities.id),
+  sourceEntityId: text("source_entity_id").notNull(),
+  targetEntityId: text("target_entity_id").notNull(),
   relationshipType: text("relationship_type").notNull(),
+  directed: integer("directed", { mode: "boolean" }).notNull(),
+  evidenceItemIds: text("evidence_item_ids", { mode: "json" }).$type<string[]>().notNull(),
+  extractedRecordIds: text("extracted_record_ids", { mode: "json" }).$type<string[]>().notNull(),
+  conflicts: text("conflicts", { mode: "json" }).$type<string[]>().notNull(),
+  attributes: text("attributes", { mode: "json" }).$type<Record<string, unknown>>().notNull(),
   classification: text("classification").notNull(),
   ...provenanceColumns(),
 });

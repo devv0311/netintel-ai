@@ -158,6 +158,16 @@ export function loadSyntheticFixture(name: string): LoadedSyntheticFixture {
         sourceEntityId,
         targetEntityId,
         relationshipType: r.relationshipType,
+        // This hand-authored fixture format predates P5.5 graph synthesis
+        // and carries no real extracted-record evidence trail — synthesize
+        // a placeholder reference so the shape validates; real graph edges
+        // are produced by src/lib/graph/build.ts from actual extracted
+        // records, never from this loader.
+        directed: true,
+        evidenceItemIds: [evidenceSource.id],
+        extractedRecordIds: [makeContentId("extracted_record", ["fixture", name, `relationships[${index}]`])],
+        conflicts: [],
+        attributes: {},
         classification: r.classification,
         provenance: provenanceFor(`relationships[${index}]`, "fixture-loader"),
       },

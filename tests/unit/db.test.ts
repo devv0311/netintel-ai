@@ -8,6 +8,9 @@ import {
   insertInvestigation,
   insertEntity,
   listEntities,
+  insertRelationship,
+  listRelationships,
+  listRelationshipsForEntity,
 } from "@/lib/db/repository";
 import { makeContentId, makeOpaqueId } from "@/lib/domain/ids";
 import type { Provenance } from "@/lib/domain/provenance";
@@ -94,6 +97,62 @@ describe("database foundation", () => {
 
     const entities = await listEntities();
     expect(entities.some((e) => e.canonicalLabel === "Should Not Persist")).toBe(false);
+  });
+
+  it("round-trips a Relationship with attributes/conflicts/evidenceItemIds/extractedRecordIds intact", async () => {
+    const investigationId = makeOpaqueId("investigation");
+    await insertInvestigation({
+      id: investigationId,
+      name: "Relationship Round-Trip Test",
+      status: "in_progress",
+      createdAt: new Date().toISOString(),
+    });
+    const sourceId = makeContentId("entity", ["person", "Fixture Source"]);
+    const targetId = makeContentId("entity", ["phone", "+91-000-000"]);
+    await insertEntity({
+      id: sourceId,
+      investigationId,
+      kind: "person",
+      canonicalLabel: "Fixture Source",
+      attributes: {},
+      provenance: freshProvenance(),
+    });
+    await insertEntity({
+      id: targetId,
+      investigationId,
+      kind: "phone",
+      canonicalLabel: "+91-000-000",
+      attributes: {},
+      provenance: freshProvenance(),
+    });
+
+    const relationshipId = makeContentId("relationship", ["ownership", sourceId, targetId]);
+    await insertRelationship({
+      id: relationshipId,
+      investigationId,
+      sourceEntityId: sourceId,
+      targetEntityId: targetId,
+      relationshipType: "ownership",
+      directed: true,
+      evidenceItemIds: ["item_1", "item_2"],
+      extractedRecordIds: ["extracted_record_1"],
+      conflicts: ["example conflict"],
+      attributes: { eventCount: 2 },
+      classification: "corroborated_fact",
+      provenance: freshProvenance(),
+    });
+
+    const all = await listRelationships();
+    const roundTripped = all.find((r) => r.id === relationshipId);
+    expect(roundTripped).toBeDefined();
+    expect(roundTripped?.directed).toBe(true);
+    expect(roundTripped?.evidenceItemIds).toEqual(["item_1", "item_2"]);
+    expect(roundTripped?.extractedRecordIds).toEqual(["extracted_record_1"]);
+    expect(roundTripped?.conflicts).toEqual(["example conflict"]);
+    expect(roundTripped?.attributes).toEqual({ eventCount: 2 });
+
+    const forEntity = await listRelationshipsForEntity(sourceId);
+    expect(forEntity.some((r) => r.id === relationshipId)).toBe(true);
   });
 
   it("rejects a record with a malformed provenance confidence value", async () => {
