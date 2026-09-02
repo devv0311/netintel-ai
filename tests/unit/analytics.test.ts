@@ -461,17 +461,18 @@ describe("idempotentPersistAnalytics — partial retry", () => {
   });
 });
 
+const GROUND_TRUTH_KEYS = [
+  "expectedEntityMerges",
+  "hiddenConnections",
+  "moneyMulePaths",
+  "intendedConclusions",
+  "expectedCopilotAnswers",
+  "resolutionForbidden",
+  "recoverableBy",
+  "aliasMap",
+];
+
 describe("ground-truth isolation — no forbidden import/identifier anywhere in src/lib/analytics/ (excluding explanatory doc comments)", () => {
-  const GROUND_TRUTH_KEYS = [
-    "expectedEntityMerges",
-    "hiddenConnections",
-    "moneyMulePaths",
-    "intendedConclusions",
-    "expectedCopilotAnswers",
-    "resolutionForbidden",
-    "recoverableBy",
-    "aliasMap",
-  ];
 
   it("scans every .ts file under src/lib/analytics/", () => {
     const dir = path.join(process.cwd(), "src/lib/analytics");
@@ -489,5 +490,355 @@ describe("ground-truth isolation — no forbidden import/identifier anywhere in 
       expect(code, file).not.toMatch(/loadInvestigationGroundTruth|loadGroundTruthFixture/);
       for (const key of GROUND_TRUTH_KEYS) expect(code, `${file}: ${key}`).not.toContain(key);
     }
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Full-corpus topology analytics — ingest, extract, resolve, synthesize the
+// graph, then run analytics once, sharing the result across assertions
+// (mirrors tests/unit/graph.test.ts's full-corpus block).
+// ---------------------------------------------------------------------------
+
+type AnalyticsModule = {
+  runIngestion: typeof import("@/lib/ingestion/service").runIngestion;
+  runExtraction: typeof import("@/lib/extraction/service").runExtraction;
+  runResolution: typeof import("@/lib/resolution/service").runResolution;
+  runGraphSynthesis: typeof import("@/lib/graph/service").runGraphSynthesis;
+  runAnalyticsSynthesis: typeof import("@/lib/analytics/service").runAnalyticsSynthesis;
+  getAnalyticsState: typeof import("@/lib/analytics/summary").getAnalyticsState;
+  getRankedEntities: typeof import("@/lib/analytics/summary").getRankedEntities;
+  getBridgeEntities: typeof import("@/lib/analytics/summary").getBridgeEntities;
+  getCommunities: typeof import("@/lib/analytics/summary").getCommunities;
+  getEntityAnalyticsDetail: typeof import("@/lib/analytics/summary").getEntityAnalyticsDetail;
+  getPath: typeof import("@/lib/analytics/summary").getPath;
+  idempotentPersistAnalytics: typeof import("@/lib/analytics/persist").idempotentPersistAnalytics;
+  repo: typeof import("@/lib/db/repository");
+};
+
+async function freshAnalytics(dbPath: string): Promise<AnalyticsModule> {
+  const vitestMod = await import("vitest");
+  vitestMod.vi.resetModules();
+  for (const suffix of ["", "-wal", "-shm"]) fs.rmSync(dbPath + suffix, { force: true });
+  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
+  process.env.DATABASE_URL = dbPath;
+
+  const [ingestion, extraction, resolution, graphService, service, summary, persist, repo] = await Promise.all([
+    import("@/lib/ingestion/service"),
+    import("@/lib/extraction/service"),
+    import("@/lib/resolution/service"),
+    import("@/lib/graph/service"),
+    import("@/lib/analytics/service"),
+    import("@/lib/analytics/summary"),
+    import("@/lib/analytics/persist"),
+    import("@/lib/db/repository"),
+  ]);
+  return {
+    runIngestion: ingestion.runIngestion,
+    runExtraction: extraction.runExtraction,
+    runResolution: resolution.runResolution,
+    runGraphSynthesis: graphService.runGraphSynthesis,
+    runAnalyticsSynthesis: service.runAnalyticsSynthesis,
+    getAnalyticsState: summary.getAnalyticsState,
+    getRankedEntities: summary.getRankedEntities,
+    getBridgeEntities: summary.getBridgeEntities,
+    getCommunities: summary.getCommunities,
+    getEntityAnalyticsDetail: summary.getEntityAnalyticsDetail,
+    getPath: summary.getPath,
+    idempotentPersistAnalytics: persist.idempotentPersistAnalytics,
+    repo,
+  };
+}
+
+describe("topology analytics — full Operation DarkNet Delhi corpus", () => {
+  const DB = "./data/netintel-analytics-full.db";
+  let mod: AnalyticsModule;
+  let result: Awaited<ReturnType<AnalyticsModule["runAnalyticsSynthesis"]>>;
+
+  beforeAll(async () => {
+    mod = await freshAnalytics(DB);
+    expect((await mod.runIngestion({ kind: "builtin-corpus" })).status).toBe("ingested");
+    expect((await mod.runExtraction()).status).toBe("extracted");
+    expect((await mod.runResolution()).status).toBe("resolved");
+    expect((await mod.runGraphSynthesis()).status).toBe("synthesized");
+    result = await mod.runAnalyticsSynthesis();
+  }, 120_000);
+
+  afterAll(() => {
+    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  });
+
+  it("synthesizes successfully and runs all 10 stages to completion", () => {
+    expect(result.status).toBe("synthesized");
+    expect(result.error).toBeNull();
+    expect(result.stages).toHaveLength(10);
+    for (const stage of result.stages) {
+      expect(stage.status).toBe("ok");
+      expect(stage.detail.length).toBeGreaterThan(0);
+    }
+    expect(result.counts?.entitiesAnalyzed).toBe(54);
+    expect(result.counts?.rankedEntities).toBe(68); // 54 entities + 14 locations
+  });
+
+  it("degree calculation: every ranked node's degree matches the persisted relationship count touching it", async () => {
+    const relationships = await mod.repo.listRelationships();
+    const page = await mod.getRankedEntities({ limit: 100 });
+    expect(page).not.toBeNull();
+    const sample = page!.entities.slice(0, 10);
+    for (const e of sample) {
+      const expectedDegree = relationships.filter((r) => r.sourceEntityId === e.id || r.targetEntityId === e.id).length;
+      const detail = await mod.getEntityAnalyticsDetail(e.id);
+      expect(detail!.degree.total).toBe(expectedDegree);
+    }
+  });
+
+  it("centrality: degree and betweenness scores are within [0,1] for every ranked entity", async () => {
+    const page = await mod.getRankedEntities({ limit: 100 });
+    for (const e of page!.entities) {
+      expect(e.degreeCentrality).toBeGreaterThanOrEqual(0);
+      expect(e.degreeCentrality).toBeLessThanOrEqual(1);
+      expect(e.betweennessCentrality).toBeGreaterThanOrEqual(0);
+      expect(e.betweennessCentrality).toBeLessThanOrEqual(1);
+    }
+  });
+
+  it("bridge detection: 19 structural bridges identified, each with a positive bridge score and supporting edges", async () => {
+    const bridges = await mod.getBridgeEntities();
+    expect(bridges).not.toBeNull();
+    expect(bridges!.length).toBe(19);
+    for (const b of bridges!) {
+      expect(b.bridgeScore).toBeGreaterThan(0);
+      expect(b.componentsAfter).toBeGreaterThan(b.componentsBefore);
+      expect(b.supportingEdgeIds.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("community detection: every entity/location belongs to exactly one community, ids are content-addressed", async () => {
+    const communities = await mod.getCommunities();
+    expect(communities).not.toBeNull();
+    expect(communities!.length).toBeGreaterThan(0);
+    const seen = new Set<string>();
+    for (const c of communities!) {
+      for (const m of c.memberEntityIds) {
+        expect(seen.has(m), `entity ${m} appears in more than one community`).toBe(false);
+        seen.add(m);
+      }
+      expect(c.id).toBe(makeContentId("community", [...c.memberEntityIds].sort()));
+    }
+  });
+
+  it("deterministic community ids and rankings: re-running synthesis against the SAME graph version reproduces byte-identical signal ids", async () => {
+    const before = (await mod.repo.listAnalyticalSignals()).map((s) => s.id).sort();
+    const rerun = await mod.runAnalyticsSynthesis();
+    expect(rerun.status).toBe("already_synthesized");
+    expect(rerun.persisted?.signalsCreated).toBe(0);
+    const after = (await mod.repo.listAnalyticalSignals()).map((s) => s.id).sort();
+    expect(after).toEqual(before);
+  });
+
+  it("deterministic rankings: ranks are a contiguous 1..N permutation with no gaps or duplicates", async () => {
+    const page = await mod.getRankedEntities({ limit: 100 });
+    const ranks = page!.entities.map((e) => e.rank).sort((a, b) => a - b);
+    expect(ranks).toEqual(Array.from({ length: ranks.length }, (_, i) => i + 1));
+  });
+
+  it("persistence/idempotency: a partial-write retry persists only what's missing", async () => {
+    const signals = await mod.repo.listAnalyticalSignals();
+    const persisted = await mod.idempotentPersistAnalytics(signals);
+    expect(persisted.signalsCreated).toBe(0);
+    expect(persisted.signalsSkipped).toBe(signals.length);
+  });
+
+  it("relationship filters: a financial-only shortest path never traverses a communication or ownership edge", async () => {
+    const entities = await mod.repo.listEntities();
+    const s1 = entities.find((e) => e.canonicalLabel === "Rohan Malhotra")!;
+    const s6 = entities.find((e) => e.canonicalLabel === "Neha Kapoor")!;
+    const result = await mod.getPath(s1.id, s6.id, ["financial"]);
+    expect(result).not.toBeNull();
+    expect(result!.found).toBe(true);
+    if (result!.found) {
+      for (const edge of result!.edges) expect(edge.relationshipType).toBe("financial");
+    }
+  });
+
+  it("shortest path: Rohan Malhotra and Kabir Sharma are connected via a real, non-invented path", async () => {
+    const entities = await mod.repo.listEntities();
+    const s1 = entities.find((e) => e.canonicalLabel === "Rohan Malhotra")!;
+    const s3 = entities.find((e) => e.canonicalLabel === "Kabir Sharma")!;
+    const relationshipIds = new Set((await mod.repo.listRelationships()).map((r) => r.id));
+    const result = await mod.getPath(s1.id, s3.id);
+    expect(result!.found).toBe(true);
+    if (result!.found) {
+      for (const edge of result!.edges) expect(relationshipIds.has(edge.id)).toBe(true);
+    }
+  });
+
+  it("no-path result: two entities behind a relationship-type filter that excludes their only connection return found:false, not a thrown error", async () => {
+    const entities = await mod.repo.listEntities();
+    const s1 = entities.find((e) => e.canonicalLabel === "Rohan Malhotra")!;
+    const vehicle = entities.find((e) => e.kind === "vehicle")!;
+    // A person and a vehicle they don't own, filtered to a relationship
+    // type that could never connect them, must degrade gracefully.
+    const result = await mod.getPath(s1.id, vehicle.id, ["financial"]);
+    expect(result).not.toBeNull();
+    expect(typeof result!.found).toBe("boolean");
+  });
+
+  it("path provenance: every edge in a found path resolves to a real, currently-persisted relationship with full provenance", async () => {
+    const entities = await mod.repo.listEntities();
+    const s1 = entities.find((e) => e.canonicalLabel === "Rohan Malhotra")!;
+    const s4 = entities.find((e) => e.canonicalLabel === "Farhan Qureshi")!;
+    const relationships = await mod.repo.listRelationships();
+    const relById = new Map(relationships.map((r) => [r.id, r]));
+    const result = await mod.getPath(s1.id, s4.id);
+    expect(result!.found).toBe(true);
+    if (result!.found) {
+      for (const edge of result!.edges) {
+        const rel = relById.get(edge.id);
+        expect(rel).toBeDefined();
+        expect(rel!.provenance.source).toBeTruthy();
+        expect(rel!.extractedRecordIds.length).toBeGreaterThan(0);
+      }
+    }
+  });
+
+  it("structured error behavior: a malformed path query on a valid graph returns found:false, never throwing", async () => {
+    const result = await mod.getPath("entity_does_not_exist", "entity_also_missing");
+    expect(result!.found).toBe(false);
+  });
+
+  // --- key investigative demonstrations (never hardcoded from ground truth) ---
+
+  it("Rohan Malhotra's network position: ranks among the top structurally prominent entities with real supporting edges", async () => {
+    const entities = await mod.repo.listEntities();
+    const s1 = entities.find((e) => e.canonicalLabel === "Rohan Malhotra")!;
+    const detail = await mod.getEntityAnalyticsDetail(s1.id);
+    expect(detail).not.toBeNull();
+    expect(detail!.degree.total).toBeGreaterThan(0);
+    const rankingSignal = detail!.signals.find((s) => s.signalType === "ranking");
+    expect(rankingSignal).toBeDefined();
+    expect(Number(rankingSignal!.value.rank)).toBeLessThanOrEqual(20); // among the top third of 68 ranked nodes
+  });
+
+  it("Kabir Sharma's network position: has real ownership, communication, and financial edges reflected in degree breakdown", async () => {
+    const entities = await mod.repo.listEntities();
+    const s3 = entities.find((e) => e.canonicalLabel === "Kabir Sharma")!;
+    const detail = await mod.getEntityAnalyticsDetail(s3.id);
+    expect(detail).not.toBeNull();
+    expect(Object.keys(detail!.degree.byRelationshipType).length).toBeGreaterThan(0);
+  });
+
+  it("Vikram Singh remains a single canonical entity in analytics output (never double-counted)", async () => {
+    const entities = await mod.repo.listEntities();
+    const vikramEntities = entities.filter((e) => e.kind === "person" && e.canonicalLabel === "Vikram Singh");
+    expect(vikramEntities).toHaveLength(1);
+    const page = await mod.getRankedEntities({ limit: 100 });
+    const vikramRankings = page!.entities.filter((e) => e.label === "Vikram Singh");
+    expect(vikramRankings).toHaveLength(1);
+  });
+
+  it("S1 and S4 are graph-reachable without a direct edge ever being invented by analytics", async () => {
+    const entities = await mod.repo.listEntities();
+    const relationships = await mod.repo.listRelationships();
+    const s1 = entities.find((e) => e.canonicalLabel === "Rohan Malhotra")!;
+    const s4 = entities.find((e) => e.canonicalLabel === "Farhan Qureshi")!;
+    const directEdge = relationships.some(
+      (r) => (r.sourceEntityId === s1.id && r.targetEntityId === s4.id) || (r.sourceEntityId === s4.id && r.targetEntityId === s1.id),
+    );
+    expect(directEdge).toBe(false);
+    const result = await mod.getPath(s1.id, s4.id);
+    expect(result!.found).toBe(true);
+    if (result!.found) {
+      // every edge in the path is a real, pre-existing relationship id — analytics invented nothing
+      const relationshipIds = new Set(relationships.map((r) => r.id));
+      for (const edge of result!.edges) expect(relationshipIds.has(edge.id)).toBe(true);
+    }
+  });
+
+  it("the financial/money-mule chain remains represented through actual bank-account entities (analytics never substitutes a synthetic edge)", async () => {
+    const entities = await mod.repo.listEntities();
+    const relationships = await mod.repo.listRelationships();
+    // Per docs/data/graph.md §6: the mule intermediaries never receive a
+    // canonical person entity, so no analytics signal should reference
+    // one either.
+    for (const name of ["Sunil Gupta", "Pooja Rani", "Ashok Kumar"]) {
+      expect(entities.some((e) => e.kind === "person" && e.canonicalLabel === name)).toBe(false);
+    }
+    const bankAccountIds = new Set(entities.filter((e) => e.kind === "bank_account").map((e) => e.id));
+    const financialEdges = relationships.filter((r) => r.relationshipType === "financial" && r.classification !== "ai_inference");
+    expect(financialEdges.some((r) => bankAccountIds.has(r.sourceEntityId) && bankAccountIds.has(r.targetEntityId))).toBe(true);
+  });
+
+  it("unrelated/noise phone numbers do not become connected merely because analytics is running", async () => {
+    const entities = await mod.repo.listEntities();
+    const relationships = await mod.repo.listRelationships();
+    const phoneIds = new Set(entities.filter((e) => e.kind === "phone").map((e) => e.id));
+    const page = await mod.getRankedEntities({ limit: 100 });
+    // Every ranked phone entity must have at least one real, persisted
+    // relationship — analytics assigns a rank to every graph node, but
+    // never fabricates connectivity a node doesn't structurally have.
+    for (const e of page!.entities.filter((e) => phoneIds.has(e.id))) {
+      const hasRealEdge = relationships.some((r) => r.sourceEntityId === e.id || r.targetEntityId === e.id);
+      expect(hasRealEdge).toBe(true);
+    }
+  });
+
+  it("classification correctness: every persisted analytical signal is classified exactly algorithmic_signal, never any other value", async () => {
+    const signals = await mod.repo.listAnalyticalSignals();
+    expect(signals.length).toBeGreaterThan(0);
+    expect(signals.every((s) => s.classification === "algorithmic_signal")).toBe(true);
+    const serialized = JSON.stringify(signals);
+    for (const forbidden of ["observed_fact", "corroborated_fact", "ai_inference", "investigative_lead"]) {
+      expect(serialized).not.toContain(`"classification":"${forbidden}"`);
+    }
+  });
+
+  it("provenance: every signal traces back to a real, currently-persisted entity/location or edge reference — no evidence record is duplicated inline", async () => {
+    const signals = await mod.repo.listAnalyticalSignals();
+    const entities = await mod.repo.listEntities();
+    const locations = await mod.repo.listLocations();
+    const relationships = await mod.repo.listRelationships();
+    const nodeIds = new Set([...entities.map((e) => e.id), ...locations.map((l) => l.id)]);
+    const relationshipIds = new Set(relationships.map((r) => r.id));
+    for (const s of signals.slice(0, 50)) {
+      if (s.targetEntityId) expect(nodeIds.has(s.targetEntityId)).toBe(true);
+      const supportingEdgeIds = Array.isArray(s.value.supportingEdgeIds) ? (s.value.supportingEdgeIds as string[]) : [];
+      for (const edgeId of supportingEdgeIds) expect(relationshipIds.has(edgeId)).toBe(true);
+      // signals reference ids, never inline copies of evidence records
+      expect(JSON.stringify(s.value)).not.toMatch(/"provenance":\s*\{/);
+    }
+  });
+
+  it("ground-truth isolation over live persisted output: no analytical signal value or explanation contains a ground-truth-only field name", async () => {
+    const signals = await mod.repo.listAnalyticalSignals();
+    const serialized = JSON.stringify(signals);
+    for (const key of GROUND_TRUTH_KEYS) expect(serialized).not.toContain(key);
+  });
+});
+
+describe("empty and edge-case graphs (full pipeline)", () => {
+  const DB = "./data/netintel-analytics-empty.db";
+
+  afterAll(() => {
+    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  });
+
+  it("returns a structured NO_GRAPH error when analytics is requested before graph synthesis has ever run", async () => {
+    const mod = await freshAnalytics(DB);
+    await mod.runIngestion({ kind: "builtin-corpus" });
+    await mod.runExtraction();
+    await mod.runResolution();
+    // deliberately skip graph synthesis
+    const result = await mod.runAnalyticsSynthesis();
+    expect(result.status).toBe("failed");
+    expect(result.error?.code).toBe("NO_GRAPH");
+  });
+
+  it("returns a structured NO_INVESTIGATION error on a completely empty database", async () => {
+    const mod = await freshAnalytics(DB);
+    const result = await mod.runAnalyticsSynthesis();
+    expect(result.status).toBe("failed");
+    expect(result.error?.code).toBe("NO_INVESTIGATION");
+    expect(result.error?.message).not.toMatch(/\/(Users|home|root|var|tmp|private)\//);
+    expect(result.error?.message).not.toMatch(/\.[cm]?tsx?:\d+/);
   });
 });

@@ -132,7 +132,11 @@ export async function runAnalyticsSynthesis(onEvent?: EventSink): Promise<Analyt
       () => candidates.filter((c) => c.signalType === "ranking").length,
     );
 
-    const validated = validateOutputs(candidates);
+    const validated = await runStage(
+      "validate_signals",
+      (v: { signals: unknown[] }) => `${v.signals.length} signal candidates passed schema validation.`,
+      () => validateOutputs(candidates),
+    );
 
     const entityIds = new Set(entities.map((e) => e.id));
     const locationIds = new Set(locations.map((l) => l.id));
