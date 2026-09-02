@@ -1,8 +1,10 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, beforeAll, afterAll } from "vitest";
+import fs from "node:fs";
+import path from "node:path";
 
 import { createEmptyGraph } from "@/lib/graph";
 import { synthesizeGraph } from "@/lib/graph/build";
-import { makeContentId } from "@/lib/domain/ids";
+import { makeContentId, makeOpaqueId } from "@/lib/domain/ids";
 import type { Entity } from "@/lib/domain/entity";
 import type { ExtractedRecord } from "@/lib/domain/extraction";
 import type { ResolutionDecision } from "@/lib/domain/resolution";
@@ -454,5 +456,60 @@ describe("verify.assertProvenance — endpoint & classification invariants", () 
       new Set(["er1"]),
     );
     expect(count).toBe(1);
+  });
+});
+
+describe("idempotentPersistGraph — partial retry", () => {
+  const TEST_DB_PATH = "./data/netintel-graph-persist-test.db";
+
+  beforeAll(() => {
+    fs.mkdirSync(path.dirname(TEST_DB_PATH), { recursive: true });
+    fs.rmSync(TEST_DB_PATH, { force: true });
+    process.env.DATABASE_URL = TEST_DB_PATH;
+  });
+
+  afterAll(() => {
+    fs.rmSync(TEST_DB_PATH, { force: true });
+  });
+
+  it("persists only the rows missing after a partial prior write", async () => {
+    const { idempotentPersistGraph } = await import("@/lib/graph/persist");
+    const { insertInvestigation, insertEntity, insertRelationship } = await import("@/lib/db/repository");
+
+    const investigationId = makeOpaqueId("investigation");
+    await insertInvestigation({ id: investigationId, name: "Graph Persist Test", status: "in_progress", createdAt: NOW });
+    const sourceId = makeContentId("entity", ["person", "Persist Source"]);
+    const targetId = makeContentId("entity", ["phone", "+91-777"]);
+    await insertEntity({ id: sourceId, investigationId, kind: "person", canonicalLabel: "Persist Source", attributes: {}, provenance: baseProvenance("x", "loc") });
+    await insertEntity({ id: targetId, investigationId, kind: "phone", canonicalLabel: "+91-777", attributes: {}, provenance: baseProvenance("x", "loc") });
+
+    const relA = {
+      id: makeContentId("relationship", ["ownership", sourceId, targetId]),
+      investigationId,
+      sourceEntityId: sourceId,
+      targetEntityId: targetId,
+      relationshipType: "ownership" as const,
+      directed: true,
+      evidenceItemIds: ["item1"],
+      extractedRecordIds: ["er1"],
+      conflicts: [],
+      attributes: {},
+      classification: "observed_fact" as const,
+      provenance: baseProvenance("er1", "loc"),
+    };
+    // Simulate a partial prior write: relA already persisted.
+    await insertRelationship(relA);
+
+    const otherTargetId = makeContentId("entity", ["phone", "+91-888"]);
+    await insertEntity({ id: otherTargetId, investigationId, kind: "phone", canonicalLabel: "+91-888", attributes: {}, provenance: baseProvenance("x", "loc") });
+    const relB = {
+      ...relA,
+      id: makeContentId("relationship", ["ownership", sourceId, otherTargetId]),
+      targetEntityId: otherTargetId,
+    };
+
+    const persisted = await idempotentPersistGraph([], [], [], [relA, relB]);
+    expect(persisted.relationshipsCreated).toBe(1);
+    expect(persisted.relationshipsSkipped).toBe(1);
   });
 });
