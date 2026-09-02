@@ -10,7 +10,7 @@
 Status: Early Implementation
 ```
 
-The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap (P4.1) and the domain/data foundation (P4.2) — typed domain models, deterministic IDs, executable provenance, a migrated SQLite schema, and a validated fixture-loading boundary — are in place. The full synthetic investigation corpus (P5.1) — Operation DarkNet Delhi, generated deterministically from a fixed version/seed: 5 FIRs, 8 suspects, 1,150 CDRs, 560 transactions and supporting records, with a held-out ground-truth answer key kept isolated from the evidence path (`docs/data/corpus.md`) — exists under `evidence/`. The **evidence ingestion workflow** (P5.2) is implemented: a real, streamed, 8-stage pipeline (validate → normalize → assign deterministic IDs → attach provenance → persist) that loads the corpus into the application and shows the investigation loaded with its evidence summary; deterministic and idempotent (`docs/data/ingestion.md`). The **evidence extraction workflow** (P5.3) is implemented: a real, streamed, 7-stage pipeline (select evidence → parse content → extract explicit facts → validate → attach provenance → persist) that structures every explicitly-stated fact across the 12 evidence types into 1,996 extracted records, each classified Observed Fact with full provenance; deterministic and idempotent, with no entity resolution or investigative inference performed (`docs/data/extraction.md`). The **entity resolution workflow** (P5.4) is implemented: a real, streamed, 8-stage pipeline (select records → canonicalize identifiers → cluster identities → resolve mentions → validate → attach provenance → persist) that resolves 1,996 extracted facts into 54 canonical entities (10 people, 44 phone/IMEI/vehicle/bank-account identifiers) and 25 aliases via 85 resolution decisions, each classified AI Inference with full provenance back to the extracted record it came from; deterministic and idempotent, with every merge justified by a shared identifier or an unambiguous exact-name match — ambiguous name matches are left deliberately unmerged, never force-resolved (`docs/data/resolution.md`). Graph synthesis, analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
+The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap (P4.1) and the domain/data foundation (P4.2) — typed domain models, deterministic IDs, executable provenance, a migrated SQLite schema, and a validated fixture-loading boundary — are in place. The full synthetic investigation corpus (P5.1) — Operation DarkNet Delhi, generated deterministically from a fixed version/seed: 5 FIRs, 8 suspects, 1,150 CDRs, 560 transactions and supporting records, with a held-out ground-truth answer key kept isolated from the evidence path (`docs/data/corpus.md`) — exists under `evidence/`. The **evidence ingestion workflow** (P5.2) is implemented: a real, streamed, 8-stage pipeline (validate → normalize → assign deterministic IDs → attach provenance → persist) that loads the corpus into the application and shows the investigation loaded with its evidence summary; deterministic and idempotent (`docs/data/ingestion.md`). The **evidence extraction workflow** (P5.3) is implemented: a real, streamed, 7-stage pipeline (select evidence → parse content → extract explicit facts → validate → attach provenance → persist) that structures every explicitly-stated fact across the 12 evidence types into 1,996 extracted records, each classified Observed Fact with full provenance; deterministic and idempotent, with no entity resolution or investigative inference performed (`docs/data/extraction.md`). The **entity resolution workflow** (P5.4) is implemented: a real, streamed, 8-stage pipeline (select records → canonicalize identifiers → cluster identities → resolve mentions → validate → attach provenance → persist) that resolves 1,996 extracted facts into 54 canonical entities (10 people, 44 phone/IMEI/vehicle/bank-account identifiers) and 25 aliases via 85 resolution decisions, each classified AI Inference with full provenance back to the extracted record it came from; deterministic and idempotent, with every merge justified by a shared identifier or an unambiguous exact-name match — ambiguous name matches are left deliberately unmerged, never force-resolved (`docs/data/resolution.md`). The **graph synthesis workflow** (P5.5) is implemented: a real, streamed, 10-stage pipeline (load resolved entities → load extracted records → map evidence to canonical entities → construct candidates → validate endpoints → construct edges → attach provenance → persist → build in-memory graph → result) that assembles 54 canonical entities and 14 real locations into 68 graph nodes and 196 relationship edges (ownership, communication, financial, co-location), each with full provenance and an evidence-classification label; deterministic and idempotent, with the deliberately hidden S1↔S4 connection staying structurally indirect and the money-mule chain represented only through real account entities (`docs/data/graph.md`). The sidebar's Graph screen is live: node/edge selection, filtering, and full evidence traceability from any relationship back to its source. Analytics, corroboration, the Copilot, and report generation are not implemented yet; see `docs/progress/implementation-ledger.md` for current status.
 
 ## ⚠️ Important Disclaimer
 
@@ -77,9 +77,9 @@ netintel-ai/
 │   └── lib/                     # ai/, corpus/ (deterministic corpus generator/loader), db/ (schema +
 │                                   validated repository), domain/ (typed domain models), env,
 │                                   extraction/ (P5.3 extraction pipeline), fixtures/ (synthetic +
-│                                   ground-truth loaders), graph/, ingestion/ (P5.2 ingestion
-│                                   pipeline), pipeline/, resolution/ (P5.4 entity resolution
-│                                   pipeline), utils
+│                                   ground-truth loaders), graph/ (P5.5 graph synthesis pipeline),
+│                                   ingestion/ (P5.2 ingestion pipeline), pipeline/, resolution/
+│                                   (P5.4 entity resolution pipeline), utils
 ├── tests/                  # tests/unit (Vitest), tests/e2e (Playwright)
 ├── drizzle/                # Generated SQL migrations
 ├── data/                   # Local SQLite database (git-ignored, created on first run)
@@ -122,7 +122,7 @@ Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker for appli
 
 ## Getting Started
 
-**Status**: the application foundation (P4.1), domain/data foundation (P4.2), the synthetic corpus (P5.1), the **evidence ingestion workflow** (P5.2), the **evidence extraction workflow** (P5.3), and the **entity resolution workflow** (P5.4) are in place. You can load the Operation DarkNet Delhi synthetic corpus through a real ingestion pipeline, extract every explicitly-stated fact from it into provenance-tracked, Observed-Fact-classified records, then resolve those facts into canonical entities and aliases — each resolution decision classified AI Inference, with full provenance and never a silent, forced, or ambiguous merge. Graph synthesis, analytics, corroboration, the Copilot, and reporting are later milestones.
+**Status**: the application foundation (P4.1), domain/data foundation (P4.2), the synthetic corpus (P5.1), the **evidence ingestion workflow** (P5.2), the **evidence extraction workflow** (P5.3), the **entity resolution workflow** (P5.4), and the **graph synthesis workflow** (P5.5) are in place. You can load the Operation DarkNet Delhi synthetic corpus through a real ingestion pipeline, extract every explicitly-stated fact from it into provenance-tracked, Observed-Fact-classified records, resolve those facts into canonical entities and aliases, then synthesize a browsable investigative graph — every relationship traceable back to the resolved entities and extracted evidence that justify it, never a fabricated or shortcut connection. Analytics, corroboration, the Copilot, and reporting are later milestones.
 
 Requirements: Node.js 26.8.1+ (provides the built-in `node:sqlite` module). No Docker required.
 
@@ -149,16 +149,28 @@ start the app  →  open http://localhost:3000
 →  entities resolved: 54 canonical entities (10 people · 14 phones · 14 IMEIs ·
    4 vehicles · 12 bank accounts) + 25 aliases from 85 decisions, each AI Inference
 →  reload / "Re-run resolution"  →  state persists, re-resolution is idempotent
+→  "Synthesize Graph"  →  watch the 10 real graph-synthesis stages
+→  graph synthesized: 68 nodes (54 entities + 14 locations) · 196 edges
+   (38 ownership · 69 communication · 63 co-location · 26 financial)
+→  sidebar "Graph" enables live  →  select an entity  →  inspect its
+   neighborhood and connected entities  →  select a relationship  →
+   trace it to its source evidence
+→  reload / "Re-run graph synthesis"  →  state persists, idempotent
 ```
 
-Ingestion, extraction, and resolution are fully local and deterministic (one
-SQLite file, one JSON corpus, no Anthropic call, no Docker). Details:
-`docs/data/ingestion.md`, `docs/data/extraction.md`, `docs/data/resolution.md`.
+Ingestion, extraction, resolution, and graph synthesis are fully local and
+deterministic (one SQLite file, one JSON corpus, no Anthropic call, no
+Docker). Details: `docs/data/ingestion.md`, `docs/data/extraction.md`,
+`docs/data/resolution.md`, `docs/data/graph.md`.
 Extraction performs no entity resolution, relationship inference, or investigative
 conclusions — every extracted record states only what a single source explicitly
 says. Resolution merges mentions only on explicit shared-identifier or
 unambiguous exact-name evidence — a name matching more than one identifier-anchored
-entity is left deliberately unmerged, never force-resolved.
+entity is left deliberately unmerged, never force-resolved. Graph synthesis never
+recreates identity resolution and never asserts a relationship the evidence does
+not directly support — the deliberately hidden connection between two principal
+suspects stays structurally indirect, recoverable only by traversing the real
+graph, never shortcut into a single edge.
 
 Other scripts:
 
