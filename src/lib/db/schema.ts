@@ -178,13 +178,21 @@ export const relationships = sqliteTable("relationships", {
   ...provenanceColumns(),
 });
 
+/**
+ * targetEntityId is unconstrained (no `.references()`) because the P5.6
+ * analysis graph includes both entities AND locations as nodes — a
+ * centrality/bridge/ranking signal may legitimately target either, the
+ * same dual-target shape `relationships.sourceEntityId/targetEntityId`
+ * already uses (see the comment above that table). Endpoint validity is
+ * enforced at the application layer by src/lib/analytics/verify.ts.
+ */
 export const analyticalSignals = sqliteTable("analytical_signals", {
   id: text("id").primaryKey(),
   investigationId: text("investigation_id")
     .notNull()
     .references(() => investigations.id),
   graphVersion: text("graph_version").notNull(),
-  targetEntityId: text("target_entity_id").references(() => entities.id),
+  targetEntityId: text("target_entity_id"),
   signalType: text("signal_type").notNull(),
   value: text("value", { mode: "json" }).$type<Record<string, unknown>>().notNull(),
   method: text("method").notNull(),

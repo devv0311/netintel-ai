@@ -2,7 +2,7 @@ import { describe, expect, it, beforeAll, afterAll } from "vitest";
 import fs from "node:fs";
 import path from "node:path";
 
-import { makeContentId } from "@/lib/domain/ids";
+import { makeContentId, makeOpaqueId } from "@/lib/domain/ids";
 import type { Entity } from "@/lib/domain/entity";
 import type { Location } from "@/lib/domain/location";
 import type { Relationship } from "@/lib/domain/relationship";
@@ -347,6 +347,117 @@ describe("computeShortestPath", () => {
     const run1 = computeShortestPath(BARBELL_ENTITIES, [], BARBELL_RELATIONSHIPS, A.id, F.id);
     const run2 = computeShortestPath(BARBELL_ENTITIES, [], BARBELL_RELATIONSHIPS, A.id, F.id);
     expect(JSON.stringify(run1)).toBe(JSON.stringify(run2));
+  });
+});
+
+describe("verify.assertProvenance — endpoint & classification invariants", () => {
+  function goodSignal(overrides: Record<string, unknown> = {}) {
+    return {
+      id: "sig1",
+      investigationId: "inv1",
+      graphVersion: "v1",
+      targetEntityId: "entity_a",
+      signalType: "centrality" as const,
+      value: { score: 0.5 },
+      method: "analytics:degree_centrality",
+      explanation: "test",
+      classification: "algorithmic_signal" as const,
+      provenance: baseProvenance("entity_a", "graph_version:v1"),
+      ...overrides,
+    };
+  }
+
+  it("rejects a signal whose targetEntityId does not resolve to a known entity or location", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/analytics/verify");
+    const validated = validateOutputs([goodSignal({ targetEntityId: "does-not-exist" })]);
+    expect(() => assertProvenance(validated.signals, new Set(["entity_a"]), new Set(), "v1")).toThrow();
+  });
+
+  it("accepts a signal whose targetEntityId resolves to a location (not only an entity)", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/analytics/verify");
+    const validated = validateOutputs([goodSignal({ targetEntityId: "location_x" })]);
+    const count = assertProvenance(validated.signals, new Set(), new Set(["location_x"]), "v1");
+    expect(count).toBe(1);
+  });
+
+  it("rejects a signal stamped with a graph version different from the one this run analyzed", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/analytics/verify");
+    const validated = validateOutputs([goodSignal({ graphVersion: "stale-version" })]);
+    expect(() => assertProvenance(validated.signals, new Set(["entity_a"]), new Set(), "v1")).toThrow();
+  });
+
+  it("accepts a well-formed algorithmic_signal with a resolvable entity endpoint", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/analytics/verify");
+    const validated = validateOutputs([goodSignal()]);
+    const count = assertProvenance(validated.signals, new Set(["entity_a"]), new Set(), "v1");
+    expect(count).toBe(1);
+  });
+
+  it("accepts a community signal with no targetEntityId at all", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/analytics/verify");
+    const communitySignal = {
+      id: "sig-community",
+      investigationId: "inv1",
+      graphVersion: "v1",
+      signalType: "community" as const,
+      value: { clusterId: "c1", size: 2, memberEntityIds: ["entity_a", "entity_b"] },
+      method: "analytics:louvain_community",
+      explanation: "test",
+      classification: "algorithmic_signal" as const,
+      provenance: baseProvenance("c1", "graph_version:v1"),
+    };
+    const validated = validateOutputs([communitySignal]);
+    const count = assertProvenance(validated.signals, new Set(["entity_a", "entity_b"]), new Set(), "v1");
+    expect(count).toBe(1);
+  });
+});
+
+describe("idempotentPersistAnalytics — partial retry", () => {
+  const TEST_DB_PATH = "./data/netintel-analytics-persist-test.db";
+
+  beforeAll(() => {
+    fs.mkdirSync(path.dirname(TEST_DB_PATH), { recursive: true });
+    fs.rmSync(TEST_DB_PATH, { force: true });
+    process.env.DATABASE_URL = TEST_DB_PATH;
+  });
+
+  afterAll(() => {
+    fs.rmSync(TEST_DB_PATH, { force: true });
+  });
+
+  it("persists only the rows missing after a partial prior write", async () => {
+    const { idempotentPersistAnalytics } = await import("@/lib/analytics/persist");
+    const { insertInvestigation, insertEntity, insertAnalyticalSignal } = await import("@/lib/db/repository");
+
+    const investigationId = makeOpaqueId("investigation");
+    await insertInvestigation({ id: investigationId, name: "Analytics Persist Test", status: "in_progress", createdAt: NOW });
+    await insertEntity({ id: "entity_x", investigationId, kind: "person", canonicalLabel: "X", attributes: {}, provenance: baseProvenance("x", "loc") });
+    await insertEntity({ id: "entity_y", investigationId, kind: "person", canonicalLabel: "Y", attributes: {}, provenance: baseProvenance("x", "loc") });
+
+    const signalA = {
+      id: makeContentId("analytical_signal", ["centrality", "entity_x", "v1"]),
+      investigationId,
+      graphVersion: "v1",
+      targetEntityId: "entity_x",
+      signalType: "centrality" as const,
+      value: { score: 0.1 },
+      method: "analytics:degree_centrality",
+      explanation: "test",
+      classification: "algorithmic_signal" as const,
+      provenance: baseProvenance("entity_x", "graph_version:v1"),
+    };
+    // Simulate a partial prior write: signalA already persisted.
+    await insertAnalyticalSignal(signalA);
+
+    const signalB = {
+      ...signalA,
+      id: makeContentId("analytical_signal", ["centrality", "entity_y", "v1"]),
+      targetEntityId: "entity_y",
+    };
+
+    const persisted = await idempotentPersistAnalytics([signalA, signalB]);
+    expect(persisted.signalsCreated).toBe(1);
+    expect(persisted.signalsSkipped).toBe(1);
   });
 });
 
