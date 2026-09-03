@@ -5,16 +5,20 @@ import { test, expect } from "@playwright/test";
  * state: header identity, the synthetic-data safety indicator, and the
  * later-milestone navigation entries disabled — with no console errors.
  *
- * The "Graph", "Analytics" and "Corroboration" entries are deliberately
- * excluded from the always-disabled assertion below: per P5.5/P5.6/P5.7,
- * each enables live once its own synthesis has actually succeeded
- * (docs/data/graph.md, docs/data/analytics.md, docs/data/corroboration.md)
- * — this file runs after investigation-synthesis.spec.ts,
- * investigation-topology.spec.ts and investigation-corroboration.spec.ts
- * in the shared-DB e2e suite (all "investigation-*" files sort before
- * "shell.spec.ts" lexically), so by the time this test runs all three
- * may already be enabled. The accurate enable/disable transition itself
- * is tested end to end in those files.
+ * The "Graph", "Analytics", "Corroboration", "Ask a Question" and
+ * "Dossier" entries are deliberately excluded from the always-disabled
+ * assertion below: per P5.5–P5.9, each enables live once the stage it
+ * depends on has actually succeeded (docs/data/graph.md,
+ * docs/data/analytics.md, docs/data/corroboration.md,
+ * docs/data/dossier.md) — this file runs after every
+ * "investigation-*" spec in the shared-DB e2e suite (all
+ * "investigation-*" files sort before "shell.spec.ts" lexically), so by
+ * the time this test runs all five may already be enabled. The accurate
+ * enable/disable transition itself is tested end to end in those files.
+ *
+ * "Timeline" and "Map" stay here because they are genuinely still
+ * unimplemented, and this assertion is what will catch it if one of
+ * them is ever wired up without its milestone.
  */
 test("application shell renders with header, safety indicator and disabled future-milestone nav", async ({
   page,
@@ -33,11 +37,9 @@ test("application shell renders with header, safety indicator and disabled futur
     page.getByText("Synthetic data only — not a real investigation"),
   ).toBeVisible();
 
-  // Copilot / Reporting / remaining Analysis surfaces are later milestones.
+  // The remaining Analysis surfaces are later milestones with no backing stage.
   await expect(page.getByRole("button", { name: "Timeline" })).toBeDisabled();
   await expect(page.getByRole("button", { name: "Map" })).toBeDisabled();
-  await expect(page.getByRole("button", { name: "Ask a Question" })).toBeDisabled();
-  await expect(page.getByRole("button", { name: "Dossier" })).toBeDisabled();
 
   expect(consoleErrors).toEqual([]);
 });
