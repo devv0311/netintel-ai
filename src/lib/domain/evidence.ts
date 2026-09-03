@@ -48,6 +48,14 @@ export const EVIDENCE_ITEM_TYPES = [
   "financial_transaction_record",
   "witness_statement",
   "crime_event",
+  /**
+   * A record from a public register — GLEIF, Wikidata — carrying
+   * mandatory source, licence and retrieval metadata. The only type
+   * through which externally-fetched data may enter the pipeline; its
+   * content shape is enforced by PublicRecordContentSchema
+   * (./public-record.ts), not by the free-form content record.
+   */
+  "public_record",
 ] as const;
 export const EvidenceItemTypeSchema = z.enum(EVIDENCE_ITEM_TYPES);
 export type EvidenceItemType = z.infer<typeof EvidenceItemTypeSchema>;

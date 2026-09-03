@@ -1,5 +1,7 @@
 import { z } from "zod";
 
+import { PublicRecordContentSchema } from "@/lib/domain/public-record";
+
 import { InvestigationStatusSchema } from "../domain/investigation";
 import {
   EvidenceSourceTypeSchema,
@@ -41,9 +43,21 @@ import { EvidenceClassificationSchema } from "../domain/provenance";
 const RefSchema = z.string().min(1);
 
 export const CorpusMetaSchema = z.object({
-  name: z.literal("operation-darknet-delhi"),
+  /**
+   * Was pinned to the literal "operation-darknet-delhi" — correct while
+   * one corpus existed, and a hard blocker for a second. Relaxed to a
+   * slug so a public-register corpus can be ingested through the SAME
+   * validated path as the synthetic one, rather than growing a parallel
+   * ingestion route that would need its own provenance and id handling.
+   * The ground-truth manifest below stays pinned: ground truth is
+   * corpus-specific by definition.
+   */
+  name: z
+    .string()
+    .regex(/^[a-z0-9][a-z0-9-]{1,63}$/, "corpus name must be a lowercase slug"),
   version: z.string().min(1),
-  seed: z.number().int(),
+  /** Null for a corpus that was collected rather than generated. */
+  seed: z.number().int().nullable(),
   generatedAt: z.string().datetime(),
   description: z.string().min(1),
 });
@@ -70,6 +84,23 @@ export const CorpusManifestSchema = z.object({
         sourceKey: RefSchema,
         itemType: EvidenceItemTypeSchema,
         content: z.record(z.string(), z.unknown()),
+      }).superRefine((item, ctx) => {
+        // A public_record's content is not free-form. It must carry the
+        // mandatory source, licence and retrieval metadata, and it is
+        // rejected HERE — at the ingestion schema gate — rather than
+        // later, so an unlicensed or unattributable record can never
+        // reach the store at all. Every other evidence type keeps the
+        // free-form content contract it has always had.
+        if (item.itemType !== "public_record") return;
+        const result = PublicRecordContentSchema.safeParse(item.content);
+        if (result.success) return;
+        for (const issue of result.error.issues) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["content", ...issue.path],
+            message: issue.message,
+          });
+        }
       }),
     )
     .min(1),

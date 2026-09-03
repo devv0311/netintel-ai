@@ -1,4 +1,5 @@
 import type { EvidenceItem, EvidenceItemType } from "@/lib/domain/evidence";
+import { parsePublicRecord } from "@/lib/domain/public-record";
 import type { ExtractedRecordType } from "@/lib/domain/extraction";
 import { makeContentId } from "@/lib/domain/ids";
 import type { Provenance } from "@/lib/domain/provenance";
@@ -425,6 +426,95 @@ function extractCrimeEvent(content: Content): RawFact[] {
   ];
 }
 
+/**
+ * Public register records — the one evidence type whose content shape is
+ * schema-enforced rather than read field by field on trust.
+ *
+ * `parsePublicRecord` throws if the mandatory source/licence/retrieval
+ * metadata is missing or malformed, so a record that cannot state where
+ * it came from and under what terms produces NO facts at all rather than
+ * partial ones. Extraction is the last gate before a fact becomes a row,
+ * and an unlicensed row is worse than a missing one.
+ *
+ * Everything emitted here is still a structural field-read of what the
+ * publisher stated. No name is normalised beyond what the publisher
+ * wrote, no identifier is inferred, and no cross-record link is made:
+ * `relations[]` records the publisher's own id for the other end, never
+ * a NetIntel entity id. Deciding whether two records denote the same
+ * subject is entity resolution's job, and leaving that decision entirely
+ * to the existing resolver is the whole point of the public-data pilot.
+ */
+function extractPublicRecord(content: Content): RawFact[] {
+  const record = parsePublicRecord(content);
+  const facts: RawFact[] = [];
+
+  facts.push(
+    fact("entity_mention", "name", `${record.subjectKind}_named`, {
+      mentionKind: record.subjectKind,
+      observedValue: record.name,
+      registry: record.registry,
+    }),
+  );
+
+  record.identifiers?.forEach((identifier, i) => {
+    facts.push(
+      fact("relationship_mention", `identifiers[${i}]`, "subject_has_identifier", {
+        relationshipType: "has_identifier",
+        subject: record.name,
+        // Scheme-qualified so an LEI and a QID with the same characters
+        // can never be treated as the same identifier by the resolver.
+        observedValue: `${identifier.scheme}:${identifier.value}`,
+        scheme: identifier.scheme,
+      }),
+    );
+  });
+
+  record.aliases?.forEach((alias, i) => {
+    facts.push(
+      fact("relationship_mention", `aliases[${i}]`, "alias_of", {
+        relationshipType: "alias_of",
+        subject: record.name,
+        observedValue: alias,
+      }),
+    );
+  });
+
+  record.relations?.forEach((relation, i) => {
+    facts.push(
+      fact("relationship_mention", `relations[${i}]`, "registry_relation", {
+        relationshipType: relation.predicate,
+        subject: record.registryRecordId,
+        observedValue: relation.targetRegistryRecordId,
+      }),
+    );
+  });
+
+  // Licensing and retrieval are persisted as first-class attribute rows,
+  // each with its own provenance, so a downstream export can filter by
+  // licence without re-reading the source file.
+  const attributes: [string, string, string | undefined][] = [
+    ["registry", "public_record_registry", record.registry],
+    ["registryRecordId", "public_record_registry_id", record.registryRecordId],
+    ["license", "public_record_license", record.license],
+    ["licenseUrl", "public_record_license_url", record.licenseUrl],
+    ["sourceUrl", "public_record_source_url", record.sourceUrl],
+    ["retrievedAt", "public_record_retrieved_at", record.retrievedAt],
+    ["observedAt", "public_record_observed_at", record.observedAt],
+  ];
+  for (const [field, factType, value] of attributes) {
+    if (!value) continue;
+    facts.push(
+      fact("attribute_mention", field, factType, {
+        attribute: factType,
+        subject: record.name,
+        observedValue: value,
+      }),
+    );
+  }
+
+  return facts;
+}
+
 const EXTRACTORS: Record<EvidenceItemType, (content: Content) => RawFact[]> = {
   fir: extractFir,
   suspect_record: extractSuspectRecord,
@@ -438,6 +528,7 @@ const EXTRACTORS: Record<EvidenceItemType, (content: Content) => RawFact[]> = {
   financial_transaction_record: extractFinancialTransactionRecord,
   witness_statement: extractWitnessStatement,
   crime_event: extractCrimeEvent,
+  public_record: extractPublicRecord,
 };
 
 /** Pure fact derivation for one evidence item's content. */
