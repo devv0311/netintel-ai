@@ -4,7 +4,7 @@
   "retrievalChannel": "agent-relay",
   "rawSha256": "51bd7cd1e4c6aa25871940c2442b20f7a61d5dbe78fd4fb8726dda849e423e63",
   "corpus": "evidence/public-pilot/gleif-in-pilot.corpus.json",
-  "ranAt": "2026-09-03T19:14:25.093Z",
+  "ranAt": "2026-09-03T19:34:15.885Z",
   "dataClass": "real-collected-public-record",
   "counts": {
     "evidenceItems": 24,
@@ -60,7 +60,14 @@
   },
   "publisherRelations": {
     "stated": 1,
-    "relationshipTypesInGraph": []
+    "preservedAsFacts": 1,
+    "relationshipTypesInGraph": [],
+    "unmappedByGraph": [
+      "is_fund_managed_by"
+    ],
+    "graphWarnings": [
+      "Unsupported relationship_mention type \"is_fund_managed_by\" on extracted_record_14c0fe37fe17fcf2522d; skipped."
+    ]
   },
   "observations": {
     "exactNameCollisions": [],

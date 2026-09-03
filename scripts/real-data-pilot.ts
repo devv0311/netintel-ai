@@ -170,6 +170,18 @@ async function main(): Promise<void> {
   );
   const relationTypes = new Set(relationships.map((r) => r.relationshipType));
 
+  // --- 5b. publisher relations: preserved as facts, and which the
+  //         graph had no type for. "Preserved" is the load-bearing word:
+  //         an unmapped relation is not a lost one.
+  const preservedRelationFacts = records.filter(
+    (r) => r.recordType === "relationship_mention" && r.data.factType === "registry_relation",
+  );
+  const unmappedRelations = [...new Set(
+    (graph.warnings ?? [])
+      .map((w) => /Unsupported relationship_mention type "([^"]+)"/.exec(w)?.[1])
+      .filter((t): t is string => Boolean(t)),
+  )];
+
   // --- 6. provenance completeness over everything persisted ---
   const { collectProvenanceBearingRows } = await import("@/lib/evaluation/snapshot");
   const provRows = collectProvenanceBearingRows({
@@ -231,7 +243,16 @@ async function main(): Promise<void> {
     resolutionTypeHistogram: Object.fromEntries(byType),
     publisherRelations: {
       stated: expectedRelations.length,
+      // Preserved as extracted relationship_mention rows with full
+      // provenance even when no graph edge exists for them.
+      preservedAsFacts: preservedRelationFacts.length,
       relationshipTypesInGraph: [...relationTypes],
+      // The modelling gap, reported rather than papered over: a publisher
+      // relation the graph has no honest type for. Surfaced here so it is
+      // a first-class result of the pilot instead of one line buried in
+      // synthesis warnings.
+      unmappedByGraph: unmappedRelations,
+      graphWarnings: graph.warnings ?? [],
     },
     observations: {
       exactNameCollisions: truth.observations.exactNameCollisions,
@@ -263,6 +284,12 @@ async function main(): Promise<void> {
   }
   console.log("\n  resolution types:");
   for (const [type, n] of byType) console.log(`    ${type.padEnd(30)} ${n}`);
+  console.log(`\n  publisher relations stated:        ${expectedRelations.length}`);
+  console.log(`  preserved as extracted facts:      ${preservedRelationFacts.length}`);
+  console.log(`  graph edges built from them:       ${relationships.length}`);
+  if (unmappedRelations.length > 0) {
+    console.log(`  UNMAPPED (needs a modelling decision, not a fix): ${unmappedRelations.join(", ")}`);
+  }
   console.log(`\n  exact name collisions in real data: ${truth.observations.exactNameCollisions.length}`);
   console.log(`  false merges: ${falseMerges.length}   fragmented subjects: ${fragmented.length}`);
   console.log(`\nWrote reports/real-pilot/gleif-pilot-results.json`);

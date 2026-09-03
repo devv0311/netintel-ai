@@ -374,8 +374,24 @@ export function synthesizeGraph(
       continue;
     }
 
-    if (relType === "has_alias" || relType === "alias_of") continue; // resolution's job, never a graph edge
+    // Deliberate non-edges. These are resolution's inputs, not statements
+    // that two entities stand in a relation, so reporting them as
+    // "unsupported" would be wrong twice over: it implies a gap that does
+    // not exist, and on a public-register corpus it buries the gaps that
+    // DO exist. A 24-record GLEIF pilot emitted 25 graph warnings, 24 of
+    // them for has_identifier, leaving the single real modelling gap
+    // (is_fund_managed_by) as one line in twenty-five.
+    if (relType === "has_alias" || relType === "alias_of") continue;
+    if (relType === "has_identifier") continue;
 
+    // Everything else genuinely is unhandled, and says so. A publisher
+    // relation that reaches here — GLEIF Level 2's is_fund_managed_by is
+    // the live example — is PRESERVED as an extracted relationship_mention
+    // with full provenance; only its graph edge is absent, because
+    // RELATIONSHIP_TYPES has no honest home for it. See
+    // docs/evaluation/real-data-pilot.md §3.2: that is a modelling
+    // decision, and inventing a type or folding it into `ownership` here
+    // would assert a claim the publisher did not make.
     warnings.push(`Unsupported relationship_mention type "${relType}" on ${r.id}; skipped.`);
   }
 
