@@ -1,43 +1,43 @@
 {
   "meta": {
-    "runId": "eval-2026-09-03T17-47-01-568Z",
-    "startedAt": "2026-09-03T17:47:01.568Z",
-    "completedAt": "2026-09-03T17:47:10.709Z",
+    "runId": "eval-2026-09-03T18-01-33-839Z",
+    "startedAt": "2026-09-03T18:01:33.839Z",
+    "completedAt": "2026-09-03T18:01:42.326Z",
     "corpusName": "operation-darknet-delhi",
     "corpusVersion": "1.0.0",
     "corpusSeed": 20260901,
     "databasePath": "./data/netintel-eval.db",
-    "gitCommit": "c6b6957e515430370249a51f728eed9c778ecd6c",
+    "gitCommit": "358f1009bc78ce5eccf777e957ea151163996171",
     "nodeVersion": "v22.22.2",
     "pipelineStages": [
       {
         "stage": "ingestion",
-        "ms": 4470,
+        "ms": 4053,
         "detail": "ingested"
       },
       {
         "stage": "extraction",
-        "ms": 2275,
+        "ms": 2328,
         "detail": "extracted"
       },
       {
         "stage": "resolution",
-        "ms": 276,
+        "ms": 277,
         "detail": "resolved"
       },
       {
         "stage": "graph synthesis",
-        "ms": 313,
+        "ms": 293,
         "detail": "synthesized"
       },
       {
         "stage": "topology analytics",
-        "ms": 313,
+        "ms": 316,
         "detail": "synthesized"
       },
       {
         "stage": "spatial/temporal corroboration",
-        "ms": 990,
+        "ms": 903,
         "detail": "synthesized"
       }
     ],
@@ -1682,26 +1682,26 @@
           {
             "key": "TC-hidden-S1-S4",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_a0507d029778cf95e4bc",
+            "findingId": "corroboration_finding_78aa2cbff0b02666c1f3",
             "findingType": "temporal_co_occurrence"
           },
           {
             "key": "TC-S3-S7-via-X1",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_a3f011405f1519497141",
+            "findingId": "corroboration_finding_4b59403d615cb9881403",
             "findingType": "repeated_spatiotemporal_overlap"
           },
           {
             "key": "TC-S5-C1",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_056fb1f10c205a533de8",
-            "findingType": "temporal_co_occurrence"
+            "findingId": "corroboration_finding_117d32845538654f6bdf",
+            "findingType": "repeated_spatiotemporal_overlap"
           },
           {
             "key": "TC-S2-S6-handoff",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_1592cbb28246e6216b5f",
-            "findingType": "repeated_spatiotemporal_overlap"
+            "findingId": "corroboration_finding_2b3e6c0d4e7ba13e9eb8",
+            "findingType": "temporal_co_occurrence"
           }
         ],
         "systemTemporalFindings": 193
@@ -1736,19 +1736,19 @@
           {
             "locationKey": "SYN-CT-07",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_cc7b0334e96df3825656",
-            "findingType": "repeated_spatiotemporal_overlap"
+            "findingId": "corroboration_finding_afe93fa0df2b469aa712",
+            "findingType": "spatial_co_location"
           },
           {
             "locationKey": "SYN-CT-02",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_2d0b016562bf59e307f2",
-            "findingType": "repeated_spatiotemporal_overlap"
+            "findingId": "corroboration_finding_1eae87daef34ce8ea2c6",
+            "findingType": "spatial_co_location"
           },
           {
             "locationKey": "SYN-CT-05",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_18c9ecc58ef370022ec6",
+            "findingId": "corroboration_finding_15287ae31b7901147ccc",
             "findingType": "spatial_co_location"
           }
         ],

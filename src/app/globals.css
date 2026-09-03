@@ -54,6 +54,7 @@
 
   /* graph node-kind palette (also analytics + future map markers) */
   --kind-person: oklch(0.7 0.14 250);
+  --kind-organisation: oklch(0.72 0.13 315);
   --kind-phone: oklch(0.72 0.15 155);
   --kind-imei: oklch(0.7 0.12 200);
   --kind-vehicle: oklch(0.75 0.13 85);
@@ -113,6 +114,7 @@
     --primary-foreground: oklch(0.98 0 0);
 
     --kind-person: oklch(0.5 0.16 250);
+    --kind-organisation: oklch(0.52 0.15 315);
     --kind-phone: oklch(0.48 0.15 155);
     --kind-imei: oklch(0.48 0.12 200);
     --kind-vehicle: oklch(0.52 0.12 85);

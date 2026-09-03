@@ -8,11 +8,12 @@
  * reading it back off a computed style, then caches the result.
  */
 
-export const NODE_KINDS = ["person", "phone", "imei", "vehicle", "bank_account", "location"] as const;
+export const NODE_KINDS = ["person", "organisation", "phone", "imei", "vehicle", "bank_account", "location"] as const;
 export type GraphNodeKind = (typeof NODE_KINDS)[number] | "other";
 
 export const KIND_LABELS: Record<string, string> = {
   person: "Person",
+  organisation: "Organisation",
   phone: "Phone",
   imei: "IMEI",
   vehicle: "Vehicle",
@@ -23,6 +24,7 @@ export const KIND_LABELS: Record<string, string> = {
 
 export const KIND_VAR: Record<string, string> = {
   person: "--kind-person",
+  organisation: "--kind-organisation",
   phone: "--kind-phone",
   imei: "--kind-imei",
   vehicle: "--kind-vehicle",

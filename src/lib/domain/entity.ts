@@ -14,6 +14,20 @@ import { ProvenanceSchema } from "./provenance";
  */
 export const ENTITY_KINDS = [
   "person",
+  /**
+   * A legal entity — a company, trust, partnership or other registered
+   * body. Added for the public-data milestone: GLEIF and Wikidata are
+   * overwhelmingly about organisations, and modelling one as a `person`
+   * would put a legal entity and a natural person in the same bucket,
+   * which is exactly the distinction an investigative graph must keep.
+   *
+   * No evidence type currently produces one — the twelve investigative
+   * record types name people, phones, IMEIs, vehicles, accounts and
+   * places, never companies. The kind is added ahead of `public_record`
+   * so the schema change and the ingestion change land separately and
+   * each can be evaluated on its own.
+   */
+  "organisation",
   "phone",
   "imei",
   "vehicle",

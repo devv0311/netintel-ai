@@ -35,6 +35,7 @@ const KIND_LABELS: Record<string, string> = {
   imei: "imei",
   vehicle: "vehicle",
   bank_account: "bank account",
+  organisation: "organisation",
   location: "location",
 };
 

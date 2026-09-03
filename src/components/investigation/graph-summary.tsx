@@ -10,6 +10,7 @@ const KIND_LABELS: Record<string, string> = {
   imei: "IMEI nodes",
   vehicle: "Vehicle nodes",
   bank_account: "Bank account nodes",
+  organisation: "Organisation nodes",
   location: "Location nodes",
 };
 

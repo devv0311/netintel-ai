@@ -27,7 +27,7 @@ const GraphView = dynamic(() => import("./graph-view").then((m) => m.GraphView),
   ),
 });
 
-const NODE_KINDS = ["person", "phone", "imei", "vehicle", "bank_account", "location"];
+const NODE_KINDS = ["person", "organisation", "phone", "imei", "vehicle", "bank_account", "location"];
 const EDGE_TYPES = ["ownership", "communication", "financial", "co_location", "family", "associate", "other"];
 
 /**
