@@ -13,7 +13,7 @@ import {
 
 import { cn } from "@/lib/utils";
 
-export type NavView = "evidence" | "graph" | "analytics" | "corroboration" | "copilot";
+export type NavView = "evidence" | "graph" | "analytics" | "corroboration" | "copilot" | "dossier";
 
 interface NavItem {
   icon: typeof FolderOpen;
@@ -31,11 +31,12 @@ interface NavSection {
  * The application sidebar. Each analysis entry becomes a real,
  * clickable navigation target only once its backing stage is available
  * — Graph once P5.5 synthesis has succeeded, Analytics once P5.6 has,
- * Corroboration once P5.7 has, and the Investigation Copilot once P5.8
- * has all of the derived intelligence it grounds on (each per its own
- * milestone brief: "enable the ... navigation entry only when ...
- * synthesis is successfully available"). Every other entry remains a
- * disabled placeholder for a later milestone.
+ * Corroboration once P5.7 has, the Investigation Copilot once P5.8 has
+ * all of the derived intelligence it grounds on, and the Dossier once
+ * P5.9 has every stage it reports on (each per its own milestone brief:
+ * "enable the ... navigation entry only when ... synthesis is
+ * successfully available"). Every other entry remains a disabled
+ * placeholder for a later milestone.
  */
 export function Sidebar({
   activeView,
@@ -43,6 +44,7 @@ export function Sidebar({
   analyticsEnabled,
   corroborationEnabled,
   copilotEnabled,
+  dossierEnabled,
   onNavigate,
 }: {
   activeView: NavView;
@@ -50,6 +52,7 @@ export function Sidebar({
   analyticsEnabled: boolean;
   corroborationEnabled: boolean;
   copilotEnabled: boolean;
+  dossierEnabled: boolean;
   onNavigate: (view: NavView) => void;
 }) {
   const sections: NavSection[] = [
@@ -73,7 +76,7 @@ export function Sidebar({
     },
     {
       label: "Reporting",
-      items: [{ icon: FileText, label: "Dossier", enabled: false }],
+      items: [{ icon: FileText, label: "Dossier", view: "dossier", enabled: dossierEnabled }],
     },
   ];
 

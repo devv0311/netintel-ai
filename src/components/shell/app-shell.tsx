@@ -10,6 +10,7 @@ import { GraphScreen } from "@/components/investigation/graph-screen";
 import { AnalyticsScreen } from "@/components/investigation/analytics-screen";
 import { CorroborationScreen } from "@/components/investigation/corroboration-screen";
 import { CopilotScreen } from "@/components/investigation/copilot-screen";
+import { DossierScreen } from "@/components/investigation/dossier-screen";
 import type { InvestigationState } from "@/lib/ingestion/types";
 import type { ExtractionState } from "@/lib/extraction/types";
 import type { ResolutionState } from "@/lib/resolution/types";
@@ -17,22 +18,25 @@ import type { GraphState } from "@/lib/graph/types";
 import type { AnalyticsState } from "@/lib/analytics/types";
 import type { CorroborationState } from "@/lib/corroboration/types";
 import type { CopilotState } from "@/lib/copilot/types";
+import type { DossierState } from "@/lib/dossier/types";
 
 /**
  * The top-level application shell: header, sidebar navigation, and the
  * active screen. The sidebar's "Graph" (P5.5), "Analytics" (P5.6),
- * "Corroboration" (P5.7), and "Ask a Question" (P5.8 — the Investigation
- * Copilot) entries become real, clickable navigation targets once their
- * backing stage succeeds, switching the main content without a page
- * reload (server state is passed in once; the success paths update it
- * live via the `on*StateChange` callbacks, mirroring how
- * `router.refresh()` already reconciles the other stages).
+ * "Corroboration" (P5.7), "Ask a Question" (P5.8 — the Investigation
+ * Copilot) and "Dossier" (P5.9 — the case report) entries become real,
+ * clickable navigation targets once their backing stage succeeds,
+ * switching the main content without a page reload (server state is
+ * passed in once; the success paths update it live via the
+ * `on*StateChange` callbacks, mirroring how `router.refresh()` already
+ * reconciles the other stages).
  *
- * Selecting an entity, a path, a finding, or a Copilot citation hands
- * off to the Graph, Analytics, or Corroboration screen focused on that
- * entity, so the screens feel like one connected investigative surface
- * rather than unrelated dashboards. The Copilot's own state is
- * reconciled by the screen itself on mount, because it depends on every
+ * Selecting an entity, a path, a finding, a Copilot citation, or a
+ * dossier finding's reference hands off to the Evidence, Graph,
+ * Analytics, or Corroboration screen focused on that entity, so the
+ * screens feel like one connected investigative surface rather than
+ * unrelated dashboards. The Copilot's and Dossier's own states are
+ * reconciled by their screens on mount, because both depend on every
  * earlier stage having completed.
  */
 export function AppShell({
@@ -43,6 +47,7 @@ export function AppShell({
   initialAnalyticsState,
   initialCorroborationState,
   initialCopilotState,
+  initialDossierState,
 }: {
   initialState: InvestigationState;
   initialExtractionState: ExtractionState;
@@ -51,6 +56,7 @@ export function AppShell({
   initialAnalyticsState: AnalyticsState;
   initialCorroborationState: CorroborationState;
   initialCopilotState: CopilotState;
+  initialDossierState: DossierState;
 }) {
   const [view, setView] = useState<NavView>("evidence");
   const [graphState, setGraphState] = useState<GraphState>(initialGraphState);
@@ -75,6 +81,8 @@ export function AppShell({
     setView("corroboration");
   }, []);
 
+  const viewEvidence = useCallback(() => setView("evidence"), []);
+
   const completedStages =
     initialState.status === "loaded" ? ["Upload Evidence", "Ingestion"] : [];
   if (initialExtractionState.status === "extracted") completedStages.push("Extraction");
@@ -82,7 +90,10 @@ export function AppShell({
   if (graphState.status === "synthesized") completedStages.push("Graph Synthesis");
   if (analyticsState.status === "synthesized") completedStages.push("Analytics");
   if (corroborationState.status === "synthesized") completedStages.push("Corroboration");
-  if (corroborationState.status === "synthesized") completedStages.push("Investigation Copilot");
+  // Must match a JOURNEY_STAGES label in shell/pipeline-status.tsx exactly,
+  // or the stage silently never lights up.
+  if (corroborationState.status === "synthesized") completedStages.push("Copilot");
+  if (initialDossierState.status === "generated") completedStages.push("Dossier / Report");
 
   return (
     <div className="flex h-dvh flex-col">
@@ -97,6 +108,11 @@ export function AppShell({
           // completing is exactly the point at which it has everything
           // Agent 6's contract requires.
           copilotEnabled={corroborationState.status === "synthesized"}
+          // The dossier reports on every earlier stage, so corroboration
+          // completing is exactly the point at which it has everything
+          // Workstream H requires. The screen itself reconciles whether a
+          // report has actually been generated yet.
+          dossierEnabled={corroborationState.status === "synthesized"}
           onNavigate={setView}
         />
         <main className="flex min-w-0 flex-1 flex-col gap-4 overflow-y-auto p-4">
@@ -143,6 +159,15 @@ export function AppShell({
               onViewInGraph={viewInGraph}
               onViewInAnalytics={viewInAnalytics}
               onViewInCorroboration={viewInCorroboration}
+            />
+          )}
+          {view === "dossier" && (
+            <DossierScreen
+              initialState={initialDossierState}
+              onViewInGraph={viewInGraph}
+              onViewInAnalytics={viewInAnalytics}
+              onViewInCorroboration={viewInCorroboration}
+              onViewEvidence={viewEvidence}
             />
           )}
         </main>

@@ -208,7 +208,9 @@ function caseSummarySection(s: DossierSnapshot): DossierSection {
       `Investigation id: ${s.investigationId} · status: ${s.investigationStatus}.`,
       `Graph version this report describes: ${s.graphVersion}. Every derived finding below was computed against exactly this graph state.`,
       `Evidence acceptance: ${accepted.toLocaleString("en-US")} accepted, ${rejected.toLocaleString("en-US")} not accepted.`,
-      `${ambiguous} entity ${plural(ambiguous, "mention")} could not be resolved unambiguously and ${ambiguous === 1 ? "is" : "are"} carried into the leads section rather than merged.`,
+      ambiguous === 0
+        ? "Every entity mention resolved to exactly one identity; no mention was left ambiguous."
+        : `${ambiguous} entity ${plural(ambiguous, "mention")} could not be resolved unambiguously and ${ambiguous === 1 ? "is" : "are"} carried into the leads section rather than merged.`,
       "Synthetic data only — every person, phone, account, vehicle, location and event in this case is fabricated. No real investigation, individual, or record is represented.",
       "This report is decision support for a human reviewer. Nothing in it is a finished investigative conclusion.",
     ],
