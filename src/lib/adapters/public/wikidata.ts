@@ -171,6 +171,19 @@ export async function collectWikidata(
     records,
     rawSha256: crypto.createHash("sha256").update(payload).digest("hex"),
     rawBytes: Buffer.byteLength(payload),
+    // Wikidata has only ever been collected by this adapter over a
+    // direct socket. It has no relay path because, unlike GLEIF, no
+    // relay channel to query.wikidata.org is available either — see
+    // docs/data-research/network-access-diagnosis.md.
+    retrievalChannel: options.fromFile ? "agent-relay" : "direct-https",
+    sourcePayloads: [
+      {
+        file: options.fromFile ? options.fromFile : "sparql-results.json",
+        sha256: crypto.createHash("sha256").update(payload).digest("hex"),
+        bytes: Buffer.byteLength(payload),
+        records: records.length,
+      },
+    ],
     warnings,
   };
 }

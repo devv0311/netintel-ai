@@ -67,6 +67,22 @@ export const PublicRecordContentSchema = z
     /** The publisher's own as-of date for the record's content. */
     observedAt: z.string().datetime().optional(),
 
+    /**
+     * The jurisdiction the publisher records for the subject, verbatim
+     * (GLEIF emits ISO 3166-1 alpha-2, sometimes with a subdivision:
+     * "IN", "US-DE"). Free text rather than an enum, because a second
+     * publisher will spell it differently and normalising here would
+     * destroy what the source actually said.
+     */
+    jurisdiction: z.string().min(1).optional(),
+    /**
+     * The subject's status AS THE PUBLISHER STATES IT ("ACTIVE",
+     * "LAPSED"). Optional because not every register publishes one, and
+     * deliberately not interpreted: nothing downstream treats a value
+     * here as a claim that the entity does or does not exist.
+     */
+    status: z.string().min(1).optional(),
+
     // --- mandatory provenance and licensing ---
     /** When we fetched it. Not when the publisher wrote it. */
     retrievedAt: z.string().datetime(),

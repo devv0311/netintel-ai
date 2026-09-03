@@ -500,6 +500,8 @@ function extractPublicRecord(content: Content): RawFact[] {
     ["sourceUrl", "public_record_source_url", record.sourceUrl],
     ["retrievedAt", "public_record_retrieved_at", record.retrievedAt],
     ["observedAt", "public_record_observed_at", record.observedAt],
+    ["jurisdiction", "public_record_jurisdiction", record.jurisdiction],
+    ["status", "public_record_status", record.status],
   ];
   for (const [field, factType, value] of attributes) {
     if (!value) continue;
