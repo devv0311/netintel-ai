@@ -3,6 +3,12 @@ import type { EntityKind } from "@/lib/domain/entity";
 import { makeContentId } from "@/lib/domain/ids";
 import type { Provenance } from "@/lib/domain/provenance";
 import type { ResolutionStatus, ResolutionType } from "@/lib/domain/resolution";
+import {
+  applyIdentifierPolicy,
+  describeConflict,
+  REGISTRY_IDENTIFIER_RELATIONSHIP,
+  type SchemeConflict,
+} from "@/lib/resolution/identifier-authority";
 
 /**
  * The entity-resolution core: deterministic, evidence-only identity
@@ -275,22 +281,49 @@ export function resolveEntities(
     const linkedIdentifiersByMention = new Map<string, string[]>();
     const tierAMentionIds = new Set<string>();
 
+    // Mentions whose own record contradicts itself on a mergeable
+    // identifier scheme. Held aside and flagged rather than merged.
+    const conflictsByMention = new Map<string, SchemeConflict[]>();
+
     for (const mention of personMentions) {
       const siblingRelationships = relationshipsByItem.get(mention.evidenceItemId) ?? [];
-      const identifierValues = siblingRelationships
-        .filter((r) =>
-          (IDENTITY_RELATIONSHIP_TYPES as readonly string[]).includes(
-            str(r.data, "relationshipType") ?? "",
-          ),
-        )
-        .map((r) => str(r.data, "observedValue"))
-        .filter((v): v is string => Boolean(v))
-        .sort();
-      if (identifierValues.length === 0) continue;
+      const identityRelationships = siblingRelationships.filter((r) =>
+        (IDENTITY_RELATIONSHIP_TYPES as readonly string[]).includes(
+          str(r.data, "relationshipType") ?? "",
+        ),
+      );
+      const valuesOf = (rels: typeof identityRelationships) =>
+        rels
+          .map((r) => str(r.data, "observedValue"))
+          .filter((v): v is string => Boolean(v))
+          .sort();
 
-      linkedIdentifiersByMention.set(mention.id, identifierValues);
+      // The identifier-authority policy governs REGISTRY identifiers only
+      // (`has_identifier`, stated by a public_record about its own
+      // subject). Phone / account / vehicle identifiers keep their
+      // existing behaviour exactly — they are single-valued observations
+      // from an authorised source, not third-party cross-references, and
+      // every non-public evidence type depends on them.
+      const isRegistry = (r: (typeof identityRelationships)[number]) =>
+        str(r.data, "relationshipType") === REGISTRY_IDENTIFIER_RELATIONSHIP;
+      const directValues = valuesOf(identityRelationships.filter((r) => !isRegistry(r)));
+      const registryValues = valuesOf(identityRelationships.filter(isRegistry));
+
+      const policy = applyIdentifierPolicy(registryValues);
+      if (policy.conflicts.length > 0) {
+        conflictsByMention.set(mention.id, policy.conflicts);
+      }
+
+      // Reported identifiers include the withheld ones: the decision's
+      // reason should say what the record stated, not only what was acted
+      // on. Only `unionValues` may connect anything.
+      const linkedIdentifiers = [...directValues, ...registryValues].sort();
+      const unionValues = [...directValues, ...policy.mergeable].sort();
+      if (unionValues.length === 0) continue;
+
+      linkedIdentifiersByMention.set(mention.id, linkedIdentifiers);
       tierAMentionIds.add(mention.id);
-      for (const idValue of identifierValues) {
+      for (const idValue of unionValues) {
         uf.union(`mention:${mention.id}`, `id:${idValue}`);
       }
     }
@@ -406,10 +439,85 @@ export function resolveEntities(
       }
     }
 
+    // --- Phase 2b: records that contradict themselves on a mergeable
+    // identifier scheme. Flagged, never merged — the same treatment Tier B
+    // already gives an ambiguous name, for the same reason: the evidence
+    // supports two incompatible answers and choosing one would be a guess
+    // carrying a merge's confidence.
+    //
+    // These mentions are also withheld from Tier B. A record whose own
+    // identifiers contradict each other has not become better evidence by
+    // having a name, and letting it merge on the name instead would
+    // reintroduce the bridge through a lower-confidence door.
+
+    const conflictedMentionIds = new Set(conflictsByMention.keys());
+    for (const mentionId of [...conflictedMentionIds].sort()) {
+      const mention = mentionById.get(mentionId);
+      if (!mention) continue;
+      const conflicts = conflictsByMention.get(mentionId)!;
+      const name = str(mention.data, "observedValue")!;
+      const registry = str(mention.data, "registry") ?? null;
+
+      // The entities each contradictory value points at, where one exists.
+      // Recorded as candidates so the conflict is reviewable: this is what
+      // the record would have been merged into, had it named only one.
+      const candidateEntityIds = [
+        ...new Set(
+          conflicts
+            .flatMap((c) => c.values)
+            .map((value) => clusterEntityIdByRoot.get(uf.find(`id:${value}`)))
+            .filter((id): id is string => Boolean(id)),
+        ),
+      ].sort();
+
+      const standaloneId = makeContentId("entity", [subjectKind, mention.id]);
+      entities.push({
+        id: standaloneId,
+        investigationId,
+        kind: subjectKind,
+        canonicalLabel: name,
+        attributes: {},
+        provenance: buildProvenance(
+          mention.id,
+          mention.provenance,
+          "resolution:ambiguous_identifier_conflict",
+          CONFIDENCE.ambiguousConflict,
+          "resolution:entity_created",
+          resolvedAt,
+        ),
+      });
+
+      const conflictMessages = conflicts.map((c) => describeConflict(c, registry));
+      decisions.push({
+        id: makeContentId("resolution_decision", [mention.id]),
+        investigationId,
+        canonicalEntityId: standaloneId,
+        extractedRecordIds: [mention.id],
+        resolutionType: "ambiguous_identifier_conflict",
+        status: "ambiguous",
+        candidateEntityIds,
+        conflicts: conflictMessages,
+        reason: `Kept as its own unresolved entity — conflicting identifiers on one record, never force-merged.`,
+        classification: "ai_inference",
+        provenance: buildProvenance(
+          mention.id,
+          mention.provenance,
+          "resolution:ambiguous_identifier_conflict",
+          CONFIDENCE.ambiguousConflict,
+          "resolution:ambiguous_identifier_conflict",
+          resolvedAt,
+        ),
+      });
+      for (const message of conflictMessages) {
+        warnings.push(`"${name}": ${message}`);
+      }
+    }
+
     // --- Phase 3: Tier-B — resolve every remaining (identifier-less) subject mention ---
 
     for (const mention of [...personMentions].sort((a, b) => (a.id < b.id ? -1 : 1))) {
       if (tierAMentionIds.has(mention.id)) continue; // already resolved in Phase 2
+      if (conflictedMentionIds.has(mention.id)) continue; // flagged in Phase 2b
       const name = str(mention.data, "observedValue")!;
       const candidates = [...(nameToClusterEntities.get(name) ?? new Set<string>())].sort();
 

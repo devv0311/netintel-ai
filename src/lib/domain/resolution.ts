@@ -34,6 +34,14 @@ export const RESOLUTION_TYPES = [
   "new_entity",
   /** A mention whose exact name string matches two or more distinct identifier-anchored clusters — explicitly NOT merged into any of them. */
   "ambiguous_name_conflict",
+  /**
+   * A mention whose own record asserts two or more distinct values of one
+   * mergeable identifier scheme — explicitly NOT merged on any of them.
+   * At most one such value can be right and the record does not say which,
+   * so merging on either would be a guess carrying a merge's confidence.
+   * See src/lib/resolution/identifier-authority.ts.
+   */
+  "ambiguous_identifier_conflict",
 ] as const;
 export const ResolutionTypeSchema = z.enum(RESOLUTION_TYPES);
 export type ResolutionType = z.infer<typeof ResolutionTypeSchema>;

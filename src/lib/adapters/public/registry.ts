@@ -29,6 +29,15 @@ export interface RegistryEntry {
   rateLimit: string;
   trainingUse: string;
   redistribution: string;
+  /**
+   * Identifier schemes this source ISSUES, semicolon-separated. Empty
+   * means it issues none and every identifier it states is a
+   * cross-reference to someone else's scheme. This is the governance
+   * record for the Tier-A identifier-authority policy; the executable
+   * form lives in src/lib/resolution/identifier-authority.ts and a test
+   * fails if the two drift.
+   */
+  issuesIdentifierSchemes: string[];
 }
 
 /** Minimal RFC4180 reader — the registry is quoted CSV with embedded commas and newlines. */
@@ -79,6 +88,7 @@ export function loadRegistry(root = process.cwd()): Map<string, RegistryEntry> {
     rateLimit: col("rate_limit"),
     trainingUse: col("training_use"),
     redistribution: col("redistribution"),
+    issuesIdentifierSchemes: col("issues_identifier_schemes"),
   };
   const out = new Map<string, RegistryEntry>();
   for (const row of rows.slice(1)) {
@@ -91,6 +101,10 @@ export function loadRegistry(root = process.cwd()): Map<string, RegistryEntry> {
       rateLimit: row[idx.rateLimit] ?? "",
       trainingUse: row[idx.trainingUse] ?? "",
       redistribution: row[idx.redistribution] ?? "",
+      issuesIdentifierSchemes: (row[idx.issuesIdentifierSchemes] ?? "")
+        .split(";")
+        .map((s) => s.trim())
+        .filter(Boolean),
     };
     if (entry.sourceId) out.set(entry.sourceId, entry);
   }
