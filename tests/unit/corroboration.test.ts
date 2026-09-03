@@ -153,11 +153,11 @@ describe("isNearby — threshold boundary", () => {
     expect(isNearby({ latitude: 28.6, longitude: 77.2 }, { latitude: 28.6, longitude: 77.2 })).toBe(false);
   });
 
-  it("is true just inside the threshold and false just outside", () => {
+  it("is true just inside the default threshold and false just outside", () => {
     const base = { latitude: 28.6, longitude: 77.2 };
-    // ~111 m away — well inside 500 m
+    // ~111 m away — well inside the 1000 m default
     expect(isNearby(base, { latitude: 28.601, longitude: 77.2 })).toBe(true);
-    // ~1112 m away — outside 500 m
+    // ~1112 m away — outside the 1000 m default
     expect(isNearby(base, { latitude: 28.61, longitude: 77.2 })).toBe(false);
   });
 
@@ -254,14 +254,16 @@ describe("buildActivityIndex", () => {
 // ---------------------------------------------------------------------------
 
 describe("computeSpatialCoLocations", () => {
-  it("flags two subjects with activity at the same location", () => {
+  it("flags two subjects each with repeated (>= 2) activity at the same location", () => {
     const events = buildActivityIndex(
       ENTITIES,
       LOCATIONS,
       OWN,
       [
         cdr("c1", PH_A.canonicalLabel, "+900000009", "2025-07-01T10:00:00.000Z", "item_1", T1.id),
-        cdr("c2", PH_B.canonicalLabel, "+900000009", "2025-07-01T18:00:00.000Z", "item_2", T1.id),
+        cdr("c2", PH_A.canonicalLabel, "+900000008", "2025-07-03T10:00:00.000Z", "item_2", T1.id),
+        cdr("c3", PH_B.canonicalLabel, "+900000009", "2025-07-01T18:00:00.000Z", "item_3", T1.id),
+        cdr("c4", PH_B.canonicalLabel, "+900000007", "2025-07-04T18:00:00.000Z", "item_4", T1.id),
       ],
       [],
     ).events;
@@ -272,17 +274,22 @@ describe("computeSpatialCoLocations", () => {
     expect(findings[0]!.locationIds).toEqual([T1.id]);
   });
 
-  it("classifies as corroborated_fact only when >= 2 distinct evidence items place the pair there", () => {
-    // one shared CDR names both A and B at T1 -> single evidence item -> algorithmic_signal
-    const single = computeSpatialCoLocations(
-      buildActivityIndex(ENTITIES, LOCATIONS, OWN, [cdr("c1", PH_A.canonicalLabel, PH_B.canonicalLabel, "2025-07-01T10:00:00.000Z", "item_1", T1.id)], []).events,
-      label,
-    );
-    expect(single).toHaveLength(1);
-    expect(single[0]!.classification).toBe("algorithmic_signal");
-    expect(single[0]!.evidenceItemIds).toHaveLength(1);
+  it("does NOT flag a location where one subject has only a single incidental ping", () => {
+    const events = buildActivityIndex(
+      ENTITIES,
+      LOCATIONS,
+      OWN,
+      [
+        cdr("c1", PH_A.canonicalLabel, "+900000009", "2025-07-01T10:00:00.000Z", "item_1", T1.id),
+        cdr("c2", PH_A.canonicalLabel, "+900000008", "2025-07-03T10:00:00.000Z", "item_2", T1.id),
+        cdr("c3", PH_B.canonicalLabel, "+900000009", "2025-07-01T18:00:00.000Z", "item_3", T1.id), // B: only 1
+      ],
+      [],
+    ).events;
+    expect(computeSpatialCoLocations(events, label)).toEqual([]);
+  });
 
-    // two independent CDRs (different evidence items) -> corroborated_fact
+  it("classifies a repeated co-location backed by multiple independent CDRs as a corroborated_fact", () => {
     const corrob = computeSpatialCoLocations(
       buildActivityIndex(
         ENTITIES,
@@ -290,7 +297,9 @@ describe("computeSpatialCoLocations", () => {
         OWN,
         [
           cdr("c1", PH_A.canonicalLabel, "+900000009", "2025-07-01T10:00:00.000Z", "item_1", T1.id),
-          cdr("c2", PH_B.canonicalLabel, "+900000009", "2025-07-01T12:00:00.000Z", "item_2", T1.id),
+          cdr("c2", PH_A.canonicalLabel, "+900000006", "2025-07-02T10:00:00.000Z", "item_2", T1.id),
+          cdr("c3", PH_B.canonicalLabel, "+900000009", "2025-07-01T12:00:00.000Z", "item_3", T1.id),
+          cdr("c4", PH_B.canonicalLabel, "+900000005", "2025-07-02T12:00:00.000Z", "item_4", T1.id),
         ],
         [],
       ).events,
@@ -341,10 +350,10 @@ describe("computeSpatialProximities", () => {
     expect(Number(findings[0]!.value.distanceMeters)).toBeLessThanOrEqual(SPATIAL_PROXIMITY_METERS);
   });
 
-  it("does NOT flag far-apart locations (adversarial)", () => {
+  it("does NOT flag far-apart locations even when both are active (adversarial)", () => {
     const events = buildActivityIndex(
       ENTITIES,
-      LOCATIONS,
+      [T1, T3],
       OWN,
       [
         cdr("c1", PH_A.canonicalLabel, "+900000009", "2025-07-01T10:00:00.000Z", "item_1", T1.id),
@@ -352,10 +361,10 @@ describe("computeSpatialProximities", () => {
       ],
       [],
     ).events;
-    expect(computeSpatialProximities(events, LOCATIONS, label)).toEqual([]);
+    expect(computeSpatialProximities(events, [T1, T3], label)).toEqual([]);
   });
 
-  it("requires activity at BOTH locations", () => {
+  it("flags a nearby persisted location even when only ONE side has recorded activity (the active site anchors relevance)", () => {
     const events = buildActivityIndex(
       ENTITIES,
       LOCATIONS,
@@ -363,7 +372,15 @@ describe("computeSpatialProximities", () => {
       [cdr("c1", PH_A.canonicalLabel, "+900000009", "2025-07-01T10:00:00.000Z", "item_1", T1.id)],
       [],
     ).events;
-    expect(computeSpatialProximities(events, LOCATIONS, label)).toEqual([]);
+    const findings = computeSpatialProximities(events, LOCATIONS, label);
+    expect(findings).toHaveLength(1);
+    expect(findings[0]!.locationIds).toEqual([T1.id, T2.id].sort());
+    // provenance still cites the source evidence item behind the active site
+    expect(findings[0]!.evidenceItemIds).toContain("item_1");
+  });
+
+  it("does NOT flag a location pair when NEITHER side has recorded activity", () => {
+    expect(computeSpatialProximities([], LOCATIONS, label)).toEqual([]);
   });
 });
 
@@ -832,5 +849,237 @@ describe("idempotentPersistCorroboration — partial retry", () => {
     const persisted = await idempotentPersistCorroboration([findingA, findingB]);
     expect(persisted.findingsCreated).toBe(1);
     expect(persisted.findingsSkipped).toBe(1);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Full-corpus spatial/temporal corroboration — ingest, extract, resolve,
+// synthesize the graph, then run corroboration once, sharing the result
+// across assertions (mirrors tests/unit/analytics.test.ts's full-corpus block).
+// ---------------------------------------------------------------------------
+
+type CorroborationModule = {
+  runIngestion: typeof import("@/lib/ingestion/service").runIngestion;
+  runExtraction: typeof import("@/lib/extraction/service").runExtraction;
+  runResolution: typeof import("@/lib/resolution/service").runResolution;
+  runGraphSynthesis: typeof import("@/lib/graph/service").runGraphSynthesis;
+  runCorroborationSynthesis: typeof import("@/lib/corroboration/service").runCorroborationSynthesis;
+  getCorroborationState: typeof import("@/lib/corroboration/summary").getCorroborationState;
+  getCorroborationFindings: typeof import("@/lib/corroboration/summary").getCorroborationFindings;
+  getCorroborationFindingDetail: typeof import("@/lib/corroboration/summary").getCorroborationFindingDetail;
+  getEntityPairOverlaps: typeof import("@/lib/corroboration/summary").getEntityPairOverlaps;
+  idempotentPersistCorroboration: typeof import("@/lib/corroboration/persist").idempotentPersistCorroboration;
+  repo: typeof import("@/lib/db/repository");
+};
+
+async function freshCorroboration(dbPath: string): Promise<CorroborationModule> {
+  const vitestMod = await import("vitest");
+  vitestMod.vi.resetModules();
+  for (const suffix of ["", "-wal", "-shm"]) fs.rmSync(dbPath + suffix, { force: true });
+  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
+  process.env.DATABASE_URL = dbPath;
+
+  const [ingestion, extraction, resolution, graphService, service, summary, persist, repo] = await Promise.all([
+    import("@/lib/ingestion/service"),
+    import("@/lib/extraction/service"),
+    import("@/lib/resolution/service"),
+    import("@/lib/graph/service"),
+    import("@/lib/corroboration/service"),
+    import("@/lib/corroboration/summary"),
+    import("@/lib/corroboration/persist"),
+    import("@/lib/db/repository"),
+  ]);
+  return {
+    runIngestion: ingestion.runIngestion,
+    runExtraction: extraction.runExtraction,
+    runResolution: resolution.runResolution,
+    runGraphSynthesis: graphService.runGraphSynthesis,
+    runCorroborationSynthesis: service.runCorroborationSynthesis,
+    getCorroborationState: summary.getCorroborationState,
+    getCorroborationFindings: summary.getCorroborationFindings,
+    getCorroborationFindingDetail: summary.getCorroborationFindingDetail,
+    getEntityPairOverlaps: summary.getEntityPairOverlaps,
+    idempotentPersistCorroboration: persist.idempotentPersistCorroboration,
+    repo,
+  };
+}
+
+describe("spatial/temporal corroboration — full Operation DarkNet Delhi corpus", () => {
+  const DB = "./data/netintel-corroboration-full.db";
+  let mod: CorroborationModule;
+  let result: Awaited<ReturnType<CorroborationModule["runCorroborationSynthesis"]>>;
+
+  beforeAll(async () => {
+    mod = await freshCorroboration(DB);
+    expect((await mod.runIngestion({ kind: "builtin-corpus" })).status).toBe("ingested");
+    expect((await mod.runExtraction()).status).toBe("extracted");
+    expect((await mod.runResolution()).status).toBe("resolved");
+    expect((await mod.runGraphSynthesis()).status).toBe("synthesized");
+    result = await mod.runCorroborationSynthesis();
+  }, 120_000);
+
+  afterAll(() => {
+    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  });
+
+  it("synthesizes successfully and runs all 10 stages to completion", () => {
+    expect(result.status).toBe("synthesized");
+    expect(result.error).toBeNull();
+    expect(result.stages).toHaveLength(10);
+    for (const stage of result.stages) {
+      expect(stage.status).toBe("ok");
+      expect(stage.detail.length).toBeGreaterThan(0);
+    }
+    expect(result.counts).not.toBeNull();
+    expect(result.counts!.activityEvents).toBeGreaterThan(0);
+    const c = result.counts!;
+    const totalFindings = c.spatialFindings + c.temporalFindings + c.spatiotemporalFindings + c.contradictions;
+    expect(totalFindings).toBeGreaterThan(0);
+    expect(c.corroboratedFacts + c.algorithmicSignals).toBe(totalFindings);
+  });
+
+  it("every persisted finding is classified exactly algorithmic_signal or corroborated_fact — never any other value", async () => {
+    const findings = await mod.repo.listCorroborationFindings();
+    expect(findings.length).toBeGreaterThan(0);
+    expect(findings.every((f) => f.classification === "algorithmic_signal" || f.classification === "corroborated_fact")).toBe(true);
+    const serialized = JSON.stringify(findings);
+    for (const forbidden of ["observed_fact", "ai_inference", "investigative_lead"]) {
+      expect(serialized).not.toContain(`"classification":"${forbidden}"`);
+    }
+  });
+
+  it("provenance: every finding cites >= 1 real persisted evidence item and resolvable entity/location endpoints; no evidence record is copied inline", async () => {
+    const findings = await mod.repo.listCorroborationFindings();
+    const entityIds = new Set((await mod.repo.listEntities()).map((e) => e.id));
+    const locationIds = new Set((await mod.repo.listLocations()).map((l) => l.id));
+    const evidenceItemIds = new Set((await mod.repo.listEvidenceItems()).map((i) => i.id));
+    for (const f of findings) {
+      expect(f.evidenceItemIds.length).toBeGreaterThanOrEqual(1);
+      for (const evId of f.evidenceItemIds) expect(evidenceItemIds.has(evId)).toBe(true);
+      for (const entId of f.entityIds) expect(entityIds.has(entId)).toBe(true);
+      for (const locId of f.locationIds) expect(locationIds.has(locId)).toBe(true);
+      expect(f.supportingRecordIds.length).toBeGreaterThanOrEqual(1);
+      expect(JSON.stringify(f.value)).not.toMatch(/"provenance":\s*\{/);
+      expect(f.provenance.location).toBe(`graph_version:${f.graphVersion}`);
+      expect(f.provenance.processingHistory[0]).toBe(`graph:synthesized:${f.graphVersion}`);
+    }
+  });
+
+  it("classification rules hold over persisted output: corroborated_fact => >= 2 evidence items; proximity & contradiction => algorithmic_signal", async () => {
+    const findings = await mod.repo.listCorroborationFindings();
+    for (const f of findings) {
+      if (f.classification === "corroborated_fact") expect(f.evidenceItemIds.length).toBeGreaterThanOrEqual(2);
+      if (f.findingType === "spatial_proximity") {
+        expect(f.classification).toBe("algorithmic_signal");
+        expect(f.entityIds).toEqual([]);
+        expect(f.locationIds).toHaveLength(2);
+        expect(Number(f.value.distanceMeters)).toBeLessThanOrEqual(SPATIAL_PROXIMITY_METERS);
+        expect(Number(f.value.distanceMeters)).toBeGreaterThan(0);
+      }
+      if (f.findingType === "spatiotemporal_contradiction") {
+        expect(f.classification).toBe("algorithmic_signal");
+        expect(f.entityIds).toHaveLength(1);
+        expect(f.locationIds).toHaveLength(2);
+      }
+    }
+  });
+
+  it("deterministic idempotent re-synthesis: re-running against the SAME graph version reproduces byte-identical finding ids and writes nothing", async () => {
+    const before = (await mod.repo.listCorroborationFindings()).map((f) => f.id).sort();
+    const rerun = await mod.runCorroborationSynthesis();
+    expect(rerun.status).toBe("already_synthesized");
+    expect(rerun.persisted?.findingsCreated).toBe(0);
+    const after = (await mod.repo.listCorroborationFindings()).map((f) => f.id).sort();
+    expect(after).toEqual(before);
+  });
+
+  it("persistence/idempotency: a partial-write retry persists only what's missing", async () => {
+    const findings = await mod.repo.listCorroborationFindings();
+    const persisted = await mod.idempotentPersistCorroboration(findings);
+    expect(persisted.findingsCreated).toBe(0);
+    expect(persisted.findingsSkipped).toBe(findings.length);
+  });
+
+  it("state + query surface: synthesized state, paginated findings, classification/kind filters, and finding detail all cohere", async () => {
+    const state = await mod.getCorroborationState();
+    expect(state.status).toBe("synthesized");
+
+    const page = await mod.getCorroborationFindings({ limit: 5 });
+    expect(page).not.toBeNull();
+    expect(page!.findings.length).toBeLessThanOrEqual(5);
+    expect(page!.total).toBeGreaterThan(0);
+
+    const corroboratedOnly = await mod.getCorroborationFindings({ classification: "corroborated_fact", limit: 200 });
+    expect(corroboratedOnly!.findings.every((f) => f.classification === "corroborated_fact")).toBe(true);
+
+    const spatialOnly = await mod.getCorroborationFindings({ kind: "spatial", limit: 200 });
+    expect(spatialOnly!.findings.every((f) => f.kind === "spatial")).toBe(true);
+
+    const first = page!.findings[0]!;
+    const detail = await mod.getCorroborationFindingDetail(first.id);
+    expect(detail).not.toBeNull();
+    expect(detail!.id).toBe(first.id);
+    expect(detail!.provenance.method).toBe(first.method);
+  });
+
+  it("entity-pair overlaps aggregate only real findings, strongest-corroboration first", async () => {
+    const pairs = await mod.getEntityPairOverlaps();
+    expect(pairs).not.toBeNull();
+    const findingIds = new Set((await mod.repo.listCorroborationFindings()).map((f) => f.id));
+    for (const p of pairs!) {
+      expect(p.findingIds.length).toBeGreaterThan(0);
+      for (const id of p.findingIds) expect(findingIds.has(id)).toBe(true);
+      expect(p.entityAId < p.entityBId).toBe(true);
+    }
+    for (let i = 1; i < pairs!.length; i++) {
+      expect(pairs![i - 1]!.corroboratedFacts).toBeGreaterThanOrEqual(pairs![i]!.corroboratedFacts);
+    }
+  });
+
+  it("discovered from real data (never ground truth): at least one spatiotemporal finding relates two distinct real entities", async () => {
+    const findings = await mod.repo.listCorroborationFindings();
+    const st = findings.filter((f) => f.kind === "spatiotemporal" && f.findingType === "repeated_spatiotemporal_overlap");
+    // The corpus's designed co-tower activity should surface at least one repeated overlap.
+    for (const f of st) {
+      expect(f.entityIds).toHaveLength(2);
+      expect(f.entityIds[0]).not.toBe(f.entityIds[1]);
+      expect(f.locationIds).toHaveLength(1);
+    }
+    // spatial co-location across the corpus is expected regardless.
+    expect(findings.some((f) => f.findingType === "spatial_co_location")).toBe(true);
+  });
+
+  it("ground-truth isolation over live persisted output: no finding value or explanation contains a ground-truth-only field name", async () => {
+    const findings = await mod.repo.listCorroborationFindings();
+    const serialized = JSON.stringify(findings);
+    for (const key of GROUND_TRUTH_KEYS) expect(serialized).not.toContain(key);
+  });
+});
+
+describe("corroboration — empty and edge-case databases (full pipeline)", () => {
+  const DB = "./data/netintel-corroboration-empty.db";
+
+  afterAll(() => {
+    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  });
+
+  it("returns a structured NO_GRAPH error when corroboration is requested before graph synthesis has ever run", async () => {
+    const mod = await freshCorroboration(DB);
+    await mod.runIngestion({ kind: "builtin-corpus" });
+    await mod.runExtraction();
+    await mod.runResolution();
+    // deliberately skip graph synthesis
+    const res = await mod.runCorroborationSynthesis();
+    expect(res.status).toBe("failed");
+    expect(res.error?.code).toBe("NO_GRAPH");
+  });
+
+  it("returns a structured NO_INVESTIGATION error on a completely empty database, with no filesystem path in the message", async () => {
+    const mod = await freshCorroboration(DB);
+    const res = await mod.runCorroborationSynthesis();
+    expect(res.status).toBe("failed");
+    expect(res.error?.code).toBe("NO_INVESTIGATION");
+    expect(res.error?.message).not.toMatch(/\/(Users|home|root|var|tmp|private)\//);
+    expect(res.error?.message).not.toMatch(/\.[cm]?tsx?:\d+/);
   });
 });

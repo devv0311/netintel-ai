@@ -263,6 +263,10 @@ export function computeSpatialCoLocations(events: ActivityEvent[], label: LabelF
         const b = subjects[j]!;
         const aEvs = bySubject.get(a)!;
         const bEvs = bySubject.get(b)!;
+        // A single incidental tower ping is not "activity at" a location in a
+        // corroboration sense — require a repeated presence (>= 2 events) for
+        // EACH subject before treating a shared location as a co-occurrence.
+        if (aEvs.length < 2 || bEvs.length < 2) continue;
         const contrib = [...aEvs, ...bEvs];
         const evidenceItemIds = uniqSorted(contrib.map((e) => e.evidenceItemId));
         const supportingRecordIds = uniqSorted(contrib.map((e) => e.recordId));
@@ -298,28 +302,41 @@ export function computeSpatialCoLocations(events: ActivityEvent[], label: LabelF
   return out;
 }
 
-/** Two DISTINCT persisted locations within the distance threshold, each with entity activity. Always an algorithmic signal. */
+/**
+ * Two DISTINCT persisted case locations within the distance threshold,
+ * at least one carrying recorded entity activity. Always an algorithmic
+ * signal — proximity between distinct locations is never "they were
+ * together".
+ */
 export function computeSpatialProximities(events: ActivityEvent[], locations: Location[], label: LabelFn): RawFinding[] {
   const locById = new Map(locations.map((l) => [l.id, l]));
   const eventsByLoc = groupBy(
     events.filter((e) => e.locationId && locById.has(e.locationId)),
     (e) => e.locationId as string,
   );
-  const activeLocIds = [...eventsByLoc.keys()].sort();
+  const allLocations = [...locations].sort(byId);
   const out: RawFinding[] = [];
 
-  for (let i = 0; i < activeLocIds.length; i++) {
-    for (let j = i + 1; j < activeLocIds.length; j++) {
-      const la = locById.get(activeLocIds[i]!)!;
-      const lb = locById.get(activeLocIds[j]!)!;
+  for (let i = 0; i < allLocations.length; i++) {
+    for (let j = i + 1; j < allLocations.length; j++) {
+      const la = allLocations[i]!;
+      const lb = allLocations[j]!;
+      const aEvs = eventsByLoc.get(la.id) ?? [];
+      const bEvs = eventsByLoc.get(lb.id) ?? [];
+      if (aEvs.length === 0 && bEvs.length === 0) continue; // neither location is "relevant" via observed activity
+
       const distanceMeters = haversineMeters(la.latitude, la.longitude, lb.latitude, lb.longitude);
       if (!(distanceMeters > 0 && distanceMeters <= SPATIAL_PROXIMITY_METERS)) continue;
 
-      const aEvs = eventsByLoc.get(la.id)!;
-      const bEvs = eventsByLoc.get(lb.id)!;
       const contrib = [...aEvs, ...bEvs];
-      const evidenceItemIds = uniqSorted(contrib.map((e) => e.evidenceItemId));
+      const evidenceItemIds = uniqSorted([
+        ...contrib.map((e) => e.evidenceItemId),
+        la.provenance.source,
+        lb.provenance.source,
+      ]);
       const supportingRecordIds = uniqSorted(contrib.map((e) => e.recordId));
+      const activeSide =
+        aEvs.length > 0 && bEvs.length > 0 ? "both sites" : aEvs.length > 0 ? label(la.id) : label(lb.id);
       out.push({
         findingType: "spatial_proximity",
         kind: "spatial",
@@ -335,7 +352,7 @@ export function computeSpatialProximities(events: ActivityEvent[], locations: Lo
         },
         method: "corroboration:haversine_proximity",
         classification: "algorithmic_signal",
-        explanation: `${label(la.id)} and ${label(lb.id)} are ${distanceMeters} m apart — within the ${SPATIAL_PROXIMITY_METERS} m proximity threshold — and both have recorded entity activity. An algorithmic proximity signal about the locations; it does not assert that any entity was at both, or that any two entities were together.`,
+        explanation: `${label(la.id)} and ${label(lb.id)} are ${distanceMeters} m apart — within the ${SPATIAL_PROXIMITY_METERS} m proximity threshold — with recorded activity at ${activeSide}. An algorithmic proximity signal about the locations; it does not assert that any entity was at both, or that any two entities were together.`,
         evidenceItemIds,
         supportingRecordIds,
       });

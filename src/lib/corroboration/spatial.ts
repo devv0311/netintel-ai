@@ -8,13 +8,16 @@
  */
 
 /**
- * Two distinct persisted locations within this many metres of each
- * other are reported as a spatial-proximity signal. A documented,
- * fixed threshold (not learned/tunable), consistent with the project's
- * deterministic-first design. ~500 m ≈ typical dense-urban cell-tower
- * spacing, so towers this close plausibly cover overlapping ground.
+ * Two distinct persisted case locations within this many metres of each
+ * other — at least one carrying recorded entity activity — are reported
+ * as a spatial-proximity signal. A documented, fixed threshold (not
+ * learned/tunable), consistent with the project's deterministic-first
+ * design. ~1 km is a conservative upper bound on urban macro-cell
+ * coverage radius, so two sites this close plausibly fall within the
+ * same tower's footprint. Always an `algorithmic_signal` — proximity is
+ * never "they were together".
  */
-export const SPATIAL_PROXIMITY_METERS = 500;
+export const SPATIAL_PROXIMITY_METERS = 1000;
 
 /**
  * Great-circle distance between two WGS-84 points, in whole metres
