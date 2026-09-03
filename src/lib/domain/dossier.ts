@@ -136,6 +136,18 @@ export const DossierReferencesSchema = z.object({
   evidenceItemIds: z.array(z.string().min(1)),
   extractedRecordIds: z.array(z.string().min(1)),
   entityIds: z.array(z.string().min(1)),
+  /**
+   * `locations.id`. Kept separate from `entityIds` because the P5.6
+   * analysis graph and the P5.7 corroboration findings both treat
+   * locations as nodes alongside entities — a community's members or a
+   * co-location finding's anchors can be either, and collapsing the two
+   * would make an unresolvable id look resolvable.
+   */
+  locationIds: z.array(z.string().min(1)),
+  /** `resolution_decisions.id` — the merge rationale behind an entity, and the anchor for an ambiguity lead. */
+  resolutionDecisionIds: z.array(z.string().min(1)),
+  /** `communication_events.id` — corroboration cites these alongside extracted records as its supporting rows. */
+  communicationEventIds: z.array(z.string().min(1)),
   relationshipIds: z.array(z.string().min(1)),
   analyticalSignalIds: z.array(z.string().min(1)),
   corroborationFindingIds: z.array(z.string().min(1)),
@@ -148,6 +160,9 @@ export function countReferences(refs: DossierReferences): number {
     refs.evidenceItemIds.length +
     refs.extractedRecordIds.length +
     refs.entityIds.length +
+    refs.locationIds.length +
+    refs.resolutionDecisionIds.length +
+    refs.communicationEventIds.length +
     refs.relationshipIds.length +
     refs.analyticalSignalIds.length +
     refs.corroborationFindingIds.length
@@ -159,6 +174,9 @@ export const EMPTY_DOSSIER_REFERENCES: DossierReferences = {
   evidenceItemIds: [],
   extractedRecordIds: [],
   entityIds: [],
+  locationIds: [],
+  resolutionDecisionIds: [],
+  communicationEventIds: [],
   relationshipIds: [],
   analyticalSignalIds: [],
   corroborationFindingIds: [],
@@ -294,6 +312,25 @@ export const DossierCopilotExcerptSchema = z
 export type DossierCopilotExcerpt = z.infer<typeof DossierCopilotExcerptSchema>;
 
 // --- counts -------------------------------------------------------------
+
+/**
+ * A classification census with every one of the five classifications
+ * present, zeros included.
+ *
+ * Exhaustive rather than sparse on purpose: the report's classification
+ * legend lists all five, and "0 investigative leads" is a meaningful
+ * statement about the case, while a missing key is ambiguous between
+ * "none" and "not counted".
+ */
+export function emptyClassificationCensus(): Record<EvidenceClassification, number> {
+  return {
+    observed_fact: 0,
+    corroborated_fact: 0,
+    algorithmic_signal: 0,
+    ai_inference: 0,
+    investigative_lead: 0,
+  };
+}
 
 export const DossierCountsSchema = z.object({
   sections: z.number().int().min(0),
