@@ -15,7 +15,7 @@ import type { CorroborationSummary } from "@/lib/corroboration/types";
 export function CorroborationSummaryPanel({ summary, note }: { summary: CorroborationSummary; note?: string }) {
   const c = summary.counts;
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4" data-testid="corroboration-summary">
       <Card>
         <div className="flex items-start gap-2.5">
           <ShieldCheck className="mt-0.5 size-5 shrink-0 text-accent" aria-hidden />

@@ -214,7 +214,7 @@ export function CorroborationPanel({
 
   // idle — corroboration available, not yet run
   return (
-    <Card className="gap-3">
+    <Card className="gap-3" data-testid="corroboration-idle">
       <div className="flex items-start gap-2.5">
         <ShieldCheck className="mt-0.5 size-5 shrink-0 text-accent" aria-hidden />
         <div className="flex flex-col gap-0.5">

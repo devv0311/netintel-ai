@@ -107,6 +107,7 @@ next-env.d.ts
 # Playwright (test-results/ and playwright-report/ already covered below)
 # ---------------------------------------------------------------------------
 /playwright/.cache/
+.playwright-mcp/
 
 # ---------------------------------------------------------------------------
 # General build artifacts
