@@ -4,7 +4,9 @@
 **Command:** `node --import ./scripts/eval-resolve.mjs scripts/cross-source-experiment.ts`
 **Results:** `reports/cross-source/gleif-wikidata-results.json`
 **Corpus:** `evidence/public-pilot/gleif-wikidata-cross.corpus.json` — 51 real records
-**Resolver modified:** **No.** No fuzzy matching, no embeddings, no adjudication, no ML.
+**Resolver:** §1–§6 record the P6.14 run, against a resolver that merged on any shared
+identifier. **§7 is the P6.15 re-run** under the identifier-authority policy and is the
+current state. No fuzzy matching, no embeddings, no adjudication and no ML in either.
 
 The measurement the GLEIF-only pilot could not make. There every subject appeared once,
 so nothing could be joined and every merge figure was arithmetic. Here each subject
@@ -208,3 +210,53 @@ Two candidates, in order:
    shared identifier. Until such a corpus exists, the suffix / transliteration /
    abbreviation / name-order hypotheses stay exactly what they were after P6.6:
    characterisations of a synthetic fixture, unvalidated against real records.
+
+---
+
+## 7. Update — P6.15 identifier-authority policy applied (2026-09-03)
+
+The §3 false merge is fixed. Same 51 records, same corpus, no recollection; the resolver's
+Tier-A identifier handling changed. Full policy and rationale in
+`docs/evaluation/identifier-authority-policy.md` §9.
+
+```
+                          before (P6.14)      after (P6.15)
+  falseMergeRate            4.0% (1/25)   →   0.0% (0/27)
+  crossSourceJoinRate     100.0% (25/25)  →  96.0% (24/25)
+  identifierMatchRate     100.0% (25/25)  →  96.0% (24/25)
+  aliasMatchRate          100.0% (28/28)  →  96.4% (27/28)
+  unresolvedRate            0.0% (0/51)   →   2.0% (1/51)
+  fragmentationRate         0.0% (0/26)   →   3.8% (1/26)
+  provenanceCompleteness  100.0%          → 100.0% (669/669)
+  exactNameMatchRate        0.0% (0/25)   →   0.0% (0/25)   unchanged
+  resolution types      shared_identifier_merge 51
+                                          →  shared_identifier_merge 48,
+                                             new_entity 2,
+                                             ambiguous_identifier_conflict 1
+```
+
+**Every metric that moved is the same record.** Q188087 asserts two LEIs, so it is no
+longer merged on either, and the join it lost was wrong. Read `falseMergeRate` first: the
+four "worse" numbers are the price of that one line, and they are the correct price.
+
+Two things worth stating plainly rather than leaving to be inferred:
+
+- **`fragmentationRate 3.8%` is a ground-truth artefact, not a resolver defect.** The
+  ground truth keys each subject by the first LEI on its record, so Q188087 was assigned
+  `LEI:253400…` — the very claim the resolver now refuses to trust. The "fragmented
+  subject" is the ground truth inheriting Wikidata's contradiction. It was deliberately
+  not corrected: editing ground truth so a resolver scores better is circular, and the
+  artefact is more useful visible.
+- **The transliteration row now reads 1/2 joined.** The pair that no longer joins is
+  `Публичное акционерное общество "Юнипро"` ↔ `Unipro` — the same Q188087 record. This is
+  not evidence about transliteration handling. §2.2 still stands in full: the four
+  name-variation hypotheses remain **untested**, because Tier B still fired zero times
+  (`exactNameMatchRate 0%`, `byteIdenticalNamePairs 0%`).
+
+Isolation held. Operation DarkNet Delhi re-measured against the P6.14 baseline: **all 21
+metric values identical**, snapshot counts identical (61 entities, 191 relationships),
+`rel.precision 100.0%` / `rel.recall 51.2%` / `rel.f1 67.7%` unchanged,
+`provenance.completeness 100%`. The GLEIF-only pilot is unchanged too — no GLEIF record
+states two LEIs. The policy governs `has_identifier` only, so nothing outside the
+`public_record` path can be affected by construction.
+

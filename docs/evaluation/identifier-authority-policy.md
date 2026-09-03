@@ -1,11 +1,15 @@
 # Identifier authority — policy proposal
 
-**Status: PROPOSAL. Nothing here is implemented. No resolver or matching logic was
-changed, and the numbers below are measurements of current behaviour, not of a fix.**
+**Status: APPROVED AND IMPLEMENTED (P6.15), 2026-09-03.**
+
+§1–§6 are the analysis and the options as they were put to the project owner, kept
+unedited so the decision record shows what was actually chosen from. **§9 is what was
+built**, and it is the authority on current behaviour. §7's open questions are answered
+in §9.6.
 
 **Date:** 2026-09-03
 **Occasion:** the single false merge in `docs/evaluation/cross-source-experiment.md`
-**Decision owner:** project owner. §7 lists what needs answering; §8 lists what does not.
+**Decided by:** project owner, 2026-09-03 — Option 2 with Option 3 as its fallback.
 
 ---
 
@@ -38,9 +42,11 @@ GLEIF-A ──LEI:2534…── Q188087 ──LEI:9845…── GLEIF-B
 
 Two unrelated legal entities, one component, one entity. It is reported as
 `shared_identifier_merge`, `status: "resolved"`, confidence ≥ 0.9, and **zero warnings** —
-indistinguishable in the output from the 24 correct merges beside it. All of that is
-now asserted in
-`tests/unit/resolution.test.ts › Tier-A identifier bridging (characterization)`.
+indistinguishable in the output from the 24 correct merges beside it.
+
+*(That behaviour was pinned by characterization tests while this was a proposal. Those
+tests failed the moment the policy landed — which is what they were for — and were
+rewritten as the specification suite described in §9.)*
 
 **Two facts that constrain any fix:**
 
@@ -124,8 +130,8 @@ is recorded, not obeyed.
 
 An LEI and a QID that happen to share characters must not merge. Extraction already
 scheme-qualifies every value (`LEI:x` vs `WIKIDATA:x`), which is what prevents it, and
-P6.4 documents the choice. Pinned by a characterization test so no future change removes
-it silently.
+P6.4 documents the choice. Pinned by test case (e) so no future change removes it
+silently.
 
 Same value, same scheme, genuinely different entities cannot occur for LEI, which is
 globally unique by construction. It becomes live only if a weaker scheme is admitted, and
@@ -212,3 +218,104 @@ cross-source corpus before it is believed.
 - **No no-identifier corpus yet.** That is the experiment that would test names, and it
   is deliberately not started.
 - **No resolver change in this document.** Proposal only.
+
+---
+
+# 9. As built (P6.15)
+
+## 9.1 What was approved
+
+Option **2 with 3 as fallback**: authority-ranked identifiers, falling back to flag /
+no-merge wherever authority cannot establish identity safely.
+
+## 9.2 The rule, as implemented
+
+`src/lib/resolution/identifier-authority.ts` is the whole policy, and it is pure:
+
+- **`MERGEABLE_IDENTIFIER_SCHEMES = { LEI }`.** Only LEI may establish identity in
+  Tier A. An LEI denotes exactly one legal entity (ISO 17442) and is globally unique.
+- **A Wikidata QID never merges.** A QID identifies a Wikidata *item* — merged, split and
+  repurposed by editors, and capable of carrying several LEIs, which is precisely the
+  shape that caused the failure. QIDs remain source-local identity and context.
+- **A record asserting two or more distinct values of one mergeable scheme is merged on
+  NONE of them**, and is flagged `ambiguous_identifier_conflict`. Every value is
+  withheld, not just the extras: keeping the first would make identity depend on payload
+  ordering, and keeping either would be a guess carrying a merge's confidence.
+- **Schemes are isolated.** An LEI conflict does not suppress a clean value of another
+  scheme, and two QIDs are not a conflict at all — a scheme that cannot merge cannot
+  bridge anything.
+- **Unqualified values never merge**, because an unqualified value could collide across
+  schemes.
+
+The policy governs **`has_identifier` only** — the registry identifiers a `public_record`
+states about its own subject. Phone, account and vehicle identifiers keep their existing
+behaviour exactly; a person holding two phones is still merged on both, because
+multi-valued is only a contradiction for a scheme where one value denotes one subject.
+That scoping is what makes the DarkNet Delhi result provably unchanged rather than
+hopefully unchanged.
+
+## 9.3 Flag, not merge — reusing what existed
+
+Phase 2b of `resolveEntities` gives Tier A the treatment Tier B already gave an ambiguous
+name: a standalone entity, `status: "ambiguous"`, `CONFIDENCE.ambiguousConflict` (0.2,
+below the merge floor), the entities it *would* have merged into recorded in
+`candidateEntityIds`, a human-readable `conflicts[]` naming the authority position, and a
+warning. No new vocabulary and no UI redesign — the decision row and warning path already
+existed and are already rendered.
+
+Conflicted records are withheld from **Tier B as well**. A record whose own identifiers
+contradict each other has not become better evidence by having a name, and letting it
+merge on the name instead would rebuild the same wrong link through a lower-confidence
+door. There is a test for exactly that.
+
+## 9.4 Measured effect
+
+Real cross-source corpus, 51 records, unchanged data:
+
+| | before (P6.14) | after (P6.15) |
+|---|---|---|
+| **falseMergeRate** | **4.0% (1/25)** | **0.0% (0/27)** |
+| crossSourceJoinRate | 100.0% (25/25) | 96.0% (24/25) |
+| identifierMatchRate | 100.0% (25/25) | 96.0% (24/25) |
+| aliasMatchRate | 100.0% (28/28) | 96.4% (27/28) |
+| unresolvedRate | 0.0% (0/51) | 2.0% (1/51) |
+| fragmentationRate | 0.0% (0/26) | 3.8% (1/26) |
+| provenanceCompleteness | 100.0% | 100.0% (669/669) |
+| `ambiguous_identifier_conflict` | — | 1 |
+
+The four metrics that got "worse" are all the same record — Q188087 — no longer being
+merged on a claim it contradicts itself about. That is the intended outcome, and the
+join it lost was wrong.
+
+**One caveat, stated because the number would otherwise flatter the change.**
+`fragmentationRate 3.8%` is **not** a resolver defect. The ground truth keys subjects by
+the first LEI on a record, so Q188087 was assigned `LEI:253400…` — a claim the resolver
+now correctly refuses to trust. The "fragmented subject" is the ground truth inheriting
+Wikidata's contradiction. It was deliberately **not** corrected: editing ground truth to
+match a resolver is circular, and the artefact is more honest left visible.
+
+Operation DarkNet Delhi, all 21 metrics: **identical**, including
+`rel.precision 100.0%`, `rel.recall 51.2%`, `rel.f1 67.7%` and
+`provenance.completeness 100%`. Snapshot counts identical (61 entities, 191
+relationships). The GLEIF-only pilot is also unchanged — no GLEIF record states two LEIs.
+
+## 9.5 Governance
+
+`issues_identifier_schemes` was added to `docs/data-research/source-registry.csv`
+(SRC-002 → `LEI`, SRC-001 → `WIKIDATA`). The CSV is the decision record; the constants in
+`identifier-authority.ts` are its executable form, and
+`tests/unit/identifier-authority.test.ts` fails if the two drift or if any scheme is
+claimed by two issuers.
+
+## 9.6 §7's questions, answered
+
+1. **Which option** — 2 with 3 as fallback. Built.
+2. **UI** — existing decision row plus warning. No redesign.
+3. **Registry column** — added.
+4. **Which schemes may merge** — LEI only; QID explicitly excluded. Widening the set is a
+   governance change and a test asserts the current contents.
+5. **Evaluation baseline** — re-measured, not assumed. Identical.
+
+Still open, and untouched by this work: the `IS_FUND-MANAGED_BY` graph modelling decision
+(`real-data-pilot.md` §3.2).
+

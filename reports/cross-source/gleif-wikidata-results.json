@@ -20,34 +20,35 @@
     }
   ],
   "corpus": "evidence/public-pilot/gleif-wikidata-cross.corpus.json",
-  "ranAt": "2026-09-03T19:53:09.790Z",
-  "resolverModified": false,
+  "ranAt": "2026-09-03T20:35:54.436Z",
+  "resolverPolicy": "P6.15-identifier-authority",
+  "resolverPolicyNotes": "Tier A merges only on schemes in MERGEABLE_IDENTIFIER_SCHEMES (LEI). A record asserting two or more distinct values of one mergeable scheme is flagged ambiguous_identifier_conflict and merged on none of them. Wikidata QIDs are source-local context and never merge.",
   "counts": {
     "records": 51,
     "subjects": 26,
     "crossSourcePairs": 25,
-    "entities": 25,
-    "aliases": 54,
+    "entities": 27,
+    "aliases": 51,
     "relationships": 0,
     "graphCounts": {
-      "entitiesConsidered": 25,
+      "entitiesConsidered": 27,
       "extractedRecordsConsidered": 540,
       "nodesByKind": {
-        "organisation": 25
+        "organisation": 27
       },
       "edgesByType": {}
     }
   },
   "metrics": {
     "crossSourceJoinRate": {
-      "n": 25,
+      "n": 24,
       "d": 25,
-      "pct": "100.0%"
+      "pct": "96.0%"
     },
     "identifierMatchRate": {
-      "n": 25,
+      "n": 24,
       "d": 25,
-      "pct": "100.0%"
+      "pct": "96.0%"
     },
     "exactNameMatchRate": {
       "n": 0,
@@ -60,28 +61,28 @@
       "pct": "0.0%"
     },
     "aliasMatchRate": {
-      "n": 28,
+      "n": 27,
       "d": 28,
-      "pct": "100.0%"
+      "pct": "96.4%"
     },
     "unresolvedRate": {
-      "n": 0,
+      "n": 1,
       "d": 51,
-      "pct": "0.0%"
+      "pct": "2.0%"
     },
     "falseMergeRate": {
-      "n": 1,
-      "d": 25,
-      "pct": "4.0%"
-    },
-    "fragmentationRate": {
       "n": 0,
-      "d": 26,
+      "d": 27,
       "pct": "0.0%"
     },
+    "fragmentationRate": {
+      "n": 1,
+      "d": 26,
+      "pct": "3.8%"
+    },
     "provenanceCompleteness": {
-      "n": 670,
-      "d": 670,
+      "n": 669,
+      "d": 669,
       "pct": "100.0%"
     }
   },
@@ -172,15 +173,15 @@
     {
       "variation": "transliteration",
       "pairs": 2,
-      "joined": 2,
-      "failed": 0,
-      "failureRate": "0.0%",
+      "joined": 1,
+      "failed": 1,
+      "failureRate": "50.0%",
       "cases": [
         {
           "subjectKey": "LEI:253400DR5QSH8MEGZZ11",
           "gleif": "Публичное акционерное общество \"Юнипро\"",
           "wikidata": "Unipro",
-          "joined": true
+          "joined": false
         },
         {
           "subjectKey": "LEI:529900RYRJUN78A7PL87",
@@ -305,23 +306,20 @@
     "unmappedByGraph": []
   },
   "resolutionTypeHistogram": {
-    "shared_identifier_merge": 51
+    "shared_identifier_merge": 48,
+    "new_entity": 2,
+    "ambiguous_identifier_conflict": 1
   },
   "observations": {
-    "falseMerges": [
+    "falseMerges": [],
+    "fragmented": [
       {
-        "entityId": "entity_fea633b49ede17c28390",
-        "subjects": [
-          "LEI:98450016D1DA0D640356",
-          "LEI:253400DR5QSH8MEGZZ11"
-        ],
-        "names": [
-          "UNIPRO",
-          "Публичное акционерное общество \"Юнипро\"",
-          "Unipro"
+        "subject": "LEI:253400DR5QSH8MEGZZ11",
+        "entities": [
+          "entity_820771a307bc21677472",
+          "entity_af1ecaec11d43bde55c4"
         ]
       }
-    ],
-    "fragmented": []
+    ]
   }
 }
