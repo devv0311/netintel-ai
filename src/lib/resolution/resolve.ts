@@ -364,7 +364,7 @@ export function resolveEntities(
       for (const m of members) {
         const siblingRelationships = relationshipsByItem.get(m.evidenceItemId) ?? [];
         for (const r of siblingRelationships) {
-          if (str(r.data, "relationshipType") !== "has_alias") continue;
+          if (!["has_alias","alias_of"].includes(str(r.data, "relationshipType") ?? "")) continue;
           const aliasValue = str(r.data, "observedValue");
           if (!aliasValue || aliasValue === canonicalLabel) continue;
           const existing = aliasSourceByName.get(aliasValue);
