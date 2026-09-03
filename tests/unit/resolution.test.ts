@@ -157,7 +157,30 @@ describe("entity resolution — valid corpus", () => {
 
   it("produces zero ambiguous decisions over the real corpus (no genuine identifier-anchored name collision exists)", () => {
     expect(first.counts?.ambiguousDecisions).toBe(0);
-    expect(first.warnings).toEqual([]);
+  });
+
+  /**
+   * This test previously asserted `warnings).toEqual([])`, and passed -
+   * which is precisely the silent-failure defect P6.16 measured and
+   * P6.17.2 fixed. Nine person mentions in this corpus have never
+   * resolved to a corroborated entity: they are the money mules and
+   * witnesses P6.2 surfaced, whose identifiers no single record anchors
+   * together (see docs/evaluation/resolver-failure-analysis.md). The
+   * clustering has not changed - the same nine mentions became the same
+   * nine standalone entities before this milestone. What changed is that
+   * the run now SAYS so instead of reporting them as resolved.
+   *
+   * The assertion is therefore inverted deliberately: silence here would
+   * be the bug returning.
+   */
+  it("reports its uncorroborated mentions instead of silently calling them resolved", () => {
+    const unresolvedWarnings = first.warnings.filter((w) => w.includes("did not resolve"));
+    expect(unresolvedWarnings).toHaveLength(1);
+    expect(unresolvedWarnings[0]).toContain("9 of 88 person mention(s)");
+    expect(first.counts?.unresolvedDecisions).toBe(9);
+    expect(first.counts?.decisionsByStatus.unresolved).toBe(9);
+    // And they must not also be counted as a success.
+    expect(first.counts?.decisionsByType.unlinked_mention).toBe(9);
   });
 
   it("every resolution decision is classified exactly ai_inference — never observed_fact, corroborated_fact, algorithmic_signal, or investigative_lead", async () => {

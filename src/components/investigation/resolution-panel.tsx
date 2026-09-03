@@ -54,7 +54,9 @@ function summaryFromResult(result: ResolutionResult | null): ResolutionSummary |
     totalAliases: result.counts.aliasesCreated,
     totalDecisions: Object.values(result.counts.decisionsByType).reduce((a, b) => a + b, 0),
     decisionsByType: result.counts.decisionsByType,
+    decisionsByStatus: result.counts.decisionsByStatus,
     ambiguousDecisions: result.counts.ambiguousDecisions,
+    unresolvedDecisions: result.counts.unresolvedDecisions,
   };
 }
 

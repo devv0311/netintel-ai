@@ -37,12 +37,16 @@ function countsFrom(output: ResolutionOutput, extractedRecordsConsidered: number
   for (const e of output.entities) entitiesByKind[e.kind] = (entitiesByKind[e.kind] ?? 0) + 1;
   const decisionsByType: Record<string, number> = {};
   for (const d of output.decisions) decisionsByType[d.resolutionType] = (decisionsByType[d.resolutionType] ?? 0) + 1;
+  const decisionsByStatus: Record<string, number> = {};
+  for (const d of output.decisions) decisionsByStatus[d.status] = (decisionsByStatus[d.status] ?? 0) + 1;
   return {
     extractedRecordsConsidered,
     entitiesByKind,
     aliasesCreated: output.aliases.length,
     decisionsByType,
+    decisionsByStatus,
     ambiguousDecisions: output.decisions.filter((d) => d.status === "ambiguous").length,
+    unresolvedDecisions: output.decisions.filter((d) => d.status === "unresolved").length,
   };
 }
 

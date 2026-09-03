@@ -78,7 +78,21 @@ export interface ResolutionCounts {
   entitiesByKind: Record<string, number>;
   aliasesCreated: number;
   decisionsByType: Record<string, number>;
+  /**
+   * Decision counts by outcome status. Added in P6.17.2: `decisionsByType`
+   * alone could not answer "did this run actually resolve anything?",
+   * because an uncorroborated mention and a confidently-anchored one were
+   * both reported as `resolved`.
+   */
+  decisionsByStatus: Record<string, number>;
   ambiguousDecisions: number;
+  /**
+   * Mentions that reached the end of resolution with nothing corroborating
+   * them. Surfaced beside `ambiguousDecisions` because a silent
+   * non-resolution is as much a non-result as a flagged conflict, and
+   * P6.16 showed it is the one the output was hiding.
+   */
+  unresolvedDecisions: number;
 }
 
 export interface ResolutionPersisted {
@@ -110,7 +124,21 @@ export interface ResolutionSummary {
   totalAliases: number;
   totalDecisions: number;
   decisionsByType: Record<string, number>;
+  /**
+   * Decision counts by outcome status. Added in P6.17.2: `decisionsByType`
+   * alone could not answer "did this run actually resolve anything?",
+   * because an uncorroborated mention and a confidently-anchored one were
+   * both reported as `resolved`.
+   */
+  decisionsByStatus: Record<string, number>;
   ambiguousDecisions: number;
+  /**
+   * Mentions that reached the end of resolution with nothing corroborating
+   * them. Surfaced beside `ambiguousDecisions` because a silent
+   * non-resolution is as much a non-result as a flagged conflict, and
+   * P6.16 showed it is the one the output was hiding.
+   */
+  unresolvedDecisions: number;
 }
 
 export type ResolutionState =
@@ -131,6 +159,13 @@ export interface ResolvedEntityView {
   aliases: string[];
   decisionCount: number;
   hasAmbiguousDecision: boolean;
+  /**
+   * True when every decision behind this entity is `unresolved` - i.e.
+   * the entity exists only because a mention had to go somewhere, and
+   * nothing corroborated it. Surfaced per entity so the list view can
+   * tell an anchored entity from an uncorroborated one without opening it.
+   */
+  isUnresolved: boolean;
   confidence: number;
   provenance: {
     source: string;

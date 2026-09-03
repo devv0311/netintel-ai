@@ -9,6 +9,11 @@ import {
   REGISTRY_IDENTIFIER_RELATIONSHIP,
   type SchemeConflict,
 } from "@/lib/resolution/identifier-authority";
+import {
+  describeNormalization,
+  normalizeName,
+  type NormalizedName,
+} from "@/lib/resolution/name-normalization";
 
 /**
  * The entity-resolution core: deterministic, evidence-only identity
@@ -48,6 +53,17 @@ export const CONFIDENCE = {
   newEntityFromOwnIdentifiers: 1,
   newEntityIsolatedMention: 0.5,
   exactNameMatch: 0.6,
+  /**
+   * Strictly below exactNameMatch and far below any identifier merge.
+   * A normalised match is real evidence - the strings agree once two
+   * publishers' house styles are removed - but it is an inference about
+   * naming convention, not an observation of a shared identifier, and
+   * the confidence has to say so. Still above MERGE_CONFIDENCE_FLOOR
+   * (0.5), so it is applied rather than merely proposed; that was the
+   * approved decision, and it is the line that would move if a later
+   * measurement showed normalised matching merging things it should not.
+   */
+  normalizedNameMatch: 0.55,
   ambiguousConflict: 0.2,
 } as const;
 
@@ -339,6 +355,11 @@ export function resolveEntities(
     const mentionById = new Map(personMentions.map((m) => [m.id, m]));
     // name string -> set of Tier-A cluster entity ids that contain it.
     const nameToClusterEntities = new Map<string, Set<string>>();
+    // normalised name -> the same, for Tier B2. Kept as a SEPARATE index
+    // rather than replacing the exact one, so an exact match always wins
+    // and is always reported as an exact match.
+    const normalizedNameToClusterEntities = new Map<string, Set<string>>();
+    const normalizedFormByCluster = new Map<string, NormalizedName>();
     const clusterEntityIdByRoot = new Map<string, string>();
 
     for (const [root, memberIds] of [...clustersByRoot.entries()].sort(([a], [b]) =>
@@ -363,6 +384,16 @@ export function resolveEntities(
         const set = nameToClusterEntities.get(name) ?? new Set<string>();
         set.add(entityId);
         nameToClusterEntities.set(name, set);
+
+        const normalized = normalizeName(name);
+        if (normalized.normalized.length === 0) continue;
+        const normSet =
+          normalizedNameToClusterEntities.get(normalized.normalized) ?? new Set<string>();
+        normSet.add(entityId);
+        normalizedNameToClusterEntities.set(normalized.normalized, normSet);
+        if (!normalizedFormByCluster.has(`${entityId}|${normalized.normalized}`)) {
+          normalizedFormByCluster.set(`${entityId}|${normalized.normalized}`, normalized);
+        }
       }
 
       const primary = members[0]!;
@@ -513,7 +544,13 @@ export function resolveEntities(
       }
     }
 
-    // --- Phase 3: Tier-B — resolve every remaining (identifier-less) subject mention ---
+        // --- Phase 3: Tier-B - resolve every remaining (identifier-less) subject mention ---
+    //
+    // B1 exact name match, then B2 normalised name match. The order is
+    // the point: an exact match must never be reported as a normalised
+    // one, and normalisation must never be able to overrule a string the
+    // publishers already agree on.
+    const unlinkedMentionIds: string[] = [];
 
     for (const mention of [...personMentions].sort((a, b) => (a.id < b.id ? -1 : 1))) {
       if (tierAMentionIds.has(mention.id)) continue; // already resolved in Phase 2
@@ -587,7 +624,111 @@ export function resolveEntities(
         continue;
       }
 
-      // candidates.length === 0 — a lone, unlinked mention with no corroboration anywhere.
+      // --- Tier B2: the same question, asked of the NORMALISED name ---
+      //
+      // Reached only when the exact string matched nothing at all. P6.16
+      // measured 0 of 75 real pairs sharing a byte-identical name while
+      // 53 of them differed only by capitalisation or a legal suffix, so
+      // this is the branch those pairs need. It is deterministic: the
+      // two strings either normalise to the same key or they do not.
+      const normalized = normalizeName(name);
+      const normalizedCandidates =
+        normalized.normalized.length > 0
+          ? [...(normalizedNameToClusterEntities.get(normalized.normalized) ?? new Set<string>())].sort()
+          : [];
+
+      if (normalizedCandidates.length === 1) {
+        const targetId = normalizedCandidates[0]!;
+        const clusterForm = normalizedFormByCluster.get(`${targetId}|${normalized.normalized}`);
+        const how = clusterForm ? describeNormalization(normalized, clusterForm) : null;
+        decisions.push({
+          id: makeContentId("resolution_decision", [mention.id]),
+          investigationId,
+          canonicalEntityId: targetId,
+          extractedRecordIds: [mention.id],
+          resolutionType: "normalized_name_match",
+          status: "resolved",
+          candidateEntityIds: [],
+          conflicts: [],
+          reason:
+            `Normalised name match to exactly one identifier-anchored entity: ` +
+            `"${name}" and that entity's name both normalise to "${normalized.normalized}"` +
+            `${how ? ` after ${how}` : ""}. Deterministic normalisation only - no fuzzy ` +
+            `matching, no similarity threshold. Weaker evidence than a shared identifier, ` +
+            `and recorded at lower confidence to say so.`,
+          classification: "ai_inference",
+          provenance: buildProvenance(
+            mention.id,
+            mention.provenance,
+            "resolution:normalized_name_match",
+            CONFIDENCE.normalizedNameMatch,
+            "resolution:normalized_name_match",
+            resolvedAt,
+          ),
+        });
+        continue;
+      }
+
+      if (normalizedCandidates.length >= 2) {
+        const standaloneId = makeContentId("entity", [subjectKind, mention.id]);
+        entities.push({
+          id: standaloneId,
+          investigationId,
+          kind: subjectKind,
+          canonicalLabel: name,
+          attributes: {},
+          provenance: buildProvenance(
+            mention.id,
+            mention.provenance,
+            "resolution:ambiguous_normalized_name_conflict",
+            CONFIDENCE.ambiguousConflict,
+            "resolution:entity_created",
+            resolvedAt,
+          ),
+        });
+        const conflictMsg =
+          `Name "${name}" normalises to "${normalized.normalized}", which matches ` +
+          `${normalizedCandidates.length} distinct identifier-anchored entities ` +
+          `(${normalizedCandidates.join(", ")}); not merged into any of them. The ambiguity ` +
+          `was created by normalisation - the original strings did not collide - so the ` +
+          `normalisation rules are what a reviewer should question first.`;
+        decisions.push({
+          id: makeContentId("resolution_decision", [mention.id]),
+          investigationId,
+          canonicalEntityId: standaloneId,
+          extractedRecordIds: [mention.id],
+          resolutionType: "ambiguous_normalized_name_conflict",
+          status: "ambiguous",
+          candidateEntityIds: normalizedCandidates,
+          conflicts: [conflictMsg],
+          reason: `Kept as its own unresolved entity - ambiguous normalised name match, never force-merged.`,
+          classification: "ai_inference",
+          provenance: buildProvenance(
+            mention.id,
+            mention.provenance,
+            "resolution:ambiguous_normalized_name_conflict",
+            CONFIDENCE.ambiguousConflict,
+            "resolution:ambiguous_normalized_name_conflict",
+            resolvedAt,
+          ),
+        });
+        warnings.push(conflictMsg);
+        continue;
+      }
+
+// Nothing corroborated this mention: no identifier of its own, no
+      // exact name match, no normalised name match. It still becomes its
+      // own entity - a mention is never dropped - but it is recorded as
+      // UNRESOLVED, not as a confirmed new entity.
+      //
+      // P6.16 is why. On the real no-identifier corpus this branch fired
+      // 257 times out of 257 and every decision said `resolved` /
+      // `new_entity` with no warning, so a run that joined none of its 75
+      // real pairs looked exactly like a perfect one. The reason string
+      // below names the keys that were searched, so a reader can see WHY
+      // a pair that should have joined did not.
+      const normalizedForReason = normalizeName(name);
+      unlinkedMentionIds.push(mention.id);
       const standaloneId = makeContentId("entity", [subjectKind, mention.id]);
       entities.push({
         id: standaloneId,
@@ -598,7 +739,7 @@ export function resolveEntities(
         provenance: buildProvenance(
           mention.id,
           mention.provenance,
-          "resolution:new_entity",
+          "resolution:unlinked_mention",
           CONFIDENCE.newEntityIsolatedMention,
           "resolution:entity_created",
           resolvedAt,
@@ -609,21 +750,38 @@ export function resolveEntities(
         investigationId,
         canonicalEntityId: standaloneId,
         extractedRecordIds: [mention.id],
-        resolutionType: "new_entity",
-        status: "resolved",
+        resolutionType: "unlinked_mention",
+        status: "unresolved",
         candidateEntityIds: [],
         conflicts: [],
-        reason: `No corroborating identifier or matching cluster; treated as its own entity from a single, unlinked mention.`,
+        reason:
+          `Not corroborated by any evidence available to this resolver. Its own evidence item ` +
+          `states no mergeable identifier; no identifier-anchored ${subjectKind} entity carries ` +
+          `the exact name "${name}"; and none carries the normalised name ` +
+          `"${normalizedForReason.normalized}". Kept as its own entity so the mention is never ` +
+          `dropped, but recorded as UNRESOLVED - this is not a confirmed new entity.`,
         classification: "ai_inference",
         provenance: buildProvenance(
           mention.id,
           mention.provenance,
-          "resolution:new_entity",
+          "resolution:unlinked_mention",
           CONFIDENCE.newEntityIsolatedMention,
-          "resolution:new_entity",
+          "resolution:unlinked_mention",
           resolvedAt,
         ),
       });
+    }
+    // One aggregate warning, not one per mention. P6.11 removed 24
+    // meaningless warnings for exactly this reason: a warning per record
+    // buries the one that matters. The count is the signal; the
+    // individual reasons are on the decisions.
+    if (unlinkedMentionIds.length > 0) {
+      warnings.push(
+        `${unlinkedMentionIds.length} of ${personMentions.length} ${subjectKind} mention(s) did ` +
+          `not resolve to any corroborated entity - no identifier evidence, no exact name match ` +
+          `and no normalised name match. They are recorded as unlinked_mention / unresolved, ` +
+          `NOT as confirmed new entities; see each decision's reason for the keys that were searched.`,
+      );
     }
   } // end: for (const subjectKind of NAMED_SUBJECT_KINDS)
 

@@ -31,7 +31,19 @@ export const RESOLUTION_TYPES = [
   /** A person mention merged into an existing identifier-anchored cluster because its exact name string matches exactly one such cluster. */
   "exact_name_match",
   /** A mention with no corroborating merge evidence — becomes its own new canonical entity. */
-  "new_entity",
+    /**
+   * A mention merged into an identifier-anchored cluster because its
+   * DETERMINISTICALLY NORMALISED name matches exactly one such cluster:
+   * case folding, punctuation folding, whitespace collapsing and
+   * legal-suffix stripping, and nothing else. Kept as its own type, and
+   * at its own lower confidence, because it is WEAKER evidence than an
+   * exact string match and much weaker than an authoritative identifier
+   * - a reader must be able to tell the three apart in the decision row
+   * without inferring it from a number. See
+   * src/lib/resolution/name-normalization.ts.
+   */
+  "normalized_name_match",
+"new_entity",
   /** A mention whose exact name string matches two or more distinct identifier-anchored clusters — explicitly NOT merged into any of them. */
   "ambiguous_name_conflict",
   /**
@@ -42,11 +54,51 @@ export const RESOLUTION_TYPES = [
    * See src/lib/resolution/identifier-authority.ts.
    */
   "ambiguous_identifier_conflict",
+  /**
+   * A mention whose NORMALISED name matches two or more distinct
+   * identifier-anchored clusters - explicitly NOT merged into any of
+   * them. Distinct from `ambiguous_name_conflict` so that an ambiguity
+   * CREATED by normalisation is attributable to normalisation rather
+   * than to the publishers' strings.
+   */
+  "ambiguous_normalized_name_conflict",
+  /**
+   * A named-subject mention that reached the end of resolution with no
+   * corroborating evidence of any kind: no identifier of its own, no
+   * exact name match and no normalised name match against any
+   * identifier-anchored cluster.
+   *
+   * It still becomes its own entity - a mention is never dropped - but
+   * it is NOT the same outcome as `new_entity`, and P6.16 measured what
+   * it costs to conflate them: the no-identifier corpus produced 257
+   * `new_entity` decisions all marked `resolved`, so a run that joined
+   * NONE of its 75 real pairs was indistinguishable in the output from a
+   * perfect one. `new_entity` now means "established from its own
+   * identifiers"; this means "we could not corroborate this at all".
+   */
+  "unlinked_mention",
 ] as const;
 export const ResolutionTypeSchema = z.enum(RESOLUTION_TYPES);
 export type ResolutionType = z.infer<typeof ResolutionTypeSchema>;
 
-export const RESOLUTION_STATUSES = ["resolved", "ambiguous"] as const;
+/**
+ * The outcome of a resolution decision, as a reader must be able to see
+ * it without reading the reason text.
+ *
+ *   resolved   - the mention was assigned to an entity on evidence:
+ *                its own identifier, or a name match into an
+ *                identifier-anchored cluster.
+ *   unresolved - the mention became its own entity because nothing
+ *                corroborated it. It is NOT a confirmed new entity, and
+ *                it is not a success.
+ *   ambiguous  - the evidence supported two or more incompatible
+ *                answers, so none was applied.
+ *
+ * `unresolved` was added in P6.17.2. Before it, an uncorroborated
+ * mention was reported as `resolved` / `new_entity`, which is the
+ * silent-failure defect P6.16 surfaced.
+ */
+export const RESOLUTION_STATUSES = ["resolved", "unresolved", "ambiguous"] as const;
 export const ResolutionStatusSchema = z.enum(RESOLUTION_STATUSES);
 export type ResolutionStatus = z.infer<typeof ResolutionStatusSchema>;
 

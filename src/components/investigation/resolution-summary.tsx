@@ -61,6 +61,24 @@ export function ResolutionSummaryPanel({
             </span>
           </div>
         )}
+        {summary.unresolvedDecisions > 0 && (
+          <div
+            className="flex items-start gap-2 rounded-md bg-muted px-2.5 py-1.5 text-xs text-muted-foreground"
+            data-testid="resolution-unresolved-note"
+          >
+            <ShieldQuestion className="mt-0.5 size-3.5 shrink-0" aria-hidden />
+            <span>
+              {formatCount(summary.unresolvedDecisions)} mention
+              {summary.unresolvedDecisions === 1 ? "" : "s"} could not be corroborated by any
+              identifier, exact name or normalised name, and{" "}
+              {summary.unresolvedDecisions === 1 ? "was" : "were"} recorded as{" "}
+              <span className="font-medium text-foreground">unresolved</span> — each still
+              became its own entity so nothing is dropped, but{" "}
+              {summary.unresolvedDecisions === 1 ? "it is" : "these are"} not confirmed new
+              entities. Open one to see which keys were searched.
+            </span>
+          </div>
+        )}
         {note && (
           <p
             className="rounded-md bg-muted px-2.5 py-1.5 text-xs text-muted-foreground"

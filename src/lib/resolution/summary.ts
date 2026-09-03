@@ -34,6 +34,8 @@ export async function getResolutionState(): Promise<ResolutionState> {
   for (const e of entities) entitiesByKind[e.kind] = (entitiesByKind[e.kind] ?? 0) + 1;
   const decisionsByType: Record<string, number> = {};
   for (const d of decisions) decisionsByType[d.resolutionType] = (decisionsByType[d.resolutionType] ?? 0) + 1;
+  const decisionsByStatus: Record<string, number> = {};
+  for (const d of decisions) decisionsByStatus[d.status] = (decisionsByStatus[d.status] ?? 0) + 1;
 
   const summary: ResolutionSummary = {
     investigationId: investigation.id,
@@ -43,7 +45,9 @@ export async function getResolutionState(): Promise<ResolutionState> {
     totalAliases: aliases.length,
     totalDecisions: decisions.length,
     decisionsByType,
+    decisionsByStatus,
     ambiguousDecisions: decisions.filter((d) => d.status === "ambiguous").length,
+    unresolvedDecisions: decisions.filter((d) => d.status === "unresolved").length,
   };
   return { status: "resolved", summary };
 }
@@ -99,6 +103,8 @@ export async function getResolvedEntitiesPage(
       aliases: (aliasesByEntity.get(e.id) ?? []).sort(),
       decisionCount: entityDecisions.length,
       hasAmbiguousDecision: entityDecisions.some((d) => d.status === "ambiguous"),
+      isUnresolved:
+        entityDecisions.length > 0 && entityDecisions.every((d) => d.status === "unresolved"),
       confidence: e.provenance.confidence,
       provenance: {
         source: e.provenance.source,
