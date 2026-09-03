@@ -666,7 +666,7 @@ describe("graph synthesis — full Operation DarkNet Delhi corpus", () => {
     }
     const entities = await mod.repo.listEntities();
     const locations = await mod.repo.listLocations();
-    expect(entities.length).toBe(54);
+    expect(entities.length).toBe(61);
     // Locations are P5.2 ingestion's rows (14, per docs/data/corpus.md) —
     // graph synthesis must read them, never create a second copy under a
     // different id (a real bug this suite caught: co_location edges were
@@ -788,13 +788,30 @@ describe("graph synthesis — full Operation DarkNet Delhi corpus", () => {
     const rels = await mod.repo.listRelationships();
     const records = await mod.repo.listExtractedRecords();
 
-    // Per src/lib/corpus/case-design.ts INTERMEDIARIES: money-mule
-    // intermediaries (Sunil Gupta / Pooja Rani / Ashok Kumar) never
-    // appear as their own suspect_record, so P5.4 resolution never
-    // creates a canonical person entity for them — graph synthesis must
-    // not invent one either.
+    // The money-mule intermediaries (Sunil Gupta / Pooja Rani / Ashok
+    // Kumar) never appear as their own suspect_record. They DO now exist
+    // as person entities, because extraction reads the fields that name
+    // them — a phone's subscriberName and an account's holderName — as
+    // person mentions (src/lib/extraction/extract.ts personMention()).
+    // Ground truth has always expected them to exist
+    // (expectedEntityMerges M1/M2/M3); before this, er.mentionCoverage
+    // measured their absence at 39/46.
+    //
+    // The invariant this test actually protects is unchanged and is
+    // asserted below: GRAPH SYNTHESIS invents nothing. Every person
+    // entity it sees came from resolution, which saw it from extraction,
+    // which read it from a field of a source record.
     for (const name of ["Sunil Gupta", "Pooja Rani", "Ashok Kumar"]) {
-      expect(entities.some((e) => e.kind === "person" && e.canonicalLabel === name)).toBe(false);
+      expect(entities.some((e) => e.kind === "person" && e.canonicalLabel === name)).toBe(true);
+    }
+    // Every person entity traces to at least one extracted person mention.
+    const observedPersonNames = new Set(
+      records
+        .filter((r) => r.recordType === "entity_mention" && r.data.mentionKind === "person")
+        .map((r) => r.data.observedValue as string),
+    );
+    for (const person of entities.filter((e) => e.kind === "person")) {
+      expect(observedPersonNames.has(person.canonicalLabel)).toBe(true);
     }
 
     // The chain is still fully reconstructable through the real bank

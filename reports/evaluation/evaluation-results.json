@@ -1,43 +1,43 @@
 {
   "meta": {
-    "runId": "eval-2026-09-03T17-29-18-880Z",
-    "startedAt": "2026-09-03T17:29:18.880Z",
-    "completedAt": "2026-09-03T17:29:28.833Z",
+    "runId": "eval-2026-09-03T17-47-01-568Z",
+    "startedAt": "2026-09-03T17:47:01.568Z",
+    "completedAt": "2026-09-03T17:47:10.709Z",
     "corpusName": "operation-darknet-delhi",
     "corpusVersion": "1.0.0",
     "corpusSeed": 20260901,
     "databasePath": "./data/netintel-eval.db",
-    "gitCommit": "4493a3e965aea487e203b15b1875d3c6f6ed6921",
+    "gitCommit": "c6b6957e515430370249a51f728eed9c778ecd6c",
     "nodeVersion": "v22.22.2",
     "pipelineStages": [
       {
         "stage": "ingestion",
-        "ms": 5038,
+        "ms": 4470,
         "detail": "ingested"
       },
       {
         "stage": "extraction",
-        "ms": 2654,
+        "ms": 2275,
         "detail": "extracted"
       },
       {
         "stage": "resolution",
-        "ms": 243,
+        "ms": 276,
         "detail": "resolved"
       },
       {
         "stage": "graph synthesis",
-        "ms": 338,
+        "ms": 313,
         "detail": "synthesized"
       },
       {
         "stage": "topology analytics",
-        "ms": 327,
+        "ms": 313,
         "detail": "synthesized"
       },
       {
         "stage": "spatial/temporal corroboration",
-        "ms": 986,
+        "ms": 990,
         "detail": "synthesized"
       }
     ],
@@ -76,21 +76,165 @@
         "Mentions the ground truth cannot assign unambiguously are excluded from the denominator; the count is reported in details.excluded."
       ],
       "details": {
-        "alignedMentions": 39,
-        "excludedMentions": 1,
+        "alignedMentions": 46,
+        "excludedMentions": 42,
         "excluded": [
           {
-            "recordRef": "witness:W6",
-            "fieldPath": "aboutNames[0]",
-            "observedName": "W6",
+            "recordRef": "alias:S1:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:2",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:3",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S2:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S2:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S3:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S3:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S4:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S4:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S5:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Vikram Singh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S5:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Vikram Singh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S6:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Neha Kapoor",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S6:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Neha Kapoor",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S7:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Imran Sheikh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S7:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Imran Sheikh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S8:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Deepak Yadav",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S8:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Deepak Yadav",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S1:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S1:1",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S2:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S3:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Kabir Sharman",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S3:1",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S4:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S5:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Vikram Singh",
             "reason": "record ref is not claimed by any ground-truth cluster"
           }
         ],
         "groundTruthClusters": 12,
-        "systemPersonClusters": 9,
+        "systemPersonClusters": 16,
         "truePositivePairs": 83,
         "falsePositivePairs": 0,
-        "falseNegativePairs": 0,
+        "falseNegativePairs": 4,
         "unresolvedGroundTruthMentions": []
       },
       "id": "er.pairwise.precision",
@@ -116,21 +260,165 @@
         "Mentions the ground truth cannot assign unambiguously are excluded from the denominator; the count is reported in details.excluded."
       ],
       "details": {
-        "alignedMentions": 39,
-        "excludedMentions": 1,
+        "alignedMentions": 46,
+        "excludedMentions": 42,
         "excluded": [
           {
-            "recordRef": "witness:W6",
-            "fieldPath": "aboutNames[0]",
-            "observedName": "W6",
+            "recordRef": "alias:S1:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:2",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:3",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S2:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S2:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S3:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S3:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S4:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S4:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S5:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Vikram Singh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S5:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Vikram Singh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S6:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Neha Kapoor",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S6:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Neha Kapoor",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S7:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Imran Sheikh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S7:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Imran Sheikh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S8:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Deepak Yadav",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S8:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Deepak Yadav",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S1:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S1:1",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S2:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S3:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Kabir Sharman",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S3:1",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S4:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S5:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Vikram Singh",
             "reason": "record ref is not claimed by any ground-truth cluster"
           }
         ],
         "groundTruthClusters": 12,
-        "systemPersonClusters": 9,
+        "systemPersonClusters": 16,
         "truePositivePairs": 83,
         "falsePositivePairs": 0,
-        "falseNegativePairs": 0,
+        "falseNegativePairs": 4,
         "unresolvedGroundTruthMentions": []
       },
       "id": "er.pairwise.recall",
@@ -139,9 +427,9 @@
       "numeratorDefinition": "mention pairs co-clustered by the system AND by ground truth",
       "denominatorDefinition": "mention pairs co-clustered by ground truth",
       "numerator": 83,
-      "denominator": 83,
+      "denominator": 87,
       "status": "measured",
-      "value": 1,
+      "value": 0.9540229885057471,
       "unit": "ratio",
       "threshold": null,
       "passed": null
@@ -156,21 +444,165 @@
         "Mentions the ground truth cannot assign unambiguously are excluded from the denominator; the count is reported in details.excluded."
       ],
       "details": {
-        "alignedMentions": 39,
-        "excludedMentions": 1,
+        "alignedMentions": 46,
+        "excludedMentions": 42,
         "excluded": [
           {
-            "recordRef": "witness:W6",
-            "fieldPath": "aboutNames[0]",
-            "observedName": "W6",
+            "recordRef": "alias:S1:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:2",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S1:3",
+            "fieldPath": "primaryName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S2:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S2:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S3:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S3:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S4:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S4:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S5:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Vikram Singh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S5:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Vikram Singh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S6:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Neha Kapoor",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S6:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Neha Kapoor",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S7:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Imran Sheikh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S7:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Imran Sheikh",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S8:0",
+            "fieldPath": "primaryName.person",
+            "observedName": "Deepak Yadav",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "alias:S8:1",
+            "fieldPath": "primaryName.person",
+            "observedName": "Deepak Yadav",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S1:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S1:1",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Rohan Malhotra",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S2:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Anjali Verma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S3:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Kabir Sharman",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S3:1",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Kabir Sharma",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S4:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Farhan Qureshi",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          },
+          {
+            "recordRef": "phone:S5:0",
+            "fieldPath": "subscriberName.person",
+            "observedName": "Vikram Singh",
             "reason": "record ref is not claimed by any ground-truth cluster"
           }
         ],
         "groundTruthClusters": 12,
-        "systemPersonClusters": 9,
+        "systemPersonClusters": 16,
         "truePositivePairs": 83,
         "falsePositivePairs": 0,
-        "falseNegativePairs": 0,
+        "falseNegativePairs": 4,
         "unresolvedGroundTruthMentions": []
       },
       "id": "er.pairwise.f1",
@@ -179,9 +611,9 @@
       "definition": "Harmonic mean of pairwise precision and recall.",
       "numeratorDefinition": "2 × precision × recall",
       "denominatorDefinition": "precision + recall",
-      "numerator": 2,
-      "denominator": 2,
-      "value": 1,
+      "numerator": 1.9080459770114941,
+      "denominator": 1.9540229885057472,
+      "value": 0.976470588235294,
       "unit": "ratio",
       "threshold": null,
       "passed": null
@@ -193,8 +625,8 @@
       "definition": "Fraction of ground-truth entities whose full set of scored mentions the resolver recovered as exactly one system entity, with nothing extra.",
       "numeratorDefinition": "ground-truth clusters matched exactly by some system cluster",
       "denominatorDefinition": "ground-truth clusters with at least one scored mention",
-      "numerator": 9,
-      "denominator": 9,
+      "numerator": 8,
+      "denominator": 12,
       "groundTruthSource": "evidence/ground-truth/operation-darknet-delhi.ground-truth.json § expectedEntityMerges",
       "systemInput": "extracted_records (entity_mention/person) joined to resolution_decisions.canonical_entity_id",
       "limitations": [
@@ -202,12 +634,33 @@
         "A cluster that is right except for one missing mention scores the same as one that is entirely wrong. Use it with the pairwise numbers, not instead of them."
       ],
       "details": {
-        "exact": 9,
-        "total": 9,
-        "imperfect": []
+        "exact": 8,
+        "total": 12,
+        "imperfect": [
+          {
+            "groundTruthKey": "M1",
+            "expected": 2,
+            "systemSplitAcross": 2
+          },
+          {
+            "groundTruthKey": "M2",
+            "expected": 2,
+            "systemSplitAcross": 2
+          },
+          {
+            "groundTruthKey": "M3",
+            "expected": 2,
+            "systemSplitAcross": 2
+          },
+          {
+            "groundTruthKey": "X1",
+            "expected": 2,
+            "systemSplitAcross": 2
+          }
+        ]
       },
       "status": "measured",
-      "value": 1,
+      "value": 0.6666666666666666,
       "unit": "ratio",
       "threshold": null,
       "passed": null
@@ -219,7 +672,7 @@
       "definition": "Fraction of the (entity, source record) mentions ground truth documents for which the pipeline produced a corresponding, clustered person mention.",
       "numeratorDefinition": "documented (entity, record ref) mentions the pipeline produced and clustered",
       "denominatorDefinition": "distinct (entity, record ref) mentions documented in ground truth",
-      "numerator": 39,
+      "numerator": 46,
       "denominator": 46,
       "groundTruthSource": "evidence/ground-truth/operation-darknet-delhi.ground-truth.json § expectedEntityMerges",
       "systemInput": "extracted_records (entity_mention/person) joined to resolution_decisions.canonical_entity_id",
@@ -230,24 +683,12 @@
       ],
       "details": {
         "documented": 46,
-        "produced": 39,
-        "missing": [
-          "M1@account:SYN-MA-000001",
-          "M1@phone:M1:0",
-          "M2@account:SYN-MA-000002",
-          "M2@phone:M2:0",
-          "M3@account:SYN-MA-000003",
-          "M3@phone:M3:0",
-          "X1@phone:X1:0"
-        ],
-        "groundTruthActorsWithNoScoredMention": [
-          "M1",
-          "M2",
-          "M3"
-        ]
+        "produced": 46,
+        "missing": [],
+        "groundTruthActorsWithNoScoredMention": []
       },
       "status": "measured",
-      "value": 0.8478260869565217,
+      "value": 1,
       "unit": "ratio",
       "threshold": null,
       "passed": null
@@ -266,7 +707,7 @@
       "limitations": [
         "doNotMerge is prose, not structured data. The evaluator parses the leading `S5`/`W6`-style token; a rule written without one is reported as unparseable, not as a pass.",
         "A side with no scored mention makes the rule unscorable and it is excluded from the denominator.",
-        "Snapshot contained 54 entities at scoring time."
+        "Snapshot contained 61 entities at scoring time."
       ],
       "details": {
         "outcomes": [
@@ -316,8 +757,8 @@
       "definition": "Of the person-to-person relationships the graph asserts, the fraction ground truth also lists.",
       "numeratorDefinition": "(pair, type) edges present in both the graph and ground truth",
       "denominatorDefinition": "distinct (pair, type) person edges in the graph",
-      "numerator": 23,
-      "denominator": 23,
+      "numerator": 21,
+      "denominator": 21,
       "groundTruthSource": "ground truth § expectedRelationships",
       "systemInput": "relationships table (person↔person edges), endpoints mapped to ground-truth keys",
       "limitations": [
@@ -327,12 +768,12 @@
       ],
       "details": {
         "groundTruthEdges": 41,
-        "systemPersonEdges": 38,
-        "systemDistinctPersonPairs": 23,
+        "systemPersonEdges": 34,
+        "systemDistinctPersonPairs": 21,
         "byRelationshipType": {
           "communication": {
             "expected": 23,
-            "found": 14
+            "found": 12
           },
           "financial": {
             "expected": 15,
@@ -345,8 +786,10 @@
         },
         "missing": [
           "M1~S1::communication",
+          "S3~X1::communication",
           "M3~S4::communication",
           "M1~S6::communication",
+          "S7~X1::communication",
           "M2~S8::communication",
           "M1~M2::communication",
           "M2~M3::communication",
@@ -422,13 +865,6 @@
             ]
           },
           {
-            "edge": "S3~X1::communication",
-            "groundTruth": "observed_fact",
-            "system": [
-              "ai_inference"
-            ]
-          },
-          {
             "edge": "S5~S7::communication",
             "groundTruth": "observed_fact",
             "system": [
@@ -437,13 +873,6 @@
           },
           {
             "edge": "S7~S8::communication",
-            "groundTruth": "observed_fact",
-            "system": [
-              "ai_inference"
-            ]
-          },
-          {
-            "edge": "S7~X1::communication",
             "groundTruth": "observed_fact",
             "system": [
               "ai_inference"
@@ -500,6 +929,20 @@
           },
           {
             "edge": "S4~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S6::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S8::financial",
             "groundTruth": "observed_fact",
             "system": [
               "ai_inference"
@@ -520,7 +963,7 @@
       "definition": "Of the relationships ground truth lists, the fraction the graph recovered.",
       "numeratorDefinition": "(pair, type) edges present in both the graph and ground truth",
       "denominatorDefinition": "(pair, type) edges listed in ground truth",
-      "numerator": 23,
+      "numerator": 21,
       "denominator": 41,
       "groundTruthSource": "ground truth § expectedRelationships",
       "systemInput": "relationships table (person↔person edges), endpoints mapped to ground-truth keys",
@@ -531,12 +974,12 @@
       ],
       "details": {
         "groundTruthEdges": 41,
-        "systemPersonEdges": 38,
-        "systemDistinctPersonPairs": 23,
+        "systemPersonEdges": 34,
+        "systemDistinctPersonPairs": 21,
         "byRelationshipType": {
           "communication": {
             "expected": 23,
-            "found": 14
+            "found": 12
           },
           "financial": {
             "expected": 15,
@@ -549,8 +992,10 @@
         },
         "missing": [
           "M1~S1::communication",
+          "S3~X1::communication",
           "M3~S4::communication",
           "M1~S6::communication",
+          "S7~X1::communication",
           "M2~S8::communication",
           "M1~M2::communication",
           "M2~M3::communication",
@@ -626,13 +1071,6 @@
             ]
           },
           {
-            "edge": "S3~X1::communication",
-            "groundTruth": "observed_fact",
-            "system": [
-              "ai_inference"
-            ]
-          },
-          {
             "edge": "S5~S7::communication",
             "groundTruth": "observed_fact",
             "system": [
@@ -641,13 +1079,6 @@
           },
           {
             "edge": "S7~S8::communication",
-            "groundTruth": "observed_fact",
-            "system": [
-              "ai_inference"
-            ]
-          },
-          {
-            "edge": "S7~X1::communication",
             "groundTruth": "observed_fact",
             "system": [
               "ai_inference"
@@ -708,11 +1139,25 @@
             "system": [
               "ai_inference"
             ]
+          },
+          {
+            "edge": "S1~S6::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
           }
         ]
       },
       "status": "measured",
-      "value": 0.5609756097560976,
+      "value": 0.5121951219512195,
       "unit": "ratio",
       "threshold": null,
       "passed": null
@@ -725,9 +1170,9 @@
       "definition": "Harmonic mean of relationship precision and recall.",
       "numeratorDefinition": "2 × precision × recall",
       "denominatorDefinition": "precision + recall",
-      "numerator": 1.1219512195121952,
-      "denominator": 1.5609756097560976,
-      "value": 0.71875,
+      "numerator": 1.024390243902439,
+      "denominator": 1.5121951219512195,
+      "value": 0.6774193548387097,
       "unit": "ratio",
       "groundTruthSource": "ground truth § expectedRelationships",
       "systemInput": "relationships table (person↔person edges), endpoints mapped to ground-truth keys",
@@ -740,12 +1185,12 @@
       ],
       "details": {
         "groundTruthEdges": 41,
-        "systemPersonEdges": 38,
-        "systemDistinctPersonPairs": 23,
+        "systemPersonEdges": 34,
+        "systemDistinctPersonPairs": 21,
         "byRelationshipType": {
           "communication": {
             "expected": 23,
-            "found": 14
+            "found": 12
           },
           "financial": {
             "expected": 15,
@@ -758,8 +1203,10 @@
         },
         "missing": [
           "M1~S1::communication",
+          "S3~X1::communication",
           "M3~S4::communication",
           "M1~S6::communication",
+          "S7~X1::communication",
           "M2~S8::communication",
           "M1~M2::communication",
           "M2~M3::communication",
@@ -835,13 +1282,6 @@
             ]
           },
           {
-            "edge": "S3~X1::communication",
-            "groundTruth": "observed_fact",
-            "system": [
-              "ai_inference"
-            ]
-          },
-          {
             "edge": "S5~S7::communication",
             "groundTruth": "observed_fact",
             "system": [
@@ -850,13 +1290,6 @@
           },
           {
             "edge": "S7~S8::communication",
-            "groundTruth": "observed_fact",
-            "system": [
-              "ai_inference"
-            ]
-          },
-          {
-            "edge": "S7~X1::communication",
             "groundTruth": "observed_fact",
             "system": [
               "ai_inference"
@@ -913,6 +1346,20 @@
           },
           {
             "edge": "S4~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S6::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S8::financial",
             "groundTruth": "observed_fact",
             "system": [
               "ai_inference"
@@ -929,7 +1376,7 @@
       "numeratorDefinition": "matched edges whose system classification set contains the ground-truth classification",
       "denominatorDefinition": "matched edges",
       "numerator": 0,
-      "denominator": 23,
+      "denominator": 21,
       "groundTruthSource": "ground truth § expectedRelationships",
       "systemInput": "relationships table (person↔person edges), endpoints mapped to ground-truth keys",
       "limitations": [
@@ -938,12 +1385,12 @@
       ],
       "details": {
         "groundTruthEdges": 41,
-        "systemPersonEdges": 38,
-        "systemDistinctPersonPairs": 23,
+        "systemPersonEdges": 34,
+        "systemDistinctPersonPairs": 21,
         "byRelationshipType": {
           "communication": {
             "expected": 23,
-            "found": 14
+            "found": 12
           },
           "financial": {
             "expected": 15,
@@ -956,8 +1403,10 @@
         },
         "missing": [
           "M1~S1::communication",
+          "S3~X1::communication",
           "M3~S4::communication",
           "M1~S6::communication",
+          "S7~X1::communication",
           "M2~S8::communication",
           "M1~M2::communication",
           "M2~M3::communication",
@@ -1033,13 +1482,6 @@
             ]
           },
           {
-            "edge": "S3~X1::communication",
-            "groundTruth": "observed_fact",
-            "system": [
-              "ai_inference"
-            ]
-          },
-          {
             "edge": "S5~S7::communication",
             "groundTruth": "observed_fact",
             "system": [
@@ -1048,13 +1490,6 @@
           },
           {
             "edge": "S7~S8::communication",
-            "groundTruth": "observed_fact",
-            "system": [
-              "ai_inference"
-            ]
-          },
-          {
-            "edge": "S7~X1::communication",
             "groundTruth": "observed_fact",
             "system": [
               "ai_inference"
@@ -1111,6 +1546,20 @@
           },
           {
             "edge": "S4~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S6::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S8::financial",
             "groundTruth": "observed_fact",
             "system": [
               "ai_inference"
@@ -1131,8 +1580,8 @@
       "definition": "Fraction of relationship rows that resolve to persisted endpoints, carry at least one evidence item and one extracted record, are not self-loops, and are not duplicates of another edge with the same type and endpoints.",
       "numeratorDefinition": "relationship rows with no structural defect",
       "denominatorDefinition": "relationship rows",
-      "numerator": 196,
-      "denominator": 196,
+      "numerator": 191,
+      "denominator": 191,
       "groundTruthSource": "none — structural invariants from docs/data/graph.md and the relationships schema",
       "systemInput": "relationships, entities and locations tables",
       "limitations": [
@@ -1140,7 +1589,7 @@
         "Endpoint validity accepts either an entity id or a location id, matching the documented dual-target shape of relationships.source/target_entity_id."
       ],
       "details": {
-        "relationships": 196,
+        "relationships": 191,
         "failing": 0,
         "problems": {
           "danglingEndpoint": {
@@ -1233,25 +1682,25 @@
           {
             "key": "TC-hidden-S1-S4",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_7d9b88656afc40f7b66d",
+            "findingId": "corroboration_finding_a0507d029778cf95e4bc",
             "findingType": "temporal_co_occurrence"
           },
           {
             "key": "TC-S3-S7-via-X1",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_48b1dc90eb8fb6014558",
+            "findingId": "corroboration_finding_a3f011405f1519497141",
             "findingType": "repeated_spatiotemporal_overlap"
           },
           {
             "key": "TC-S5-C1",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_0092e75e6d0f875a57d1",
-            "findingType": "repeated_spatiotemporal_overlap"
+            "findingId": "corroboration_finding_056fb1f10c205a533de8",
+            "findingType": "temporal_co_occurrence"
           },
           {
             "key": "TC-S2-S6-handoff",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_3d4e5b04df3d7846d391",
+            "findingId": "corroboration_finding_1592cbb28246e6216b5f",
             "findingType": "repeated_spatiotemporal_overlap"
           }
         ],
@@ -1287,19 +1736,19 @@
           {
             "locationKey": "SYN-CT-07",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_b279123b2b7f6db71eb3",
+            "findingId": "corroboration_finding_cc7b0334e96df3825656",
             "findingType": "repeated_spatiotemporal_overlap"
           },
           {
             "locationKey": "SYN-CT-02",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_04161ab26ef5e6d2fa62",
-            "findingType": "spatial_co_location"
+            "findingId": "corroboration_finding_2d0b016562bf59e307f2",
+            "findingType": "repeated_spatiotemporal_overlap"
           },
           {
             "locationKey": "SYN-CT-05",
             "outcome": "recovered",
-            "findingId": "corroboration_finding_616f952c0533225351d4",
+            "findingId": "corroboration_finding_18c9ecc58ef370022ec6",
             "findingType": "spatial_co_location"
           }
         ],
@@ -1372,7 +1821,7 @@
       "denominatorDefinition": "pairwise precision + pairwise recall",
       "numerator": null,
       "denominator": null,
-      "value": 0.6415094339622641,
+      "value": 0.3703703703703704,
       "unit": "ratio",
       "groundTruthSource": "ground truth § expectedCommunities",
       "systemInput": "analytical_signals where signal_type = community",
@@ -1384,12 +1833,12 @@
         "Louvain is resolution-dependent; a different resolution parameter would move this number without any code being more or less correct."
       ],
       "details": {
-        "scoredActors": 9,
-        "systemCommunities": 1,
+        "scoredActors": 12,
+        "systemCommunities": 5,
         "groundTruthCommunities": 3,
-        "truePositives": 17,
-        "falsePositives": 19,
-        "falseNegatives": 0
+        "truePositives": 10,
+        "falsePositives": 18,
+        "falseNegatives": 16
       }
     },
     {
@@ -1419,15 +1868,15 @@
             "outcome": "MISSED",
             "systemTop1": "S2",
             "expectedActorRank": 9,
-            "rankedActors": 9
+            "rankedActors": 16
           },
           {
             "signal": "highest_overall_influence",
             "entityKey": "S1",
             "outcome": "MISSED",
             "systemTop1": "S2",
-            "expectedActorRank": 3,
-            "rankedActors": 9
+            "expectedActorRank": 2,
+            "rankedActors": 16
           },
           {
             "signal": "high_betweenness_on_fund_graph",
@@ -1450,8 +1899,8 @@
       "definition": "Fraction of persisted derived rows carrying all six provenance fields — source, location, method, confidence, processing history and timestamp — with a usable value in each.",
       "numeratorDefinition": "derived rows with all six provenance fields populated",
       "denominatorDefinition": "derived rows across extracted_records, entities, aliases, locations, relationships, resolution_decisions, analytical_signals and corroboration_findings",
-      "numerator": 3060,
-      "denominator": 3060,
+      "numerator": 3187,
+      "denominator": 3187,
       "groundTruthSource": "none — the requirement itself (docs/requirements.md §8) is the reference",
       "systemInput": "every provenance-bearing table in the store",
       "threshold": {
@@ -1465,16 +1914,16 @@
         "dossiers rows are excluded: a dossier is an immutable assembly of ids other tables already own, and its own traceability is checked by src/lib/dossier/verify.ts at write time."
       ],
       "details": {
-        "rows": 3060,
+        "rows": 3187,
         "failures": 0,
         "byTable": {
           "extracted_records": {
-            "rows": 1996,
-            "complete": 1996
+            "rows": 2044,
+            "complete": 2044
           },
           "entities": {
-            "rows": 54,
-            "complete": 54
+            "rows": 61,
+            "complete": 61
           },
           "aliases": {
             "rows": 25,
@@ -1485,16 +1934,16 @@
             "complete": 14
           },
           "relationships": {
-            "rows": 196,
-            "complete": 196
+            "rows": 191,
+            "complete": 191
           },
           "resolution_decisions": {
-            "rows": 85,
-            "complete": 85
+            "rows": 133,
+            "complete": 133
           },
           "analytical_signals": {
-            "rows": 234,
-            "complete": 234
+            "rows": 263,
+            "complete": 263
           },
           "corroboration_findings": {
             "rows": 456,

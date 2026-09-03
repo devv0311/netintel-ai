@@ -147,7 +147,12 @@ describe("entity resolution — valid corpus", () => {
     // the "W6" self-referential witness placeholder (a corpus artifact,
     // not a real second identity — resolution correctly does not invent
     // structure the source never stated).
-    expect(byKind.person).toBe(10);
+    // 17, not 10: extraction now emits a person entity_mention from every
+    // field that NAMES a person (a phone's subscriber, an account's holder,
+    // a vehicle's registrant, an alias's primary name), so people who never
+    // had a suspect_record of their own — the money mules above all — now
+    // exist. See src/lib/extraction/extract.ts personMention().
+    expect(byKind.person).toBe(17);
   });
 
   it("produces zero ambiguous decisions over the real corpus (no genuine identifier-anchored name collision exists)", () => {
@@ -215,12 +220,12 @@ describe("entity resolution — valid corpus", () => {
     const state = await mod.getResolutionState();
     expect(state.status).toBe("resolved");
     if (state.status !== "resolved") return;
-    expect(state.summary.totalEntities).toBe(54);
+    expect(state.summary.totalEntities).toBe(61);
     expect(state.summary.totalAliases).toBeGreaterThan(0);
 
     const page = await mod.getResolvedEntitiesPage(0, 10);
     expect(page.entities).toHaveLength(10);
-    expect(page.total).toBe(54);
+    expect(page.total).toBe(61);
     for (const e of page.entities) {
       expect(e.confidence).toBeGreaterThanOrEqual(0);
       expect(e.confidence).toBeLessThanOrEqual(1);
@@ -473,8 +478,13 @@ describe("entity resolution — non-inference safeguards", () => {
     const vikrams = entities.filter((e) => e.kind === "person" && e.canonicalLabel === "Vikram Singh");
     expect(vikrams).toHaveLength(1);
     const vikramDecisions = decisions.filter((d) => d.canonicalEntityId === vikrams[0]!.id);
-    // FIR accused mention, suspect record, and 3 witness aboutNames mentions.
-    expect(vikramDecisions.length).toBe(5);
+    // FIR accused mention, suspect record, and 3 witness aboutNames
+    // mentions — plus the 5 person mentions extraction now emits from the
+    // fields that name him as a phone subscriber, account holder and
+    // vehicle registrant. All ten land on the SAME canonical entity via
+    // Tier-A shared-identifier merges, which is the point of this test:
+    // more mentions must not become more identities.
+    expect(vikramDecisions.length).toBe(10);
     expect(vikramDecisions.every((d) => d.status === "resolved")).toBe(true);
   });
 

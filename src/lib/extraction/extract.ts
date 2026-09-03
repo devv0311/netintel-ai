@@ -86,6 +86,38 @@ function obj(content: Content, key: string): Content | undefined {
   return v && typeof v === "object" && !Array.isArray(v) ? (v as Content) : undefined;
 }
 
+/**
+ * A person named by a record that is *about* something else — a phone's
+ * subscriber, an account's holder, a vehicle's registrant, the primary
+ * name behind an alias.
+ *
+ * Before this existed, those fields produced only a relationship_mention
+ * (`phone_subscriber`, `account_held_by`, …). The person named in them
+ * therefore never became a person entity_mention, and so never became a
+ * person entity at all: the three money mules M1/M2/M3 are named ONLY in
+ * a phone record and a bank-account record, so the laundering chain was
+ * built entirely out of account-to-account transfers with no human on
+ * either end. The evaluation harness measures this as
+ * `er.mentionCoverage` (docs/evaluation/evaluation-methodology.md).
+ *
+ * The fieldPath is suffixed `.person` because a fact's id is content-
+ * addressed over (evidenceItemId, fieldPath) — reusing the bare field
+ * name would collide with the relationship_mention already emitted from
+ * it. The relationship_mention is deliberately kept: "this phone's
+ * subscriber is X" and "X is a person named here" are two different
+ * observed facts, and entity resolution consumes them differently.
+ *
+ * This is still a structural field-read. It asserts only that the field
+ * names a person, which the source's own schema already states; it makes
+ * no claim that this person is the same as any other mention of that name.
+ */
+function personMention(fieldPath: string, factType: string, name: string): RawFact {
+  return fact("entity_mention", `${fieldPath}.person`, factType, {
+    mentionKind: "person",
+    observedValue: name,
+  });
+}
+
 // --- per-evidence-type extractors --------------------------------------
 
 function extractFir(content: Content): RawFact[] {
@@ -193,6 +225,7 @@ function extractAliasRecord(content: Content): RawFact[] {
       subject: primaryName,
       observedValue: alias,
     }),
+    personMention("primaryName", "person_named_as_alias_subject", primaryName),
   ];
 }
 
@@ -220,6 +253,7 @@ function extractPhoneRecord(content: Content): RawFact[] {
       subject: number,
       observedValue: subscriberName,
     }));
+    facts.push(personMention("subscriberName", "person_named_as_subscriber", subscriberName));
   }
   return facts;
 }
@@ -268,6 +302,7 @@ function extractVehicleRecord(content: Content): RawFact[] {
       subject: plate,
       observedValue: registeredTo,
     }));
+    facts.push(personMention("registeredTo", "person_named_as_registrant", registeredTo));
   }
   return facts;
 }
@@ -296,6 +331,7 @@ function extractBankAccountRecord(content: Content): RawFact[] {
       subject: account,
       observedValue: holderName,
     }));
+    facts.push(personMention("holderName", "person_named_as_account_holder", holderName));
   }
   return facts;
 }

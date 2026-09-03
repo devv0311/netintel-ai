@@ -575,8 +575,8 @@ describe("topology analytics — full Operation DarkNet Delhi corpus", () => {
       expect(stage.status).toBe("ok");
       expect(stage.detail.length).toBeGreaterThan(0);
     }
-    expect(result.counts?.entitiesAnalyzed).toBe(54);
-    expect(result.counts?.rankedEntities).toBe(68); // 54 entities + 14 locations
+    expect(result.counts?.entitiesAnalyzed).toBe(61);
+    expect(result.counts?.rankedEntities).toBe(75); // 61 entities + 14 locations
   });
 
   it("degree calculation: every ranked node's degree matches the persisted relationship count touching it", async () => {
@@ -757,11 +757,15 @@ describe("topology analytics — full Operation DarkNet Delhi corpus", () => {
   it("the financial/money-mule chain remains represented through actual bank-account entities (analytics never substitutes a synthetic edge)", async () => {
     const entities = await mod.repo.listEntities();
     const relationships = await mod.repo.listRelationships();
-    // Per docs/data/graph.md §6: the mule intermediaries never receive a
-    // canonical person entity, so no analytics signal should reference
-    // one either.
+    // The mule intermediaries now DO receive canonical person entities —
+    // extraction reads the phone-subscriber and account-holder fields
+    // that name them (see graph.test.ts item 14 and
+    // src/lib/extraction/extract.ts personMention()). What this test
+    // protects is that analytics substitutes nothing: the financial chain
+    // is still carried by real bank_account entities and real edges, not
+    // by a synthetic person-to-person shortcut invented at analysis time.
     for (const name of ["Sunil Gupta", "Pooja Rani", "Ashok Kumar"]) {
-      expect(entities.some((e) => e.kind === "person" && e.canonicalLabel === name)).toBe(false);
+      expect(entities.some((e) => e.kind === "person" && e.canonicalLabel === name)).toBe(true);
     }
     const bankAccountIds = new Set(entities.filter((e) => e.kind === "bank_account").map((e) => e.id));
     const financialEdges = relationships.filter((r) => r.relationshipType === "financial" && r.classification !== "ai_inference");

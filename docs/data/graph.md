@@ -246,16 +246,34 @@ truth.
   transaction counts/amounts aggregated from the real, jittered-around-
   target transaction volumes the corpus generator produced (never an
   exact hardcoded count — `src/lib/corpus/generate.ts` applies random
-  spread around each designed flow's target). Critically, **the money-
-  mule intermediaries (Sunil Gupta, Pooja Rani, Ashok Kumar) never
-  receive a canonical `person` entity at all** — per
-  `src/lib/corpus/case-design.ts`, they never appear in their own
-  `suspect_record`, so P5.4 resolution never creates a person entity for
-  them (only their phone/account identifier entities exist). Graph
-  synthesis correctly does not invent one either: the derived
-  person↔person `financial` edge logic requires both endpoints to have a
-  resolvable owning person, so no such edge is created for these hops —
-  only the direct, account-level `financial` edges exist. This is the
+  spread around each designed flow's target). **Superseded (P6.2).** This section previously recorded that the
+  money-mule intermediaries (Sunil Gupta, Pooja Rani, Ashok Kumar)
+  *never receive a canonical `person` entity at all*, because they never
+  appear in their own `suspect_record`. That was a description of an
+  extraction gap, not a design requirement, and it conflicted with
+  `evidence/ground-truth/…` which has always listed M1/M2/M3 among
+  `expectedEntityMerges`. The evaluation harness measured the conflict as
+  `er.mentionCoverage` 39/46.
+
+  Extraction now emits a person `entity_mention` from every field that
+  NAMES a person — a phone's `subscriberName`, an account's `holderName`,
+  a vehicle's `registeredTo`, an alias's `primaryName`
+  (`src/lib/extraction/extract.ts`, `personMention()`). **The mules now
+  do receive person entities**, and coverage is 46/46.
+
+  The invariant that mattered here is unchanged: graph synthesis still
+  invents nothing. The derived person↔person `financial` edge logic still
+  requires both endpoints to have a resolvable owning person, and every
+  person entity it sees traces back to a field of a source record.
+
+  A consequence to be aware of when reading the graph: because each mule
+  is named in a phone record and an account record with no shared
+  identifier between them and no `suspect_record` to anchor them, the
+  resolver produces **two** person entities per mule rather than one.
+  That is a resolver limitation (Tier A finds no shared identifier; Tier B
+  does not apply to a mention that carries identifier evidence of its
+  own), not a graph-synthesis one. It is quantified in
+  `docs/evaluation/resolver-failure-analysis.md`. This is the
   intended, honest behavior: the chain is real and traceable through
   accounts, exactly as the requirements demand, without pretending to a
   identity profile the evidence never supports.

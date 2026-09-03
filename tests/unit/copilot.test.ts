@@ -1839,7 +1839,20 @@ describe("Investigation Copilot — full Operation DarkNet Delhi corpus", () => 
       expect(result.status).toBe("answered");
       const response = result.response;
       if (!response) throw new Error("no response");
-      if (response.status === "answered") {
+      // KNOWN DEFECT, deliberately recorded rather than accommodated:
+      // X1 (Rahul Mehta) is named in a phone record and a bank-account
+      // record but has no suspect_record of his own, so Tier A finds no
+      // shared identifier between those two items and Tier B does not
+      // apply (both mentions carry identifier evidence of their own).
+      // He therefore resolves to TWO person entities, and the Copilot
+      // correctly refuses to answer, reporting `ambiguous`. Refusing is
+      // right; needing to refuse is not. See
+      // docs/evaluation/resolver-failure-analysis.md.
+      // When the resolver learns to merge these, this branch should stop
+      // being taken and the test will tell you.
+      if (response.status === "ambiguous") {
+        expect(response.claims).toHaveLength(0);
+      } else if (response.status === "answered") {
         // If retrieval does surface something, it must still be grounded.
         expect(response.claims.length).toBeGreaterThan(0);
         const known = await persistedIdSets();

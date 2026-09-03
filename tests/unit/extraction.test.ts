@@ -430,7 +430,13 @@ describe("evidence extraction — non-inference safeguards", () => {
     const variantMentions = records.filter(
       (r) => r.recordType === "entity_mention" && variantNames.includes(r.data.observedValue as string),
     );
-    expect(variantMentions.length).toBe(variantNames.length);
+    // Assert the SET, not the count: a variant spelling may legitimately
+    // be mentioned more than once now that extraction also reads the
+    // person-naming fields of phone/account/vehicle records. What must
+    // hold is that every variant is extracted as its own mention and none
+    // is silently folded into a canonical name.
+    expect(new Set(variantMentions.map((r) => r.data.observedValue))).toEqual(new Set(variantNames));
+    expect(variantMentions.length).toBeGreaterThanOrEqual(variantNames.length);
 
     // Each variant's own record explicitly notes it is a "registry
     // spelling variant" (an observed fact about that source), but
