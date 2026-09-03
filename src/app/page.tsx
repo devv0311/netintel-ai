@@ -5,19 +5,22 @@ import { getResolutionState } from "@/lib/resolution/summary";
 import { getGraphState } from "@/lib/graph/summary";
 import { getAnalyticsState } from "@/lib/analytics/summary";
 import { getCorroborationState } from "@/lib/corroboration/summary";
+import { getCopilotState } from "@/lib/copilot/summary";
 
 /** DB-backed — rendered on demand, never prerendered at build time. */
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const [state, extractionState, resolutionState, graphState, analyticsState, corroborationState] = await Promise.all([
-    getInvestigationState(),
-    getExtractionState(),
-    getResolutionState(),
-    getGraphState(),
-    getAnalyticsState(),
-    getCorroborationState(),
-  ]);
+  const [state, extractionState, resolutionState, graphState, analyticsState, corroborationState, copilotState] =
+    await Promise.all([
+      getInvestigationState(),
+      getExtractionState(),
+      getResolutionState(),
+      getGraphState(),
+      getAnalyticsState(),
+      getCorroborationState(),
+      getCopilotState(),
+    ]);
 
   return (
     <AppShell
@@ -27,6 +30,7 @@ export default async function Home() {
       initialGraphState={graphState}
       initialAnalyticsState={analyticsState}
       initialCorroborationState={corroborationState}
+      initialCopilotState={copilotState}
     />
   );
 }

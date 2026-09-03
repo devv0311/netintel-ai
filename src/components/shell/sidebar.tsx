@@ -13,7 +13,7 @@ import {
 
 import { cn } from "@/lib/utils";
 
-export type NavView = "evidence" | "graph" | "analytics" | "corroboration";
+export type NavView = "evidence" | "graph" | "analytics" | "corroboration" | "copilot";
 
 interface NavItem {
   icon: typeof FolderOpen;
@@ -28,26 +28,28 @@ interface NavSection {
 }
 
 /**
- * The application sidebar. "Evidence", "Graph", and "Analytics" are
- * real, clickable navigation entries once their backing stage is
- * available — the Graph entry enables once P5.5 graph synthesis has
- * succeeded, and the Analytics entry enables once P5.6 topology
- * analytics has succeeded (each per its own milestone brief: "enable
- * the ... navigation entry only when ... synthesis is successfully
- * available"). Every other entry remains a disabled placeholder for a
- * later milestone.
+ * The application sidebar. Each analysis entry becomes a real,
+ * clickable navigation target only once its backing stage is available
+ * — Graph once P5.5 synthesis has succeeded, Analytics once P5.6 has,
+ * Corroboration once P5.7 has, and the Investigation Copilot once P5.8
+ * has all of the derived intelligence it grounds on (each per its own
+ * milestone brief: "enable the ... navigation entry only when ...
+ * synthesis is successfully available"). Every other entry remains a
+ * disabled placeholder for a later milestone.
  */
 export function Sidebar({
   activeView,
   graphEnabled,
   analyticsEnabled,
   corroborationEnabled,
+  copilotEnabled,
   onNavigate,
 }: {
   activeView: NavView;
   graphEnabled: boolean;
   analyticsEnabled: boolean;
   corroborationEnabled: boolean;
+  copilotEnabled: boolean;
   onNavigate: (view: NavView) => void;
 }) {
   const sections: NavSection[] = [
@@ -67,7 +69,7 @@ export function Sidebar({
     },
     {
       label: "Investigation Copilot",
-      items: [{ icon: MessageSquareText, label: "Ask a Question", enabled: false }],
+      items: [{ icon: MessageSquareText, label: "Ask a Question", view: "copilot", enabled: copilotEnabled }],
     },
     {
       label: "Reporting",

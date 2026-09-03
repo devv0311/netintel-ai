@@ -65,14 +65,19 @@ const KIND_LABELS: Record<string, string> = {
  */
 export function CorroborationScreen({
   initialState,
+  initialFocusEntityId,
   onViewInGraph,
 }: {
   initialState: CorroborationState;
+  /** Preselects an entity filter when another screen (e.g. the Copilot) hands one over. */
+  initialFocusEntityId?: string;
   onViewInGraph: (entityId: string) => void;
 }) {
-  const [tab, setTab] = useState<Tab>("pairs");
+  const [tab, setTab] = useState<Tab>(initialFocusEntityId ? "spatial" : "pairs");
   const [classFilter, setClassFilter] = useState<ClassFilter>("all");
-  const [pairFilter, setPairFilter] = useState<{ id: string; label: string } | null>(null);
+  const [pairFilter, setPairFilter] = useState<{ id: string; label: string } | null>(
+    initialFocusEntityId ? { id: initialFocusEntityId, label: "selected entity" } : null,
+  );
   const [findings, setFindings] = useState<CorroborationFindingView[]>([]);
   const [total, setTotal] = useState(0);
   const [pairs, setPairs] = useState<EntityPairOverlapView[] | null>(null);

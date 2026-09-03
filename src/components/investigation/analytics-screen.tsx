@@ -46,16 +46,19 @@ const KIND_LABELS: Record<string, string> = {
  */
 export function AnalyticsScreen({
   initialState,
+  initialFocusEntityId,
   onViewInGraph,
 }: {
   initialState: AnalyticsState;
+  /** Preselects an entity when another screen (e.g. the Copilot) hands one over. */
+  initialFocusEntityId?: string;
   onViewInGraph: (entityId: string) => void;
 }) {
   const [tab, setTab] = useState<ListTab>("ranked");
   const [rankedPage, setRankedPage] = useState<RankedEntitiesPage | null>(null);
   const [bridges, setBridges] = useState<BridgeEntityView[] | null>(null);
   const [communities, setCommunities] = useState<CommunityView[] | null>(null);
-  const [selectedEntityId, setSelectedEntityId] = useState<string | null>(null);
+  const [selectedEntityId, setSelectedEntityId] = useState<string | null>(initialFocusEntityId ?? null);
 
   useEffect(() => {
     if (initialState.status !== "synthesized") return;
