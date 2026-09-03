@@ -1,0 +1,1542 @@
+{
+  "meta": {
+    "runId": "eval-2026-09-03T17-29-18-880Z",
+    "startedAt": "2026-09-03T17:29:18.880Z",
+    "completedAt": "2026-09-03T17:29:28.833Z",
+    "corpusName": "operation-darknet-delhi",
+    "corpusVersion": "1.0.0",
+    "corpusSeed": 20260901,
+    "databasePath": "./data/netintel-eval.db",
+    "gitCommit": "4493a3e965aea487e203b15b1875d3c6f6ed6921",
+    "nodeVersion": "v22.22.2",
+    "pipelineStages": [
+      {
+        "stage": "ingestion",
+        "ms": 5038,
+        "detail": "ingested"
+      },
+      {
+        "stage": "extraction",
+        "ms": 2654,
+        "detail": "extracted"
+      },
+      {
+        "stage": "resolution",
+        "ms": 243,
+        "detail": "resolved"
+      },
+      {
+        "stage": "graph synthesis",
+        "ms": 338,
+        "detail": "synthesized"
+      },
+      {
+        "stage": "topology analytics",
+        "ms": 327,
+        "detail": "synthesized"
+      },
+      {
+        "stage": "spatial/temporal corroboration",
+        "ms": 986,
+        "detail": "synthesized"
+      }
+    ],
+    "groundTruthPath": "evidence/ground-truth/operation-darknet-delhi.ground-truth.json"
+  },
+  "metrics": [
+    {
+      "id": "extraction.accuracy",
+      "name": "Extraction accuracy",
+      "category": "Extraction accuracy",
+      "definition": "Whether the records extracted from each evidence item match what that item actually contains.",
+      "numeratorDefinition": "extracted records matching an expected extraction",
+      "denominatorDefinition": "expected extractions",
+      "groundTruthSource": "none — the ground-truth file contains no expected extracted-record inventory",
+      "systemInput": "extracted_records table",
+      "limitations": [
+        "evidence/ground-truth/operation-darknet-delhi.ground-truth.json defines expected MERGES, RELATIONSHIPS, CORRELATIONS, COMMUNITIES, SIGNALS and COPILOT ANSWERS. It does not define an expected extraction for any evidence item.",
+        "Extraction is a deterministic structural field-read (src/lib/extraction/extract.ts), so an expected-extraction fixture could be written by hand for a small sample of items — that is the cheapest way to make this metric real.",
+        "Until then, extraction correctness is only observed indirectly, through the entity-resolution and relationship metrics that consume its output."
+      ],
+      "status": "not_implementable_yet",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "category": "Entity-resolution precision/recall",
+      "groundTruthSource": "evidence/ground-truth/operation-darknet-delhi.ground-truth.json § expectedEntityMerges",
+      "systemInput": "extracted_records (entity_mention/person) joined to resolution_decisions.canonical_entity_id",
+      "limitations": [
+        "Pair-counting weights large clusters more heavily than small ones: one over-merge inside an 8-mention cluster costs more pairs than one inside a 2-mention cluster. Read the cluster-level metric alongside it.",
+        "Only person mentions are scored. Phone, IMEI, vehicle and bank-account entities are resolved by the same code path but have no expectedEntityMerges entry to score against.",
+        "Mentions the ground truth cannot assign unambiguously are excluded from the denominator; the count is reported in details.excluded."
+      ],
+      "details": {
+        "alignedMentions": 39,
+        "excludedMentions": 1,
+        "excluded": [
+          {
+            "recordRef": "witness:W6",
+            "fieldPath": "aboutNames[0]",
+            "observedName": "W6",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          }
+        ],
+        "groundTruthClusters": 12,
+        "systemPersonClusters": 9,
+        "truePositivePairs": 83,
+        "falsePositivePairs": 0,
+        "falseNegativePairs": 0,
+        "unresolvedGroundTruthMentions": []
+      },
+      "id": "er.pairwise.precision",
+      "name": "Entity resolution — pairwise precision",
+      "definition": "Of the mention pairs the resolver placed in the same entity, the fraction ground truth agrees are the same entity.",
+      "numeratorDefinition": "mention pairs co-clustered by the system AND by ground truth",
+      "denominatorDefinition": "mention pairs co-clustered by the system",
+      "numerator": 83,
+      "denominator": 83,
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "category": "Entity-resolution precision/recall",
+      "groundTruthSource": "evidence/ground-truth/operation-darknet-delhi.ground-truth.json § expectedEntityMerges",
+      "systemInput": "extracted_records (entity_mention/person) joined to resolution_decisions.canonical_entity_id",
+      "limitations": [
+        "Pair-counting weights large clusters more heavily than small ones: one over-merge inside an 8-mention cluster costs more pairs than one inside a 2-mention cluster. Read the cluster-level metric alongside it.",
+        "Only person mentions are scored. Phone, IMEI, vehicle and bank-account entities are resolved by the same code path but have no expectedEntityMerges entry to score against.",
+        "Mentions the ground truth cannot assign unambiguously are excluded from the denominator; the count is reported in details.excluded."
+      ],
+      "details": {
+        "alignedMentions": 39,
+        "excludedMentions": 1,
+        "excluded": [
+          {
+            "recordRef": "witness:W6",
+            "fieldPath": "aboutNames[0]",
+            "observedName": "W6",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          }
+        ],
+        "groundTruthClusters": 12,
+        "systemPersonClusters": 9,
+        "truePositivePairs": 83,
+        "falsePositivePairs": 0,
+        "falseNegativePairs": 0,
+        "unresolvedGroundTruthMentions": []
+      },
+      "id": "er.pairwise.recall",
+      "name": "Entity resolution — pairwise recall",
+      "definition": "Of the mention pairs ground truth says are the same entity, the fraction the resolver actually merged.",
+      "numeratorDefinition": "mention pairs co-clustered by the system AND by ground truth",
+      "denominatorDefinition": "mention pairs co-clustered by ground truth",
+      "numerator": 83,
+      "denominator": 83,
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "category": "Entity-resolution precision/recall",
+      "groundTruthSource": "evidence/ground-truth/operation-darknet-delhi.ground-truth.json § expectedEntityMerges",
+      "systemInput": "extracted_records (entity_mention/person) joined to resolution_decisions.canonical_entity_id",
+      "limitations": [
+        "Pair-counting weights large clusters more heavily than small ones: one over-merge inside an 8-mention cluster costs more pairs than one inside a 2-mention cluster. Read the cluster-level metric alongside it.",
+        "Only person mentions are scored. Phone, IMEI, vehicle and bank-account entities are resolved by the same code path but have no expectedEntityMerges entry to score against.",
+        "Mentions the ground truth cannot assign unambiguously are excluded from the denominator; the count is reported in details.excluded."
+      ],
+      "details": {
+        "alignedMentions": 39,
+        "excludedMentions": 1,
+        "excluded": [
+          {
+            "recordRef": "witness:W6",
+            "fieldPath": "aboutNames[0]",
+            "observedName": "W6",
+            "reason": "record ref is not claimed by any ground-truth cluster"
+          }
+        ],
+        "groundTruthClusters": 12,
+        "systemPersonClusters": 9,
+        "truePositivePairs": 83,
+        "falsePositivePairs": 0,
+        "falseNegativePairs": 0,
+        "unresolvedGroundTruthMentions": []
+      },
+      "id": "er.pairwise.f1",
+      "name": "Entity resolution — pairwise F1",
+      "status": "measured",
+      "definition": "Harmonic mean of pairwise precision and recall.",
+      "numeratorDefinition": "2 × precision × recall",
+      "denominatorDefinition": "precision + recall",
+      "numerator": 2,
+      "denominator": 2,
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "er.cluster.exactMatch",
+      "name": "Entity resolution — exact cluster recovery",
+      "category": "Entity-resolution precision/recall",
+      "definition": "Fraction of ground-truth entities whose full set of scored mentions the resolver recovered as exactly one system entity, with nothing extra.",
+      "numeratorDefinition": "ground-truth clusters matched exactly by some system cluster",
+      "denominatorDefinition": "ground-truth clusters with at least one scored mention",
+      "numerator": 9,
+      "denominator": 9,
+      "groundTruthSource": "evidence/ground-truth/operation-darknet-delhi.ground-truth.json § expectedEntityMerges",
+      "systemInput": "extracted_records (entity_mention/person) joined to resolution_decisions.canonical_entity_id",
+      "limitations": [
+        "Exactness is judged only over mentions that survived alignment, so an excluded mention cannot cause a cluster to fail.",
+        "A cluster that is right except for one missing mention scores the same as one that is entirely wrong. Use it with the pairwise numbers, not instead of them."
+      ],
+      "details": {
+        "exact": 9,
+        "total": 9,
+        "imperfect": []
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "er.mentionCoverage",
+      "name": "Entity resolution — ground-truth mention coverage",
+      "category": "Entity-resolution precision/recall",
+      "definition": "Fraction of the (entity, source record) mentions ground truth documents for which the pipeline produced a corresponding, clustered person mention.",
+      "numeratorDefinition": "documented (entity, record ref) mentions the pipeline produced and clustered",
+      "denominatorDefinition": "distinct (entity, record ref) mentions documented in ground truth",
+      "numerator": 39,
+      "denominator": 46,
+      "groundTruthSource": "evidence/ground-truth/operation-darknet-delhi.ground-truth.json § expectedEntityMerges",
+      "systemInput": "extracted_records (entity_mention/person) joined to resolution_decisions.canonical_entity_id",
+      "limitations": [
+        "This is the denominator the pairwise metrics do not have. Read the two together: high pairwise scores over low coverage means the resolver is accurate on the subset it was given, not that the case was reconstructed.",
+        "A mention can be missing for two different reasons — extraction never emitted it, or the resolver never clustered it — and this metric does not separate them. The excluded list in the pairwise metric distinguishes the second case.",
+        "Ground-truth mentions are collapsed to (entity, record ref); two mentions of the same person in one record count once."
+      ],
+      "details": {
+        "documented": 46,
+        "produced": 39,
+        "missing": [
+          "M1@account:SYN-MA-000001",
+          "M1@phone:M1:0",
+          "M2@account:SYN-MA-000002",
+          "M2@phone:M2:0",
+          "M3@account:SYN-MA-000003",
+          "M3@phone:M3:0",
+          "X1@phone:X1:0"
+        ],
+        "groundTruthActorsWithNoScoredMention": [
+          "M1",
+          "M2",
+          "M3"
+        ]
+      },
+      "status": "measured",
+      "value": 0.8478260869565217,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "er.mustNotMerge",
+      "name": "Entity resolution — must-not-merge rules upheld",
+      "category": "Entity-resolution precision/recall",
+      "definition": "Fraction of the corpus's designed same-name-different-person traps that the resolver did not merge.",
+      "numeratorDefinition": "doNotMerge rules where the two sides landed in different system entities",
+      "denominatorDefinition": "doNotMerge rules where both sides produced a scored system mention",
+      "numerator": 1,
+      "denominator": 1,
+      "groundTruthSource": "ground truth § doNotMerge (prose; leading key token parsed)",
+      "systemInput": "extracted_records (entity_mention/person) joined to resolution_decisions.canonical_entity_id",
+      "limitations": [
+        "doNotMerge is prose, not structured data. The evaluator parses the leading `S5`/`W6`-style token; a rule written without one is reported as unparseable, not as a pass.",
+        "A side with no scored mention makes the rule unscorable and it is excluded from the denominator.",
+        "Snapshot contained 54 entities at scoring time."
+      ],
+      "details": {
+        "outcomes": [
+          {
+            "a": "S5",
+            "b": "W6",
+            "outcome": "upheld — kept apart"
+          }
+        ]
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "er.alias.attachment",
+      "name": "Entity resolution — alias attachment recall",
+      "category": "Entity-resolution precision/recall",
+      "definition": "Fraction of documented aliases that are persisted against the entity ground truth says owns them.",
+      "numeratorDefinition": "aliases attached to the correct resolved entity",
+      "denominatorDefinition": "aliases listed in ground truth § aliasMap",
+      "numerator": 18,
+      "denominator": 18,
+      "groundTruthSource": "ground truth § aliasMap",
+      "systemInput": "aliases table joined to entities via alias.entity_id",
+      "limitations": [
+        "An alias attached to an entity the evaluator could not map to a ground-truth key counts as a miss, listed in details as `unmapped:<entityId>`.",
+        "Matching is case-insensitive and whitespace-trimmed but not transliteration-aware. That is deliberate: the current resolver is not transliteration-aware either, and hiding the gap here would hide it everywhere."
+      ],
+      "details": {
+        "correct": 18,
+        "total": 18,
+        "misses": []
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "rel.precision",
+      "name": "Relationship extraction — precision",
+      "category": "Relationship extraction accuracy",
+      "definition": "Of the person-to-person relationships the graph asserts, the fraction ground truth also lists.",
+      "numeratorDefinition": "(pair, type) edges present in both the graph and ground truth",
+      "denominatorDefinition": "distinct (pair, type) person edges in the graph",
+      "numerator": 23,
+      "denominator": 23,
+      "groundTruthSource": "ground truth § expectedRelationships",
+      "systemInput": "relationships table (person↔person edges), endpoints mapped to ground-truth keys",
+      "limitations": [
+        "Scored undirected. Direction is reported in details but not scored, because ground truth records a relationship once while the graph may carry both directions.",
+        "Only edges whose BOTH endpoints map to a ground-truth actor key are scored. Ownership edges (person↔phone, person↔account) and co_location edges have no expectedRelationships entry and are excluded.",
+        "An edge type the system never emits (e.g. `associate`) shows up as pure recall loss; that is a capability gap, not a scoring artefact."
+      ],
+      "details": {
+        "groundTruthEdges": 41,
+        "systemPersonEdges": 38,
+        "systemDistinctPersonPairs": 23,
+        "byRelationshipType": {
+          "communication": {
+            "expected": 23,
+            "found": 14
+          },
+          "financial": {
+            "expected": 15,
+            "found": 9
+          },
+          "associate": {
+            "expected": 3,
+            "found": 0
+          }
+        },
+        "missing": [
+          "M1~S1::communication",
+          "M3~S4::communication",
+          "M1~S6::communication",
+          "M2~S8::communication",
+          "M1~M2::communication",
+          "M2~M3::communication",
+          "PN1~S7::communication",
+          "PN2~S4::communication",
+          "PN3~S5::communication",
+          "M1~S1::financial",
+          "M1~M2::financial",
+          "M2~M3::financial",
+          "M3~S6::financial",
+          "M3~S4::financial",
+          "M1~S6::financial",
+          "S1~S4::associate",
+          "S3~S7::associate",
+          "S1~S6::associate"
+        ],
+        "spurious": [],
+        "classificationDisagreements": [
+          {
+            "edge": "S1~S2::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S3::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S6::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S3::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S5::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S6::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S3~S4::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S3~X1::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S5~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~S8::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~X1::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S4~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S8::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S3::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S2::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S5::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S7::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S4~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          }
+        ]
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "rel.recall",
+      "name": "Relationship extraction — recall",
+      "category": "Relationship extraction accuracy",
+      "definition": "Of the relationships ground truth lists, the fraction the graph recovered.",
+      "numeratorDefinition": "(pair, type) edges present in both the graph and ground truth",
+      "denominatorDefinition": "(pair, type) edges listed in ground truth",
+      "numerator": 23,
+      "denominator": 41,
+      "groundTruthSource": "ground truth § expectedRelationships",
+      "systemInput": "relationships table (person↔person edges), endpoints mapped to ground-truth keys",
+      "limitations": [
+        "Scored undirected. Direction is reported in details but not scored, because ground truth records a relationship once while the graph may carry both directions.",
+        "Only edges whose BOTH endpoints map to a ground-truth actor key are scored. Ownership edges (person↔phone, person↔account) and co_location edges have no expectedRelationships entry and are excluded.",
+        "An edge type the system never emits (e.g. `associate`) shows up as pure recall loss; that is a capability gap, not a scoring artefact."
+      ],
+      "details": {
+        "groundTruthEdges": 41,
+        "systemPersonEdges": 38,
+        "systemDistinctPersonPairs": 23,
+        "byRelationshipType": {
+          "communication": {
+            "expected": 23,
+            "found": 14
+          },
+          "financial": {
+            "expected": 15,
+            "found": 9
+          },
+          "associate": {
+            "expected": 3,
+            "found": 0
+          }
+        },
+        "missing": [
+          "M1~S1::communication",
+          "M3~S4::communication",
+          "M1~S6::communication",
+          "M2~S8::communication",
+          "M1~M2::communication",
+          "M2~M3::communication",
+          "PN1~S7::communication",
+          "PN2~S4::communication",
+          "PN3~S5::communication",
+          "M1~S1::financial",
+          "M1~M2::financial",
+          "M2~M3::financial",
+          "M3~S6::financial",
+          "M3~S4::financial",
+          "M1~S6::financial",
+          "S1~S4::associate",
+          "S3~S7::associate",
+          "S1~S6::associate"
+        ],
+        "spurious": [],
+        "classificationDisagreements": [
+          {
+            "edge": "S1~S2::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S3::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S6::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S3::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S5::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S6::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S3~S4::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S3~X1::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S5~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~S8::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~X1::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S4~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S8::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S3::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S2::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S5::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S7::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S4~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          }
+        ]
+      },
+      "status": "measured",
+      "value": 0.5609756097560976,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "rel.f1",
+      "name": "Relationship extraction — F1",
+      "category": "Relationship extraction accuracy",
+      "status": "measured",
+      "definition": "Harmonic mean of relationship precision and recall.",
+      "numeratorDefinition": "2 × precision × recall",
+      "denominatorDefinition": "precision + recall",
+      "numerator": 1.1219512195121952,
+      "denominator": 1.5609756097560976,
+      "value": 0.71875,
+      "unit": "ratio",
+      "groundTruthSource": "ground truth § expectedRelationships",
+      "systemInput": "relationships table (person↔person edges), endpoints mapped to ground-truth keys",
+      "threshold": null,
+      "passed": null,
+      "limitations": [
+        "Scored undirected. Direction is reported in details but not scored, because ground truth records a relationship once while the graph may carry both directions.",
+        "Only edges whose BOTH endpoints map to a ground-truth actor key are scored. Ownership edges (person↔phone, person↔account) and co_location edges have no expectedRelationships entry and are excluded.",
+        "An edge type the system never emits (e.g. `associate`) shows up as pure recall loss; that is a capability gap, not a scoring artefact."
+      ],
+      "details": {
+        "groundTruthEdges": 41,
+        "systemPersonEdges": 38,
+        "systemDistinctPersonPairs": 23,
+        "byRelationshipType": {
+          "communication": {
+            "expected": 23,
+            "found": 14
+          },
+          "financial": {
+            "expected": 15,
+            "found": 9
+          },
+          "associate": {
+            "expected": 3,
+            "found": 0
+          }
+        },
+        "missing": [
+          "M1~S1::communication",
+          "M3~S4::communication",
+          "M1~S6::communication",
+          "M2~S8::communication",
+          "M1~M2::communication",
+          "M2~M3::communication",
+          "PN1~S7::communication",
+          "PN2~S4::communication",
+          "PN3~S5::communication",
+          "M1~S1::financial",
+          "M1~M2::financial",
+          "M2~M3::financial",
+          "M3~S6::financial",
+          "M3~S4::financial",
+          "M1~S6::financial",
+          "S1~S4::associate",
+          "S3~S7::associate",
+          "S1~S6::associate"
+        ],
+        "spurious": [],
+        "classificationDisagreements": [
+          {
+            "edge": "S1~S2::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S3::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S6::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S3::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S5::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S6::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S3~S4::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S3~X1::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S5~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~S8::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~X1::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S4~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S8::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S3::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S2::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S5::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S7::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S4~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "rel.classificationAgreement",
+      "name": "Relationship extraction — evidence-classification agreement",
+      "category": "Relationship extraction accuracy",
+      "definition": "Of the relationships both sides agree exist, the fraction where the graph's evidence classification matches ground truth's.",
+      "numeratorDefinition": "matched edges whose system classification set contains the ground-truth classification",
+      "denominatorDefinition": "matched edges",
+      "numerator": 0,
+      "denominator": 23,
+      "groundTruthSource": "ground truth § expectedRelationships",
+      "systemInput": "relationships table (person↔person edges), endpoints mapped to ground-truth keys",
+      "limitations": [
+        "An edge carrying several classifications counts as agreeing if any of them matches. This is lenient by design; the disagreements are listed in full in details.",
+        "Systematic disagreement here is expected and meaningful: src/lib/graph/build.ts classifies every DERIVED person↔person edge as `ai_inference`, whereas ground truth labels the same relationships `observed_fact`. That is a definitional difference between the two documents, not necessarily a defect — but it is exactly the kind of thing that must surface as a number rather than as an assumption."
+      ],
+      "details": {
+        "groundTruthEdges": 41,
+        "systemPersonEdges": 38,
+        "systemDistinctPersonPairs": 23,
+        "byRelationshipType": {
+          "communication": {
+            "expected": 23,
+            "found": 14
+          },
+          "financial": {
+            "expected": 15,
+            "found": 9
+          },
+          "associate": {
+            "expected": 3,
+            "found": 0
+          }
+        },
+        "missing": [
+          "M1~S1::communication",
+          "M3~S4::communication",
+          "M1~S6::communication",
+          "M2~S8::communication",
+          "M1~M2::communication",
+          "M2~M3::communication",
+          "PN1~S7::communication",
+          "PN2~S4::communication",
+          "PN3~S5::communication",
+          "M1~S1::financial",
+          "M1~M2::financial",
+          "M2~M3::financial",
+          "M3~S6::financial",
+          "M3~S4::financial",
+          "M1~S6::financial",
+          "S1~S4::associate",
+          "S3~S7::associate",
+          "S1~S6::associate"
+        ],
+        "spurious": [],
+        "classificationDisagreements": [
+          {
+            "edge": "S1~S2::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S3::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S6::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S3::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S5::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S6::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S3~S4::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S3~X1::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S5~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~S8::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~X1::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S4~S7::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S8::communication",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S3::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S1~S2::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S5::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S2~S7::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S7~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          },
+          {
+            "edge": "S4~S8::financial",
+            "groundTruth": "observed_fact",
+            "system": [
+              "ai_inference"
+            ]
+          }
+        ]
+      },
+      "status": "measured",
+      "value": 0,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "graph.integrity",
+      "name": "Graph integrity",
+      "category": "Graph integrity",
+      "definition": "Fraction of relationship rows that resolve to persisted endpoints, carry at least one evidence item and one extracted record, are not self-loops, and are not duplicates of another edge with the same type and endpoints.",
+      "numeratorDefinition": "relationship rows with no structural defect",
+      "denominatorDefinition": "relationship rows",
+      "numerator": 196,
+      "denominator": 196,
+      "groundTruthSource": "none — structural invariants from docs/data/graph.md and the relationships schema",
+      "systemInput": "relationships, entities and locations tables",
+      "limitations": [
+        "Checks structure, not truth. An edge can be perfectly well-formed and still wrong; that is what the relationship precision metric is for.",
+        "Endpoint validity accepts either an entity id or a location id, matching the documented dual-target shape of relationships.source/target_entity_id."
+      ],
+      "details": {
+        "relationships": 196,
+        "failing": 0,
+        "problems": {
+          "danglingEndpoint": {
+            "count": 0,
+            "sample": []
+          },
+          "selfLoop": {
+            "count": 0,
+            "sample": []
+          },
+          "noEvidenceItem": {
+            "count": 0,
+            "sample": []
+          },
+          "noExtractedRecord": {
+            "count": 0,
+            "sample": []
+          },
+          "duplicateEdge": {
+            "count": 0,
+            "sample": []
+          }
+        },
+        "analyticalSignalsWithUnresolvableTarget": 0
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "graph.hiddenConnection.recovery",
+      "name": "Hidden connection recovery",
+      "category": "Graph integrity",
+      "definition": "Fraction of the deliberately concealed connections for which the persisted graph contains any path between the two actors.",
+      "numeratorDefinition": "hidden connections with a path between their endpoints",
+      "denominatorDefinition": "hidden connections whose endpoints both resolved to entities",
+      "numerator": 1,
+      "denominator": 1,
+      "groundTruthSource": "ground truth § hiddenConnections",
+      "systemInput": "relationships table, traversed undirected",
+      "limitations": [
+        "'A path exists' is a weak success criterion. It does not check that the path is the intended laundering chain, nor that the UI would surface it, nor that an investigator could find it. It is the floor, not the bar.",
+        "Traversal is undirected and unweighted, over entity and location nodes alike, so a path through a shared cell tower counts.",
+        "Hop count is reported so a 2-hop and a 9-hop recovery are not confused with each other."
+      ],
+      "details": {
+        "recovered": 1,
+        "scorable": 1,
+        "outcomes": [
+          {
+            "between": [
+              "S1",
+              "S4"
+            ],
+            "outcome": "path exists",
+            "hops": 2
+          }
+        ]
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "corroboration.temporal.recall",
+      "name": "Temporal corroboration — recall",
+      "category": "Spatial/temporal corroboration",
+      "definition": "Fraction of the designed temporal co-occurrences that the corroboration stage surfaced as a finding covering the same phones in an overlapping window.",
+      "numeratorDefinition": "expected temporal correlations matched by a persisted temporal finding",
+      "denominatorDefinition": "expected temporal correlations whose phones all resolved to entities",
+      "numerator": 4,
+      "denominator": 4,
+      "groundTruthSource": "ground truth § temporalCorrelations",
+      "systemInput": "corroboration_findings where kind ∈ {temporal, spatiotemporal}",
+      "limitations": [
+        "Recall only. Ground truth does not enumerate every temporal co-occurrence the corpus contains, only the ones designed to matter, so precision cannot be computed without labelling the rest — extra findings are not necessarily false.",
+        "Windows are matched by overlap, not equality.",
+        "Ground truth identifies the parties by phone number; the pipeline's findings identify them by resolved subject entity. The evaluator bridges the two through ground truth's own keyActors phone lists and accepts a match on either the person entity or the phone entity, so the metric is not sensitive to which representation the corroboration stage happens to use.",
+        "A correlation whose phones did not resolve is excluded from the denominator and reported as not_scorable rather than as a miss, so an entity-resolution failure is not double-counted here."
+      ],
+      "details": {
+        "recovered": 4,
+        "expected": 4,
+        "unscorable": 0,
+        "outcomes": [
+          {
+            "key": "TC-hidden-S1-S4",
+            "outcome": "recovered",
+            "findingId": "corroboration_finding_7d9b88656afc40f7b66d",
+            "findingType": "temporal_co_occurrence"
+          },
+          {
+            "key": "TC-S3-S7-via-X1",
+            "outcome": "recovered",
+            "findingId": "corroboration_finding_48b1dc90eb8fb6014558",
+            "findingType": "repeated_spatiotemporal_overlap"
+          },
+          {
+            "key": "TC-S5-C1",
+            "outcome": "recovered",
+            "findingId": "corroboration_finding_0092e75e6d0f875a57d1",
+            "findingType": "repeated_spatiotemporal_overlap"
+          },
+          {
+            "key": "TC-S2-S6-handoff",
+            "outcome": "recovered",
+            "findingId": "corroboration_finding_3d4e5b04df3d7846d391",
+            "findingType": "repeated_spatiotemporal_overlap"
+          }
+        ],
+        "systemTemporalFindings": 193
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "corroboration.spatial.recall",
+      "name": "Spatial corroboration — recall",
+      "category": "Spatial/temporal corroboration",
+      "definition": "Fraction of the designed spatial co-locations that the corroboration stage surfaced as a finding at the same persisted location covering all listed actors.",
+      "numeratorDefinition": "expected spatial correlations matched by a persisted spatial finding",
+      "denominatorDefinition": "expected spatial correlations whose location and actor phones all resolved",
+      "numerator": 3,
+      "denominator": 3,
+      "groundTruthSource": "ground truth § spatialCorrelations",
+      "systemInput": "corroboration_findings where kind ∈ {spatial, spatiotemporal}",
+      "limitations": [
+        "Recall only, for the same reason as the temporal metric.",
+        "Ground truth names actors; a finding may reference either the person entity or one of that actor's device entities. The evaluator accepts either, bridging through ground truth's own keyActors lists.",
+        "Actors are matched at cell-tower granularity, which is what the corpus provides. No physical-distance tolerance is applied."
+      ],
+      "details": {
+        "recovered": 3,
+        "expected": 3,
+        "unscorable": 0,
+        "outcomes": [
+          {
+            "locationKey": "SYN-CT-07",
+            "outcome": "recovered",
+            "findingId": "corroboration_finding_b279123b2b7f6db71eb3",
+            "findingType": "repeated_spatiotemporal_overlap"
+          },
+          {
+            "locationKey": "SYN-CT-02",
+            "outcome": "recovered",
+            "findingId": "corroboration_finding_04161ab26ef5e6d2fa62",
+            "findingType": "spatial_co_location"
+          },
+          {
+            "locationKey": "SYN-CT-05",
+            "outcome": "recovered",
+            "findingId": "corroboration_finding_616f952c0533225351d4",
+            "findingType": "spatial_co_location"
+          }
+        ],
+        "systemSpatialFindings": 351
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "contradiction.recall",
+      "name": "Contradiction detection — recall",
+      "category": "Contradiction detection",
+      "definition": "Fraction of the contradictions designed into ground truth that the pipeline surfaced as a contradiction finding.",
+      "numeratorDefinition": "designed contradictions matched by a persisted contradiction finding",
+      "denominatorDefinition": "contradictions listed in ground truth § contradictions",
+      "numerator": 0,
+      "denominator": 3,
+      "groundTruthSource": "ground truth § contradictions",
+      "systemInput": "corroboration_findings where finding_type = spatiotemporal_contradiction",
+      "limitations": [
+        "The pipeline implements ONE contradiction detector (`spatiotemporal_contradiction`, impossible travel speed). Ground truth designs three contradictions of kinds `location_time`, `attribute` and `attribution`. None of the three is an impossible-travel-speed case, so the ceiling on this metric is currently 0 by construction.",
+        "This is therefore a capability measurement, not an accuracy measurement. Treat it as the size of a gap: detecting attribute and attribution conflicts needs a cross-source claim comparator that does not exist.",
+        "Precision is not computed: ground truth does not enumerate non-contradictions, so a spurious contradiction cannot be identified from it."
+      ],
+      "details": {
+        "expectedByKind": {
+          "location_time": 1,
+          "attribute": 1,
+          "attribution": 1
+        },
+        "expressibleByCurrentDetector": 1,
+        "systemContradictionFindings": 12,
+        "outcomes": [
+          {
+            "subject": "S5 (Vikram Singh, 'Major') whereabouts on 2025-07-19 ~22:00",
+            "kind": "location_time",
+            "systemDetectorExists": "partially — spatiotemporal_contradiction detects impossible travel speed, not witness/alibi conflict",
+            "outcome": "MISSED"
+          },
+          {
+            "subject": "Colour of seized vehicle SYN-VEH-0004",
+            "kind": "attribute",
+            "systemDetectorExists": "no — the pipeline has no detector for this contradiction kind",
+            "outcome": "MISSED"
+          },
+          {
+            "subject": "Owner of the darknet handle 'SilkFox'",
+            "kind": "attribution",
+            "systemDetectorExists": "no — the pipeline has no detector for this contradiction kind",
+            "outcome": "MISSED"
+          }
+        ]
+      },
+      "status": "measured",
+      "value": 0,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "analytics.community.pairwiseF1",
+      "name": "Community detection — pairwise F1 agreement",
+      "category": "Analytics",
+      "status": "measured",
+      "definition": "Pairwise agreement between Louvain communities and the designed sub-cells, over actor pairs.",
+      "numeratorDefinition": "2 × pairwise precision × pairwise recall",
+      "denominatorDefinition": "pairwise precision + pairwise recall",
+      "numerator": null,
+      "denominator": null,
+      "value": 0.6415094339622641,
+      "unit": "ratio",
+      "groundTruthSource": "ground truth § expectedCommunities",
+      "systemInput": "analytical_signals where signal_type = community",
+      "threshold": null,
+      "passed": null,
+      "limitations": [
+        "Ground truth's communities overlap — S1 and X1 each appear in two — so the reference is a cover, not a partition, while Louvain produces a strict partition. A perfect score is therefore impossible by construction, and the number should be read as agreement, not accuracy.",
+        "Only actors that both appear in a community signal and map to a ground-truth key are scored.",
+        "Louvain is resolution-dependent; a different resolution parameter would move this number without any code being more or less correct."
+      ],
+      "details": {
+        "scoredActors": 9,
+        "systemCommunities": 1,
+        "groundTruthCommunities": 3,
+        "truePositives": 17,
+        "falsePositives": 19,
+        "falseNegatives": 0
+      }
+    },
+    {
+      "id": "analytics.expectedSignals.top1",
+      "name": "Analytical signals — expected actor ranked first",
+      "category": "Analytics",
+      "definition": "Fraction of the designed analytical signals where the actor ground truth names is the system's top-ranked actor for the corresponding method.",
+      "numeratorDefinition": "expected signals whose named actor is ranked first by the mapped analytics method",
+      "denominatorDefinition": "expected signals for which a system method exists at all",
+      "numerator": 0,
+      "denominator": 2,
+      "groundTruthSource": "ground truth § expectedSignals",
+      "systemInput": "analytical_signals, grouped by method",
+      "limitations": [
+        "Top-1 is a harsh reading of an expectation phrased as 'highest'. The expected actor's actual rank is reported per signal in details, which is the more useful number when top-1 fails.",
+        "`high_betweenness_on_fund_graph` has no system equivalent — src/lib/analytics never builds a fund-only subgraph — so it is excluded from the denominator rather than counted as a failure.",
+        "Ranking depends on the score field the evaluator reads out of signal.value; the field name is discovered heuristically and a schema change there would silently degrade this metric."
+      ],
+      "details": {
+        "matched": 0,
+        "scorable": 2,
+        "total": 3,
+        "outcomes": [
+          {
+            "signal": "highest_betweenness_centrality",
+            "entityKey": "X1",
+            "outcome": "MISSED",
+            "systemTop1": "S2",
+            "expectedActorRank": 9,
+            "rankedActors": 9
+          },
+          {
+            "signal": "highest_overall_influence",
+            "entityKey": "S1",
+            "outcome": "MISSED",
+            "systemTop1": "S2",
+            "expectedActorRank": 3,
+            "rankedActors": 9
+          },
+          {
+            "signal": "high_betweenness_on_fund_graph",
+            "entityKey": "M2",
+            "outcome": "no_system_equivalent",
+            "note": "no analytics method computes this; excluded from the denominator"
+          }
+        ]
+      },
+      "status": "measured",
+      "value": 0,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "id": "provenance.completeness",
+      "name": "Provenance completeness",
+      "category": "Provenance completeness",
+      "definition": "Fraction of persisted derived rows carrying all six provenance fields — source, location, method, confidence, processing history and timestamp — with a usable value in each.",
+      "numeratorDefinition": "derived rows with all six provenance fields populated",
+      "denominatorDefinition": "derived rows across extracted_records, entities, aliases, locations, relationships, resolution_decisions, analytical_signals and corroboration_findings",
+      "numerator": 3060,
+      "denominator": 3060,
+      "groundTruthSource": "none — the requirement itself (docs/requirements.md §8) is the reference",
+      "systemInput": "every provenance-bearing table in the store",
+      "threshold": {
+        "value": 1,
+        "comparison": "gte",
+        "source": "docs/evaluation/evaluation-spec.md §2 — 'this is not a tunable target but a correctness requirement'"
+      },
+      "limitations": [
+        "Checks presence and basic type/format, not correctness. A row whose provenance.location points at the wrong field still counts as complete.",
+        "`processingHistory` must be a non-empty array; an empty history is treated as missing, since a derived row with no recorded processing step cannot be traced.",
+        "dossiers rows are excluded: a dossier is an immutable assembly of ids other tables already own, and its own traceability is checked by src/lib/dossier/verify.ts at write time."
+      ],
+      "details": {
+        "rows": 3060,
+        "failures": 0,
+        "byTable": {
+          "extracted_records": {
+            "rows": 1996,
+            "complete": 1996
+          },
+          "entities": {
+            "rows": 54,
+            "complete": 54
+          },
+          "aliases": {
+            "rows": 25,
+            "complete": 25
+          },
+          "locations": {
+            "rows": 14,
+            "complete": 14
+          },
+          "relationships": {
+            "rows": 196,
+            "complete": 196
+          },
+          "resolution_decisions": {
+            "rows": 85,
+            "complete": 85
+          },
+          "analytical_signals": {
+            "rows": 234,
+            "complete": 234
+          },
+          "corroboration_findings": {
+            "rows": 456,
+            "complete": 456
+          }
+        },
+        "sampleFailures": []
+      },
+      "status": "measured",
+      "value": 1,
+      "unit": "ratio",
+      "passed": true
+    },
+    {
+      "id": "copilot.grounding",
+      "name": "Copilot grounding / citation correctness",
+      "category": "Copilot grounding",
+      "definition": "Whether each canonical investigative question is answered correctly, with every claim citing a resolvable row and the right evidence classification.",
+      "numeratorDefinition": "canonical questions answered correctly with fully resolvable citations",
+      "denominatorDefinition": "canonical questions in docs/demo/demo-contract.md §3",
+      "groundTruthSource": "ground truth § expectedCopilotAnswers (8 questions)",
+      "systemInput": "src/lib/copilot/service.ts — requires a live Claude API call",
+      "limitations": [
+        "AI_PROVIDER_API_KEY is not set in this environment, so no answer can be generated. The metric is unmeasured, NOT zero.",
+        "A meaningful split exists and should be built next: the retrieval half (src/lib/copilot/retrieval.ts) is fully deterministic, so retrieval recall against expectedCopilotAnswers can be scored offline with no model call at all. Only answer correctness needs the model.",
+        "Citation resolvability is also deterministic once an answer exists — every cited id either matches a persisted row or does not."
+      ],
+      "status": "not_implementable_yet",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "unit": "ratio",
+      "threshold": null,
+      "passed": null
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "measured": 19,
+    "notImplementableYet": 2,
+    "withThreshold": 1,
+    "thresholdsPassed": 1,
+    "thresholdsFailed": 0
+  }
+}

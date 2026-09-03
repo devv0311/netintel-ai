@@ -14,7 +14,8 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "db:generate": "drizzle-kit generate",
-    "corpus:generate": "node --import ./scripts/ts-resolve.mjs scripts/generate-corpus.ts"
+    "corpus:generate": "node --import ./scripts/ts-resolve.mjs scripts/generate-corpus.ts",
+    "evaluate": "node --import ./scripts/eval-resolve.mjs scripts/evaluate.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.123.0",
