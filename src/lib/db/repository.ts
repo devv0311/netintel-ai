@@ -39,6 +39,7 @@ import {
   CorroborationFindingSchema,
   type CorroborationFinding,
 } from "@/lib/domain/corroboration";
+import { DossierSchema, type Dossier } from "@/lib/domain/dossier";
 
 /**
  * The validated data-access layer. This is the ONLY place application
@@ -603,6 +604,68 @@ export async function listCorroborationFindings(): Promise<CorroborationFinding[
       "listCorroborationFindings",
     ),
   );
+}
+
+export async function insertDossier(data: unknown): Promise<Dossier> {
+  const dossier = validateOrThrow(DossierSchema, data, "insertDossier");
+  const db = getDb();
+  await db.insert(schema.dossiers).values({
+    id: dossier.id,
+    investigationId: dossier.investigationId,
+    investigationName: dossier.investigationName,
+    graphVersion: dossier.graphVersion,
+    reportVersion: dossier.reportVersion,
+    title: dossier.title,
+    generatedAt: dossier.generatedAt,
+    syntheticDataOnly: dossier.syntheticDataOnly,
+    humanVerificationRequired: dossier.humanVerificationRequired,
+    aiSynthesisAvailable: dossier.aiSynthesisAvailable,
+    aiSynthesisNote: dossier.aiSynthesisNote,
+    sections: dossier.sections,
+    copilotExcerpts: dossier.copilotExcerpts,
+    limitations: dossier.limitations,
+    counts: dossier.counts,
+    ...provenanceToColumns(dossier.provenance),
+  });
+  return dossier;
+}
+
+function rowToDossier(row: typeof schema.dossiers.$inferSelect, context: string): Dossier {
+  return validateOrThrow(
+    DossierSchema,
+    {
+      id: row.id,
+      investigationId: row.investigationId,
+      investigationName: row.investigationName,
+      graphVersion: row.graphVersion,
+      reportVersion: row.reportVersion,
+      title: row.title,
+      generatedAt: row.generatedAt,
+      syntheticDataOnly: row.syntheticDataOnly,
+      humanVerificationRequired: row.humanVerificationRequired,
+      aiSynthesisAvailable: row.aiSynthesisAvailable,
+      aiSynthesisNote: row.aiSynthesisNote,
+      sections: row.sections,
+      copilotExcerpts: row.copilotExcerpts,
+      limitations: row.limitations,
+      counts: row.counts,
+      provenance: columnsToProvenance(row),
+    },
+    context,
+  );
+}
+
+export async function listDossiers(): Promise<Dossier[]> {
+  const db = getDb();
+  const rows = await db.select().from(schema.dossiers);
+  return rows.map((row) => rowToDossier(row, "listDossiers"));
+}
+
+export async function getDossierById(id: string): Promise<Dossier | null> {
+  const db = getDb();
+  const rows = await db.select().from(schema.dossiers).where(eq(schema.dossiers.id, id));
+  const row = rows[0];
+  return row ? rowToDossier(row, "getDossierById") : null;
 }
 
 export async function insertAIInference(data: unknown): Promise<AIInference> {

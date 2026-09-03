@@ -233,6 +233,52 @@ export const corroborationFindings = sqliteTable("corroboration_findings", {
   ...provenanceColumns(),
 });
 
+/**
+ * Generated case dossiers (P5.9). One row per generated report.
+ *
+ * `id` is content-addressed over the deterministic report body, so
+ * regenerating an unchanged case resolves to the same row and is
+ * skipped rather than duplicated (the same idempotency mechanism
+ * `corroboration_findings` and `analytical_signals` already use). A new
+ * `graph_version` produces a different id, so a dossier can never
+ * silently describe a graph state that no longer exists.
+ *
+ * `sections`, `copilot_excerpts`, `limitations` and `counts` are stored
+ * as JSON documents rather than exploded into child tables: a dossier
+ * is a point-in-time, immutable assembly of ids that other tables
+ * already own, and it is only ever read back whole. Nothing joins to a
+ * section or a finding, so child tables would add write paths and
+ * migration surface without buying a query. Every id inside those
+ * documents is validated against the live store by
+ * src/lib/dossier/verify.ts before the row is written.
+ *
+ * There is deliberately no single `classification` column. A dossier
+ * mixes classifications by design — an Observed Fact inventory row and
+ * an Investigative Lead sit in the same report — so one summary label
+ * would necessarily overstate part of it. The per-classification census
+ * lives in `counts.byClassification`, and every finding carries its own.
+ */
+export const dossiers = sqliteTable("dossiers", {
+  id: text("id").primaryKey(),
+  investigationId: text("investigation_id")
+    .notNull()
+    .references(() => investigations.id),
+  investigationName: text("investigation_name").notNull(),
+  graphVersion: text("graph_version").notNull(),
+  reportVersion: text("report_version").notNull(),
+  title: text("title").notNull(),
+  generatedAt: text("generated_at").notNull(),
+  syntheticDataOnly: integer("synthetic_data_only", { mode: "boolean" }).notNull(),
+  humanVerificationRequired: integer("human_verification_required", { mode: "boolean" }).notNull(),
+  aiSynthesisAvailable: integer("ai_synthesis_available", { mode: "boolean" }).notNull(),
+  aiSynthesisNote: text("ai_synthesis_note").notNull(),
+  sections: text("sections", { mode: "json" }).$type<unknown[]>().notNull(),
+  copilotExcerpts: text("copilot_excerpts", { mode: "json" }).$type<unknown[]>().notNull(),
+  limitations: text("limitations", { mode: "json" }).$type<string[]>().notNull(),
+  counts: text("counts", { mode: "json" }).$type<Record<string, unknown>>().notNull(),
+  ...provenanceColumns(),
+});
+
 export const aiInferences = sqliteTable("ai_inferences", {
   id: text("id").primaryKey(),
   investigationId: text("investigation_id")
