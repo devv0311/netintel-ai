@@ -5,7 +5,10 @@ import { Loader2, Search } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { ClassificationChip } from "@/components/ui/classification-chip";
+import { ProvenanceBlock } from "@/components/ui/provenance-block";
 import { formatCount } from "@/lib/format";
+import type { EvidenceClassification } from "@/lib/domain/provenance";
 import type { NodeDetail } from "@/lib/graph/types";
 
 const KIND_LABELS: Record<string, string> = {
@@ -80,9 +83,7 @@ export function GraphNodeDetail({
             Aliases: {detail.aliases.join(", ")}
           </div>
         )}
-        <div className="text-muted-foreground">
-          Provenance: {detail.provenance.location} · {detail.provenance.method}
-        </div>
+        <ProvenanceBlock provenance={detail.provenance} className="mt-1" />
       </div>
 
       <div className="flex flex-col gap-1.5 border-t border-border pt-2">
@@ -102,9 +103,10 @@ export function GraphNodeDetail({
                 <span aria-hidden>{e.direction === "outgoing" ? "→" : "←"}</span>
                 <Badge variant="outline">{e.relationshipType}</Badge>
                 <span className="truncate">{e.otherNodeLabel}</span>
-                <span className="ml-auto shrink-0 text-muted-foreground">
-                  {e.classification.replaceAll("_", " ")}
-                </span>
+                <ClassificationChip
+                  classification={e.classification as EvidenceClassification}
+                  className="ml-auto shrink-0"
+                />
               </button>
               {onSelectEdge && (
                 <button

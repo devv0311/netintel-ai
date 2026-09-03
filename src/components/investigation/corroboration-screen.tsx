@@ -6,6 +6,7 @@ import { MapPin, Network, ShieldAlert } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { ClassificationChip } from "@/components/ui/classification-chip";
 import { formatCount } from "@/lib/format";
 import type {
   CorroborationClassification,
@@ -376,12 +377,10 @@ function FindingDetail({
     <Card className="gap-3 text-xs" data-testid="corroboration-detail">
       <div className="flex flex-col gap-1">
         <div className="flex flex-wrap items-center gap-1.5">
-          <Badge
-            variant={f.classification === "corroborated_fact" ? "accent" : "outline"}
+          <ClassificationChip
+            classification={f.classification}
             data-testid="corroboration-detail-classification"
-          >
-            {CLASS_LABELS[f.classification]}
-          </Badge>
+          />
           <Badge variant="outline">{FINDING_TYPE_LABELS[f.findingType]}</Badge>
         </div>
         {f.entities.length > 0 && (

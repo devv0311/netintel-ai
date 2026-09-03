@@ -4,7 +4,6 @@ import { useCallback, useState } from "react";
 
 import { Header } from "./header";
 import { Sidebar, type NavView } from "./sidebar";
-import { PipelineStatus } from "./pipeline-status";
 import { InvestigationWorkspace } from "@/components/investigation/workspace";
 import { GraphScreen } from "@/components/investigation/graph-screen";
 import { AnalyticsScreen } from "@/components/investigation/analytics-screen";
@@ -65,23 +64,43 @@ export function AppShell({
   const [graphFocusNodeId, setGraphFocusNodeId] = useState<string | null>(null);
   const [analyticsFocusEntityId, setAnalyticsFocusEntityId] = useState<string | null>(null);
   const [corroborationFocusEntityId, setCorroborationFocusEntityId] = useState<string | null>(null);
+  // The current cross-navigation subject, surfaced as the command-bar
+  // focus chip so it is legible from every surface (audit §2). Setting a
+  // screen's own focus id also sets this; clearing the chip only clears
+  // the chip.
+  const [focusedEntityId, setFocusedEntityId] = useState<string | null>(null);
 
   const viewInGraph = useCallback((entityId: string) => {
     setGraphFocusNodeId(entityId);
+    setFocusedEntityId(entityId);
     setView("graph");
   }, []);
 
   const viewInAnalytics = useCallback((entityId: string) => {
     setAnalyticsFocusEntityId(entityId);
+    setFocusedEntityId(entityId);
     setView("analytics");
   }, []);
 
   const viewInCorroboration = useCallback((entityId: string) => {
     setCorroborationFocusEntityId(entityId);
+    setFocusedEntityId(entityId);
     setView("corroboration");
   }, []);
 
-  const viewEvidence = useCallback(() => setView("evidence"), []);
+  const viewEvidence = useCallback(() => {
+    setFocusedEntityId(null);
+    setView("evidence");
+  }, []);
+
+  const clearFocus = useCallback(() => setFocusedEntityId(null), []);
+
+  const caseName =
+    initialState.status === "loaded" ? initialState.summary.name : null;
+  const caseDetail =
+    initialState.status === "loaded"
+      ? `${initialState.summary.corpusName} · ${initialState.summary.corpusVersion}`
+      : null;
 
   const completedStages =
     initialState.status === "loaded" ? ["Upload Evidence", "Ingestion"] : [];
@@ -96,8 +115,14 @@ export function AppShell({
   if (initialDossierState.status === "generated") completedStages.push("Dossier / Report");
 
   return (
-    <div className="flex h-dvh flex-col">
-      <Header />
+    <div className="flex h-dvh flex-col bg-bg text-fg">
+      <Header
+        caseName={caseName}
+        caseDetail={caseDetail}
+        completedStages={completedStages}
+        focusedEntityId={focusedEntityId}
+        onClearFocus={clearFocus}
+      />
       <div className="flex min-h-0 flex-1">
         <Sidebar
           activeView={view}
@@ -115,8 +140,7 @@ export function AppShell({
           dossierEnabled={corroborationState.status === "synthesized"}
           onNavigate={setView}
         />
-        <main className="flex min-w-0 flex-1 flex-col gap-4 overflow-y-auto p-4">
-          <PipelineStatus completed={completedStages} />
+        <main className="flex min-w-0 flex-1 flex-col gap-4 overflow-y-auto bg-bg p-4">
           {view === "evidence" && (
             <InvestigationWorkspace
               initialState={initialState}

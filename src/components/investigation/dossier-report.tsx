@@ -15,6 +15,8 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { ClassificationChip } from "@/components/ui/classification-chip";
+import { ProvenanceBlock } from "@/components/ui/provenance-block";
 import { formatCount, formatUtc } from "@/lib/format";
 import type { DossierDetail, DossierFinding, DossierSection, ResolvedReference } from "@/lib/dossier/types";
 import type { DossierCopilotExcerpt, DossierSectionKind } from "@/lib/domain/dossier";
@@ -32,14 +34,6 @@ import type { EvidenceClassification } from "@/lib/domain/provenance";
  * screen that owns those ids. Nothing is summarised away.
  */
 
-const CLASSIFICATION_LABELS: Record<EvidenceClassification, string> = {
-  observed_fact: "Observed Fact",
-  corroborated_fact: "Corroborated Fact",
-  algorithmic_signal: "Algorithmic Signal",
-  ai_inference: "AI Inference",
-  investigative_lead: "Investigative Lead",
-};
-
 const CLASSIFICATION_NOTE: Record<EvidenceClassification, string> = {
   observed_fact: "Stated directly in one source, no inference applied.",
   corroborated_fact: "Independently supported by two or more distinct sources.",
@@ -47,11 +41,6 @@ const CLASSIFICATION_NOTE: Record<EvidenceClassification, string> = {
   ai_inference: "Goes beyond directly observed evidence — treat as provisional.",
   investigative_lead: "A prompt for further work. Not a claim of fact at any confidence.",
 };
-
-/** Only the two fact classifications get the assertive (accent) treatment. */
-function badgeVariant(classification: EvidenceClassification): "accent" | "outline" {
-  return classification === "corroborated_fact" || classification === "observed_fact" ? "accent" : "outline";
-}
 
 const SECTION_ORDER: DossierSectionKind[] = [
   "case_summary",
@@ -117,13 +106,14 @@ export function DossierReport({
           {(Object.entries(dossier.counts.byClassification) as [EvidenceClassification, number][])
             .filter(([, n]) => n > 0)
             .map(([classification, n]) => (
-              <Badge
+              <span
                 key={classification}
-                variant={badgeVariant(classification)}
+                className="inline-flex items-center gap-1"
                 data-testid={`dossier-census-${classification}`}
               >
-                {n} {CLASSIFICATION_LABELS[classification]}
-              </Badge>
+                <ClassificationChip classification={classification} />
+                <span className="font-mono text-[10px] text-fg-muted">×{n}</span>
+              </span>
             ))}
         </div>
 
@@ -320,13 +310,11 @@ function FindingRow({
           <ChevronRight className="mt-0.5 size-3.5 shrink-0" aria-hidden />
         )}
         <span className="min-w-0 flex-1 text-foreground">{finding.statement}</span>
-        <Badge
-          variant={badgeVariant(finding.classification)}
+        <ClassificationChip
+          classification={finding.classification}
           className="shrink-0"
           data-testid="dossier-finding-classification"
-        >
-          {CLASSIFICATION_LABELS[finding.classification]}
-        </Badge>
+        />
         <span className="shrink-0 font-mono text-[10px] text-muted-foreground" data-testid="dossier-finding-confidence">
           {finding.confidence.toFixed(2)}
         </span>
@@ -364,23 +352,11 @@ function FindingRow({
           </div>
 
           {/* PROVENANCE — the six required fields, in full. */}
-          <div
-            className="grid grid-cols-[auto_1fr] gap-x-3 gap-y-0.5 border-t border-border pt-1.5 text-[10px] text-muted-foreground"
+          <ProvenanceBlock
+            provenance={finding.provenance}
+            className="border-t border-border pt-1.5"
             data-testid="dossier-finding-provenance"
-          >
-            <span>source</span>
-            <span className="truncate font-mono">{finding.provenance.source}</span>
-            <span>location</span>
-            <span className="truncate font-mono">{finding.provenance.location}</span>
-            <span>method</span>
-            <span className="font-mono">{finding.provenance.method}</span>
-            <span>confidence</span>
-            <span className="font-mono">{finding.provenance.confidence.toFixed(2)}</span>
-            <span>history</span>
-            <span className="font-mono">{finding.provenance.processingHistory.join(" → ")}</span>
-            <span>derived at</span>
-            <span className="font-mono">{finding.provenance.timestamp}</span>
-          </div>
+          />
 
           {/* CROSS-NAVIGATION into the screens that own these ids. */}
           <div className="flex flex-wrap gap-1.5">
@@ -465,11 +441,7 @@ function CopilotExcerptRow({ excerpt }: { excerpt: DossierCopilotExcerpt }) {
           {EXCERPT_STATUS_LABELS[excerpt.status]}
         </Badge>
         {excerpt.grounding && <Badge variant="outline">{excerpt.grounding.replace(/_/g, " ")}</Badge>}
-        {excerpt.classification && (
-          <Badge variant={badgeVariant(excerpt.classification)}>
-            {CLASSIFICATION_LABELS[excerpt.classification]}
-          </Badge>
-        )}
+        {excerpt.classification && <ClassificationChip classification={excerpt.classification} />}
         {excerpt.confidence !== null && (
           <Badge variant="outline">confidence {excerpt.confidence.toFixed(2)}</Badge>
         )}

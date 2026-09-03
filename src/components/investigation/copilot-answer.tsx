@@ -6,9 +6,9 @@ import { BarChart3, ChevronDown, ChevronRight, Network, ShieldCheck } from "luci
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { ClassificationChip, classificationNote } from "@/components/ui/classification-chip";
 import { formatCount } from "@/lib/format";
 import type { CopilotClaim, CopilotModelError, CopilotResponse } from "@/lib/copilot/types";
-import type { EvidenceClassification } from "@/lib/domain/provenance";
 
 /**
  * The answer surface. Its order is the order the milestone brief fixes:
@@ -24,27 +24,6 @@ import type { EvidenceClassification } from "@/lib/domain/provenance";
  * as the persisted record ids they are, so an investigator can take any
  * one of them to the graph, analytics, or corroboration screen.
  */
-
-const CLASSIFICATION_LABELS: Record<EvidenceClassification, string> = {
-  observed_fact: "Observed Fact",
-  corroborated_fact: "Corroborated Fact",
-  algorithmic_signal: "Algorithmic Signal",
-  ai_inference: "AI Inference",
-  investigative_lead: "Investigative Lead",
-};
-
-const CLASSIFICATION_NOTE: Record<EvidenceClassification, string> = {
-  observed_fact: "Stated directly in one source, no inference applied.",
-  corroborated_fact: "Independently supported by two or more distinct sources.",
-  algorithmic_signal: "A computed property of the data — not a claim about people.",
-  ai_inference: "Goes beyond directly observed evidence — treat as provisional.",
-  investigative_lead: "A prompt for further work. Not a claim of fact at any confidence.",
-};
-
-/** Only the two fact classifications get the assertive (accent) treatment. */
-function badgeVariant(classification: EvidenceClassification): "accent" | "outline" {
-  return classification === "corroborated_fact" || classification === "observed_fact" ? "accent" : "outline";
-}
 
 const GROUNDING_LABELS: Record<CopilotResponse["grounding"], string> = {
   fully_grounded: "Fully grounded",
@@ -103,9 +82,10 @@ export function CopilotAnswer({
 
         {/* CLASSIFICATION / CONFIDENCE */}
         <div className="flex flex-wrap items-center gap-1.5 border-t border-border pt-3 text-xs">
-          <Badge variant={badgeVariant(response.classification)} data-testid="copilot-classification">
-            {CLASSIFICATION_LABELS[response.classification]}
-          </Badge>
+          <ClassificationChip
+            classification={response.classification}
+            data-testid="copilot-classification"
+          />
           <Badge variant="outline" data-testid="copilot-grounding">
             {GROUNDING_LABELS[response.grounding]}
           </Badge>
@@ -120,7 +100,7 @@ export function CopilotAnswer({
           </Badge>
         </div>
         <p className="text-xs text-muted-foreground">
-          Read the whole answer at the level of its weakest claim: {CLASSIFICATION_NOTE[response.classification]}
+          Read the whole answer at the level of its weakest claim: {classificationNote(response.classification)}
         </p>
       </Card>
 
@@ -382,9 +362,7 @@ function ClaimRow({
         )}
         <span className="font-mono text-[10px] text-muted-foreground">{claim.id}</span>
         <span className="min-w-0 flex-1 text-foreground">{claim.statement}</span>
-        <Badge variant={badgeVariant(claim.classification)} className="shrink-0">
-          {CLASSIFICATION_LABELS[claim.classification]}
-        </Badge>
+        <ClassificationChip classification={claim.classification} className="shrink-0" />
         <span className="shrink-0 font-mono text-[10px] text-muted-foreground">{claim.confidence.toFixed(2)}</span>
       </button>
 
@@ -392,7 +370,7 @@ function ClaimRow({
         <div className="ml-6 flex flex-col gap-2 border-l border-border pl-3 pt-1.5 text-xs" data-testid="copilot-claim-detail">
           <p className="text-muted-foreground">{claim.explanation}</p>
           <span className="text-[10px] text-muted-foreground">
-            {CLASSIFICATION_NOTE[claim.classification]} · {claim.derivation === "derived" ? "computed by the retrieval layer" : "read from a persisted record"}
+            {classificationNote(claim.classification)} · {claim.derivation === "derived" ? "computed by the retrieval layer" : "read from a persisted record"}
           </span>
           <div className="flex flex-col gap-1" data-testid="copilot-claim-citations">
             {groups

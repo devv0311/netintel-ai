@@ -5,7 +5,10 @@ import { Loader2, ShieldAlert } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { ClassificationChip } from "@/components/ui/classification-chip";
+import { ProvenanceBlock } from "@/components/ui/provenance-block";
 import { formatCount } from "@/lib/format";
+import type { EvidenceClassification } from "@/lib/domain/provenance";
 import type { EdgeDetail } from "@/lib/graph/types";
 
 /**
@@ -66,9 +69,10 @@ export function GraphEdgeDetail({ edgeId }: { edgeId: string }) {
           <Badge variant="accent" data-testid="graph-edge-type">
             {detail.relationshipType}
           </Badge>
-          <Badge variant="outline" data-testid="graph-edge-classification">
-            {detail.classification.replaceAll("_", " ")}
-          </Badge>
+          <ClassificationChip
+            classification={detail.classification as EvidenceClassification}
+            data-testid="graph-edge-classification"
+          />
           <span className="text-muted-foreground">confidence {detail.confidence.toFixed(2)}</span>
         </div>
         {detail.conflicts.length > 0 && (
@@ -107,9 +111,7 @@ export function GraphEdgeDetail({ edgeId }: { edgeId: string }) {
             </li>
           ))}
         </ul>
-        <span className="text-muted-foreground">
-          Provenance: {detail.provenance.location} · {detail.provenance.method}
-        </span>
+        <ProvenanceBlock provenance={detail.provenance} className="mt-1" />
       </div>
     </Card>
   );
