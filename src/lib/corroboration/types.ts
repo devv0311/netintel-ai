@@ -35,6 +35,8 @@ import type {
   CorroborationKind,
 } from "@/lib/domain/corroboration";
 
+export type { CorroborationClassification, CorroborationFindingType, CorroborationKind };
+
 export const CORROBORATION_STAGES = [
   "load_graph_state",
   "build_activity_index",
@@ -177,6 +179,7 @@ export interface CorroborationFindingView {
 }
 
 export interface CorroborationFindingsFilter {
+  kind: CorroborationKind | null;
   type: CorroborationFindingType | null;
   classification: CorroborationClassification | null;
   entityId: string | null;

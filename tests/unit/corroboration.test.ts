@@ -618,6 +618,121 @@ describe("synthesizeCorroboration", () => {
 });
 
 // ---------------------------------------------------------------------------
+// verify — validation + provenance invariants
+// ---------------------------------------------------------------------------
+
+describe("verify.validateOutputs + assertProvenance", () => {
+  function goodFinding(overrides: Record<string, unknown> = {}) {
+    return {
+      id: "cf1",
+      investigationId: "inv1",
+      graphVersion: "v1",
+      findingType: "spatial_co_location" as const,
+      kind: "spatial" as const,
+      entityIds: ["entity_a", "entity_b"],
+      locationIds: ["loc_z"],
+      window: { start: "2025-07-01T10:00:00.000Z", end: "2025-07-01T12:00:00.000Z" },
+      value: { locationId: "loc_z" },
+      method: "corroboration:spatial_co_location",
+      explanation: "test",
+      classification: "algorithmic_signal" as const,
+      evidenceItemIds: ["item_1"],
+      supportingRecordIds: ["cdr_1"],
+      provenance: {
+        source: "item_1",
+        location: "graph_version:v1",
+        method: "corroboration:spatial_co_location",
+        confidence: 1,
+        processingHistory: ["graph:synthesized:v1", "corroboration:spatial_co_location"],
+        timestamp: NOW,
+      },
+      ...overrides,
+    };
+  }
+
+  it("rejects a corroborated_fact that cites fewer than 2 evidence items (schema refinement)", async () => {
+    const { validateOutputs } = await import("@/lib/corroboration/verify");
+    expect(() => validateOutputs([goodFinding({ classification: "corroborated_fact", evidenceItemIds: ["only_one"] }) as never])).toThrow();
+  });
+
+  it("rejects a contradiction that is not an algorithmic_signal (schema refinement)", async () => {
+    const { validateOutputs } = await import("@/lib/corroboration/verify");
+    expect(() =>
+      validateOutputs([
+        goodFinding({
+          findingType: "spatiotemporal_contradiction",
+          kind: "spatiotemporal",
+          classification: "corroborated_fact",
+          entityIds: ["entity_a"],
+          evidenceItemIds: ["i1", "i2"],
+        }) as never,
+      ]),
+    ).toThrow();
+  });
+
+  it("rejects an entity endpoint that does not resolve to a known entity", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/corroboration/verify");
+    const { findings } = validateOutputs([goodFinding({ entityIds: ["entity_a", "does_not_exist"] }) as never]);
+    expect(() =>
+      assertProvenance(findings, new Set(["entity_a", "entity_b"]), new Set(["loc_z"]), new Set(["item_1"]), "v1"),
+    ).toThrow();
+  });
+
+  it("rejects a location endpoint that does not resolve to a known location", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/corroboration/verify");
+    const { findings } = validateOutputs([goodFinding({ locationIds: ["loc_missing"] }) as never]);
+    expect(() =>
+      assertProvenance(findings, new Set(["entity_a", "entity_b"]), new Set(["loc_z"]), new Set(["item_1"]), "v1"),
+    ).toThrow();
+  });
+
+  it("rejects an evidence item id that does not resolve to a persisted evidence item", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/corroboration/verify");
+    const { findings } = validateOutputs([goodFinding() as never]);
+    expect(() =>
+      assertProvenance(findings, new Set(["entity_a", "entity_b"]), new Set(["loc_z"]), new Set(["some_other_item"]), "v1"),
+    ).toThrow();
+  });
+
+  it("rejects a finding stamped with the wrong graph version", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/corroboration/verify");
+    const { findings } = validateOutputs([goodFinding({ graphVersion: "stale" }) as never]);
+    expect(() =>
+      assertProvenance(findings, new Set(["entity_a", "entity_b"]), new Set(["loc_z"]), new Set(["item_1"]), "v1"),
+    ).toThrow();
+  });
+
+  it("accepts a well-formed finding with resolvable endpoints and evidence", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/corroboration/verify");
+    const { findings } = validateOutputs([goodFinding() as never]);
+    const count = assertProvenance(
+      findings,
+      new Set(["entity_a", "entity_b"]),
+      new Set(["loc_z"]),
+      new Set(["item_1"]),
+      "v1",
+    );
+    expect(count).toBe(1);
+  });
+
+  it("accepts a spatial_proximity finding that carries no subject entities", async () => {
+    const { validateOutputs, assertProvenance } = await import("@/lib/corroboration/verify");
+    const { findings } = validateOutputs([
+      goodFinding({
+        findingType: "spatial_proximity",
+        kind: "spatial",
+        entityIds: [],
+        locationIds: ["loc_z", "loc_z2"],
+        window: null,
+        method: "corroboration:haversine_proximity",
+      }) as never,
+    ]);
+    const count = assertProvenance(findings, new Set(), new Set(["loc_z", "loc_z2"]), new Set(["item_1"]), "v1");
+    expect(count).toBe(1);
+  });
+});
+
+// ---------------------------------------------------------------------------
 // ground-truth isolation — source scan
 // ---------------------------------------------------------------------------
 
