@@ -1,0 +1,327 @@
+{
+  "experiment": "cross-source-entity-resolution",
+  "dataClass": "real-collected-public-record",
+  "sources": [
+    {
+      "sourceId": "SRC-002",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+      "retrievedAt": "2026-09-03T19:52:58.411Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "82fb37074e601c74764bde4a56aa634ce6a3933d16bfd351cf5ff02cf72e2892"
+    },
+    {
+      "sourceId": "SRC-001",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "retrievedAt": "2026-09-03T19:52:56.323Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "1c9cea783f81cbd3dc0437f8d225bc5e4ec9ea2609ee0860f3ad7545ce7cd677"
+    }
+  ],
+  "corpus": "evidence/public-pilot/gleif-wikidata-cross.corpus.json",
+  "ranAt": "2026-09-03T19:53:09.790Z",
+  "resolverModified": false,
+  "counts": {
+    "records": 51,
+    "subjects": 26,
+    "crossSourcePairs": 25,
+    "entities": 25,
+    "aliases": 54,
+    "relationships": 0,
+    "graphCounts": {
+      "entitiesConsidered": 25,
+      "extractedRecordsConsidered": 540,
+      "nodesByKind": {
+        "organisation": 25
+      },
+      "edgesByType": {}
+    }
+  },
+  "metrics": {
+    "crossSourceJoinRate": {
+      "n": 25,
+      "d": 25,
+      "pct": "100.0%"
+    },
+    "identifierMatchRate": {
+      "n": 25,
+      "d": 25,
+      "pct": "100.0%"
+    },
+    "exactNameMatchRate": {
+      "n": 0,
+      "d": 25,
+      "pct": "0.0%"
+    },
+    "byteIdenticalNamePairs": {
+      "n": 0,
+      "d": 25,
+      "pct": "0.0%"
+    },
+    "aliasMatchRate": {
+      "n": 28,
+      "d": 28,
+      "pct": "100.0%"
+    },
+    "unresolvedRate": {
+      "n": 0,
+      "d": 51,
+      "pct": "0.0%"
+    },
+    "falseMergeRate": {
+      "n": 1,
+      "d": 25,
+      "pct": "4.0%"
+    },
+    "fragmentationRate": {
+      "n": 0,
+      "d": 26,
+      "pct": "0.0%"
+    },
+    "provenanceCompleteness": {
+      "n": 670,
+      "d": 670,
+      "pct": "100.0%"
+    }
+  },
+  "nameVariation": [
+    {
+      "variation": "identical",
+      "pairs": 0,
+      "joined": 0,
+      "failed": 0,
+      "failureRate": "n/a",
+      "cases": []
+    },
+    {
+      "variation": "case_only",
+      "pairs": 11,
+      "joined": 11,
+      "failed": 0,
+      "failureRate": "0.0%",
+      "cases": [
+        {
+          "subjectKey": "LEI:984500AF53B3E2BI4926",
+          "gleif": "BHARAT ELECTRONICS",
+          "wikidata": "Bharat Electronics",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800PBD2MJ1IMW5380",
+          "gleif": "INOX LEISURE LIMITED",
+          "wikidata": "INOX Leisure Limited",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800AKDC7T933T3I86",
+          "gleif": "HINDUSTAN AERONAUTICS LIMITED",
+          "wikidata": "Hindustan Aeronautics Limited",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800569A6H12LH4677",
+          "gleif": "ACC LIMITED",
+          "wikidata": "ACC Limited",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:3358007X5FQ2R445Z747",
+          "gleif": "BHARAT HEAVY ELECTRICALS LIMITED",
+          "wikidata": "Bharat Heavy Electricals Limited",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800PJLUEOB8914F48",
+          "gleif": "DLF LIMITED",
+          "wikidata": "DLF Limited",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800ZJXMF183ZCQI90",
+          "gleif": "STEEL AUTHORITY OF INDIA LIMITED",
+          "wikidata": "Steel Authority of India Limited",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800WLOU3OFWFTMP43",
+          "gleif": "ITC LIMITED",
+          "wikidata": "ITC Limited",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:5493003UOETFYRONLG31",
+          "gleif": "RELIANCE INDUSTRIES LIMITED",
+          "wikidata": "Reliance Industries Limited",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:5493001JZ37UBBZF6L49",
+          "gleif": "STATE BANK OF INDIA",
+          "wikidata": "State Bank of India",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:6HHLXIOGCDNZ4IRAIW26",
+          "gleif": "CUBIC CORPORATION",
+          "wikidata": "Cubic Corporation",
+          "joined": true
+        }
+      ]
+    },
+    {
+      "variation": "transliteration",
+      "pairs": 2,
+      "joined": 2,
+      "failed": 0,
+      "failureRate": "0.0%",
+      "cases": [
+        {
+          "subjectKey": "LEI:253400DR5QSH8MEGZZ11",
+          "gleif": "Публичное акционерное общество \"Юнипро\"",
+          "wikidata": "Unipro",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:529900RYRJUN78A7PL87",
+          "gleif": "日本ペイントホールディングス株式会社",
+          "wikidata": "Nippon Paint",
+          "joined": true
+        }
+      ]
+    },
+    {
+      "variation": "suffix",
+      "pairs": 10,
+      "joined": 10,
+      "failed": 0,
+      "failureRate": "0.0%",
+      "cases": [
+        {
+          "subjectKey": "LEI:33580047Q2XHGIB4Q674",
+          "gleif": "FIITJEE LIMITED",
+          "wikidata": "FIITJEE",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800SB4EYU1F7N9Q09",
+          "gleif": "AIR INDIA LIMITED",
+          "wikidata": "Air India",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800WPNZ3ELJCQ3U26",
+          "gleif": "MAHANAGAR TELEPHONE NIGAM LIMITED",
+          "wikidata": "Mahanagar Telephone Nigam",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800FPDZ9MRSNO7N41",
+          "gleif": "OIL AND NATURAL GAS CORPORATION LIMITED",
+          "wikidata": "Oil and Natural Gas Corporation",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:3358001BZKWERVWYCK35",
+          "gleif": "ASHOK LEYLAND LIMITED",
+          "wikidata": "Ashok Leyland",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:335800OVDPY3DVZR2798",
+          "gleif": "DR. REDDY'S LABORATORIES LIMITED",
+          "wikidata": "Dr. Reddy's Laboratories",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:3358003FR3JIC5FRXA90",
+          "gleif": "LARSEN & TOUBRO LIMITED",
+          "wikidata": "Larsen & Toubro",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:3358003B573EV4KB4Z02",
+          "gleif": "MAHINDRA AND MAHINDRA LIMITED",
+          "wikidata": "Mahindra & Mahindra",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:549300C1F8OLYSOQYB65",
+          "gleif": "HCL TECHNOLOGIES LIMITED",
+          "wikidata": "HCL Technologies",
+          "joined": true
+        },
+        {
+          "subjectKey": "LEI:R7RX8ER1V4666J8D1I38",
+          "gleif": "ICICI BANK LIMITED",
+          "wikidata": "ICICI Bank",
+          "joined": true
+        }
+      ]
+    },
+    {
+      "variation": "abbreviation",
+      "pairs": 1,
+      "joined": 1,
+      "failed": 0,
+      "failureRate": "0.0%",
+      "cases": [
+        {
+          "subjectKey": "LEI:549300CK8SNXO0RB7F13",
+          "gleif": "ELSEVIER B.V.",
+          "wikidata": "Elsevier",
+          "joined": true
+        }
+      ]
+    },
+    {
+      "variation": "name_order",
+      "pairs": 0,
+      "joined": 0,
+      "failed": 0,
+      "failureRate": "n/a",
+      "cases": []
+    },
+    {
+      "variation": "divergent",
+      "pairs": 1,
+      "joined": 1,
+      "failed": 0,
+      "failureRate": "0.0%",
+      "cases": [
+        {
+          "subjectKey": "LEI:335800BO2LHWJJ8TZI32",
+          "gleif": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+          "wikidata": "Tata Motors Ltd",
+          "joined": true
+        }
+      ]
+    }
+  ],
+  "relationshipPreservation": {
+    "stated": 0,
+    "preservedAsFacts": 0,
+    "graphEdges": 0,
+    "unmappedByGraph": []
+  },
+  "resolutionTypeHistogram": {
+    "shared_identifier_merge": 51
+  },
+  "observations": {
+    "falseMerges": [
+      {
+        "entityId": "entity_fea633b49ede17c28390",
+        "subjects": [
+          "LEI:98450016D1DA0D640356",
+          "LEI:253400DR5QSH8MEGZZ11"
+        ],
+        "names": [
+          "UNIPRO",
+          "Публичное акционерное общество \"Юнипро\"",
+          "Unipro"
+        ]
+      }
+    ],
+    "fragmented": []
+  }
+}

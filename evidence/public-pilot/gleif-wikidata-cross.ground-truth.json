@@ -1,0 +1,742 @@
+{
+  "source": "SRC-002",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+  "retrievedAt": "2026-09-03T19:52:58.411Z",
+  "retrievalChannel": "direct-https",
+  "builtFrom": [
+    "data/public/raw/SRC-002/2026-09-03T19-52-58-411Z",
+    "data/public/raw/SRC-001/2026-09-03T19-52-56-323Z"
+  ],
+  "rawSha256": "82fb37074e601c74764bde4a56aa634ce6a3933d16bfd351cf5ff02cf72e2892",
+  "basis": "One LEI denotes exactly one legal entity (ISO 17442). Two records from DIFFERENT publishers that state the same LEI are two observations of one subject — asserted by both publishers, not inferred by us. That is what the resolver has to rediscover from names and identifiers.",
+  "crossSource": true,
+  "sources": [
+    {
+      "sourceId": "SRC-002",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+      "retrievedAt": "2026-09-03T19:52:58.411Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "82fb37074e601c74764bde4a56aa634ce6a3933d16bfd351cf5ff02cf72e2892"
+    },
+    {
+      "sourceId": "SRC-001",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "retrievedAt": "2026-09-03T19:52:56.323Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "1c9cea783f81cbd3dc0437f8d225bc5e4ec9ea2609ee0860f3ad7545ce7cd677"
+    }
+  ],
+  "subjectCount": 26,
+  "recordCount": 51,
+  "records": [
+    {
+      "recordRef": "gleif:984500AF53B3E2BI4926",
+      "registry": "gleif",
+      "subjectKey": "LEI:984500AF53B3E2BI4926",
+      "name": "BHARAT ELECTRONICS",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "M/S BHARAT ELECTRONICS"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:98450016D1DA0D640356",
+      "registry": "gleif",
+      "subjectKey": "LEI:98450016D1DA0D640356",
+      "name": "UNIPRO",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "M/S UNIPRO"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:33580047Q2XHGIB4Q674",
+      "registry": "gleif",
+      "subjectKey": "LEI:33580047Q2XHGIB4Q674",
+      "name": "FIITJEE LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:253400DR5QSH8MEGZZ11",
+      "registry": "gleif",
+      "subjectKey": "LEI:253400DR5QSH8MEGZZ11",
+      "name": "Публичное акционерное общество \"Юнипро\"",
+      "subjectKind": "organisation",
+      "jurisdiction": "RU",
+      "status": "ACTIVE",
+      "aliases": [
+        "PJSC \"Unipro\"",
+        "Public Joint-Stock Company \"Unipro\"",
+        "ПАО \"Юнипро\""
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800PBD2MJ1IMW5380",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800PBD2MJ1IMW5380",
+      "name": "INOX LEISURE LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "INACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800AKDC7T933T3I86",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800AKDC7T933T3I86",
+      "name": "HINDUSTAN AERONAUTICS LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:529900RYRJUN78A7PL87",
+      "registry": "gleif",
+      "subjectKey": "LEI:529900RYRJUN78A7PL87",
+      "name": "日本ペイントホールディングス株式会社",
+      "subjectKind": "organisation",
+      "jurisdiction": "JP",
+      "status": "ACTIVE",
+      "aliases": [
+        "Nippon Paint Holdings Co., Ltd."
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800SB4EYU1F7N9Q09",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800SB4EYU1F7N9Q09",
+      "name": "AIR INDIA LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800WPNZ3ELJCQ3U26",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800WPNZ3ELJCQ3U26",
+      "name": "MAHANAGAR TELEPHONE NIGAM LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800FPDZ9MRSNO7N41",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800FPDZ9MRSNO7N41",
+      "name": "OIL AND NATURAL GAS CORPORATION LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800569A6H12LH4677",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800569A6H12LH4677",
+      "name": "ACC LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:3358001BZKWERVWYCK35",
+      "registry": "gleif",
+      "subjectKey": "LEI:3358001BZKWERVWYCK35",
+      "name": "ASHOK LEYLAND LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:3358007X5FQ2R445Z747",
+      "registry": "gleif",
+      "subjectKey": "LEI:3358007X5FQ2R445Z747",
+      "name": "BHARAT HEAVY ELECTRICALS LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800PJLUEOB8914F48",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800PJLUEOB8914F48",
+      "name": "DLF LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800OVDPY3DVZR2798",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800OVDPY3DVZR2798",
+      "name": "DR. REDDY'S LABORATORIES LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800BO2LHWJJ8TZI32",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800BO2LHWJJ8TZI32",
+      "name": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "TATA MOTORS LIMITED"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:3358003FR3JIC5FRXA90",
+      "registry": "gleif",
+      "subjectKey": "LEI:3358003FR3JIC5FRXA90",
+      "name": "LARSEN & TOUBRO LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800ZJXMF183ZCQI90",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800ZJXMF183ZCQI90",
+      "name": "STEEL AUTHORITY OF INDIA LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:3358003B573EV4KB4Z02",
+      "registry": "gleif",
+      "subjectKey": "LEI:3358003B573EV4KB4Z02",
+      "name": "MAHINDRA AND MAHINDRA LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800WLOU3OFWFTMP43",
+      "registry": "gleif",
+      "subjectKey": "LEI:335800WLOU3OFWFTMP43",
+      "name": "ITC LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:549300C1F8OLYSOQYB65",
+      "registry": "gleif",
+      "subjectKey": "LEI:549300C1F8OLYSOQYB65",
+      "name": "HCL TECHNOLOGIES LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:549300CK8SNXO0RB7F13",
+      "registry": "gleif",
+      "subjectKey": "LEI:549300CK8SNXO0RB7F13",
+      "name": "ELSEVIER B.V.",
+      "subjectKind": "organisation",
+      "jurisdiction": "NL",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:5493003UOETFYRONLG31",
+      "registry": "gleif",
+      "subjectKey": "LEI:5493003UOETFYRONLG31",
+      "name": "RELIANCE INDUSTRIES LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:5493001JZ37UBBZF6L49",
+      "registry": "gleif",
+      "subjectKey": "LEI:5493001JZ37UBBZF6L49",
+      "name": "STATE BANK OF INDIA",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:6HHLXIOGCDNZ4IRAIW26",
+      "registry": "gleif",
+      "subjectKey": "LEI:6HHLXIOGCDNZ4IRAIW26",
+      "name": "CUBIC CORPORATION",
+      "subjectKind": "organisation",
+      "jurisdiction": "US-DE",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:R7RX8ER1V4666J8D1I38",
+      "registry": "gleif",
+      "subjectKey": "LEI:R7RX8ER1V4666J8D1I38",
+      "name": "ICICI BANK LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q69906",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800SB4EYU1F7N9Q09",
+      "name": "Air India",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "एअर इंडिया"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q188087",
+      "registry": "wikidata",
+      "subjectKey": "LEI:253400DR5QSH8MEGZZ11",
+      "name": "Unipro",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "यूनिप्रो"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q188514",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800BO2LHWJJ8TZI32",
+      "name": "Tata Motors Ltd",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "टाटा मोटर्स"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q357095",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800AKDC7T933T3I86",
+      "name": "Hindustan Aeronautics Limited",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q638231",
+      "registry": "wikidata",
+      "subjectKey": "LEI:3358003FR3JIC5FRXA90",
+      "name": "Larsen & Toubro",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "लार्सन एंड टूब्रो"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q649343",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800569A6H12LH4677",
+      "name": "ACC Limited",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "एसीसी लिमिटेड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q726193",
+      "registry": "wikidata",
+      "subjectKey": "LEI:3358001BZKWERVWYCK35",
+      "name": "Ashok Leyland",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "अशोक लेलैंड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q746413",
+      "registry": "wikidata",
+      "subjectKey": "LEI:549300CK8SNXO0RB7F13",
+      "name": "Elsevier",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q848059",
+      "registry": "wikidata",
+      "subjectKey": "LEI:3358003B573EV4KB4Z02",
+      "name": "Mahindra & Mahindra",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "महिन्द्रा एण्ड महिन्द्रा"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q854820",
+      "registry": "wikidata",
+      "subjectKey": "LEI:3358007X5FQ2R445Z747",
+      "name": "Bharat Heavy Electricals Limited",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "भारत हेवी इलेक्ट्रिकल्स लिमिटेड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q908931",
+      "registry": "wikidata",
+      "subjectKey": "LEI:5493003UOETFYRONLG31",
+      "name": "Reliance Industries Limited",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "रिलायन्स इण्डस्ट्रीज"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q908961",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800OVDPY3DVZR2798",
+      "name": "Dr. Reddy's Laboratories",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "डॉ. रेड्डीज लेबोरेटरीज"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q1340361",
+      "registry": "wikidata",
+      "subjectKey": "LEI:5493001JZ37UBBZF6L49",
+      "name": "State Bank of India",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "एसबीआई"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q1371239",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800ZJXMF183ZCQI90",
+      "name": "Steel Authority of India Limited",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "भारतीय इस्पात प्राधिकरण"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q1430541",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800FPDZ9MRSNO7N41",
+      "name": "Oil and Natural Gas Corporation",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "तेल एवं प्राकृतिक गैस निगम लिमिटेड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q1653258",
+      "registry": "wikidata",
+      "subjectKey": "LEI:R7RX8ER1V4666J8D1I38",
+      "name": "ICICI Bank",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "आईसीआईसीआई बैंक"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q1655008",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800WLOU3OFWFTMP43",
+      "name": "ITC Limited",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "आई टी सी लिमिटेड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q1884798",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800WPNZ3ELJCQ3U26",
+      "name": "Mahanagar Telephone Nigam",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "महानगर टेलीफोन निगम लिमिटेड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q3011374",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800PJLUEOB8914F48",
+      "name": "DLF Limited",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "डीएलएफ़ यूनिवर्सल लिमिटेड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q3630918",
+      "registry": "wikidata",
+      "subjectKey": "LEI:984500AF53B3E2BI4926",
+      "name": "Bharat Electronics",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "भारत इलैक्ट्रॉनिक्स लिमिटेड"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q3661655",
+      "registry": "wikidata",
+      "subjectKey": "LEI:529900RYRJUN78A7PL87",
+      "name": "Nippon Paint",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q5192235",
+      "registry": "wikidata",
+      "subjectKey": "LEI:6HHLXIOGCDNZ4IRAIW26",
+      "name": "Cubic Corporation",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q5425747",
+      "registry": "wikidata",
+      "subjectKey": "LEI:33580047Q2XHGIB4Q674",
+      "name": "FIITJEE",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q5629103",
+      "registry": "wikidata",
+      "subjectKey": "LEI:549300C1F8OLYSOQYB65",
+      "name": "HCL Technologies",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "एचसीएल टेक्नोलॉजीज"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "wikidata:Q5972349",
+      "registry": "wikidata",
+      "subjectKey": "LEI:335800PBD2MJ1IMW5380",
+      "name": "INOX Leisure Limited",
+      "subjectKind": "organisation",
+      "jurisdiction": null,
+      "status": null,
+      "aliases": [
+        "आईनॉक्स लीजर लिमिटेड"
+      ],
+      "relations": []
+    }
+  ],
+  "observations": {
+    "exactNameCollisions": [
+      {
+        "name": "bharat electronics",
+        "leis": [
+          "984500AF53B3E2BI4926",
+          "Q3630918"
+        ]
+      },
+      {
+        "name": "unipro",
+        "leis": [
+          "98450016D1DA0D640356",
+          "Q188087"
+        ]
+      },
+      {
+        "name": "inox leisure limited",
+        "leis": [
+          "335800PBD2MJ1IMW5380",
+          "Q5972349"
+        ]
+      },
+      {
+        "name": "hindustan aeronautics limited",
+        "leis": [
+          "335800AKDC7T933T3I86",
+          "Q357095"
+        ]
+      },
+      {
+        "name": "acc limited",
+        "leis": [
+          "335800569A6H12LH4677",
+          "Q649343"
+        ]
+      },
+      {
+        "name": "bharat heavy electricals limited",
+        "leis": [
+          "3358007X5FQ2R445Z747",
+          "Q854820"
+        ]
+      },
+      {
+        "name": "dlf limited",
+        "leis": [
+          "335800PJLUEOB8914F48",
+          "Q3011374"
+        ]
+      },
+      {
+        "name": "steel authority of india limited",
+        "leis": [
+          "335800ZJXMF183ZCQI90",
+          "Q1371239"
+        ]
+      },
+      {
+        "name": "itc limited",
+        "leis": [
+          "335800WLOU3OFWFTMP43",
+          "Q1655008"
+        ]
+      },
+      {
+        "name": "reliance industries limited",
+        "leis": [
+          "5493003UOETFYRONLG31",
+          "Q908931"
+        ]
+      },
+      {
+        "name": "state bank of india",
+        "leis": [
+          "5493001JZ37UBBZF6L49",
+          "Q1340361"
+        ]
+      },
+      {
+        "name": "cubic corporation",
+        "leis": [
+          "6HHLXIOGCDNZ4IRAIW26",
+          "Q5192235"
+        ]
+      }
+    ],
+    "recordsWithAliases": 26,
+    "recordsWithRelations": 0,
+    "droppedDuplicateRows": 0
+  }
+}
