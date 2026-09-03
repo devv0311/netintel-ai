@@ -11,6 +11,7 @@ import type { GraphSnapshot, GraphState } from "@/lib/graph/types";
 
 import { Inspector } from "./inspector/inspector";
 import type { InspectorTarget } from "./inspector/types";
+import { GraphLegend } from "./graph-legend";
 
 /**
  * sigma.js touches browser-only globals (e.g. WebGL2RenderingContext) at
@@ -20,7 +21,7 @@ import type { InspectorTarget } from "./inspector/types";
 const GraphView = dynamic(() => import("./graph-view").then((m) => m.GraphView), {
   ssr: false,
   loading: () => (
-    <div className="flex h-[520px] w-full items-center justify-center rounded-md border border-border bg-card text-xs text-muted-foreground">
+    <div className="flex h-full w-full items-center justify-center rounded-md border border-border bg-card text-xs text-muted-foreground">
       Loading graph canvas…
     </div>
   ),
@@ -186,13 +187,13 @@ export function GraphScreen({
   }
 
   return (
-    <div className="flex flex-col gap-4" data-testid="graph-screen">
-      <div className="flex items-start gap-2.5 rounded-md bg-muted px-3 py-2 text-xs text-muted-foreground">
+    <div className="flex h-full min-h-0 flex-col gap-3" data-testid="graph-screen">
+      <div className="flex shrink-0 items-start gap-2.5 rounded-md bg-muted px-3 py-2 text-xs text-muted-foreground">
         <ShieldAlert className="mt-0.5 size-3.5 shrink-0" aria-hidden />
         <span>Synthetic data only. Every node and edge below is derived from the fabricated Operation DarkNet Delhi corpus.</span>
       </div>
 
-      <div className="flex flex-wrap items-center gap-2 text-xs" data-testid="graph-filters">
+      <div className="flex shrink-0 flex-wrap items-center gap-2 text-xs" data-testid="graph-filters">
         <span className="font-medium">Node kinds:</span>
         {NODE_KINDS.map((k) => (
           <Badge
@@ -228,7 +229,7 @@ export function GraphScreen({
         </Button>
       </div>
 
-      <div className="flex flex-wrap items-center gap-2 text-xs">
+      <div className="flex shrink-0 flex-wrap items-center gap-2 text-xs">
         <label htmlFor="graph-node-picker" className="font-medium">
           Jump to entity:
         </label>
@@ -252,18 +253,24 @@ export function GraphScreen({
         </select>
       </div>
 
-      <div className="flex gap-4">
-        <div className="min-w-0 flex-1">
-          <GraphView
-            snapshot={snapshot}
-            selectedNodeId={selectedNodeId}
-            selectedEdgeId={selectedEdgeId}
-            hiddenKinds={hiddenKinds}
-            hiddenTypes={hiddenTypes}
-            onSelectNode={onCanvasSelectNode}
-            onSelectEdge={onCanvasSelectEdge}
-          />
-          <p className="mt-2 text-xs text-muted-foreground" data-testid="graph-counts">
+      <div className="shrink-0">
+        <GraphLegend />
+      </div>
+
+      <div className="flex min-h-0 flex-1 gap-4">
+        <div className="flex min-h-0 min-w-0 flex-1 flex-col">
+          <div className="min-h-0 flex-1">
+            <GraphView
+              snapshot={snapshot}
+              selectedNodeId={selectedNodeId}
+              selectedEdgeId={selectedEdgeId}
+              hiddenKinds={hiddenKinds}
+              hiddenTypes={hiddenTypes}
+              onSelectNode={onCanvasSelectNode}
+              onSelectEdge={onCanvasSelectEdge}
+            />
+          </div>
+          <p className="mt-2 shrink-0 text-xs text-muted-foreground" data-testid="graph-counts">
             Showing {snapshot.nodes.length} of {snapshot.totalNodes} nodes, {snapshot.edges.length} of{" "}
             {snapshot.totalEdges} edges
             {snapshot.truncated ? " (truncated — focus a node or filter to narrow the view)" : ""}.
