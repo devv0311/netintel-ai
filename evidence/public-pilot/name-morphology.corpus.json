@@ -1,0 +1,489 @@
+{
+  "corpus": {
+    "name": "public-name-morphology",
+    "version": "1.0.0",
+    "seed": null,
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "description": "SYNTHETIC name-morphology fixture for the real-world generalisation experiment. Not collected data; identifiers are deliberately fake (TESTLEI…, Q9000…)."
+  },
+  "investigation": {
+    "name": "Public-data generalisation experiment",
+    "status": "in_progress"
+  },
+  "evidenceSources": [
+    {
+      "key": "gleif",
+      "label": "GLEIF-shaped public records (synthetic morphology fixture)",
+      "sourceType": "structured_dataset"
+    },
+    {
+      "key": "wikidata",
+      "label": "Wikidata-shaped public records (synthetic morphology fixture)",
+      "sourceType": "structured_dataset"
+    }
+  ],
+  "evidenceItems": [
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-1-0",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-1-0",
+        "registry": "gleif",
+        "registryRecordId": "ORG-1-0",
+        "subjectKind": "organisation",
+        "name": "Bharat Chemicals Private Limited",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "TESTLEI0000000000001"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-1-0"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-1-1",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-1-1",
+        "registry": "gleif",
+        "registryRecordId": "ORG-1-1",
+        "subjectKind": "organisation",
+        "name": "Bharat Chemicals Pvt Ltd",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "TESTLEI0000000000001"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-1-1"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-1-2",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-1-2",
+        "registry": "gleif",
+        "registryRecordId": "ORG-1-2",
+        "subjectKind": "organisation",
+        "name": "Bharat Chemicals Pvt. Ltd.",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-1-2"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-1-3",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-1-3",
+        "registry": "gleif",
+        "registryRecordId": "ORG-1-3",
+        "subjectKind": "organisation",
+        "name": "भारत केमिकल्स प्राइवेट लिमिटेड",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-1-3"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-1-4",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-1-4",
+        "registry": "gleif",
+        "registryRecordId": "ORG-1-4",
+        "subjectKind": "organisation",
+        "name": "BCPL",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-1-4"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-2-0",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-2-0",
+        "registry": "gleif",
+        "registryRecordId": "ORG-2-0",
+        "subjectKind": "organisation",
+        "name": "Deccan Logistics Limited",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "TESTLEI0000000000002"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-2-0"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-2-1",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-2-1",
+        "registry": "gleif",
+        "registryRecordId": "ORG-2-1",
+        "subjectKind": "organisation",
+        "name": "DECCAN LOGISTICS LTD",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-2-1"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-2-2",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-2-2",
+        "registry": "gleif",
+        "registryRecordId": "ORG-2-2",
+        "subjectKind": "organisation",
+        "name": "Deccan Logistics Ltd.",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "TESTLEI0000000000002"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-2-2"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-2-3",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-2-3",
+        "registry": "gleif",
+        "registryRecordId": "ORG-2-3",
+        "subjectKind": "organisation",
+        "name": "दक्कन लॉजिस्टिक्स लिमिटेड",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-2-3"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:ORG-3-0",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:ORG-3-0",
+        "registry": "wikidata",
+        "registryRecordId": "ORG-3-0",
+        "subjectKind": "organisation",
+        "name": "Nilgiri Textile Mills Company",
+        "identifiers": [
+          {
+            "scheme": "WIKIDATA",
+            "value": "Q90000001"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/ORG-3-0"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:ORG-3-1",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:ORG-3-1",
+        "registry": "wikidata",
+        "registryRecordId": "ORG-3-1",
+        "subjectKind": "organisation",
+        "name": "Nilgiri Textile Mills Co.",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/ORG-3-1"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:ORG-3-2",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:ORG-3-2",
+        "registry": "wikidata",
+        "registryRecordId": "ORG-3-2",
+        "subjectKind": "organisation",
+        "name": "NTMC",
+        "aliases": [
+          "Nilgiri Textile Mills Company"
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/ORG-3-2"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-4-0",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-4-0",
+        "registry": "gleif",
+        "registryRecordId": "ORG-4-0",
+        "subjectKind": "organisation",
+        "name": "Konkan Shipping & Freight Private Limited",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "TESTLEI0000000000004"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-4-0"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-4-1",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-4-1",
+        "registry": "gleif",
+        "registryRecordId": "ORG-4-1",
+        "subjectKind": "organisation",
+        "name": "Konkan Shipping and Freight Pvt Ltd",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-4-1"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-4-2",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-4-2",
+        "registry": "gleif",
+        "registryRecordId": "ORG-4-2",
+        "subjectKind": "organisation",
+        "name": "कोंकण शिपिंग एंड फ्रेट प्राइवेट लिमिटेड",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "TESTLEI0000000000004"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-4-2"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:PER-1-0",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:PER-1-0",
+        "registry": "wikidata",
+        "registryRecordId": "PER-1-0",
+        "subjectKind": "person",
+        "name": "Narayana Murthy Rajagopalan",
+        "identifiers": [
+          {
+            "scheme": "WIKIDATA",
+            "value": "Q90000010"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/PER-1-0"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:PER-1-1",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:PER-1-1",
+        "registry": "wikidata",
+        "registryRecordId": "PER-1-1",
+        "subjectKind": "person",
+        "name": "Rajagopalan, Narayana Murthy",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/PER-1-1"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:PER-1-2",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:PER-1-2",
+        "registry": "wikidata",
+        "registryRecordId": "PER-1-2",
+        "subjectKind": "person",
+        "name": "N. M. Rajagopalan",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/PER-1-2"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:PER-1-3",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:PER-1-3",
+        "registry": "wikidata",
+        "registryRecordId": "PER-1-3",
+        "subjectKind": "person",
+        "name": "नारायण मूर्ति राजगोपालन",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/PER-1-3"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:PER-2-0",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:PER-2-0",
+        "registry": "wikidata",
+        "registryRecordId": "PER-2-0",
+        "subjectKind": "person",
+        "name": "Priya Venkataraman",
+        "identifiers": [
+          {
+            "scheme": "WIKIDATA",
+            "value": "Q90000011"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/PER-2-0"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:PER-2-1",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:PER-2-1",
+        "registry": "wikidata",
+        "registryRecordId": "PER-2-1",
+        "subjectKind": "person",
+        "name": "Venkataraman, Priya",
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/PER-2-1"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:PER-2-2",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:PER-2-2",
+        "registry": "wikidata",
+        "registryRecordId": "PER-2-2",
+        "subjectKind": "person",
+        "name": "Priya Venkataraman",
+        "identifiers": [
+          {
+            "scheme": "WIKIDATA",
+            "value": "Q90000011"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/wikidata/PER-2-2"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-5A-0",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-5A-0",
+        "registry": "gleif",
+        "registryRecordId": "ORG-5A-0",
+        "subjectKind": "organisation",
+        "name": "Kumar Enterprises Private Limited",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "TESTLEI000000000005A"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-5A-0"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:ORG-5B-0",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:ORG-5B-0",
+        "registry": "gleif",
+        "registryRecordId": "ORG-5B-0",
+        "subjectKind": "organisation",
+        "name": "Kumar Enterprises Private Limited",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "TESTLEI000000000005B"
+          }
+        ],
+        "retrievedAt": "2026-09-03T00:00:00.000Z",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://example.invalid/gleif/ORG-5B-0"
+      }
+    }
+  ],
+  "locations": [],
+  "communicationEvents": [],
+  "financialTransactions": []
+}

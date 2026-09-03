@@ -1,0 +1,173 @@
+{
+  "note": "Subject key per record. NOT collected data.",
+  "records": [
+    {
+      "recordRef": "gleif:ORG-1-0",
+      "subjectKey": "ORG-1",
+      "variation": "identical_with_identifier",
+      "withIdentifier": true,
+      "name": "Bharat Chemicals Private Limited"
+    },
+    {
+      "recordRef": "gleif:ORG-1-1",
+      "subjectKey": "ORG-1",
+      "variation": "suffix",
+      "withIdentifier": true,
+      "name": "Bharat Chemicals Pvt Ltd"
+    },
+    {
+      "recordRef": "gleif:ORG-1-2",
+      "subjectKey": "ORG-1",
+      "variation": "suffix",
+      "withIdentifier": false,
+      "name": "Bharat Chemicals Pvt. Ltd."
+    },
+    {
+      "recordRef": "gleif:ORG-1-3",
+      "subjectKey": "ORG-1",
+      "variation": "transliteration",
+      "withIdentifier": false,
+      "name": "भारत केमिकल्स प्राइवेट लिमिटेड"
+    },
+    {
+      "recordRef": "gleif:ORG-1-4",
+      "subjectKey": "ORG-1",
+      "variation": "abbreviation",
+      "withIdentifier": false,
+      "name": "BCPL"
+    },
+    {
+      "recordRef": "gleif:ORG-2-0",
+      "subjectKey": "ORG-2",
+      "variation": "identical_with_identifier",
+      "withIdentifier": true,
+      "name": "Deccan Logistics Limited"
+    },
+    {
+      "recordRef": "gleif:ORG-2-1",
+      "subjectKey": "ORG-2",
+      "variation": "suffix",
+      "withIdentifier": false,
+      "name": "DECCAN LOGISTICS LTD"
+    },
+    {
+      "recordRef": "gleif:ORG-2-2",
+      "subjectKey": "ORG-2",
+      "variation": "suffix",
+      "withIdentifier": true,
+      "name": "Deccan Logistics Ltd."
+    },
+    {
+      "recordRef": "gleif:ORG-2-3",
+      "subjectKey": "ORG-2",
+      "variation": "transliteration",
+      "withIdentifier": false,
+      "name": "दक्कन लॉजिस्टिक्स लिमिटेड"
+    },
+    {
+      "recordRef": "wikidata:ORG-3-0",
+      "subjectKey": "ORG-3",
+      "variation": "identical_with_identifier",
+      "withIdentifier": true,
+      "name": "Nilgiri Textile Mills Company"
+    },
+    {
+      "recordRef": "wikidata:ORG-3-1",
+      "subjectKey": "ORG-3",
+      "variation": "suffix",
+      "withIdentifier": false,
+      "name": "Nilgiri Textile Mills Co."
+    },
+    {
+      "recordRef": "wikidata:ORG-3-2",
+      "subjectKey": "ORG-3",
+      "variation": "abbreviation",
+      "withIdentifier": false,
+      "name": "NTMC"
+    },
+    {
+      "recordRef": "gleif:ORG-4-0",
+      "subjectKey": "ORG-4",
+      "variation": "identical_with_identifier",
+      "withIdentifier": true,
+      "name": "Konkan Shipping & Freight Private Limited"
+    },
+    {
+      "recordRef": "gleif:ORG-4-1",
+      "subjectKey": "ORG-4",
+      "variation": "suffix",
+      "withIdentifier": false,
+      "name": "Konkan Shipping and Freight Pvt Ltd"
+    },
+    {
+      "recordRef": "gleif:ORG-4-2",
+      "subjectKey": "ORG-4",
+      "variation": "transliteration",
+      "withIdentifier": true,
+      "name": "कोंकण शिपिंग एंड फ्रेट प्राइवेट लिमिटेड"
+    },
+    {
+      "recordRef": "wikidata:PER-1-0",
+      "subjectKey": "PER-1",
+      "variation": "identical_with_identifier",
+      "withIdentifier": true,
+      "name": "Narayana Murthy Rajagopalan"
+    },
+    {
+      "recordRef": "wikidata:PER-1-1",
+      "subjectKey": "PER-1",
+      "variation": "name_order",
+      "withIdentifier": false,
+      "name": "Rajagopalan, Narayana Murthy"
+    },
+    {
+      "recordRef": "wikidata:PER-1-2",
+      "subjectKey": "PER-1",
+      "variation": "abbreviation",
+      "withIdentifier": false,
+      "name": "N. M. Rajagopalan"
+    },
+    {
+      "recordRef": "wikidata:PER-1-3",
+      "subjectKey": "PER-1",
+      "variation": "transliteration",
+      "withIdentifier": false,
+      "name": "नारायण मूर्ति राजगोपालन"
+    },
+    {
+      "recordRef": "wikidata:PER-2-0",
+      "subjectKey": "PER-2",
+      "variation": "identical_with_identifier",
+      "withIdentifier": true,
+      "name": "Priya Venkataraman"
+    },
+    {
+      "recordRef": "wikidata:PER-2-1",
+      "subjectKey": "PER-2",
+      "variation": "name_order",
+      "withIdentifier": false,
+      "name": "Venkataraman, Priya"
+    },
+    {
+      "recordRef": "wikidata:PER-2-2",
+      "subjectKey": "PER-2",
+      "variation": "identical_with_identifier",
+      "withIdentifier": true,
+      "name": "Priya Venkataraman"
+    },
+    {
+      "recordRef": "gleif:ORG-5A-0",
+      "subjectKey": "ORG-5A",
+      "variation": "same_name_different_subject",
+      "withIdentifier": true,
+      "name": "Kumar Enterprises Private Limited"
+    },
+    {
+      "recordRef": "gleif:ORG-5B-0",
+      "subjectKey": "ORG-5B",
+      "variation": "same_name_different_subject",
+      "withIdentifier": true,
+      "name": "Kumar Enterprises Private Limited"
+    }
+  ]
+}

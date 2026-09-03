@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "corpus": {
+      "name": "public-name-morphology",
+      "version": "1.0.0",
+      "seed": null,
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "description": "SYNTHETIC name-morphology fixture for the real-world generalisation experiment. Not collected data; identifiers are deliberately fake (TESTLEI…, Q9000…)."
+    },
+    "corpusPath": "evidence/public-pilot/name-morphology.corpus.json",
+    "note": "Rates are properties of this fixture by construction. How often each variation occurs in GLEIF or Wikidata is an empirical question requiring the real collection, which was blocked by egress policy.",
+    "subjectMentions": 24,
+    "subjects": 8,
+    "systemEntities": 20,
+    "generatedAt": "2026-09-03T18:14:09.122Z"
+  },
+  "measures": {
+    "identifierMatchRate": {
+      "value": 0.3333333333333333,
+      "numerator": 8,
+      "denominator": 24
+    },
+    "exactNameMatchRate": {
+      "value": 0,
+      "numerator": 0,
+      "denominator": 24
+    },
+    "aliasMatchRate": {
+      "value": 0,
+      "numerator": 0,
+      "denominator": 1
+    },
+    "unresolvedRate": {
+      "value": 0,
+      "numerator": 0,
+      "denominator": 24
+    },
+    "unlinkedVariantRate": {
+      "value": 0.8235294117647058,
+      "numerator": 14,
+      "denominator": 17
+    },
+    "subjectsRecoveredWhole": {
+      "value": 0.25,
+      "numerator": 2,
+      "denominator": 8
+    },
+    "falseMergeRate": {
+      "value": 0,
+      "numerator": 0,
+      "denominator": 20
+    },
+    "provenanceCompleteness": {
+      "value": 1,
+      "numerator": 228,
+      "denominator": 228
+    }
+  },
+  "tierComparison": {
+    "tierA_identifier": 8,
+    "tierB_exactName": 0,
+    "newEntity": 16,
+    "ambiguous": 0
+  },
+  "byVariation": {
+    "identical_with_identifier": {
+      "total": 7,
+      "joinedSubjectCluster": 7,
+      "failed": 0,
+      "examples": []
+    },
+    "suffix": {
+      "total": 6,
+      "joinedSubjectCluster": 2,
+      "failed": 4,
+      "examples": [
+        "ORG-1: \"Bharat Chemicals Pvt. Ltd.\"",
+        "ORG-2: \"DECCAN LOGISTICS LTD\"",
+        "ORG-3: \"Nilgiri Textile Mills Co.\"",
+        "ORG-4: \"Konkan Shipping and Freight Pvt Ltd\""
+      ]
+    },
+    "transliteration": {
+      "total": 4,
+      "joinedSubjectCluster": 1,
+      "failed": 3,
+      "examples": [
+        "ORG-1: \"भारत केमिकल्स प्राइवेट लिमिटेड\"",
+        "ORG-2: \"दक्कन लॉजिस्टिक्स लिमिटेड\"",
+        "PER-1: \"नारायण मूर्ति राजगोपालन\""
+      ]
+    },
+    "abbreviation": {
+      "total": 3,
+      "joinedSubjectCluster": 0,
+      "failed": 3,
+      "examples": [
+        "ORG-1: \"BCPL\"",
+        "ORG-3: \"NTMC\"",
+        "PER-1: \"N. M. Rajagopalan\""
+      ]
+    },
+    "name_order": {
+      "total": 2,
+      "joinedSubjectCluster": 0,
+      "failed": 2,
+      "examples": [
+        "PER-1: \"Rajagopalan, Narayana Murthy\"",
+        "PER-2: \"Venkataraman, Priya\""
+      ]
+    },
+    "same_name_different_subject": {
+      "total": 2,
+      "joinedSubjectCluster": 0,
+      "failed": 2,
+      "examples": []
+    }
+  },
+  "falseMerges": [],
+  "clusters": [
+    {
+      "entityId": "entity_381a7ee7f9de4ba4db85",
+      "subjects": [
+        "ORG-1"
+      ],
+      "names": [
+        "Bharat Chemicals Private Limited",
+        "Bharat Chemicals Pvt Ltd"
+      ]
+    },
+    {
+      "entityId": "entity_1519f9e5409bbb008c15",
+      "subjects": [
+        "ORG-1"
+      ],
+      "names": [
+        "Bharat Chemicals Pvt. Ltd."
+      ]
+    },
+    {
+      "entityId": "entity_d19fe3326343a3a0e336",
+      "subjects": [
+        "ORG-1"
+      ],
+      "names": [
+        "भारत केमिकल्स प्राइवेट लिमिटेड"
+      ]
+    },
+    {
+      "entityId": "entity_5e934b5af5b31dbc8fb0",
+      "subjects": [
+        "ORG-1"
+      ],
+      "names": [
+        "BCPL"
+      ]
+    },
+    {
+      "entityId": "entity_df2d8853543e176cd2d3",
+      "subjects": [
+        "ORG-2"
+      ],
+      "names": [
+        "Deccan Logistics Limited",
+        "Deccan Logistics Ltd."
+      ]
+    },
+    {
+      "entityId": "entity_72caf526a49e1d2c33c0",
+      "subjects": [
+        "ORG-2"
+      ],
+      "names": [
+        "DECCAN LOGISTICS LTD"
+      ]
+    },
+    {
+      "entityId": "entity_4aaf4fe5151c2acdf9d2",
+      "subjects": [
+        "ORG-2"
+      ],
+      "names": [
+        "दक्कन लॉजिस्टिक्स लिमिटेड"
+      ]
+    },
+    {
+      "entityId": "entity_1604e26e675c36b6bed0",
+      "subjects": [
+        "ORG-3"
+      ],
+      "names": [
+        "Nilgiri Textile Mills Company"
+      ]
+    },
+    {
+      "entityId": "entity_86d05acf29c22b8463f4",
+      "subjects": [
+        "ORG-3"
+      ],
+      "names": [
+        "Nilgiri Textile Mills Co."
+      ]
+    },
+    {
+      "entityId": "entity_0492372f7488c6199810",
+      "subjects": [
+        "ORG-3"
+      ],
+      "names": [
+        "NTMC"
+      ]
+    },
+    {
+      "entityId": "entity_16e24bc30abc7ebdf26f",
+      "subjects": [
+        "ORG-4"
+      ],
+      "names": [
+        "Konkan Shipping & Freight Private Limited",
+        "कोंकण शिपिंग एंड फ्रेट प्राइवेट लिमिटेड"
+      ]
+    },
+    {
+      "entityId": "entity_f16a026e85a3f32879ca",
+      "subjects": [
+        "ORG-4"
+      ],
+      "names": [
+        "Konkan Shipping and Freight Pvt Ltd"
+      ]
+    },
+    {
+      "entityId": "entity_287a12832e3cba25e3fc",
+      "subjects": [
+        "PER-1"
+      ],
+      "names": [
+        "Narayana Murthy Rajagopalan"
+      ]
+    },
+    {
+      "entityId": "entity_af8cb320dc9fd335e2ec",
+      "subjects": [
+        "PER-1"
+      ],
+      "names": [
+        "Rajagopalan, Narayana Murthy"
+      ]
+    },
+    {
+      "entityId": "entity_7d38cb4edcd6877fe3b0",
+      "subjects": [
+        "PER-1"
+      ],
+      "names": [
+        "N. M. Rajagopalan"
+      ]
+    },
+    {
+      "entityId": "entity_55536255f553d3d90347",
+      "subjects": [
+        "PER-1"
+      ],
+      "names": [
+        "नारायण मूर्ति राजगोपालन"
+      ]
+    },
+    {
+      "entityId": "entity_a1c20ae51f750366d107",
+      "subjects": [
+        "PER-2"
+      ],
+      "names": [
+        "Priya Venkataraman",
+        "Priya Venkataraman"
+      ]
+    },
+    {
+      "entityId": "entity_adca280bb8526de00f12",
+      "subjects": [
+        "PER-2"
+      ],
+      "names": [
+        "Venkataraman, Priya"
+      ]
+    },
+    {
+      "entityId": "entity_683c6cf50efbef83bbd8",
+      "subjects": [
+        "ORG-5A"
+      ],
+      "names": [
+        "Kumar Enterprises Private Limited"
+      ]
+    },
+    {
+      "entityId": "entity_5f51b57b021979bd1735",
+      "subjects": [
+        "ORG-5B"
+      ],
+      "names": [
+        "Kumar Enterprises Private Limited"
+      ]
+    }
+  ]
+}
