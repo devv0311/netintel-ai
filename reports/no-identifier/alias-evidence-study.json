@@ -1,0 +1,837 @@
+{
+  "study": "publisher-stated-aliases-as-match-candidates",
+  "question": "If Tier B were allowed to match on publisher-stated aliases as well as the primary name, what would it gain and what would it break?",
+  "changesNothing": "This script does not import the resolver, run the pipeline or write a database. It replays the resolver's own deterministic normalisation over the same real corpus and reports what an alias-aware Tier B WOULD have decided. No behaviour was enabled.",
+  "corpus": "evidence/no-identifier/no-identifier-pilot-anchored.corpus.json",
+  "ranAt": "2026-09-03T22:10:23.173Z",
+  "counts": {
+    "positivePairs": 75,
+    "aliasStringsInCorpus": 107,
+    "gleifReferenceRecords": 179,
+    "nameOnlyIndexKeys": 179,
+    "aliasIndexKeys": 229
+  },
+  "recall": {
+    "baselineJoined": {
+      "n": 53,
+      "d": 75,
+      "pct": "70.7%"
+    },
+    "withAliasesJoined": {
+      "n": 54,
+      "d": 75,
+      "pct": "72.0%"
+    },
+    "newlyJoined": 1,
+    "newlyBroken": 0
+  },
+  "precision": {
+    "joinedToWrongSubject": 0,
+    "becameAmbiguous": 0
+  },
+  "falseMergeRisk": {
+    "hardNegativePairsSharingAKey": 0,
+    "of": 19,
+    "cases": []
+  },
+  "ambiguityIntroduced": {
+    "keysReachingMoreThanOneSubjectWithAliases": 0,
+    "keysReachingMoreThanOneSubjectNameOnly": 0,
+    "cases": []
+  },
+  "newlyJoinedCases": [
+    {
+      "pairId": "POS-022",
+      "gleif": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+      "wikidata": "Tata Motors Ltd",
+      "matchedVia": "Tata Motors Ltd"
+    }
+  ],
+  "newlyBrokenCases": [],
+  "provenanceRequirement": "An alias row already carries full provenance (source evidence item, location, method, confidence, processing history) because resolution mints it through the same buildProvenance path as an entity. Admitting aliases as MATCH candidates would additionally require the decision to name WHICH alias string matched and which publisher stated it - a merge justified by an alias is only auditable if the alias is attributable. The `via` field in this study is the shape that reason text would need.",
+  "allRows": [
+    {
+      "pairId": "POS-001",
+      "gleif": "IIT-IAN'S PACE EDUCATION PRIVATE LIMITED",
+      "wikidata": "PACE IIT & Medical",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-002",
+      "gleif": "RAZORPAY SOFTWARE LIMITED",
+      "wikidata": "Razorpay",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-003",
+      "gleif": "ARIHANT PUBLICATIONS (INDIA) LIMITED",
+      "wikidata": "Arihant Publications",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-004",
+      "gleif": "INNOFIN SOLUTIONS PRIVATE LIMITED",
+      "wikidata": "LenDenClub",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-005",
+      "gleif": "COAL INDIA LIMITED",
+      "wikidata": "Coal India",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Coal India",
+      "reached": [
+        "NIDP-0037"
+      ]
+    },
+    {
+      "pairId": "POS-006",
+      "gleif": "TRANSACTREE TECHNOLOGIES PRIVATE LIMITED",
+      "wikidata": "Lendbox",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-007",
+      "gleif": "STATE BANK OF INDIA",
+      "wikidata": "State Bank of India",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "State Bank of India",
+      "reached": [
+        "NIDP-0061"
+      ]
+    },
+    {
+      "pairId": "POS-008",
+      "gleif": "STEEL AUTHORITY OF INDIA LIMITED",
+      "wikidata": "Steel Authority of India Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Steel Authority of India Limited",
+      "reached": [
+        "NIDP-0059"
+      ]
+    },
+    {
+      "pairId": "POS-009",
+      "gleif": "HAIER APPLIANCES (INDIA) PRIVATE LIMITED",
+      "wikidata": "Haier India",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-010",
+      "gleif": "FLIPKART INDIA PRIVATE LIMITED",
+      "wikidata": "Flipkart",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-011",
+      "gleif": "TEXTURE CLOTHING COMPANY",
+      "wikidata": "Texture Clothing Company",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Texture Clothing Company",
+      "reached": [
+        "NIDP-0036"
+      ]
+    },
+    {
+      "pairId": "POS-012",
+      "gleif": "MOSCHIP TECHNOLOGIES LIMITED",
+      "wikidata": "MosChip Technologies Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "MosChip Technologies Limited",
+      "reached": [
+        "NIDP-0163"
+      ]
+    },
+    {
+      "pairId": "POS-013",
+      "gleif": "LAXCON STEELS LIMITED",
+      "wikidata": "Laxcon Steels Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Laxcon Steels Limited",
+      "reached": [
+        "NIDP-0022"
+      ]
+    },
+    {
+      "pairId": "POS-014",
+      "gleif": "OIL AND NATURAL GAS CORPORATION LIMITED",
+      "wikidata": "Oil and Natural Gas Corporation",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Oil and Natural Gas Corporation",
+      "reached": [
+        "NIDP-0024"
+      ]
+    },
+    {
+      "pairId": "POS-015",
+      "gleif": "HINDALCO INDUSTRIES LIMITED",
+      "wikidata": "Hindalco Industries",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Hindalco Industries",
+      "reached": [
+        "NIDP-0031"
+      ]
+    },
+    {
+      "pairId": "POS-016",
+      "gleif": "ICICI BANK LIMITED",
+      "wikidata": "ICICI Bank",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "ICICI Bank",
+      "reached": [
+        "NIDP-0179"
+      ]
+    },
+    {
+      "pairId": "POS-017",
+      "gleif": "ITC LIMITED",
+      "wikidata": "ITC Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "ITC Limited",
+      "reached": [
+        "NIDP-0051"
+      ]
+    },
+    {
+      "pairId": "POS-018",
+      "gleif": "EMCURE PHARMACEUTICALS LIMITED",
+      "wikidata": "Emcure Pharmaceuticals",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Emcure Pharmaceuticals",
+      "reached": [
+        "NIDP-0054"
+      ]
+    },
+    {
+      "pairId": "POS-019",
+      "gleif": "LIVING MEDIA INDIA LIMITED",
+      "wikidata": "India Today Group",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-020",
+      "gleif": "EARLY MAKERS GROUP",
+      "wikidata": "Emlyon Business School",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-021",
+      "gleif": "MAHANAGAR TELEPHONE NIGAM LIMITED",
+      "wikidata": "Mahanagar Telephone Nigam",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Mahanagar Telephone Nigam",
+      "reached": [
+        "NIDP-0053"
+      ]
+    },
+    {
+      "pairId": "POS-022",
+      "gleif": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+      "wikidata": "Tata Motors Ltd",
+      "baseline": "no_match",
+      "withAliases": "joined_correct",
+      "via": "Tata Motors Ltd",
+      "reached": [
+        "NIDP-0017"
+      ]
+    },
+    {
+      "pairId": "POS-023",
+      "gleif": "ULTRAVIOLET TECH PRIVATE LIMITED",
+      "wikidata": "Paytm",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-024",
+      "gleif": "AXIS BANK LIMITED",
+      "wikidata": "Axis Bank",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Axis Bank",
+      "reached": [
+        "NIDP-0067"
+      ]
+    },
+    {
+      "pairId": "POS-025",
+      "gleif": "BANK OF BARODA",
+      "wikidata": "Bank of Baroda",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Bank of Baroda",
+      "reached": [
+        "NIDP-0065"
+      ]
+    },
+    {
+      "pairId": "POS-026",
+      "gleif": "KOTAK MAHINDRA BANK LIMITED",
+      "wikidata": "Kotak Mahindra Bank",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Kotak Mahindra Bank",
+      "reached": [
+        "NIDP-0021"
+      ]
+    },
+    {
+      "pairId": "POS-027",
+      "gleif": "DHANLAXMI BANK LIMITED",
+      "wikidata": "Dhanlaxmi Bank",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Dhanlaxmi Bank",
+      "reached": [
+        "NIDP-0019"
+      ]
+    },
+    {
+      "pairId": "POS-028",
+      "gleif": "TATA CHEMICALS LIMITED",
+      "wikidata": "Tata Chemicals",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Tata Chemicals",
+      "reached": [
+        "NIDP-0025"
+      ]
+    },
+    {
+      "pairId": "POS-029",
+      "gleif": "SAKAL MEDIA PRIVATE LIMITED",
+      "wikidata": "Sakal Media Group",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-030",
+      "gleif": "ORAVEL STAYS LIMITED",
+      "wikidata": "OYO Rooms",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-031",
+      "gleif": "INFOSYS LIMITED",
+      "wikidata": "Infosys limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Infosys limited",
+      "reached": [
+        "NIDP-0047"
+      ]
+    },
+    {
+      "pairId": "POS-032",
+      "gleif": "GATEWAY TECHNOLABS PRIVATE LIMITED",
+      "wikidata": "Gateway Group of Companies",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-033",
+      "gleif": "NEW DELHI TELEVISION LIMITED",
+      "wikidata": "NDTV",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-034",
+      "gleif": "DLF LIMITED",
+      "wikidata": "DLF Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "DLF Limited",
+      "reached": [
+        "NIDP-0042"
+      ]
+    },
+    {
+      "pairId": "POS-035",
+      "gleif": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
+      "wikidata": "Sun Pharmaceutical",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-036",
+      "gleif": "BHARAT DYNAMICS LIMITED",
+      "wikidata": "Bharat Dynamics Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Bharat Dynamics Limited",
+      "reached": [
+        "NIDP-0016"
+      ]
+    },
+    {
+      "pairId": "POS-037",
+      "gleif": "HINDUSTAN AERONAUTICS LIMITED",
+      "wikidata": "Hindustan Aeronautics Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Hindustan Aeronautics Limited",
+      "reached": [
+        "NIDP-0015"
+      ]
+    },
+    {
+      "pairId": "POS-038",
+      "gleif": "BHARAT ELECTRONICS",
+      "wikidata": "Bharat Electronics",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Bharat Electronics",
+      "reached": [
+        "NIDP-0165"
+      ]
+    },
+    {
+      "pairId": "POS-039",
+      "gleif": "日本ペイントホールディングス株式会社",
+      "wikidata": "Nippon Paint",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-040",
+      "gleif": "VEDANTA LIMITED",
+      "wikidata": "Vedanta Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Vedanta Limited",
+      "reached": [
+        "NIDP-0055"
+      ]
+    },
+    {
+      "pairId": "POS-041",
+      "gleif": "3I INFOTECH LIMITED",
+      "wikidata": "3i Infotech Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "3i Infotech Limited",
+      "reached": [
+        "NIDP-0058"
+      ]
+    },
+    {
+      "pairId": "POS-042",
+      "gleif": "CUBIC CORPORATION",
+      "wikidata": "Cubic Corporation",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Cubic Corporation",
+      "reached": [
+        "NIDP-0135"
+      ]
+    },
+    {
+      "pairId": "POS-043",
+      "gleif": "DCB BANK LIMITED",
+      "wikidata": "DCB Bank",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "DCB Bank",
+      "reached": [
+        "NIDP-0066"
+      ]
+    },
+    {
+      "pairId": "POS-044",
+      "gleif": "ENGINEERS INDIA LIMITED",
+      "wikidata": "Engineers India Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Engineers India Limited",
+      "reached": [
+        "NIDP-0020"
+      ]
+    },
+    {
+      "pairId": "POS-045",
+      "gleif": "FIITJEE LIMITED",
+      "wikidata": "FIITJEE",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "FIITJEE",
+      "reached": [
+        "NIDP-0006"
+      ]
+    },
+    {
+      "pairId": "POS-046",
+      "gleif": "GMR AIRPORTS LIMITED",
+      "wikidata": "GMR Group",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-047",
+      "gleif": "GVK POWER & INFRASTRUCTURE LIMITED",
+      "wikidata": "GVK",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-048",
+      "gleif": "HCL TECHNOLOGIES LIMITED",
+      "wikidata": "HCL Technologies",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "HCL Technologies",
+      "reached": [
+        "NIDP-0063"
+      ]
+    },
+    {
+      "pairId": "POS-049",
+      "gleif": "HINDUSTAN ZINC LIMITED",
+      "wikidata": "Hindustan Zinc Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Hindustan Zinc Limited",
+      "reached": [
+        "NIDP-0032"
+      ]
+    },
+    {
+      "pairId": "POS-050",
+      "gleif": "HUSK POWER SYSTEMS PRIVATE LIMITED",
+      "wikidata": "Husk Power Systems",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Husk Power Systems",
+      "reached": [
+        "NIDP-0169"
+      ]
+    },
+    {
+      "pairId": "POS-051",
+      "gleif": "INOX LEISURE LIMITED",
+      "wikidata": "INOX Leisure Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "INOX Leisure Limited",
+      "reached": [
+        "NIDP-0039"
+      ]
+    },
+    {
+      "pairId": "POS-052",
+      "gleif": "HARPERCOLLINS PUBLISHERS INDIA PRIVATE LIMITED",
+      "wikidata": "HarperCollins Publishers India",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "HarperCollins Publishers India",
+      "reached": [
+        "NIDP-0005"
+      ]
+    },
+    {
+      "pairId": "POS-053",
+      "gleif": "LUV FILMS LLP",
+      "wikidata": "Luv Films",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Luv Films",
+      "reached": [
+        "NIDP-0034"
+      ]
+    },
+    {
+      "pairId": "POS-054",
+      "gleif": "JAICO PUBLISHING HOUSE",
+      "wikidata": "Jaico Publishing House",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Jaico Publishing House",
+      "reached": [
+        "NIDP-0023"
+      ]
+    },
+    {
+      "pairId": "POS-055",
+      "gleif": "LARSEN & TOUBRO LIMITED",
+      "wikidata": "Larsen & Toubro",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Larsen & Toubro",
+      "reached": [
+        "NIDP-0004"
+      ]
+    },
+    {
+      "pairId": "POS-056",
+      "gleif": "ACC LIMITED",
+      "wikidata": "ACC Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "ACC Limited",
+      "reached": [
+        "NIDP-0008"
+      ]
+    },
+    {
+      "pairId": "POS-057",
+      "gleif": "APPLAUSE ENTERTAINMENT PRIVATE LIMITED",
+      "wikidata": "Applause Entertainment",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Applause Entertainment",
+      "reached": [
+        "NIDP-0056"
+      ]
+    },
+    {
+      "pairId": "POS-058",
+      "gleif": "LIBERTY SHOES LIMITED",
+      "wikidata": "Liberty Shoes",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Liberty Shoes",
+      "reached": [
+        "NIDP-0043"
+      ]
+    },
+    {
+      "pairId": "POS-059",
+      "gleif": "NATIONAL BULK HANDLING CORPORATION PRIVATE LIMITED",
+      "wikidata": "National Bulk Handling Corporation",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "National Bulk Handling Corporation",
+      "reached": [
+        "NIDP-0009"
+      ]
+    },
+    {
+      "pairId": "POS-060",
+      "gleif": "AIR INDIA LIMITED",
+      "wikidata": "Air India",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Air India",
+      "reached": [
+        "NIDP-0044"
+      ]
+    },
+    {
+      "pairId": "POS-061",
+      "gleif": "OBEROI REALTY LIMITED",
+      "wikidata": "Oberoi Realty",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Oberoi Realty",
+      "reached": [
+        "NIDP-0046"
+      ]
+    },
+    {
+      "pairId": "POS-062",
+      "gleif": "ASHOK LEYLAND LIMITED",
+      "wikidata": "Ashok Leyland",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Ashok Leyland",
+      "reached": [
+        "NIDP-0002"
+      ]
+    },
+    {
+      "pairId": "POS-063",
+      "gleif": "SBI LIFE INSURANCE COMPANY LIMITED",
+      "wikidata": "SBI Life Insurance Company Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "SBI Life Insurance Company Limited",
+      "reached": [
+        "NIDP-0052"
+      ]
+    },
+    {
+      "pairId": "POS-064",
+      "gleif": "ELSEVIER B.V.",
+      "wikidata": "Elsevier",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-065",
+      "gleif": "THE SUPREME INDUSTRIES LIMITED",
+      "wikidata": "Supreme Industries",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-066",
+      "gleif": "TATA STARBUCKS PRIVATE LIMITED",
+      "wikidata": "Tata Starbucks",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Tata Starbucks",
+      "reached": [
+        "NIDP-0018"
+      ]
+    },
+    {
+      "pairId": "POS-067",
+      "gleif": "ULTRATECH CEMENT LIMITED",
+      "wikidata": "UltraTech Cement",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "UltraTech Cement",
+      "reached": [
+        "NIDP-0040"
+      ]
+    },
+    {
+      "pairId": "POS-068",
+      "gleif": "TATA CONSUMER PRODUCTS LIMITED",
+      "wikidata": "Tata Consumer Products",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Tata Consumer Products",
+      "reached": [
+        "NIDP-0033"
+      ]
+    },
+    {
+      "pairId": "POS-069",
+      "gleif": "MAHINDRA AND MAHINDRA LIMITED",
+      "wikidata": "Mahindra & Mahindra",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Mahindra & Mahindra",
+      "reached": [
+        "NIDP-0003"
+      ]
+    },
+    {
+      "pairId": "POS-070",
+      "gleif": "BHARAT HEAVY ELECTRICALS LIMITED",
+      "wikidata": "Bharat Heavy Electricals Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Bharat Heavy Electricals Limited",
+      "reached": [
+        "NIDP-0010"
+      ]
+    },
+    {
+      "pairId": "POS-071",
+      "gleif": "RELIANCE INDUSTRIES LIMITED",
+      "wikidata": "Reliance Industries Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Reliance Industries Limited",
+      "reached": [
+        "NIDP-0062"
+      ]
+    },
+    {
+      "pairId": "POS-072",
+      "gleif": "DR. REDDY'S LABORATORIES LIMITED",
+      "wikidata": "Dr. Reddy's Laboratories",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Dr. Reddy's Laboratories",
+      "reached": [
+        "NIDP-0038"
+      ]
+    },
+    {
+      "pairId": "POS-073",
+      "gleif": "AVENUE E-COMMERCE LIMITED",
+      "wikidata": "Avenue E-Commerce Limited",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Avenue E-Commerce Limited",
+      "reached": [
+        "NIDP-0136"
+      ]
+    },
+    {
+      "pairId": "POS-074",
+      "gleif": "HACHETTE BOOK PUBLISHING INDIA PRIVATE LIMITED",
+      "wikidata": "Hachette India",
+      "baseline": "no_match",
+      "withAliases": "no_match",
+      "via": null,
+      "reached": []
+    },
+    {
+      "pairId": "POS-075",
+      "gleif": "SKYROOT AEROSPACE PRIVATE LIMITED",
+      "wikidata": "Skyroot Aerospace",
+      "baseline": "joined_correct",
+      "withAliases": "joined_correct",
+      "via": "Skyroot Aerospace",
+      "reached": [
+        "NIDP-0137"
+      ]
+    }
+  ]
+}

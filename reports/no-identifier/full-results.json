@@ -5,7 +5,7 @@
   "corpus": "evidence/no-identifier/no-identifier-pilot-full.corpus.json",
   "groundTruth": "evidence/no-identifier/no-identifier-pilot.ground-truth.json",
   "database": "/sessions/rcw-0163i7tz38mrdtivbssz19sv/nidb/full.db",
-  "ranAt": "2026-09-03T21:03:36.176Z",
+  "ranAt": "2026-09-03T22:13:13.645Z",
   "resolverPolicy": "P6.15-identifier-authority (UNMODIFIED - P6.16 changed no matching logic, no tier, no threshold)",
   "sources": [
     {
@@ -113,7 +113,7 @@
       },
       "edgesByType": {}
     },
-    "resolutionWarnings": 0
+    "resolutionWarnings": 1
   },
   "metrics": {
     "positivePairJoinRate": {
@@ -122,6 +122,11 @@
       "pct": "0.0%"
     },
     "exactNameMatchRate": {
+      "n": 0,
+      "d": 75,
+      "pct": "0.0%"
+    },
+    "normalizedNameMatchRate": {
       "n": 0,
       "d": 75,
       "pct": "0.0%"
@@ -160,6 +165,11 @@
       "n": 2957,
       "d": 2957,
       "pct": "100.0%"
+    },
+    "selfReportedUnresolvedRate": {
+      "n": 257,
+      "d": 257,
+      "pct": "100.0%"
     }
   },
   "tierB": {
@@ -167,7 +177,9 @@
     "firings": 0,
     "exactNameMatch": 0,
     "ambiguousNameConflict": 0,
-    "note": "Tier B can only match an identifier-less mention into a Tier-A cluster. Where no record carries an identifier there are no Tier-A clusters, so Tier B has nothing to match against and cannot fire however similar the names are."
+    "normalizedNameMatch": 0,
+    "ambiguousNormalizedNameConflict": 0,
+    "note": "Tier B can only match an identifier-less mention into a Tier-A cluster. Where no record carries an identifier there are no Tier-A clusters, so Tier B has nothing to match against and cannot fire however similar the names are - which is why the FULL regime is unchanged by normalisation and the ANCHORED regime is not. That is a property of the tier structure, not of the normalisation rules."
   },
   "nameVariation": [
     {
@@ -190,168 +202,168 @@
           "gleif": "STATE BANK OF INDIA",
           "wikidata": "State Bank of India",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-008",
           "gleif": "STEEL AUTHORITY OF INDIA LIMITED",
           "wikidata": "Steel Authority of India Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-011",
           "gleif": "TEXTURE CLOTHING COMPANY",
           "wikidata": "Texture Clothing Company",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-012",
           "gleif": "MOSCHIP TECHNOLOGIES LIMITED",
           "wikidata": "MosChip Technologies Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-013",
           "gleif": "LAXCON STEELS LIMITED",
           "wikidata": "Laxcon Steels Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-017",
           "gleif": "ITC LIMITED",
           "wikidata": "ITC Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-025",
           "gleif": "BANK OF BARODA",
           "wikidata": "Bank of Baroda",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-031",
           "gleif": "INFOSYS LIMITED",
           "wikidata": "Infosys limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-034",
           "gleif": "DLF LIMITED",
           "wikidata": "DLF Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-036",
           "gleif": "BHARAT DYNAMICS LIMITED",
           "wikidata": "Bharat Dynamics Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-037",
           "gleif": "HINDUSTAN AERONAUTICS LIMITED",
           "wikidata": "Hindustan Aeronautics Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-038",
           "gleif": "BHARAT ELECTRONICS",
           "wikidata": "Bharat Electronics",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-040",
           "gleif": "VEDANTA LIMITED",
           "wikidata": "Vedanta Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-041",
           "gleif": "3I INFOTECH LIMITED",
           "wikidata": "3i Infotech Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-042",
           "gleif": "CUBIC CORPORATION",
           "wikidata": "Cubic Corporation",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-044",
           "gleif": "ENGINEERS INDIA LIMITED",
           "wikidata": "Engineers India Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-049",
           "gleif": "HINDUSTAN ZINC LIMITED",
           "wikidata": "Hindustan Zinc Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-051",
           "gleif": "INOX LEISURE LIMITED",
           "wikidata": "INOX Leisure Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-054",
           "gleif": "JAICO PUBLISHING HOUSE",
           "wikidata": "Jaico Publishing House",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-056",
           "gleif": "ACC LIMITED",
           "wikidata": "ACC Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-063",
           "gleif": "SBI LIFE INSURANCE COMPANY LIMITED",
           "wikidata": "SBI Life Insurance Company Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-070",
           "gleif": "BHARAT HEAVY ELECTRICALS LIMITED",
           "wikidata": "Bharat Heavy Electricals Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-071",
           "gleif": "RELIANCE INDUSTRIES LIMITED",
           "wikidata": "Reliance Industries Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-073",
           "gleif": "AVENUE E-COMMERCE LIMITED",
           "wikidata": "Avenue E-Commerce Limited",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         }
       ]
     },
@@ -367,7 +379,7 @@
           "gleif": "日本ペイントホールディングス株式会社",
           "wikidata": "Nippon Paint",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         }
       ]
     },
@@ -399,203 +411,203 @@
           "gleif": "COAL INDIA LIMITED",
           "wikidata": "Coal India",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-014",
           "gleif": "OIL AND NATURAL GAS CORPORATION LIMITED",
           "wikidata": "Oil and Natural Gas Corporation",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-015",
           "gleif": "HINDALCO INDUSTRIES LIMITED",
           "wikidata": "Hindalco Industries",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-016",
           "gleif": "ICICI BANK LIMITED",
           "wikidata": "ICICI Bank",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-018",
           "gleif": "EMCURE PHARMACEUTICALS LIMITED",
           "wikidata": "Emcure Pharmaceuticals",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-021",
           "gleif": "MAHANAGAR TELEPHONE NIGAM LIMITED",
           "wikidata": "Mahanagar Telephone Nigam",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-024",
           "gleif": "AXIS BANK LIMITED",
           "wikidata": "Axis Bank",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-026",
           "gleif": "KOTAK MAHINDRA BANK LIMITED",
           "wikidata": "Kotak Mahindra Bank",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-027",
           "gleif": "DHANLAXMI BANK LIMITED",
           "wikidata": "Dhanlaxmi Bank",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-028",
           "gleif": "TATA CHEMICALS LIMITED",
           "wikidata": "Tata Chemicals",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-043",
           "gleif": "DCB BANK LIMITED",
           "wikidata": "DCB Bank",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-045",
           "gleif": "FIITJEE LIMITED",
           "wikidata": "FIITJEE",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-048",
           "gleif": "HCL TECHNOLOGIES LIMITED",
           "wikidata": "HCL Technologies",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-050",
           "gleif": "HUSK POWER SYSTEMS PRIVATE LIMITED",
           "wikidata": "Husk Power Systems",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-052",
           "gleif": "HARPERCOLLINS PUBLISHERS INDIA PRIVATE LIMITED",
           "wikidata": "HarperCollins Publishers India",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-053",
           "gleif": "LUV FILMS LLP",
           "wikidata": "Luv Films",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-055",
           "gleif": "LARSEN & TOUBRO LIMITED",
           "wikidata": "Larsen & Toubro",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-057",
           "gleif": "APPLAUSE ENTERTAINMENT PRIVATE LIMITED",
           "wikidata": "Applause Entertainment",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-058",
           "gleif": "LIBERTY SHOES LIMITED",
           "wikidata": "Liberty Shoes",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-059",
           "gleif": "NATIONAL BULK HANDLING CORPORATION PRIVATE LIMITED",
           "wikidata": "National Bulk Handling Corporation",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-060",
           "gleif": "AIR INDIA LIMITED",
           "wikidata": "Air India",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-061",
           "gleif": "OBEROI REALTY LIMITED",
           "wikidata": "Oberoi Realty",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-062",
           "gleif": "ASHOK LEYLAND LIMITED",
           "wikidata": "Ashok Leyland",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-066",
           "gleif": "TATA STARBUCKS PRIVATE LIMITED",
           "wikidata": "Tata Starbucks",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-067",
           "gleif": "ULTRATECH CEMENT LIMITED",
           "wikidata": "UltraTech Cement",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-068",
           "gleif": "TATA CONSUMER PRODUCTS LIMITED",
           "wikidata": "Tata Consumer Products",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-069",
           "gleif": "MAHINDRA AND MAHINDRA LIMITED",
           "wikidata": "Mahindra & Mahindra",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-072",
           "gleif": "DR. REDDY'S LABORATORIES LIMITED",
           "wikidata": "Dr. Reddy's Laboratories",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-075",
           "gleif": "SKYROOT AEROSPACE PRIVATE LIMITED",
           "wikidata": "Skyroot Aerospace",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         }
       ]
     },
@@ -619,63 +631,63 @@
           "gleif": "RAZORPAY SOFTWARE LIMITED",
           "wikidata": "Razorpay",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-003",
           "gleif": "ARIHANT PUBLICATIONS (INDIA) LIMITED",
           "wikidata": "Arihant Publications",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-009",
           "gleif": "HAIER APPLIANCES (INDIA) PRIVATE LIMITED",
           "wikidata": "Haier India",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-010",
           "gleif": "FLIPKART INDIA PRIVATE LIMITED",
           "wikidata": "Flipkart",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-035",
           "gleif": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
           "wikidata": "Sun Pharmaceutical",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-047",
           "gleif": "GVK POWER & INFRASTRUCTURE LIMITED",
           "wikidata": "GVK",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-064",
           "gleif": "ELSEVIER B.V.",
           "wikidata": "Elsevier",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-065",
           "gleif": "THE SUPREME INDUSTRIES LIMITED",
           "wikidata": "Supreme Industries",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-074",
           "gleif": "HACHETTE BOOK PUBLISHING INDIA PRIVATE LIMITED",
           "wikidata": "Hachette India",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         }
       ]
     },
@@ -691,90 +703,90 @@
           "gleif": "IIT-IAN'S PACE EDUCATION PRIVATE LIMITED",
           "wikidata": "PACE IIT & Medical",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-004",
           "gleif": "INNOFIN SOLUTIONS PRIVATE LIMITED",
           "wikidata": "LenDenClub",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-006",
           "gleif": "TRANSACTREE TECHNOLOGIES PRIVATE LIMITED",
           "wikidata": "Lendbox",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-019",
           "gleif": "LIVING MEDIA INDIA LIMITED",
           "wikidata": "India Today Group",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-020",
           "gleif": "EARLY MAKERS GROUP",
           "wikidata": "Emlyon Business School",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-022",
           "gleif": "TATA MOTORS PASSENGER VEHICLES LIMITED",
           "wikidata": "Tata Motors Ltd",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-023",
           "gleif": "ULTRAVIOLET TECH PRIVATE LIMITED",
           "wikidata": "Paytm",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-029",
           "gleif": "SAKAL MEDIA PRIVATE LIMITED",
           "wikidata": "Sakal Media Group",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-030",
           "gleif": "ORAVEL STAYS LIMITED",
           "wikidata": "OYO Rooms",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-032",
           "gleif": "GATEWAY TECHNOLABS PRIVATE LIMITED",
           "wikidata": "Gateway Group of Companies",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-033",
           "gleif": "NEW DELHI TELEVISION LIMITED",
           "wikidata": "NDTV",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         },
         {
           "pairId": "POS-046",
           "gleif": "GMR AIRPORTS LIMITED",
           "wikidata": "GMR Group",
           "joined": false,
-          "wikidataResolution": "new_entity"
+          "wikidataResolution": "unlinked_mention"
         }
       ]
     }
   ],
   "resolutionTypeHistogram": {
-    "new_entity": 257
+    "unlinked_mention": 257
   },
   "failures": {
     "positivePairsNotJoined": [
@@ -783,8 +795,8 @@
         "variation": "divergent",
         "gleif": "IIT-IAN'S PACE EDUCATION PRIVATE LIMITED",
         "wikidata": "PACE IIT & Medical",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_f06207bc88cbd475e6d7",
         "wikidataEntity": "entity_ff14a971f5a1898f8651"
       },
@@ -793,8 +805,8 @@
         "variation": "abbreviation",
         "gleif": "RAZORPAY SOFTWARE LIMITED",
         "wikidata": "Razorpay",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_c03f68c277ad7a3b9b81",
         "wikidataEntity": "entity_d84a929bfa664020ae66"
       },
@@ -803,8 +815,8 @@
         "variation": "abbreviation",
         "gleif": "ARIHANT PUBLICATIONS (INDIA) LIMITED",
         "wikidata": "Arihant Publications",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_d98f2d153dfe6dc70c42",
         "wikidataEntity": "entity_e1e6cc7eb379ef115249"
       },
@@ -813,8 +825,8 @@
         "variation": "divergent",
         "gleif": "INNOFIN SOLUTIONS PRIVATE LIMITED",
         "wikidata": "LenDenClub",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_f0f257bb50ac53f3a940",
         "wikidataEntity": "entity_33ebb76d25a767b4c53a"
       },
@@ -823,8 +835,8 @@
         "variation": "suffix",
         "gleif": "COAL INDIA LIMITED",
         "wikidata": "Coal India",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_c33247e7c4aa604f76c2",
         "wikidataEntity": "entity_57c9c38b0f4c249a22e6"
       },
@@ -833,8 +845,8 @@
         "variation": "divergent",
         "gleif": "TRANSACTREE TECHNOLOGIES PRIVATE LIMITED",
         "wikidata": "Lendbox",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_03831bbe27da8a203782",
         "wikidataEntity": "entity_67dcfd1930b5d3ea7354"
       },
@@ -843,8 +855,8 @@
         "variation": "case_only",
         "gleif": "STATE BANK OF INDIA",
         "wikidata": "State Bank of India",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_19c9f233f197235953d8",
         "wikidataEntity": "entity_92ed07db11852ae7b48e"
       },
@@ -853,8 +865,8 @@
         "variation": "case_only",
         "gleif": "STEEL AUTHORITY OF INDIA LIMITED",
         "wikidata": "Steel Authority of India Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_230130d3971fbb4492ba",
         "wikidataEntity": "entity_4e4875f7f837829f185d"
       },
@@ -863,8 +875,8 @@
         "variation": "abbreviation",
         "gleif": "HAIER APPLIANCES (INDIA) PRIVATE LIMITED",
         "wikidata": "Haier India",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_d1279e7b31e75e8c0637",
         "wikidataEntity": "entity_2fcbe107f85f5ae62e50"
       },
@@ -873,8 +885,8 @@
         "variation": "abbreviation",
         "gleif": "FLIPKART INDIA PRIVATE LIMITED",
         "wikidata": "Flipkart",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_8cb324718d75002db7a2",
         "wikidataEntity": "entity_c1878fc90e881f1d28aa"
       },
@@ -883,8 +895,8 @@
         "variation": "case_only",
         "gleif": "TEXTURE CLOTHING COMPANY",
         "wikidata": "Texture Clothing Company",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_86fab550e6b44a37c98b",
         "wikidataEntity": "entity_56fbb67f901c0ea5df9e"
       },
@@ -893,8 +905,8 @@
         "variation": "case_only",
         "gleif": "MOSCHIP TECHNOLOGIES LIMITED",
         "wikidata": "MosChip Technologies Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_dd01925cf21aba0feb89",
         "wikidataEntity": "entity_df973f49045245645155"
       },
@@ -903,8 +915,8 @@
         "variation": "case_only",
         "gleif": "LAXCON STEELS LIMITED",
         "wikidata": "Laxcon Steels Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_518d34a3c9bba65d6be7",
         "wikidataEntity": "entity_d14a7dcd5f4a618b0672"
       },
@@ -913,8 +925,8 @@
         "variation": "suffix",
         "gleif": "OIL AND NATURAL GAS CORPORATION LIMITED",
         "wikidata": "Oil and Natural Gas Corporation",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_d99e750bd721bea5605b",
         "wikidataEntity": "entity_8e2cb81451881b748094"
       },
@@ -923,8 +935,8 @@
         "variation": "suffix",
         "gleif": "HINDALCO INDUSTRIES LIMITED",
         "wikidata": "Hindalco Industries",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_13eec49710e0217f1476",
         "wikidataEntity": "entity_92f7594964a4a23a6af4"
       },
@@ -933,8 +945,8 @@
         "variation": "suffix",
         "gleif": "ICICI BANK LIMITED",
         "wikidata": "ICICI Bank",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_aff9178113ee59d36dd7",
         "wikidataEntity": "entity_6b60dac639e47342fe88"
       },
@@ -943,8 +955,8 @@
         "variation": "case_only",
         "gleif": "ITC LIMITED",
         "wikidata": "ITC Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_40adf4e4346c2a890105",
         "wikidataEntity": "entity_f07bf4be6ad31f6f712f"
       },
@@ -953,8 +965,8 @@
         "variation": "suffix",
         "gleif": "EMCURE PHARMACEUTICALS LIMITED",
         "wikidata": "Emcure Pharmaceuticals",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_c3c5bf001a6a83ec730f",
         "wikidataEntity": "entity_bf1b31eb90a85f6c7a53"
       },
@@ -963,8 +975,8 @@
         "variation": "divergent",
         "gleif": "LIVING MEDIA INDIA LIMITED",
         "wikidata": "India Today Group",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_ee3414160bbd33a063d6",
         "wikidataEntity": "entity_72266b9d966fd189abf4"
       },
@@ -973,8 +985,8 @@
         "variation": "divergent",
         "gleif": "EARLY MAKERS GROUP",
         "wikidata": "Emlyon Business School",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_264d17a12b1cee7ec3ad",
         "wikidataEntity": "entity_741a27e96004be060455"
       },
@@ -983,8 +995,8 @@
         "variation": "suffix",
         "gleif": "MAHANAGAR TELEPHONE NIGAM LIMITED",
         "wikidata": "Mahanagar Telephone Nigam",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_35b800558d65ffa81783",
         "wikidataEntity": "entity_3c02081ff9916556e6ce"
       },
@@ -993,8 +1005,8 @@
         "variation": "divergent",
         "gleif": "TATA MOTORS PASSENGER VEHICLES LIMITED",
         "wikidata": "Tata Motors Ltd",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_bc998f5e289d9691ede1",
         "wikidataEntity": "entity_bb10f53d4d874ffb1e22"
       },
@@ -1003,8 +1015,8 @@
         "variation": "divergent",
         "gleif": "ULTRAVIOLET TECH PRIVATE LIMITED",
         "wikidata": "Paytm",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_e8820a724f59189c31a6",
         "wikidataEntity": "entity_2dcd7e08835b8dc17561"
       },
@@ -1013,8 +1025,8 @@
         "variation": "suffix",
         "gleif": "AXIS BANK LIMITED",
         "wikidata": "Axis Bank",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_93f905c66de6980d53e6",
         "wikidataEntity": "entity_b4d87dc1bf4d974273f9"
       },
@@ -1023,8 +1035,8 @@
         "variation": "case_only",
         "gleif": "BANK OF BARODA",
         "wikidata": "Bank of Baroda",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_b8192e8c7aefcdfbc13a",
         "wikidataEntity": "entity_60d5fbaaa26d276b43ef"
       },
@@ -1033,8 +1045,8 @@
         "variation": "suffix",
         "gleif": "KOTAK MAHINDRA BANK LIMITED",
         "wikidata": "Kotak Mahindra Bank",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_d3c3e6604812af51f422",
         "wikidataEntity": "entity_63015c63dc2aa09b55c8"
       },
@@ -1043,8 +1055,8 @@
         "variation": "suffix",
         "gleif": "DHANLAXMI BANK LIMITED",
         "wikidata": "Dhanlaxmi Bank",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_6fe99013cd9e5dab3b0e",
         "wikidataEntity": "entity_e8c041066d74ad197c3b"
       },
@@ -1053,8 +1065,8 @@
         "variation": "suffix",
         "gleif": "TATA CHEMICALS LIMITED",
         "wikidata": "Tata Chemicals",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_9c4ace42f04fbe55a6c1",
         "wikidataEntity": "entity_bc3c13024f12447e2dcb"
       },
@@ -1063,8 +1075,8 @@
         "variation": "divergent",
         "gleif": "SAKAL MEDIA PRIVATE LIMITED",
         "wikidata": "Sakal Media Group",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_11ae1c092f40de0fca33",
         "wikidataEntity": "entity_70f7e50ee25f9fa8439c"
       },
@@ -1073,8 +1085,8 @@
         "variation": "divergent",
         "gleif": "ORAVEL STAYS LIMITED",
         "wikidata": "OYO Rooms",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_3eba058b98b1684b93b0",
         "wikidataEntity": "entity_b5e90f561b1b39551c8b"
       },
@@ -1083,8 +1095,8 @@
         "variation": "case_only",
         "gleif": "INFOSYS LIMITED",
         "wikidata": "Infosys limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_a4d8ca7ecb14a0e8ce50",
         "wikidataEntity": "entity_6056831af6dcf843c9ec"
       },
@@ -1093,8 +1105,8 @@
         "variation": "divergent",
         "gleif": "GATEWAY TECHNOLABS PRIVATE LIMITED",
         "wikidata": "Gateway Group of Companies",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_8c1168513456117143fa",
         "wikidataEntity": "entity_bb0a5d711a7db4ba4d91"
       },
@@ -1103,8 +1115,8 @@
         "variation": "divergent",
         "gleif": "NEW DELHI TELEVISION LIMITED",
         "wikidata": "NDTV",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_a93529b604f4b5c2c65c",
         "wikidataEntity": "entity_4f1d062b3eda16a1b8e3"
       },
@@ -1113,8 +1125,8 @@
         "variation": "case_only",
         "gleif": "DLF LIMITED",
         "wikidata": "DLF Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_72bd811ef01c3a83e9d7",
         "wikidataEntity": "entity_e159d16b9f445c6561e9"
       },
@@ -1123,8 +1135,8 @@
         "variation": "abbreviation",
         "gleif": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
         "wikidata": "Sun Pharmaceutical",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_75220fda97a6c8a070d7",
         "wikidataEntity": "entity_10fdca255099b5b128bd"
       },
@@ -1133,8 +1145,8 @@
         "variation": "case_only",
         "gleif": "BHARAT DYNAMICS LIMITED",
         "wikidata": "Bharat Dynamics Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_349173257cb7ca85ce9b",
         "wikidataEntity": "entity_a6c8e751095c8b7bf727"
       },
@@ -1143,8 +1155,8 @@
         "variation": "case_only",
         "gleif": "HINDUSTAN AERONAUTICS LIMITED",
         "wikidata": "Hindustan Aeronautics Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_e763f35b96802ff6bdd1",
         "wikidataEntity": "entity_9f232f6457d9697b655a"
       },
@@ -1153,8 +1165,8 @@
         "variation": "case_only",
         "gleif": "BHARAT ELECTRONICS",
         "wikidata": "Bharat Electronics",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_9161448b839fff9c7ad9",
         "wikidataEntity": "entity_f541c679c2bc4963e0bd"
       },
@@ -1163,8 +1175,8 @@
         "variation": "transliteration",
         "gleif": "日本ペイントホールディングス株式会社",
         "wikidata": "Nippon Paint",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_9ed2cb751664ea4dfd3b",
         "wikidataEntity": "entity_08bd1a8f090d4817c182"
       },
@@ -1173,8 +1185,8 @@
         "variation": "case_only",
         "gleif": "VEDANTA LIMITED",
         "wikidata": "Vedanta Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_315ea76e83bb9d081b7f",
         "wikidataEntity": "entity_61340c41bc3d1d3861ed"
       },
@@ -1183,8 +1195,8 @@
         "variation": "case_only",
         "gleif": "3I INFOTECH LIMITED",
         "wikidata": "3i Infotech Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_2e8f2f02a1c76dcb8183",
         "wikidataEntity": "entity_8416932ed210893e2fd7"
       },
@@ -1193,8 +1205,8 @@
         "variation": "case_only",
         "gleif": "CUBIC CORPORATION",
         "wikidata": "Cubic Corporation",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_224842fbdc73f3cc666d",
         "wikidataEntity": "entity_e45e79a62f9cb09ec461"
       },
@@ -1203,8 +1215,8 @@
         "variation": "suffix",
         "gleif": "DCB BANK LIMITED",
         "wikidata": "DCB Bank",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_2ba61d3b529c43a78d8d",
         "wikidataEntity": "entity_91ec4fd5e8083c212ae6"
       },
@@ -1213,8 +1225,8 @@
         "variation": "case_only",
         "gleif": "ENGINEERS INDIA LIMITED",
         "wikidata": "Engineers India Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_0fa2648f917a6c43e686",
         "wikidataEntity": "entity_c2e2a46598a477a0b15f"
       },
@@ -1223,8 +1235,8 @@
         "variation": "suffix",
         "gleif": "FIITJEE LIMITED",
         "wikidata": "FIITJEE",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_12d342dd74f93f86d936",
         "wikidataEntity": "entity_ee852db1b11ea1063670"
       },
@@ -1233,8 +1245,8 @@
         "variation": "divergent",
         "gleif": "GMR AIRPORTS LIMITED",
         "wikidata": "GMR Group",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_ff15f9841530ccd2d1ef",
         "wikidataEntity": "entity_3171c1ad5966e29346b0"
       },
@@ -1243,8 +1255,8 @@
         "variation": "abbreviation",
         "gleif": "GVK POWER & INFRASTRUCTURE LIMITED",
         "wikidata": "GVK",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_5fdf3e533e1d61db7927",
         "wikidataEntity": "entity_76e270f7c41079a15939"
       },
@@ -1253,8 +1265,8 @@
         "variation": "suffix",
         "gleif": "HCL TECHNOLOGIES LIMITED",
         "wikidata": "HCL Technologies",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_b2db61d0eca0982e33b7",
         "wikidataEntity": "entity_6bd1a39ca3fa922fbe12"
       },
@@ -1263,8 +1275,8 @@
         "variation": "case_only",
         "gleif": "HINDUSTAN ZINC LIMITED",
         "wikidata": "Hindustan Zinc Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_4ccf6118b1cc6f33f813",
         "wikidataEntity": "entity_b26ed611d92b70627199"
       },
@@ -1273,8 +1285,8 @@
         "variation": "suffix",
         "gleif": "HUSK POWER SYSTEMS PRIVATE LIMITED",
         "wikidata": "Husk Power Systems",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_dde267a3c1e98e64ca05",
         "wikidataEntity": "entity_0e9a1ab8cbac26e6a16a"
       },
@@ -1283,8 +1295,8 @@
         "variation": "case_only",
         "gleif": "INOX LEISURE LIMITED",
         "wikidata": "INOX Leisure Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_7e13d4b7c5116961eb2c",
         "wikidataEntity": "entity_4958ac0a388dd4d0b609"
       },
@@ -1293,8 +1305,8 @@
         "variation": "suffix",
         "gleif": "HARPERCOLLINS PUBLISHERS INDIA PRIVATE LIMITED",
         "wikidata": "HarperCollins Publishers India",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_253e74c5b57aff59aff6",
         "wikidataEntity": "entity_312e79ad96fa79dac646"
       },
@@ -1303,8 +1315,8 @@
         "variation": "suffix",
         "gleif": "LUV FILMS LLP",
         "wikidata": "Luv Films",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_230028621e30cba380b1",
         "wikidataEntity": "entity_7c2874e84312f45b7c96"
       },
@@ -1313,8 +1325,8 @@
         "variation": "case_only",
         "gleif": "JAICO PUBLISHING HOUSE",
         "wikidata": "Jaico Publishing House",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_35e78790c8a3527eeddf",
         "wikidataEntity": "entity_42edba4597d696c0d68b"
       },
@@ -1323,8 +1335,8 @@
         "variation": "suffix",
         "gleif": "LARSEN & TOUBRO LIMITED",
         "wikidata": "Larsen & Toubro",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_e415bd74e73c2eb34037",
         "wikidataEntity": "entity_f4e89fa44f5656f26c18"
       },
@@ -1333,8 +1345,8 @@
         "variation": "case_only",
         "gleif": "ACC LIMITED",
         "wikidata": "ACC Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_406edd06f57e4606ab61",
         "wikidataEntity": "entity_6abd553d251da755b989"
       },
@@ -1343,8 +1355,8 @@
         "variation": "suffix",
         "gleif": "APPLAUSE ENTERTAINMENT PRIVATE LIMITED",
         "wikidata": "Applause Entertainment",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_04c66c9ff3c73c64f949",
         "wikidataEntity": "entity_b16fc9ddd2078d476e6e"
       },
@@ -1353,8 +1365,8 @@
         "variation": "suffix",
         "gleif": "LIBERTY SHOES LIMITED",
         "wikidata": "Liberty Shoes",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_88a18e4e6a09c8f72ea1",
         "wikidataEntity": "entity_3035c6e12a822a901538"
       },
@@ -1363,8 +1375,8 @@
         "variation": "suffix",
         "gleif": "NATIONAL BULK HANDLING CORPORATION PRIVATE LIMITED",
         "wikidata": "National Bulk Handling Corporation",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_ab2b577e8b042a0b0c47",
         "wikidataEntity": "entity_a52ef851554b22bdcbbf"
       },
@@ -1373,8 +1385,8 @@
         "variation": "suffix",
         "gleif": "AIR INDIA LIMITED",
         "wikidata": "Air India",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_f0f7bdda748793859b11",
         "wikidataEntity": "entity_b19b1b355725d3951ef6"
       },
@@ -1383,8 +1395,8 @@
         "variation": "suffix",
         "gleif": "OBEROI REALTY LIMITED",
         "wikidata": "Oberoi Realty",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_a9a3da0e5974421779bc",
         "wikidataEntity": "entity_3b9e94e73299353dbe94"
       },
@@ -1393,8 +1405,8 @@
         "variation": "suffix",
         "gleif": "ASHOK LEYLAND LIMITED",
         "wikidata": "Ashok Leyland",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_5e0e87aff64c9d17a309",
         "wikidataEntity": "entity_f5fa83ffb3113691aa41"
       },
@@ -1403,8 +1415,8 @@
         "variation": "case_only",
         "gleif": "SBI LIFE INSURANCE COMPANY LIMITED",
         "wikidata": "SBI Life Insurance Company Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_9a933f715edfd094524a",
         "wikidataEntity": "entity_cbeb4b5ccb41d21ed6f3"
       },
@@ -1413,8 +1425,8 @@
         "variation": "abbreviation",
         "gleif": "ELSEVIER B.V.",
         "wikidata": "Elsevier",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_97973f7e73cb4714b868",
         "wikidataEntity": "entity_05fc0e460d6464deb07c"
       },
@@ -1423,8 +1435,8 @@
         "variation": "abbreviation",
         "gleif": "THE SUPREME INDUSTRIES LIMITED",
         "wikidata": "Supreme Industries",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_1937377f512a46ac91ac",
         "wikidataEntity": "entity_40ea40afafdff6ac9f1b"
       },
@@ -1433,8 +1445,8 @@
         "variation": "suffix",
         "gleif": "TATA STARBUCKS PRIVATE LIMITED",
         "wikidata": "Tata Starbucks",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_4c39d70e9f8604dff7e5",
         "wikidataEntity": "entity_8194fa0fb72d1c4bf5f6"
       },
@@ -1443,8 +1455,8 @@
         "variation": "suffix",
         "gleif": "ULTRATECH CEMENT LIMITED",
         "wikidata": "UltraTech Cement",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_69fedb92fb169ca81eb8",
         "wikidataEntity": "entity_bc385fb0d078a82ca1e6"
       },
@@ -1453,8 +1465,8 @@
         "variation": "suffix",
         "gleif": "TATA CONSUMER PRODUCTS LIMITED",
         "wikidata": "Tata Consumer Products",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_5d708073d4637b96104f",
         "wikidataEntity": "entity_8f7589ac55fb55684064"
       },
@@ -1463,8 +1475,8 @@
         "variation": "suffix",
         "gleif": "MAHINDRA AND MAHINDRA LIMITED",
         "wikidata": "Mahindra & Mahindra",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_dc6774018e16d39f988f",
         "wikidataEntity": "entity_4d2c7f586d3dcb01a900"
       },
@@ -1473,8 +1485,8 @@
         "variation": "case_only",
         "gleif": "BHARAT HEAVY ELECTRICALS LIMITED",
         "wikidata": "Bharat Heavy Electricals Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_59439bec93bd7c624dee",
         "wikidataEntity": "entity_d15b7704dcbaa8858485"
       },
@@ -1483,8 +1495,8 @@
         "variation": "case_only",
         "gleif": "RELIANCE INDUSTRIES LIMITED",
         "wikidata": "Reliance Industries Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_e1043e7f01f042f09c22",
         "wikidataEntity": "entity_0be2edc074675a319c30"
       },
@@ -1493,8 +1505,8 @@
         "variation": "suffix",
         "gleif": "DR. REDDY'S LABORATORIES LIMITED",
         "wikidata": "Dr. Reddy's Laboratories",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_d4de3d456255f47b6e37",
         "wikidataEntity": "entity_e938f2db99785578f3c4"
       },
@@ -1503,8 +1515,8 @@
         "variation": "case_only",
         "gleif": "AVENUE E-COMMERCE LIMITED",
         "wikidata": "Avenue E-Commerce Limited",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_ca20fe26fc876c97c5d7",
         "wikidataEntity": "entity_32d431edfa3538244c5c"
       },
@@ -1513,8 +1525,8 @@
         "variation": "abbreviation",
         "gleif": "HACHETTE BOOK PUBLISHING INDIA PRIVATE LIMITED",
         "wikidata": "Hachette India",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_e544a4fad32a29ef75a8",
         "wikidataEntity": "entity_a558e43dcc78f96ad501"
       },
@@ -1523,8 +1535,8 @@
         "variation": "suffix",
         "gleif": "SKYROOT AEROSPACE PRIVATE LIMITED",
         "wikidata": "Skyroot Aerospace",
-        "wikidataResolution": "new_entity",
-        "gleifResolution": "new_entity",
+        "wikidataResolution": "unlinked_mention",
+        "gleifResolution": "unlinked_mention",
         "gleifEntity": "entity_90e4616a7cf3770584d5",
         "wikidataEntity": "entity_10000a590f3ca3198871"
       }
@@ -1538,8 +1550,8 @@
         "bName": "BHARAT DYNAMICS LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-002",
@@ -1548,8 +1560,8 @@
         "bName": "BHARAT ELECTRONICS",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-003",
@@ -1558,8 +1570,8 @@
         "bName": "NAVNEET EDUCATION LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-004",
@@ -1568,8 +1580,8 @@
         "bName": "HINDUSTAN ZINC LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-005",
@@ -1578,8 +1590,8 @@
         "bName": "BHARAT ELECTRONICS",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-006",
@@ -1588,8 +1600,8 @@
         "bName": "TATA STARBUCKS PRIVATE LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-007",
@@ -1598,8 +1610,8 @@
         "bName": "TATA CHEMICALS LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-008",
@@ -1608,8 +1620,8 @@
         "bName": "TATA CONSUMER PRODUCTS LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-009",
@@ -1618,8 +1630,8 @@
         "bName": "TATA CHEMICALS LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-010",
@@ -1628,8 +1640,8 @@
         "bName": "TATA CONSUMER PRODUCTS LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-011",
@@ -1638,8 +1650,8 @@
         "bName": "TATA CONSUMER PRODUCTS LIMITED",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-012",
@@ -1648,8 +1660,8 @@
         "bName": "SUN PARADISE",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-013",
@@ -1658,8 +1670,8 @@
         "bName": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
         "variation": "abbreviation",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-014",
@@ -1668,8 +1680,8 @@
         "bName": "JAY AMBE STEEL PROFILE CUTTING CO",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-015",
@@ -1678,8 +1690,8 @@
         "bName": "SHREE D B GOLD",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-016",
@@ -1688,8 +1700,8 @@
         "bName": "RAJ AUTOLINK",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-017",
@@ -1698,8 +1710,8 @@
         "bName": "M/S SRI PADHMA CONSTRUCTIONS",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-018",
@@ -1708,8 +1720,8 @@
         "bName": "Carnelian Bharat AmritKaal Fund 3",
         "variation": "divergent",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       },
       {
         "pairId": "NEG-019",
@@ -1718,8 +1730,8 @@
         "bName": "UNIPRO",
         "variation": "transliteration",
         "falselyMerged": false,
-        "aStatus": "resolved",
-        "bStatus": "resolved"
+        "aStatus": "unresolved",
+        "bStatus": "unresolved"
       }
     ],
     "corpusWideFalseMerges": [],

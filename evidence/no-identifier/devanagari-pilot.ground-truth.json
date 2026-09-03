@@ -1,0 +1,2726 @@
+{
+  "experiment": "no-identifier-entity-resolution",
+  "dataClass": "real-collected-public-record",
+  "builtFrom": [
+    "data/public/raw/SRC-001/2026-09-03T20-51-29-042Z",
+    "data/public/raw/SRC-002/2026-09-03T20-51-37-651Z",
+    "data/public/raw/SRC-002/2026-09-03T20-51-49-134Z"
+  ],
+  "sources": [
+    {
+      "sourceId": "SRC-001",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "retrievedAt": "2026-09-03T20:51:29.042Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "657c11d624a361056b966dac98f8a46984018ede898838e3b254b770422f94ba",
+      "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+      "sourcePayloads": [
+        {
+          "file": "sparql-results.json",
+          "sha256": "657c11d624a361056b966dac98f8a46984018ede898838e3b254b770422f94ba",
+          "bytes": 53781,
+          "records": 78,
+          "storedAt": "raw/sparql-results.json"
+        }
+      ]
+    },
+    {
+      "sourceId": "SRC-002",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+      "retrievedAt": "2026-09-03T20:51:37.651Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "7183736bb5d6dc7fd7d8b0b327e54d5ce092bd221ac945fd9a8019799c1f4936",
+      "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+      "sourcePayloads": [
+        {
+          "file": "lei-records-batch-01.json",
+          "sha256": "dc9fc63dc347289887b223693df4e8ecfbbccadd011ad556b92e36e4a765ccb4",
+          "bytes": 120612,
+          "records": 40,
+          "storedAt": "raw/lei-records-batch-01.json"
+        },
+        {
+          "file": "lei-records-batch-02.json",
+          "sha256": "48dcaa64771d141fe743af9ada6bfff7f7ce4d3ecdea7c9175e9d9fe52796250",
+          "bytes": 115588,
+          "records": 39,
+          "storedAt": "raw/lei-records-batch-02.json"
+        }
+      ]
+    },
+    {
+      "sourceId": "SRC-002",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+      "retrievedAt": "2026-09-03T20:51:49.134Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "814b22e98a1a5ab051422cead93f5191bfc5ee4845ba2a729ea1730c4939ecdc",
+      "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+      "sourcePayloads": [
+        {
+          "file": "lei-records.json",
+          "sha256": "814b22e98a1a5ab051422cead93f5191bfc5ee4845ba2a729ea1730c4939ecdc",
+          "bytes": 248969,
+          "records": 100,
+          "storedAt": "raw/lei-records.json"
+        }
+      ]
+    }
+  ],
+  "primaryLabelView": "Wikidata records carry the publisher's PRIMARY Hindi label (rdfs:label @hi) as `name`. 55 of 78 collected items have one; the rest are excluded because they cannot participate in a transliteration test. The English label is dropped entirely rather than kept as an alias, so no Latin form of the name reaches the resolver.",
+  "basis": "An LEI denotes exactly one legal entity (ISO 17442). GLEIF and Wikidata state their LEIs independently of one another, so a shared LEI is a same-subject claim made by two publishers rather than an inference of ours, and distinct LEIs are distinct legal entities however similar the names. No name similarity is asserted as truth anywhere in this document.",
+  "maskedFromResolver": {
+    "regimes": {
+      "full": "No record of either publisher carries any identifier.",
+      "anchored": "GLEIF retains the LEI it issues (the reference set). Every Wikidata record is stripped of every identifier, so the SHARED identifier is unavailable and a Wikidata record can reach its GLEIF subject only through its name."
+    },
+    "fields": [
+      "identifiers[] — removed from every masked record",
+      "registryRecordId — replaced by an opaque surrogate (NIDP-####); GLEIF's is the LEI, Wikidata's is the QID",
+      "recordRef — derived from registryRecordId, therefore surrogated; this is what reaches provenance.location",
+      "sourceUrl — per-record URL embeds the LEI/QID, reduced to the endpoint the record came from",
+      "relations[] — targetRegistryRecordId is a raw LEI, so the array is dropped entirely"
+    ],
+    "notMasked": [
+      "name — verbatim publisher string, never altered",
+      "aliases[] — verbatim publisher strings, never altered",
+      "jurisdiction, status, observedAt, license, licenseUrl, retrievedAt"
+    ]
+  },
+  "counts": {
+    "records": 234,
+    "gleifRecords": 179,
+    "wikidataRecords": 55,
+    "positivePairs": 54,
+    "hardNegativePairs": 19,
+    "undeterminedRecords": 1
+  },
+  "positives": [
+    {
+      "pairId": "POS-001",
+      "lei": "335800MPTXBI8YNP7245",
+      "gleifSurrogate": "NIDP-0035",
+      "wikidataSurrogate": "NIDP-0180",
+      "gleifName": "RAZORPAY SOFTWARE LIMITED",
+      "wikidataName": "रेजरपे"
+    },
+    {
+      "pairId": "POS-002",
+      "lei": "98450007D9D76C85F165",
+      "gleifSurrogate": "NIDP-0153",
+      "wikidataSurrogate": "NIDP-0181",
+      "gleifName": "INNOFIN SOLUTIONS PRIVATE LIMITED",
+      "wikidataName": "लेनदेनक्लब"
+    },
+    {
+      "pairId": "POS-003",
+      "lei": "335800NLJQZNHM9LBB31",
+      "gleifSurrogate": "NIDP-0037",
+      "wikidataSurrogate": "NIDP-0182",
+      "gleifName": "COAL INDIA LIMITED",
+      "wikidataName": "कोल इण्डिया"
+    },
+    {
+      "pairId": "POS-004",
+      "lei": "335800KWUEXYN8QDIF86",
+      "gleifSurrogate": "NIDP-0030",
+      "wikidataSurrogate": "NIDP-0183",
+      "gleifName": "TRANSACTREE TECHNOLOGIES PRIVATE LIMITED",
+      "wikidataName": "लेंडबॉक्स"
+    },
+    {
+      "pairId": "POS-005",
+      "lei": "5493001JZ37UBBZF6L49",
+      "gleifSurrogate": "NIDP-0061",
+      "wikidataSurrogate": "NIDP-0184",
+      "gleifName": "STATE BANK OF INDIA",
+      "wikidataName": "एसबीआई"
+    },
+    {
+      "pairId": "POS-006",
+      "lei": "335800ZJXMF183ZCQI90",
+      "gleifSurrogate": "NIDP-0059",
+      "wikidataSurrogate": "NIDP-0185",
+      "gleifName": "STEEL AUTHORITY OF INDIA LIMITED",
+      "wikidataName": "भारतीय इस्पात प्राधिकरण"
+    },
+    {
+      "pairId": "POS-007",
+      "lei": "335800ILXPCOFAHC5V79",
+      "gleifSurrogate": "NIDP-0028",
+      "wikidataSurrogate": "NIDP-0186",
+      "gleifName": "FLIPKART INDIA PRIVATE LIMITED",
+      "wikidataName": "फ्लिपकार्ट"
+    },
+    {
+      "pairId": "POS-008",
+      "lei": "335800FPDZ9MRSNO7N41",
+      "gleifSurrogate": "NIDP-0024",
+      "wikidataSurrogate": "NIDP-0187",
+      "gleifName": "OIL AND NATURAL GAS CORPORATION LIMITED",
+      "wikidataName": "तेल एवं प्राकृतिक गैस निगम लिमिटेड"
+    },
+    {
+      "pairId": "POS-009",
+      "lei": "335800KXLE5NO5B4GF90",
+      "gleifSurrogate": "NIDP-0031",
+      "wikidataSurrogate": "NIDP-0188",
+      "gleifName": "HINDALCO INDUSTRIES LIMITED",
+      "wikidataName": "हिंडाल्को इंडस्ट्रीज"
+    },
+    {
+      "pairId": "POS-010",
+      "lei": "R7RX8ER1V4666J8D1I38",
+      "gleifSurrogate": "NIDP-0179",
+      "wikidataSurrogate": "NIDP-0189",
+      "gleifName": "ICICI BANK LIMITED",
+      "wikidataName": "आईसीआईसीआई बैंक"
+    },
+    {
+      "pairId": "POS-011",
+      "lei": "335800WLOU3OFWFTMP43",
+      "gleifSurrogate": "NIDP-0051",
+      "wikidataSurrogate": "NIDP-0190",
+      "gleifName": "ITC LIMITED",
+      "wikidataName": "आई टी सी लिमिटेड"
+    },
+    {
+      "pairId": "POS-012",
+      "lei": "335800WYB6OIBY9EOZ42",
+      "gleifSurrogate": "NIDP-0054",
+      "wikidataSurrogate": "NIDP-0191",
+      "gleifName": "EMCURE PHARMACEUTICALS LIMITED",
+      "wikidataName": "एमक्योर फार्मास्युटिकल्स"
+    },
+    {
+      "pairId": "POS-013",
+      "lei": "335800U55VUJQV4IYW95",
+      "gleifSurrogate": "NIDP-0048",
+      "wikidataSurrogate": "NIDP-0192",
+      "gleifName": "LIVING MEDIA INDIA LIMITED",
+      "wikidataName": "इंडिया टुडे ग्रुप"
+    },
+    {
+      "pairId": "POS-014",
+      "lei": "9695001HW2J8HYBLXG74",
+      "gleifSurrogate": "NIDP-0151",
+      "wikidataSurrogate": "NIDP-0193",
+      "gleifName": "EARLY MAKERS GROUP",
+      "wikidataName": "ईएमलियोन बिजनेस स्कूल"
+    },
+    {
+      "pairId": "POS-015",
+      "lei": "335800WPNZ3ELJCQ3U26",
+      "gleifSurrogate": "NIDP-0053",
+      "wikidataSurrogate": "NIDP-0195",
+      "gleifName": "MAHANAGAR TELEPHONE NIGAM LIMITED",
+      "wikidataName": "महानगर टेलीफोन निगम लिमिटेड"
+    },
+    {
+      "pairId": "POS-016",
+      "lei": "335800BO2LHWJJ8TZI32",
+      "gleifSurrogate": "NIDP-0017",
+      "wikidataSurrogate": "NIDP-0196",
+      "gleifName": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+      "wikidataName": "टाटा मोटर्स"
+    },
+    {
+      "pairId": "POS-017",
+      "lei": "335800I2TBDZ63LIVM40",
+      "gleifSurrogate": "NIDP-0027",
+      "wikidataSurrogate": "NIDP-0197",
+      "gleifName": "ULTRAVIOLET TECH PRIVATE LIMITED",
+      "wikidataName": "पेटीऍम"
+    },
+    {
+      "pairId": "POS-018",
+      "lei": "549300HVNWMJPOFVNI41",
+      "gleifSurrogate": "NIDP-0067",
+      "wikidataSurrogate": "NIDP-0198",
+      "gleifName": "AXIS BANK LIMITED",
+      "wikidataName": "ऐक्सिस बैंक"
+    },
+    {
+      "pairId": "POS-019",
+      "lei": "549300CQ6M9Q0TJEZR23",
+      "gleifSurrogate": "NIDP-0065",
+      "wikidataSurrogate": "NIDP-0199",
+      "gleifName": "BANK OF BARODA",
+      "wikidataName": "बैंक ऑफ़ बड़ौदा"
+    },
+    {
+      "pairId": "POS-020",
+      "lei": "335800E6GTTXKHXE2I75",
+      "gleifSurrogate": "NIDP-0021",
+      "wikidataSurrogate": "NIDP-0200",
+      "gleifName": "KOTAK MAHINDRA BANK LIMITED",
+      "wikidataName": "कोटक महिंद्रा बैंक"
+    },
+    {
+      "pairId": "POS-021",
+      "lei": "335800CKSGJELHJHQ768",
+      "gleifSurrogate": "NIDP-0019",
+      "wikidataSurrogate": "NIDP-0201",
+      "gleifName": "DHANLAXMI BANK LIMITED",
+      "wikidataName": "धनलक्ष्मी बैंक"
+    },
+    {
+      "pairId": "POS-022",
+      "lei": "335800H6MURUA6FBOW17",
+      "gleifSurrogate": "NIDP-0025",
+      "wikidataSurrogate": "NIDP-0202",
+      "gleifName": "TATA CHEMICALS LIMITED",
+      "wikidataName": "टाटा केमिकल्स"
+    },
+    {
+      "pairId": "POS-023",
+      "lei": "335800PJJNVIIZQTUN94",
+      "gleifSurrogate": "NIDP-0041",
+      "wikidataSurrogate": "NIDP-0203",
+      "gleifName": "ORAVEL STAYS LIMITED",
+      "wikidataName": "ओयो रूम्स"
+    },
+    {
+      "pairId": "POS-024",
+      "lei": "335800TYLGG93MM7PR89",
+      "gleifSurrogate": "NIDP-0047",
+      "wikidataSurrogate": "NIDP-0204",
+      "gleifName": "INFOSYS LIMITED",
+      "wikidataName": "Rensei"
+    },
+    {
+      "pairId": "POS-025",
+      "lei": "335800UZ9C7WGVIYHR69",
+      "gleifSurrogate": "NIDP-0049",
+      "wikidataSurrogate": "NIDP-0205",
+      "gleifName": "GATEWAY TECHNOLABS PRIVATE LIMITED",
+      "wikidataName": "गेटवे"
+    },
+    {
+      "pairId": "POS-026",
+      "lei": "3358004LVIZ8H3SVNB07",
+      "gleifSurrogate": "NIDP-0007",
+      "wikidataSurrogate": "NIDP-0206",
+      "gleifName": "NEW DELHI TELEVISION LIMITED",
+      "wikidataName": "एनडीटीवी"
+    },
+    {
+      "pairId": "POS-027",
+      "lei": "335800PJLUEOB8914F48",
+      "gleifSurrogate": "NIDP-0042",
+      "wikidataSurrogate": "NIDP-0207",
+      "gleifName": "DLF LIMITED",
+      "wikidataName": "डीएलएफ़ यूनिवर्सल लिमिटेड"
+    },
+    {
+      "pairId": "POS-028",
+      "lei": "335800KJ7GE29LB4SS73",
+      "gleifSurrogate": "NIDP-0029",
+      "wikidataSurrogate": "NIDP-0208",
+      "gleifName": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
+      "wikidataName": "सन फार्मास्युटिकल"
+    },
+    {
+      "pairId": "POS-029",
+      "lei": "335800B99NHE5ZGSGR16",
+      "gleifSurrogate": "NIDP-0016",
+      "wikidataSurrogate": "NIDP-0209",
+      "gleifName": "BHARAT DYNAMICS LIMITED",
+      "wikidataName": "भारत डायनेमिक्स लिमिटेड"
+    },
+    {
+      "pairId": "POS-030",
+      "lei": "335800AKDC7T933T3I86",
+      "gleifSurrogate": "NIDP-0015",
+      "wikidataSurrogate": "NIDP-0210",
+      "gleifName": "HINDUSTAN AERONAUTICS LIMITED",
+      "wikidataName": "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड"
+    },
+    {
+      "pairId": "POS-031",
+      "lei": "984500AF53B3E2BI4926",
+      "gleifSurrogate": "NIDP-0165",
+      "wikidataSurrogate": "NIDP-0211",
+      "gleifName": "BHARAT ELECTRONICS",
+      "wikidataName": "भारत इलैक्ट्रॉनिक्स लिमिटेड"
+    },
+    {
+      "pairId": "POS-032",
+      "lei": "335800XDKX9KB5EMCO07",
+      "gleifSurrogate": "NIDP-0055",
+      "wikidataSurrogate": "NIDP-0212",
+      "gleifName": "VEDANTA LIMITED",
+      "wikidataName": "sesa sterlite"
+    },
+    {
+      "pairId": "POS-033",
+      "lei": "335800YRLRO5AUJCZA23",
+      "gleifSurrogate": "NIDP-0058",
+      "wikidataSurrogate": "NIDP-0213",
+      "gleifName": "3I INFOTECH LIMITED",
+      "wikidataName": "3i Infotech Limited"
+    },
+    {
+      "pairId": "POS-034",
+      "lei": "335800D8QCOQANG91D62",
+      "gleifSurrogate": "NIDP-0020",
+      "wikidataSurrogate": "NIDP-0214",
+      "gleifName": "ENGINEERS INDIA LIMITED",
+      "wikidataName": "इंजीनियर्स इंडिया लिमिटेड"
+    },
+    {
+      "pairId": "POS-035",
+      "lei": "3358008S2MTRWZ255P70",
+      "gleifSurrogate": "NIDP-0013",
+      "wikidataSurrogate": "NIDP-0215",
+      "gleifName": "GMR AIRPORTS LIMITED",
+      "wikidataName": "जीएमआर समूह"
+    },
+    {
+      "pairId": "POS-036",
+      "lei": "335800VXARLM7IJ93W69",
+      "gleifSurrogate": "NIDP-0050",
+      "wikidataSurrogate": "NIDP-0216",
+      "gleifName": "GVK POWER & INFRASTRUCTURE LIMITED",
+      "wikidataName": "जीवीके"
+    },
+    {
+      "pairId": "POS-037",
+      "lei": "549300C1F8OLYSOQYB65",
+      "gleifSurrogate": "NIDP-0063",
+      "wikidataSurrogate": "NIDP-0217",
+      "gleifName": "HCL TECHNOLOGIES LIMITED",
+      "wikidataName": "एचसीएल टेक्नोलॉजीज"
+    },
+    {
+      "pairId": "POS-038",
+      "lei": "984500C3E8EZ0XB98B74",
+      "gleifSurrogate": "NIDP-0169",
+      "wikidataSurrogate": "NIDP-0218",
+      "gleifName": "HUSK POWER SYSTEMS PRIVATE LIMITED",
+      "wikidataName": "हस्क पावर सिस्टम्स"
+    },
+    {
+      "pairId": "POS-039",
+      "lei": "335800PBD2MJ1IMW5380",
+      "gleifSurrogate": "NIDP-0039",
+      "wikidataSurrogate": "NIDP-0219",
+      "gleifName": "INOX LEISURE LIMITED",
+      "wikidataName": "आईनॉक्स लीजर लिमिटेड"
+    },
+    {
+      "pairId": "POS-040",
+      "lei": "335800MKYUNN6M42G374",
+      "gleifSurrogate": "NIDP-0034",
+      "wikidataSurrogate": "NIDP-0220",
+      "gleifName": "LUV FILMS LLP",
+      "wikidataName": "लव फिल्म्स"
+    },
+    {
+      "pairId": "POS-041",
+      "lei": "335800EUJ3PFW1W1IW19",
+      "gleifSurrogate": "NIDP-0023",
+      "wikidataSurrogate": "NIDP-0221",
+      "gleifName": "JAICO PUBLISHING HOUSE",
+      "wikidataName": "जैको प्रकाशन संस्था"
+    },
+    {
+      "pairId": "POS-042",
+      "lei": "3358003FR3JIC5FRXA90",
+      "gleifSurrogate": "NIDP-0004",
+      "wikidataSurrogate": "NIDP-0222",
+      "gleifName": "LARSEN & TOUBRO LIMITED",
+      "wikidataName": "लार्सन एंड टूब्रो"
+    },
+    {
+      "pairId": "POS-043",
+      "lei": "335800569A6H12LH4677",
+      "gleifSurrogate": "NIDP-0008",
+      "wikidataSurrogate": "NIDP-0223",
+      "gleifName": "ACC LIMITED",
+      "wikidataName": "एसीसी लिमिटेड"
+    },
+    {
+      "pairId": "POS-044",
+      "lei": "335800SB4EYU1F7N9Q09",
+      "gleifSurrogate": "NIDP-0044",
+      "wikidataSurrogate": "NIDP-0224",
+      "gleifName": "AIR INDIA LIMITED",
+      "wikidataName": "एअर इंडिया"
+    },
+    {
+      "pairId": "POS-045",
+      "lei": "3358001BZKWERVWYCK35",
+      "gleifSurrogate": "NIDP-0002",
+      "wikidataSurrogate": "NIDP-0225",
+      "gleifName": "ASHOK LEYLAND LIMITED",
+      "wikidataName": "अशोक लेलैंड"
+    },
+    {
+      "pairId": "POS-046",
+      "lei": "335800WMVIESQUO95586",
+      "gleifSurrogate": "NIDP-0052",
+      "wikidataSurrogate": "NIDP-0226",
+      "gleifName": "SBI LIFE INSURANCE COMPANY LIMITED",
+      "wikidataName": "एसबीआई लाइफ इंश्योरेंस कंपनी"
+    },
+    {
+      "pairId": "POS-047",
+      "lei": "335800C1B2T9BM5ILM48",
+      "gleifSurrogate": "NIDP-0018",
+      "wikidataSurrogate": "NIDP-0227",
+      "gleifName": "TATA STARBUCKS PRIVATE LIMITED",
+      "wikidataName": "टाटा स्टारबक्स"
+    },
+    {
+      "pairId": "POS-048",
+      "lei": "335800PC9O9B4BQHG814",
+      "gleifSurrogate": "NIDP-0040",
+      "wikidataSurrogate": "NIDP-0228",
+      "gleifName": "ULTRATECH CEMENT LIMITED",
+      "wikidataName": "अल्ट्राटेक सीमेंंट"
+    },
+    {
+      "pairId": "POS-049",
+      "lei": "335800LOXFWU8ZQJMD12",
+      "gleifSurrogate": "NIDP-0033",
+      "wikidataSurrogate": "NIDP-0229",
+      "gleifName": "TATA CONSUMER PRODUCTS LIMITED",
+      "wikidataName": "टाटा कंज्यूमर प्रोडक्ट्स"
+    },
+    {
+      "pairId": "POS-050",
+      "lei": "3358003B573EV4KB4Z02",
+      "gleifSurrogate": "NIDP-0003",
+      "wikidataSurrogate": "NIDP-0230",
+      "gleifName": "MAHINDRA AND MAHINDRA LIMITED",
+      "wikidataName": "महिन्द्रा एण्ड महिन्द्रा"
+    },
+    {
+      "pairId": "POS-051",
+      "lei": "3358007X5FQ2R445Z747",
+      "gleifSurrogate": "NIDP-0010",
+      "wikidataSurrogate": "NIDP-0231",
+      "gleifName": "BHARAT HEAVY ELECTRICALS LIMITED",
+      "wikidataName": "भारत हेवी इलेक्ट्रिकल्स लिमिटेड"
+    },
+    {
+      "pairId": "POS-052",
+      "lei": "5493003UOETFYRONLG31",
+      "gleifSurrogate": "NIDP-0062",
+      "wikidataSurrogate": "NIDP-0232",
+      "gleifName": "RELIANCE INDUSTRIES LIMITED",
+      "wikidataName": "रिलायन्स इण्डस्ट्रीज"
+    },
+    {
+      "pairId": "POS-053",
+      "lei": "335800OVDPY3DVZR2798",
+      "gleifSurrogate": "NIDP-0038",
+      "wikidataSurrogate": "NIDP-0233",
+      "gleifName": "DR. REDDY'S LABORATORIES LIMITED",
+      "wikidataName": "डॉ. रेड्डीज लेबोरेटरीज"
+    },
+    {
+      "pairId": "POS-054",
+      "lei": "894500J5N0WGEPW6ML53",
+      "gleifSurrogate": "NIDP-0137",
+      "wikidataSurrogate": "NIDP-0234",
+      "gleifName": "SKYROOT AEROSPACE PRIVATE LIMITED",
+      "wikidataName": "स्काईरूट एयरोस्पेस"
+    }
+  ],
+  "hardNegatives": [
+    {
+      "pairId": "NEG-001",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0010",
+        "registry": "gleif",
+        "name": "BHARAT HEAVY ELECTRICALS LIMITED",
+        "lei": "3358007X5FQ2R445Z747"
+      },
+      "b": {
+        "surrogate": "NIDP-0016",
+        "registry": "gleif",
+        "name": "BHARAT DYNAMICS LIMITED",
+        "lei": "335800B99NHE5ZGSGR16"
+      }
+    },
+    {
+      "pairId": "NEG-002",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0010",
+        "registry": "gleif",
+        "name": "BHARAT HEAVY ELECTRICALS LIMITED",
+        "lei": "3358007X5FQ2R445Z747"
+      },
+      "b": {
+        "surrogate": "NIDP-0165",
+        "registry": "gleif",
+        "name": "BHARAT ELECTRONICS",
+        "lei": "984500AF53B3E2BI4926"
+      }
+    },
+    {
+      "pairId": "NEG-003",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0012",
+        "registry": "gleif",
+        "name": "NAVNEET PRAKASHAN KENDRA",
+        "lei": "3358008DDDK4NDB42Z33"
+      },
+      "b": {
+        "surrogate": "NIDP-0045",
+        "registry": "gleif",
+        "name": "NAVNEET EDUCATION LIMITED",
+        "lei": "335800TC8CLDPMON3N33"
+      }
+    },
+    {
+      "pairId": "NEG-004",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0015",
+        "registry": "gleif",
+        "name": "HINDUSTAN AERONAUTICS LIMITED",
+        "lei": "335800AKDC7T933T3I86"
+      },
+      "b": {
+        "surrogate": "NIDP-0032",
+        "registry": "gleif",
+        "name": "HINDUSTAN ZINC LIMITED",
+        "lei": "335800LB39TLJ8YTWM98"
+      }
+    },
+    {
+      "pairId": "NEG-005",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0016",
+        "registry": "gleif",
+        "name": "BHARAT DYNAMICS LIMITED",
+        "lei": "335800B99NHE5ZGSGR16"
+      },
+      "b": {
+        "surrogate": "NIDP-0165",
+        "registry": "gleif",
+        "name": "BHARAT ELECTRONICS",
+        "lei": "984500AF53B3E2BI4926"
+      }
+    },
+    {
+      "pairId": "NEG-006",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0017",
+        "registry": "gleif",
+        "name": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+        "lei": "335800BO2LHWJJ8TZI32"
+      },
+      "b": {
+        "surrogate": "NIDP-0018",
+        "registry": "gleif",
+        "name": "TATA STARBUCKS PRIVATE LIMITED",
+        "lei": "335800C1B2T9BM5ILM48"
+      }
+    },
+    {
+      "pairId": "NEG-007",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0017",
+        "registry": "gleif",
+        "name": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+        "lei": "335800BO2LHWJJ8TZI32"
+      },
+      "b": {
+        "surrogate": "NIDP-0025",
+        "registry": "gleif",
+        "name": "TATA CHEMICALS LIMITED",
+        "lei": "335800H6MURUA6FBOW17"
+      }
+    },
+    {
+      "pairId": "NEG-008",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0017",
+        "registry": "gleif",
+        "name": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+        "lei": "335800BO2LHWJJ8TZI32"
+      },
+      "b": {
+        "surrogate": "NIDP-0033",
+        "registry": "gleif",
+        "name": "TATA CONSUMER PRODUCTS LIMITED",
+        "lei": "335800LOXFWU8ZQJMD12"
+      }
+    },
+    {
+      "pairId": "NEG-009",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0018",
+        "registry": "gleif",
+        "name": "TATA STARBUCKS PRIVATE LIMITED",
+        "lei": "335800C1B2T9BM5ILM48"
+      },
+      "b": {
+        "surrogate": "NIDP-0025",
+        "registry": "gleif",
+        "name": "TATA CHEMICALS LIMITED",
+        "lei": "335800H6MURUA6FBOW17"
+      }
+    },
+    {
+      "pairId": "NEG-010",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0018",
+        "registry": "gleif",
+        "name": "TATA STARBUCKS PRIVATE LIMITED",
+        "lei": "335800C1B2T9BM5ILM48"
+      },
+      "b": {
+        "surrogate": "NIDP-0033",
+        "registry": "gleif",
+        "name": "TATA CONSUMER PRODUCTS LIMITED",
+        "lei": "335800LOXFWU8ZQJMD12"
+      }
+    },
+    {
+      "pairId": "NEG-011",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0025",
+        "registry": "gleif",
+        "name": "TATA CHEMICALS LIMITED",
+        "lei": "335800H6MURUA6FBOW17"
+      },
+      "b": {
+        "surrogate": "NIDP-0033",
+        "registry": "gleif",
+        "name": "TATA CONSUMER PRODUCTS LIMITED",
+        "lei": "335800LOXFWU8ZQJMD12"
+      }
+    },
+    {
+      "pairId": "NEG-012",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0029",
+        "registry": "gleif",
+        "name": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
+        "lei": "335800KJ7GE29LB4SS73"
+      },
+      "b": {
+        "surrogate": "NIDP-0172",
+        "registry": "gleif",
+        "name": "SUN PARADISE",
+        "lei": "984500EC9FD3B5802C54"
+      }
+    },
+    {
+      "pairId": "NEG-013",
+      "basis": "token_subset",
+      "a": {
+        "surrogate": "NIDP-0081",
+        "registry": "gleif",
+        "name": "BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+        "lei": "6488009OG9Q06ZQ7D981"
+      },
+      "b": {
+        "surrogate": "NIDP-0092",
+        "registry": "gleif",
+        "name": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+        "lei": "648800EIDTT0NVZWOX61"
+      }
+    },
+    {
+      "pairId": "NEG-014",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0084",
+        "registry": "gleif",
+        "name": "JAY MAA VAISHNAVI RICE MILL PRIVATE LIMITED",
+        "lei": "648800A8EQMT38TLQG18"
+      },
+      "b": {
+        "surrogate": "NIDP-0124",
+        "registry": "gleif",
+        "name": "JAY AMBE STEEL PROFILE CUTTING CO",
+        "lei": "648800UP7ST9YV219J98"
+      }
+    },
+    {
+      "pairId": "NEG-015",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0117",
+        "registry": "gleif",
+        "name": "SHREE KRISHNA RMC AND STRUCTURE",
+        "lei": "648800RUCMLBHAFZ0C64"
+      },
+      "b": {
+        "surrogate": "NIDP-0133",
+        "registry": "gleif",
+        "name": "SHREE D B GOLD",
+        "lei": "648800ZADOJV2CDOHL54"
+      }
+    },
+    {
+      "pairId": "NEG-016",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0120",
+        "registry": "gleif",
+        "name": "RAJ SUNIL WADHWA",
+        "lei": "648800TEE0SOV2DNW235"
+      },
+      "b": {
+        "surrogate": "NIDP-0127",
+        "registry": "gleif",
+        "name": "RAJ AUTOLINK",
+        "lei": "648800WMI6KEARAKTK98"
+      }
+    },
+    {
+      "pairId": "NEG-017",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0129",
+        "registry": "gleif",
+        "name": "M/s Maharashtra Fruit Co",
+        "lei": "648800XB9QL4PKDZWR64"
+      },
+      "b": {
+        "surrogate": "NIDP-0130",
+        "registry": "gleif",
+        "name": "M/S SRI PADHMA CONSTRUCTIONS",
+        "lei": "648800XECLZTBTFS0333"
+      }
+    },
+    {
+      "pairId": "NEG-018",
+      "basis": "shared_leading_token",
+      "a": {
+        "surrogate": "NIDP-0155",
+        "registry": "gleif",
+        "name": "Carnelian Structural Shifts Fund Series II",
+        "lei": "98450035H491F02C9B76"
+      },
+      "b": {
+        "surrogate": "NIDP-0157",
+        "registry": "gleif",
+        "name": "Carnelian Bharat AmritKaal Fund 3",
+        "lei": "9845003F0DE4FCF83E11"
+      }
+    },
+    {
+      "pairId": "NEG-019",
+      "basis": "conflated_by_third_party",
+      "a": {
+        "surrogate": "NIDP-0001",
+        "registry": "gleif",
+        "name": "Публичное акционерное общество \"Юнипро\"",
+        "lei": "253400DR5QSH8MEGZZ11"
+      },
+      "b": {
+        "surrogate": "NIDP-0154",
+        "registry": "gleif",
+        "name": "UNIPRO",
+        "lei": "98450016D1DA0D640356"
+      }
+    }
+  ],
+  "undetermined": [
+    {
+      "wikidataSurrogate": "NIDP-0194",
+      "name": "यूनिप्रो",
+      "leis": [
+        "253400DR5QSH8MEGZZ11",
+        "98450016D1DA0D640356"
+      ],
+      "reason": "Wikidata item states 2 distinct LEIs (253400DR5QSH8MEGZZ11, 98450016D1DA0D640356). An LEI denotes one legal entity, so at most one can be right and the record does not say which. No positive pair is asserted."
+    }
+  ],
+  "surrogateMap": {
+    "NIDP-0001": {
+      "registry": "gleif",
+      "registryRecordId": "253400DR5QSH8MEGZZ11",
+      "name": "Публичное акционерное общество \"Юнипро\"",
+      "leis": [
+        "253400DR5QSH8MEGZZ11"
+      ]
+    },
+    "NIDP-0002": {
+      "registry": "gleif",
+      "registryRecordId": "3358001BZKWERVWYCK35",
+      "name": "ASHOK LEYLAND LIMITED",
+      "leis": [
+        "3358001BZKWERVWYCK35"
+      ]
+    },
+    "NIDP-0003": {
+      "registry": "gleif",
+      "registryRecordId": "3358003B573EV4KB4Z02",
+      "name": "MAHINDRA AND MAHINDRA LIMITED",
+      "leis": [
+        "3358003B573EV4KB4Z02"
+      ]
+    },
+    "NIDP-0004": {
+      "registry": "gleif",
+      "registryRecordId": "3358003FR3JIC5FRXA90",
+      "name": "LARSEN & TOUBRO LIMITED",
+      "leis": [
+        "3358003FR3JIC5FRXA90"
+      ]
+    },
+    "NIDP-0005": {
+      "registry": "gleif",
+      "registryRecordId": "3358003MFE3SZHBXNS20",
+      "name": "HARPERCOLLINS PUBLISHERS INDIA PRIVATE LIMITED",
+      "leis": [
+        "3358003MFE3SZHBXNS20"
+      ]
+    },
+    "NIDP-0006": {
+      "registry": "gleif",
+      "registryRecordId": "33580047Q2XHGIB4Q674",
+      "name": "FIITJEE LIMITED",
+      "leis": [
+        "33580047Q2XHGIB4Q674"
+      ]
+    },
+    "NIDP-0007": {
+      "registry": "gleif",
+      "registryRecordId": "3358004LVIZ8H3SVNB07",
+      "name": "NEW DELHI TELEVISION LIMITED",
+      "leis": [
+        "3358004LVIZ8H3SVNB07"
+      ]
+    },
+    "NIDP-0008": {
+      "registry": "gleif",
+      "registryRecordId": "335800569A6H12LH4677",
+      "name": "ACC LIMITED",
+      "leis": [
+        "335800569A6H12LH4677"
+      ]
+    },
+    "NIDP-0009": {
+      "registry": "gleif",
+      "registryRecordId": "3358006EZJ631EWWDZ23",
+      "name": "NATIONAL BULK HANDLING CORPORATION PRIVATE LIMITED",
+      "leis": [
+        "3358006EZJ631EWWDZ23"
+      ]
+    },
+    "NIDP-0010": {
+      "registry": "gleif",
+      "registryRecordId": "3358007X5FQ2R445Z747",
+      "name": "BHARAT HEAVY ELECTRICALS LIMITED",
+      "leis": [
+        "3358007X5FQ2R445Z747"
+      ]
+    },
+    "NIDP-0011": {
+      "registry": "gleif",
+      "registryRecordId": "33580081I62J4X9YQU93",
+      "name": "HAIER APPLIANCES (INDIA) PRIVATE LIMITED",
+      "leis": [
+        "33580081I62J4X9YQU93"
+      ]
+    },
+    "NIDP-0012": {
+      "registry": "gleif",
+      "registryRecordId": "3358008DDDK4NDB42Z33",
+      "name": "NAVNEET PRAKASHAN KENDRA",
+      "leis": [
+        "3358008DDDK4NDB42Z33"
+      ]
+    },
+    "NIDP-0013": {
+      "registry": "gleif",
+      "registryRecordId": "3358008S2MTRWZ255P70",
+      "name": "GMR AIRPORTS LIMITED",
+      "leis": [
+        "3358008S2MTRWZ255P70"
+      ]
+    },
+    "NIDP-0014": {
+      "registry": "gleif",
+      "registryRecordId": "33580094NA85GD34LN25",
+      "name": "THE SUPREME INDUSTRIES LIMITED",
+      "leis": [
+        "33580094NA85GD34LN25"
+      ]
+    },
+    "NIDP-0015": {
+      "registry": "gleif",
+      "registryRecordId": "335800AKDC7T933T3I86",
+      "name": "HINDUSTAN AERONAUTICS LIMITED",
+      "leis": [
+        "335800AKDC7T933T3I86"
+      ]
+    },
+    "NIDP-0016": {
+      "registry": "gleif",
+      "registryRecordId": "335800B99NHE5ZGSGR16",
+      "name": "BHARAT DYNAMICS LIMITED",
+      "leis": [
+        "335800B99NHE5ZGSGR16"
+      ]
+    },
+    "NIDP-0017": {
+      "registry": "gleif",
+      "registryRecordId": "335800BO2LHWJJ8TZI32",
+      "name": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+      "leis": [
+        "335800BO2LHWJJ8TZI32"
+      ]
+    },
+    "NIDP-0018": {
+      "registry": "gleif",
+      "registryRecordId": "335800C1B2T9BM5ILM48",
+      "name": "TATA STARBUCKS PRIVATE LIMITED",
+      "leis": [
+        "335800C1B2T9BM5ILM48"
+      ]
+    },
+    "NIDP-0019": {
+      "registry": "gleif",
+      "registryRecordId": "335800CKSGJELHJHQ768",
+      "name": "DHANLAXMI BANK LIMITED",
+      "leis": [
+        "335800CKSGJELHJHQ768"
+      ]
+    },
+    "NIDP-0020": {
+      "registry": "gleif",
+      "registryRecordId": "335800D8QCOQANG91D62",
+      "name": "ENGINEERS INDIA LIMITED",
+      "leis": [
+        "335800D8QCOQANG91D62"
+      ]
+    },
+    "NIDP-0021": {
+      "registry": "gleif",
+      "registryRecordId": "335800E6GTTXKHXE2I75",
+      "name": "KOTAK MAHINDRA BANK LIMITED",
+      "leis": [
+        "335800E6GTTXKHXE2I75"
+      ]
+    },
+    "NIDP-0022": {
+      "registry": "gleif",
+      "registryRecordId": "335800ETU8AXQNSOMA46",
+      "name": "LAXCON STEELS LIMITED",
+      "leis": [
+        "335800ETU8AXQNSOMA46"
+      ]
+    },
+    "NIDP-0023": {
+      "registry": "gleif",
+      "registryRecordId": "335800EUJ3PFW1W1IW19",
+      "name": "JAICO PUBLISHING HOUSE",
+      "leis": [
+        "335800EUJ3PFW1W1IW19"
+      ]
+    },
+    "NIDP-0024": {
+      "registry": "gleif",
+      "registryRecordId": "335800FPDZ9MRSNO7N41",
+      "name": "OIL AND NATURAL GAS CORPORATION LIMITED",
+      "leis": [
+        "335800FPDZ9MRSNO7N41"
+      ]
+    },
+    "NIDP-0025": {
+      "registry": "gleif",
+      "registryRecordId": "335800H6MURUA6FBOW17",
+      "name": "TATA CHEMICALS LIMITED",
+      "leis": [
+        "335800H6MURUA6FBOW17"
+      ]
+    },
+    "NIDP-0026": {
+      "registry": "gleif",
+      "registryRecordId": "335800HIBW96STL9XW37",
+      "name": "SAKAL MEDIA PRIVATE LIMITED",
+      "leis": [
+        "335800HIBW96STL9XW37"
+      ]
+    },
+    "NIDP-0027": {
+      "registry": "gleif",
+      "registryRecordId": "335800I2TBDZ63LIVM40",
+      "name": "ULTRAVIOLET TECH PRIVATE LIMITED",
+      "leis": [
+        "335800I2TBDZ63LIVM40"
+      ]
+    },
+    "NIDP-0028": {
+      "registry": "gleif",
+      "registryRecordId": "335800ILXPCOFAHC5V79",
+      "name": "FLIPKART INDIA PRIVATE LIMITED",
+      "leis": [
+        "335800ILXPCOFAHC5V79"
+      ]
+    },
+    "NIDP-0029": {
+      "registry": "gleif",
+      "registryRecordId": "335800KJ7GE29LB4SS73",
+      "name": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
+      "leis": [
+        "335800KJ7GE29LB4SS73"
+      ]
+    },
+    "NIDP-0030": {
+      "registry": "gleif",
+      "registryRecordId": "335800KWUEXYN8QDIF86",
+      "name": "TRANSACTREE TECHNOLOGIES PRIVATE LIMITED",
+      "leis": [
+        "335800KWUEXYN8QDIF86"
+      ]
+    },
+    "NIDP-0031": {
+      "registry": "gleif",
+      "registryRecordId": "335800KXLE5NO5B4GF90",
+      "name": "HINDALCO INDUSTRIES LIMITED",
+      "leis": [
+        "335800KXLE5NO5B4GF90"
+      ]
+    },
+    "NIDP-0032": {
+      "registry": "gleif",
+      "registryRecordId": "335800LB39TLJ8YTWM98",
+      "name": "HINDUSTAN ZINC LIMITED",
+      "leis": [
+        "335800LB39TLJ8YTWM98"
+      ]
+    },
+    "NIDP-0033": {
+      "registry": "gleif",
+      "registryRecordId": "335800LOXFWU8ZQJMD12",
+      "name": "TATA CONSUMER PRODUCTS LIMITED",
+      "leis": [
+        "335800LOXFWU8ZQJMD12"
+      ]
+    },
+    "NIDP-0034": {
+      "registry": "gleif",
+      "registryRecordId": "335800MKYUNN6M42G374",
+      "name": "LUV FILMS LLP",
+      "leis": [
+        "335800MKYUNN6M42G374"
+      ]
+    },
+    "NIDP-0035": {
+      "registry": "gleif",
+      "registryRecordId": "335800MPTXBI8YNP7245",
+      "name": "RAZORPAY SOFTWARE LIMITED",
+      "leis": [
+        "335800MPTXBI8YNP7245"
+      ]
+    },
+    "NIDP-0036": {
+      "registry": "gleif",
+      "registryRecordId": "335800MUDR3QNJWHM727",
+      "name": "TEXTURE CLOTHING COMPANY",
+      "leis": [
+        "335800MUDR3QNJWHM727"
+      ]
+    },
+    "NIDP-0037": {
+      "registry": "gleif",
+      "registryRecordId": "335800NLJQZNHM9LBB31",
+      "name": "COAL INDIA LIMITED",
+      "leis": [
+        "335800NLJQZNHM9LBB31"
+      ]
+    },
+    "NIDP-0038": {
+      "registry": "gleif",
+      "registryRecordId": "335800OVDPY3DVZR2798",
+      "name": "DR. REDDY'S LABORATORIES LIMITED",
+      "leis": [
+        "335800OVDPY3DVZR2798"
+      ]
+    },
+    "NIDP-0039": {
+      "registry": "gleif",
+      "registryRecordId": "335800PBD2MJ1IMW5380",
+      "name": "INOX LEISURE LIMITED",
+      "leis": [
+        "335800PBD2MJ1IMW5380"
+      ]
+    },
+    "NIDP-0040": {
+      "registry": "gleif",
+      "registryRecordId": "335800PC9O9B4BQHG814",
+      "name": "ULTRATECH CEMENT LIMITED",
+      "leis": [
+        "335800PC9O9B4BQHG814"
+      ]
+    },
+    "NIDP-0041": {
+      "registry": "gleif",
+      "registryRecordId": "335800PJJNVIIZQTUN94",
+      "name": "ORAVEL STAYS LIMITED",
+      "leis": [
+        "335800PJJNVIIZQTUN94"
+      ]
+    },
+    "NIDP-0042": {
+      "registry": "gleif",
+      "registryRecordId": "335800PJLUEOB8914F48",
+      "name": "DLF LIMITED",
+      "leis": [
+        "335800PJLUEOB8914F48"
+      ]
+    },
+    "NIDP-0043": {
+      "registry": "gleif",
+      "registryRecordId": "335800R4TVW8X7PE7H88",
+      "name": "LIBERTY SHOES LIMITED",
+      "leis": [
+        "335800R4TVW8X7PE7H88"
+      ]
+    },
+    "NIDP-0044": {
+      "registry": "gleif",
+      "registryRecordId": "335800SB4EYU1F7N9Q09",
+      "name": "AIR INDIA LIMITED",
+      "leis": [
+        "335800SB4EYU1F7N9Q09"
+      ]
+    },
+    "NIDP-0045": {
+      "registry": "gleif",
+      "registryRecordId": "335800TC8CLDPMON3N33",
+      "name": "NAVNEET EDUCATION LIMITED",
+      "leis": [
+        "335800TC8CLDPMON3N33"
+      ]
+    },
+    "NIDP-0046": {
+      "registry": "gleif",
+      "registryRecordId": "335800TCKG1XQXN51L44",
+      "name": "OBEROI REALTY LIMITED",
+      "leis": [
+        "335800TCKG1XQXN51L44"
+      ]
+    },
+    "NIDP-0047": {
+      "registry": "gleif",
+      "registryRecordId": "335800TYLGG93MM7PR89",
+      "name": "INFOSYS LIMITED",
+      "leis": [
+        "335800TYLGG93MM7PR89"
+      ]
+    },
+    "NIDP-0048": {
+      "registry": "gleif",
+      "registryRecordId": "335800U55VUJQV4IYW95",
+      "name": "LIVING MEDIA INDIA LIMITED",
+      "leis": [
+        "335800U55VUJQV4IYW95"
+      ]
+    },
+    "NIDP-0049": {
+      "registry": "gleif",
+      "registryRecordId": "335800UZ9C7WGVIYHR69",
+      "name": "GATEWAY TECHNOLABS PRIVATE LIMITED",
+      "leis": [
+        "335800UZ9C7WGVIYHR69"
+      ]
+    },
+    "NIDP-0050": {
+      "registry": "gleif",
+      "registryRecordId": "335800VXARLM7IJ93W69",
+      "name": "GVK POWER & INFRASTRUCTURE LIMITED",
+      "leis": [
+        "335800VXARLM7IJ93W69"
+      ]
+    },
+    "NIDP-0051": {
+      "registry": "gleif",
+      "registryRecordId": "335800WLOU3OFWFTMP43",
+      "name": "ITC LIMITED",
+      "leis": [
+        "335800WLOU3OFWFTMP43"
+      ]
+    },
+    "NIDP-0052": {
+      "registry": "gleif",
+      "registryRecordId": "335800WMVIESQUO95586",
+      "name": "SBI LIFE INSURANCE COMPANY LIMITED",
+      "leis": [
+        "335800WMVIESQUO95586"
+      ]
+    },
+    "NIDP-0053": {
+      "registry": "gleif",
+      "registryRecordId": "335800WPNZ3ELJCQ3U26",
+      "name": "MAHANAGAR TELEPHONE NIGAM LIMITED",
+      "leis": [
+        "335800WPNZ3ELJCQ3U26"
+      ]
+    },
+    "NIDP-0054": {
+      "registry": "gleif",
+      "registryRecordId": "335800WYB6OIBY9EOZ42",
+      "name": "EMCURE PHARMACEUTICALS LIMITED",
+      "leis": [
+        "335800WYB6OIBY9EOZ42"
+      ]
+    },
+    "NIDP-0055": {
+      "registry": "gleif",
+      "registryRecordId": "335800XDKX9KB5EMCO07",
+      "name": "VEDANTA LIMITED",
+      "leis": [
+        "335800XDKX9KB5EMCO07"
+      ]
+    },
+    "NIDP-0056": {
+      "registry": "gleif",
+      "registryRecordId": "335800Y97SQ94Z8WZU51",
+      "name": "APPLAUSE ENTERTAINMENT PRIVATE LIMITED",
+      "leis": [
+        "335800Y97SQ94Z8WZU51"
+      ]
+    },
+    "NIDP-0057": {
+      "registry": "gleif",
+      "registryRecordId": "335800YF9JYCEREZRH90",
+      "name": "IIT-IAN'S PACE EDUCATION PRIVATE LIMITED",
+      "leis": [
+        "335800YF9JYCEREZRH90"
+      ]
+    },
+    "NIDP-0058": {
+      "registry": "gleif",
+      "registryRecordId": "335800YRLRO5AUJCZA23",
+      "name": "3I INFOTECH LIMITED",
+      "leis": [
+        "335800YRLRO5AUJCZA23"
+      ]
+    },
+    "NIDP-0059": {
+      "registry": "gleif",
+      "registryRecordId": "335800ZJXMF183ZCQI90",
+      "name": "STEEL AUTHORITY OF INDIA LIMITED",
+      "leis": [
+        "335800ZJXMF183ZCQI90"
+      ]
+    },
+    "NIDP-0060": {
+      "registry": "gleif",
+      "registryRecordId": "529900RYRJUN78A7PL87",
+      "name": "日本ペイントホールディングス株式会社",
+      "leis": [
+        "529900RYRJUN78A7PL87"
+      ]
+    },
+    "NIDP-0061": {
+      "registry": "gleif",
+      "registryRecordId": "5493001JZ37UBBZF6L49",
+      "name": "STATE BANK OF INDIA",
+      "leis": [
+        "5493001JZ37UBBZF6L49"
+      ]
+    },
+    "NIDP-0062": {
+      "registry": "gleif",
+      "registryRecordId": "5493003UOETFYRONLG31",
+      "name": "RELIANCE INDUSTRIES LIMITED",
+      "leis": [
+        "5493003UOETFYRONLG31"
+      ]
+    },
+    "NIDP-0063": {
+      "registry": "gleif",
+      "registryRecordId": "549300C1F8OLYSOQYB65",
+      "name": "HCL TECHNOLOGIES LIMITED",
+      "leis": [
+        "549300C1F8OLYSOQYB65"
+      ]
+    },
+    "NIDP-0064": {
+      "registry": "gleif",
+      "registryRecordId": "549300CK8SNXO0RB7F13",
+      "name": "ELSEVIER B.V.",
+      "leis": [
+        "549300CK8SNXO0RB7F13"
+      ]
+    },
+    "NIDP-0065": {
+      "registry": "gleif",
+      "registryRecordId": "549300CQ6M9Q0TJEZR23",
+      "name": "BANK OF BARODA",
+      "leis": [
+        "549300CQ6M9Q0TJEZR23"
+      ]
+    },
+    "NIDP-0066": {
+      "registry": "gleif",
+      "registryRecordId": "549300HLUOQ4ZGINVI30",
+      "name": "DCB BANK LIMITED",
+      "leis": [
+        "549300HLUOQ4ZGINVI30"
+      ]
+    },
+    "NIDP-0067": {
+      "registry": "gleif",
+      "registryRecordId": "549300HVNWMJPOFVNI41",
+      "name": "AXIS BANK LIMITED",
+      "leis": [
+        "549300HVNWMJPOFVNI41"
+      ]
+    },
+    "NIDP-0068": {
+      "registry": "gleif",
+      "registryRecordId": "636700K45PLK7NCJNO18",
+      "name": "VISHWA UGCC JV",
+      "leis": [
+        "636700K45PLK7NCJNO18"
+      ]
+    },
+    "NIDP-0069": {
+      "registry": "gleif",
+      "registryRecordId": "636700V8MSWKI62YR773",
+      "name": "AMAN METALCOMP PRIVATE LIMITED",
+      "leis": [
+        "636700V8MSWKI62YR773"
+      ]
+    },
+    "NIDP-0070": {
+      "registry": "gleif",
+      "registryRecordId": "64880001VRBYVLGF8O26",
+      "name": "HI TECH TRANSFORMERS",
+      "leis": [
+        "64880001VRBYVLGF8O26"
+      ]
+    },
+    "NIDP-0071": {
+      "registry": "gleif",
+      "registryRecordId": "6488000R2P0ILH2C3982",
+      "name": "TTK HOTELS LLP",
+      "leis": [
+        "6488000R2P0ILH2C3982"
+      ]
+    },
+    "NIDP-0072": {
+      "registry": "gleif",
+      "registryRecordId": "6488001RKENUHY7V2M06",
+      "name": "LINEX GLOBAL EXPORTS PRIVATE LIMITED",
+      "leis": [
+        "6488001RKENUHY7V2M06"
+      ]
+    },
+    "NIDP-0073": {
+      "registry": "gleif",
+      "registryRecordId": "6488002MUZI58PX38X18",
+      "name": "ABHINAV REALTY SPACES LLP",
+      "leis": [
+        "6488002MUZI58PX38X18"
+      ]
+    },
+    "NIDP-0074": {
+      "registry": "gleif",
+      "registryRecordId": "6488002XVCPOZ3HM5P84",
+      "name": "ELEMENT CHEMICALS",
+      "leis": [
+        "6488002XVCPOZ3HM5P84"
+      ]
+    },
+    "NIDP-0075": {
+      "registry": "gleif",
+      "registryRecordId": "6488003HY3H62EN8XD91",
+      "name": "Riddhi Hardik Shah",
+      "leis": [
+        "6488003HY3H62EN8XD91"
+      ]
+    },
+    "NIDP-0076": {
+      "registry": "gleif",
+      "registryRecordId": "6488003IWIWVJP8QWG88",
+      "name": "RENU INFRASTRUCTURE PRIVATE LIMITED",
+      "leis": [
+        "6488003IWIWVJP8QWG88"
+      ]
+    },
+    "NIDP-0077": {
+      "registry": "gleif",
+      "registryRecordId": "6488004L01GEMKRHQ741",
+      "name": "GAGAN SINGH",
+      "leis": [
+        "6488004L01GEMKRHQ741"
+      ]
+    },
+    "NIDP-0078": {
+      "registry": "gleif",
+      "registryRecordId": "6488006B1I9KTERT8O77",
+      "name": "JAGJEETSINGH MAKKAR",
+      "leis": [
+        "6488006B1I9KTERT8O77"
+      ]
+    },
+    "NIDP-0079": {
+      "registry": "gleif",
+      "registryRecordId": "6488006XE3HAMCDV5K83",
+      "name": "DOSANI FROZEN FOODS PRIVATE LIMITED",
+      "leis": [
+        "6488006XE3HAMCDV5K83"
+      ]
+    },
+    "NIDP-0080": {
+      "registry": "gleif",
+      "registryRecordId": "64880075FJH0PBH2OB28",
+      "name": "MANISH KUMAR BARNWAL",
+      "leis": [
+        "64880075FJH0PBH2OB28"
+      ]
+    },
+    "NIDP-0081": {
+      "registry": "gleif",
+      "registryRecordId": "6488009OG9Q06ZQ7D981",
+      "name": "BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+      "leis": [
+        "6488009OG9Q06ZQ7D981"
+      ]
+    },
+    "NIDP-0082": {
+      "registry": "gleif",
+      "registryRecordId": "6488009ZL5YKZ0HN8B89",
+      "name": "MD RIYAZ",
+      "leis": [
+        "6488009ZL5YKZ0HN8B89"
+      ]
+    },
+    "NIDP-0083": {
+      "registry": "gleif",
+      "registryRecordId": "648800A83DWA428V4H94",
+      "name": "NAV WIRELESS TECHNOLOGIES PRIVATE LIMITED",
+      "leis": [
+        "648800A83DWA428V4H94"
+      ]
+    },
+    "NIDP-0084": {
+      "registry": "gleif",
+      "registryRecordId": "648800A8EQMT38TLQG18",
+      "name": "JAY MAA VAISHNAVI RICE MILL PRIVATE LIMITED",
+      "leis": [
+        "648800A8EQMT38TLQG18"
+      ]
+    },
+    "NIDP-0085": {
+      "registry": "gleif",
+      "registryRecordId": "648800AH7QUFHE3K4U17",
+      "name": "MVR TRADING COMPANY",
+      "leis": [
+        "648800AH7QUFHE3K4U17"
+      ]
+    },
+    "NIDP-0086": {
+      "registry": "gleif",
+      "registryRecordId": "648800AM79K9WJNQ0S65",
+      "name": "SHARMISTHA DEY",
+      "leis": [
+        "648800AM79K9WJNQ0S65"
+      ]
+    },
+    "NIDP-0087": {
+      "registry": "gleif",
+      "registryRecordId": "648800AU5QBQCHRUJD90",
+      "name": "SHOP EXPRESS 24 X7 PRIVATE LIMITED",
+      "leis": [
+        "648800AU5QBQCHRUJD90"
+      ]
+    },
+    "NIDP-0088": {
+      "registry": "gleif",
+      "registryRecordId": "648800BP2J29R1XPFV44",
+      "name": "JAI BHOLE BABA COLD STORAGE",
+      "leis": [
+        "648800BP2J29R1XPFV44"
+      ]
+    },
+    "NIDP-0089": {
+      "registry": "gleif",
+      "registryRecordId": "648800BSOSVX6P9K9623",
+      "name": "NAYNA HARISH PAREKH",
+      "leis": [
+        "648800BSOSVX6P9K9623"
+      ]
+    },
+    "NIDP-0090": {
+      "registry": "gleif",
+      "registryRecordId": "648800CXQL3IKUPR0F48",
+      "name": "UDIT KAPOOR",
+      "leis": [
+        "648800CXQL3IKUPR0F48"
+      ]
+    },
+    "NIDP-0091": {
+      "registry": "gleif",
+      "registryRecordId": "648800DFTZFY6RI6R138",
+      "name": "Pramod Ratnakar Poojary",
+      "leis": [
+        "648800DFTZFY6RI6R138"
+      ]
+    },
+    "NIDP-0092": {
+      "registry": "gleif",
+      "registryRecordId": "648800EIDTT0NVZWOX61",
+      "name": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+      "leis": [
+        "648800EIDTT0NVZWOX61"
+      ]
+    },
+    "NIDP-0093": {
+      "registry": "gleif",
+      "registryRecordId": "648800FCUO95BPBLXX43",
+      "name": "IMRAN ABDUL KADIR HAJWANI",
+      "leis": [
+        "648800FCUO95BPBLXX43"
+      ]
+    },
+    "NIDP-0094": {
+      "registry": "gleif",
+      "registryRecordId": "648800FHWLMS8OSMVK92",
+      "name": "AMBER MOHTA",
+      "leis": [
+        "648800FHWLMS8OSMVK92"
+      ]
+    },
+    "NIDP-0095": {
+      "registry": "gleif",
+      "registryRecordId": "648800GSJTCJJ0YBBW55",
+      "name": "RAMESH CHANDRA GUPTA",
+      "leis": [
+        "648800GSJTCJJ0YBBW55"
+      ]
+    },
+    "NIDP-0096": {
+      "registry": "gleif",
+      "registryRecordId": "648800H10LHU0FQH1T95",
+      "name": "Alathur Nanjundaswamy Shivakumar",
+      "leis": [
+        "648800H10LHU0FQH1T95"
+      ]
+    },
+    "NIDP-0097": {
+      "registry": "gleif",
+      "registryRecordId": "648800HUQ7GKEQQKK922",
+      "name": "OM IRON AND STEEL",
+      "leis": [
+        "648800HUQ7GKEQQKK922"
+      ]
+    },
+    "NIDP-0098": {
+      "registry": "gleif",
+      "registryRecordId": "648800HW9S7YM9MHPV77",
+      "name": "MAHENDER GARG",
+      "leis": [
+        "648800HW9S7YM9MHPV77"
+      ]
+    },
+    "NIDP-0099": {
+      "registry": "gleif",
+      "registryRecordId": "648800HXQPOQF5DBAS47",
+      "name": "SURYAMITRA GREENTECH LLP",
+      "leis": [
+        "648800HXQPOQF5DBAS47"
+      ]
+    },
+    "NIDP-0100": {
+      "registry": "gleif",
+      "registryRecordId": "648800I6HO1VC3KN3449",
+      "name": "JOGINDER KUMAR MANGLA",
+      "leis": [
+        "648800I6HO1VC3KN3449"
+      ]
+    },
+    "NIDP-0101": {
+      "registry": "gleif",
+      "registryRecordId": "648800IARCAFVBJSC494",
+      "name": "MUKTA PRASAD RAMESHWAR PRASAD",
+      "leis": [
+        "648800IARCAFVBJSC494"
+      ]
+    },
+    "NIDP-0102": {
+      "registry": "gleif",
+      "registryRecordId": "648800IOK94RE2JXU808",
+      "name": "MAHABIR PRASHAD MANGLA",
+      "leis": [
+        "648800IOK94RE2JXU808"
+      ]
+    },
+    "NIDP-0103": {
+      "registry": "gleif",
+      "registryRecordId": "648800IUB5PQP8WII679",
+      "name": "ITAA POLYMERS LLP",
+      "leis": [
+        "648800IUB5PQP8WII679"
+      ]
+    },
+    "NIDP-0104": {
+      "registry": "gleif",
+      "registryRecordId": "648800JXR6ULNLJV9C10",
+      "name": "Manmohan Ram Kantipudi",
+      "leis": [
+        "648800JXR6ULNLJV9C10"
+      ]
+    },
+    "NIDP-0105": {
+      "registry": "gleif",
+      "registryRecordId": "648800KCOA5YANSP5R33",
+      "name": "KEESARI PRABHAKAR",
+      "leis": [
+        "648800KCOA5YANSP5R33"
+      ]
+    },
+    "NIDP-0106": {
+      "registry": "gleif",
+      "registryRecordId": "648800KOTJUVT1K3EY32",
+      "name": "LAKSHMI GANAPATHI PAPER BORDS",
+      "leis": [
+        "648800KOTJUVT1K3EY32"
+      ]
+    },
+    "NIDP-0107": {
+      "registry": "gleif",
+      "registryRecordId": "648800KPSA9SA36JVN21",
+      "name": "AMIT JAIN",
+      "leis": [
+        "648800KPSA9SA36JVN21"
+      ]
+    },
+    "NIDP-0108": {
+      "registry": "gleif",
+      "registryRecordId": "648800NSUALBL2HUSY25",
+      "name": "JADIYA RENEWABLES PRIVATE LIMITED",
+      "leis": [
+        "648800NSUALBL2HUSY25"
+      ]
+    },
+    "NIDP-0109": {
+      "registry": "gleif",
+      "registryRecordId": "648800NX55IJ2QPZAA32",
+      "name": "The South Indian Education Society",
+      "leis": [
+        "648800NX55IJ2QPZAA32"
+      ]
+    },
+    "NIDP-0110": {
+      "registry": "gleif",
+      "registryRecordId": "648800OPUZ8RFO5HS564",
+      "name": "HOLDWELL DISTRIBUTORS PVT.LTD.",
+      "leis": [
+        "648800OPUZ8RFO5HS564"
+      ]
+    },
+    "NIDP-0111": {
+      "registry": "gleif",
+      "registryRecordId": "648800OREN937Z3O8B26",
+      "name": "GREEN ROOT STORAGE SOLUTIONS",
+      "leis": [
+        "648800OREN937Z3O8B26"
+      ]
+    },
+    "NIDP-0112": {
+      "registry": "gleif",
+      "registryRecordId": "648800POBLE0DTTUP459",
+      "name": "AEROCHEM RENEWAL ENERGY LLP",
+      "leis": [
+        "648800POBLE0DTTUP459"
+      ]
+    },
+    "NIDP-0113": {
+      "registry": "gleif",
+      "registryRecordId": "648800Q37YW4TW69EP85",
+      "name": "M N P TURNMATICS",
+      "leis": [
+        "648800Q37YW4TW69EP85"
+      ]
+    },
+    "NIDP-0114": {
+      "registry": "gleif",
+      "registryRecordId": "648800QNGXPG5ILWP038",
+      "name": "SHRENIK HARSHADRAI DOSHI",
+      "leis": [
+        "648800QNGXPG5ILWP038"
+      ]
+    },
+    "NIDP-0115": {
+      "registry": "gleif",
+      "registryRecordId": "648800RKX9JC04C7V868",
+      "name": "SOHAN ELECTRONICS",
+      "leis": [
+        "648800RKX9JC04C7V868"
+      ]
+    },
+    "NIDP-0116": {
+      "registry": "gleif",
+      "registryRecordId": "648800RQLTH22A9R7642",
+      "name": "GENTEK POWER",
+      "leis": [
+        "648800RQLTH22A9R7642"
+      ]
+    },
+    "NIDP-0117": {
+      "registry": "gleif",
+      "registryRecordId": "648800RUCMLBHAFZ0C64",
+      "name": "SHREE KRISHNA RMC AND STRUCTURE",
+      "leis": [
+        "648800RUCMLBHAFZ0C64"
+      ]
+    },
+    "NIDP-0118": {
+      "registry": "gleif",
+      "registryRecordId": "648800RY8EXS277D7B30",
+      "name": "BASANT SHANTILAL JAIN",
+      "leis": [
+        "648800RY8EXS277D7B30"
+      ]
+    },
+    "NIDP-0119": {
+      "registry": "gleif",
+      "registryRecordId": "648800SB6TOHMSHCEY09",
+      "name": "MOHD SALIM SIDDQUI",
+      "leis": [
+        "648800SB6TOHMSHCEY09"
+      ]
+    },
+    "NIDP-0120": {
+      "registry": "gleif",
+      "registryRecordId": "648800TEE0SOV2DNW235",
+      "name": "RAJ SUNIL WADHWA",
+      "leis": [
+        "648800TEE0SOV2DNW235"
+      ]
+    },
+    "NIDP-0121": {
+      "registry": "gleif",
+      "registryRecordId": "648800TTXHRVHM2BRR73",
+      "name": "TIRUPPUR MITHRA THREADS PRIVATE LIMITED",
+      "leis": [
+        "648800TTXHRVHM2BRR73"
+      ]
+    },
+    "NIDP-0122": {
+      "registry": "gleif",
+      "registryRecordId": "648800TY2NWESVMTSF23",
+      "name": "MAHESH ENTERPRISES",
+      "leis": [
+        "648800TY2NWESVMTSF23"
+      ]
+    },
+    "NIDP-0123": {
+      "registry": "gleif",
+      "registryRecordId": "648800TYVVCXXIPPFP77",
+      "name": "U K AGRO",
+      "leis": [
+        "648800TYVVCXXIPPFP77"
+      ]
+    },
+    "NIDP-0124": {
+      "registry": "gleif",
+      "registryRecordId": "648800UP7ST9YV219J98",
+      "name": "JAY AMBE STEEL PROFILE CUTTING CO",
+      "leis": [
+        "648800UP7ST9YV219J98"
+      ]
+    },
+    "NIDP-0125": {
+      "registry": "gleif",
+      "registryRecordId": "648800VADOUAT9HHYH21",
+      "name": "ZEVAR MAHAL LLP",
+      "leis": [
+        "648800VADOUAT9HHYH21"
+      ]
+    },
+    "NIDP-0126": {
+      "registry": "gleif",
+      "registryRecordId": "648800VL28J5D051IU27",
+      "name": "NIRAJ MISHRA",
+      "leis": [
+        "648800VL28J5D051IU27"
+      ]
+    },
+    "NIDP-0127": {
+      "registry": "gleif",
+      "registryRecordId": "648800WMI6KEARAKTK98",
+      "name": "RAJ AUTOLINK",
+      "leis": [
+        "648800WMI6KEARAKTK98"
+      ]
+    },
+    "NIDP-0128": {
+      "registry": "gleif",
+      "registryRecordId": "648800WUMB41GYYUHO58",
+      "name": "RAMPUR FERTILIZERS LIMITED",
+      "leis": [
+        "648800WUMB41GYYUHO58"
+      ]
+    },
+    "NIDP-0129": {
+      "registry": "gleif",
+      "registryRecordId": "648800XB9QL4PKDZWR64",
+      "name": "M/s Maharashtra Fruit Co",
+      "leis": [
+        "648800XB9QL4PKDZWR64"
+      ]
+    },
+    "NIDP-0130": {
+      "registry": "gleif",
+      "registryRecordId": "648800XECLZTBTFS0333",
+      "name": "M/S SRI PADHMA CONSTRUCTIONS",
+      "leis": [
+        "648800XECLZTBTFS0333"
+      ]
+    },
+    "NIDP-0131": {
+      "registry": "gleif",
+      "registryRecordId": "648800XT43D9DUS1JZ82",
+      "name": "World Advice",
+      "leis": [
+        "648800XT43D9DUS1JZ82"
+      ]
+    },
+    "NIDP-0132": {
+      "registry": "gleif",
+      "registryRecordId": "648800Z5RBJR2H3HOJ66",
+      "name": "L S ENTERPRISES",
+      "leis": [
+        "648800Z5RBJR2H3HOJ66"
+      ]
+    },
+    "NIDP-0133": {
+      "registry": "gleif",
+      "registryRecordId": "648800ZADOJV2CDOHL54",
+      "name": "SHREE D B GOLD",
+      "leis": [
+        "648800ZADOJV2CDOHL54"
+      ]
+    },
+    "NIDP-0134": {
+      "registry": "gleif",
+      "registryRecordId": "648800ZC1KKFTJW0GT25",
+      "name": "DHARIYA MARINE ENGINEERING SERVICES",
+      "leis": [
+        "648800ZC1KKFTJW0GT25"
+      ]
+    },
+    "NIDP-0135": {
+      "registry": "gleif",
+      "registryRecordId": "6HHLXIOGCDNZ4IRAIW26",
+      "name": "CUBIC CORPORATION",
+      "leis": [
+        "6HHLXIOGCDNZ4IRAIW26"
+      ]
+    },
+    "NIDP-0136": {
+      "registry": "gleif",
+      "registryRecordId": "894500I8J9UE5PY4Y545",
+      "name": "AVENUE E-COMMERCE LIMITED",
+      "leis": [
+        "894500I8J9UE5PY4Y545"
+      ]
+    },
+    "NIDP-0137": {
+      "registry": "gleif",
+      "registryRecordId": "894500J5N0WGEPW6ML53",
+      "name": "SKYROOT AEROSPACE PRIVATE LIMITED",
+      "leis": [
+        "894500J5N0WGEPW6ML53"
+      ]
+    },
+    "NIDP-0138": {
+      "registry": "gleif",
+      "registryRecordId": "894500KH2DWCX658QG11",
+      "name": "BYARATI FOUNDATION",
+      "leis": [
+        "894500KH2DWCX658QG11"
+      ]
+    },
+    "NIDP-0139": {
+      "registry": "gleif",
+      "registryRecordId": "894500KH7XG4K5H4E078",
+      "name": "D.M PREFAB STRUCTURES PRIVATE LIMITED",
+      "leis": [
+        "894500KH7XG4K5H4E078"
+      ]
+    },
+    "NIDP-0140": {
+      "registry": "gleif",
+      "registryRecordId": "894500KHU3N742SN0854",
+      "name": "KALYAN JAIN & CO",
+      "leis": [
+        "894500KHU3N742SN0854"
+      ]
+    },
+    "NIDP-0141": {
+      "registry": "gleif",
+      "registryRecordId": "894500KHZN6YR24INS26",
+      "name": "PARADISE RESTAURANT PRIVATE LIMITED",
+      "leis": [
+        "894500KHZN6YR24INS26"
+      ]
+    },
+    "NIDP-0142": {
+      "registry": "gleif",
+      "registryRecordId": "894500KIRCXSXYRWXK71",
+      "name": "TAPAN MANUTECH LLP",
+      "leis": [
+        "894500KIRCXSXYRWXK71"
+      ]
+    },
+    "NIDP-0143": {
+      "registry": "gleif",
+      "registryRecordId": "894500KIWWHKKY3SL472",
+      "name": "SHRIVEER PRIYA PAPERS PRIVATE LIMITED",
+      "leis": [
+        "894500KIWWHKKY3SL472"
+      ]
+    },
+    "NIDP-0144": {
+      "registry": "gleif",
+      "registryRecordId": "894500KJ2G1C7XFO8O89",
+      "name": "HERO EDUCATION PRIVATE LIMITED",
+      "leis": [
+        "894500KJ2G1C7XFO8O89"
+      ]
+    },
+    "NIDP-0145": {
+      "registry": "gleif",
+      "registryRecordId": "894500KJ7ZL3UWRJW836",
+      "name": "SREE KESHAV SOLARS PRIVATE LIMITED",
+      "leis": [
+        "894500KJ7ZL3UWRJW836"
+      ]
+    },
+    "NIDP-0146": {
+      "registry": "gleif",
+      "registryRecordId": "894500KJDJ4VHW3FJS70",
+      "name": "EMBEE NIVESH LLP",
+      "leis": [
+        "894500KJDJ4VHW3FJS70"
+      ]
+    },
+    "NIDP-0147": {
+      "registry": "gleif",
+      "registryRecordId": "894500KJJ2ON4VFB7C05",
+      "name": "CHANNI SONS",
+      "leis": [
+        "894500KJJ2ON4VFB7C05"
+      ]
+    },
+    "NIDP-0148": {
+      "registry": "gleif",
+      "registryRecordId": "894500KJZPBY1TEY6039",
+      "name": "SHINECITY HOSPITALS PRIVATE LIMITED",
+      "leis": [
+        "894500KJZPBY1TEY6039"
+      ]
+    },
+    "NIDP-0149": {
+      "registry": "gleif",
+      "registryRecordId": "894500KK58VPOSQTTK77",
+      "name": "GULMOHAR EMPIRES",
+      "leis": [
+        "894500KK58VPOSQTTK77"
+      ]
+    },
+    "NIDP-0150": {
+      "registry": "gleif",
+      "registryRecordId": "894500KLDL9USNDV2074",
+      "name": "ANTHEM PETROLEUM",
+      "leis": [
+        "894500KLDL9USNDV2074"
+      ]
+    },
+    "NIDP-0151": {
+      "registry": "gleif",
+      "registryRecordId": "9695001HW2J8HYBLXG74",
+      "name": "EARLY MAKERS GROUP",
+      "leis": [
+        "9695001HW2J8HYBLXG74"
+      ]
+    },
+    "NIDP-0152": {
+      "registry": "gleif",
+      "registryRecordId": "984500057K39B9F74039",
+      "name": "ARIHANT PUBLICATIONS (INDIA) LIMITED",
+      "leis": [
+        "984500057K39B9F74039"
+      ]
+    },
+    "NIDP-0153": {
+      "registry": "gleif",
+      "registryRecordId": "98450007D9D76C85F165",
+      "name": "INNOFIN SOLUTIONS PRIVATE LIMITED",
+      "leis": [
+        "98450007D9D76C85F165"
+      ]
+    },
+    "NIDP-0154": {
+      "registry": "gleif",
+      "registryRecordId": "98450016D1DA0D640356",
+      "name": "UNIPRO",
+      "leis": [
+        "98450016D1DA0D640356"
+      ]
+    },
+    "NIDP-0155": {
+      "registry": "gleif",
+      "registryRecordId": "98450035H491F02C9B76",
+      "name": "Carnelian Structural Shifts Fund Series II",
+      "leis": [
+        "98450035H491F02C9B76"
+      ]
+    },
+    "NIDP-0156": {
+      "registry": "gleif",
+      "registryRecordId": "984500378954ZDP58611",
+      "name": "SURINDER KUMAR JINDAL",
+      "leis": [
+        "984500378954ZDP58611"
+      ]
+    },
+    "NIDP-0157": {
+      "registry": "gleif",
+      "registryRecordId": "9845003F0DE4FCF83E11",
+      "name": "Carnelian Bharat AmritKaal Fund 3",
+      "leis": [
+        "9845003F0DE4FCF83E11"
+      ]
+    },
+    "NIDP-0158": {
+      "registry": "gleif",
+      "registryRecordId": "98450054C59CF479AB44",
+      "name": "TUNIP INFO SERVICES PRIVATE LIMITED",
+      "leis": [
+        "98450054C59CF479AB44"
+      ]
+    },
+    "NIDP-0159": {
+      "registry": "gleif",
+      "registryRecordId": "98450068455BFC02DJ88",
+      "name": "HACHETTE BOOK PUBLISHING INDIA PRIVATE LIMITED",
+      "leis": [
+        "98450068455BFC02DJ88"
+      ]
+    },
+    "NIDP-0160": {
+      "registry": "gleif",
+      "registryRecordId": "9845006BDC50D0B0CT83",
+      "name": "Jintech Solution Limited",
+      "leis": [
+        "9845006BDC50D0B0CT83"
+      ]
+    },
+    "NIDP-0161": {
+      "registry": "gleif",
+      "registryRecordId": "9845006C13A8AC5DD884",
+      "name": "NIMESH NARESHKUMAR PARMAR",
+      "leis": [
+        "9845006C13A8AC5DD884"
+      ]
+    },
+    "NIDP-0162": {
+      "registry": "gleif",
+      "registryRecordId": "9845006P837360801Q31",
+      "name": "SHYAMSUNDER HAJARILAL AGRAWAL",
+      "leis": [
+        "9845006P837360801Q31"
+      ]
+    },
+    "NIDP-0163": {
+      "registry": "gleif",
+      "registryRecordId": "9845008E7ACDFMWC7391",
+      "name": "MOSCHIP TECHNOLOGIES LIMITED",
+      "leis": [
+        "9845008E7ACDFMWC7391"
+      ]
+    },
+    "NIDP-0164": {
+      "registry": "gleif",
+      "registryRecordId": "984500AD4FBCC909FE53",
+      "name": "PANKAJ KUMAR GUPTA",
+      "leis": [
+        "984500AD4FBCC909FE53"
+      ]
+    },
+    "NIDP-0165": {
+      "registry": "gleif",
+      "registryRecordId": "984500AF53B3E2BI4926",
+      "name": "BHARAT ELECTRONICS",
+      "leis": [
+        "984500AF53B3E2BI4926"
+      ]
+    },
+    "NIDP-0166": {
+      "registry": "gleif",
+      "registryRecordId": "984500B12AE6B740CC55",
+      "name": "SUBHASH ISHWAR SURYAVANSHI",
+      "leis": [
+        "984500B12AE6B740CC55"
+      ]
+    },
+    "NIDP-0167": {
+      "registry": "gleif",
+      "registryRecordId": "984500B755DB40794569",
+      "name": "A DINESH",
+      "leis": [
+        "984500B755DB40794569"
+      ]
+    },
+    "NIDP-0168": {
+      "registry": "gleif",
+      "registryRecordId": "984500BC41CDA137BA15",
+      "name": "Vidya Vaibhav Shikshan Mandal",
+      "leis": [
+        "984500BC41CDA137BA15"
+      ]
+    },
+    "NIDP-0169": {
+      "registry": "gleif",
+      "registryRecordId": "984500C3E8EZ0XB98B74",
+      "name": "HUSK POWER SYSTEMS PRIVATE LIMITED",
+      "leis": [
+        "984500C3E8EZ0XB98B74"
+      ]
+    },
+    "NIDP-0170": {
+      "registry": "gleif",
+      "registryRecordId": "984500D410DC17BD9B06",
+      "name": "MS MANTU BARUAH CONSTRUCTIONS",
+      "leis": [
+        "984500D410DC17BD9B06"
+      ]
+    },
+    "NIDP-0171": {
+      "registry": "gleif",
+      "registryRecordId": "984500DE65ACBF878594",
+      "name": "SRI LAXMI NARASIMHA WINES",
+      "leis": [
+        "984500DE65ACBF878594"
+      ]
+    },
+    "NIDP-0172": {
+      "registry": "gleif",
+      "registryRecordId": "984500EC9FD3B5802C54",
+      "name": "SUN PARADISE",
+      "leis": [
+        "984500EC9FD3B5802C54"
+      ]
+    },
+    "NIDP-0173": {
+      "registry": "gleif",
+      "registryRecordId": "984500EF0BC5AEEBEF41",
+      "name": "SUSHANTA SINGHA",
+      "leis": [
+        "984500EF0BC5AEEBEF41"
+      ]
+    },
+    "NIDP-0174": {
+      "registry": "gleif",
+      "registryRecordId": "984500FF2GA8B39D1Y57",
+      "name": "SAM BHATIA",
+      "leis": [
+        "984500FF2GA8B39D1Y57"
+      ]
+    },
+    "NIDP-0175": {
+      "registry": "gleif",
+      "registryRecordId": "984500I4B2A9S8AD4F63",
+      "name": "Lakshya Capital Investment Trust - Scheme 1",
+      "leis": [
+        "984500I4B2A9S8AD4F63"
+      ]
+    },
+    "NIDP-0176": {
+      "registry": "gleif",
+      "registryRecordId": "984500M4P4677ADBCD47",
+      "name": "BANAS HOSPITAL",
+      "leis": [
+        "984500M4P4677ADBCD47"
+      ]
+    },
+    "NIDP-0177": {
+      "registry": "gleif",
+      "registryRecordId": "984500N9AB982A3DCC85",
+      "name": "NATARAJAN VARADARAJAN",
+      "leis": [
+        "984500N9AB982A3DCC85"
+      ]
+    },
+    "NIDP-0178": {
+      "registry": "gleif",
+      "registryRecordId": "984500YC9ECC14B4D243",
+      "name": "MATRUBHUMI SEVA PRATHISHTANA",
+      "leis": [
+        "984500YC9ECC14B4D243"
+      ]
+    },
+    "NIDP-0179": {
+      "registry": "gleif",
+      "registryRecordId": "R7RX8ER1V4666J8D1I38",
+      "name": "ICICI BANK LIMITED",
+      "leis": [
+        "R7RX8ER1V4666J8D1I38"
+      ]
+    },
+    "NIDP-0180": {
+      "registry": "wikidata",
+      "registryRecordId": "Q109985545",
+      "name": "रेजरपे",
+      "leis": [
+        "335800MPTXBI8YNP7245"
+      ]
+    },
+    "NIDP-0181": {
+      "registry": "wikidata",
+      "registryRecordId": "Q124625525",
+      "name": "लेनदेनक्लब",
+      "leis": [
+        "98450007D9D76C85F165"
+      ]
+    },
+    "NIDP-0182": {
+      "registry": "wikidata",
+      "registryRecordId": "Q124976",
+      "name": "कोल इण्डिया",
+      "leis": [
+        "335800NLJQZNHM9LBB31"
+      ]
+    },
+    "NIDP-0183": {
+      "registry": "wikidata",
+      "registryRecordId": "Q130741763",
+      "name": "लेंडबॉक्स",
+      "leis": [
+        "335800KWUEXYN8QDIF86"
+      ]
+    },
+    "NIDP-0184": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1340361",
+      "name": "एसबीआई",
+      "leis": [
+        "5493001JZ37UBBZF6L49"
+      ]
+    },
+    "NIDP-0185": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1371239",
+      "name": "भारतीय इस्पात प्राधिकरण",
+      "leis": [
+        "335800ZJXMF183ZCQI90"
+      ]
+    },
+    "NIDP-0186": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1381966",
+      "name": "फ्लिपकार्ट",
+      "leis": [
+        "335800ILXPCOFAHC5V79"
+      ]
+    },
+    "NIDP-0187": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1430541",
+      "name": "तेल एवं प्राकृतिक गैस निगम लिमिटेड",
+      "leis": [
+        "335800FPDZ9MRSNO7N41"
+      ]
+    },
+    "NIDP-0188": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1619261",
+      "name": "हिंडाल्को इंडस्ट्रीज",
+      "leis": [
+        "335800KXLE5NO5B4GF90"
+      ]
+    },
+    "NIDP-0189": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1653258",
+      "name": "आईसीआईसीआई बैंक",
+      "leis": [
+        "R7RX8ER1V4666J8D1I38"
+      ]
+    },
+    "NIDP-0190": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1655008",
+      "name": "आई टी सी लिमिटेड",
+      "leis": [
+        "335800WLOU3OFWFTMP43"
+      ]
+    },
+    "NIDP-0191": {
+      "registry": "wikidata",
+      "registryRecordId": "Q17067368",
+      "name": "एमक्योर फार्मास्युटिकल्स",
+      "leis": [
+        "335800WYB6OIBY9EOZ42"
+      ]
+    },
+    "NIDP-0192": {
+      "registry": "wikidata",
+      "registryRecordId": "Q17069935",
+      "name": "इंडिया टुडे ग्रुप",
+      "leis": [
+        "335800U55VUJQV4IYW95"
+      ]
+    },
+    "NIDP-0193": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1795504",
+      "name": "ईएमलियोन बिजनेस स्कूल",
+      "leis": [
+        "9695001HW2J8HYBLXG74"
+      ]
+    },
+    "NIDP-0194": {
+      "registry": "wikidata",
+      "registryRecordId": "Q188087",
+      "name": "यूनिप्रो",
+      "leis": [
+        "253400DR5QSH8MEGZZ11",
+        "98450016D1DA0D640356"
+      ]
+    },
+    "NIDP-0195": {
+      "registry": "wikidata",
+      "registryRecordId": "Q1884798",
+      "name": "महानगर टेलीफोन निगम लिमिटेड",
+      "leis": [
+        "335800WPNZ3ELJCQ3U26"
+      ]
+    },
+    "NIDP-0196": {
+      "registry": "wikidata",
+      "registryRecordId": "Q188514",
+      "name": "टाटा मोटर्स",
+      "leis": [
+        "335800BO2LHWJJ8TZI32"
+      ]
+    },
+    "NIDP-0197": {
+      "registry": "wikidata",
+      "registryRecordId": "Q19757718",
+      "name": "पेटीऍम",
+      "leis": [
+        "335800I2TBDZ63LIVM40"
+      ]
+    },
+    "NIDP-0198": {
+      "registry": "wikidata",
+      "registryRecordId": "Q2003549",
+      "name": "ऐक्सिस बैंक",
+      "leis": [
+        "549300HVNWMJPOFVNI41"
+      ]
+    },
+    "NIDP-0199": {
+      "registry": "wikidata",
+      "registryRecordId": "Q2003797",
+      "name": "बैंक ऑफ़ बड़ौदा",
+      "leis": [
+        "549300CQ6M9Q0TJEZR23"
+      ]
+    },
+    "NIDP-0200": {
+      "registry": "wikidata",
+      "registryRecordId": "Q2040404",
+      "name": "कोटक महिंद्रा बैंक",
+      "leis": [
+        "335800E6GTTXKHXE2I75"
+      ]
+    },
+    "NIDP-0201": {
+      "registry": "wikidata",
+      "registryRecordId": "Q2040440",
+      "name": "धनलक्ष्मी बैंक",
+      "leis": [
+        "335800CKSGJELHJHQ768"
+      ]
+    },
+    "NIDP-0202": {
+      "registry": "wikidata",
+      "registryRecordId": "Q2331365",
+      "name": "टाटा केमिकल्स",
+      "leis": [
+        "335800H6MURUA6FBOW17"
+      ]
+    },
+    "NIDP-0203": {
+      "registry": "wikidata",
+      "registryRecordId": "Q24906315",
+      "name": "ओयो रूम्स",
+      "leis": [
+        "335800PJJNVIIZQTUN94"
+      ]
+    },
+    "NIDP-0204": {
+      "registry": "wikidata",
+      "registryRecordId": "Q26989",
+      "name": "Rensei",
+      "leis": [
+        "335800TYLGG93MM7PR89"
+      ]
+    },
+    "NIDP-0205": {
+      "registry": "wikidata",
+      "registryRecordId": "Q29509603",
+      "name": "गेटवे",
+      "leis": [
+        "335800UZ9C7WGVIYHR69"
+      ]
+    },
+    "NIDP-0206": {
+      "registry": "wikidata",
+      "registryRecordId": "Q2985356",
+      "name": "एनडीटीवी",
+      "leis": [
+        "3358004LVIZ8H3SVNB07"
+      ]
+    },
+    "NIDP-0207": {
+      "registry": "wikidata",
+      "registryRecordId": "Q3011374",
+      "name": "डीएलएफ़ यूनिवर्सल लिमिटेड",
+      "leis": [
+        "335800PJLUEOB8914F48"
+      ]
+    },
+    "NIDP-0208": {
+      "registry": "wikidata",
+      "registryRecordId": "Q3291801",
+      "name": "सन फार्मास्युटिकल",
+      "leis": [
+        "335800KJ7GE29LB4SS73"
+      ]
+    },
+    "NIDP-0209": {
+      "registry": "wikidata",
+      "registryRecordId": "Q3530250",
+      "name": "भारत डायनेमिक्स लिमिटेड",
+      "leis": [
+        "335800B99NHE5ZGSGR16"
+      ]
+    },
+    "NIDP-0210": {
+      "registry": "wikidata",
+      "registryRecordId": "Q357095",
+      "name": "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड",
+      "leis": [
+        "335800AKDC7T933T3I86"
+      ]
+    },
+    "NIDP-0211": {
+      "registry": "wikidata",
+      "registryRecordId": "Q3630918",
+      "name": "भारत इलैक्ट्रॉनिक्स लिमिटेड",
+      "leis": [
+        "984500AF53B3E2BI4926"
+      ]
+    },
+    "NIDP-0212": {
+      "registry": "wikidata",
+      "registryRecordId": "Q3958138",
+      "name": "sesa sterlite",
+      "leis": [
+        "335800XDKX9KB5EMCO07"
+      ]
+    },
+    "NIDP-0213": {
+      "registry": "wikidata",
+      "registryRecordId": "Q4636612",
+      "name": "3i Infotech Limited",
+      "leis": [
+        "335800YRLRO5AUJCZA23"
+      ]
+    },
+    "NIDP-0214": {
+      "registry": "wikidata",
+      "registryRecordId": "Q5377917",
+      "name": "इंजीनियर्स इंडिया लिमिटेड",
+      "leis": [
+        "335800D8QCOQANG91D62"
+      ]
+    },
+    "NIDP-0215": {
+      "registry": "wikidata",
+      "registryRecordId": "Q5513791",
+      "name": "जीएमआर समूह",
+      "leis": [
+        "3358008S2MTRWZ255P70"
+      ]
+    },
+    "NIDP-0216": {
+      "registry": "wikidata",
+      "registryRecordId": "Q5514847",
+      "name": "जीवीके",
+      "leis": [
+        "335800VXARLM7IJ93W69"
+      ]
+    },
+    "NIDP-0217": {
+      "registry": "wikidata",
+      "registryRecordId": "Q5629103",
+      "name": "एचसीएल टेक्नोलॉजीज",
+      "leis": [
+        "549300C1F8OLYSOQYB65"
+      ]
+    },
+    "NIDP-0218": {
+      "registry": "wikidata",
+      "registryRecordId": "Q5949332",
+      "name": "हस्क पावर सिस्टम्स",
+      "leis": [
+        "984500C3E8EZ0XB98B74"
+      ]
+    },
+    "NIDP-0219": {
+      "registry": "wikidata",
+      "registryRecordId": "Q5972349",
+      "name": "आईनॉक्स लीजर लिमिटेड",
+      "leis": [
+        "335800PBD2MJ1IMW5380"
+      ]
+    },
+    "NIDP-0220": {
+      "registry": "wikidata",
+      "registryRecordId": "Q60745107",
+      "name": "लव फिल्म्स",
+      "leis": [
+        "335800MKYUNN6M42G374"
+      ]
+    },
+    "NIDP-0221": {
+      "registry": "wikidata",
+      "registryRecordId": "Q6123511",
+      "name": "जैको प्रकाशन संस्था",
+      "leis": [
+        "335800EUJ3PFW1W1IW19"
+      ]
+    },
+    "NIDP-0222": {
+      "registry": "wikidata",
+      "registryRecordId": "Q638231",
+      "name": "लार्सन एंड टूब्रो",
+      "leis": [
+        "3358003FR3JIC5FRXA90"
+      ]
+    },
+    "NIDP-0223": {
+      "registry": "wikidata",
+      "registryRecordId": "Q649343",
+      "name": "एसीसी लिमिटेड",
+      "leis": [
+        "335800569A6H12LH4677"
+      ]
+    },
+    "NIDP-0224": {
+      "registry": "wikidata",
+      "registryRecordId": "Q69906",
+      "name": "एअर इंडिया",
+      "leis": [
+        "335800SB4EYU1F7N9Q09"
+      ]
+    },
+    "NIDP-0225": {
+      "registry": "wikidata",
+      "registryRecordId": "Q726193",
+      "name": "अशोक लेलैंड",
+      "leis": [
+        "3358001BZKWERVWYCK35"
+      ]
+    },
+    "NIDP-0226": {
+      "registry": "wikidata",
+      "registryRecordId": "Q7388955",
+      "name": "एसबीआई लाइफ इंश्योरेंस कंपनी",
+      "leis": [
+        "335800WMVIESQUO95586"
+      ]
+    },
+    "NIDP-0227": {
+      "registry": "wikidata",
+      "registryRecordId": "Q765398",
+      "name": "टाटा स्टारबक्स",
+      "leis": [
+        "335800C1B2T9BM5ILM48"
+      ]
+    },
+    "NIDP-0228": {
+      "registry": "wikidata",
+      "registryRecordId": "Q7880419",
+      "name": "अल्ट्राटेक सीमेंंट",
+      "leis": [
+        "335800PC9O9B4BQHG814"
+      ]
+    },
+    "NIDP-0229": {
+      "registry": "wikidata",
+      "registryRecordId": "Q795622",
+      "name": "टाटा कंज्यूमर प्रोडक्ट्स",
+      "leis": [
+        "335800LOXFWU8ZQJMD12"
+      ]
+    },
+    "NIDP-0230": {
+      "registry": "wikidata",
+      "registryRecordId": "Q848059",
+      "name": "महिन्द्रा एण्ड महिन्द्रा",
+      "leis": [
+        "3358003B573EV4KB4Z02"
+      ]
+    },
+    "NIDP-0231": {
+      "registry": "wikidata",
+      "registryRecordId": "Q854820",
+      "name": "भारत हेवी इलेक्ट्रिकल्स लिमिटेड",
+      "leis": [
+        "3358007X5FQ2R445Z747"
+      ]
+    },
+    "NIDP-0232": {
+      "registry": "wikidata",
+      "registryRecordId": "Q908931",
+      "name": "रिलायन्स इण्डस्ट्रीज",
+      "leis": [
+        "5493003UOETFYRONLG31"
+      ]
+    },
+    "NIDP-0233": {
+      "registry": "wikidata",
+      "registryRecordId": "Q908961",
+      "name": "डॉ. रेड्डीज लेबोरेटरीज",
+      "leis": [
+        "335800OVDPY3DVZR2798"
+      ]
+    },
+    "NIDP-0234": {
+      "registry": "wikidata",
+      "registryRecordId": "Q98525422",
+      "name": "स्काईरूट एयरोस्पेस",
+      "leis": [
+        "894500J5N0WGEPW6ML53"
+      ]
+    }
+  }
+}

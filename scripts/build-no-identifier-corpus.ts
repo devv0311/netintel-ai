@@ -137,8 +137,48 @@ type NegativeBasis =
   | "shared_leading_token"
   | "conflated_by_third_party";
 
+/**
+ * P6.17.3 - the Devanagari-primary-name view.
+ *
+ * Wikidata's data model gives each item ONE label per language plus
+ * separate aliases (skos:altLabel). The Hindi label is therefore
+ * Wikidata's PRIMARY name for that item in Hindi, not an alias
+ * (https://www.wikidata.org/wiki/Help:Label - "the label is the most
+ * common name that the item would be known by"). Our own adapter folds
+ * `itemLabelHi` into this schema's single `aliases[]` field because
+ * PublicRecordContent has one `name`; that is a modelling artefact of
+ * OUR adapter, not the publisher's classification.
+ *
+ * So building a record whose `name` is the Hindi label is NOT promoting
+ * an alias into a primary name. It is presenting the publisher's own
+ * primary Hindi label as what it is, and it is the only way to test the
+ * transliteration hypothesis on primary names rather than on one
+ * incidental Japanese pair.
+ *
+ * The English label is dropped from these records entirely. Carrying it
+ * would hand the resolver the Latin string whose absence is the whole
+ * point of the experiment.
+ */
+function hindiLabelsByQid(dir: string): Map<string, string> {
+  const rawPath = path.resolve(ROOT, dir, "raw", "sparql-results.json");
+  const out = new Map<string, string>();
+  if (!fs.existsSync(rawPath)) return out;
+  const payload = JSON.parse(fs.readFileSync(rawPath, "utf8")) as {
+    results: { bindings: Record<string, { value: string }>[] };
+  };
+  for (const row of payload.results.bindings) {
+    const hi = row.itemLabelHi?.value;
+    const item = row.item?.value;
+    if (!hi || !item) continue;
+    out.set(item.slice(item.lastIndexOf("/") + 1), hi);
+  }
+  return out;
+}
+
 function main(): void {
   const wikidataDir = arg("wikidata");
+  /** "hi" selects the Devanagari-primary view. Omitted = the Latin view. */
+  const primaryLabel = arg("wikidata-primary-label");
   const gleifDirs = (arg("gleif") ?? "").split(",").map((d) => d.trim()).filter(Boolean);
   const out = arg("out") ?? "evidence/no-identifier/no-identifier-pilot";
   if (!wikidataDir || gleifDirs.length === 0) {
@@ -165,9 +205,35 @@ function main(): void {
   const gleifRecords = [...gleifById.values()].sort((a, b) =>
     a.registryRecordId < b.registryRecordId ? -1 : 1,
   );
-  const wikidataRecords = [...wd.records].sort((a, b) =>
+  let wikidataRecords = [...wd.records].sort((a, b) =>
     a.registryRecordId < b.registryRecordId ? -1 : 1,
   );
+
+  let devanagariNote: string | null = null;
+  if (primaryLabel) {
+    if (primaryLabel !== "hi") {
+      console.error(`--wikidata-primary-label: only "hi" is supported (got "${primaryLabel}")`);
+      process.exitCode = 1;
+      return;
+    }
+    const hindi = hindiLabelsByQid(wikidataDir);
+    const before = wikidataRecords.length;
+    wikidataRecords = wikidataRecords
+      .filter((r) => hindi.has(r.registryRecordId))
+      .map((r) => ({
+        ...r,
+        name: hindi.get(r.registryRecordId)!,
+        // The English label is dropped, not demoted: leaving it in
+        // aliases would leak the Latin string back in.
+        aliases: undefined,
+      }));
+    devanagariNote =
+      `Wikidata records carry the publisher's PRIMARY Hindi label (rdfs:label @hi) as \`name\`. ` +
+      `${wikidataRecords.length} of ${before} collected items have one; the rest are excluded ` +
+      `because they cannot participate in a transliteration test. The English label is dropped ` +
+      `entirely rather than kept as an alias, so no Latin form of the name reaches the resolver.`;
+    console.log(`Devanagari-primary view: ${wikidataRecords.length} of ${before} Wikidata records`);
+  }
 
   const leisOf = (r: PublicRecord) =>
     (r.identifiers ?? []).filter((i) => i.scheme === "LEI").map((i) => i.value).sort();
@@ -396,6 +462,7 @@ function main(): void {
       rawSha256Caveat: m.rawSha256Caveat ?? null,
       sourcePayloads: m.sourcePayloads ?? [],
     })),
+    primaryLabelView: devanagariNote,
     basis:
       "An LEI denotes exactly one legal entity (ISO 17442). GLEIF and Wikidata state their LEIs " +
       "independently of one another, so a shared LEI is a same-subject claim made by two publishers " +

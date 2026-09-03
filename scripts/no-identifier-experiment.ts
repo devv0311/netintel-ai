@@ -336,8 +336,16 @@ async function main(): Promise<void> {
     const k = m.resolutionType ?? "(unresolved)";
     typeHistogram.set(k, (typeHistogram.get(k) ?? 0) + 1);
   }
-  const tierBFirings =
-    (typeHistogram.get("exact_name_match") ?? 0) + (typeHistogram.get("ambiguous_name_conflict") ?? 0);
+  // Tier B is now two branches: B1 exact, B2 normalised (P6.17.1). Both
+  // count as "the name path fired", and the ambiguity types count too -
+  // a flagged near-collision is the name path working, not failing.
+  const tierBTypes = [
+    "exact_name_match",
+    "normalized_name_match",
+    "ambiguous_name_conflict",
+    "ambiguous_normalized_name_conflict",
+  ];
+  const tierBFirings = tierBTypes.reduce((n, t) => n + (typeHistogram.get(t) ?? 0), 0);
 
   const VARIATIONS: Variation[] = [
     "identical", "case_only", "transliteration", "punctuation_only", "spacing_only",
@@ -409,6 +417,10 @@ async function main(): Promise<void> {
 
   const joinedCount = positiveResults.filter((p) => p.joined).length;
   const exactNameJoins = positiveResults.filter((p) => p.wikidataResolution === "exact_name_match").length;
+  const normalizedNameJoins = positiveResults.filter(
+    (p) => p.wikidataResolution === "normalized_name_match",
+  ).length;
+  const unresolvedMentions = mentions.filter((m) => m.status === "unresolved").length;
   const byteIdentical = positiveResults.filter((p) => p.variation === "identical").length;
   const falselyMergedNegatives = negativeResults.filter((n) => n.falselyMerged);
 
@@ -451,6 +463,10 @@ async function main(): Promise<void> {
     metrics: {
       positivePairJoinRate: { n: joinedCount, d: positiveResults.length, pct: pct(joinedCount, positiveResults.length) },
       exactNameMatchRate: { n: exactNameJoins, d: positiveResults.length, pct: pct(exactNameJoins, positiveResults.length) },
+      normalizedNameMatchRate: {
+        n: normalizedNameJoins, d: positiveResults.length,
+        pct: pct(normalizedNameJoins, positiveResults.length),
+      },
       byteIdenticalNamePairs: { n: byteIdentical, d: positiveResults.length, pct: pct(byteIdentical, positiveResults.length) },
       aliasMatchRate: { n: aliasAttached.length, d: expectedAliases.length, pct: pct(aliasAttached.length, expectedAliases.length) },
       unresolvedRate: { n: unresolved.length, d: mentions.length, pct: pct(unresolved.length, mentions.length) },
@@ -461,16 +477,30 @@ async function main(): Promise<void> {
       },
       fragmentationRate: { n: fragmented.length, d: observedTwice.size, pct: pct(fragmented.length, observedTwice.size) },
       provenanceCompleteness: { n: provComplete, d: provRows.length, pct: pct(provComplete, provRows.length) },
+      /**
+       * Mentions the resolver itself reports as uncorroborated. Before
+       * P6.17.2 this was structurally 0 whatever happened, because an
+       * uncorroborated mention was recorded as `resolved` / `new_entity` -
+       * the silent-failure defect. It is a SELF-REPORTED number, not a
+       * ground-truth one: its value is that the system now says it.
+       */
+      selfReportedUnresolvedRate: {
+        n: unresolvedMentions, d: mentions.length, pct: pct(unresolvedMentions, mentions.length),
+      },
     },
     tierB: {
       fired: tierBFirings > 0,
       firings: tierBFirings,
       exactNameMatch: typeHistogram.get("exact_name_match") ?? 0,
       ambiguousNameConflict: typeHistogram.get("ambiguous_name_conflict") ?? 0,
+      normalizedNameMatch: typeHistogram.get("normalized_name_match") ?? 0,
+      ambiguousNormalizedNameConflict: typeHistogram.get("ambiguous_normalized_name_conflict") ?? 0,
       note:
         "Tier B can only match an identifier-less mention into a Tier-A cluster. Where no record " +
         "carries an identifier there are no Tier-A clusters, so Tier B has nothing to match " +
-        "against and cannot fire however similar the names are.",
+        "against and cannot fire however similar the names are - which is why the FULL regime is " +
+        "unchanged by normalisation and the ANCHORED regime is not. That is a property of the " +
+        "tier structure, not of the normalisation rules.",
     },
     nameVariation: byVariation,
     resolutionTypeHistogram: Object.fromEntries([...typeHistogram].sort()),
@@ -491,7 +521,13 @@ async function main(): Promise<void> {
 
   const outDir = path.resolve(ROOT, "reports/no-identifier");
   fs.mkdirSync(outDir, { recursive: true });
-  fs.writeFileSync(path.join(outDir, `${regime}-results.json`), JSON.stringify(results, null, 2) + "\n");
+  // Named after the corpus as well as the regime, so a second corpus
+  // (the Devanagari-primary pilot) cannot overwrite the first one's
+  // report - which it silently did the first time this was run.
+  const corpusName = path.basename(base);
+  const reportName =
+    corpusName === "no-identifier-pilot" ? `${regime}-results.json` : `${corpusName}-${regime}-results.json`;
+  fs.writeFileSync(path.join(outDir, reportName), JSON.stringify(results, null, 2) + "\n");
 
   console.log(`\nNO-IDENTIFIER EXPERIMENT - regime: ${regime}`);
   console.log(
@@ -519,7 +555,7 @@ async function main(): Promise<void> {
   for (const n of falselyMergedNegatives.slice(0, 10)) {
     console.log(`    ${n.pairId} [${n.basis}] ${n.aName}  ==  ${n.bName}`);
   }
-  console.log(`\nWrote reports/no-identifier/${regime}-results.json`);
+  console.log(`\nWrote reports/no-identifier/${reportName}`);
 }
 
 main().catch((error: unknown) => {
