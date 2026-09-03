@@ -586,3 +586,116 @@ describe("entity resolution — non-inference safeguards", () => {
     expect(output.warnings.some((w) => w.includes("Test Person"))).toBe(true);
   });
 });
+
+/**
+ * CHARACTERIZATION — Tier-A identifier bridging.
+ *
+ * These tests assert what the resolver does TODAY, including one thing it
+ * gets wrong. They are not a specification of desired behaviour, and they
+ * pass on the unmodified resolver: nothing here changes matching logic.
+ *
+ * They exist because the GLEIF x Wikidata cross-source experiment
+ * (docs/evaluation/cross-source-experiment.md) produced exactly one false
+ * merge, and it came from an identifier rather than a name. Wikidata item
+ * Q188087 states TWO different LEIs; Tier A unions a mention with every
+ * identifier its own evidence item states, and union-find is transitive,
+ * so the mention became a BRIDGE between two unrelated GLEIF legal
+ * entities — a Russian PJSC and another company — collapsing them into
+ * one entity with full confidence and no warning.
+ *
+ * Pinning that here means the identifier-authority policy
+ * (docs/evaluation/identifier-authority-policy.md), once a direction is
+ * chosen, cannot be adopted without a test author consciously rewriting
+ * these expectations. A silent behaviour change is exactly what an
+ * un-pinned bug permits.
+ */
+describe("entity resolution — Tier-A identifier bridging (characterization, current behaviour)", () => {
+  const dbPath = "./data/test-resolution-identifier-bridge.db";
+  let mod: ResolutionModule;
+
+  beforeAll(async () => {
+    mod = await freshResolution(dbPath);
+  });
+  afterAll(async () => {
+    await releaseAndRemoveDb(dbPath);
+  });
+
+  /** The Q188087 shape: one record asserting two identifiers of the same scheme. */
+  function bridgeRecords(): ExtractedRecord[] {
+    const wikidata = "evidence_item_wd_q188087";
+    const gleifA = "evidence_item_gleif_lei_aaa";
+    const gleifB = "evidence_item_gleif_lei_bbb";
+    return [
+      // Wikidata: one item, one name, TWO LEIs (plus its own QID).
+      fixtureRecord({ evidenceItemId: wikidata, recordType: "entity_mention", fieldPath: "name", data: { factType: "organisation_named", mentionKind: "organisation", observedValue: "Unipro", registry: "wikidata" } }),
+      fixtureRecord({ evidenceItemId: wikidata, recordType: "relationship_mention", fieldPath: "identifiers[0]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "Unipro", observedValue: "WIKIDATA:Q188087", scheme: "WIKIDATA" } }),
+      fixtureRecord({ evidenceItemId: wikidata, recordType: "relationship_mention", fieldPath: "identifiers[1]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "Unipro", observedValue: "LEI:AAAAAAAAAAAAAAAAAAAA", scheme: "LEI" } }),
+      fixtureRecord({ evidenceItemId: wikidata, recordType: "relationship_mention", fieldPath: "identifiers[2]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "Unipro", observedValue: "LEI:BBBBBBBBBBBBBBBBBBBB", scheme: "LEI" } }),
+      // GLEIF: two DIFFERENT legal entities, one per LEI.
+      fixtureRecord({ evidenceItemId: gleifA, recordType: "entity_mention", fieldPath: "name", data: { factType: "organisation_named", mentionKind: "organisation", observedValue: "PUBLICHNOE AKTSIONERNOE OBSHCHESTVO UNIPRO", registry: "gleif" } }),
+      fixtureRecord({ evidenceItemId: gleifA, recordType: "relationship_mention", fieldPath: "identifiers[0]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "PUBLICHNOE AKTSIONERNOE OBSHCHESTVO UNIPRO", observedValue: "LEI:AAAAAAAAAAAAAAAAAAAA", scheme: "LEI" } }),
+      fixtureRecord({ evidenceItemId: gleifB, recordType: "entity_mention", fieldPath: "name", data: { factType: "organisation_named", mentionKind: "organisation", observedValue: "UNIPRO", registry: "gleif" } }),
+      fixtureRecord({ evidenceItemId: gleifB, recordType: "relationship_mention", fieldPath: "identifiers[0]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "UNIPRO", observedValue: "LEI:BBBBBBBBBBBBBBBBBBBB", scheme: "LEI" } }),
+    ];
+  }
+
+  it("currently merges two distinct legal entities bridged by one multi-valued identifier", () => {
+    const output = mod.resolveEntities(bridgeRecords(), "investigation_bridge", "2026-01-01T00:00:00.000Z");
+    const orgs = output.entities.filter((e) => e.kind === "organisation");
+
+    // TODAY: one entity, not three. This is the false merge.
+    expect(orgs).toHaveLength(1);
+
+    const decisions = output.decisions.filter((d) => d.extractedRecordIds.length > 0);
+    expect(decisions.every((d) => d.canonicalEntityId === orgs[0]!.id)).toBe(true);
+  });
+
+  it("currently reports the bridged merge as fully resolved, with no ambiguity and no warning", () => {
+    const output = mod.resolveEntities(bridgeRecords(), "investigation_bridge", "2026-01-01T00:00:00.000Z");
+
+    // No part of the pipeline currently signals that anything is wrong:
+    // the merge is `resolved`, not `ambiguous`, and nothing is warned
+    // about. A reviewer reading the output has no way to notice it.
+    expect(output.decisions.some((d) => d.status === "ambiguous")).toBe(false);
+    expect(output.decisions.every((d) => d.status === "resolved")).toBe(true);
+    expect(output.warnings).toHaveLength(0);
+
+    const merged = output.decisions.find((d) => d.resolutionType === "shared_identifier_merge");
+    expect(merged).toBeDefined();
+    // Merge confidence, i.e. the same confidence a correct identifier
+    // merge carries. Nothing distinguishes this decision from a good one.
+    expect(merged!.provenance.confidence).toBeGreaterThanOrEqual(0.9);
+  });
+
+  it("keeps distinct schemes apart, so identifier collision across schemes is already prevented", () => {
+    // Same VALUE, different scheme: an LEI and a QID that happen to share
+    // characters must not merge. Extraction scheme-qualifies every
+    // identifier (`LEI:x` vs `WIKIDATA:x`), which is what prevents this.
+    const itemA = "evidence_item_scheme_a";
+    const itemB = "evidence_item_scheme_b";
+    const records: ExtractedRecord[] = [
+      fixtureRecord({ evidenceItemId: itemA, recordType: "entity_mention", fieldPath: "name", data: { factType: "organisation_named", mentionKind: "organisation", observedValue: "Org One" } }),
+      fixtureRecord({ evidenceItemId: itemA, recordType: "relationship_mention", fieldPath: "identifiers[0]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "Org One", observedValue: "LEI:Z0000000000000000000", scheme: "LEI" } }),
+      fixtureRecord({ evidenceItemId: itemB, recordType: "entity_mention", fieldPath: "name", data: { factType: "organisation_named", mentionKind: "organisation", observedValue: "Org Two" } }),
+      fixtureRecord({ evidenceItemId: itemB, recordType: "relationship_mention", fieldPath: "identifiers[0]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "Org Two", observedValue: "WIKIDATA:Z0000000000000000000", scheme: "WIKIDATA" } }),
+    ];
+    const output = mod.resolveEntities(records, "investigation_scheme", "2026-01-01T00:00:00.000Z");
+    expect(output.entities.filter((e) => e.kind === "organisation")).toHaveLength(2);
+  });
+
+  it("does not merge organisations into persons, whatever identifiers they share", () => {
+    // Kind isolation is an existing guarantee the policy must not weaken:
+    // each kind clusters in its own union-find.
+    const itemA = "evidence_item_kind_a";
+    const itemB = "evidence_item_kind_b";
+    const records: ExtractedRecord[] = [
+      fixtureRecord({ evidenceItemId: itemA, recordType: "entity_mention", fieldPath: "name", data: { factType: "organisation_named", mentionKind: "organisation", observedValue: "Shared Name" } }),
+      fixtureRecord({ evidenceItemId: itemA, recordType: "relationship_mention", fieldPath: "identifiers[0]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "Shared Name", observedValue: "LEI:CCCCCCCCCCCCCCCCCCCC", scheme: "LEI" } }),
+      fixtureRecord({ evidenceItemId: itemB, recordType: "entity_mention", fieldPath: "name", data: { factType: "person_named", mentionKind: "person", observedValue: "Shared Name" } }),
+      fixtureRecord({ evidenceItemId: itemB, recordType: "relationship_mention", fieldPath: "identifiers[0]", data: { factType: "subject_has_identifier", relationshipType: "has_identifier", subject: "Shared Name", observedValue: "LEI:CCCCCCCCCCCCCCCCCCCC", scheme: "LEI" } }),
+    ];
+    const output = mod.resolveEntities(records, "investigation_kind", "2026-01-01T00:00:00.000Z");
+    expect(output.entities.filter((e) => e.kind === "organisation")).toHaveLength(1);
+    expect(output.entities.filter((e) => e.kind === "person")).toHaveLength(1);
+  });
+});
