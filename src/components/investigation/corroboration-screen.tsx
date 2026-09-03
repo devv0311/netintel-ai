@@ -1,12 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { MapPin, Network, ShieldAlert } from "lucide-react";
+import { ShieldAlert } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ClassificationChip } from "@/components/ui/classification-chip";
 import { formatCount } from "@/lib/format";
 import type {
   CorroborationClassification,
@@ -18,6 +17,8 @@ import type {
 } from "@/lib/corroboration/types";
 
 import { CorroborationTimeline } from "./corroboration-timeline";
+import { Inspector } from "./inspector/inspector";
+import type { InspectorTarget } from "./inspector/types";
 
 type Tab = "spatial" | "temporal" | "overlaps" | "contradictions" | "pairs";
 type ClassFilter = "all" | CorroborationClassification;
@@ -42,15 +43,6 @@ const CLASS_LABELS: Record<CorroborationClassification, string> = {
   algorithmic_signal: "Algorithmic Signal",
 };
 
-const KIND_LABELS: Record<string, string> = {
-  person: "person",
-  phone: "phone",
-  imei: "imei",
-  vehicle: "vehicle",
-  bank_account: "bank account",
-  location: "location",
-};
-
 /**
  * The spatial/temporal corroboration screen (P5.7): an investigator's
  * workspace over persisted corroboration findings. Spatial / temporal /
@@ -66,23 +58,30 @@ const KIND_LABELS: Record<string, string> = {
  */
 export function CorroborationScreen({
   initialState,
-  initialFocusEntityId,
+  focusEntityId,
   onViewInGraph,
+  onViewInAnalytics,
+  onViewInCorroboration,
 }: {
   initialState: CorroborationState;
-  /** Preselects an entity filter when another screen (e.g. the Copilot) hands one over. */
-  initialFocusEntityId?: string;
+  /** The shell's persistent focused entity — filters every tab to that entity's overlaps when one is set. */
+  focusEntityId: string | null;
   onViewInGraph: (entityId: string) => void;
+  onViewInAnalytics: (entityId: string) => void;
+  onViewInCorroboration: (entityId: string) => void;
 }) {
-  const [tab, setTab] = useState<Tab>(initialFocusEntityId ? "spatial" : "pairs");
+  const [tab, setTab] = useState<Tab>(focusEntityId ? "spatial" : "pairs");
   const [classFilter, setClassFilter] = useState<ClassFilter>("all");
   const [pairFilter, setPairFilter] = useState<{ id: string; label: string } | null>(
-    initialFocusEntityId ? { id: initialFocusEntityId, label: "selected entity" } : null,
+    focusEntityId ? { id: focusEntityId, label: "selected entity" } : null,
   );
   const [findings, setFindings] = useState<CorroborationFindingView[]>([]);
   const [total, setTotal] = useState(0);
   const [pairs, setPairs] = useState<EntityPairOverlapView[] | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  // Entity / relationship targets reached from inside the Inspector; when
+  // null the Inspector shows the selected finding.
+  const [inspectorOverride, setInspectorOverride] = useState<InspectorTarget | null>(null);
 
   const synthesized = initialState.status === "synthesized";
   const pairFilterId = pairFilter?.id ?? null;
@@ -124,6 +123,22 @@ export function CorroborationScreen({
       cancelled = true;
     };
   }, [synthesized]);
+
+  // When another surface changes the focused entity, filter every tab to
+  // it (render-phase prop reconciliation, not an effect).
+  const [syncedFocus, setSyncedFocus] = useState(focusEntityId);
+  if (focusEntityId !== syncedFocus) {
+    setSyncedFocus(focusEntityId);
+    if (focusEntityId) {
+      setPairFilter({ id: focusEntityId, label: "selected entity" });
+      setTab((t) => (t === "pairs" ? "spatial" : t));
+    }
+  }
+
+  const selectFinding = (id: string) => {
+    setSelectedId(id);
+    setInspectorOverride(null);
+  };
 
   if (initialState.status !== "synthesized") {
     return (
@@ -276,7 +291,7 @@ export function CorroborationScreen({
               </div>
 
               {(tab === "temporal" || tab === "overlaps") && findings.length > 0 && (
-                <CorroborationTimeline findings={findings} selectedId={selectedId} onSelect={setSelectedId} />
+                <CorroborationTimeline findings={findings} selectedId={selectedId} onSelect={selectFinding} />
               )}
 
               {tab === "contradictions" ? (
@@ -286,7 +301,7 @@ export function CorroborationScreen({
                       <button
                         type="button"
                         data-testid="contradiction-card"
-                        onClick={() => setSelectedId(f.id)}
+                        onClick={() => selectFinding(f.id)}
                         className={`w-full rounded border p-2 text-left hover:bg-muted ${
                           selectedId === f.id ? "border-accent" : "border-border"
                         }`}
@@ -325,7 +340,7 @@ export function CorroborationScreen({
                         type="button"
                         data-testid="corroboration-finding-row"
                         data-finding-id={f.id}
-                        onClick={() => setSelectedId(f.id)}
+                        onClick={() => selectFinding(f.id)}
                         className={`flex w-full flex-wrap items-center gap-2 rounded px-1.5 py-1 text-left hover:bg-muted ${
                           selectedId === f.id ? "bg-muted" : ""
                         }`}
@@ -351,136 +366,22 @@ export function CorroborationScreen({
           )}
         </div>
 
-        <div className="w-80 shrink-0">
-          {selected ? (
-            <FindingDetail finding={selected} onViewInGraph={onViewInGraph} />
-          ) : (
-            <Card className="text-xs text-muted-foreground">
-              Select a finding to inspect its classification, the metric that produced it, and its full provenance.
-            </Card>
-          )}
-        </div>
+        <Inspector
+          target={inspectorOverride ?? (selected ? { kind: "finding", id: selected.id, finding: selected } : null)}
+          context="corroboration"
+          nav={{
+            viewInGraph: onViewInGraph,
+            viewInAnalytics: onViewInAnalytics,
+            viewInCorroboration: onViewInCorroboration,
+          }}
+          onClear={() => {
+            setSelectedId(null);
+            setInspectorOverride(null);
+          }}
+          onSelectEntity={(id) => setInspectorOverride({ kind: "entity", id })}
+          onSelectRelationship={(id) => setInspectorOverride({ kind: "relationship", id })}
+        />
       </div>
     </div>
-  );
-}
-
-function FindingDetail({
-  finding,
-  onViewInGraph,
-}: {
-  finding: CorroborationFindingView;
-  onViewInGraph: (entityId: string) => void;
-}) {
-  const f = finding;
-  return (
-    <Card className="gap-3 text-xs" data-testid="corroboration-detail">
-      <div className="flex flex-col gap-1">
-        <div className="flex flex-wrap items-center gap-1.5">
-          <ClassificationChip
-            classification={f.classification}
-            data-testid="corroboration-detail-classification"
-          />
-          <Badge variant="outline">{FINDING_TYPE_LABELS[f.findingType]}</Badge>
-        </div>
-        {f.entities.length > 0 && (
-          <div className="flex flex-wrap items-center gap-1.5">
-            {f.entities.map((e) => (
-              <Badge key={e.id} variant="outline">
-                {e.label} · {KIND_LABELS[e.kind] ?? e.kind}
-              </Badge>
-            ))}
-          </div>
-        )}
-        {f.entities.length > 0 && (
-          <Button
-            size="sm"
-            variant="outline"
-            className="w-fit gap-1.5"
-            onClick={() => onViewInGraph(f.entities[0]!.id)}
-            data-testid="corroboration-view-in-graph"
-          >
-            <Network className="size-3.5" aria-hidden />
-            View in graph
-          </Button>
-        )}
-      </div>
-
-      {f.locations.length > 0 && (
-        <div className="flex flex-col gap-1 border-t border-border pt-2">
-          <span className="font-medium text-foreground">Location{f.locations.length > 1 ? "s" : ""}</span>
-          {f.locations.map((l) => (
-            <div key={l.id} className="flex items-center gap-1.5 text-muted-foreground">
-              <MapPin className="size-3 shrink-0" aria-hidden />
-              <span className="truncate">{l.label}</span>
-              <span className="ml-auto shrink-0 font-mono text-[10px]">
-                {l.latitude.toFixed(4)}, {l.longitude.toFixed(4)}
-              </span>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {f.window && (
-        <div className="flex flex-col gap-0.5 border-t border-border pt-2 text-muted-foreground">
-          <span className="font-medium text-foreground">Observed window</span>
-          <span className="font-mono text-[10px]">
-            {f.window.start}
-            {f.window.end ? ` → ${f.window.end}` : ""}
-          </span>
-        </div>
-      )}
-
-      <div className="flex flex-col gap-1 border-t border-border pt-2">
-        <span className="font-medium text-foreground">Metric</span>
-        <dl className="grid grid-cols-2 gap-x-3 gap-y-0.5 text-muted-foreground">
-          {Object.entries(f.value).map(([k, v]) => (
-            <div key={k} className="contents">
-              <dt className="truncate">{k}</dt>
-              <dd className="truncate text-right font-mono text-[10px]">
-                {v === null ? "—" : Array.isArray(v) ? v.join(", ") : String(v)}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </div>
-
-      <p className="border-t border-border pt-2 text-muted-foreground">{f.explanation}</p>
-
-      <div className="flex flex-col gap-1 border-t border-border pt-2" data-testid="corroboration-detail-provenance">
-        <span className="font-medium text-foreground">Provenance</span>
-        <div className="grid grid-cols-[auto_1fr] gap-x-2 gap-y-0.5 text-muted-foreground">
-          <span>method</span>
-          <span className="truncate font-mono text-[10px]">{f.method}</span>
-          <span>confidence</span>
-          <span className="font-mono text-[10px]">{f.provenance.confidence.toFixed(2)}</span>
-          <span>derived at</span>
-          <span className="truncate font-mono text-[10px]">{f.provenance.timestamp}</span>
-          <span>history</span>
-          <span className="truncate font-mono text-[10px]">{f.provenance.processingHistory.join(" → ")}</span>
-        </div>
-      </div>
-
-      <div className="flex flex-col gap-1 border-t border-border pt-2" data-testid="corroboration-detail-evidence">
-        <span className="font-medium text-foreground">
-          Supporting evidence ({formatCount(f.evidenceItemIds.length)} item
-          {f.evidenceItemIds.length === 1 ? "" : "s"})
-        </span>
-        <ul className="flex flex-wrap gap-1">
-          {f.evidenceItemIds.slice(0, 12).map((id) => (
-            <li key={id} className="rounded bg-muted/60 px-1 py-0.5 font-mono text-[10px] text-muted-foreground">
-              {id}
-            </li>
-          ))}
-          {f.evidenceItemIds.length > 12 && (
-            <li className="text-[10px] text-muted-foreground">+{f.evidenceItemIds.length - 12} more</li>
-          )}
-        </ul>
-        <span className="text-[10px] text-muted-foreground">
-          {formatCount(f.supportingRecordIds.length)} observable record
-          {f.supportingRecordIds.length === 1 ? "" : "s"} compared
-        </span>
-      </div>
-    </Card>
   );
 }

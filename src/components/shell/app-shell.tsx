@@ -61,29 +61,23 @@ export function AppShell({
   const [graphState, setGraphState] = useState<GraphState>(initialGraphState);
   const [analyticsState, setAnalyticsState] = useState<AnalyticsState>(initialAnalyticsState);
   const [corroborationState, setCorroborationState] = useState<CorroborationState>(initialCorroborationState);
-  const [graphFocusNodeId, setGraphFocusNodeId] = useState<string | null>(null);
-  const [analyticsFocusEntityId, setAnalyticsFocusEntityId] = useState<string | null>(null);
-  const [corroborationFocusEntityId, setCorroborationFocusEntityId] = useState<string | null>(null);
-  // The current cross-navigation subject, surfaced as the command-bar
-  // focus chip so it is legible from every surface (audit §2). Setting a
-  // screen's own focus id also sets this; clearing the chip only clears
-  // the chip.
+  // The one persistent focused entity (M10.3). Every analysis surface's
+  // Inspector opens on it, cross-navigation sets it, and it survives
+  // moving between Graph, Analytics and Corroboration. Surfaced as the
+  // command-bar focus chip; clearing the chip clears it everywhere.
   const [focusedEntityId, setFocusedEntityId] = useState<string | null>(null);
 
   const viewInGraph = useCallback((entityId: string) => {
-    setGraphFocusNodeId(entityId);
     setFocusedEntityId(entityId);
     setView("graph");
   }, []);
 
   const viewInAnalytics = useCallback((entityId: string) => {
-    setAnalyticsFocusEntityId(entityId);
     setFocusedEntityId(entityId);
     setView("analytics");
   }, []);
 
   const viewInCorroboration = useCallback((entityId: string) => {
-    setCorroborationFocusEntityId(entityId);
     setFocusedEntityId(entityId);
     setView("corroboration");
   }, []);
@@ -156,25 +150,31 @@ export function AppShell({
           )}
           {view === "graph" && (
             <GraphScreen
-              key={graphFocusNodeId ?? "default"}
               initialState={graphState}
-              initialFocusNodeId={graphFocusNodeId ?? undefined}
+              focusEntityId={focusedEntityId}
+              onFocusEntity={setFocusedEntityId}
+              onViewInGraph={viewInGraph}
+              onViewInAnalytics={viewInAnalytics}
+              onViewInCorroboration={viewInCorroboration}
             />
           )}
           {view === "analytics" && (
             <AnalyticsScreen
-              key={analyticsFocusEntityId ?? "default"}
               initialState={analyticsState}
-              initialFocusEntityId={analyticsFocusEntityId ?? undefined}
+              focusEntityId={focusedEntityId}
+              onFocusEntity={setFocusedEntityId}
               onViewInGraph={viewInGraph}
+              onViewInAnalytics={viewInAnalytics}
+              onViewInCorroboration={viewInCorroboration}
             />
           )}
           {view === "corroboration" && (
             <CorroborationScreen
-              key={corroborationFocusEntityId ?? "default"}
               initialState={corroborationState}
-              initialFocusEntityId={corroborationFocusEntityId ?? undefined}
+              focusEntityId={focusedEntityId}
               onViewInGraph={viewInGraph}
+              onViewInAnalytics={viewInAnalytics}
+              onViewInCorroboration={viewInCorroboration}
             />
           )}
           {view === "copilot" && (

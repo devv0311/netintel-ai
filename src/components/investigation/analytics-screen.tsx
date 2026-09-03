@@ -15,7 +15,8 @@ import type {
   RankedEntityView,
 } from "@/lib/analytics/types";
 
-import { AnalyticsEntityDetail } from "./analytics-entity-detail";
+import { Inspector } from "./inspector/inspector";
+import type { InspectorTarget } from "./inspector/types";
 import { AnalyticsPathPanel } from "./analytics-path-panel";
 
 type ListTab = "ranked" | "bridges" | "communities";
@@ -46,19 +47,47 @@ const KIND_LABELS: Record<string, string> = {
  */
 export function AnalyticsScreen({
   initialState,
-  initialFocusEntityId,
+  focusEntityId,
+  onFocusEntity,
   onViewInGraph,
+  onViewInAnalytics,
+  onViewInCorroboration,
 }: {
   initialState: AnalyticsState;
-  /** Preselects an entity when another screen (e.g. the Copilot) hands one over. */
-  initialFocusEntityId?: string;
+  /** The shell's persistent focused entity — pre-selects it in the Inspector and tracks changes from other surfaces. */
+  focusEntityId: string | null;
+  onFocusEntity: (entityId: string | null) => void;
   onViewInGraph: (entityId: string) => void;
+  onViewInAnalytics: (entityId: string) => void;
+  onViewInCorroboration: (entityId: string) => void;
 }) {
   const [tab, setTab] = useState<ListTab>("ranked");
   const [rankedPage, setRankedPage] = useState<RankedEntitiesPage | null>(null);
   const [bridges, setBridges] = useState<BridgeEntityView[] | null>(null);
   const [communities, setCommunities] = useState<CommunityView[] | null>(null);
-  const [selectedEntityId, setSelectedEntityId] = useState<string | null>(initialFocusEntityId ?? null);
+  const [target, setTarget] = useState<InspectorTarget | null>(
+    focusEntityId ? { kind: "entity", id: focusEntityId } : null,
+  );
+
+  // Sync the Inspector to the shell's focused entity when another surface
+  // changes it (render-phase prop reconciliation, not an effect).
+  const [syncedFocus, setSyncedFocus] = useState(focusEntityId);
+  if (focusEntityId !== syncedFocus) {
+    setSyncedFocus(focusEntityId);
+    if (focusEntityId) setTarget({ kind: "entity", id: focusEntityId });
+  }
+
+  const selectEntity = useCallback(
+    (id: string | null) => {
+      setTarget(id ? { kind: "entity", id } : null);
+      onFocusEntity(id);
+    },
+    [onFocusEntity],
+  );
+
+  const selectRelationship = useCallback((id: string) => {
+    setTarget({ kind: "relationship", id });
+  }, []);
 
   useEffect(() => {
     if (initialState.status !== "synthesized") return;
@@ -165,7 +194,7 @@ export function AnalyticsScreen({
                   <li key={e.id}>
                     <button
                       type="button"
-                      onClick={() => setSelectedEntityId(e.id)}
+                      onClick={() => selectEntity(e.id)}
                       className="flex w-full items-center gap-2 rounded px-1.5 py-1 text-left hover:bg-muted"
                       data-testid="ranked-entity-row"
                       data-entity-id={e.id}
@@ -200,7 +229,7 @@ export function AnalyticsScreen({
                   <li key={b.id}>
                     <button
                       type="button"
-                      onClick={() => setSelectedEntityId(b.id)}
+                      onClick={() => selectEntity(b.id)}
                       className="flex w-full items-center gap-2 rounded px-1.5 py-1 text-left hover:bg-muted"
                       data-testid="bridge-entity-row"
                     >
@@ -245,7 +274,7 @@ export function AnalyticsScreen({
                           <button
                             key={id}
                             type="button"
-                            onClick={() => setSelectedEntityId(id)}
+                            onClick={() => selectEntity(id)}
                             className="rounded bg-card px-1.5 py-0.5 text-foreground underline decoration-dotted hover:bg-muted"
                             data-testid="community-representative"
                           >
@@ -261,15 +290,18 @@ export function AnalyticsScreen({
           )}
         </div>
 
-        <div className="w-80 shrink-0">
-          {selectedEntityId ? (
-            <AnalyticsEntityDetail key={selectedEntityId} entityId={selectedEntityId} onViewInGraph={onViewInGraph} />
-          ) : (
-            <Card className="text-xs text-muted-foreground">
-              Select an entity to inspect its structural metrics and provenance.
-            </Card>
-          )}
-        </div>
+        <Inspector
+          target={target}
+          context="analytics"
+          nav={{
+            viewInGraph: onViewInGraph,
+            viewInAnalytics: onViewInAnalytics,
+            viewInCorroboration: onViewInCorroboration,
+          }}
+          onClear={() => selectEntity(null)}
+          onSelectEntity={selectEntity}
+          onSelectRelationship={selectRelationship}
+        />
       </div>
 
       <AnalyticsPathPanel entityOptions={entityOptions} onViewInGraph={onViewInGraph} />

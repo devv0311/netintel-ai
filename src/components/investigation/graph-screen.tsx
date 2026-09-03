@@ -9,8 +9,8 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import type { GraphSnapshot, GraphState } from "@/lib/graph/types";
 
-import { GraphNodeDetail } from "./graph-node-detail";
-import { GraphEdgeDetail } from "./graph-edge-detail";
+import { Inspector } from "./inspector/inspector";
+import type { InspectorTarget } from "./inspector/types";
 
 /**
  * sigma.js touches browser-only globals (e.g. WebGL2RenderingContext) at
@@ -33,28 +33,47 @@ const EDGE_TYPES = ["ownership", "communication", "financial", "co_location", "f
  * The investigative graph screen (P5.5): a bounded sigma.js
  * visualization backed by GET /api/graph/snapshot, with node/edge
  * selection, kind/type filtering, and a focus-on-selection neighborhood
- * view. The investigator workflow this supports:
- *
- *   open Graph → see network → select an entity → inspect connected
- *   entities → inspect a relationship → trace it to source evidence
+ * view. Selecting anything opens the shared Inspector (M10.3); the
+ * selected entity is the shell's persistent focused entity, so it
+ * survives navigation to Analytics and Corroboration.
  *
  * Every rendered node/edge is real, persisted graph data — never
  * decorative or fabricated.
  */
 export function GraphScreen({
   initialState,
-  initialFocusNodeId,
+  focusEntityId,
+  onFocusEntity,
+  onViewInGraph,
+  onViewInAnalytics,
+  onViewInCorroboration,
 }: {
   initialState: GraphState;
-  /** Pre-selects and focuses this node on mount — set when the investigator navigates here from the Analytics screen ("view in graph neighborhood"). Pass a fresh `key` at the call site so re-navigating to a different node forces a remount. */
-  initialFocusNodeId?: string;
+  /** The shell's persistent focused entity — pre-selects and focuses it on mount and whenever it changes. */
+  focusEntityId: string | null;
+  onFocusEntity: (entityId: string | null) => void;
+  onViewInGraph: (entityId: string) => void;
+  onViewInAnalytics: (entityId: string) => void;
+  onViewInCorroboration: (entityId: string) => void;
 }) {
   const [snapshot, setSnapshot] = useState<GraphSnapshot | null>(null);
-  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(initialFocusNodeId ?? null);
-  const [selectedEdgeId, setSelectedEdgeId] = useState<string | null>(null);
-  const [focusMode, setFocusMode] = useState(Boolean(initialFocusNodeId));
+  const [target, setTarget] = useState<InspectorTarget | null>(
+    focusEntityId ? { kind: "entity", id: focusEntityId } : null,
+  );
+  const [focusMode, setFocusMode] = useState(Boolean(focusEntityId));
+
+  // Sync the Inspector to the shell's focused entity when it changes from
+  // another surface (render-phase prop reconciliation, not an effect).
+  const [syncedFocus, setSyncedFocus] = useState(focusEntityId);
+  if (focusEntityId !== syncedFocus) {
+    setSyncedFocus(focusEntityId);
+    if (focusEntityId) setTarget({ kind: "entity", id: focusEntityId });
+  }
   const [hiddenKinds, setHiddenKinds] = useState<Set<string>>(new Set());
   const [hiddenTypes, setHiddenTypes] = useState<Set<string>>(new Set());
+
+  const selectedNodeId = target?.kind === "entity" ? target.id : null;
+  const selectedEdgeId = target?.kind === "relationship" ? target.id : null;
 
   const load = useCallback(async (focus?: string) => {
     const url = focus ? `/api/graph/snapshot?focus=${encodeURIComponent(focus)}` : "/api/graph/snapshot";
@@ -65,8 +84,8 @@ export function GraphScreen({
   useEffect(() => {
     if (initialState.status !== "synthesized") return;
     let cancelled = false;
-    const url = initialFocusNodeId
-      ? `/api/graph/snapshot?focus=${encodeURIComponent(initialFocusNodeId)}`
+    const url = focusEntityId
+      ? `/api/graph/snapshot?focus=${encodeURIComponent(focusEntityId)}`
       : "/api/graph/snapshot";
     fetch(url, { cache: "no-store" })
       .then((r) => (r.ok ? (r.json() as Promise<GraphSnapshot>) : null))
@@ -79,14 +98,53 @@ export function GraphScreen({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialState]);
 
-  const onSelectNode = useCallback(
+  // When the focused entity changes and the graph is in focus mode, pull
+  // the snapshot centred on it (state is set only in the fetch callback).
+  useEffect(() => {
+    if (!focusEntityId || !focusMode) return;
+    let cancelled = false;
+    fetch(`/api/graph/snapshot?focus=${encodeURIComponent(focusEntityId)}`, { cache: "no-store" })
+      .then((r) => (r.ok ? (r.json() as Promise<GraphSnapshot>) : null))
+      .then((data) => {
+        if (!cancelled && data) setSnapshot(data);
+      });
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focusEntityId]);
+
+  const selectEntity = useCallback(
     (id: string | null) => {
-      setSelectedNodeId(id);
-      setSelectedEdgeId(null);
+      setTarget(id ? { kind: "entity", id } : null);
+      onFocusEntity(id);
       if (focusMode && id) void load(id);
     },
-    [focusMode, load],
+    [focusMode, load, onFocusEntity],
   );
+
+  const selectRelationship = useCallback((id: string) => {
+    setTarget({ kind: "relationship", id });
+  }, []);
+
+  // Canvas selection: a real id selects; a background click drops only the
+  // local selection and leaves the shell's persistent focus alone.
+  const onCanvasSelectNode = useCallback(
+    (id: string | null) => {
+      if (id) selectEntity(id);
+      else setTarget(null);
+    },
+    [selectEntity],
+  );
+
+  const onCanvasSelectEdge = useCallback((id: string | null) => {
+    setTarget(id ? { kind: "relationship", id } : null);
+  }, []);
+
+  const clearInspector = useCallback(() => {
+    setTarget(null);
+    onFocusEntity(null);
+  }, [onFocusEntity]);
 
   const toggleFocusMode = useCallback(() => {
     setFocusMode((prev) => {
@@ -180,7 +238,7 @@ export function GraphScreen({
           className="rounded-md border border-border bg-card px-2 py-1"
           value={selectedNodeId ?? ""}
           onChange={(e) => {
-            if (e.target.value) onSelectNode(e.target.value);
+            if (e.target.value) selectEntity(e.target.value);
           }}
         >
           <option value="">Select a node…</option>
@@ -202,8 +260,8 @@ export function GraphScreen({
             selectedEdgeId={selectedEdgeId}
             hiddenKinds={hiddenKinds}
             hiddenTypes={hiddenTypes}
-            onSelectNode={onSelectNode}
-            onSelectEdge={setSelectedEdgeId}
+            onSelectNode={onCanvasSelectNode}
+            onSelectEdge={onCanvasSelectEdge}
           />
           <p className="mt-2 text-xs text-muted-foreground" data-testid="graph-counts">
             Showing {snapshot.nodes.length} of {snapshot.totalNodes} nodes, {snapshot.edges.length} of{" "}
@@ -211,22 +269,18 @@ export function GraphScreen({
             {snapshot.truncated ? " (truncated — focus a node or filter to narrow the view)" : ""}.
           </p>
         </div>
-        <div className="w-80 shrink-0">
-          {selectedNodeId && (
-            <GraphNodeDetail
-              key={selectedNodeId}
-              nodeId={selectedNodeId}
-              onSelectNode={onSelectNode}
-              onSelectEdge={setSelectedEdgeId}
-            />
-          )}
-          {selectedEdgeId && <GraphEdgeDetail key={selectedEdgeId} edgeId={selectedEdgeId} />}
-          {!selectedNodeId && !selectedEdgeId && (
-            <Card className="text-xs text-muted-foreground">
-              Select a node or edge to inspect its detail and provenance.
-            </Card>
-          )}
-        </div>
+        <Inspector
+          target={target}
+          context="graph"
+          nav={{
+            viewInGraph: onViewInGraph,
+            viewInAnalytics: onViewInAnalytics,
+            viewInCorroboration: onViewInCorroboration,
+          }}
+          onClear={clearInspector}
+          onSelectEntity={selectEntity}
+          onSelectRelationship={selectRelationship}
+        />
       </div>
     </div>
   );

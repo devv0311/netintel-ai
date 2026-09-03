@@ -11,50 +11,57 @@ import { formatCount } from "@/lib/format";
 import type { EvidenceClassification } from "@/lib/domain/provenance";
 import type { EdgeDetail } from "@/lib/graph/types";
 
-/**
- * The selected-edge detail panel: relationship type, direction,
- * classification, confidence, attributes, conflicts, and the resolved
- * extracted-record evidence trail — this is the answer to "why does
- * this edge exist," satisfying the requirement to trace a relationship
- * back to its source evidence directly from the graph screen.
- */
-export function GraphEdgeDetail({ edgeId }: { edgeId: string }) {
-  const [detail, setDetail] = useState<EdgeDetail | null>(null);
-  const [loading, setLoading] = useState(true);
+import type { EvidenceReferenceData } from "./types";
 
-  // Keyed by edgeId at the call site (see graph-screen.tsx), so a fresh
-  // mount already starts from loading=true/detail=null — this effect
-  // only ever needs to set state from inside the fetch's own callbacks.
+/**
+ * The Inspector's relationship mode (M10.1 audit §1 #5). Relationship
+ * type, direction, classification, confidence, attributes, conflicts and
+ * the resolved extracted-record evidence trail — the answer to "why does
+ * this edge exist". Each source-evidence row opens the Evidence Reference
+ * mode. Fetches `/api/graph/edges/{id}`; no backend change.
+ */
+export function RelationshipDetail({
+  edgeId,
+  onOpenEvidence,
+}: {
+  edgeId: string;
+  onOpenEvidence: (reference: EvidenceReferenceData) => void;
+}) {
+  // The loaded detail carries the edge id it belongs to, so a stale
+  // response never shows and no synchronous reset is needed on change.
+  const [data, setData] = useState<{ id: string; detail: EdgeDetail | null } | null>(null);
+
   useEffect(() => {
     let cancelled = false;
     fetch(`/api/graph/edges/${encodeURIComponent(edgeId)}`, { cache: "no-store" })
       .then((r) => (r.ok ? (r.json() as Promise<EdgeDetail>) : null))
+      .catch(() => null)
       .then((d) => {
-        if (!cancelled) setDetail(d);
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
+        if (!cancelled) setData({ id: edgeId, detail: d ?? null });
       });
     return () => {
       cancelled = true;
     };
   }, [edgeId]);
 
-  if (loading) {
+  const ready = data?.id === edgeId;
+  const detail = ready ? data.detail : null;
+
+  if (!ready) {
     return (
       <Card className="flex items-center gap-2 text-xs text-muted-foreground" data-testid="graph-edge-detail-loading">
         <Loader2 className="size-3.5 animate-spin" aria-hidden />
-        Loading edge detail…
+        Loading relationship detail…
       </Card>
     );
   }
 
   if (!detail) {
-    return <Card className="text-xs text-muted-foreground">Edge not found.</Card>;
+    return <Card className="text-xs text-muted-foreground">Relationship not found.</Card>;
   }
 
   return (
-    <Card className="gap-3 text-xs" data-testid="graph-edge-detail">
+    <Card className="gap-3 text-xs" data-testid="graph-edge-detail" data-slot="relationship-detail">
       <div className="flex flex-col gap-1">
         <div className="flex flex-wrap items-center gap-1.5">
           <span className="truncate font-medium text-foreground" data-testid="graph-edge-source">
@@ -102,17 +109,36 @@ export function GraphEdgeDetail({ edgeId }: { edgeId: string }) {
         </span>
         <ul className="flex flex-col gap-1" data-testid="graph-edge-evidence-list">
           {detail.extractedRecords.map((ref) => (
-            <li key={ref.extractedRecordId} className="rounded bg-muted/40 p-1.5" data-testid="graph-edge-evidence-item">
-              <div className="flex flex-wrap items-center gap-1.5">
-                <Badge variant="outline">{ref.recordType.replaceAll("_", " ")}</Badge>
-                <span className="font-mono text-[10px] text-muted-foreground">{ref.evidenceItemId}</span>
-              </div>
-              <span className="text-muted-foreground">{ref.location}</span>
+            <li key={ref.extractedRecordId}>
+              <button
+                type="button"
+                data-testid="graph-edge-evidence-item"
+                onClick={() =>
+                  onOpenEvidence({
+                    id: ref.extractedRecordId,
+                    recordType: ref.recordType.replaceAll("_", " "),
+                    evidenceItemId: ref.evidenceItemId,
+                    location: ref.location,
+                  })
+                }
+                className="flex w-full flex-col gap-0.5 rounded bg-muted/40 p-1.5 text-left hover:bg-muted"
+              >
+                <span className="flex flex-wrap items-center gap-1.5">
+                  <Badge variant="outline">{ref.recordType.replaceAll("_", " ")}</Badge>
+                  <span className="font-mono text-[10px] text-muted-foreground">{ref.evidenceItemId}</span>
+                </span>
+                <span className="text-muted-foreground">{ref.location}</span>
+              </button>
             </li>
           ))}
         </ul>
-        <ProvenanceBlock provenance={detail.provenance} className="mt-1" />
       </div>
+
+      <ProvenanceBlock
+        provenance={detail.provenance}
+        className="border-t border-border pt-2"
+        data-testid="graph-edge-provenance"
+      />
     </Card>
   );
 }
