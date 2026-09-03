@@ -26,9 +26,20 @@ This directory will hold the specification for the synthetic investigative datas
 The corpus data lives under `evidence/synthetic/` and
 `evidence/ground-truth/`; the generator is `src/lib/corpus/`.
 
-Still **not** built here: any pipeline stage (extraction, entity
-resolution, graph synthesis, analytics, corroboration, Copilot,
-reporting).
+Each implemented pipeline stage is documented here as it lands:
+
+- `ingestion.md` — evidence ingestion (P5.2)
+- `extraction.md` — structured extraction (P5.3)
+- `resolution.md` — entity resolution (P5.4)
+- `graph.md` — graph synthesis (P5.5)
+- `analytics.md` — topology analytics (P5.6)
+- `corroboration.md` — spatial/temporal corroboration (P5.7)
+- `dossier.md` — dossier / report generation (P5.9)
+
+Still **not** documented here: the Investigation Copilot. Its
+implementation exists in `src/lib/copilot/`, but it has no `copilot.md`,
+no tests, and no visual evidence, so it is not claimed as complete — see
+the note at the end of `docs/progress/implementation-ledger.md`.
 
 ## Invariants (prohibited at every phase)
 
