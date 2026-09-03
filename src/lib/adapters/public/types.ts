@@ -29,12 +29,41 @@ export interface AdapterPlan {
   destination: string;
 }
 
+/**
+ * How a payload actually reached us.
+ *
+ * This exists because the two channels do NOT carry the same evidential
+ * weight, and collapsing them would make the manifest lie:
+ *
+ *   direct-https — this process opened the socket. `rawSha256` is the
+ *     hash of the bytes the publisher sent, and re-running the collector
+ *     against an unchanged record reproduces it exactly.
+ *   agent-relay  — the payload was retrieved through an operator-side
+ *     web tool because direct egress to the publisher is blocked by
+ *     policy, then written to disk and transformed from there. The
+ *     content is the publisher's; the BYTES are not proven to be, since
+ *     a relay may reformat insignificant whitespace. `rawSha256` is
+ *     therefore the hash of the stored payload, NOT a verified
+ *     wire-byte hash, and a byte-exact provenance claim requires a
+ *     `direct-https` re-run from an unrestricted network.
+ *
+ * Recording this is the difference between provenance and decoration.
+ */
+export type RetrievalChannel = "direct-https" | "agent-relay";
+
 export interface AdapterResult {
   plan: AdapterPlan;
   records: PublicRecordContent[];
-  /** sha256 of the raw payload, for the artifact manifest. */
+  /**
+   * sha256 of the raw payload. Under `direct-https` this is a wire-byte
+   * hash; under `agent-relay` it is a hash of the stored payload only —
+   * see RetrievalChannel.
+   */
   rawSha256: string;
   rawBytes: number;
+  retrievalChannel: RetrievalChannel;
+  /** Per-payload provenance, one entry per raw file transformed. */
+  sourcePayloads: { file: string; sha256: string; bytes: number; records: number }[];
   warnings: string[];
 }
 
@@ -42,6 +71,13 @@ export interface AdapterOptions {
   limit: number;
   /** Transform a raw payload already on disk instead of fetching. */
   fromFile?: string;
+  /**
+   * Transform every *.json payload in a directory instead of fetching —
+   * the relay path. Used when egress to the publisher is blocked and the
+   * payloads were retrieved out-of-band; sets `retrievalChannel` to
+   * "agent-relay" so the manifest cannot silently claim otherwise.
+   */
+  fromDir?: string;
   root?: string;
 }
 

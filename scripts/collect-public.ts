@@ -30,10 +30,13 @@ async function main(): Promise<void> {
   const source = arg("source");
   const limit = Number(arg("limit") ?? 100);
   const fromFile = arg("from-file");
+  const fromDir = arg("from-dir");
   const query = arg("query");
 
   if (source !== "gleif" && source !== "wikidata") {
-    console.error("usage: --source gleif|wikidata [--limit N] [--query NAME] [--from-file PATH] [--dry-run]");
+    console.error(
+      "usage: --source gleif|wikidata [--limit N] [--query NAME] [--from-file PATH] [--from-dir DIR] [--dry-run]",
+    );
     console.error("No other source is collectable: the adapter set is the allowlist.");
     process.exitCode = 1;
     return;
@@ -47,7 +50,7 @@ async function main(): Promise<void> {
   const gleif = await import("@/lib/adapters/public/gleif");
   const wikidata = await import("@/lib/adapters/public/wikidata");
   type WikidataQueryName = keyof typeof wikidata.QUERIES;
-  const options = { limit, fromFile, root: ROOT };
+  const options = { limit, fromFile, fromDir, root: ROOT };
 
   const plan =
     source === "gleif"
@@ -66,6 +69,7 @@ async function main(): Promise<void> {
   console.log(`  requests         ${plan.estimatedRequests}`);
   console.log(`  estimated size   ${(plan.estimatedBytes / 1024).toFixed(0)} KiB`);
   console.log(`  destination      ${plan.destination}`);
+  console.log(`  channel          ${fromDir ? "agent-relay (stored payloads)" : fromFile ? "local file" : "direct-https"}`);
   console.log("  request:");
   for (const line of plan.request.split("\n")) console.log(`    ${line}`);
 
@@ -98,8 +102,17 @@ async function main(): Promise<void> {
         license: plan.license,
         licenseUrl: plan.licenseUrl,
         retrievedAt,
+        retrievalChannel: result.retrievalChannel,
+        // Stated in the manifest rather than left to be inferred: a
+        // relayed hash is a hash of what we stored, and a reader who
+        // assumes otherwise would be wrong in a way that matters.
+        rawSha256Caveat:
+          result.retrievalChannel === "agent-relay"
+            ? "rawSha256 hashes the STORED payloads, not verified publisher wire bytes. Direct egress to the publisher was blocked by environment policy; re-run with --source gleif (direct-https) from an unrestricted network for a byte-exact hash."
+            : "rawSha256 hashes the bytes received from the publisher.",
         rawSha256: result.rawSha256,
         rawBytes: result.rawBytes,
+        sourcePayloads: result.sourcePayloads,
         recordCount: result.records.length,
         recordsSha256: crypto
           .createHash("sha256")
