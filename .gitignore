@@ -99,7 +99,17 @@ next-env.d.ts
 # ---------------------------------------------------------------------------
 # Local SQLite database (runtime state, never committed)
 # ---------------------------------------------------------------------------
-/data/
+# /data/ is runtime state — SQLite databases and run artifacts — and stays
+# ignored, EXCEPT the write-once public-record store. Those are the raw
+# payloads a real collection actually received: the evidential root of every
+# derived record, the bytes the manifest hashes, and without them a pilot is
+# not reproducible off the machine that ran it. Small, CC0, immutable.
+# Written as `dir/*` rather than `dir/` because git will not descend into an
+# excluded directory, so a negation under `/data/` alone can never match.
+/data/*
+!/data/public/
+/data/public/*
+!/data/public/raw/
 *.sqlite
 *.sqlite3
 

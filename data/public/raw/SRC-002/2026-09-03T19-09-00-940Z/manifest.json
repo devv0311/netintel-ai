@@ -1,0 +1,50 @@
+{
+  "sourceId": "SRC-002",
+  "endpoint": "https://api.gleif.org/api/v1/lei-records",
+  "request": "filter[entity.jurisdiction]=IN&page[size]=100",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+  "retrievedAt": "2026-09-03T19:09:00.940Z",
+  "retrievalChannel": "agent-relay",
+  "rawSha256Caveat": "rawSha256 hashes the STORED payloads, not verified publisher wire bytes. Direct egress to the publisher was blocked by environment policy; re-run with --source gleif (direct-https) from an unrestricted network for a byte-exact hash.",
+  "rawSha256": "51bd7cd1e4c6aa25871940c2442b20f7a61d5dbe78fd4fb8726dda849e423e63",
+  "rawBytes": 67273,
+  "sourcePayloads": [
+    {
+      "file": "payload-01-jurisdiction-IN-page1.json",
+      "sha256": "05966f3fa13a2cf6651862c14a21d3c8e9ad83951c12d54d22bfa090f138118c",
+      "bytes": 20032,
+      "records": 8
+    },
+    {
+      "file": "payload-02-jurisdiction-IN-page2.json",
+      "sha256": "544b178029cdb4cb56da80ee31569889222884ebd46261b79b2fd59941af32fb",
+      "bytes": 20496,
+      "records": 8
+    },
+    {
+      "file": "payload-03-fulltext-carnelian-page1.json",
+      "sha256": "b067234a098c1d4c966fa162af2c4c53a72de58a4efafc68cd7ec35eed382377",
+      "bytes": 22748,
+      "records": 7
+    },
+    {
+      "file": "payload-04-fund-manager-relationship-9845003F0DE4FCF83E11.json",
+      "sha256": "744c1246804bf80763a86d717930bb3ec183158593bcd029d6b8caaaaad3b7fd",
+      "bytes": 1111,
+      "records": 0
+    },
+    {
+      "file": "payload-05-lei-335800VMJECJV6ML2349.json",
+      "sha256": "a984096c0df8685d2a608dd83cc66bce05c8212173e9bf5a0a20d0b8d7cb1211",
+      "bytes": 2886,
+      "records": 1
+    }
+  ],
+  "recordCount": 24,
+  "recordsSha256": "86a86aae2709fe38a58d2b631d86cc5403ba51a80e0cc97707c1b7c05fe14921",
+  "warnings": [
+    "Transformed 5 stored payload(s) from data/public/raw/SRC-002/2026-09-03T19-05-00-000Z via the agent-relay channel; no socket was opened by this process, and rawSha256 hashes the STORED bytes, not verified wire bytes.",
+    "Duplicate LEI 9845003F0DE4FCF83E11 in payload-03-fulltext-carnelian-page1.json; kept the first occurrence."
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "corpus": {
+    "name": "gleif-in-pilot",
+    "version": "1.0.0",
+    "seed": null,
+    "generatedAt": "2026-09-03T19:09:00.940Z",
+    "description": "REAL collected public-register records — GLEIF LEI (SRC-002), licence CC0 1.0. Retrieval channel: agent-relay. Built from data/public/raw/SRC-002/2026-09-03T19-09-00-940Z (rawSha256 51bd7cd1e4c6aa25871940c2442b20f7a61d5dbe78fd4fb8726dda849e423e63). NOT synthetic, and never to be mixed with the Operation DarkNet Delhi evaluation corpus."
+  },
+  "investigation": {
+    "name": "GLEIF real-data pilot",
+    "status": "in_progress"
+  },
+  "evidenceSources": [
+    {
+      "key": "gleif",
+      "label": "GLEIF LEI records (real, CC0 1.0)",
+      "sourceType": "structured_dataset"
+    }
+  ],
+  "evidenceItems": [
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500M4P4677ADBCD47",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500M4P4677ADBCD47",
+        "registry": "gleif",
+        "registryRecordId": "984500M4P4677ADBCD47",
+        "subjectKind": "organisation",
+        "name": "BANAS HOSPITAL",
+        "aliases": [
+          "SHRI PRAKASHCHAND RARAMANLAL PINDARIA"
+        ],
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500M4P4677ADBCD47"
+          }
+        ],
+        "observedAt": "2026-09-02T17:13:36.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500M4P4677ADBCD47"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500378954ZDP58611",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500378954ZDP58611",
+        "registry": "gleif",
+        "registryRecordId": "984500378954ZDP58611",
+        "subjectKind": "organisation",
+        "name": "SURINDER KUMAR JINDAL",
+        "aliases": [
+          "GANPAT RAI SURINDER KUMAR"
+        ],
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500378954ZDP58611"
+          }
+        ],
+        "observedAt": "2026-09-02T15:55:10.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500378954ZDP58611"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500YC9ECC14B4D243",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500YC9ECC14B4D243",
+        "registry": "gleif",
+        "registryRecordId": "984500YC9ECC14B4D243",
+        "subjectKind": "organisation",
+        "name": "MATRUBHUMI SEVA PRATHISHTANA",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500YC9ECC14B4D243"
+          }
+        ],
+        "observedAt": "2026-09-02T14:58:04.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500YC9ECC14B4D243"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:648800GSJTCJJ0YBBW55",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:648800GSJTCJJ0YBBW55",
+        "registry": "gleif",
+        "registryRecordId": "648800GSJTCJJ0YBBW55",
+        "subjectKind": "organisation",
+        "name": "RAMESH CHANDRA GUPTA",
+        "aliases": [
+          "SHREE GANESH GEMS AND JEWELLERS"
+        ],
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "648800GSJTCJJ0YBBW55"
+          }
+        ],
+        "observedAt": "2026-09-02T14:42:56.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/648800GSJTCJJ0YBBW55"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500FF2GA8B39D1Y57",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500FF2GA8B39D1Y57",
+        "registry": "gleif",
+        "registryRecordId": "984500FF2GA8B39D1Y57",
+        "subjectKind": "organisation",
+        "name": "SAM BHATIA",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500FF2GA8B39D1Y57"
+          }
+        ],
+        "observedAt": "2026-09-02T14:41:41.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500FF2GA8B39D1Y57"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:98450054C59CF479AB44",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:98450054C59CF479AB44",
+        "registry": "gleif",
+        "registryRecordId": "98450054C59CF479AB44",
+        "subjectKind": "organisation",
+        "name": "TUNIP INFO SERVICES PRIVATE LIMITED",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "98450054C59CF479AB44"
+          }
+        ],
+        "observedAt": "2026-09-02T14:39:18.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/98450054C59CF479AB44"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500D410DC17BD9B06",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500D410DC17BD9B06",
+        "registry": "gleif",
+        "registryRecordId": "984500D410DC17BD9B06",
+        "subjectKind": "organisation",
+        "name": "MS MANTU BARUAH CONSTRUCTIONS",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500D410DC17BD9B06"
+          }
+        ],
+        "observedAt": "2026-09-02T14:32:09.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500D410DC17BD9B06"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500EF0BC5AEEBEF41",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500EF0BC5AEEBEF41",
+        "registry": "gleif",
+        "registryRecordId": "984500EF0BC5AEEBEF41",
+        "subjectKind": "organisation",
+        "name": "SUSHANTA SINGHA",
+        "aliases": [
+          "JOYRAM FAST FOOD CENTRE"
+        ],
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500EF0BC5AEEBEF41"
+          }
+        ],
+        "observedAt": "2026-09-02T14:30:46.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500EF0BC5AEEBEF41"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:648800RY8EXS277D7B30",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:648800RY8EXS277D7B30",
+        "registry": "gleif",
+        "registryRecordId": "648800RY8EXS277D7B30",
+        "subjectKind": "organisation",
+        "name": "BASANT SHANTILAL JAIN",
+        "aliases": [
+          "NAVKAR ENTERPRISE"
+        ],
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "648800RY8EXS277D7B30"
+          }
+        ],
+        "observedAt": "2026-09-02T14:28:15.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/648800RY8EXS277D7B30"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:648800TY2NWESVMTSF23",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:648800TY2NWESVMTSF23",
+        "registry": "gleif",
+        "registryRecordId": "648800TY2NWESVMTSF23",
+        "subjectKind": "organisation",
+        "name": "MAHESH ENTERPRISES",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "648800TY2NWESVMTSF23"
+          }
+        ],
+        "observedAt": "2026-09-02T14:22:38.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/648800TY2NWESVMTSF23"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:648800TTXHRVHM2BRR73",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:648800TTXHRVHM2BRR73",
+        "registry": "gleif",
+        "registryRecordId": "648800TTXHRVHM2BRR73",
+        "subjectKind": "organisation",
+        "name": "TIRUPPUR MITHRA THREADS PRIVATE LIMITED",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "648800TTXHRVHM2BRR73"
+          }
+        ],
+        "observedAt": "2026-09-02T14:18:30.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/648800TTXHRVHM2BRR73"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:648800H10LHU0FQH1T95",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:648800H10LHU0FQH1T95",
+        "registry": "gleif",
+        "registryRecordId": "648800H10LHU0FQH1T95",
+        "subjectKind": "organisation",
+        "name": "Alathur Nanjundaswamy Shivakumar",
+        "aliases": [
+          "Sri Mahadeshwara Concrete Bricks"
+        ],
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "648800H10LHU0FQH1T95"
+          }
+        ],
+        "observedAt": "2026-09-02T14:11:47.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/648800H10LHU0FQH1T95"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:648800IUB5PQP8WII679",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:648800IUB5PQP8WII679",
+        "registry": "gleif",
+        "registryRecordId": "648800IUB5PQP8WII679",
+        "subjectKind": "organisation",
+        "name": "ITAA POLYMERS LLP",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "648800IUB5PQP8WII679"
+          }
+        ],
+        "observedAt": "2026-09-02T14:07:49.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/648800IUB5PQP8WII679"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:648800NX55IJ2QPZAA32",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:648800NX55IJ2QPZAA32",
+        "registry": "gleif",
+        "registryRecordId": "648800NX55IJ2QPZAA32",
+        "subjectKind": "organisation",
+        "name": "The South Indian Education Society",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "648800NX55IJ2QPZAA32"
+          }
+        ],
+        "observedAt": "2026-09-02T14:04:20.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/648800NX55IJ2QPZAA32"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500AD4FBCC909FE53",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500AD4FBCC909FE53",
+        "registry": "gleif",
+        "registryRecordId": "984500AD4FBCC909FE53",
+        "subjectKind": "organisation",
+        "name": "PANKAJ KUMAR GUPTA",
+        "aliases": [
+          "M/S A.S.DRUG AGENCIES"
+        ],
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500AD4FBCC909FE53"
+          }
+        ],
+        "observedAt": "2026-09-02T14:02:27.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500AD4FBCC909FE53"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:9845003F0DE4FCF83E11",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:9845003F0DE4FCF83E11",
+        "registry": "gleif",
+        "registryRecordId": "9845003F0DE4FCF83E11",
+        "subjectKind": "organisation",
+        "name": "Carnelian Bharat AmritKaal Fund 3",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "9845003F0DE4FCF83E11"
+          }
+        ],
+        "relations": [
+          {
+            "predicate": "is_fund_managed_by",
+            "targetRegistryRecordId": "335800VMJECJV6ML2349"
+          }
+        ],
+        "observedAt": "2026-09-02T14:01:03.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/9845003F0DE4FCF83E11"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:213800SQLT6Z7Q1MVM79",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:213800SQLT6Z7Q1MVM79",
+        "registry": "gleif",
+        "registryRecordId": "213800SQLT6Z7Q1MVM79",
+        "subjectKind": "organisation",
+        "name": "THE C C S PENSION SCHEME",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "213800SQLT6Z7Q1MVM79"
+          }
+        ],
+        "observedAt": "2019-01-05T07:01:18.000Z",
+        "jurisdiction": "GB",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800SQLT6Z7Q1MVM79"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:254900FGUM5KBRN4D904",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:254900FGUM5KBRN4D904",
+        "registry": "gleif",
+        "registryRecordId": "254900FGUM5KBRN4D904",
+        "subjectKind": "organisation",
+        "name": "Carnelian Energy Capital IV, L.P.",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "254900FGUM5KBRN4D904"
+          }
+        ],
+        "observedAt": "2025-10-17T14:06:32.000Z",
+        "jurisdiction": "US-DE",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900FGUM5KBRN4D904"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:254900RR3G0TQMZ1Y757",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:254900RR3G0TQMZ1Y757",
+        "registry": "gleif",
+        "registryRecordId": "254900RR3G0TQMZ1Y757",
+        "subjectKind": "organisation",
+        "name": "CARNELIAN ENERGY CAPITAL V, L.P.",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "254900RR3G0TQMZ1Y757"
+          }
+        ],
+        "observedAt": "2025-10-24T10:21:01.000Z",
+        "jurisdiction": "US",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900RR3G0TQMZ1Y757"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500D3CAD0A887T625",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500D3CAD0A887T625",
+        "registry": "gleif",
+        "registryRecordId": "984500D3CAD0A887T625",
+        "subjectKind": "organisation",
+        "name": "CARNELIAN PRIVATE GROWTH AND INNOVATION FUND",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500D3CAD0A887T625"
+          }
+        ],
+        "observedAt": "2026-08-27T13:11:16.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500D3CAD0A887T625"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:984500WC07D01D074423",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:984500WC07D01D074423",
+        "registry": "gleif",
+        "registryRecordId": "984500WC07D01D074423",
+        "subjectKind": "organisation",
+        "name": "CARNELIAN MUTUAL FUND",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "984500WC07D01D074423"
+          }
+        ],
+        "observedAt": "2026-07-25T11:58:38.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500WC07D01D074423"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:98450035H491F02C9B76",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:98450035H491F02C9B76",
+        "registry": "gleif",
+        "registryRecordId": "98450035H491F02C9B76",
+        "subjectKind": "organisation",
+        "name": "Carnelian Structural Shifts Fund Series II",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "98450035H491F02C9B76"
+          }
+        ],
+        "observedAt": "2026-09-02T13:01:10.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/98450035H491F02C9B76"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:9845000E8A9B9N889F24",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:9845000E8A9B9N889F24",
+        "registry": "gleif",
+        "registryRecordId": "9845000E8A9B9N889F24",
+        "subjectKind": "organisation",
+        "name": "Carnelian Alternative Investment Trust",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "9845000E8A9B9N889F24"
+          }
+        ],
+        "observedAt": "2026-09-01T21:41:51.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/9845000E8A9B9N889F24"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:335800VMJECJV6ML2349",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:335800VMJECJV6ML2349",
+        "registry": "gleif",
+        "registryRecordId": "335800VMJECJV6ML2349",
+        "subjectKind": "organisation",
+        "name": "CARNELIAN ASSET MANAGEMENT & ADVISORS PRIVATE LIMITED",
+        "identifiers": [
+          {
+            "scheme": "LEI",
+            "value": "335800VMJECJV6ML2349"
+          }
+        ],
+        "observedAt": "2026-01-16T05:03:26.000Z",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "retrievedAt": "2026-09-03T19:09:00.931Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/335800VMJECJV6ML2349"
+      }
+    }
+  ],
+  "locations": [],
+  "communicationEvents": [],
+  "financialTransactions": []
+}

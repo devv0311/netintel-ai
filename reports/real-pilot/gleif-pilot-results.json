@@ -1,0 +1,75 @@
+{
+  "source": "SRC-002",
+  "license": "CC0 1.0",
+  "retrievalChannel": "agent-relay",
+  "rawSha256": "51bd7cd1e4c6aa25871940c2442b20f7a61d5dbe78fd4fb8726dda849e423e63",
+  "corpus": "evidence/public-pilot/gleif-in-pilot.corpus.json",
+  "ranAt": "2026-09-03T19:14:25.093Z",
+  "dataClass": "real-collected-public-record",
+  "counts": {
+    "evidenceItems": 24,
+    "extractedRecords": 272,
+    "subjectMentions": 24,
+    "entities": 24,
+    "aliases": 7,
+    "relationships": 0,
+    "graphStatus": "synthesized",
+    "graphCounts": {
+      "entitiesConsidered": 24,
+      "extractedRecordsConsidered": 272,
+      "nodesByKind": {
+        "organisation": 24
+      },
+      "edgesByType": {}
+    }
+  },
+  "metrics": {
+    "subjectsRecoveredWhole": {
+      "n": 24,
+      "d": 24,
+      "pct": "100.0%"
+    },
+    "falseMergeRate": {
+      "n": 0,
+      "d": 24,
+      "pct": "0.0%"
+    },
+    "fragmentationRate": {
+      "n": 0,
+      "d": 24,
+      "pct": "0.0%"
+    },
+    "unresolvedOrAmbiguous": {
+      "n": 0,
+      "d": 24,
+      "pct": "0.0%"
+    },
+    "aliasAttachment": {
+      "n": 7,
+      "d": 7,
+      "pct": "100.0%"
+    },
+    "provenanceCompleteness": {
+      "n": 327,
+      "d": 327,
+      "pct": "100.0%"
+    }
+  },
+  "resolutionTypeHistogram": {
+    "new_entity": 24
+  },
+  "publisherRelations": {
+    "stated": 1,
+    "relationshipTypesInGraph": []
+  },
+  "observations": {
+    "exactNameCollisions": [],
+    "falseMerges": [],
+    "fragmented": []
+  },
+  "notTestableWithThisData": [
+    "Cross-source co-reference: only ONE register was collected, so no subject appears in two independently-published records. This is the measurement entity resolution most needs and this pilot cannot supply it.",
+    "Within-source co-reference: a register publishes one record per legal entity by construction, so Tier B (exact name match into a Tier A cluster) has almost nothing to act on regardless of its quality.",
+    "Name-variation recall: GLEIF states one legal name per entity. Suffix, transliteration, abbreviation and name-order variation of the SAME subject are absent from this data, so the previous synthetic morphology findings remain unvalidated against real records."
+  ]
+}

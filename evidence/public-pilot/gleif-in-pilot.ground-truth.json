@@ -1,0 +1,277 @@
+{
+  "source": "SRC-002",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+  "retrievedAt": "2026-09-03T19:09:00.940Z",
+  "retrievalChannel": "agent-relay",
+  "builtFrom": "data/public/raw/SRC-002/2026-09-03T19-09-00-940Z",
+  "rawSha256": "51bd7cd1e4c6aa25871940c2442b20f7a61d5dbe78fd4fb8726dda849e423e63",
+  "basis": "One LEI denotes exactly one legal entity (ISO 17442). Records with distinct LEIs are distinct subjects; no record in this set is a second observation of another subject.",
+  "subjectCount": 24,
+  "records": [
+    {
+      "recordRef": "gleif:984500M4P4677ADBCD47",
+      "subjectKey": "984500M4P4677ADBCD47",
+      "name": "BANAS HOSPITAL",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "SHRI PRAKASHCHAND RARAMANLAL PINDARIA"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:984500378954ZDP58611",
+      "subjectKey": "984500378954ZDP58611",
+      "name": "SURINDER KUMAR JINDAL",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "GANPAT RAI SURINDER KUMAR"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:984500YC9ECC14B4D243",
+      "subjectKey": "984500YC9ECC14B4D243",
+      "name": "MATRUBHUMI SEVA PRATHISHTANA",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:648800GSJTCJJ0YBBW55",
+      "subjectKey": "648800GSJTCJJ0YBBW55",
+      "name": "RAMESH CHANDRA GUPTA",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "SHREE GANESH GEMS AND JEWELLERS"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:984500FF2GA8B39D1Y57",
+      "subjectKey": "984500FF2GA8B39D1Y57",
+      "name": "SAM BHATIA",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:98450054C59CF479AB44",
+      "subjectKey": "98450054C59CF479AB44",
+      "name": "TUNIP INFO SERVICES PRIVATE LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:984500D410DC17BD9B06",
+      "subjectKey": "984500D410DC17BD9B06",
+      "name": "MS MANTU BARUAH CONSTRUCTIONS",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:984500EF0BC5AEEBEF41",
+      "subjectKey": "984500EF0BC5AEEBEF41",
+      "name": "SUSHANTA SINGHA",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "JOYRAM FAST FOOD CENTRE"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:648800RY8EXS277D7B30",
+      "subjectKey": "648800RY8EXS277D7B30",
+      "name": "BASANT SHANTILAL JAIN",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "NAVKAR ENTERPRISE"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:648800TY2NWESVMTSF23",
+      "subjectKey": "648800TY2NWESVMTSF23",
+      "name": "MAHESH ENTERPRISES",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:648800TTXHRVHM2BRR73",
+      "subjectKey": "648800TTXHRVHM2BRR73",
+      "name": "TIRUPPUR MITHRA THREADS PRIVATE LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:648800H10LHU0FQH1T95",
+      "subjectKey": "648800H10LHU0FQH1T95",
+      "name": "Alathur Nanjundaswamy Shivakumar",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "Sri Mahadeshwara Concrete Bricks"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:648800IUB5PQP8WII679",
+      "subjectKey": "648800IUB5PQP8WII679",
+      "name": "ITAA POLYMERS LLP",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:648800NX55IJ2QPZAA32",
+      "subjectKey": "648800NX55IJ2QPZAA32",
+      "name": "The South Indian Education Society",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:984500AD4FBCC909FE53",
+      "subjectKey": "984500AD4FBCC909FE53",
+      "name": "PANKAJ KUMAR GUPTA",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [
+        "M/S A.S.DRUG AGENCIES"
+      ],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:9845003F0DE4FCF83E11",
+      "subjectKey": "9845003F0DE4FCF83E11",
+      "name": "Carnelian Bharat AmritKaal Fund 3",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": [
+        {
+          "predicate": "is_fund_managed_by",
+          "targetRegistryRecordId": "335800VMJECJV6ML2349"
+        }
+      ]
+    },
+    {
+      "recordRef": "gleif:213800SQLT6Z7Q1MVM79",
+      "subjectKey": "213800SQLT6Z7Q1MVM79",
+      "name": "THE C C S PENSION SCHEME",
+      "subjectKind": "organisation",
+      "jurisdiction": "GB",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:254900FGUM5KBRN4D904",
+      "subjectKey": "254900FGUM5KBRN4D904",
+      "name": "Carnelian Energy Capital IV, L.P.",
+      "subjectKind": "organisation",
+      "jurisdiction": "US-DE",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:254900RR3G0TQMZ1Y757",
+      "subjectKey": "254900RR3G0TQMZ1Y757",
+      "name": "CARNELIAN ENERGY CAPITAL V, L.P.",
+      "subjectKind": "organisation",
+      "jurisdiction": "US",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:984500D3CAD0A887T625",
+      "subjectKey": "984500D3CAD0A887T625",
+      "name": "CARNELIAN PRIVATE GROWTH AND INNOVATION FUND",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:984500WC07D01D074423",
+      "subjectKey": "984500WC07D01D074423",
+      "name": "CARNELIAN MUTUAL FUND",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:98450035H491F02C9B76",
+      "subjectKey": "98450035H491F02C9B76",
+      "name": "Carnelian Structural Shifts Fund Series II",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:9845000E8A9B9N889F24",
+      "subjectKey": "9845000E8A9B9N889F24",
+      "name": "Carnelian Alternative Investment Trust",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "recordRef": "gleif:335800VMJECJV6ML2349",
+      "subjectKey": "335800VMJECJV6ML2349",
+      "name": "CARNELIAN ASSET MANAGEMENT & ADVISORS PRIVATE LIMITED",
+      "subjectKind": "organisation",
+      "jurisdiction": "IN",
+      "status": "ACTIVE",
+      "aliases": [],
+      "relations": []
+    }
+  ],
+  "observations": {
+    "exactNameCollisions": [],
+    "recordsWithAliases": 7,
+    "recordsWithRelations": 1
+  }
+}
