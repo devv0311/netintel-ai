@@ -101,7 +101,7 @@ The synthetic run was re-executed specifically to confirm the second row, becaus
 change that moved an existing evaluation number would have been out of scope for this
 milestone regardless of its merit.
 
-### 3.2 Real ownership relationships do not reach the graph — NOT FIXED, needs a decision
+### 3.2 Real registry relationships do not reach the graph — PRESERVED, needs a modelling decision
 
 GLEIF's Level 2 record states that LEI `9845003F0DE4FCF83E11` (Carnelian Bharat
 AmritKaal Fund 3) `IS_FUND-MANAGED_BY` LEI `335800VMJECJV6ML2349` (Carnelian Asset
@@ -109,21 +109,57 @@ Management & Advisors Private Limited). Both entities are in the corpus. The rel
 correctly extracted and persisted as a `relationship_mention`, and then **produces no
 graph edge**: `edgesByType: {}`.
 
-Two independent causes:
+**The relation is not lost.** An earlier draft of this document said it "falls through
+silently"; that was wrong on both counts and is corrected here. It is persisted as an
+extracted `relationship_mention` with complete provenance —
 
-1. `graph/build.ts` maps `relationship_mention` → edge through `PERSON_ANCHORED` and a
-   handful of named types. `registry_relation` matches none of them and falls through
-   silently.
-2. `RELATIONSHIP_TYPES` is `communication · financial · co_location · family ·
-   associate · ownership · other`. Fund management is not ownership, and mapping it
-   there would assert a beneficial-ownership claim the publisher did not make.
+```
+data:       { factType: "registry_relation", relationshipType: "is_fund_managed_by",
+              subject: "9845003F0DE4FCF83E11", observedValue: "335800VMJECJV6ML2349" }
+provenance: location "gleif:9845003F0DE4FCF83E11#relations[0]",
+            method   "extraction:field-read:public_record"
+```
 
-This is deliberately left unfixed. It is not a bug with an obvious one-line answer; it
-is a modelling question — whether registry-stated corporate relations get a
-first-class relationship type, or are carried as `other` with the publisher's predicate
-in the attributes — and `rel.precision` / `rel.recall` are live evaluation metrics, so
-changing edge construction changes existing evaluation semantics. That needs a decision,
-not an improvisation.
+— and graph synthesis emits an explicit warning rather than discarding it quietly:
+`Unsupported relationship_mention type "is_fund_managed_by"; skipped.` What is missing
+is the edge, not the fact. The pilot now reports this directly
+(`publisherRelations.unmappedByGraph`) so it is a first-class result rather than
+something a reader has to go looking for.
+
+The cause is that `RELATIONSHIP_TYPES` is `communication · financial · co_location ·
+family · associate · ownership · other`, and none of those is honest here. Fund
+management is not ownership: folding it into `ownership` would assert a
+beneficial-ownership claim GLEIF did not make, about real named companies.
+
+**The decision required (yours, not mine):**
+
+1. Give registry-stated corporate relations a first-class relationship type — clean in
+   the graph, but it widens `RELATIONSHIP_TYPES`, which every consumer switches on; or
+2. carry them as `other` with the publisher's predicate preserved in the attributes —
+   no schema widening, at the cost of a less expressive graph; or
+3. leave them as facts only, queryable but not traversable, until a second publisher
+   makes corporate structure worth traversing.
+
+This was not decided unilaterally because `rel.precision` and `rel.recall` are live
+evaluation metrics: any of the first two options changes edge construction and therefore
+changes existing evaluation semantics.
+
+### 3.3 Graph warnings were 96% noise — FIXED
+
+The one warning above was arriving as 1 line in 25. The other 24 were
+`Unsupported relationship_mention type "has_identifier"` — one per record.
+
+`has_identifier` is emitted only by `extractPublicRecord` and consumed only by
+resolution (`resolve.ts:97`), where it is the Tier-A matching key. It is a deliberate
+non-edge, exactly like `alias_of`, which `build.ts` already skipped explicitly. Calling
+it "unsupported" implied a gap that does not exist while burying the one that does.
+
+Fixed by adding `has_identifier` to the explicit skip line beside `alias_of`. No
+relationship type was invented, no edge construction changed, nothing mapped to
+`ownership`. Graph warnings on the real corpus: **25 → 1**, and the one that remains is
+§3.2. The synthetic corpus contains no `public_record` items and therefore emits no
+`has_identifier` facts, so DarkNet Delhi evaluation is untouched — re-measured and
+confirmed identical across all 21 metrics.
 
 ## 4. What this pilot could not test
 
