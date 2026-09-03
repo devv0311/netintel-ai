@@ -146,3 +146,37 @@ No data was downloaded. No collector was written or run. No repository was modif
 or pushed. No dataset was sampled beyond reading publicly documented licensing and schema pages.
 The only network activity was fetching license, terms-of-use and repository documentation pages
 for the assessments recorded here.
+
+---
+
+## Gate decision — 2026-09-03 (appended, does not rewrite the above)
+
+The gate above recorded `PILOT COLLECTION APPROVED: NO`. The project owner has since
+authorised a pilot **narrowly**, and this section records exactly what was and was not
+authorised so the original restriction is not quietly treated as lifted.
+
+**Authorised:** a tiny, bounded pilot collection from SRC-001 (Wikidata) and SRC-002
+(GLEIF) only — the two Tier-A CC0 sources — routed through the existing
+`public_record` boundary, for the purpose of measuring the current resolver against
+real records.
+
+**Not authorised, and unchanged:** large-scale collection (still requires a separate,
+later gate), every source outside those two, and any ML training.
+
+Status of the gate's own conditions, for this pilot:
+
+| Condition | Status |
+|---|---|
+| Gate reviewed and signed by the project owner | Met, scoped to SRC-001/SRC-002 as above |
+| Q1 commercial posture answered in writing | **Still open** — but it gates OpenSanctions (CC BY-NC), not CC0 sources. Not blocking here. |
+| Collector enforces registry status gating in code | Met (P6.5 `registry.ts`; unapproved `source_id` refused before a socket opens) |
+| `--dry-run` produced and reviewed for every pilot source | Met for GLEIF; N/A for Wikidata (never reached) |
+| Raw-data immutability, write-once and hash-verified | Met — `data/public/raw/`, per-payload sha256 in `manifest.json` |
+| SEC EDGAR rate limiting / GDELT dereferencing / court-judgment privacy policy | N/A — none of those sources were touched |
+
+**Outcome:** GLEIF collected (24 records). Wikidata **not** collected — access blocked
+on every official endpoint, which is a stop condition, not an obstacle to route around.
+See `docs/data-research/network-access-diagnosis.md`.
+
+Q1 remains open and still blocks SRC-012.
+
