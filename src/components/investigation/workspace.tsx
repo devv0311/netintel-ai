@@ -19,6 +19,7 @@ import type { ExtractionState } from "@/lib/extraction/types";
 import type { ResolutionState } from "@/lib/resolution/types";
 import type { GraphState } from "@/lib/graph/types";
 import type { AnalyticsState } from "@/lib/analytics/types";
+import type { CorroborationState } from "@/lib/corroboration/types";
 
 import { StageList } from "./stage-list";
 import { SummaryPanel } from "./summary-panel";
@@ -57,16 +58,20 @@ export function InvestigationWorkspace({
   initialResolutionState,
   initialGraphState,
   initialAnalyticsState,
+  initialCorroborationState,
   onGraphStateChange,
   onAnalyticsStateChange,
+  onCorroborationStateChange,
 }: {
   initialState: InvestigationState;
   initialExtractionState: ExtractionState;
   initialResolutionState: ResolutionState;
   initialGraphState: GraphState;
   initialAnalyticsState: AnalyticsState;
+  initialCorroborationState: CorroborationState;
   onGraphStateChange?: (state: GraphState) => void;
   onAnalyticsStateChange?: (state: AnalyticsState) => void;
+  onCorroborationStateChange?: (state: CorroborationState) => void;
 }) {
   const router = useRouter();
   const serverSummary =
@@ -250,8 +255,10 @@ export function InvestigationWorkspace({
             initialResolutionState={initialResolutionState}
             initialGraphState={initialGraphState}
             initialAnalyticsState={initialAnalyticsState}
+            initialCorroborationState={initialCorroborationState}
             onGraphStateChange={onGraphStateChange}
             onAnalyticsStateChange={onAnalyticsStateChange}
+            onCorroborationStateChange={onCorroborationStateChange}
           />
         </div>
       );

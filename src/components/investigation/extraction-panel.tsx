@@ -18,6 +18,7 @@ import type {
 import type { ResolutionState } from "@/lib/resolution/types";
 import type { GraphState } from "@/lib/graph/types";
 import type { AnalyticsState } from "@/lib/analytics/types";
+import type { CorroborationState } from "@/lib/corroboration/types";
 
 import { ExtractionStageList } from "./extraction-stage-list";
 import { ExtractionSummaryPanel } from "./extraction-summary";
@@ -76,15 +77,19 @@ export function ExtractionPanel({
   initialResolutionState,
   initialGraphState,
   initialAnalyticsState,
+  initialCorroborationState,
   onGraphStateChange,
   onAnalyticsStateChange,
+  onCorroborationStateChange,
 }: {
   initialState: ExtractionState;
   initialResolutionState: ResolutionState;
   initialGraphState: GraphState;
   initialAnalyticsState: AnalyticsState;
+  initialCorroborationState: CorroborationState;
   onGraphStateChange?: (state: GraphState) => void;
   onAnalyticsStateChange?: (state: AnalyticsState) => void;
+  onCorroborationStateChange?: (state: CorroborationState) => void;
 }) {
   const router = useRouter();
   const serverSummary = initialState.status === "extracted" ? initialState.summary : null;
@@ -251,8 +256,10 @@ export function ExtractionPanel({
           initialState={initialResolutionState}
           initialGraphState={initialGraphState}
           initialAnalyticsState={initialAnalyticsState}
+          initialCorroborationState={initialCorroborationState}
           onGraphStateChange={onGraphStateChange}
           onAnalyticsStateChange={onAnalyticsStateChange}
+          onCorroborationStateChange={onCorroborationStateChange}
         />
       </div>
     );

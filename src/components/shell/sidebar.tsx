@@ -6,13 +6,14 @@ import {
   Clock,
   Map as MapIcon,
   BarChart3,
+  ShieldCheck,
   MessageSquareText,
   FileText,
 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
-export type NavView = "evidence" | "graph" | "analytics";
+export type NavView = "evidence" | "graph" | "analytics" | "corroboration";
 
 interface NavItem {
   icon: typeof FolderOpen;
@@ -40,11 +41,13 @@ export function Sidebar({
   activeView,
   graphEnabled,
   analyticsEnabled,
+  corroborationEnabled,
   onNavigate,
 }: {
   activeView: NavView;
   graphEnabled: boolean;
   analyticsEnabled: boolean;
+  corroborationEnabled: boolean;
   onNavigate: (view: NavView) => void;
 }) {
   const sections: NavSection[] = [
@@ -59,6 +62,7 @@ export function Sidebar({
         { icon: Clock, label: "Timeline", enabled: false },
         { icon: MapIcon, label: "Map", enabled: false },
         { icon: BarChart3, label: "Analytics", view: "analytics", enabled: analyticsEnabled },
+        { icon: ShieldCheck, label: "Corroboration", view: "corroboration", enabled: corroborationEnabled },
       ],
     },
     {

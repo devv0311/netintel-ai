@@ -14,9 +14,12 @@ import type {
   StageReport,
 } from "@/lib/analytics/types";
 
+import type { CorroborationState } from "@/lib/corroboration/types";
+
 import { AnalyticsStageList } from "./analytics-stage-list";
 import { AnalyticsSummaryPanel } from "./analytics-summary";
 import { AnalyticsErrorView } from "./analytics-error";
+import { CorroborationPanel } from "./corroboration-panel";
 
 type Phase = "idle" | "running" | "done" | "error";
 
@@ -58,10 +61,14 @@ function summaryFromResult(result: AnalyticsResult | null): AnalyticsSummary | n
  */
 export function AnalyticsPanel({
   initialState,
+  initialCorroborationState,
   onAnalyticsStateChange,
+  onCorroborationStateChange,
 }: {
   initialState: AnalyticsState;
+  initialCorroborationState: CorroborationState;
   onAnalyticsStateChange?: (state: AnalyticsState) => void;
+  onCorroborationStateChange?: (state: CorroborationState) => void;
 }) {
   const router = useRouter();
   const serverSummary = initialState.status === "synthesized" ? initialState.summary : null;
@@ -207,6 +214,10 @@ export function AnalyticsPanel({
             Re-run analytics
           </Button>
         </div>
+        <CorroborationPanel
+          initialState={initialCorroborationState}
+          onCorroborationStateChange={onCorroborationStateChange}
+        />
       </div>
     );
   }

@@ -4,17 +4,19 @@ import { getExtractionState } from "@/lib/extraction/summary";
 import { getResolutionState } from "@/lib/resolution/summary";
 import { getGraphState } from "@/lib/graph/summary";
 import { getAnalyticsState } from "@/lib/analytics/summary";
+import { getCorroborationState } from "@/lib/corroboration/summary";
 
 /** DB-backed — rendered on demand, never prerendered at build time. */
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const [state, extractionState, resolutionState, graphState, analyticsState] = await Promise.all([
+  const [state, extractionState, resolutionState, graphState, analyticsState, corroborationState] = await Promise.all([
     getInvestigationState(),
     getExtractionState(),
     getResolutionState(),
     getGraphState(),
     getAnalyticsState(),
+    getCorroborationState(),
   ]);
 
   return (
@@ -24,6 +26,7 @@ export default async function Home() {
       initialResolutionState={resolutionState}
       initialGraphState={graphState}
       initialAnalyticsState={analyticsState}
+      initialCorroborationState={corroborationState}
     />
   );
 }

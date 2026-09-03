@@ -8,24 +8,26 @@ import { PipelineStatus } from "./pipeline-status";
 import { InvestigationWorkspace } from "@/components/investigation/workspace";
 import { GraphScreen } from "@/components/investigation/graph-screen";
 import { AnalyticsScreen } from "@/components/investigation/analytics-screen";
+import { CorroborationScreen } from "@/components/investigation/corroboration-screen";
 import type { InvestigationState } from "@/lib/ingestion/types";
 import type { ExtractionState } from "@/lib/extraction/types";
 import type { ResolutionState } from "@/lib/resolution/types";
 import type { GraphState } from "@/lib/graph/types";
 import type { AnalyticsState } from "@/lib/analytics/types";
+import type { CorroborationState } from "@/lib/corroboration/types";
 
 /**
  * The top-level application shell: header, sidebar navigation, and the
- * active screen. The sidebar's "Graph" entry (P5.5) and "Analytics"
- * entry (P5.6) become real, clickable navigation targets once their
- * respective synthesis succeeds, switching the main content without a
- * page reload (server state is passed in once; the success paths
- * update it live via `onGraphStateChange`/`onAnalyticsStateChange`,
+ * active screen. The sidebar's "Graph" (P5.5), "Analytics" (P5.6), and
+ * "Corroboration" (P5.7) entries become real, clickable navigation
+ * targets once their respective synthesis succeeds, switching the main
+ * content without a page reload (server state is passed in once; the
+ * success paths update it live via the `on*StateChange` callbacks,
  * mirroring how `router.refresh()` already reconciles the other
- * stages). Selecting an entity or path on the Analytics screen can
- * hand off to the Graph screen, focused on that entity's neighborhood
- * (`graphFocusNodeId`), so the two screens feel like one connected
- * investigative surface rather than two unrelated dashboards.
+ * stages). Selecting an entity or path on the Analytics or Corroboration
+ * screen can hand off to the Graph screen, focused on that entity's
+ * neighborhood (`graphFocusNodeId`), so the screens feel like one
+ * connected investigative surface rather than unrelated dashboards.
  */
 export function AppShell({
   initialState,
@@ -33,16 +35,19 @@ export function AppShell({
   initialResolutionState,
   initialGraphState,
   initialAnalyticsState,
+  initialCorroborationState,
 }: {
   initialState: InvestigationState;
   initialExtractionState: ExtractionState;
   initialResolutionState: ResolutionState;
   initialGraphState: GraphState;
   initialAnalyticsState: AnalyticsState;
+  initialCorroborationState: CorroborationState;
 }) {
   const [view, setView] = useState<NavView>("evidence");
   const [graphState, setGraphState] = useState<GraphState>(initialGraphState);
   const [analyticsState, setAnalyticsState] = useState<AnalyticsState>(initialAnalyticsState);
+  const [corroborationState, setCorroborationState] = useState<CorroborationState>(initialCorroborationState);
   const [graphFocusNodeId, setGraphFocusNodeId] = useState<string | null>(null);
 
   const viewInGraph = useCallback((entityId: string) => {
@@ -56,6 +61,7 @@ export function AppShell({
   if (initialResolutionState.status === "resolved") completedStages.push("Entity Resolution");
   if (graphState.status === "synthesized") completedStages.push("Graph Synthesis");
   if (analyticsState.status === "synthesized") completedStages.push("Analytics");
+  if (corroborationState.status === "synthesized") completedStages.push("Corroboration");
 
   return (
     <div className="flex h-dvh flex-col">
@@ -65,6 +71,7 @@ export function AppShell({
           activeView={view}
           graphEnabled={graphState.status === "synthesized"}
           analyticsEnabled={analyticsState.status === "synthesized"}
+          corroborationEnabled={corroborationState.status === "synthesized"}
           onNavigate={setView}
         />
         <main className="flex min-w-0 flex-1 flex-col gap-4 overflow-y-auto p-4">
@@ -76,8 +83,10 @@ export function AppShell({
               initialResolutionState={initialResolutionState}
               initialGraphState={graphState}
               initialAnalyticsState={analyticsState}
+              initialCorroborationState={corroborationState}
               onGraphStateChange={setGraphState}
               onAnalyticsStateChange={setAnalyticsState}
+              onCorroborationStateChange={setCorroborationState}
             />
           )}
           {view === "graph" && (
@@ -88,6 +97,9 @@ export function AppShell({
             />
           )}
           {view === "analytics" && <AnalyticsScreen initialState={analyticsState} onViewInGraph={viewInGraph} />}
+          {view === "corroboration" && (
+            <CorroborationScreen initialState={corroborationState} onViewInGraph={viewInGraph} />
+          )}
         </main>
       </div>
     </div>

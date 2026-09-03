@@ -16,6 +16,7 @@ import type {
 } from "@/lib/resolution/types";
 import type { GraphState } from "@/lib/graph/types";
 import type { AnalyticsState } from "@/lib/analytics/types";
+import type { CorroborationState } from "@/lib/corroboration/types";
 
 import { ResolutionStageList } from "./resolution-stage-list";
 import { ResolutionSummaryPanel } from "./resolution-summary";
@@ -67,14 +68,18 @@ export function ResolutionPanel({
   initialState,
   initialGraphState,
   initialAnalyticsState,
+  initialCorroborationState,
   onGraphStateChange,
   onAnalyticsStateChange,
+  onCorroborationStateChange,
 }: {
   initialState: ResolutionState;
   initialGraphState: GraphState;
   initialAnalyticsState: AnalyticsState;
+  initialCorroborationState: CorroborationState;
   onGraphStateChange?: (state: GraphState) => void;
   onAnalyticsStateChange?: (state: AnalyticsState) => void;
+  onCorroborationStateChange?: (state: CorroborationState) => void;
 }) {
   const router = useRouter();
   const serverSummary = initialState.status === "resolved" ? initialState.summary : null;
@@ -236,8 +241,10 @@ export function ResolutionPanel({
         <GraphPanel
           initialState={initialGraphState}
           initialAnalyticsState={initialAnalyticsState}
+          initialCorroborationState={initialCorroborationState}
           onGraphStateChange={onGraphStateChange}
           onAnalyticsStateChange={onAnalyticsStateChange}
+          onCorroborationStateChange={onCorroborationStateChange}
         />
       </div>
     );

@@ -5,15 +5,16 @@ import { test, expect } from "@playwright/test";
  * state: header identity, the synthetic-data safety indicator, and the
  * later-milestone navigation entries disabled — with no console errors.
  *
- * The "Graph" and "Analytics" entries are deliberately excluded from
- * the always-disabled assertion below: per P5.5/P5.6, each enables live
- * once its own synthesis has actually succeeded (docs/data/graph.md,
- * docs/data/analytics.md) — this file runs after
- * investigation-synthesis.spec.ts and investigation-topology.spec.ts in
- * the shared-DB e2e suite (all "investigation-*" files sort before
- * "shell.spec.ts" lexically), so by the time this test runs both may
- * already be enabled. The accurate enable/disable transition itself is
- * tested end to end in those two files.
+ * The "Graph", "Analytics" and "Corroboration" entries are deliberately
+ * excluded from the always-disabled assertion below: per P5.5/P5.6/P5.7,
+ * each enables live once its own synthesis has actually succeeded
+ * (docs/data/graph.md, docs/data/analytics.md, docs/data/corroboration.md)
+ * — this file runs after investigation-synthesis.spec.ts,
+ * investigation-topology.spec.ts and investigation-corroboration.spec.ts
+ * in the shared-DB e2e suite (all "investigation-*" files sort before
+ * "shell.spec.ts" lexically), so by the time this test runs all three
+ * may already be enabled. The accurate enable/disable transition itself
+ * is tested end to end in those files.
  */
 test("application shell renders with header, safety indicator and disabled future-milestone nav", async ({
   page,

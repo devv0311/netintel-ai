@@ -2,99 +2,85 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Network, Play, RefreshCw } from "lucide-react";
+import { Play, RefreshCw, ShieldCheck } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import type {
-  GraphEvent,
-  GraphResult,
-  GraphState,
-  GraphSummary,
+  CorroborationEvent,
+  CorroborationResult,
+  CorroborationState,
+  CorroborationSummary,
   StageReport,
-} from "@/lib/graph/types";
-import type { AnalyticsState } from "@/lib/analytics/types";
-import type { CorroborationState } from "@/lib/corroboration/types";
+} from "@/lib/corroboration/types";
 
-import { GraphStageList } from "./graph-stage-list";
-import { GraphSummaryPanel } from "./graph-summary";
-import { GraphErrorView } from "./graph-error";
-import { AnalyticsPanel } from "./analytics-panel";
+import { CorroborationStageList } from "./corroboration-stage-list";
+import { CorroborationSummaryPanel } from "./corroboration-summary";
+import { CorroborationErrorView } from "./corroboration-error";
 
 type Phase = "idle" | "running" | "done" | "error";
 
-const NETWORK_ERROR_RESULT: GraphResult = {
+const NETWORK_ERROR_RESULT: CorroborationResult = {
   status: "failed",
   investigationId: null,
+  graphVersion: null,
   counts: null,
   persisted: null,
   warnings: [],
   stages: [],
   error: {
     code: "INTERNAL_ERROR",
-    stage: "load_resolved_entities",
-    message: "Could not reach the graph synthesis service. Check that the app is running and try again.",
+    stage: "load_graph_state",
+    message: "Could not reach the corroboration service. Check that the app is running and try again.",
   },
   startedAt: "",
   finishedAt: "",
 };
 
 /** Builds a summary straight from the streamed result, before the server reconciliation catches up. */
-function summaryFromResult(result: GraphResult | null): GraphSummary | null {
-  if (!result || !result.counts || !result.investigationId) return null;
-  const totalEdges = Object.values(result.counts.edgesByType).reduce((a, b) => a + b, 0);
-  const totalNodes = Object.values(result.counts.nodesByKind).reduce((a, b) => a + b, 0);
+function summaryFromResult(result: CorroborationResult | null): CorroborationSummary | null {
+  if (!result || !result.counts || !result.investigationId || !result.graphVersion) return null;
   return {
     investigationId: result.investigationId,
-    synthesizedAt: result.finishedAt || null,
-    totalNodes,
-    nodesByKind: result.counts.nodesByKind,
-    totalEdges,
-    edgesByType: result.counts.edgesByType,
-    edgesByClassification: {},
+    graphVersion: result.graphVersion,
+    analyzedAt: result.finishedAt || null,
+    counts: result.counts,
   };
 }
 
 /**
- * The graph synthesis workflow — the fourth real investigation stage
- * after ingestion, extraction, and entity resolution, mirroring
- * investigation/resolution-panel.tsx. Rendered only once resolution is
- * done. Progress comes from the real newline-delimited event stream of
- * POST /api/graph. On success, calls `onGraphStateChange` so the
- * sidebar's Graph nav entry enables immediately.
+ * The spatial/temporal corroboration workflow — the sixth real
+ * investigation stage after topology analytics, mirroring
+ * investigation/analytics-panel.tsx. Rendered only once analytics is
+ * synthesized. Progress comes from the real newline-delimited event
+ * stream of POST /api/corroboration. On success, calls
+ * `onCorroborationStateChange` so the sidebar's Corroboration nav entry
+ * enables immediately.
  */
-export function GraphPanel({
+export function CorroborationPanel({
   initialState,
-  initialAnalyticsState,
-  initialCorroborationState,
-  onGraphStateChange,
-  onAnalyticsStateChange,
   onCorroborationStateChange,
 }: {
-  initialState: GraphState;
-  initialAnalyticsState: AnalyticsState;
-  initialCorroborationState: CorroborationState;
-  onGraphStateChange?: (state: GraphState) => void;
-  onAnalyticsStateChange?: (state: AnalyticsState) => void;
+  initialState: CorroborationState;
   onCorroborationStateChange?: (state: CorroborationState) => void;
 }) {
   const router = useRouter();
   const serverSummary = initialState.status === "synthesized" ? initialState.summary : null;
 
   const [phase, setPhase] = useState<Phase>(serverSummary ? "done" : "idle");
-  const [reconciledSummary, setReconciledSummary] = useState<GraphSummary | null>(null);
+  const [reconciledSummary, setReconciledSummary] = useState<CorroborationSummary | null>(null);
   const [stages, setStages] = useState<StageReport[]>([]);
   const [persistProgress, setPersistProgress] = useState<{
     label: string;
     done: number;
     total: number;
   } | null>(null);
-  const [result, setResult] = useState<GraphResult | null>(null);
+  const [result, setResult] = useState<CorroborationResult | null>(null);
   const summary = serverSummary ?? reconciledSummary ?? summaryFromResult(result);
   const runningRef = useRef(false);
 
   const dispatch = useCallback(
-    (event: GraphEvent) => {
+    (event: CorroborationEvent) => {
       if (event.type === "stage") {
         setStages((prev) => {
           const idx = prev.findIndex((s) => s.stage === event.report.stage);
@@ -113,30 +99,30 @@ export function GraphPanel({
           setPhase("done");
           router.refresh();
           const derived = summaryFromResult(event.result);
-          if (derived) onGraphStateChange?.({ status: "synthesized", summary: derived });
+          if (derived) onCorroborationStateChange?.({ status: "synthesized", summary: derived });
         }
       }
     },
-    [router, onGraphStateChange],
+    [router, onCorroborationStateChange],
   );
 
   useEffect(() => {
     if (phase !== "idle") return;
     let cancelled = false;
-    void fetch("/api/graph", { cache: "no-store" })
-      .then((r) => (r.ok ? (r.json() as Promise<GraphState>) : null))
+    void fetch("/api/corroboration", { cache: "no-store" })
+      .then((r) => (r.ok ? (r.json() as Promise<CorroborationState>) : null))
       .then((state) => {
         if (!cancelled && state && state.status === "synthesized") {
           setReconciledSummary(state.summary);
           setPhase("done");
-          onGraphStateChange?.(state);
+          onCorroborationStateChange?.(state);
         }
       })
       .catch(() => {});
     return () => {
       cancelled = true;
     };
-  }, [phase, onGraphStateChange]);
+  }, [phase, onCorroborationStateChange]);
 
   const start = useCallback(async () => {
     if (runningRef.current) return;
@@ -146,8 +132,8 @@ export function GraphPanel({
     setPersistProgress(null);
     setResult(null);
     try {
-      const res = await fetch("/api/graph", { method: "POST" });
-      if (!res.ok || !res.body) throw new Error("graph synthesis stream unavailable");
+      const res = await fetch("/api/corroboration", { method: "POST" });
+      if (!res.ok || !res.body) throw new Error("corroboration stream unavailable");
 
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
@@ -160,12 +146,12 @@ export function GraphPanel({
         while (newline >= 0) {
           const line = buffer.slice(0, newline).trim();
           buffer = buffer.slice(newline + 1);
-          if (line) dispatch(JSON.parse(line) as GraphEvent);
+          if (line) dispatch(JSON.parse(line) as CorroborationEvent);
           newline = buffer.indexOf("\n");
         }
       }
       const tail = buffer.trim();
-      if (tail) dispatch(JSON.parse(tail) as GraphEvent);
+      if (tail) dispatch(JSON.parse(tail) as CorroborationEvent);
     } catch {
       setResult(NETWORK_ERROR_RESULT);
       setPhase("error");
@@ -179,16 +165,16 @@ export function GraphPanel({
   if (phase === "error" && result?.error) {
     return (
       <div className="flex flex-col gap-4">
-        <GraphErrorView error={result.error} />
+        <CorroborationErrorView error={result.error} />
         {result.stages.length > 0 && (
           <Card>
-            <GraphStageList stages={result.stages} persistProgress={null} />
+            <CorroborationStageList stages={result.stages} persistProgress={null} />
           </Card>
         )}
         <div>
           <Button onClick={start} className="gap-2">
             <RefreshCw className="size-4" aria-hidden />
-            Retry graph synthesis
+            Retry corroboration
           </Button>
         </div>
       </div>
@@ -199,9 +185,9 @@ export function GraphPanel({
     return (
       <Card>
         <div className="flex items-center gap-2">
-          <span className="text-sm font-semibold">Synthesizing graph…</span>
+          <span className="text-sm font-semibold">Computing spatial/temporal corroboration…</span>
         </div>
-        <GraphStageList stages={stages} persistProgress={persistProgress} />
+        <CorroborationStageList stages={stages} persistProgress={persistProgress} />
       </Card>
     );
   }
@@ -209,50 +195,47 @@ export function GraphPanel({
   if (phase === "done" && summary) {
     const note =
       result?.status === "already_synthesized"
-        ? "Graph synthesis already ran for this evidence — no rows were changed."
+        ? "Corroboration already ran for this graph — no findings were changed."
         : result?.persisted
-          ? `${result.persisted.relationshipsCreated} relationships written, ${result.persisted.relationshipsSkipped} already present.`
+          ? `${result.persisted.findingsCreated} findings written, ${result.persisted.findingsSkipped} already present.`
           : undefined;
     return (
       <div className="flex flex-col gap-4">
-        <GraphSummaryPanel summary={summary} note={note} />
+        <CorroborationSummaryPanel summary={summary} note={note} />
         <div>
-          <Button variant="outline" onClick={start} className="gap-2" data-testid="re-synthesize-graph">
+          <Button variant="outline" onClick={start} className="gap-2" data-testid="re-synthesize-corroboration">
             <RefreshCw className="size-4" aria-hidden />
-            Re-run graph synthesis
+            Re-run corroboration
           </Button>
         </div>
-        <AnalyticsPanel
-          initialState={initialAnalyticsState}
-          initialCorroborationState={initialCorroborationState}
-          onAnalyticsStateChange={onAnalyticsStateChange}
-          onCorroborationStateChange={onCorroborationStateChange}
-        />
       </div>
     );
   }
 
-  // idle — graph synthesis available, not yet run
+  // idle — corroboration available, not yet run
   return (
     <Card className="gap-3">
       <div className="flex items-start gap-2.5">
-        <Network className="mt-0.5 size-5 shrink-0 text-accent" aria-hidden />
+        <ShieldCheck className="mt-0.5 size-5 shrink-0 text-accent" aria-hidden />
         <div className="flex flex-col gap-0.5">
-          <span className="text-sm font-semibold" data-testid="graph-synthesis-available">
-            Synthesize the investigative graph
+          <span className="text-sm font-semibold" data-testid="corroboration-available">
+            Corroborate spatially & temporally
           </span>
           <p className="text-xs text-muted-foreground">
-            Graph synthesis maps every resolved entity and extracted fact into ownership,
-            communication, financial, and co-location edges — never inventing a relationship
-            unsupported by evidence, and never asserting a direct link where the evidence only
-            supports an indirect one. Every edge carries full provenance back to its source.
+            Corroboration compares persisted communication events and dated transactions to find where relevant
+            entities were active, which activity shared a location or a{" "}
+            <span className="font-medium text-foreground">30-minute</span> window, which entity pairs repeatedly
+            overlapped, and which placements are physically impossible. Every result is a{" "}
+            <span className="font-medium text-foreground">Corroborated Fact</span> or an{" "}
+            <span className="font-medium text-foreground">Algorithmic Signal</span> — never an observed fact, never a
+            claim of contact or causation.
           </p>
         </div>
       </div>
       <div>
-        <Button onClick={start} className="gap-2" data-testid="start-graph-synthesis">
+        <Button onClick={start} className="gap-2" data-testid="start-corroboration-synthesis">
           <Play className="size-4" aria-hidden />
-          Synthesize Graph
+          Run Corroboration
         </Button>
       </div>
     </Card>
