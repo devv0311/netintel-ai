@@ -34,12 +34,8 @@ Each implemented pipeline stage is documented here as it lands:
 - `graph.md` — graph synthesis (P5.5)
 - `analytics.md` — topology analytics (P5.6)
 - `corroboration.md` — spatial/temporal corroboration (P5.7)
+- `copilot.md` — Investigation Copilot (P5.8)
 - `dossier.md` — dossier / report generation (P5.9)
-
-Still **not** documented here: the Investigation Copilot. Its
-implementation exists in `src/lib/copilot/`, but it has no `copilot.md`,
-no tests, and no visual evidence, so it is not claimed as complete — see
-the note at the end of `docs/progress/implementation-ledger.md`.
 
 ## Invariants (prohibited at every phase)
 
