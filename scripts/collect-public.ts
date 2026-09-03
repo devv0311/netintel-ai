@@ -1,9 +1,19 @@
 /**
  * Bounded, read-only public-register collector.
  *
- *   node --import ./scripts/eval-resolve.mjs scripts/collect-public.ts --source gleif --dry-run
- *   node --import ./scripts/eval-resolve.mjs scripts/collect-public.ts --source wikidata --limit 200
- *   node --import ./scripts/eval-resolve.mjs scripts/collect-public.ts --source gleif --from-file raw.json
+ *   npm run collect:public -- --source gleif --dry-run
+ *   npm run collect:public -- --source wikidata --query indian-companies-with-lei --limit 30
+ *   npm run collect:public -- --source gleif --from-file raw.json
+ *
+ * Run it through the npm script, not bare `node`. The script passes
+ * --use-env-proxy, without which Node's fetch() ignores https_proxy /
+ * no_proxy entirely and goes AROUND an environment's egress proxy rather
+ * than through it. In a network-restricted environment that presents as a
+ * puzzling `HTTP 403 Host not in allowlist` from the adapter while curl
+ * against the identical URL returns 200 — which is exactly how this was
+ * found, after the host had already been approved. The flag makes the
+ * collector honour the environment's approved proxy; it is not a way past
+ * one. Needs Node >= 22.13.
  *
  * There is no URL flag, and there is no "all" flag. A source is named by
  * its registry id; the endpoint and the query are constants inside the
@@ -31,11 +41,16 @@ async function main(): Promise<void> {
   const limit = Number(arg("limit") ?? 100);
   const fromFile = arg("from-file");
   const fromDir = arg("from-dir");
+  // Cross-source scope. Reads LEIs out of an ALREADY-COLLECTED
+  // public-records.json from another approved source, so the linkage set
+  // is always derived from prior approved collection — never hand-typed,
+  // never a URL, never a crawl.
+  const leisFrom = arg("leis-from");
   const query = arg("query");
 
   if (source !== "gleif" && source !== "wikidata") {
     console.error(
-      "usage: --source gleif|wikidata [--limit N] [--query NAME] [--from-file PATH] [--from-dir DIR] [--dry-run]",
+      "usage: --source gleif|wikidata [--limit N] [--query NAME] [--leis-from PATH] [--from-file PATH] [--from-dir DIR] [--dry-run]",
     );
     console.error("No other source is collectable: the adapter set is the allowlist.");
     process.exitCode = 1;
@@ -47,6 +62,21 @@ async function main(): Promise<void> {
     return;
   }
 
+  let leis: string[] = [];
+  if (leisFrom) {
+    const prior = JSON.parse(fs.readFileSync(path.resolve(ROOT, leisFrom), "utf8")) as {
+      identifiers?: { scheme: string; value: string }[];
+    }[];
+    leis = [
+      ...new Set(
+        prior.flatMap((record) =>
+          (record.identifiers ?? []).filter((i) => i.scheme === "LEI").map((i) => i.value),
+        ),
+      ),
+    ];
+    console.log(`Linkage set: ${leis.length} distinct LEI(s) read from ${leisFrom}\n`);
+  }
+
   const gleif = await import("@/lib/adapters/public/gleif");
   const wikidata = await import("@/lib/adapters/public/wikidata");
   type WikidataQueryName = keyof typeof wikidata.QUERIES;
@@ -54,7 +84,7 @@ async function main(): Promise<void> {
 
   const plan =
     source === "gleif"
-      ? gleif.planGleif({ jurisdiction: arg("jurisdiction") ?? "IN" }, options)
+      ? gleif.planGleif({ jurisdiction: arg("jurisdiction") ?? "IN", leis }, options)
       : wikidata.planWikidata(
           (query ?? "indian-companies-with-lei") as WikidataQueryName,
           options,
@@ -80,7 +110,7 @@ async function main(): Promise<void> {
 
   const result =
     source === "gleif"
-      ? await gleif.collectGleif({ jurisdiction: arg("jurisdiction") ?? "IN" }, options)
+      ? await gleif.collectGleif({ jurisdiction: arg("jurisdiction") ?? "IN", leis }, options)
       : await wikidata.collectWikidata(
           (query ?? "indian-companies-with-lei") as WikidataQueryName,
           options,
@@ -89,6 +119,15 @@ async function main(): Promise<void> {
   const retrievedAt = new Date().toISOString();
   const dir = path.join(ROOT, "data", "public", "raw", plan.sourceId, retrievedAt.replace(/[:.]/g, "-"));
   fs.mkdirSync(dir, { recursive: true });
+
+  // Raw first, then derived. The raw payloads are the evidential root:
+  // they are what rawSha256 hashes and what every derived record must be
+  // auditable against.
+  const rawDir = path.join(dir, "raw");
+  fs.mkdirSync(rawDir, { recursive: true });
+  for (const payload of result.rawPayloads) {
+    fs.writeFileSync(path.join(rawDir, payload.file), payload.body);
+  }
 
   const recordsPath = path.join(dir, "public-records.json");
   fs.writeFileSync(recordsPath, JSON.stringify(result.records, null, 2) + "\n");
@@ -112,7 +151,7 @@ async function main(): Promise<void> {
             : "rawSha256 hashes the bytes received from the publisher.",
         rawSha256: result.rawSha256,
         rawBytes: result.rawBytes,
-        sourcePayloads: result.sourcePayloads,
+        sourcePayloads: result.sourcePayloads.map((p) => ({ ...p, storedAt: `raw/${p.file}` })),
         recordCount: result.records.length,
         recordsSha256: crypto
           .createHash("sha256")
@@ -126,6 +165,7 @@ async function main(): Promise<void> {
   );
 
   console.log(`\nCollected ${result.records.length} records → ${path.relative(ROOT, dir)}`);
+  console.log(`  raw payloads kept: ${result.rawPayloads.length} in ${path.relative(ROOT, rawDir)}`);
   for (const warning of result.warnings) console.log(`  warning: ${warning}`);
 }
 

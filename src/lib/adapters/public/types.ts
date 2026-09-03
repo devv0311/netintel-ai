@@ -64,6 +64,14 @@ export interface AdapterResult {
   retrievalChannel: RetrievalChannel;
   /** Per-payload provenance, one entry per raw file transformed. */
   sourcePayloads: { file: string; sha256: string; bytes: number; records: number }[];
+  /**
+   * The raw payloads themselves, so the collector can write them next to
+   * the manifest. A manifest that records a sha256 of bytes kept nowhere
+   * is not provenance: nobody can verify it, and the derived records
+   * cannot be rebuilt or audited against what the publisher actually
+   * sent. The first direct collections shipped exactly that hole.
+   */
+  rawPayloads: { file: string; body: string }[];
   warnings: string[];
 }
 

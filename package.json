@@ -16,7 +16,7 @@
     "db:generate": "drizzle-kit generate",
     "corpus:generate": "node --import ./scripts/ts-resolve.mjs scripts/generate-corpus.ts",
     "evaluate": "node --import ./scripts/eval-resolve.mjs scripts/evaluate.ts",
-    "collect:public": "node --import ./scripts/eval-resolve.mjs scripts/collect-public.ts",
+    "collect:public": "node --use-env-proxy --import ./scripts/eval-resolve.mjs scripts/collect-public.ts",
     "fixture:morphology": "node --import ./scripts/eval-resolve.mjs scripts/build-morphology-fixture.ts",
     "experiment:generalisation": "node --import ./scripts/eval-resolve.mjs scripts/generalisation-experiment.ts"
   },

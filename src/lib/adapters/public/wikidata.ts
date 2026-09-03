@@ -1,5 +1,6 @@
 import crypto from "node:crypto";
 import fs from "node:fs";
+import path from "node:path";
 
 import type { PublicRecordContent } from "@/lib/domain/public-record";
 import { parsePublicRecord } from "@/lib/domain/public-record";
@@ -155,15 +156,67 @@ export async function collectWikidata(
   }
 
   const parsed = JSON.parse(payload) as { results?: { bindings?: SparqlBinding[] } };
-  const records: PublicRecordContent[] = [];
-  for (const binding of (parsed.results?.bindings ?? []).slice(0, plan.limit)) {
+
+  // SPARQL returns one row per solution, so a single item legitimately
+  // arrives several times: once per (item, LEI, label) combination. One of
+  // the 30 rows collected in the first real run was Wikidata item Q188087
+  // asserting TWO different LEIs, which the cross-product multiplied into
+  // four rows. Emitting a public_record per row produces duplicate
+  // recordRefs, and ingestion rejects the corpus outright — correctly, since
+  // recordRef is `registry:registryRecordId` and an item has one id.
+  //
+  // Rows are therefore folded by QID: one record per item, carrying every
+  // identifier and label that item states. Nothing is discarded and nothing
+  // is chosen between — if Wikidata publishes two LEIs for one item, both
+  // are kept, and deciding what that means is entity resolution's problem,
+  // not the adapter's.
+  const byQid = new Map<string, PublicRecordContent>();
+  let skipped = 0;
+  for (const binding of (parsed.results?.bindings ?? [])) {
     const record = mapWikidataBinding(binding, {
       retrievedAt,
       license: plan.license,
       licenseUrl: plan.licenseUrl,
     });
-    if (record) records.push(record);
-    else warnings.push("Skipped a binding with no item URI or no English label.");
+    if (!record) {
+      skipped++;
+      continue;
+    }
+    const existing = byQid.get(record.registryRecordId);
+    if (!existing) {
+      if (byQid.size >= plan.limit) continue;
+      byQid.set(record.registryRecordId, record);
+      continue;
+    }
+    const identifiers = [...(existing.identifiers ?? [])];
+    for (const identifier of record.identifiers ?? []) {
+      if (!identifiers.some((i) => i.scheme === identifier.scheme && i.value === identifier.value)) {
+        identifiers.push(identifier);
+      }
+    }
+    const aliases = [...new Set([...(existing.aliases ?? []), ...(record.aliases ?? [])])];
+    byQid.set(record.registryRecordId, {
+      ...existing,
+      identifiers,
+      ...(aliases.length > 0 ? { aliases } : {}),
+    });
+  }
+  if (skipped > 0) warnings.push(`Skipped ${skipped} binding(s) with no item URI or no English label.`);
+
+  const records = [...byQid.values()];
+  const rowCount = (parsed.results?.bindings ?? []).length;
+  if (rowCount > records.length) {
+    warnings.push(
+      `${rowCount} SPARQL rows folded into ${records.length} records by item id (multi-valued properties produce a cross-product).`,
+    );
+  }
+  for (const record of records) {
+    const leis = (record.identifiers ?? []).filter((i) => i.scheme === "LEI");
+    if (leis.length > 1) {
+      warnings.push(
+        `${record.recordRef} states ${leis.length} LEIs (${leis.map((l) => l.value).join(", ")}); all kept, none chosen between.`,
+      );
+    }
   }
 
   return {
@@ -176,6 +229,9 @@ export async function collectWikidata(
     // relay channel to query.wikidata.org is available either — see
     // docs/data-research/network-access-diagnosis.md.
     retrievalChannel: options.fromFile ? "agent-relay" : "direct-https",
+    rawPayloads: [
+      { file: options.fromFile ? path.basename(options.fromFile) : "sparql-results.json", body: payload },
+    ],
     sourcePayloads: [
       {
         file: options.fromFile ? options.fromFile : "sparql-results.json",

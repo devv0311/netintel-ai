@@ -34,24 +34,50 @@ const ENDPOINT = "https://api.gleif.org/api/v1/lei-records";
 export const MAX_LIMIT = 500;
 const PAGE_SIZE = 100;
 
-/** GLEIF's own jurisdiction filter — ISO 3166-1 alpha-2. */
+/**
+ * What to ask GLEIF for. Both forms are bounded and neither accepts a URL.
+ *
+ * `leis` exists for cross-source work: the linkage set is derived from
+ * ALREADY-COLLECTED, registry-approved records of another source, never
+ * hand-typed and never crawled. Collecting a jurisdiction page and hoping
+ * it overlaps another publisher's sample does not work — the first pilot
+ * drew 24 of India's 395,227 LEIs and overlapped Wikidata on exactly
+ * zero — so a targeted lookup of the specific identifiers the other
+ * source already published is both the smaller request and the only one
+ * that produces cross-source pairs.
+ */
 export interface GleifQuery {
   jurisdiction: string;
+  /** Exact LEIs to fetch. Bounded by MAX_LIMIT like everything else. */
+  leis?: string[];
+}
+
+/** GLEIF accepts a comma-separated filter[lei]; batched to stay well inside its page size. */
+const LEI_BATCH = 40;
+
+/** Rejects anything that is not a syntactically valid LEI before it reaches a query string. */
+export function isLei(value: string): boolean {
+  return /^[A-Z0-9]{20}$/.test(value);
 }
 
 export function planGleif(query: GleifQuery, options: AdapterOptions): AdapterPlan {
   const entry = requireApprovedSource(GLEIF_SOURCE_ID, options.root);
   const limit = Math.min(options.limit, MAX_LIMIT);
+  const leis = (query.leis ?? []).filter(isLei).slice(0, limit);
   return {
     sourceId: GLEIF_SOURCE_ID,
     sourceName: entry.sourceName,
     endpoint: ENDPOINT,
-    request: `filter[entity.jurisdiction]=${query.jurisdiction}&page[size]=${PAGE_SIZE}`,
+    request:
+      leis.length > 0
+        ? `filter[lei]=<${leis.length} LEIs from an already-collected source>&page[size]=${LEI_BATCH}`
+        : `filter[entity.jurisdiction]=${query.jurisdiction}&page[size]=${PAGE_SIZE}`,
     license: entry.license,
     licenseUrl: entry.licenseUrl,
     rateLimit: entry.rateLimit,
     limit,
-    estimatedRequests: Math.ceil(limit / PAGE_SIZE),
+    estimatedRequests:
+      leis.length > 0 ? Math.ceil(leis.length / LEI_BATCH) : Math.ceil(limit / PAGE_SIZE),
     // ~2 KB per LEI record in the API's JSON:API envelope.
     estimatedBytes: limit * 2048,
     destination: `data/public/raw/${GLEIF_SOURCE_ID}/<retrievedAt>/lei-records.json`,
@@ -219,20 +245,50 @@ export async function collectGleif(
     payloads.push({ file: path.basename(options.fromFile), body: fs.readFileSync(options.fromFile, "utf8") });
     warnings.push(`Transformed a local payload (${options.fromFile}); no network call was made.`);
   } else {
-    const url = `${ENDPOINT}?${plan.request}`;
-    try {
-      const response = await fetch(url, {
-        method: "GET",
-        headers: {
-          Accept: "application/vnd.api+json",
-          "User-Agent": "NetIntelAI-research/0.1 (+https://github.com/devv0311/netintel-ai)",
-        },
-      });
-      if (!response.ok) throw new AdapterFetchError(url, `HTTP ${response.status}`);
-      payloads.push({ file: "lei-records.json", body: await response.text() });
-    } catch (error) {
-      if (error instanceof AdapterFetchError) throw error;
-      throw new AdapterFetchError(url, error instanceof Error ? error.message : String(error));
+    const leis = (query.leis ?? []).filter(isLei).slice(0, plan.limit);
+    const requested = (query.leis ?? []).length;
+    if (requested > 0 && leis.length < requested) {
+      warnings.push(
+        `${requested - leis.length} of ${requested} requested identifiers were not valid LEIs or exceeded --limit; not requested.`,
+      );
+    }
+    // Either a bounded list of exact LEIs, or one jurisdiction page. There
+    // is no third mode and no way to express "everything".
+    const requests: { file: string; query: string }[] =
+      leis.length > 0
+        ? Array.from({ length: Math.ceil(leis.length / LEI_BATCH) }, (_, i) => {
+            const batch = leis.slice(i * LEI_BATCH, (i + 1) * LEI_BATCH);
+            return {
+              file: `lei-records-batch-${String(i + 1).padStart(2, "0")}.json`,
+              query: `filter[lei]=${encodeURIComponent(batch.join(","))}&page[size]=${LEI_BATCH}`,
+            };
+          })
+        : [
+            {
+              file: "lei-records.json",
+              query: `filter[entity.jurisdiction]=${encodeURIComponent(query.jurisdiction)}&page[size]=${PAGE_SIZE}`,
+            },
+          ];
+
+    for (const request of requests) {
+      const url = `${ENDPOINT}?${request.query}`;
+      try {
+        const response = await fetch(url, {
+          method: "GET",
+          headers: {
+            Accept: "application/vnd.api+json",
+            "User-Agent": "NetIntelAI-research/0.1 (+https://github.com/devv0311/netintel-ai)",
+          },
+        });
+        if (response.status === 429) {
+          throw new AdapterFetchError(ENDPOINT, "HTTP 429 — rate limited; stop, do not back off in a loop");
+        }
+        if (!response.ok) throw new AdapterFetchError(url, `HTTP ${response.status}`);
+        payloads.push({ file: request.file, body: await response.text() });
+      } catch (error) {
+        if (error instanceof AdapterFetchError) throw error;
+        throw new AdapterFetchError(url, error instanceof Error ? error.message : String(error));
+      }
     }
   }
 
@@ -305,6 +361,7 @@ export async function collectGleif(
     rawBytes: Buffer.byteLength(combined),
     retrievalChannel,
     sourcePayloads,
+    rawPayloads: payloads,
     warnings,
   };
 }
