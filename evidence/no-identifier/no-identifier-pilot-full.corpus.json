@@ -1,0 +1,4990 @@
+{
+  "corpus": {
+    "name": "no-identifier-pilot-full",
+    "version": "1.0.0",
+    "seed": null,
+    "generatedAt": "2026-09-03T20:55:37.124Z",
+    "description": "REAL collected public-register records (GLEIF SRC-002 + Wikidata SRC-001, both CC0 1.0), with identifiers masked under the \"full\" regime for the P6.16 no-identifier experiment. Names and aliases are verbatim publisher strings; no variant is manufactured. NOT synthetic, and never to be mixed with the Operation DarkNet Delhi corpus or the GLEIF x Wikidata identifier evaluation."
+  },
+  "investigation": {
+    "name": "No-identifier resolution pilot (full)",
+    "status": "in_progress"
+  },
+  "evidenceSources": [
+    {
+      "key": "gleif",
+      "label": "gleif public records (real, CC0 1.0, identifiers masked: full)",
+      "sourceType": "structured_dataset"
+    },
+    {
+      "key": "wikidata",
+      "label": "wikidata public records (real, CC0 1.0, identifiers masked: full)",
+      "sourceType": "structured_dataset"
+    }
+  ],
+  "evidenceItems": [
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0001",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0001",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0001",
+        "subjectKind": "organisation",
+        "name": "Публичное акционерное общество \"Юнипро\"",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "PJSC \"Unipro\"",
+          "Public Joint-Stock Company \"Unipro\"",
+          "ПАО \"Юнипро\""
+        ],
+        "jurisdiction": "RU",
+        "status": "ACTIVE",
+        "observedAt": "2025-05-16T02:01:50.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0002",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0002",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0002",
+        "subjectKind": "organisation",
+        "name": "ASHOK LEYLAND LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-26T05:37:06.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0003",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0003",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0003",
+        "subjectKind": "organisation",
+        "name": "MAHINDRA AND MAHINDRA LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-09T14:13:34.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0004",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0004",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0004",
+        "subjectKind": "organisation",
+        "name": "LARSEN & TOUBRO LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-18T07:01:12.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0005",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0005",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0005",
+        "subjectKind": "organisation",
+        "name": "HARPERCOLLINS PUBLISHERS INDIA PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-29T05:41:49.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0006",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0006",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0006",
+        "subjectKind": "organisation",
+        "name": "FIITJEE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-04-29T09:47:05.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0007",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0007",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0007",
+        "subjectKind": "organisation",
+        "name": "NEW DELHI TELEVISION LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-08T07:33:33.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0008",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0008",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0008",
+        "subjectKind": "organisation",
+        "name": "ACC LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-26T05:37:06.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0009",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0009",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0009",
+        "subjectKind": "organisation",
+        "name": "NATIONAL BULK HANDLING CORPORATION PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-08-05T07:36:14.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0010",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0010",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0010",
+        "subjectKind": "organisation",
+        "name": "BHARAT HEAVY ELECTRICALS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-09-17T12:33:44.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0011",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0011",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0011",
+        "subjectKind": "organisation",
+        "name": "HAIER APPLIANCES (INDIA) PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-08-20T10:23:54.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0012",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0012",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0012",
+        "subjectKind": "organisation",
+        "name": "NAVNEET PRAKASHAN KENDRA",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-11T07:01:53.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0013",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0013",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0013",
+        "subjectKind": "organisation",
+        "name": "GMR AIRPORTS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "GMR INFRASTRUCTURE LIMITED",
+          "GMR AIRPORTS INFRASTRUCTURE LIMITED"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-08-01T12:24:42.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0014",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0014",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0014",
+        "subjectKind": "organisation",
+        "name": "THE SUPREME INDUSTRIES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-08T09:41:21.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0015",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0015",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0015",
+        "subjectKind": "organisation",
+        "name": "HINDUSTAN AERONAUTICS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-12-05T12:25:53.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0016",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0016",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0016",
+        "subjectKind": "organisation",
+        "name": "BHARAT DYNAMICS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-10-07T08:08:28.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0017",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0017",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0017",
+        "subjectKind": "organisation",
+        "name": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "TATA MOTORS LIMITED"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-09T02:09:55.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0018",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0018",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0018",
+        "subjectKind": "organisation",
+        "name": "TATA STARBUCKS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-11-14T06:09:11.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0019",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0019",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0019",
+        "subjectKind": "organisation",
+        "name": "DHANLAXMI BANK LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-04T06:12:19.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0020",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0020",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0020",
+        "subjectKind": "organisation",
+        "name": "ENGINEERS INDIA LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-03-13T12:30:47.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0021",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0021",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0021",
+        "subjectKind": "organisation",
+        "name": "KOTAK MAHINDRA BANK LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-10-23T07:03:36.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0022",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0022",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0022",
+        "subjectKind": "organisation",
+        "name": "LAXCON STEELS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-29T05:54:31.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0023",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0023",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0023",
+        "subjectKind": "organisation",
+        "name": "JAICO PUBLISHING HOUSE",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-03-15T06:40:08.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0024",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0024",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0024",
+        "subjectKind": "organisation",
+        "name": "OIL AND NATURAL GAS CORPORATION LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-02-04T07:18:49.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0025",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0025",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0025",
+        "subjectKind": "organisation",
+        "name": "TATA CHEMICALS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-19T11:12:57.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0026",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0026",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0026",
+        "subjectKind": "organisation",
+        "name": "SAKAL MEDIA PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-07T06:49:26.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0027",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0027",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0027",
+        "subjectKind": "organisation",
+        "name": "ULTRAVIOLET TECH PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "PAYTM E-COMMERCE PRIVATE LIMITED",
+          "PAI PLATFORMS PRIVATE LIMITED"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-05-02T09:23:15.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0028",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0028",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0028",
+        "subjectKind": "organisation",
+        "name": "FLIPKART INDIA PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-26T05:37:06.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0029",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0029",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0029",
+        "subjectKind": "organisation",
+        "name": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-08-03T07:40:44.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0030",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0030",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0030",
+        "subjectKind": "organisation",
+        "name": "TRANSACTREE TECHNOLOGIES PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-10-14T10:27:16.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0031",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0031",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0031",
+        "subjectKind": "organisation",
+        "name": "HINDALCO INDUSTRIES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-08-13T08:21:37.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0032",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0032",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0032",
+        "subjectKind": "organisation",
+        "name": "HINDUSTAN ZINC LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-26T05:37:06.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0033",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0033",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0033",
+        "subjectKind": "organisation",
+        "name": "TATA CONSUMER PRODUCTS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-21T13:33:49.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0034",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0034",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0034",
+        "subjectKind": "organisation",
+        "name": "LUV FILMS LLP",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-04-27T11:34:28.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0035",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0035",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0035",
+        "subjectKind": "organisation",
+        "name": "RAZORPAY SOFTWARE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "RAZORPAY SOFTWARE PRIVATE LIMITED"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-07T05:35:49.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0036",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0036",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0036",
+        "subjectKind": "organisation",
+        "name": "TEXTURE CLOTHING COMPANY",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-03-04T10:03:04.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0037",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0037",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0037",
+        "subjectKind": "organisation",
+        "name": "COAL INDIA LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-11-13T07:20:12.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0038",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0038",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0038",
+        "subjectKind": "organisation",
+        "name": "DR. REDDY'S LABORATORIES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-03T07:39:28.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0039",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0039",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0039",
+        "subjectKind": "organisation",
+        "name": "INOX LEISURE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "INACTIVE",
+        "observedAt": "2026-06-26T05:37:06.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0040",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0040",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0040",
+        "subjectKind": "organisation",
+        "name": "ULTRATECH CEMENT LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-05T07:05:34.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0041",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0041",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0041",
+        "subjectKind": "organisation",
+        "name": "ORAVEL STAYS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-05-08T04:07:57.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0042",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0042",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0042",
+        "subjectKind": "organisation",
+        "name": "DLF LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-22T07:03:41.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0043",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0043",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0043",
+        "subjectKind": "organisation",
+        "name": "LIBERTY SHOES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-11-11T05:42:50.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0044",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0044",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0044",
+        "subjectKind": "organisation",
+        "name": "AIR INDIA LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-02-16T04:40:08.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0045",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0045",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0045",
+        "subjectKind": "organisation",
+        "name": "NAVNEET EDUCATION LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-10T00:40:21.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0046",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0046",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0046",
+        "subjectKind": "organisation",
+        "name": "OBEROI REALTY LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-03-12T10:05:31.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0047",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0047",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0047",
+        "subjectKind": "organisation",
+        "name": "INFOSYS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-05-30T05:56:36.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0048",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0048",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0048",
+        "subjectKind": "organisation",
+        "name": "LIVING MEDIA INDIA LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-04-17T07:02:53.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0049",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0049",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0049",
+        "subjectKind": "organisation",
+        "name": "GATEWAY TECHNOLABS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-02-04T07:21:48.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0050",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0050",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0050",
+        "subjectKind": "organisation",
+        "name": "GVK POWER & INFRASTRUCTURE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "Jegurupadu Operation & Maintenance Company,Jegurupadu Operation & Maintenance Company"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-01-20T08:04:31.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0051",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0051",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0051",
+        "subjectKind": "organisation",
+        "name": "ITC LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-25T06:09:30.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0052",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0052",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0052",
+        "subjectKind": "organisation",
+        "name": "SBI LIFE INSURANCE COMPANY LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-11-29T10:24:34.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0053",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0053",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0053",
+        "subjectKind": "organisation",
+        "name": "MAHANAGAR TELEPHONE NIGAM LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-04-07T10:39:26.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0054",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0054",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0054",
+        "subjectKind": "organisation",
+        "name": "EMCURE PHARMACEUTICALS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-10T05:02:10.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0055",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0055",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0055",
+        "subjectKind": "organisation",
+        "name": "VEDANTA LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-22T11:58:47.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0056",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0056",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0056",
+        "subjectKind": "organisation",
+        "name": "APPLAUSE ENTERTAINMENT PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-31T09:31:51.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0057",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0057",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0057",
+        "subjectKind": "organisation",
+        "name": "IIT-IAN'S PACE EDUCATION PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-16T04:42:45.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0058",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0058",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0058",
+        "subjectKind": "organisation",
+        "name": "3I INFOTECH LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-09T14:41:15.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0059",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0059",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0059",
+        "subjectKind": "organisation",
+        "name": "STEEL AUTHORITY OF INDIA LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-30T06:57:25.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0060",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0060",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0060",
+        "subjectKind": "organisation",
+        "name": "日本ペイントホールディングス株式会社",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "Nippon Paint Holdings Co., Ltd."
+        ],
+        "jurisdiction": "JP",
+        "status": "ACTIVE",
+        "observedAt": "2026-01-03T00:00:23.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0061",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0061",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0061",
+        "subjectKind": "organisation",
+        "name": "STATE BANK OF INDIA",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-09-25T05:26:01.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0062",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0062",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0062",
+        "subjectKind": "organisation",
+        "name": "RELIANCE INDUSTRIES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-10-06T13:23:59.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0063",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0063",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0063",
+        "subjectKind": "organisation",
+        "name": "HCL TECHNOLOGIES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-05-13T07:05:25.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0064",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0064",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0064",
+        "subjectKind": "organisation",
+        "name": "ELSEVIER B.V.",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "NL",
+        "status": "ACTIVE",
+        "observedAt": "2026-05-11T12:24:19.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0065",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0065",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0065",
+        "subjectKind": "organisation",
+        "name": "BANK OF BARODA",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-02-13T12:54:16.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0066",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0066",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0066",
+        "subjectKind": "organisation",
+        "name": "DCB BANK LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-08-21T10:24:10.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0067",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0067",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0067",
+        "subjectKind": "organisation",
+        "name": "AXIS BANK LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "AXIS BANK LTD"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-12-06T04:44:40.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0068",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0068",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0068",
+        "subjectKind": "organisation",
+        "name": "VISHWA UGCC JV",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T10:52:00.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0069",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0069",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0069",
+        "subjectKind": "organisation",
+        "name": "AMAN METALCOMP PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:45:00.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0070",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0070",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0070",
+        "subjectKind": "organisation",
+        "name": "HI TECH TRANSFORMERS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:47:16.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0071",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0071",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0071",
+        "subjectKind": "organisation",
+        "name": "TTK HOTELS LLP",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:21:45.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0072",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0072",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0072",
+        "subjectKind": "organisation",
+        "name": "LINEX GLOBAL EXPORTS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:18:04.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0073",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0073",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0073",
+        "subjectKind": "organisation",
+        "name": "ABHINAV REALTY SPACES LLP",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:22:30.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0074",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0074",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0074",
+        "subjectKind": "organisation",
+        "name": "ELEMENT CHEMICALS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:54:04.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0075",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0075",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0075",
+        "subjectKind": "organisation",
+        "name": "Riddhi Hardik Shah",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "RIDDHI ENTERPRISES"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:41:31.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0076",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0076",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0076",
+        "subjectKind": "organisation",
+        "name": "RENU INFRASTRUCTURE PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:28:37.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0077",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0077",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0077",
+        "subjectKind": "organisation",
+        "name": "GAGAN SINGH",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S GAGAN ENTERPRISES"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:12:33.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0078",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0078",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0078",
+        "subjectKind": "organisation",
+        "name": "JAGJEETSINGH MAKKAR",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "INDERJEET & CO."
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:42:42.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0079",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0079",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0079",
+        "subjectKind": "organisation",
+        "name": "DOSANI FROZEN FOODS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:29:32.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0080",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0080",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0080",
+        "subjectKind": "organisation",
+        "name": "MANISH KUMAR BARNWAL",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S NEW VIVEK JEWELLERS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:49:49.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0081",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0081",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0081",
+        "subjectKind": "organisation",
+        "name": "BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:09:27.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0082",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0082",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0082",
+        "subjectKind": "organisation",
+        "name": "MD RIYAZ",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "TAJ MOTORS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:29:17.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0083",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0083",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0083",
+        "subjectKind": "organisation",
+        "name": "NAV WIRELESS TECHNOLOGIES PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:29:09.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0084",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0084",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0084",
+        "subjectKind": "organisation",
+        "name": "JAY MAA VAISHNAVI RICE MILL PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:47:56.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0085",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0085",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0085",
+        "subjectKind": "organisation",
+        "name": "MVR TRADING COMPANY",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:38:12.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0086",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0086",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0086",
+        "subjectKind": "organisation",
+        "name": "SHARMISTHA DEY",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "SRISTI GRAPHICS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:10:31.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0087",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0087",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0087",
+        "subjectKind": "organisation",
+        "name": "SHOP EXPRESS 24 X7 PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:40:08.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0088",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0088",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0088",
+        "subjectKind": "organisation",
+        "name": "JAI BHOLE BABA COLD STORAGE",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:48:31.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0089",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0089",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0089",
+        "subjectKind": "organisation",
+        "name": "NAYNA HARISH PAREKH",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S SHEETAL TRADERS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:37:19.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0090",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0090",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0090",
+        "subjectKind": "organisation",
+        "name": "UDIT KAPOOR",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "KING DAIRY"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:36:54.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0091",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0091",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0091",
+        "subjectKind": "organisation",
+        "name": "Pramod Ratnakar Poojary",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "Gourmet Catering"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:34:01.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0092",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0092",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0092",
+        "subjectKind": "organisation",
+        "name": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:20:15.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0093",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0093",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0093",
+        "subjectKind": "organisation",
+        "name": "IMRAN ABDUL KADIR HAJWANI",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "BANU TOUR AND TRAVELS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:35:52.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0094",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0094",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0094",
+        "subjectKind": "organisation",
+        "name": "AMBER MOHTA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "SHRI BALAJI TRADELINK CO."
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:34:21.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0095",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0095",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0095",
+        "subjectKind": "organisation",
+        "name": "RAMESH CHANDRA GUPTA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "SHREE GANESH GEMS AND JEWELLERS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:42:56.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0096",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0096",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0096",
+        "subjectKind": "organisation",
+        "name": "Alathur Nanjundaswamy Shivakumar",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "Sri Mahadeshwara Concrete Bricks"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:11:47.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0097",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0097",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0097",
+        "subjectKind": "organisation",
+        "name": "OM IRON AND STEEL",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:07:47.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0098",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0098",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0098",
+        "subjectKind": "organisation",
+        "name": "MAHENDER GARG",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "BOMBAY WHEELS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:38:48.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0099",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0099",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0099",
+        "subjectKind": "organisation",
+        "name": "SURYAMITRA GREENTECH LLP",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:47:39.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0100",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0100",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0100",
+        "subjectKind": "organisation",
+        "name": "JOGINDER KUMAR MANGLA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "R.K TRADERS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:32:17.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0101",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0101",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0101",
+        "subjectKind": "organisation",
+        "name": "MUKTA PRASAD RAMESHWAR PRASAD",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S MUKTA PRASAD RAMESHWAR PRASAD"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:03:20.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0102",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0102",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0102",
+        "subjectKind": "organisation",
+        "name": "MAHABIR PRASHAD MANGLA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "KESHO RAM MAHAVIR PERSHAD"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:27:12.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0103",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0103",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0103",
+        "subjectKind": "organisation",
+        "name": "ITAA POLYMERS LLP",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:07:49.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0104",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0104",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0104",
+        "subjectKind": "organisation",
+        "name": "Manmohan Ram Kantipudi",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:45:12.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0105",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0105",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0105",
+        "subjectKind": "organisation",
+        "name": "KEESARI PRABHAKAR",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S LOKESHWARI SOLAR POWER GENERATOR"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:15:27.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0106",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0106",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0106",
+        "subjectKind": "organisation",
+        "name": "LAKSHMI GANAPATHI PAPER BORDS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "LAKSHMI GANAPATHI PAPER BOARDS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:51:11.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0107",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0107",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0107",
+        "subjectKind": "organisation",
+        "name": "AMIT JAIN",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "USHA FASHION"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:56:02.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0108",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0108",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0108",
+        "subjectKind": "organisation",
+        "name": "JADIYA RENEWABLES PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:53:54.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0109",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0109",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0109",
+        "subjectKind": "organisation",
+        "name": "The South Indian Education Society",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:04:20.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0110",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0110",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0110",
+        "subjectKind": "organisation",
+        "name": "HOLDWELL DISTRIBUTORS PVT.LTD.",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:32:55.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0111",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0111",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0111",
+        "subjectKind": "organisation",
+        "name": "GREEN ROOT STORAGE SOLUTIONS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:49:07.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0112",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0112",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0112",
+        "subjectKind": "organisation",
+        "name": "AEROCHEM RENEWAL ENERGY LLP",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:30:43.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0113",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0113",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0113",
+        "subjectKind": "organisation",
+        "name": "M N P TURNMATICS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:01:37.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0114",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0114",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0114",
+        "subjectKind": "organisation",
+        "name": "SHRENIK HARSHADRAI DOSHI",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "JAINAM AUTO INDUSTRIES"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:50:51.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0115",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0115",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0115",
+        "subjectKind": "organisation",
+        "name": "SOHAN ELECTRONICS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:47:28.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0116",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0116",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0116",
+        "subjectKind": "organisation",
+        "name": "GENTEK POWER",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:43:17.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0117",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0117",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0117",
+        "subjectKind": "organisation",
+        "name": "SHREE KRISHNA RMC AND STRUCTURE",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "SHREE KRISHNA RMC & STRUCTURE"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:39:38.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0118",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0118",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0118",
+        "subjectKind": "organisation",
+        "name": "BASANT SHANTILAL JAIN",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "NAVKAR ENTERPRISE"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:28:15.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0119",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0119",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0119",
+        "subjectKind": "organisation",
+        "name": "MOHD SALIM SIDDQUI",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "TECHNOCRATS HEALTHCARE"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:38:35.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0120",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0120",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0120",
+        "subjectKind": "organisation",
+        "name": "RAJ SUNIL WADHWA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "WADHWA EVENTS AND ENTERTAINMENT"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:34:29.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0121",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0121",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0121",
+        "subjectKind": "organisation",
+        "name": "TIRUPPUR MITHRA THREADS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:18:30.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0122",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0122",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0122",
+        "subjectKind": "organisation",
+        "name": "MAHESH ENTERPRISES",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:22:38.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0123",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0123",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0123",
+        "subjectKind": "organisation",
+        "name": "U K AGRO",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:53:01.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0124",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0124",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0124",
+        "subjectKind": "organisation",
+        "name": "JAY AMBE STEEL PROFILE CUTTING CO",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "JAY AMBE STEEL CUTTING CO."
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:45:28.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0125",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0125",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0125",
+        "subjectKind": "organisation",
+        "name": "ZEVAR MAHAL LLP",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:28:43.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0126",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0126",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0126",
+        "subjectKind": "organisation",
+        "name": "NIRAJ MISHRA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "AS TRADING"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:36:35.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0127",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0127",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0127",
+        "subjectKind": "organisation",
+        "name": "RAJ AUTOLINK",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:02:03.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0128",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0128",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0128",
+        "subjectKind": "organisation",
+        "name": "RAMPUR FERTILIZERS LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T10:39:43.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0129",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0129",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0129",
+        "subjectKind": "organisation",
+        "name": "M/s Maharashtra Fruit Co",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:15:09.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0130",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0130",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0130",
+        "subjectKind": "organisation",
+        "name": "M/S SRI PADHMA CONSTRUCTIONS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:55:36.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0131",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0131",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0131",
+        "subjectKind": "organisation",
+        "name": "World Advice",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:58:20.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0132",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0132",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0132",
+        "subjectKind": "organisation",
+        "name": "L S ENTERPRISES",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T10:36:47.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0133",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0133",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0133",
+        "subjectKind": "organisation",
+        "name": "SHREE D B GOLD",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:50:37.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0134",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0134",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0134",
+        "subjectKind": "organisation",
+        "name": "DHARIYA MARINE ENGINEERING SERVICES",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:30:33.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0135",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0135",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0135",
+        "subjectKind": "organisation",
+        "name": "CUBIC CORPORATION",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "US-DE",
+        "status": "ACTIVE",
+        "observedAt": "2023-08-04T15:16:14.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0136",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0136",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0136",
+        "subjectKind": "organisation",
+        "name": "AVENUE E-COMMERCE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-01-26T02:45:42.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0137",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0137",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0137",
+        "subjectKind": "organisation",
+        "name": "SKYROOT AEROSPACE PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-11-23T06:08:30.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0138",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0138",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0138",
+        "subjectKind": "organisation",
+        "name": "BYARATI FOUNDATION",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T10:39:45.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0139",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0139",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0139",
+        "subjectKind": "organisation",
+        "name": "D.M PREFAB STRUCTURES PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T10:36:20.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0140",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0140",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0140",
+        "subjectKind": "organisation",
+        "name": "KALYAN JAIN & CO",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T10:51:59.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0141",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0141",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0141",
+        "subjectKind": "organisation",
+        "name": "PARADISE RESTAURANT PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T10:53:35.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0142",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0142",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0142",
+        "subjectKind": "organisation",
+        "name": "TAPAN MANUTECH LLP",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:14:19.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0143",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0143",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0143",
+        "subjectKind": "organisation",
+        "name": "SHRIVEER PRIYA PAPERS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:13:51.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0144",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0144",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0144",
+        "subjectKind": "organisation",
+        "name": "HERO EDUCATION PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:23:59.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0145",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0145",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0145",
+        "subjectKind": "organisation",
+        "name": "SREE KESHAV SOLARS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:30:51.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0146",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0146",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0146",
+        "subjectKind": "organisation",
+        "name": "EMBEE NIVESH LLP",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:37:59.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0147",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0147",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0147",
+        "subjectKind": "organisation",
+        "name": "CHANNI SONS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:56:15.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0148",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0148",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0148",
+        "subjectKind": "organisation",
+        "name": "SHINECITY HOSPITALS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:03:05.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0149",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0149",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0149",
+        "subjectKind": "organisation",
+        "name": "GULMOHAR EMPIRES",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:02:43.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0150",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0150",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0150",
+        "subjectKind": "organisation",
+        "name": "ANTHEM PETROLEUM",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:58:47.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0151",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0151",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0151",
+        "subjectKind": "organisation",
+        "name": "EARLY MAKERS GROUP",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "FR",
+        "status": "ACTIVE",
+        "observedAt": "2026-07-20T20:00:16.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0152",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0152",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0152",
+        "subjectKind": "organisation",
+        "name": "ARIHANT PUBLICATIONS (INDIA) LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S ARIHANT PUBLICATIONS ( INDIA ) LTD."
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-24T07:21:22.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0153",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0153",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0153",
+        "subjectKind": "organisation",
+        "name": "INNOFIN SOLUTIONS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-02-18T06:51:42.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0154",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0154",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0154",
+        "subjectKind": "organisation",
+        "name": "UNIPRO",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S UNIPRO"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-10-25T11:14:37.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0155",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0155",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0155",
+        "subjectKind": "organisation",
+        "name": "Carnelian Structural Shifts Fund Series II",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:01:10.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0156",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0156",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0156",
+        "subjectKind": "organisation",
+        "name": "SURINDER KUMAR JINDAL",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "GANPAT RAI SURINDER KUMAR"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T15:55:10.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0157",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0157",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0157",
+        "subjectKind": "organisation",
+        "name": "Carnelian Bharat AmritKaal Fund 3",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:01:03.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0158",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0158",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0158",
+        "subjectKind": "organisation",
+        "name": "TUNIP INFO SERVICES PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:39:18.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0159",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0159",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0159",
+        "subjectKind": "organisation",
+        "name": "HACHETTE BOOK PUBLISHING INDIA PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-03-18T08:12:41.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0160",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0160",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0160",
+        "subjectKind": "organisation",
+        "name": "Jintech Solution Limited",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:28:05.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0161",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0161",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0161",
+        "subjectKind": "organisation",
+        "name": "NIMESH NARESHKUMAR PARMAR",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "S.M.GOLD"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:01:10.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0162",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0162",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0162",
+        "subjectKind": "organisation",
+        "name": "SHYAMSUNDER HAJARILAL AGRAWAL",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "JAANVI FOODS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:34:15.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0163",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0163",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0163",
+        "subjectKind": "organisation",
+        "name": "MOSCHIP TECHNOLOGIES LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2025-09-18T06:06:04.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0164",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0164",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0164",
+        "subjectKind": "organisation",
+        "name": "PANKAJ KUMAR GUPTA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S A.S.DRUG AGENCIES"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:02:27.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0165",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0165",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0165",
+        "subjectKind": "organisation",
+        "name": "BHARAT ELECTRONICS",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S BHARAT ELECTRONICS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-04-28T06:35:07.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0166",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0166",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0166",
+        "subjectKind": "organisation",
+        "name": "SUBHASH ISHWAR SURYAVANSHI",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "SUPER CONSTRUCTION",
+          "SUPER PIPE INDUSTRIES"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:42:56.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0167",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0167",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0167",
+        "subjectKind": "organisation",
+        "name": "A DINESH",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "SMKAT CONCRETE SOLUTIONS"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:47:15.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0168",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0168",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0168",
+        "subjectKind": "organisation",
+        "name": "Vidya Vaibhav Shikshan Mandal",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:44:02.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0169",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0169",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0169",
+        "subjectKind": "organisation",
+        "name": "HUSK POWER SYSTEMS PRIVATE LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "M/S HUSK POWER SYSTEMS PRIVATE LIMITED"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-06-09T13:46:59.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0170",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0170",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0170",
+        "subjectKind": "organisation",
+        "name": "MS MANTU BARUAH CONSTRUCTIONS",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:32:09.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0171",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0171",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0171",
+        "subjectKind": "organisation",
+        "name": "SRI LAXMI NARASIMHA WINES",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T13:32:46.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0172",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0172",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0172",
+        "subjectKind": "organisation",
+        "name": "SUN PARADISE",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:44:33.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0173",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0173",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0173",
+        "subjectKind": "organisation",
+        "name": "SUSHANTA SINGHA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "JOYRAM FAST FOOD CENTRE"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:30:46.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0174",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0174",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0174",
+        "subjectKind": "organisation",
+        "name": "SAM BHATIA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:41:41.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0175",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0175",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0175",
+        "subjectKind": "organisation",
+        "name": "Lakshya Capital Investment Trust - Scheme 1",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T12:48:52.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0176",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0176",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0176",
+        "subjectKind": "organisation",
+        "name": "BANAS HOSPITAL",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "SHRI PRAKASHCHAND RARAMANLAL PINDARIA"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T17:13:36.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0177",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0177",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0177",
+        "subjectKind": "organisation",
+        "name": "NATARAJAN VARADARAJAN",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "aliases": [
+          "VIGNESH PROPERTEES"
+        ],
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T11:35:41.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0178",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0178",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0178",
+        "subjectKind": "organisation",
+        "name": "MATRUBHUMI SEVA PRATHISHTANA",
+        "retrievedAt": "2026-09-03T20:51:47.489Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-09-02T14:58:04.000Z"
+      }
+    },
+    {
+      "sourceKey": "gleif",
+      "ref": "gleif:NIDP-0179",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "gleif:NIDP-0179",
+        "registry": "gleif",
+        "registryRecordId": "NIDP-0179",
+        "subjectKind": "organisation",
+        "name": "ICICI BANK LIMITED",
+        "retrievedAt": "2026-09-03T20:51:34.703Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records",
+        "jurisdiction": "IN",
+        "status": "ACTIVE",
+        "observedAt": "2026-08-07T06:08:07.000Z"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0180",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0180",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0180",
+        "subjectKind": "organisation",
+        "name": "PACE IIT & Medical",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0181",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0181",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0181",
+        "subjectKind": "organisation",
+        "name": "Razorpay",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "रेजरपे"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0182",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0182",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0182",
+        "subjectKind": "organisation",
+        "name": "Arihant Publications",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0183",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0183",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0183",
+        "subjectKind": "organisation",
+        "name": "LenDenClub",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "लेनदेनक्लब"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0184",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0184",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0184",
+        "subjectKind": "organisation",
+        "name": "Coal India",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "कोल इण्डिया"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0185",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0185",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0185",
+        "subjectKind": "organisation",
+        "name": "Lendbox",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "लेंडबॉक्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0186",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0186",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0186",
+        "subjectKind": "organisation",
+        "name": "State Bank of India",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "एसबीआई"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0187",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0187",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0187",
+        "subjectKind": "organisation",
+        "name": "Steel Authority of India Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "भारतीय इस्पात प्राधिकरण"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0188",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0188",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0188",
+        "subjectKind": "organisation",
+        "name": "Haier India",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0189",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0189",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0189",
+        "subjectKind": "organisation",
+        "name": "Flipkart",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "फ्लिपकार्ट"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0190",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0190",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0190",
+        "subjectKind": "organisation",
+        "name": "Texture Clothing Company",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0191",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0191",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0191",
+        "subjectKind": "organisation",
+        "name": "MosChip Technologies Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0192",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0192",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0192",
+        "subjectKind": "organisation",
+        "name": "Elion Technologies and Consulting Private Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0193",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0193",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0193",
+        "subjectKind": "organisation",
+        "name": "Laxcon Steels Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0194",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0194",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0194",
+        "subjectKind": "organisation",
+        "name": "Oil and Natural Gas Corporation",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "तेल एवं प्राकृतिक गैस निगम लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0195",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0195",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0195",
+        "subjectKind": "organisation",
+        "name": "Hindalco Industries",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "हिंडाल्को इंडस्ट्रीज"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0196",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0196",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0196",
+        "subjectKind": "organisation",
+        "name": "ICICI Bank",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "आईसीआईसीआई बैंक"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0197",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0197",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0197",
+        "subjectKind": "organisation",
+        "name": "ITC Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "आई टी सी लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0198",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0198",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0198",
+        "subjectKind": "organisation",
+        "name": "Emcure Pharmaceuticals",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "एमक्योर फार्मास्युटिकल्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0199",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0199",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0199",
+        "subjectKind": "organisation",
+        "name": "India Today Group",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "इंडिया टुडे ग्रुप"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0200",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0200",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0200",
+        "subjectKind": "organisation",
+        "name": "Emlyon Business School",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "ईएमलियोन बिजनेस स्कूल"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0201",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0201",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0201",
+        "subjectKind": "organisation",
+        "name": "Unipro",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "यूनिप्रो"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0202",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0202",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0202",
+        "subjectKind": "organisation",
+        "name": "Mahanagar Telephone Nigam",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "महानगर टेलीफोन निगम लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0203",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0203",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0203",
+        "subjectKind": "organisation",
+        "name": "Tata Motors Ltd",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "टाटा मोटर्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0204",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0204",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0204",
+        "subjectKind": "organisation",
+        "name": "Paytm",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "पेटीऍम"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0205",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0205",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0205",
+        "subjectKind": "organisation",
+        "name": "Axis Bank",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "ऐक्सिस बैंक"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0206",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0206",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0206",
+        "subjectKind": "organisation",
+        "name": "Bank of Baroda",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "बैंक ऑफ़ बड़ौदा"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0207",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0207",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0207",
+        "subjectKind": "organisation",
+        "name": "Kotak Mahindra Bank",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "कोटक महिंद्रा बैंक"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0208",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0208",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0208",
+        "subjectKind": "organisation",
+        "name": "Dhanlaxmi Bank",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "धनलक्ष्मी बैंक"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0209",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0209",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0209",
+        "subjectKind": "organisation",
+        "name": "Tata Chemicals",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "टाटा केमिकल्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0210",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0210",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0210",
+        "subjectKind": "organisation",
+        "name": "Sakal Media Group",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0211",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0211",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0211",
+        "subjectKind": "organisation",
+        "name": "OYO Rooms",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "ओयो रूम्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0212",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0212",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0212",
+        "subjectKind": "organisation",
+        "name": "Infosys limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "Rensei"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0213",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0213",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0213",
+        "subjectKind": "organisation",
+        "name": "Gateway Group of Companies",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "गेटवे"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0214",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0214",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0214",
+        "subjectKind": "organisation",
+        "name": "NDTV",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "एनडीटीवी"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0215",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0215",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0215",
+        "subjectKind": "organisation",
+        "name": "DLF Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "डीएलएफ़ यूनिवर्सल लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0216",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0216",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0216",
+        "subjectKind": "organisation",
+        "name": "Sun Pharmaceutical",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "सन फार्मास्युटिकल"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0217",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0217",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0217",
+        "subjectKind": "organisation",
+        "name": "Bharat Dynamics Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "भारत डायनेमिक्स लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0218",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0218",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0218",
+        "subjectKind": "organisation",
+        "name": "Hindustan Aeronautics Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0219",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0219",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0219",
+        "subjectKind": "organisation",
+        "name": "Bharat Electronics",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "भारत इलैक्ट्रॉनिक्स लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0220",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0220",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0220",
+        "subjectKind": "organisation",
+        "name": "Nippon Paint",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0221",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0221",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0221",
+        "subjectKind": "organisation",
+        "name": "Vedanta Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "sesa sterlite"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0222",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0222",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0222",
+        "subjectKind": "organisation",
+        "name": "3i Infotech Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0223",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0223",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0223",
+        "subjectKind": "organisation",
+        "name": "Cubic Corporation",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0224",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0224",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0224",
+        "subjectKind": "organisation",
+        "name": "DCB Bank",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0225",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0225",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0225",
+        "subjectKind": "organisation",
+        "name": "Engineers India Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "इंजीनियर्स इंडिया लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0226",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0226",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0226",
+        "subjectKind": "organisation",
+        "name": "FIITJEE",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0227",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0227",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0227",
+        "subjectKind": "organisation",
+        "name": "GMR Group",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "जीएमआर समूह"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0228",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0228",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0228",
+        "subjectKind": "organisation",
+        "name": "GVK",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "जीवीके"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0229",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0229",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0229",
+        "subjectKind": "organisation",
+        "name": "HCL Technologies",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "एचसीएल टेक्नोलॉजीज"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0230",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0230",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0230",
+        "subjectKind": "organisation",
+        "name": "Hindustan Zinc Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0231",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0231",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0231",
+        "subjectKind": "organisation",
+        "name": "Husk Power Systems",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "हस्क पावर सिस्टम्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0232",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0232",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0232",
+        "subjectKind": "organisation",
+        "name": "INOX Leisure Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "आईनॉक्स लीजर लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0233",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0233",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0233",
+        "subjectKind": "organisation",
+        "name": "HarperCollins Publishers India",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0234",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0234",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0234",
+        "subjectKind": "organisation",
+        "name": "Luv Films",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "लव फिल्म्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0235",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0235",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0235",
+        "subjectKind": "organisation",
+        "name": "Jaico Publishing House",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "जैको प्रकाशन संस्था"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0236",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0236",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0236",
+        "subjectKind": "organisation",
+        "name": "Larsen & Toubro",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "लार्सन एंड टूब्रो"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0237",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0237",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0237",
+        "subjectKind": "organisation",
+        "name": "ACC Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "एसीसी लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0238",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0238",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0238",
+        "subjectKind": "organisation",
+        "name": "Applause Entertainment",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0239",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0239",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0239",
+        "subjectKind": "organisation",
+        "name": "Liberty Shoes",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0240",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0240",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0240",
+        "subjectKind": "organisation",
+        "name": "National Bulk Handling Corporation",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0241",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0241",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0241",
+        "subjectKind": "organisation",
+        "name": "Navneet Publications",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0242",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0242",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0242",
+        "subjectKind": "organisation",
+        "name": "Air India",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "एअर इंडिया"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0243",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0243",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0243",
+        "subjectKind": "organisation",
+        "name": "Oberoi Realty",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0244",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0244",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0244",
+        "subjectKind": "organisation",
+        "name": "Ashok Leyland",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "अशोक लेलैंड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0245",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0245",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0245",
+        "subjectKind": "organisation",
+        "name": "SBI Life Insurance Company Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "एसबीआई लाइफ इंश्योरेंस कंपनी"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0246",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0246",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0246",
+        "subjectKind": "organisation",
+        "name": "Elsevier",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0247",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0247",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0247",
+        "subjectKind": "organisation",
+        "name": "Supreme Industries",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0248",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0248",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0248",
+        "subjectKind": "organisation",
+        "name": "Tata Starbucks",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "टाटा स्टारबक्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0249",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0249",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0249",
+        "subjectKind": "organisation",
+        "name": "UltraTech Cement",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "अल्ट्राटेक सीमेंंट"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0250",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0250",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0250",
+        "subjectKind": "organisation",
+        "name": "Tata Consumer Products",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "टाटा कंज्यूमर प्रोडक्ट्स"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0251",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0251",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0251",
+        "subjectKind": "organisation",
+        "name": "Mahindra & Mahindra",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "महिन्द्रा एण्ड महिन्द्रा"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0252",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0252",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0252",
+        "subjectKind": "organisation",
+        "name": "Bharat Heavy Electricals Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "भारत हेवी इलेक्ट्रिकल्स लिमिटेड"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0253",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0253",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0253",
+        "subjectKind": "organisation",
+        "name": "Reliance Industries Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "रिलायन्स इण्डस्ट्रीज"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0254",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0254",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0254",
+        "subjectKind": "organisation",
+        "name": "Dr. Reddy's Laboratories",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "डॉ. रेड्डीज लेबोरेटरीज"
+        ]
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0255",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0255",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0255",
+        "subjectKind": "organisation",
+        "name": "Avenue E-Commerce Limited",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0256",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0256",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0256",
+        "subjectKind": "organisation",
+        "name": "Hachette India",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql"
+      }
+    },
+    {
+      "sourceKey": "wikidata",
+      "ref": "wikidata:NIDP-0257",
+      "itemType": "public_record",
+      "content": {
+        "recordRef": "wikidata:NIDP-0257",
+        "registry": "wikidata",
+        "registryRecordId": "NIDP-0257",
+        "subjectKind": "organisation",
+        "name": "Skyroot Aerospace",
+        "retrievedAt": "2026-09-03T20:51:15.104Z",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "sourceUrl": "https://query.wikidata.org/sparql",
+        "aliases": [
+          "स्काईरूट एयरोस्पेस"
+        ]
+      }
+    }
+  ],
+  "locations": [],
+  "communicationEvents": [],
+  "financialTransactions": []
+}

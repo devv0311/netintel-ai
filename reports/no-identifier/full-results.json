@@ -1,0 +1,2274 @@
+{
+  "experiment": "no-identifier-entity-resolution",
+  "regime": "full",
+  "dataClass": "real-collected-public-record",
+  "corpus": "evidence/no-identifier/no-identifier-pilot-full.corpus.json",
+  "groundTruth": "evidence/no-identifier/no-identifier-pilot.ground-truth.json",
+  "database": "/sessions/rcw-0163i7tz38mrdtivbssz19sv/nidb/full.db",
+  "ranAt": "2026-09-03T21:03:36.176Z",
+  "resolverPolicy": "P6.15-identifier-authority (UNMODIFIED - P6.16 changed no matching logic, no tier, no threshold)",
+  "sources": [
+    {
+      "sourceId": "SRC-001",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "retrievedAt": "2026-09-03T20:51:29.042Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "657c11d624a361056b966dac98f8a46984018ede898838e3b254b770422f94ba",
+      "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+      "sourcePayloads": [
+        {
+          "file": "sparql-results.json",
+          "sha256": "657c11d624a361056b966dac98f8a46984018ede898838e3b254b770422f94ba",
+          "bytes": 53781,
+          "records": 78,
+          "storedAt": "raw/sparql-results.json"
+        }
+      ]
+    },
+    {
+      "sourceId": "SRC-002",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+      "retrievedAt": "2026-09-03T20:51:37.651Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "7183736bb5d6dc7fd7d8b0b327e54d5ce092bd221ac945fd9a8019799c1f4936",
+      "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+      "sourcePayloads": [
+        {
+          "file": "lei-records-batch-01.json",
+          "sha256": "dc9fc63dc347289887b223693df4e8ecfbbccadd011ad556b92e36e4a765ccb4",
+          "bytes": 120612,
+          "records": 40,
+          "storedAt": "raw/lei-records-batch-01.json"
+        },
+        {
+          "file": "lei-records-batch-02.json",
+          "sha256": "48dcaa64771d141fe743af9ada6bfff7f7ce4d3ecdea7c9175e9d9fe52796250",
+          "bytes": 115588,
+          "records": 39,
+          "storedAt": "raw/lei-records-batch-02.json"
+        }
+      ]
+    },
+    {
+      "sourceId": "SRC-002",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+      "retrievedAt": "2026-09-03T20:51:49.134Z",
+      "retrievalChannel": "direct-https",
+      "rawSha256": "814b22e98a1a5ab051422cead93f5191bfc5ee4845ba2a729ea1730c4939ecdc",
+      "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+      "sourcePayloads": [
+        {
+          "file": "lei-records.json",
+          "sha256": "814b22e98a1a5ab051422cead93f5191bfc5ee4845ba2a729ea1730c4939ecdc",
+          "bytes": 248969,
+          "records": 100,
+          "storedAt": "raw/lei-records.json"
+        }
+      ]
+    }
+  ],
+  "maskedFromResolver": {
+    "regimes": {
+      "full": "No record of either publisher carries any identifier.",
+      "anchored": "GLEIF retains the LEI it issues (the reference set). Every Wikidata record is stripped of every identifier, so the SHARED identifier is unavailable and a Wikidata record can reach its GLEIF subject only through its name."
+    },
+    "fields": [
+      "identifiers[] — removed from every masked record",
+      "registryRecordId — replaced by an opaque surrogate (NIDP-####); GLEIF's is the LEI, Wikidata's is the QID",
+      "recordRef — derived from registryRecordId, therefore surrogated; this is what reaches provenance.location",
+      "sourceUrl — per-record URL embeds the LEI/QID, reduced to the endpoint the record came from",
+      "relations[] — targetRegistryRecordId is a raw LEI, so the array is dropped entirely"
+    ],
+    "notMasked": [
+      "name — verbatim publisher string, never altered",
+      "aliases[] — verbatim publisher strings, never altered",
+      "jurisdiction, status, observedAt, license, licenseUrl, retrievedAt"
+    ]
+  },
+  "leakCheck": {
+    "scope": "every record in the corpus is masked",
+    "maskedRecords": 257,
+    "maskedIdentifiersSearchedFor": 258,
+    "occurrencesInMaskedRecords": 0,
+    "verdict": "CLEAN - no masked identifier reached extraction on the masked side",
+    "leaked": []
+  },
+  "counts": {
+    "records": 257,
+    "mentions": 257,
+    "entities": 257,
+    "aliases": 0,
+    "relationships": 0,
+    "positivePairs": 75,
+    "hardNegativePairs": 19,
+    "subjectsObservedMoreThanOnce": 75,
+    "graphCounts": {
+      "entitiesConsidered": 257,
+      "extractedRecordsConsidered": 2443,
+      "nodesByKind": {
+        "organisation": 257
+      },
+      "edgesByType": {}
+    },
+    "resolutionWarnings": 0
+  },
+  "metrics": {
+    "positivePairJoinRate": {
+      "n": 0,
+      "d": 75,
+      "pct": "0.0%"
+    },
+    "exactNameMatchRate": {
+      "n": 0,
+      "d": 75,
+      "pct": "0.0%"
+    },
+    "byteIdenticalNamePairs": {
+      "n": 0,
+      "d": 75,
+      "pct": "0.0%"
+    },
+    "aliasMatchRate": {
+      "n": 0,
+      "d": 107,
+      "pct": "0.0%"
+    },
+    "unresolvedRate": {
+      "n": 0,
+      "d": 257,
+      "pct": "0.0%"
+    },
+    "falseMergeRate": {
+      "n": 0,
+      "d": 257,
+      "pct": "0.0%"
+    },
+    "hardNegativeFalseMergeRate": {
+      "n": 0,
+      "d": 19,
+      "pct": "0.0%"
+    },
+    "fragmentationRate": {
+      "n": 75,
+      "d": 75,
+      "pct": "100.0%"
+    },
+    "provenanceCompleteness": {
+      "n": 2957,
+      "d": 2957,
+      "pct": "100.0%"
+    }
+  },
+  "tierB": {
+    "fired": false,
+    "firings": 0,
+    "exactNameMatch": 0,
+    "ambiguousNameConflict": 0,
+    "note": "Tier B can only match an identifier-less mention into a Tier-A cluster. Where no record carries an identifier there are no Tier-A clusters, so Tier B has nothing to match against and cannot fire however similar the names are."
+  },
+  "nameVariation": [
+    {
+      "variation": "identical",
+      "pairs": 0,
+      "joined": 0,
+      "failed": 0,
+      "failureRate": "n/a",
+      "cases": []
+    },
+    {
+      "variation": "case_only",
+      "pairs": 24,
+      "joined": 0,
+      "failed": 24,
+      "failureRate": "100.0%",
+      "cases": [
+        {
+          "pairId": "POS-007",
+          "gleif": "STATE BANK OF INDIA",
+          "wikidata": "State Bank of India",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-008",
+          "gleif": "STEEL AUTHORITY OF INDIA LIMITED",
+          "wikidata": "Steel Authority of India Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-011",
+          "gleif": "TEXTURE CLOTHING COMPANY",
+          "wikidata": "Texture Clothing Company",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-012",
+          "gleif": "MOSCHIP TECHNOLOGIES LIMITED",
+          "wikidata": "MosChip Technologies Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-013",
+          "gleif": "LAXCON STEELS LIMITED",
+          "wikidata": "Laxcon Steels Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-017",
+          "gleif": "ITC LIMITED",
+          "wikidata": "ITC Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-025",
+          "gleif": "BANK OF BARODA",
+          "wikidata": "Bank of Baroda",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-031",
+          "gleif": "INFOSYS LIMITED",
+          "wikidata": "Infosys limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-034",
+          "gleif": "DLF LIMITED",
+          "wikidata": "DLF Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-036",
+          "gleif": "BHARAT DYNAMICS LIMITED",
+          "wikidata": "Bharat Dynamics Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-037",
+          "gleif": "HINDUSTAN AERONAUTICS LIMITED",
+          "wikidata": "Hindustan Aeronautics Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-038",
+          "gleif": "BHARAT ELECTRONICS",
+          "wikidata": "Bharat Electronics",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-040",
+          "gleif": "VEDANTA LIMITED",
+          "wikidata": "Vedanta Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-041",
+          "gleif": "3I INFOTECH LIMITED",
+          "wikidata": "3i Infotech Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-042",
+          "gleif": "CUBIC CORPORATION",
+          "wikidata": "Cubic Corporation",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-044",
+          "gleif": "ENGINEERS INDIA LIMITED",
+          "wikidata": "Engineers India Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-049",
+          "gleif": "HINDUSTAN ZINC LIMITED",
+          "wikidata": "Hindustan Zinc Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-051",
+          "gleif": "INOX LEISURE LIMITED",
+          "wikidata": "INOX Leisure Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-054",
+          "gleif": "JAICO PUBLISHING HOUSE",
+          "wikidata": "Jaico Publishing House",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-056",
+          "gleif": "ACC LIMITED",
+          "wikidata": "ACC Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-063",
+          "gleif": "SBI LIFE INSURANCE COMPANY LIMITED",
+          "wikidata": "SBI Life Insurance Company Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-070",
+          "gleif": "BHARAT HEAVY ELECTRICALS LIMITED",
+          "wikidata": "Bharat Heavy Electricals Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-071",
+          "gleif": "RELIANCE INDUSTRIES LIMITED",
+          "wikidata": "Reliance Industries Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-073",
+          "gleif": "AVENUE E-COMMERCE LIMITED",
+          "wikidata": "Avenue E-Commerce Limited",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        }
+      ]
+    },
+    {
+      "variation": "transliteration",
+      "pairs": 1,
+      "joined": 0,
+      "failed": 1,
+      "failureRate": "100.0%",
+      "cases": [
+        {
+          "pairId": "POS-039",
+          "gleif": "日本ペイントホールディングス株式会社",
+          "wikidata": "Nippon Paint",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        }
+      ]
+    },
+    {
+      "variation": "punctuation_only",
+      "pairs": 0,
+      "joined": 0,
+      "failed": 0,
+      "failureRate": "n/a",
+      "cases": []
+    },
+    {
+      "variation": "spacing_only",
+      "pairs": 0,
+      "joined": 0,
+      "failed": 0,
+      "failureRate": "n/a",
+      "cases": []
+    },
+    {
+      "variation": "suffix",
+      "pairs": 29,
+      "joined": 0,
+      "failed": 29,
+      "failureRate": "100.0%",
+      "cases": [
+        {
+          "pairId": "POS-005",
+          "gleif": "COAL INDIA LIMITED",
+          "wikidata": "Coal India",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-014",
+          "gleif": "OIL AND NATURAL GAS CORPORATION LIMITED",
+          "wikidata": "Oil and Natural Gas Corporation",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-015",
+          "gleif": "HINDALCO INDUSTRIES LIMITED",
+          "wikidata": "Hindalco Industries",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-016",
+          "gleif": "ICICI BANK LIMITED",
+          "wikidata": "ICICI Bank",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-018",
+          "gleif": "EMCURE PHARMACEUTICALS LIMITED",
+          "wikidata": "Emcure Pharmaceuticals",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-021",
+          "gleif": "MAHANAGAR TELEPHONE NIGAM LIMITED",
+          "wikidata": "Mahanagar Telephone Nigam",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-024",
+          "gleif": "AXIS BANK LIMITED",
+          "wikidata": "Axis Bank",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-026",
+          "gleif": "KOTAK MAHINDRA BANK LIMITED",
+          "wikidata": "Kotak Mahindra Bank",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-027",
+          "gleif": "DHANLAXMI BANK LIMITED",
+          "wikidata": "Dhanlaxmi Bank",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-028",
+          "gleif": "TATA CHEMICALS LIMITED",
+          "wikidata": "Tata Chemicals",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-043",
+          "gleif": "DCB BANK LIMITED",
+          "wikidata": "DCB Bank",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-045",
+          "gleif": "FIITJEE LIMITED",
+          "wikidata": "FIITJEE",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-048",
+          "gleif": "HCL TECHNOLOGIES LIMITED",
+          "wikidata": "HCL Technologies",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-050",
+          "gleif": "HUSK POWER SYSTEMS PRIVATE LIMITED",
+          "wikidata": "Husk Power Systems",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-052",
+          "gleif": "HARPERCOLLINS PUBLISHERS INDIA PRIVATE LIMITED",
+          "wikidata": "HarperCollins Publishers India",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-053",
+          "gleif": "LUV FILMS LLP",
+          "wikidata": "Luv Films",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-055",
+          "gleif": "LARSEN & TOUBRO LIMITED",
+          "wikidata": "Larsen & Toubro",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-057",
+          "gleif": "APPLAUSE ENTERTAINMENT PRIVATE LIMITED",
+          "wikidata": "Applause Entertainment",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-058",
+          "gleif": "LIBERTY SHOES LIMITED",
+          "wikidata": "Liberty Shoes",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-059",
+          "gleif": "NATIONAL BULK HANDLING CORPORATION PRIVATE LIMITED",
+          "wikidata": "National Bulk Handling Corporation",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-060",
+          "gleif": "AIR INDIA LIMITED",
+          "wikidata": "Air India",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-061",
+          "gleif": "OBEROI REALTY LIMITED",
+          "wikidata": "Oberoi Realty",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-062",
+          "gleif": "ASHOK LEYLAND LIMITED",
+          "wikidata": "Ashok Leyland",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-066",
+          "gleif": "TATA STARBUCKS PRIVATE LIMITED",
+          "wikidata": "Tata Starbucks",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-067",
+          "gleif": "ULTRATECH CEMENT LIMITED",
+          "wikidata": "UltraTech Cement",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-068",
+          "gleif": "TATA CONSUMER PRODUCTS LIMITED",
+          "wikidata": "Tata Consumer Products",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-069",
+          "gleif": "MAHINDRA AND MAHINDRA LIMITED",
+          "wikidata": "Mahindra & Mahindra",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-072",
+          "gleif": "DR. REDDY'S LABORATORIES LIMITED",
+          "wikidata": "Dr. Reddy's Laboratories",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-075",
+          "gleif": "SKYROOT AEROSPACE PRIVATE LIMITED",
+          "wikidata": "Skyroot Aerospace",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        }
+      ]
+    },
+    {
+      "variation": "name_order",
+      "pairs": 0,
+      "joined": 0,
+      "failed": 0,
+      "failureRate": "n/a",
+      "cases": []
+    },
+    {
+      "variation": "abbreviation",
+      "pairs": 9,
+      "joined": 0,
+      "failed": 9,
+      "failureRate": "100.0%",
+      "cases": [
+        {
+          "pairId": "POS-002",
+          "gleif": "RAZORPAY SOFTWARE LIMITED",
+          "wikidata": "Razorpay",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-003",
+          "gleif": "ARIHANT PUBLICATIONS (INDIA) LIMITED",
+          "wikidata": "Arihant Publications",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-009",
+          "gleif": "HAIER APPLIANCES (INDIA) PRIVATE LIMITED",
+          "wikidata": "Haier India",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-010",
+          "gleif": "FLIPKART INDIA PRIVATE LIMITED",
+          "wikidata": "Flipkart",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-035",
+          "gleif": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
+          "wikidata": "Sun Pharmaceutical",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-047",
+          "gleif": "GVK POWER & INFRASTRUCTURE LIMITED",
+          "wikidata": "GVK",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-064",
+          "gleif": "ELSEVIER B.V.",
+          "wikidata": "Elsevier",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-065",
+          "gleif": "THE SUPREME INDUSTRIES LIMITED",
+          "wikidata": "Supreme Industries",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-074",
+          "gleif": "HACHETTE BOOK PUBLISHING INDIA PRIVATE LIMITED",
+          "wikidata": "Hachette India",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        }
+      ]
+    },
+    {
+      "variation": "divergent",
+      "pairs": 12,
+      "joined": 0,
+      "failed": 12,
+      "failureRate": "100.0%",
+      "cases": [
+        {
+          "pairId": "POS-001",
+          "gleif": "IIT-IAN'S PACE EDUCATION PRIVATE LIMITED",
+          "wikidata": "PACE IIT & Medical",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-004",
+          "gleif": "INNOFIN SOLUTIONS PRIVATE LIMITED",
+          "wikidata": "LenDenClub",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-006",
+          "gleif": "TRANSACTREE TECHNOLOGIES PRIVATE LIMITED",
+          "wikidata": "Lendbox",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-019",
+          "gleif": "LIVING MEDIA INDIA LIMITED",
+          "wikidata": "India Today Group",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-020",
+          "gleif": "EARLY MAKERS GROUP",
+          "wikidata": "Emlyon Business School",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-022",
+          "gleif": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+          "wikidata": "Tata Motors Ltd",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-023",
+          "gleif": "ULTRAVIOLET TECH PRIVATE LIMITED",
+          "wikidata": "Paytm",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-029",
+          "gleif": "SAKAL MEDIA PRIVATE LIMITED",
+          "wikidata": "Sakal Media Group",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-030",
+          "gleif": "ORAVEL STAYS LIMITED",
+          "wikidata": "OYO Rooms",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-032",
+          "gleif": "GATEWAY TECHNOLABS PRIVATE LIMITED",
+          "wikidata": "Gateway Group of Companies",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-033",
+          "gleif": "NEW DELHI TELEVISION LIMITED",
+          "wikidata": "NDTV",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        },
+        {
+          "pairId": "POS-046",
+          "gleif": "GMR AIRPORTS LIMITED",
+          "wikidata": "GMR Group",
+          "joined": false,
+          "wikidataResolution": "new_entity"
+        }
+      ]
+    }
+  ],
+  "resolutionTypeHistogram": {
+    "new_entity": 257
+  },
+  "failures": {
+    "positivePairsNotJoined": [
+      {
+        "pairId": "POS-001",
+        "variation": "divergent",
+        "gleif": "IIT-IAN'S PACE EDUCATION PRIVATE LIMITED",
+        "wikidata": "PACE IIT & Medical",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_f06207bc88cbd475e6d7",
+        "wikidataEntity": "entity_ff14a971f5a1898f8651"
+      },
+      {
+        "pairId": "POS-002",
+        "variation": "abbreviation",
+        "gleif": "RAZORPAY SOFTWARE LIMITED",
+        "wikidata": "Razorpay",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_c03f68c277ad7a3b9b81",
+        "wikidataEntity": "entity_d84a929bfa664020ae66"
+      },
+      {
+        "pairId": "POS-003",
+        "variation": "abbreviation",
+        "gleif": "ARIHANT PUBLICATIONS (INDIA) LIMITED",
+        "wikidata": "Arihant Publications",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_d98f2d153dfe6dc70c42",
+        "wikidataEntity": "entity_e1e6cc7eb379ef115249"
+      },
+      {
+        "pairId": "POS-004",
+        "variation": "divergent",
+        "gleif": "INNOFIN SOLUTIONS PRIVATE LIMITED",
+        "wikidata": "LenDenClub",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_f0f257bb50ac53f3a940",
+        "wikidataEntity": "entity_33ebb76d25a767b4c53a"
+      },
+      {
+        "pairId": "POS-005",
+        "variation": "suffix",
+        "gleif": "COAL INDIA LIMITED",
+        "wikidata": "Coal India",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_c33247e7c4aa604f76c2",
+        "wikidataEntity": "entity_57c9c38b0f4c249a22e6"
+      },
+      {
+        "pairId": "POS-006",
+        "variation": "divergent",
+        "gleif": "TRANSACTREE TECHNOLOGIES PRIVATE LIMITED",
+        "wikidata": "Lendbox",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_03831bbe27da8a203782",
+        "wikidataEntity": "entity_67dcfd1930b5d3ea7354"
+      },
+      {
+        "pairId": "POS-007",
+        "variation": "case_only",
+        "gleif": "STATE BANK OF INDIA",
+        "wikidata": "State Bank of India",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_19c9f233f197235953d8",
+        "wikidataEntity": "entity_92ed07db11852ae7b48e"
+      },
+      {
+        "pairId": "POS-008",
+        "variation": "case_only",
+        "gleif": "STEEL AUTHORITY OF INDIA LIMITED",
+        "wikidata": "Steel Authority of India Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_230130d3971fbb4492ba",
+        "wikidataEntity": "entity_4e4875f7f837829f185d"
+      },
+      {
+        "pairId": "POS-009",
+        "variation": "abbreviation",
+        "gleif": "HAIER APPLIANCES (INDIA) PRIVATE LIMITED",
+        "wikidata": "Haier India",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_d1279e7b31e75e8c0637",
+        "wikidataEntity": "entity_2fcbe107f85f5ae62e50"
+      },
+      {
+        "pairId": "POS-010",
+        "variation": "abbreviation",
+        "gleif": "FLIPKART INDIA PRIVATE LIMITED",
+        "wikidata": "Flipkart",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_8cb324718d75002db7a2",
+        "wikidataEntity": "entity_c1878fc90e881f1d28aa"
+      },
+      {
+        "pairId": "POS-011",
+        "variation": "case_only",
+        "gleif": "TEXTURE CLOTHING COMPANY",
+        "wikidata": "Texture Clothing Company",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_86fab550e6b44a37c98b",
+        "wikidataEntity": "entity_56fbb67f901c0ea5df9e"
+      },
+      {
+        "pairId": "POS-012",
+        "variation": "case_only",
+        "gleif": "MOSCHIP TECHNOLOGIES LIMITED",
+        "wikidata": "MosChip Technologies Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_dd01925cf21aba0feb89",
+        "wikidataEntity": "entity_df973f49045245645155"
+      },
+      {
+        "pairId": "POS-013",
+        "variation": "case_only",
+        "gleif": "LAXCON STEELS LIMITED",
+        "wikidata": "Laxcon Steels Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_518d34a3c9bba65d6be7",
+        "wikidataEntity": "entity_d14a7dcd5f4a618b0672"
+      },
+      {
+        "pairId": "POS-014",
+        "variation": "suffix",
+        "gleif": "OIL AND NATURAL GAS CORPORATION LIMITED",
+        "wikidata": "Oil and Natural Gas Corporation",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_d99e750bd721bea5605b",
+        "wikidataEntity": "entity_8e2cb81451881b748094"
+      },
+      {
+        "pairId": "POS-015",
+        "variation": "suffix",
+        "gleif": "HINDALCO INDUSTRIES LIMITED",
+        "wikidata": "Hindalco Industries",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_13eec49710e0217f1476",
+        "wikidataEntity": "entity_92f7594964a4a23a6af4"
+      },
+      {
+        "pairId": "POS-016",
+        "variation": "suffix",
+        "gleif": "ICICI BANK LIMITED",
+        "wikidata": "ICICI Bank",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_aff9178113ee59d36dd7",
+        "wikidataEntity": "entity_6b60dac639e47342fe88"
+      },
+      {
+        "pairId": "POS-017",
+        "variation": "case_only",
+        "gleif": "ITC LIMITED",
+        "wikidata": "ITC Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_40adf4e4346c2a890105",
+        "wikidataEntity": "entity_f07bf4be6ad31f6f712f"
+      },
+      {
+        "pairId": "POS-018",
+        "variation": "suffix",
+        "gleif": "EMCURE PHARMACEUTICALS LIMITED",
+        "wikidata": "Emcure Pharmaceuticals",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_c3c5bf001a6a83ec730f",
+        "wikidataEntity": "entity_bf1b31eb90a85f6c7a53"
+      },
+      {
+        "pairId": "POS-019",
+        "variation": "divergent",
+        "gleif": "LIVING MEDIA INDIA LIMITED",
+        "wikidata": "India Today Group",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_ee3414160bbd33a063d6",
+        "wikidataEntity": "entity_72266b9d966fd189abf4"
+      },
+      {
+        "pairId": "POS-020",
+        "variation": "divergent",
+        "gleif": "EARLY MAKERS GROUP",
+        "wikidata": "Emlyon Business School",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_264d17a12b1cee7ec3ad",
+        "wikidataEntity": "entity_741a27e96004be060455"
+      },
+      {
+        "pairId": "POS-021",
+        "variation": "suffix",
+        "gleif": "MAHANAGAR TELEPHONE NIGAM LIMITED",
+        "wikidata": "Mahanagar Telephone Nigam",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_35b800558d65ffa81783",
+        "wikidataEntity": "entity_3c02081ff9916556e6ce"
+      },
+      {
+        "pairId": "POS-022",
+        "variation": "divergent",
+        "gleif": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+        "wikidata": "Tata Motors Ltd",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_bc998f5e289d9691ede1",
+        "wikidataEntity": "entity_bb10f53d4d874ffb1e22"
+      },
+      {
+        "pairId": "POS-023",
+        "variation": "divergent",
+        "gleif": "ULTRAVIOLET TECH PRIVATE LIMITED",
+        "wikidata": "Paytm",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_e8820a724f59189c31a6",
+        "wikidataEntity": "entity_2dcd7e08835b8dc17561"
+      },
+      {
+        "pairId": "POS-024",
+        "variation": "suffix",
+        "gleif": "AXIS BANK LIMITED",
+        "wikidata": "Axis Bank",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_93f905c66de6980d53e6",
+        "wikidataEntity": "entity_b4d87dc1bf4d974273f9"
+      },
+      {
+        "pairId": "POS-025",
+        "variation": "case_only",
+        "gleif": "BANK OF BARODA",
+        "wikidata": "Bank of Baroda",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_b8192e8c7aefcdfbc13a",
+        "wikidataEntity": "entity_60d5fbaaa26d276b43ef"
+      },
+      {
+        "pairId": "POS-026",
+        "variation": "suffix",
+        "gleif": "KOTAK MAHINDRA BANK LIMITED",
+        "wikidata": "Kotak Mahindra Bank",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_d3c3e6604812af51f422",
+        "wikidataEntity": "entity_63015c63dc2aa09b55c8"
+      },
+      {
+        "pairId": "POS-027",
+        "variation": "suffix",
+        "gleif": "DHANLAXMI BANK LIMITED",
+        "wikidata": "Dhanlaxmi Bank",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_6fe99013cd9e5dab3b0e",
+        "wikidataEntity": "entity_e8c041066d74ad197c3b"
+      },
+      {
+        "pairId": "POS-028",
+        "variation": "suffix",
+        "gleif": "TATA CHEMICALS LIMITED",
+        "wikidata": "Tata Chemicals",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_9c4ace42f04fbe55a6c1",
+        "wikidataEntity": "entity_bc3c13024f12447e2dcb"
+      },
+      {
+        "pairId": "POS-029",
+        "variation": "divergent",
+        "gleif": "SAKAL MEDIA PRIVATE LIMITED",
+        "wikidata": "Sakal Media Group",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_11ae1c092f40de0fca33",
+        "wikidataEntity": "entity_70f7e50ee25f9fa8439c"
+      },
+      {
+        "pairId": "POS-030",
+        "variation": "divergent",
+        "gleif": "ORAVEL STAYS LIMITED",
+        "wikidata": "OYO Rooms",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_3eba058b98b1684b93b0",
+        "wikidataEntity": "entity_b5e90f561b1b39551c8b"
+      },
+      {
+        "pairId": "POS-031",
+        "variation": "case_only",
+        "gleif": "INFOSYS LIMITED",
+        "wikidata": "Infosys limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_a4d8ca7ecb14a0e8ce50",
+        "wikidataEntity": "entity_6056831af6dcf843c9ec"
+      },
+      {
+        "pairId": "POS-032",
+        "variation": "divergent",
+        "gleif": "GATEWAY TECHNOLABS PRIVATE LIMITED",
+        "wikidata": "Gateway Group of Companies",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_8c1168513456117143fa",
+        "wikidataEntity": "entity_bb0a5d711a7db4ba4d91"
+      },
+      {
+        "pairId": "POS-033",
+        "variation": "divergent",
+        "gleif": "NEW DELHI TELEVISION LIMITED",
+        "wikidata": "NDTV",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_a93529b604f4b5c2c65c",
+        "wikidataEntity": "entity_4f1d062b3eda16a1b8e3"
+      },
+      {
+        "pairId": "POS-034",
+        "variation": "case_only",
+        "gleif": "DLF LIMITED",
+        "wikidata": "DLF Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_72bd811ef01c3a83e9d7",
+        "wikidataEntity": "entity_e159d16b9f445c6561e9"
+      },
+      {
+        "pairId": "POS-035",
+        "variation": "abbreviation",
+        "gleif": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
+        "wikidata": "Sun Pharmaceutical",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_75220fda97a6c8a070d7",
+        "wikidataEntity": "entity_10fdca255099b5b128bd"
+      },
+      {
+        "pairId": "POS-036",
+        "variation": "case_only",
+        "gleif": "BHARAT DYNAMICS LIMITED",
+        "wikidata": "Bharat Dynamics Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_349173257cb7ca85ce9b",
+        "wikidataEntity": "entity_a6c8e751095c8b7bf727"
+      },
+      {
+        "pairId": "POS-037",
+        "variation": "case_only",
+        "gleif": "HINDUSTAN AERONAUTICS LIMITED",
+        "wikidata": "Hindustan Aeronautics Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_e763f35b96802ff6bdd1",
+        "wikidataEntity": "entity_9f232f6457d9697b655a"
+      },
+      {
+        "pairId": "POS-038",
+        "variation": "case_only",
+        "gleif": "BHARAT ELECTRONICS",
+        "wikidata": "Bharat Electronics",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_9161448b839fff9c7ad9",
+        "wikidataEntity": "entity_f541c679c2bc4963e0bd"
+      },
+      {
+        "pairId": "POS-039",
+        "variation": "transliteration",
+        "gleif": "日本ペイントホールディングス株式会社",
+        "wikidata": "Nippon Paint",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_9ed2cb751664ea4dfd3b",
+        "wikidataEntity": "entity_08bd1a8f090d4817c182"
+      },
+      {
+        "pairId": "POS-040",
+        "variation": "case_only",
+        "gleif": "VEDANTA LIMITED",
+        "wikidata": "Vedanta Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_315ea76e83bb9d081b7f",
+        "wikidataEntity": "entity_61340c41bc3d1d3861ed"
+      },
+      {
+        "pairId": "POS-041",
+        "variation": "case_only",
+        "gleif": "3I INFOTECH LIMITED",
+        "wikidata": "3i Infotech Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_2e8f2f02a1c76dcb8183",
+        "wikidataEntity": "entity_8416932ed210893e2fd7"
+      },
+      {
+        "pairId": "POS-042",
+        "variation": "case_only",
+        "gleif": "CUBIC CORPORATION",
+        "wikidata": "Cubic Corporation",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_224842fbdc73f3cc666d",
+        "wikidataEntity": "entity_e45e79a62f9cb09ec461"
+      },
+      {
+        "pairId": "POS-043",
+        "variation": "suffix",
+        "gleif": "DCB BANK LIMITED",
+        "wikidata": "DCB Bank",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_2ba61d3b529c43a78d8d",
+        "wikidataEntity": "entity_91ec4fd5e8083c212ae6"
+      },
+      {
+        "pairId": "POS-044",
+        "variation": "case_only",
+        "gleif": "ENGINEERS INDIA LIMITED",
+        "wikidata": "Engineers India Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_0fa2648f917a6c43e686",
+        "wikidataEntity": "entity_c2e2a46598a477a0b15f"
+      },
+      {
+        "pairId": "POS-045",
+        "variation": "suffix",
+        "gleif": "FIITJEE LIMITED",
+        "wikidata": "FIITJEE",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_12d342dd74f93f86d936",
+        "wikidataEntity": "entity_ee852db1b11ea1063670"
+      },
+      {
+        "pairId": "POS-046",
+        "variation": "divergent",
+        "gleif": "GMR AIRPORTS LIMITED",
+        "wikidata": "GMR Group",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_ff15f9841530ccd2d1ef",
+        "wikidataEntity": "entity_3171c1ad5966e29346b0"
+      },
+      {
+        "pairId": "POS-047",
+        "variation": "abbreviation",
+        "gleif": "GVK POWER & INFRASTRUCTURE LIMITED",
+        "wikidata": "GVK",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_5fdf3e533e1d61db7927",
+        "wikidataEntity": "entity_76e270f7c41079a15939"
+      },
+      {
+        "pairId": "POS-048",
+        "variation": "suffix",
+        "gleif": "HCL TECHNOLOGIES LIMITED",
+        "wikidata": "HCL Technologies",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_b2db61d0eca0982e33b7",
+        "wikidataEntity": "entity_6bd1a39ca3fa922fbe12"
+      },
+      {
+        "pairId": "POS-049",
+        "variation": "case_only",
+        "gleif": "HINDUSTAN ZINC LIMITED",
+        "wikidata": "Hindustan Zinc Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_4ccf6118b1cc6f33f813",
+        "wikidataEntity": "entity_b26ed611d92b70627199"
+      },
+      {
+        "pairId": "POS-050",
+        "variation": "suffix",
+        "gleif": "HUSK POWER SYSTEMS PRIVATE LIMITED",
+        "wikidata": "Husk Power Systems",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_dde267a3c1e98e64ca05",
+        "wikidataEntity": "entity_0e9a1ab8cbac26e6a16a"
+      },
+      {
+        "pairId": "POS-051",
+        "variation": "case_only",
+        "gleif": "INOX LEISURE LIMITED",
+        "wikidata": "INOX Leisure Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_7e13d4b7c5116961eb2c",
+        "wikidataEntity": "entity_4958ac0a388dd4d0b609"
+      },
+      {
+        "pairId": "POS-052",
+        "variation": "suffix",
+        "gleif": "HARPERCOLLINS PUBLISHERS INDIA PRIVATE LIMITED",
+        "wikidata": "HarperCollins Publishers India",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_253e74c5b57aff59aff6",
+        "wikidataEntity": "entity_312e79ad96fa79dac646"
+      },
+      {
+        "pairId": "POS-053",
+        "variation": "suffix",
+        "gleif": "LUV FILMS LLP",
+        "wikidata": "Luv Films",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_230028621e30cba380b1",
+        "wikidataEntity": "entity_7c2874e84312f45b7c96"
+      },
+      {
+        "pairId": "POS-054",
+        "variation": "case_only",
+        "gleif": "JAICO PUBLISHING HOUSE",
+        "wikidata": "Jaico Publishing House",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_35e78790c8a3527eeddf",
+        "wikidataEntity": "entity_42edba4597d696c0d68b"
+      },
+      {
+        "pairId": "POS-055",
+        "variation": "suffix",
+        "gleif": "LARSEN & TOUBRO LIMITED",
+        "wikidata": "Larsen & Toubro",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_e415bd74e73c2eb34037",
+        "wikidataEntity": "entity_f4e89fa44f5656f26c18"
+      },
+      {
+        "pairId": "POS-056",
+        "variation": "case_only",
+        "gleif": "ACC LIMITED",
+        "wikidata": "ACC Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_406edd06f57e4606ab61",
+        "wikidataEntity": "entity_6abd553d251da755b989"
+      },
+      {
+        "pairId": "POS-057",
+        "variation": "suffix",
+        "gleif": "APPLAUSE ENTERTAINMENT PRIVATE LIMITED",
+        "wikidata": "Applause Entertainment",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_04c66c9ff3c73c64f949",
+        "wikidataEntity": "entity_b16fc9ddd2078d476e6e"
+      },
+      {
+        "pairId": "POS-058",
+        "variation": "suffix",
+        "gleif": "LIBERTY SHOES LIMITED",
+        "wikidata": "Liberty Shoes",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_88a18e4e6a09c8f72ea1",
+        "wikidataEntity": "entity_3035c6e12a822a901538"
+      },
+      {
+        "pairId": "POS-059",
+        "variation": "suffix",
+        "gleif": "NATIONAL BULK HANDLING CORPORATION PRIVATE LIMITED",
+        "wikidata": "National Bulk Handling Corporation",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_ab2b577e8b042a0b0c47",
+        "wikidataEntity": "entity_a52ef851554b22bdcbbf"
+      },
+      {
+        "pairId": "POS-060",
+        "variation": "suffix",
+        "gleif": "AIR INDIA LIMITED",
+        "wikidata": "Air India",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_f0f7bdda748793859b11",
+        "wikidataEntity": "entity_b19b1b355725d3951ef6"
+      },
+      {
+        "pairId": "POS-061",
+        "variation": "suffix",
+        "gleif": "OBEROI REALTY LIMITED",
+        "wikidata": "Oberoi Realty",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_a9a3da0e5974421779bc",
+        "wikidataEntity": "entity_3b9e94e73299353dbe94"
+      },
+      {
+        "pairId": "POS-062",
+        "variation": "suffix",
+        "gleif": "ASHOK LEYLAND LIMITED",
+        "wikidata": "Ashok Leyland",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_5e0e87aff64c9d17a309",
+        "wikidataEntity": "entity_f5fa83ffb3113691aa41"
+      },
+      {
+        "pairId": "POS-063",
+        "variation": "case_only",
+        "gleif": "SBI LIFE INSURANCE COMPANY LIMITED",
+        "wikidata": "SBI Life Insurance Company Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_9a933f715edfd094524a",
+        "wikidataEntity": "entity_cbeb4b5ccb41d21ed6f3"
+      },
+      {
+        "pairId": "POS-064",
+        "variation": "abbreviation",
+        "gleif": "ELSEVIER B.V.",
+        "wikidata": "Elsevier",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_97973f7e73cb4714b868",
+        "wikidataEntity": "entity_05fc0e460d6464deb07c"
+      },
+      {
+        "pairId": "POS-065",
+        "variation": "abbreviation",
+        "gleif": "THE SUPREME INDUSTRIES LIMITED",
+        "wikidata": "Supreme Industries",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_1937377f512a46ac91ac",
+        "wikidataEntity": "entity_40ea40afafdff6ac9f1b"
+      },
+      {
+        "pairId": "POS-066",
+        "variation": "suffix",
+        "gleif": "TATA STARBUCKS PRIVATE LIMITED",
+        "wikidata": "Tata Starbucks",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_4c39d70e9f8604dff7e5",
+        "wikidataEntity": "entity_8194fa0fb72d1c4bf5f6"
+      },
+      {
+        "pairId": "POS-067",
+        "variation": "suffix",
+        "gleif": "ULTRATECH CEMENT LIMITED",
+        "wikidata": "UltraTech Cement",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_69fedb92fb169ca81eb8",
+        "wikidataEntity": "entity_bc385fb0d078a82ca1e6"
+      },
+      {
+        "pairId": "POS-068",
+        "variation": "suffix",
+        "gleif": "TATA CONSUMER PRODUCTS LIMITED",
+        "wikidata": "Tata Consumer Products",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_5d708073d4637b96104f",
+        "wikidataEntity": "entity_8f7589ac55fb55684064"
+      },
+      {
+        "pairId": "POS-069",
+        "variation": "suffix",
+        "gleif": "MAHINDRA AND MAHINDRA LIMITED",
+        "wikidata": "Mahindra & Mahindra",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_dc6774018e16d39f988f",
+        "wikidataEntity": "entity_4d2c7f586d3dcb01a900"
+      },
+      {
+        "pairId": "POS-070",
+        "variation": "case_only",
+        "gleif": "BHARAT HEAVY ELECTRICALS LIMITED",
+        "wikidata": "Bharat Heavy Electricals Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_59439bec93bd7c624dee",
+        "wikidataEntity": "entity_d15b7704dcbaa8858485"
+      },
+      {
+        "pairId": "POS-071",
+        "variation": "case_only",
+        "gleif": "RELIANCE INDUSTRIES LIMITED",
+        "wikidata": "Reliance Industries Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_e1043e7f01f042f09c22",
+        "wikidataEntity": "entity_0be2edc074675a319c30"
+      },
+      {
+        "pairId": "POS-072",
+        "variation": "suffix",
+        "gleif": "DR. REDDY'S LABORATORIES LIMITED",
+        "wikidata": "Dr. Reddy's Laboratories",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_d4de3d456255f47b6e37",
+        "wikidataEntity": "entity_e938f2db99785578f3c4"
+      },
+      {
+        "pairId": "POS-073",
+        "variation": "case_only",
+        "gleif": "AVENUE E-COMMERCE LIMITED",
+        "wikidata": "Avenue E-Commerce Limited",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_ca20fe26fc876c97c5d7",
+        "wikidataEntity": "entity_32d431edfa3538244c5c"
+      },
+      {
+        "pairId": "POS-074",
+        "variation": "abbreviation",
+        "gleif": "HACHETTE BOOK PUBLISHING INDIA PRIVATE LIMITED",
+        "wikidata": "Hachette India",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_e544a4fad32a29ef75a8",
+        "wikidataEntity": "entity_a558e43dcc78f96ad501"
+      },
+      {
+        "pairId": "POS-075",
+        "variation": "suffix",
+        "gleif": "SKYROOT AEROSPACE PRIVATE LIMITED",
+        "wikidata": "Skyroot Aerospace",
+        "wikidataResolution": "new_entity",
+        "gleifResolution": "new_entity",
+        "gleifEntity": "entity_90e4616a7cf3770584d5",
+        "wikidataEntity": "entity_10000a590f3ca3198871"
+      }
+    ],
+    "hardNegativesFalselyMerged": [],
+    "hardNegativesHeldApart": [
+      {
+        "pairId": "NEG-001",
+        "basis": "shared_leading_token",
+        "aName": "BHARAT HEAVY ELECTRICALS LIMITED",
+        "bName": "BHARAT DYNAMICS LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-002",
+        "basis": "shared_leading_token",
+        "aName": "BHARAT HEAVY ELECTRICALS LIMITED",
+        "bName": "BHARAT ELECTRONICS",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-003",
+        "basis": "shared_leading_token",
+        "aName": "NAVNEET PRAKASHAN KENDRA",
+        "bName": "NAVNEET EDUCATION LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-004",
+        "basis": "shared_leading_token",
+        "aName": "HINDUSTAN AERONAUTICS LIMITED",
+        "bName": "HINDUSTAN ZINC LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-005",
+        "basis": "shared_leading_token",
+        "aName": "BHARAT DYNAMICS LIMITED",
+        "bName": "BHARAT ELECTRONICS",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-006",
+        "basis": "shared_leading_token",
+        "aName": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+        "bName": "TATA STARBUCKS PRIVATE LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-007",
+        "basis": "shared_leading_token",
+        "aName": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+        "bName": "TATA CHEMICALS LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-008",
+        "basis": "shared_leading_token",
+        "aName": "TATA MOTORS PASSENGER VEHICLES LIMITED",
+        "bName": "TATA CONSUMER PRODUCTS LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-009",
+        "basis": "shared_leading_token",
+        "aName": "TATA STARBUCKS PRIVATE LIMITED",
+        "bName": "TATA CHEMICALS LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-010",
+        "basis": "shared_leading_token",
+        "aName": "TATA STARBUCKS PRIVATE LIMITED",
+        "bName": "TATA CONSUMER PRODUCTS LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-011",
+        "basis": "shared_leading_token",
+        "aName": "TATA CHEMICALS LIMITED",
+        "bName": "TATA CONSUMER PRODUCTS LIMITED",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-012",
+        "basis": "shared_leading_token",
+        "aName": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
+        "bName": "SUN PARADISE",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-013",
+        "basis": "token_subset",
+        "aName": "BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+        "bName": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+        "variation": "abbreviation",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-014",
+        "basis": "shared_leading_token",
+        "aName": "JAY MAA VAISHNAVI RICE MILL PRIVATE LIMITED",
+        "bName": "JAY AMBE STEEL PROFILE CUTTING CO",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-015",
+        "basis": "shared_leading_token",
+        "aName": "SHREE KRISHNA RMC AND STRUCTURE",
+        "bName": "SHREE D B GOLD",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-016",
+        "basis": "shared_leading_token",
+        "aName": "RAJ SUNIL WADHWA",
+        "bName": "RAJ AUTOLINK",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-017",
+        "basis": "shared_leading_token",
+        "aName": "M/s Maharashtra Fruit Co",
+        "bName": "M/S SRI PADHMA CONSTRUCTIONS",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-018",
+        "basis": "shared_leading_token",
+        "aName": "Carnelian Structural Shifts Fund Series II",
+        "bName": "Carnelian Bharat AmritKaal Fund 3",
+        "variation": "divergent",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      },
+      {
+        "pairId": "NEG-019",
+        "basis": "conflated_by_third_party",
+        "aName": "Публичное акционерное общество \"Юнипро\"",
+        "bName": "UNIPRO",
+        "variation": "transliteration",
+        "falselyMerged": false,
+        "aStatus": "resolved",
+        "bStatus": "resolved"
+      }
+    ],
+    "corpusWideFalseMerges": [],
+    "fragmentedSubjects": [
+      {
+        "subject": "LEI:3358001BZKWERVWYCK35",
+        "entities": [
+          "entity_5e0e87aff64c9d17a309",
+          "entity_f5fa83ffb3113691aa41"
+        ]
+      },
+      {
+        "subject": "LEI:3358003B573EV4KB4Z02",
+        "entities": [
+          "entity_dc6774018e16d39f988f",
+          "entity_4d2c7f586d3dcb01a900"
+        ]
+      },
+      {
+        "subject": "LEI:3358003FR3JIC5FRXA90",
+        "entities": [
+          "entity_e415bd74e73c2eb34037",
+          "entity_f4e89fa44f5656f26c18"
+        ]
+      },
+      {
+        "subject": "LEI:3358003MFE3SZHBXNS20",
+        "entities": [
+          "entity_253e74c5b57aff59aff6",
+          "entity_312e79ad96fa79dac646"
+        ]
+      },
+      {
+        "subject": "LEI:33580047Q2XHGIB4Q674",
+        "entities": [
+          "entity_12d342dd74f93f86d936",
+          "entity_ee852db1b11ea1063670"
+        ]
+      },
+      {
+        "subject": "LEI:3358004LVIZ8H3SVNB07",
+        "entities": [
+          "entity_a93529b604f4b5c2c65c",
+          "entity_4f1d062b3eda16a1b8e3"
+        ]
+      },
+      {
+        "subject": "LEI:335800569A6H12LH4677",
+        "entities": [
+          "entity_406edd06f57e4606ab61",
+          "entity_6abd553d251da755b989"
+        ]
+      },
+      {
+        "subject": "LEI:3358006EZJ631EWWDZ23",
+        "entities": [
+          "entity_ab2b577e8b042a0b0c47",
+          "entity_a52ef851554b22bdcbbf"
+        ]
+      },
+      {
+        "subject": "LEI:3358007X5FQ2R445Z747",
+        "entities": [
+          "entity_59439bec93bd7c624dee",
+          "entity_d15b7704dcbaa8858485"
+        ]
+      },
+      {
+        "subject": "LEI:33580081I62J4X9YQU93",
+        "entities": [
+          "entity_d1279e7b31e75e8c0637",
+          "entity_2fcbe107f85f5ae62e50"
+        ]
+      },
+      {
+        "subject": "LEI:3358008S2MTRWZ255P70",
+        "entities": [
+          "entity_ff15f9841530ccd2d1ef",
+          "entity_3171c1ad5966e29346b0"
+        ]
+      },
+      {
+        "subject": "LEI:33580094NA85GD34LN25",
+        "entities": [
+          "entity_1937377f512a46ac91ac",
+          "entity_40ea40afafdff6ac9f1b"
+        ]
+      },
+      {
+        "subject": "LEI:335800AKDC7T933T3I86",
+        "entities": [
+          "entity_e763f35b96802ff6bdd1",
+          "entity_9f232f6457d9697b655a"
+        ]
+      },
+      {
+        "subject": "LEI:335800B99NHE5ZGSGR16",
+        "entities": [
+          "entity_349173257cb7ca85ce9b",
+          "entity_a6c8e751095c8b7bf727"
+        ]
+      },
+      {
+        "subject": "LEI:335800BO2LHWJJ8TZI32",
+        "entities": [
+          "entity_bc998f5e289d9691ede1",
+          "entity_bb10f53d4d874ffb1e22"
+        ]
+      },
+      {
+        "subject": "LEI:335800C1B2T9BM5ILM48",
+        "entities": [
+          "entity_4c39d70e9f8604dff7e5",
+          "entity_8194fa0fb72d1c4bf5f6"
+        ]
+      },
+      {
+        "subject": "LEI:335800CKSGJELHJHQ768",
+        "entities": [
+          "entity_6fe99013cd9e5dab3b0e",
+          "entity_e8c041066d74ad197c3b"
+        ]
+      },
+      {
+        "subject": "LEI:335800D8QCOQANG91D62",
+        "entities": [
+          "entity_0fa2648f917a6c43e686",
+          "entity_c2e2a46598a477a0b15f"
+        ]
+      },
+      {
+        "subject": "LEI:335800E6GTTXKHXE2I75",
+        "entities": [
+          "entity_d3c3e6604812af51f422",
+          "entity_63015c63dc2aa09b55c8"
+        ]
+      },
+      {
+        "subject": "LEI:335800ETU8AXQNSOMA46",
+        "entities": [
+          "entity_518d34a3c9bba65d6be7",
+          "entity_d14a7dcd5f4a618b0672"
+        ]
+      },
+      {
+        "subject": "LEI:335800EUJ3PFW1W1IW19",
+        "entities": [
+          "entity_35e78790c8a3527eeddf",
+          "entity_42edba4597d696c0d68b"
+        ]
+      },
+      {
+        "subject": "LEI:335800FPDZ9MRSNO7N41",
+        "entities": [
+          "entity_d99e750bd721bea5605b",
+          "entity_8e2cb81451881b748094"
+        ]
+      },
+      {
+        "subject": "LEI:335800H6MURUA6FBOW17",
+        "entities": [
+          "entity_9c4ace42f04fbe55a6c1",
+          "entity_bc3c13024f12447e2dcb"
+        ]
+      },
+      {
+        "subject": "LEI:335800HIBW96STL9XW37",
+        "entities": [
+          "entity_11ae1c092f40de0fca33",
+          "entity_70f7e50ee25f9fa8439c"
+        ]
+      },
+      {
+        "subject": "LEI:335800I2TBDZ63LIVM40",
+        "entities": [
+          "entity_e8820a724f59189c31a6",
+          "entity_2dcd7e08835b8dc17561"
+        ]
+      },
+      {
+        "subject": "LEI:335800ILXPCOFAHC5V79",
+        "entities": [
+          "entity_8cb324718d75002db7a2",
+          "entity_c1878fc90e881f1d28aa"
+        ]
+      },
+      {
+        "subject": "LEI:335800KJ7GE29LB4SS73",
+        "entities": [
+          "entity_75220fda97a6c8a070d7",
+          "entity_10fdca255099b5b128bd"
+        ]
+      },
+      {
+        "subject": "LEI:335800KWUEXYN8QDIF86",
+        "entities": [
+          "entity_03831bbe27da8a203782",
+          "entity_67dcfd1930b5d3ea7354"
+        ]
+      },
+      {
+        "subject": "LEI:335800KXLE5NO5B4GF90",
+        "entities": [
+          "entity_13eec49710e0217f1476",
+          "entity_92f7594964a4a23a6af4"
+        ]
+      },
+      {
+        "subject": "LEI:335800LB39TLJ8YTWM98",
+        "entities": [
+          "entity_4ccf6118b1cc6f33f813",
+          "entity_b26ed611d92b70627199"
+        ]
+      },
+      {
+        "subject": "LEI:335800LOXFWU8ZQJMD12",
+        "entities": [
+          "entity_5d708073d4637b96104f",
+          "entity_8f7589ac55fb55684064"
+        ]
+      },
+      {
+        "subject": "LEI:335800MKYUNN6M42G374",
+        "entities": [
+          "entity_230028621e30cba380b1",
+          "entity_7c2874e84312f45b7c96"
+        ]
+      },
+      {
+        "subject": "LEI:335800MPTXBI8YNP7245",
+        "entities": [
+          "entity_c03f68c277ad7a3b9b81",
+          "entity_d84a929bfa664020ae66"
+        ]
+      },
+      {
+        "subject": "LEI:335800MUDR3QNJWHM727",
+        "entities": [
+          "entity_86fab550e6b44a37c98b",
+          "entity_56fbb67f901c0ea5df9e"
+        ]
+      },
+      {
+        "subject": "LEI:335800NLJQZNHM9LBB31",
+        "entities": [
+          "entity_c33247e7c4aa604f76c2",
+          "entity_57c9c38b0f4c249a22e6"
+        ]
+      },
+      {
+        "subject": "LEI:335800OVDPY3DVZR2798",
+        "entities": [
+          "entity_d4de3d456255f47b6e37",
+          "entity_e938f2db99785578f3c4"
+        ]
+      },
+      {
+        "subject": "LEI:335800PBD2MJ1IMW5380",
+        "entities": [
+          "entity_7e13d4b7c5116961eb2c",
+          "entity_4958ac0a388dd4d0b609"
+        ]
+      },
+      {
+        "subject": "LEI:335800PC9O9B4BQHG814",
+        "entities": [
+          "entity_69fedb92fb169ca81eb8",
+          "entity_bc385fb0d078a82ca1e6"
+        ]
+      },
+      {
+        "subject": "LEI:335800PJJNVIIZQTUN94",
+        "entities": [
+          "entity_3eba058b98b1684b93b0",
+          "entity_b5e90f561b1b39551c8b"
+        ]
+      },
+      {
+        "subject": "LEI:335800PJLUEOB8914F48",
+        "entities": [
+          "entity_72bd811ef01c3a83e9d7",
+          "entity_e159d16b9f445c6561e9"
+        ]
+      },
+      {
+        "subject": "LEI:335800R4TVW8X7PE7H88",
+        "entities": [
+          "entity_88a18e4e6a09c8f72ea1",
+          "entity_3035c6e12a822a901538"
+        ]
+      },
+      {
+        "subject": "LEI:335800SB4EYU1F7N9Q09",
+        "entities": [
+          "entity_f0f7bdda748793859b11",
+          "entity_b19b1b355725d3951ef6"
+        ]
+      },
+      {
+        "subject": "LEI:335800TCKG1XQXN51L44",
+        "entities": [
+          "entity_a9a3da0e5974421779bc",
+          "entity_3b9e94e73299353dbe94"
+        ]
+      },
+      {
+        "subject": "LEI:335800TYLGG93MM7PR89",
+        "entities": [
+          "entity_a4d8ca7ecb14a0e8ce50",
+          "entity_6056831af6dcf843c9ec"
+        ]
+      },
+      {
+        "subject": "LEI:335800U55VUJQV4IYW95",
+        "entities": [
+          "entity_ee3414160bbd33a063d6",
+          "entity_72266b9d966fd189abf4"
+        ]
+      },
+      {
+        "subject": "LEI:335800UZ9C7WGVIYHR69",
+        "entities": [
+          "entity_8c1168513456117143fa",
+          "entity_bb0a5d711a7db4ba4d91"
+        ]
+      },
+      {
+        "subject": "LEI:335800VXARLM7IJ93W69",
+        "entities": [
+          "entity_5fdf3e533e1d61db7927",
+          "entity_76e270f7c41079a15939"
+        ]
+      },
+      {
+        "subject": "LEI:335800WLOU3OFWFTMP43",
+        "entities": [
+          "entity_40adf4e4346c2a890105",
+          "entity_f07bf4be6ad31f6f712f"
+        ]
+      },
+      {
+        "subject": "LEI:335800WMVIESQUO95586",
+        "entities": [
+          "entity_9a933f715edfd094524a",
+          "entity_cbeb4b5ccb41d21ed6f3"
+        ]
+      },
+      {
+        "subject": "LEI:335800WPNZ3ELJCQ3U26",
+        "entities": [
+          "entity_35b800558d65ffa81783",
+          "entity_3c02081ff9916556e6ce"
+        ]
+      },
+      {
+        "subject": "LEI:335800WYB6OIBY9EOZ42",
+        "entities": [
+          "entity_c3c5bf001a6a83ec730f",
+          "entity_bf1b31eb90a85f6c7a53"
+        ]
+      },
+      {
+        "subject": "LEI:335800XDKX9KB5EMCO07",
+        "entities": [
+          "entity_315ea76e83bb9d081b7f",
+          "entity_61340c41bc3d1d3861ed"
+        ]
+      },
+      {
+        "subject": "LEI:335800Y97SQ94Z8WZU51",
+        "entities": [
+          "entity_04c66c9ff3c73c64f949",
+          "entity_b16fc9ddd2078d476e6e"
+        ]
+      },
+      {
+        "subject": "LEI:335800YF9JYCEREZRH90",
+        "entities": [
+          "entity_f06207bc88cbd475e6d7",
+          "entity_ff14a971f5a1898f8651"
+        ]
+      },
+      {
+        "subject": "LEI:335800YRLRO5AUJCZA23",
+        "entities": [
+          "entity_2e8f2f02a1c76dcb8183",
+          "entity_8416932ed210893e2fd7"
+        ]
+      },
+      {
+        "subject": "LEI:335800ZJXMF183ZCQI90",
+        "entities": [
+          "entity_230130d3971fbb4492ba",
+          "entity_4e4875f7f837829f185d"
+        ]
+      },
+      {
+        "subject": "LEI:529900RYRJUN78A7PL87",
+        "entities": [
+          "entity_9ed2cb751664ea4dfd3b",
+          "entity_08bd1a8f090d4817c182"
+        ]
+      },
+      {
+        "subject": "LEI:5493001JZ37UBBZF6L49",
+        "entities": [
+          "entity_19c9f233f197235953d8",
+          "entity_92ed07db11852ae7b48e"
+        ]
+      },
+      {
+        "subject": "LEI:5493003UOETFYRONLG31",
+        "entities": [
+          "entity_e1043e7f01f042f09c22",
+          "entity_0be2edc074675a319c30"
+        ]
+      },
+      {
+        "subject": "LEI:549300C1F8OLYSOQYB65",
+        "entities": [
+          "entity_b2db61d0eca0982e33b7",
+          "entity_6bd1a39ca3fa922fbe12"
+        ]
+      },
+      {
+        "subject": "LEI:549300CK8SNXO0RB7F13",
+        "entities": [
+          "entity_97973f7e73cb4714b868",
+          "entity_05fc0e460d6464deb07c"
+        ]
+      },
+      {
+        "subject": "LEI:549300CQ6M9Q0TJEZR23",
+        "entities": [
+          "entity_b8192e8c7aefcdfbc13a",
+          "entity_60d5fbaaa26d276b43ef"
+        ]
+      },
+      {
+        "subject": "LEI:549300HLUOQ4ZGINVI30",
+        "entities": [
+          "entity_2ba61d3b529c43a78d8d",
+          "entity_91ec4fd5e8083c212ae6"
+        ]
+      },
+      {
+        "subject": "LEI:549300HVNWMJPOFVNI41",
+        "entities": [
+          "entity_93f905c66de6980d53e6",
+          "entity_b4d87dc1bf4d974273f9"
+        ]
+      },
+      {
+        "subject": "LEI:6HHLXIOGCDNZ4IRAIW26",
+        "entities": [
+          "entity_224842fbdc73f3cc666d",
+          "entity_e45e79a62f9cb09ec461"
+        ]
+      },
+      {
+        "subject": "LEI:894500I8J9UE5PY4Y545",
+        "entities": [
+          "entity_ca20fe26fc876c97c5d7",
+          "entity_32d431edfa3538244c5c"
+        ]
+      },
+      {
+        "subject": "LEI:894500J5N0WGEPW6ML53",
+        "entities": [
+          "entity_90e4616a7cf3770584d5",
+          "entity_10000a590f3ca3198871"
+        ]
+      },
+      {
+        "subject": "LEI:9695001HW2J8HYBLXG74",
+        "entities": [
+          "entity_264d17a12b1cee7ec3ad",
+          "entity_741a27e96004be060455"
+        ]
+      },
+      {
+        "subject": "LEI:984500057K39B9F74039",
+        "entities": [
+          "entity_d98f2d153dfe6dc70c42",
+          "entity_e1e6cc7eb379ef115249"
+        ]
+      },
+      {
+        "subject": "LEI:98450007D9D76C85F165",
+        "entities": [
+          "entity_f0f257bb50ac53f3a940",
+          "entity_33ebb76d25a767b4c53a"
+        ]
+      },
+      {
+        "subject": "LEI:98450068455BFC02DJ88",
+        "entities": [
+          "entity_e544a4fad32a29ef75a8",
+          "entity_a558e43dcc78f96ad501"
+        ]
+      },
+      {
+        "subject": "LEI:9845008E7ACDFMWC7391",
+        "entities": [
+          "entity_dd01925cf21aba0feb89",
+          "entity_df973f49045245645155"
+        ]
+      },
+      {
+        "subject": "LEI:984500AF53B3E2BI4926",
+        "entities": [
+          "entity_9161448b839fff9c7ad9",
+          "entity_f541c679c2bc4963e0bd"
+        ]
+      },
+      {
+        "subject": "LEI:984500C3E8EZ0XB98B74",
+        "entities": [
+          "entity_dde267a3c1e98e64ca05",
+          "entity_0e9a1ab8cbac26e6a16a"
+        ]
+      },
+      {
+        "subject": "LEI:R7RX8ER1V4666J8D1I38",
+        "entities": [
+          "entity_aff9178113ee59d36dd7",
+          "entity_6b60dac639e47342fe88"
+        ]
+      }
+    ],
+    "undetermined": [
+      {
+        "wikidataSurrogate": "NIDP-0201",
+        "name": "Unipro",
+        "leis": [
+          "253400DR5QSH8MEGZZ11",
+          "98450016D1DA0D640356"
+        ],
+        "reason": "Wikidata item states 2 distinct LEIs (253400DR5QSH8MEGZZ11, 98450016D1DA0D640356). An LEI denotes one legal entity, so at most one can be right and the record does not say which. No positive pair is asserted."
+      },
+      {
+        "wikidataSurrogate": "NIDP-0241",
+        "name": "Navneet Publications",
+        "leis": [
+          "3358008DDDK4NDB42Z33",
+          "335800TC8CLDPMON3N33"
+        ],
+        "reason": "Wikidata item states 2 distinct LEIs (3358008DDDK4NDB42Z33, 335800TC8CLDPMON3N33). An LEI denotes one legal entity, so at most one can be right and the record does not say which. No positive pair is asserted."
+      }
+    ]
+  }
+}
