@@ -10,6 +10,8 @@ import type { ExtractedRecord } from "@/lib/domain/extraction";
 import type { Location } from "@/lib/domain/location";
 import type { ResolutionDecision } from "@/lib/domain/resolution";
 
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
+
 describe("createEmptyGraph", () => {
   it("creates a directed, empty graphology graph", () => {
     const graph = createEmptyGraph();
@@ -466,14 +468,13 @@ describe("verify.assertProvenance — endpoint & classification invariants", () 
 describe("idempotentPersistGraph — partial retry", () => {
   const TEST_DB_PATH = "./data/netintel-graph-persist-test.db";
 
-  beforeAll(() => {
-    fs.mkdirSync(path.dirname(TEST_DB_PATH), { recursive: true });
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  beforeAll(async () => {
+    await prepareFreshDb(TEST_DB_PATH);
     process.env.DATABASE_URL = TEST_DB_PATH;
   });
 
-  afterAll(() => {
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(TEST_DB_PATH);
   });
 
   it("persists only the rows missing after a partial prior write", async () => {
@@ -607,12 +608,9 @@ type GraphModule = {
 };
 
 async function freshGraph(dbPath: string): Promise<GraphModule> {
+  await prepareFreshDb(dbPath);
   const vitestMod = await import("vitest");
   vitestMod.vi.resetModules();
-  for (const suffix of ["", "-wal", "-shm"]) {
-    fs.rmSync(dbPath + suffix, { force: true });
-  }
-  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
   process.env.DATABASE_URL = dbPath;
 
   const [ingestion, extraction, resolution, service, summary, persist, runtime, repo] = await Promise.all([
@@ -654,8 +652,8 @@ describe("graph synthesis — full Operation DarkNet Delhi corpus", () => {
     result = await mod.runGraphSynthesis();
   }, 120_000);
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("1. synthesizes successfully and creates graph nodes from every canonical entity kind + locations", async () => {

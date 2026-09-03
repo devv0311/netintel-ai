@@ -7,6 +7,8 @@ import type { ExtractedRecord } from "@/lib/domain/extraction";
 import type { Entity } from "@/lib/domain/entity";
 import type { ResolutionDecision } from "@/lib/domain/resolution";
 
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
+
 /**
  * Deterministic entity-resolution tests. No Anthropic call, no Docker,
  * no external service — a local SQLite file reached only through
@@ -30,11 +32,8 @@ type ResolutionModule = {
 };
 
 async function freshResolution(dbPath: string): Promise<ResolutionModule> {
+  await prepareFreshDb(dbPath);
   vi.resetModules();
-  for (const suffix of ["", "-wal", "-shm"]) {
-    fs.rmSync(dbPath + suffix, { force: true });
-  }
-  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
   process.env.DATABASE_URL = dbPath;
 
   const [ingestion, extraction, resolution, summary, persist, resolve, verify, repo] =
@@ -124,8 +123,8 @@ describe("entity resolution — valid corpus", () => {
     first = await mod.runResolution();
   }, 120_000);
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("resolves successfully and runs all 8 stages to completion with real detail", () => {
@@ -284,8 +283,8 @@ describe("entity resolution — partial retry", () => {
     await mod.runIngestion({ kind: "builtin-corpus" });
     await mod.runExtraction();
   }, 90_000);
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("a retry after a partial write persists only what is still missing", async () => {
@@ -326,8 +325,8 @@ describe("entity resolution — structured errors", () => {
   beforeAll(async () => {
     mod = await freshResolution(DB);
   });
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("rejects resolution with no investigation loaded as NO_INVESTIGATION, safely and without throwing", async () => {
@@ -346,7 +345,9 @@ describe("entity resolution — structured errors", () => {
     expect(result.error?.code).toBe("NO_EXTRACTED_RECORDS");
     expect(result.error?.stage).toBe("select_records");
     expect(await mod.repo.listEntities()).toHaveLength(0);
-  });
+    // Ingests the whole corpus before the assertion — far beyond vitest's
+    // 5s default, like the full-corpus hooks above.
+  }, 120_000);
 
   it("validateOutputs rejects a malformed entity candidate with a safe, structured error", () => {
     const badEntity = {
@@ -464,8 +465,8 @@ describe("entity resolution — non-inference safeguards", () => {
     entities = await mod.repo.listEntities();
     decisions = await mod.repo.listResolutionDecisions();
   }, 120_000);
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("the accused 'Vikram Singh' resolves to exactly one canonical entity — no phantom second identity is invented", () => {

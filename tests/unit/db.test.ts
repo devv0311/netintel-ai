@@ -1,6 +1,4 @@
 import { describe, expect, it, beforeAll, afterAll } from "vitest";
-import fs from "node:fs";
-import path from "node:path";
 import { drizzle } from "drizzle-orm/node-sqlite";
 import { migrate } from "drizzle-orm/node-sqlite/migrator";
 
@@ -14,6 +12,8 @@ import {
 } from "@/lib/db/repository";
 import { makeContentId, makeOpaqueId } from "@/lib/domain/ids";
 import type { Provenance } from "@/lib/domain/provenance";
+
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
 
 const TEST_DB_PATH = "./data/netintel-test.db";
 
@@ -30,29 +30,36 @@ function freshProvenance(overrides: Partial<Provenance> = {}): Provenance {
 }
 
 describe("database foundation", () => {
-  beforeAll(() => {
-    fs.mkdirSync(path.dirname(TEST_DB_PATH), { recursive: true });
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  beforeAll(async () => {
+    await prepareFreshDb(TEST_DB_PATH);
     process.env.DATABASE_URL = TEST_DB_PATH;
   });
 
-  afterAll(() => {
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(TEST_DB_PATH);
   });
 
   it("migrates an empty database without an external service", () => {
+    let db: ReturnType<typeof drizzle> | undefined;
     expect(() => {
-      const db = drizzle({ connection: { path: TEST_DB_PATH } });
+      db = drizzle({ connection: { path: TEST_DB_PATH } });
       migrate(db, { migrationsFolder: "./drizzle" });
     }).not.toThrow();
+    // These two tests open their connections directly rather than through
+    // getDb(), so closeAllDbConnections() cannot reach them — close here,
+    // or the handle keeps the file open and teardown's removal fails on
+    // Windows.
+    db?.$client.close();
   });
 
   it("applies migrations deterministically — re-running against an already-migrated database is a safe no-op", () => {
     // Second, independent connection to the same already-migrated file.
+    let db: ReturnType<typeof drizzle> | undefined;
     expect(() => {
-      const db = drizzle({ connection: { path: TEST_DB_PATH } });
+      db = drizzle({ connection: { path: TEST_DB_PATH } });
       migrate(db, { migrationsFolder: "./drizzle" });
     }).not.toThrow();
+    db?.$client.close();
   });
 
   it("inserts and selects a record, with provenance surviving the round trip", async () => {

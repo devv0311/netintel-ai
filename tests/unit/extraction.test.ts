@@ -6,6 +6,8 @@ import { makeContentId } from "@/lib/domain/ids";
 import type { ExtractedRecord } from "@/lib/domain/extraction";
 import type { Provenance } from "@/lib/domain/provenance";
 
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
+
 /**
  * Deterministic extraction tests. No Anthropic call, no Docker, no
  * external service — a local SQLite file and the committed corpus JSON,
@@ -28,11 +30,8 @@ type ExtractionModule = {
 };
 
 async function freshExtraction(dbPath: string): Promise<ExtractionModule> {
+  await prepareFreshDb(dbPath);
   vi.resetModules();
-  for (const suffix of ["", "-wal", "-shm"]) {
-    fs.rmSync(dbPath + suffix, { force: true });
-  }
-  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
   process.env.DATABASE_URL = dbPath;
 
   const [ingestion, extraction, summary, persist, extract, verify, repo] = await Promise.all([
@@ -111,8 +110,8 @@ describe("evidence extraction — valid corpus", () => {
     first = await mod.runExtraction();
   }, 90_000);
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("extracts successfully and runs all 7 stages to completion with real detail", () => {
@@ -275,8 +274,8 @@ describe("evidence extraction — partial retry", () => {
     mod = await freshExtraction(DB);
     await mod.runIngestion({ kind: "builtin-corpus" });
   }, 60_000);
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("a retry after a partial write persists only the records that are still missing", async () => {
@@ -314,8 +313,8 @@ describe("evidence extraction — structured errors", () => {
   beforeAll(async () => {
     mod = await freshExtraction(DB);
   });
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("rejects extraction with no investigation loaded as NO_INVESTIGATION, safely and without throwing", async () => {
@@ -403,8 +402,8 @@ describe("evidence extraction — non-inference safeguards", () => {
     await mod.runExtraction();
     records = await mod.repo.listExtractedRecords();
   }, 90_000);
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("the two distinct 'Vikram Singh' evidence mentions (accused enforcer vs. bystander witness reference) stay independent, unmerged records", () => {

@@ -16,6 +16,8 @@ import {
   synthesizeAnalytics,
 } from "@/lib/analytics/build";
 
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
+
 const NOW = "2026-09-02T00:00:00.000Z";
 
 function baseProvenance(source: string, location: string) {
@@ -415,14 +417,13 @@ describe("verify.assertProvenance — endpoint & classification invariants", () 
 describe("idempotentPersistAnalytics — partial retry", () => {
   const TEST_DB_PATH = "./data/netintel-analytics-persist-test.db";
 
-  beforeAll(() => {
-    fs.mkdirSync(path.dirname(TEST_DB_PATH), { recursive: true });
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  beforeAll(async () => {
+    await prepareFreshDb(TEST_DB_PATH);
     process.env.DATABASE_URL = TEST_DB_PATH;
   });
 
-  afterAll(() => {
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(TEST_DB_PATH);
   });
 
   it("persists only the rows missing after a partial prior write", async () => {
@@ -516,10 +517,9 @@ type AnalyticsModule = {
 };
 
 async function freshAnalytics(dbPath: string): Promise<AnalyticsModule> {
+  await prepareFreshDb(dbPath);
   const vitestMod = await import("vitest");
   vitestMod.vi.resetModules();
-  for (const suffix of ["", "-wal", "-shm"]) fs.rmSync(dbPath + suffix, { force: true });
-  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
   process.env.DATABASE_URL = dbPath;
 
   const [ingestion, extraction, resolution, graphService, service, summary, persist, repo] = await Promise.all([
@@ -563,8 +563,8 @@ describe("topology analytics — full Operation DarkNet Delhi corpus", () => {
     result = await mod.runAnalyticsSynthesis();
   }, 120_000);
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("synthesizes successfully and runs all 10 stages to completion", () => {
@@ -818,8 +818,8 @@ describe("topology analytics — full Operation DarkNet Delhi corpus", () => {
 describe("empty and edge-case graphs (full pipeline)", () => {
   const DB = "./data/netintel-analytics-empty.db";
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("returns a structured NO_GRAPH error when analytics is requested before graph synthesis has ever run", async () => {
@@ -831,7 +831,9 @@ describe("empty and edge-case graphs (full pipeline)", () => {
     const result = await mod.runAnalyticsSynthesis();
     expect(result.status).toBe("failed");
     expect(result.error?.code).toBe("NO_GRAPH");
-  });
+    // Ingests + extracts + resolves the whole corpus before the assertion —
+    // far beyond vitest's 5s default, like the full-corpus hooks above.
+  }, 120_000);
 
   it("returns a structured NO_INVESTIGATION error on a completely empty database", async () => {
     const mod = await freshAnalytics(DB);

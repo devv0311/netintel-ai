@@ -9,6 +9,8 @@ import { makeContentId, makeOpaqueId } from "@/lib/domain/ids";
 import { CORPUS_NAME, CORPUS_VERSION, CORPUS_GENERATED_AT } from "@/lib/corpus/config";
 import type { IngestionSourceInput } from "@/lib/ingestion/types";
 
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
+
 /**
  * Deterministic ingestion tests. No Anthropic call, no Docker, no
  * external service — a local SQLite file and the committed corpus JSON.
@@ -46,11 +48,8 @@ type IngestionModule = {
  * the way to switch databases — same pattern as env.test.ts).
  */
 async function freshIngestion(dbPath: string): Promise<IngestionModule> {
+  await prepareFreshDb(dbPath);
   vi.resetModules();
-  for (const suffix of ["", "-wal", "-shm"]) {
-    fs.rmSync(dbPath + suffix, { force: true });
-  }
-  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
   process.env.DATABASE_URL = dbPath;
 
   const [service, summary, persist, repo] = await Promise.all([
@@ -102,8 +101,8 @@ describe("evidence ingestion — valid corpus", () => {
     first = await mod.runIngestion({ kind: "builtin-corpus" });
   }, 60_000);
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("ingests the built-in corpus successfully", () => {
@@ -232,8 +231,8 @@ describe("evidence ingestion — structured errors", () => {
   beforeAll(async () => {
     mod = await freshIngestion(DB);
   });
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   const fail = async (source: IngestionSourceInput) => {
@@ -355,8 +354,8 @@ describe("evidence ingestion — persistence errors are structured and safe", ()
   beforeAll(async () => {
     mod = await freshIngestion(DB);
   });
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   /** A LoadedCorpus with one row the repository's Zod guard will reject. */

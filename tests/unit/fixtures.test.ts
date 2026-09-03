@@ -14,6 +14,8 @@ import {
   listAliasesForEntity,
 } from "@/lib/db/repository";
 
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
+
 const TEST_DB_PATH = "./data/netintel-fixtures-test.db";
 
 describe("synthetic fixture loader", () => {
@@ -84,14 +86,13 @@ describe("ground-truth fixture loader and isolation", () => {
 });
 
 describe("fixture -> database round trip", () => {
-  beforeAll(() => {
-    fs.mkdirSync(path.dirname(TEST_DB_PATH), { recursive: true });
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  beforeAll(async () => {
+    await prepareFreshDb(TEST_DB_PATH);
     process.env.DATABASE_URL = TEST_DB_PATH;
   });
 
-  afterAll(() => {
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(TEST_DB_PATH);
   });
 
   it("persists an entire loaded fixture through the validated repository layer", async () => {

@@ -31,6 +31,8 @@ import {
   synthesizeCorroboration,
 } from "@/lib/corroboration/build";
 
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
+
 const NOW = "2026-09-03T00:00:00.000Z";
 const GV = "graph-v1";
 
@@ -797,14 +799,13 @@ describe("ground-truth isolation — no forbidden import/identifier anywhere in 
 describe("idempotentPersistCorroboration — partial retry", () => {
   const TEST_DB_PATH = "./data/netintel-corroboration-persist-test.db";
 
-  beforeAll(() => {
-    fs.mkdirSync(path.dirname(TEST_DB_PATH), { recursive: true });
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(TEST_DB_PATH + s, { force: true });
+  beforeAll(async () => {
+    await prepareFreshDb(TEST_DB_PATH);
     process.env.DATABASE_URL = TEST_DB_PATH;
   });
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(TEST_DB_PATH + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(TEST_DB_PATH);
   });
 
   it("persists only the rows missing after a partial prior write", async () => {
@@ -873,10 +874,9 @@ type CorroborationModule = {
 };
 
 async function freshCorroboration(dbPath: string): Promise<CorroborationModule> {
+  await prepareFreshDb(dbPath);
   const vitestMod = await import("vitest");
   vitestMod.vi.resetModules();
-  for (const suffix of ["", "-wal", "-shm"]) fs.rmSync(dbPath + suffix, { force: true });
-  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
   process.env.DATABASE_URL = dbPath;
 
   const [ingestion, extraction, resolution, graphService, service, summary, persist, repo] = await Promise.all([
@@ -918,8 +918,8 @@ describe("spatial/temporal corroboration — full Operation DarkNet Delhi corpus
     result = await mod.runCorroborationSynthesis();
   }, 120_000);
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("synthesizes successfully and runs all 10 stages to completion", () => {
@@ -1059,8 +1059,8 @@ describe("spatial/temporal corroboration — full Operation DarkNet Delhi corpus
 describe("corroboration — empty and edge-case databases (full pipeline)", () => {
   const DB = "./data/netintel-corroboration-empty.db";
 
-  afterAll(() => {
-    for (const s of ["", "-wal", "-shm"]) fs.rmSync(DB + s, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(DB);
   });
 
   it("returns a structured NO_GRAPH error when corroboration is requested before graph synthesis has ever run", async () => {
@@ -1072,7 +1072,9 @@ describe("corroboration — empty and edge-case databases (full pipeline)", () =
     const res = await mod.runCorroborationSynthesis();
     expect(res.status).toBe("failed");
     expect(res.error?.code).toBe("NO_GRAPH");
-  });
+    // Ingests + extracts + resolves the whole corpus before the assertion —
+    // far beyond vitest's 5s default, like the full-corpus hooks above.
+  }, 120_000);
 
   it("returns a structured NO_INVESTIGATION error on a completely empty database, with no filesystem path in the message", async () => {
     const mod = await freshCorroboration(DB);

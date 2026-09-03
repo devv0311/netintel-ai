@@ -30,6 +30,8 @@ import {
   insertInvestigation,
 } from "@/lib/db/repository";
 
+import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
+
 const CORPUS_NAME = "operation-darknet-delhi";
 const SYNTHETIC_FILE = path.join(
   process.cwd(),
@@ -439,15 +441,14 @@ describe("Operation DarkNet Delhi corpus — database load", () => {
   let loaded: ReturnType<typeof loadInvestigationCorpus>;
 
   beforeAll(async () => {
-    fs.mkdirSync(path.dirname(TEST_DB_PATH), { recursive: true });
-    fs.rmSync(TEST_DB_PATH, { force: true });
+    await prepareFreshDb(TEST_DB_PATH);
     process.env.DATABASE_URL = TEST_DB_PATH;
     loaded = loadInvestigationCorpus(CORPUS_NAME);
     await persistCorpus(loaded);
   }, 60_000);
 
-  afterAll(() => {
-    fs.rmSync(TEST_DB_PATH, { force: true });
+  afterAll(async () => {
+    await releaseAndRemoveDb(TEST_DB_PATH);
   });
 
   it("persists exactly the loaded counts through the validated repository layer", async () => {
