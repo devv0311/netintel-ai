@@ -14,6 +14,9 @@ const MIN_EDGE_WIDTH = 1;
 const MAX_EDGE_WIDTH = 4.5;
 const DIM_ALPHA = 0.12;
 /** Near-zero — AI-inference edges render in the WebGL layer at this alpha (still hit-testable; picking is independent of display color) so the dashed 2D overlay is the only visible representation, since sigma's bundled WebGL edge programs have no native dash support. */
+const LABEL_FONT =
+  'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif';
+
 const AI_INFERENCE_WEBGL_ALPHA = 0.001;
 
 interface NodeAttrs {
@@ -170,6 +173,19 @@ export function GraphView({
       minCameraRatio: 0.1,
       maxCameraRatio: 10,
       defaultDrawNodeHover: drawSelectionRing,
+      // Sigma's own label colour defaults to black, which was invisible on
+      // the dark operational canvas — the selection/hover label above
+      // already read `--fg` and the ordinary ones did not. Both now come
+      // from the same token, so the canvas cannot disagree with the theme.
+      labelColor: { color: labelFg },
+      labelFont: LABEL_FONT,
+      labelSize: 12,
+      labelWeight: "500",
+      // Thin the labels out. At the default grid size the dense
+      // phone/IMEI cluster printed a dozen overlapping strings on top of
+      // each other, which is worse than printing none of them.
+      labelGridCellSize: 130,
+      labelDensity: 0.6,
     });
     sigmaRef.current = sigma;
 

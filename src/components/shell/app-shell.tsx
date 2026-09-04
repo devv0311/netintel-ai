@@ -4,6 +4,7 @@ import { useCallback, useState } from "react";
 
 import { Header } from "./header";
 import { Sidebar, type NavView } from "./sidebar";
+import { OverviewScreen } from "@/components/investigation/overview-screen";
 import { InvestigationWorkspace } from "@/components/investigation/workspace";
 import { GraphScreen } from "@/components/investigation/graph-screen";
 import { AnalyticsScreen } from "@/components/investigation/analytics-screen";
@@ -116,6 +117,18 @@ export function AppShell({
         completedStages={completedStages}
         focusedEntityId={focusedEntityId}
         onClearFocus={clearFocus}
+        searchAvailable={
+          initialResolutionState.status === "resolved" &&
+          initialResolutionState.summary.totalEntities > 0
+        }
+        totalEntities={
+          initialResolutionState.status === "resolved"
+            ? initialResolutionState.summary.totalEntities
+            : 0
+        }
+        onOpenEntity={viewInGraph}
+        onNavigateStage={setView}
+        showSearch={view !== "overview"}
       />
       <div className="flex min-h-0 flex-1">
         <Sidebar
@@ -134,7 +147,21 @@ export function AppShell({
           dossierEnabled={corroborationState.status === "synthesized"}
           onNavigate={setView}
         />
-        <main className="flex min-w-0 flex-1 flex-col gap-4 overflow-y-auto bg-bg p-4">
+        <main className="flex min-w-0 flex-1 flex-col gap-4 overflow-y-auto overflow-x-hidden bg-bg p-3 sm:p-4">
+          {view === "overview" && (
+            <OverviewScreen
+              investigation={initialState}
+              extraction={initialExtractionState}
+              resolution={initialResolutionState}
+              graph={graphState}
+              analytics={analyticsState}
+              corroboration={corroborationState}
+              copilot={initialCopilotState}
+              dossier={initialDossierState}
+              onNavigate={setView}
+              onOpenEntity={viewInGraph}
+            />
+          )}
           {view === "evidence" && (
             <InvestigationWorkspace
               initialState={initialState}

@@ -6,12 +6,18 @@
 }
 
 /*
- * M10.2 — dark operational visual system (see the M10.1 audit §4).
+ * M10.2 — dark operational visual system (see the M10.1 audit §4),
+ * P6.23 — made the committed default actually reachable.
  *
- * Dark is the committed default: the operational palette lives on bare
- * `:root`, so a browser with no colour-scheme preference renders it. A
- * coherent light variant is retained under `prefers-color-scheme: light`
- * only — it is not the demo default.
+ * Dark is the committed default and is now delivered as one: the
+ * operational palette lives on bare `:root` and the light variant is
+ * selected ONLY by an explicit `[data-theme="light"]`. It used to hang off
+ * `@media (prefers-color-scheme: light)`, which meant a browser on a
+ * light OS — the common case, and every default Playwright context — got
+ * the light theme and the "dark-first" product never actually appeared.
+ * The theme is now a deliberate per-viewer choice (`src/lib/theme.ts`,
+ * applied before first paint by the inline script in `app/layout.tsx`)
+ * rather than an inherited OS setting.
  *
  * The `--color-*` names bridged in `@theme inline` below are the ones the
  * rest of the app already uses as Tailwind utilities (`bg-card`,
@@ -20,6 +26,7 @@
  * directly (`bg-surface-1`, `text-fg-muted`, `border-border-strong`).
  */
 :root {
+  color-scheme: dark;
   /* surface hierarchy */
   --bg: oklch(0.16 0.012 260);
   --surface-1: oklch(0.19 0.012 260);
@@ -93,63 +100,62 @@
   --cls-lead-border: oklch(0.6 0.12 85);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: oklch(0.99 0 0);
-    --surface-1: oklch(0.985 0 0);
-    --surface-2: oklch(1 0 0);
-    --surface-3: oklch(0.955 0 0);
-    --border: oklch(0.9 0 0);
-    --border-strong: oklch(0.78 0 0);
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: oklch(0.99 0 0);
+  --surface-1: oklch(0.985 0 0);
+  --surface-2: oklch(1 0 0);
+  --surface-3: oklch(0.955 0 0);
+  --border: oklch(0.9 0 0);
+  --border-strong: oklch(0.78 0 0);
 
-    --fg: oklch(0.18 0 0);
-    --fg-muted: oklch(0.45 0 0);
-    --fg-faint: oklch(0.6 0 0);
+  --fg: oklch(0.18 0 0);
+  --fg-muted: oklch(0.45 0 0);
+  --fg-faint: oklch(0.6 0 0);
 
-    --accent: oklch(0.52 0.16 250);
-    --accent-quiet: oklch(0.93 0.04 250);
-    --accent-foreground: oklch(0.99 0 0);
+  --accent: oklch(0.52 0.16 250);
+  --accent-quiet: oklch(0.93 0.04 250);
+  --accent-foreground: oklch(0.99 0 0);
 
-    --primary: oklch(0.25 0.02 260);
-    --primary-foreground: oklch(0.98 0 0);
+  --primary: oklch(0.25 0.02 260);
+  --primary-foreground: oklch(0.98 0 0);
 
-    --kind-person: oklch(0.5 0.16 250);
-    --kind-organisation: oklch(0.52 0.15 315);
-    --kind-phone: oklch(0.48 0.15 155);
-    --kind-imei: oklch(0.48 0.12 200);
-    --kind-vehicle: oklch(0.52 0.12 85);
-    --kind-bank-account: oklch(0.53 0.18 25);
-    --kind-location: oklch(0.5 0.18 300);
-    --kind-other: oklch(0.5 0.02 260);
+  --kind-person: oklch(0.5 0.16 250);
+  --kind-organisation: oklch(0.52 0.15 315);
+  --kind-phone: oklch(0.48 0.15 155);
+  --kind-imei: oklch(0.48 0.12 200);
+  --kind-vehicle: oklch(0.52 0.12 85);
+  --kind-bank-account: oklch(0.53 0.18 25);
+  --kind-location: oklch(0.5 0.18 300);
+  --kind-other: oklch(0.5 0.02 260);
 
-    --edge-ownership: oklch(0.6 0.01 260);
-    --edge-communication: oklch(0.48 0.13 155);
-    --edge-financial: oklch(0.53 0.18 25);
-    --edge-co-location: oklch(0.5 0.14 300);
-    --edge-family: oklch(0.52 0.12 85);
-    --edge-associate: oklch(0.5 0.1 250);
-    --edge-other: oklch(0.6 0.01 260);
+  --edge-ownership: oklch(0.6 0.01 260);
+  --edge-communication: oklch(0.48 0.13 155);
+  --edge-financial: oklch(0.53 0.18 25);
+  --edge-co-location: oklch(0.5 0.14 300);
+  --edge-family: oklch(0.52 0.12 85);
+  --edge-associate: oklch(0.5 0.1 250);
+  --edge-other: oklch(0.6 0.01 260);
 
-    --cls-observed-bg: oklch(0.955 0 0);
-    --cls-observed-fg: oklch(0.2 0 0);
-    --cls-observed-border: oklch(0.88 0 0);
+  --cls-observed-bg: oklch(0.955 0 0);
+  --cls-observed-fg: oklch(0.2 0 0);
+  --cls-observed-border: oklch(0.88 0 0);
 
-    --cls-corroborated-bg: oklch(0.93 0.06 155);
-    --cls-corroborated-fg: oklch(0.32 0.09 155);
-    --cls-corroborated-border: oklch(0.82 0.08 155);
+  --cls-corroborated-bg: oklch(0.93 0.06 155);
+  --cls-corroborated-fg: oklch(0.32 0.09 155);
+  --cls-corroborated-border: oklch(0.82 0.08 155);
 
-    --cls-signal-bg: transparent;
-    --cls-signal-fg: oklch(0.45 0.14 245);
-    --cls-signal-border: oklch(0.62 0.12 245);
+  --cls-signal-bg: transparent;
+  --cls-signal-fg: oklch(0.45 0.14 245);
+  --cls-signal-border: oklch(0.62 0.12 245);
 
-    --cls-inference-bg: transparent;
-    --cls-inference-fg: oklch(0.45 0.13 300);
-    --cls-inference-border: oklch(0.64 0.12 300);
+  --cls-inference-bg: transparent;
+  --cls-inference-fg: oklch(0.45 0.13 300);
+  --cls-inference-border: oklch(0.64 0.12 300);
 
-    --cls-lead-bg: transparent;
-    --cls-lead-fg: oklch(0.45 0.13 85);
-    --cls-lead-border: oklch(0.64 0.12 85);
-  }
+  --cls-lead-bg: transparent;
+  --cls-lead-fg: oklch(0.45 0.13 85);
+  --cls-lead-border: oklch(0.64 0.12 85);
 }
 
 @theme inline {

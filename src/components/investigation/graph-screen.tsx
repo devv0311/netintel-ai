@@ -1,12 +1,19 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 import dynamic from "next/dynamic";
-import { ShieldAlert } from "lucide-react";
+import { ChevronDown, ChevronUp, ShieldAlert } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import {
+  EDGE_LABELS,
+  EDGE_VAR,
+  KIND_LABELS,
+  KIND_VAR,
+} from "@/lib/graph/tokens";
+import { themeStore } from "@/lib/theme";
+import { cn } from "@/lib/utils";
 import type { GraphSnapshot, GraphState } from "@/lib/graph/types";
 
 import { Inspector } from "./inspector/inspector";
@@ -70,6 +77,14 @@ export function GraphScreen({
     setSyncedFocus(focusEntityId);
     if (focusEntityId) setTarget({ kind: "entity", id: focusEntityId });
   }
+  const [legendOpen, setLegendOpen] = useState(false);
+  // The canvas resolves its colors from CSS custom properties once and
+  // caches them, so a theme change has to remount it to repaint.
+  const theme = useSyncExternalStore(
+    themeStore.subscribe,
+    themeStore.getSnapshot,
+    themeStore.getServerSnapshot,
+  );
   const [hiddenKinds, setHiddenKinds] = useState<Set<string>>(new Set());
   const [hiddenTypes, setHiddenTypes] = useState<Set<string>>(new Set());
 
@@ -188,79 +203,107 @@ export function GraphScreen({
 
   return (
     <div className="flex h-full min-h-0 flex-col gap-3" data-testid="graph-screen">
-      <div className="flex shrink-0 items-start gap-2.5 rounded-md bg-muted px-3 py-2 text-xs text-muted-foreground">
-        <ShieldAlert className="mt-0.5 size-3.5 shrink-0" aria-hidden />
-        <span>Synthetic data only. Every node and edge below is derived from the fabricated Operation DarkNet Delhi corpus.</span>
+      <div className="flex shrink-0 items-center gap-2 rounded-md border border-border bg-surface-2 px-2.5 py-1.5 text-[11px] text-fg-muted">
+        <ShieldAlert className="size-3.5 shrink-0" aria-hidden />
+        <span className="min-w-0 truncate">
+          Synthetic data only. Every node and edge below is derived from the fabricated Operation
+          DarkNet Delhi corpus.
+        </span>
       </div>
 
-      <div className="flex shrink-0 flex-wrap items-center gap-2 text-xs" data-testid="graph-filters">
-        <span className="font-medium">Node kinds:</span>
-        {NODE_KINDS.map((k) => (
-          <Badge
-            key={k}
-            variant={hiddenKinds.has(k) ? "outline" : "accent"}
-            className="cursor-pointer"
-            onClick={() => toggleHiddenKind(k)}
-            data-testid={`graph-filter-kind-${k}`}
+      {/* One toolbar row: pick a subject, choose the scope, reveal the key.
+          These were three stacked bands that between them ate roughly a
+          third of the screen before the canvas began. */}
+      <div className="flex shrink-0 flex-wrap items-center gap-x-3 gap-y-2">
+        <div className="flex min-w-0 items-center gap-1.5">
+          <label htmlFor="graph-node-picker" className="shrink-0 text-[11px] text-fg-muted">
+            Jump to
+          </label>
+          <select
+            id="graph-node-picker"
+            data-testid="graph-node-picker"
+            className="min-w-0 max-w-56 truncate rounded-md border border-border bg-surface-1 px-2 py-1 text-xs text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            value={selectedNodeId ?? ""}
+            onChange={(e) => {
+              if (e.target.value) selectEntity(e.target.value);
+            }}
           >
-            {k}
-          </Badge>
-        ))}
-        <span className="ml-4 font-medium">Edge types:</span>
-        {EDGE_TYPES.map((t) => (
-          <Badge
-            key={t}
-            variant={hiddenTypes.has(t) ? "outline" : "accent"}
-            className="cursor-pointer"
-            onClick={() => toggleHiddenType(t)}
-            data-testid={`graph-filter-type-${t}`}
-          >
-            {t}
-          </Badge>
-        ))}
-        <Button
-          size="sm"
-          variant="outline"
-          className="ml-auto"
-          onClick={toggleFocusMode}
-          data-testid="toggle-focus-mode"
-        >
+            <option value="">Select a node…</option>
+            {[...snapshot.nodes]
+              .sort((a, b) => a.label.localeCompare(b.label))
+              .map((n) => (
+                <option key={n.id} value={n.id}>
+                  {n.label} ({n.kind})
+                </option>
+              ))}
+          </select>
+        </div>
+
+        <Button size="sm" variant="outline" onClick={toggleFocusMode} data-testid="toggle-focus-mode">
           {focusMode ? "Show full graph" : "Focus on selection"}
         </Button>
-      </div>
 
-      <div className="flex shrink-0 flex-wrap items-center gap-2 text-xs">
-        <label htmlFor="graph-node-picker" className="font-medium">
-          Jump to entity:
-        </label>
-        <select
-          id="graph-node-picker"
-          data-testid="graph-node-picker"
-          className="rounded-md border border-border bg-card px-2 py-1"
-          value={selectedNodeId ?? ""}
-          onChange={(e) => {
-            if (e.target.value) selectEntity(e.target.value);
-          }}
+        <button
+          type="button"
+          onClick={() => setLegendOpen((v) => !v)}
+          aria-expanded={legendOpen}
+          data-testid="graph-legend-toggle"
+          className="inline-flex items-center gap-1 rounded-md border border-border px-2 py-1 text-[11px] text-fg-muted hover:bg-surface-3 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
-          <option value="">Select a node…</option>
-          {[...snapshot.nodes]
-            .sort((a, b) => a.label.localeCompare(b.label))
-            .map((n) => (
-              <option key={n.id} value={n.id}>
-                {n.label} ({n.kind})
-              </option>
-            ))}
-        </select>
+          {legendOpen ? <ChevronUp className="size-3" aria-hidden /> : <ChevronDown className="size-3" aria-hidden />}
+          Legend
+        </button>
+
+        <span className="ml-auto text-[11px] tabular-nums text-fg-faint" data-testid="graph-counts">
+          {snapshot.nodes.length}/{snapshot.totalNodes} nodes · {snapshot.edges.length}/
+          {snapshot.totalEdges} edges
+          {snapshot.truncated ? " · truncated — focus a node or filter to narrow the view" : ""}
+        </span>
       </div>
 
-      <div className="shrink-0">
-        <GraphLegend />
+      {/* Filters read as toggles, not as nine identical primary buttons.
+          A hidden facet is dimmed, dashed and struck through, so "what am I
+          currently NOT seeing" is answerable at a glance. */}
+      <div className="flex shrink-0 flex-wrap items-center gap-1.5" data-testid="graph-filters">
+        <span className="text-[10px] font-semibold uppercase tracking-wide text-fg-faint">Kinds</span>
+        {NODE_KINDS.map((k) => (
+          <FilterChip
+            key={k}
+            label={KIND_LABELS[k] ?? k}
+            swatch={`var(${KIND_VAR[k] ?? KIND_VAR.other})`}
+            shape="dot"
+            hidden={hiddenKinds.has(k)}
+            onToggle={() => toggleHiddenKind(k)}
+            testId={`graph-filter-kind-${k}`}
+          />
+        ))}
+        <span className="ml-3 text-[10px] font-semibold uppercase tracking-wide text-fg-faint">
+          Relationships
+        </span>
+        {EDGE_TYPES.map((t) => (
+          <FilterChip
+            key={t}
+            label={EDGE_LABELS[t] ?? t}
+            swatch={`var(${EDGE_VAR[t] ?? EDGE_VAR.other})`}
+            shape="line"
+            hidden={hiddenTypes.has(t)}
+            onToggle={() => toggleHiddenType(t)}
+            testId={`graph-filter-type-${t}`}
+          />
+        ))}
       </div>
 
-      <div className="flex min-h-0 flex-1 gap-4">
+      {legendOpen && (
+        <div className="shrink-0">
+          <GraphLegend />
+        </div>
+      )}
+
+      <div className="flex min-h-0 flex-1 flex-col gap-3 lg:flex-row lg:gap-4">
         <div className="flex min-h-0 min-w-0 flex-1 flex-col">
-          <div className="min-h-0 flex-1">
+          <div className="min-h-[22rem] flex-1">
             <GraphView
+              key={theme}
               snapshot={snapshot}
               selectedNodeId={selectedNodeId}
               selectedEdgeId={selectedEdgeId}
@@ -270,11 +313,6 @@ export function GraphScreen({
               onSelectEdge={onCanvasSelectEdge}
             />
           </div>
-          <p className="mt-2 shrink-0 text-xs text-muted-foreground" data-testid="graph-counts">
-            Showing {snapshot.nodes.length} of {snapshot.totalNodes} nodes, {snapshot.edges.length} of{" "}
-            {snapshot.totalEdges} edges
-            {snapshot.truncated ? " (truncated — focus a node or filter to narrow the view)" : ""}.
-          </p>
         </div>
         <Inspector
           target={target}
@@ -290,5 +328,50 @@ export function GraphScreen({
         />
       </div>
     </div>
+  );
+}
+
+/**
+ * One node-kind / relationship-type toggle. Carries the same `--kind-*` /
+ * `--edge-*` swatch the canvas paints with, so the control and the
+ * picture cannot drift apart, and states the toggle's effect through
+ * `aria-pressed` rather than through colour alone.
+ */
+function FilterChip({
+  label,
+  swatch,
+  shape,
+  hidden,
+  onToggle,
+  testId,
+}: {
+  label: string;
+  swatch: string;
+  shape: "dot" | "line";
+  hidden: boolean;
+  onToggle: () => void;
+  testId: string;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onToggle}
+      aria-pressed={!hidden}
+      data-testid={testId}
+      title={hidden ? `Show ${label}` : `Hide ${label}`}
+      className={cn(
+        "inline-flex items-center gap-1.5 rounded-md border px-1.5 py-0.5 text-[11px] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+        hidden
+          ? "border-dashed border-border text-fg-faint line-through"
+          : "border-border-strong bg-surface-2 text-fg hover:bg-surface-3",
+      )}
+    >
+      <span
+        className={cn("shrink-0", shape === "dot" ? "size-2 rounded-full" : "h-0.5 w-3.5")}
+        style={{ background: hidden ? "var(--fg-faint)" : swatch, opacity: hidden ? 0.5 : 1 }}
+        aria-hidden
+      />
+      {label}
+    </button>
   );
 }

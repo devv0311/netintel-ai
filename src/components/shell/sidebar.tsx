@@ -17,7 +17,14 @@ import {
 
 import { cn } from "@/lib/utils";
 
-export type NavView = "evidence" | "graph" | "analytics" | "corroboration" | "copilot" | "dossier";
+export type NavView =
+  | "overview"
+  | "evidence"
+  | "graph"
+  | "analytics"
+  | "corroboration"
+  | "copilot"
+  | "dossier";
 
 interface NavItem {
   icon: typeof FolderOpen;
@@ -78,7 +85,10 @@ const navCollapseStore = {
  * once P5.7 has, the Investigation Copilot once P5.8 has all of the
  * derived intelligence it grounds on, and the Dossier once P5.9 has every
  * stage it reports on. "Overview", "Timeline" and "Map" are later
- * milestones with no backing stage and stay disabled.
+ * milestones with no backing stage and stay disabled. "Overview" became a
+ * real target in P6.23: it reports the state of every stage from the same
+ * server-derived summaries this shell already holds, so it needs no
+ * backing stage of its own and is available whenever the app is.
  *
  * The rail collapses to an icon strip (persisted per browser); every
  * button keeps a stable accessible name in both states via `aria-label`.
@@ -111,7 +121,7 @@ export function Sidebar({
     {
       label: "Case",
       items: [
-        { icon: LayoutDashboard, label: "Overview", enabled: false },
+        { icon: LayoutDashboard, label: "Overview", view: "overview", enabled: true },
         { icon: FolderOpen, label: "Evidence", view: "evidence", enabled: true },
       ],
     },
@@ -139,7 +149,9 @@ export function Sidebar({
     <nav
       className={cn(
         "flex h-full shrink-0 flex-col gap-5 border-r border-border bg-surface-2 p-3 transition-[width] duration-150",
-        collapsed ? "w-14" : "w-60",
+        // Below `md` the rail is always the icon strip: at 420px a 240px
+        // rail left less than half the viewport for the case itself.
+        collapsed ? "w-14" : "w-14 md:w-60",
       )}
       aria-label="Investigation navigation"
     >
@@ -148,7 +160,7 @@ export function Sidebar({
         onClick={toggleCollapsed}
         aria-label={collapsed ? "Expand navigation" : "Collapse navigation"}
         data-testid="nav-collapse-toggle"
-        className="flex items-center gap-2 self-end rounded-md p-1.5 text-fg-muted hover:bg-surface-3 hover:text-fg"
+        className="hidden items-center gap-2 self-end rounded-md p-1.5 text-fg-muted hover:bg-surface-3 hover:text-fg md:flex"
       >
         {collapsed ? (
           <PanelLeftOpen className="size-4" aria-hidden />
@@ -162,7 +174,7 @@ export function Sidebar({
           <span
             className={cn(
               "px-2 text-[10px] font-semibold uppercase tracking-wide text-fg-faint",
-              collapsed && "sr-only",
+              collapsed ? "sr-only" : "sr-only md:not-sr-only",
             )}
           >
             {section.label}
@@ -183,7 +195,7 @@ export function Sidebar({
                 }}
                 className={cn(
                   "flex items-center gap-2 rounded-md px-2 py-1.5 text-left text-sm transition-colors",
-                  collapsed && "justify-center",
+                  collapsed ? "justify-center" : "justify-center md:justify-start",
                   isActive
                     ? "bg-accent text-accent-foreground font-medium"
                     : item.enabled
@@ -192,7 +204,9 @@ export function Sidebar({
                 )}
               >
                 <item.icon className="size-4 shrink-0" aria-hidden />
-                <span className={cn(collapsed && "sr-only")}>{item.label}</span>
+                <span className={cn(collapsed ? "sr-only" : "sr-only md:not-sr-only")}>
+                  {item.label}
+                </span>
               </button>
             );
           })}

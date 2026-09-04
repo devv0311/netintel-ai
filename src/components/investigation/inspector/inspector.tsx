@@ -57,7 +57,7 @@ export function Inspector({
   const label = evidenceDrill ? "Evidence reference" : target ? MODE_LABEL[target.kind] : "Inspector";
 
   return (
-    <aside className="w-80 shrink-0" data-testid="inspector" data-inspector-context={context} aria-label="Inspector">
+    <aside className="w-full shrink-0 lg:w-80" data-testid="inspector" data-inspector-context={context} aria-label="Inspector">
       <div className="mb-2 flex items-center justify-between px-0.5">
         <span className="text-[10px] font-semibold uppercase tracking-wide text-fg-faint">{label}</span>
         {(target || evidenceDrill) && (
@@ -83,6 +83,7 @@ export function Inspector({
           icon={Compass}
           title="Nothing selected"
           detail="Select an entity, a relationship or a finding to inspect its detail and provenance."
+          className="p-5"
           data-testid="inspector-empty"
         />
       ) : target.kind === "entity" ? (

@@ -69,6 +69,17 @@ let probeEl: HTMLElement | null = null;
 let probeCtx: CanvasRenderingContext2D | null = null;
 
 /**
+ * Drops every cached resolution (P6.23). The cache is keyed by custom
+ * property name only, which was correct while the palette could not
+ * change within a page load; the theme toggle makes it able to. Without
+ * this the canvas would keep painting the previous theme's colors until
+ * a full reload.
+ */
+export function resetTokenCache(): void {
+  colorCache.clear();
+}
+
+/**
  * Resolves a `--kind-*` / `--edge-*` / theme custom property to an
  * `rgb()`/`rgba()` string the canvas 2D and WebGL layers can consume,
  * honoring whichever theme is actually applied. Client-only; cached for

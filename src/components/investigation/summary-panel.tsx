@@ -126,11 +126,12 @@ export function SummaryPanel({
       </Card>
 
       <Card>
-        <span className="text-sm font-medium">Next steps</span>
+        <span className="text-sm font-medium">What happens next</span>
         <p className="text-xs text-muted-foreground">
-          Extraction is available below. Entity resolution, graph synthesis, analytics,
-          corroboration, the Copilot, and the dossier are later milestones — their
-          navigation entries remain unavailable until then.
+          Extraction runs below, then entity resolution and graph synthesis. Analytics,
+          corroboration, the Copilot and the dossier each unlock on the navigation rail at the
+          moment the stage they depend on actually completes — the rail reflects real state, so an
+          entry that is still greyed out is one whose stage has not run.
         </p>
       </Card>
     </div>
