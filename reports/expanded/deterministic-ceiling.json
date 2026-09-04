@@ -1,0 +1,281 @@
+{
+  "study": "P6.19.4 deterministic ceiling on the expanded corpus",
+  "disclaimer": "Measurement only. No resolver imported, no pipeline run, no database written, no ground truth modified, no name variant manufactured. None of these rules is enabled.",
+  "corpus": "evidence/expanded/expanded-anchored.corpus.json",
+  "groundTruth": "evidence/expanded/expanded.ground-truth.json",
+  "ranAt": "2026-09-04T03:29:34.306Z",
+  "positives": 578,
+  "hardNegatives": 146,
+  "rules": [
+    {
+      "id": "shipped",
+      "label": "shipped normalisation (today's Tier B2)",
+      "positivesJoined": {
+        "n": 249,
+        "d": 578,
+        "pct": "43.1%"
+      },
+      "hardNegativeFalseMerges": {
+        "n": 3,
+        "d": 146,
+        "pct": "2.1%"
+      },
+      "prefixRelationsSuppressed": 0,
+      "joinedByVariation": {
+        "partial_token_overlap": {
+          "n": 0,
+          "d": 69
+        },
+        "identical": {
+          "n": 44,
+          "d": 44
+        },
+        "script_variant": {
+          "n": 0,
+          "d": 31
+        },
+        "containment": {
+          "n": 0,
+          "d": 160
+        },
+        "legal_suffix_or_punctuation": {
+          "n": 156,
+          "d": 156
+        },
+        "divergent": {
+          "n": 0,
+          "d": 69
+        },
+        "case_only": {
+          "n": 49,
+          "d": 49
+        }
+      },
+      "stillUnjoinedByVariation": {
+        "partial_token_overlap": 69,
+        "identical": 0,
+        "script_variant": 31,
+        "containment": 160,
+        "legal_suffix_or_punctuation": 0,
+        "divergent": 69,
+        "case_only": 0
+      }
+    },
+    {
+      "id": "R1R2",
+      "label": "+ dotted legal form and leading article (P6.18 proposals 2 and 3)",
+      "positivesJoined": {
+        "n": 262,
+        "d": 578,
+        "pct": "45.3%"
+      },
+      "hardNegativeFalseMerges": {
+        "n": 4,
+        "d": 146,
+        "pct": "2.7%"
+      },
+      "prefixRelationsSuppressed": 0,
+      "joinedByVariation": {
+        "partial_token_overlap": {
+          "n": 5,
+          "d": 69
+        },
+        "identical": {
+          "n": 44,
+          "d": 44
+        },
+        "script_variant": {
+          "n": 0,
+          "d": 31
+        },
+        "containment": {
+          "n": 8,
+          "d": 160
+        },
+        "legal_suffix_or_punctuation": {
+          "n": 156,
+          "d": 156
+        },
+        "divergent": {
+          "n": 0,
+          "d": 69
+        },
+        "case_only": {
+          "n": 49,
+          "d": 49
+        }
+      },
+      "stillUnjoinedByVariation": {
+        "partial_token_overlap": 64,
+        "identical": 0,
+        "script_variant": 31,
+        "containment": 152,
+        "legal_suffix_or_punctuation": 0,
+        "divergent": 69,
+        "case_only": 0
+      }
+    },
+    {
+      "id": "official",
+      "label": "+ publisher-stated official name (Wikidata P1448, now COLLECTED)",
+      "positivesJoined": {
+        "n": 344,
+        "d": 578,
+        "pct": "59.5%"
+      },
+      "hardNegativeFalseMerges": {
+        "n": 4,
+        "d": 146,
+        "pct": "2.7%"
+      },
+      "prefixRelationsSuppressed": 0,
+      "joinedByVariation": {
+        "partial_token_overlap": {
+          "n": 22,
+          "d": 69
+        },
+        "identical": {
+          "n": 44,
+          "d": 44
+        },
+        "script_variant": {
+          "n": 8,
+          "d": 31
+        },
+        "containment": {
+          "n": 49,
+          "d": 160
+        },
+        "legal_suffix_or_punctuation": {
+          "n": 156,
+          "d": 156
+        },
+        "divergent": {
+          "n": 16,
+          "d": 69
+        },
+        "case_only": {
+          "n": 49,
+          "d": 49
+        }
+      },
+      "stillUnjoinedByVariation": {
+        "partial_token_overlap": 47,
+        "identical": 0,
+        "script_variant": 23,
+        "containment": 111,
+        "legal_suffix_or_punctuation": 0,
+        "divergent": 53,
+        "case_only": 0
+      }
+    },
+    {
+      "id": "R1R2_official",
+      "label": "+ R1, R2 and official name",
+      "positivesJoined": {
+        "n": 357,
+        "d": 578,
+        "pct": "61.8%"
+      },
+      "hardNegativeFalseMerges": {
+        "n": 5,
+        "d": 146,
+        "pct": "3.4%"
+      },
+      "prefixRelationsSuppressed": 0,
+      "joinedByVariation": {
+        "partial_token_overlap": {
+          "n": 26,
+          "d": 69
+        },
+        "identical": {
+          "n": 44,
+          "d": 44
+        },
+        "script_variant": {
+          "n": 8,
+          "d": 31
+        },
+        "containment": {
+          "n": 58,
+          "d": 160
+        },
+        "legal_suffix_or_punctuation": {
+          "n": 156,
+          "d": 156
+        },
+        "divergent": {
+          "n": 16,
+          "d": 69
+        },
+        "case_only": {
+          "n": 49,
+          "d": 49
+        }
+      },
+      "stillUnjoinedByVariation": {
+        "partial_token_overlap": 43,
+        "identical": 0,
+        "script_variant": 23,
+        "containment": 102,
+        "legal_suffix_or_punctuation": 0,
+        "divergent": 53,
+        "case_only": 0
+      }
+    },
+    {
+      "id": "R1R2_official_prefix",
+      "label": "+ R1, R2, official name AND guarded prefix containment (P6.18 proposal 4)",
+      "positivesJoined": {
+        "n": 450,
+        "d": 578,
+        "pct": "77.9%"
+      },
+      "hardNegativeFalseMerges": {
+        "n": 10,
+        "d": 146,
+        "pct": "6.8%"
+      },
+      "prefixRelationsSuppressed": 9,
+      "joinedByVariation": {
+        "partial_token_overlap": {
+          "n": 26,
+          "d": 69
+        },
+        "identical": {
+          "n": 44,
+          "d": 44
+        },
+        "script_variant": {
+          "n": 8,
+          "d": 31
+        },
+        "containment": {
+          "n": 151,
+          "d": 160
+        },
+        "legal_suffix_or_punctuation": {
+          "n": 156,
+          "d": 156
+        },
+        "divergent": {
+          "n": 16,
+          "d": 69
+        },
+        "case_only": {
+          "n": 49,
+          "d": 49
+        }
+      },
+      "stillUnjoinedByVariation": {
+        "partial_token_overlap": 43,
+        "identical": 0,
+        "script_variant": 23,
+        "containment": 9,
+        "legal_suffix_or_punctuation": 0,
+        "divergent": 53,
+        "case_only": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "audit": "P6.19.1 real corpus audit",
+  "dataClass": "REAL",
+  "ranAt": "2026-09-04T02:57:14.548Z",
+  "readOnly": true,
+  "recordsBySource": {
+    "gleif": 179,
+    "wikidata": 78
+  },
+  "uniqueEntities": {
+    "distinctLeis": 180,
+    "recordsWithoutLei": 0,
+    "groundTruthSubjects": 182
+  },
+  "pairs": {
+    "positives": 75,
+    "hardNegatives": 19,
+    "undetermined": 2,
+    "hardNegativeBasis": {
+      "shared_leading_token": 17,
+      "token_subset": 1,
+      "conflated_by_third_party": 1
+    }
+  },
+  "sourceCombinations": {
+    "positives": {
+      "gleif x wikidata": 75
+    },
+    "hardNegatives": {
+      "gleif x gleif": 19
+    }
+  },
+  "scriptDistribution": {
+    "corpus": {
+      "Cyrillic": 1,
+      "Latin": 255,
+      "Han+Kana": 1
+    },
+    "devanagariPilotPairs": 51
+  },
+  "nameLength": {
+    "4-5 tokens": 36,
+    "2 tokens": 120,
+    "3 tokens": 74,
+    "1 token": 25,
+    "6+ tokens": 2
+  },
+  "availability": {
+    "aliasRecords": 102,
+    "aliasStrings": 107,
+    "identifierRecords": 179,
+    "identifierValues": 179,
+    "aliasByRegistry": {
+      "gleif": 48,
+      "wikidata": 54
+    },
+    "identifierByRegistry": {
+      "gleif": 179
+    },
+    "fullRegimeIdentifierRecords": 0
+  },
+  "relationshipCoverage": {
+    "relationsInCorpus": 0,
+    "note": "relations[] masked by the corpus builder; GLEIF Level 2 exists at source but is absent here"
+  },
+  "failureCategories": {
+    "joinRate": {
+      "n": 53,
+      "d": 75,
+      "pct": "70.7%"
+    },
+    "unjoinedByCategory": {
+      "divergent": 12,
+      "abbreviation": 9,
+      "transliteration": 1
+    }
+  },
+  "duplicates": {
+    "duplicateRecordIds": 0,
+    "sameNormalisedNameWithinSource": 0,
+    "cases": []
+  },
+  "leakage": {
+    "subjectsInBothPositiveAndHardNegative": 10,
+    "overlapSubjects": [
+      "335800BO2LHWJJ8TZI32",
+      "335800H6MURUA6FBOW17",
+      "335800KJ7GE29LB4SS73",
+      "335800B99NHE5ZGSGR16",
+      "335800AKDC7T933T3I86",
+      "984500AF53B3E2BI4926",
+      "335800LB39TLJ8YTWM98",
+      "335800C1B2T9BM5ILM48",
+      "335800LOXFWU8ZQJMD12",
+      "3358007X5FQ2R445Z747"
+    ],
+    "devanagariPilotSharedSubjects": 54,
+    "mainCorpusSubjects": 75
+  }
+}

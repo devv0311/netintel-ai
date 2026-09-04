@@ -87,6 +87,8 @@ export function planGleif(query: GleifQuery, options: AdapterOptions): AdapterPl
 interface GleifApiRecord {
   attributes?: {
     lei?: string;
+    /** OpenCorporates id, published by GLEIF itself (e.g. "in/L23109WB1973GOI028844"). */
+    ocid?: string | null;
     entity?: {
       legalName?: { name?: string };
       otherNames?: { name?: string }[];
@@ -94,6 +96,10 @@ interface GleifApiRecord {
       jurisdiction?: string;
       legalJurisdiction?: string;
       status?: string;
+      /** The national business register that registered this entity (GLEIF RA code). */
+      registeredAt?: { id?: string | null } | null;
+      /** The entity's number IN that register — an Indian CIN, a UK company number, and so on. */
+      registeredAs?: string | null;
     };
     registration?: { lastUpdateDate?: string };
   };
@@ -148,6 +154,44 @@ export function mapGleifRelationship(
  * clock beyond the supplied `retrievedAt`, so it is testable against a
  * saved payload with no live source.
  */
+/**
+ * Every identifier GLEIF states about this record.
+ *
+ * P6.19: GLEIF publishes more than the LEI it issues. `ocid` is an
+ * OpenCorporates id and `entity.registeredAs` is the entity's number in
+ * its NATIONAL business register, qualified by the register's GLEIF
+ * authority code (`entity.registeredAt.id`, e.g. RA000394 for the Indian
+ * MCA). Both were being discarded.
+ *
+ * They matter because they are bridges that do NOT run through the LEI:
+ * Wikidata publishes an OpenCorporates id for ~28,600 LEI-bearing items,
+ * so a cross-source pair can be corroborated by a scheme the linking
+ * source did not supply. A national register number is qualified by its
+ * authority because the same digits mean different companies in
+ * different registers — an unqualified value would be a collision
+ * waiting to happen.
+ *
+ * Recording an identifier is not permission to merge on it. Only
+ * MERGEABLE_IDENTIFIER_SCHEMES may merge, and that set is still {LEI}.
+ */
+export function gleifIdentifiers(
+  raw: GleifApiRecord,
+  lei: string,
+): { scheme: string; value: string }[] {
+  const identifiers = [{ scheme: "LEI", value: lei }];
+  const ocid = raw.attributes?.ocid;
+  if (typeof ocid === "string" && ocid.length > 0) {
+    identifiers.push({ scheme: "OPENCORPORATES", value: ocid });
+  }
+  const registeredAs = raw.attributes?.entity?.registeredAs;
+  const registeredAt = raw.attributes?.entity?.registeredAt?.id;
+  if (typeof registeredAs === "string" && registeredAs.length > 0
+      && typeof registeredAt === "string" && registeredAt.length > 0) {
+    identifiers.push({ scheme: `NATIONAL_REGISTER:${registeredAt}`, value: registeredAs });
+  }
+  return identifiers;
+}
+
 export function mapGleifRecord(
   raw: GleifApiRecord,
   context: {
@@ -185,7 +229,7 @@ export function mapGleifRecord(
     // NFC only. Nothing else: no case folding, no suffix stripping.
     name: name.normalize("NFC"),
     ...(aliases.length > 0 ? { aliases: aliases.map((a) => a.normalize("NFC")) } : {}),
-    identifiers: [{ scheme: "LEI", value: lei }],
+    identifiers: gleifIdentifiers(raw, lei),
     ...(context.relations && context.relations.length > 0
       ? { relations: context.relations }
       : {}),

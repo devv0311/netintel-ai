@@ -55,12 +55,18 @@ export const MERGEABLE_IDENTIFIER_SCHEMES: ReadonlySet<string> = new Set(["LEI"]
 export const SCHEME_ISSUER_REGISTRY: Readonly<Record<string, string>> = {
   LEI: "gleif",
   WIKIDATA: "wikidata",
+  // P6.19: the SEC issues the CIK, so a CIK carried by Wikidata (P5531)
+  // is a cross-reference and cannot establish identity, exactly as a
+  // Wikidata-carried LEI cannot. Declaring the issuer does NOT make the
+  // scheme mergeable — MERGEABLE_IDENTIFIER_SCHEMES is still {LEI}.
+  CIK: "edgar",
 };
 
 /** Registry key -> its row in the source registry. */
 export const REGISTRY_SOURCE_IDS: Readonly<Record<string, string>> = {
   gleif: "SRC-002",
   wikidata: "SRC-001",
+  edgar: "SRC-006",
 };
 
 /** The `has_identifier` relationship type, the only one this policy governs. */

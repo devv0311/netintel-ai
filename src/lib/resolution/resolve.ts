@@ -417,12 +417,34 @@ export function resolveEntities(
       });
 
       // aliases: every distinct name in this cluster other than the canonical label.
-      const aliasSourceByName = new Map<string, ExtractedRecord>();
+      /**
+       * Keyed by the alias's CANONICAL form, not its raw string.
+       *
+       * `makeContentId` trims and lower-cases its parts, so an alias id is
+       * already case-insensitive: `PIONEER RAILCORP` and `Pioneer Railcorp`
+       * are one row by design. Keying this map on the raw string let both
+       * through, and persistence then tried to insert one id twice —
+       * `UNIQUE constraint failed: aliases.id`, which took the whole
+       * resolution stage down.
+       *
+       * The 257-record corpus never hit it because no entity there had two
+       * case-variant aliases; GLEIF publishes exactly that for some
+       * entities, so P6.19's 1,245-record corpus did. This makes the
+       * emitter agree with the id scheme rather than changing either: the
+       * winner is still the lowest source record id, and the publisher's
+       * own casing is still what gets stored.
+       */
+      const aliasSourceByName = new Map<string, { value: string; source: ExtractedRecord }>();
+      const aliasKey = (value: string) => value.trim().toLowerCase();
+      const offer = (value: string, source: ExtractedRecord) => {
+        const k = aliasKey(value);
+        const existing = aliasSourceByName.get(k);
+        if (!existing || source.id < existing.source.id) aliasSourceByName.set(k, { value, source });
+      };
       for (const m of members) {
         const name = str(m.data, "observedValue")!;
         if (name === canonicalLabel) continue;
-        const existing = aliasSourceByName.get(name);
-        if (!existing || m.id < existing.id) aliasSourceByName.set(name, m);
+        offer(name, m);
       }
       // explicit alias/nickname relationship_mentions (has_alias) from any member's own evidence item.
       for (const m of members) {
@@ -431,11 +453,10 @@ export function resolveEntities(
           if (!["has_alias","alias_of"].includes(str(r.data, "relationshipType") ?? "")) continue;
           const aliasValue = str(r.data, "observedValue");
           if (!aliasValue || aliasValue === canonicalLabel) continue;
-          const existing = aliasSourceByName.get(aliasValue);
-          if (!existing || r.id < existing.id) aliasSourceByName.set(aliasValue, r);
+          offer(aliasValue, r);
         }
       }
-      for (const [aliasValue, source] of [...aliasSourceByName.entries()].sort(([a], [b]) =>
+      for (const [, { value: aliasValue, source }] of [...aliasSourceByName.entries()].sort(([a], [b]) =>
         a < b ? -1 : a > b ? 1 : 0,
       )) {
         aliases.push({

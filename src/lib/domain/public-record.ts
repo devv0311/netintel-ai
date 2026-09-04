@@ -61,6 +61,26 @@ export const PublicRecordContentSchema = z
     subjectKind: PublicRecordSubjectKindSchema,
     /** The publisher's primary name for the subject, verbatim. */
     name: z.string().min(1),
+    /**
+     * A LEGAL name the publisher states for this subject, distinct from
+     * the label it displays and from a trading alias.
+     *
+     * Added in P6.19 because Wikidata publishes `P1448` "official name"
+     * and the adapter never asked for it, which P6.18 measured as the
+     * single largest recoverable class of real cross-source failures
+     * (`LenDenClub` / `INNOFIN SOLUTIONS PRIVATE LIMITED`).
+     *
+     * It is NOT an alias. An alias is any other name a subject goes by,
+     * including a trading name shared with a sibling company; an official
+     * name is the publisher's claim about the registered legal name. They
+     * carry different weight as evidence and P6.17.4 recommended aliases
+     * NOT be enabled as merge evidence, so conflating the two would
+     * silently decide a question that is still open.
+     *
+     * Carried and provenanced; read by NO resolution tier. Enabling it is
+     * a separate, owner-approved change.
+     */
+    officialName: z.string().min(1).optional(),
     aliases: z.array(z.string().min(1)).optional(),
     identifiers: z.array(PublicRecordIdentifierSchema).optional(),
     relations: z.array(PublicRecordRelationSchema).optional(),

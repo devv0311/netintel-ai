@@ -46,11 +46,15 @@ async function main(): Promise<void> {
   // is always derived from prior approved collection — never hand-typed,
   // never a URL, never a crawl.
   const leisFrom = arg("leis-from");
+  // The EDGAR equivalent of --leis-from: the CIK set is derived from an
+  // ALREADY-COLLECTED approved source (Wikidata publishes the SEC CIK as
+  // P5531), never hand-typed and never crawled.
+  const ciksFrom = arg("ciks-from");
   const query = arg("query");
 
-  if (source !== "gleif" && source !== "wikidata") {
+  if (source !== "gleif" && source !== "wikidata" && source !== "edgar") {
     console.error(
-      "usage: --source gleif|wikidata [--limit N] [--query NAME] [--leis-from PATH] [--from-file PATH] [--from-dir DIR] [--dry-run]",
+      "usage: --source gleif|wikidata|edgar [--limit N] [--query NAME] [--leis-from PATH] [--ciks-from PATH] [--from-file PATH] [--from-dir DIR] [--dry-run]",
     );
     console.error("No other source is collectable: the adapter set is the allowlist.");
     process.exitCode = 1;
@@ -77,18 +81,36 @@ async function main(): Promise<void> {
     console.log(`Linkage set: ${leis.length} distinct LEI(s) read from ${leisFrom}\n`);
   }
 
+  let ciks: string[] = [];
+  if (ciksFrom) {
+    const prior = JSON.parse(fs.readFileSync(path.resolve(ROOT, ciksFrom), "utf8")) as {
+      identifiers?: { scheme: string; value: string }[];
+    }[];
+    ciks = [
+      ...new Set(
+        prior.flatMap((record) =>
+          (record.identifiers ?? []).filter((i) => i.scheme === "CIK").map((i) => i.value),
+        ),
+      ),
+    ];
+    console.log(`Linkage set: ${ciks.length} distinct CIK(s) read from ${ciksFrom}\n`);
+  }
+
   const gleif = await import("@/lib/adapters/public/gleif");
   const wikidata = await import("@/lib/adapters/public/wikidata");
+  const edgar = await import("@/lib/adapters/public/edgar");
   type WikidataQueryName = keyof typeof wikidata.QUERIES;
   const options = { limit, fromFile, fromDir, root: ROOT };
 
   const plan =
     source === "gleif"
       ? gleif.planGleif({ jurisdiction: arg("jurisdiction") ?? "IN", leis }, options)
-      : wikidata.planWikidata(
-          (query ?? "indian-companies-with-lei") as WikidataQueryName,
-          options,
-        );
+      : source === "edgar"
+        ? edgar.planEdgar({ ciks }, options)
+        : wikidata.planWikidata(
+            (query ?? "indian-companies-with-lei") as WikidataQueryName,
+            options,
+          );
 
   console.log("PLAN");
   console.log(`  source           ${plan.sourceId} — ${plan.sourceName}`);
@@ -111,10 +133,12 @@ async function main(): Promise<void> {
   const result =
     source === "gleif"
       ? await gleif.collectGleif({ jurisdiction: arg("jurisdiction") ?? "IN", leis }, options)
-      : await wikidata.collectWikidata(
-          (query ?? "indian-companies-with-lei") as WikidataQueryName,
-          options,
-        );
+      : source === "edgar"
+        ? await edgar.collectEdgar({ ciks }, options)
+        : await wikidata.collectWikidata(
+            (query ?? "indian-companies-with-lei") as WikidataQueryName,
+            options,
+          );
 
   const retrievedAt = new Date().toISOString();
   const dir = path.join(ROOT, "data", "public", "raw", plan.sourceId, retrievedAt.replace(/[:.]/g, "-"));

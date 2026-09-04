@@ -58,6 +58,38 @@ SELECT ?item ?itemLabel ?itemLabelHi WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 LIMIT ${limit}`,
+  /**
+   * P6.19 — companies that publish an LEI, WORLDWIDE, carrying the
+   * evidence the earlier queries never asked for.
+   *
+   * Two deliberate changes from `indian-companies-with-lei`:
+   *
+   *   NO `wdt:P17 wd:Q668`. The P6.19.1 audit found the corpus is 99.2%
+   *   Latin script and every positive pair is one source pairing, because
+   *   the linkage set was filtered to one country. Worldwide there are
+   *   ~43,800 LEI-bearing items and ~29,700 of them state an official
+   *   name, against 8 of 78 in the India-filtered sample.
+   *
+   *   P1448/P1813/P1320/P5531. The official name is the bridge for the
+   *   divergent-name class; the OpenCorporates id and the SEC CIK are
+   *   SECOND and THIRD identifier bridges that do not run through the
+   *   LEI, so a cross-source pair can be corroborated by an identifier
+   *   the linking source did not supply.
+   *
+   * Still bounded, still no URL parameter, still one constant query.
+   */
+  "companies-with-lei-enriched": (limit: number) => `
+SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q4830453 ;
+        wdt:P1278 ?lei .
+  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = "hi") }
+  OPTIONAL { ?item wdt:P1448 ?official }
+  OPTIONAL { ?item wdt:P1813 ?shortName }
+  OPTIONAL { ?item wdt:P1320 ?ocid }
+  OPTIONAL { ?item wdt:P5531 ?cik }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+LIMIT ${limit}`,
 } as const;
 
 export type WikidataQueryName = keyof typeof QUERIES;
@@ -88,6 +120,14 @@ interface SparqlBinding {
   itemLabel?: { value?: string };
   itemLabelHi?: { value?: string };
   lei?: { value?: string };
+  /** P1448 official name — a legal-name claim, NOT an alias. See PublicRecordContent.officialName. */
+  official?: { value?: string };
+  /** P1813 short name — an abbreviation the publisher states, so it IS an alias. */
+  shortName?: { value?: string };
+  /** P1320 OpenCorporates id — an identifier bridge that does not run through the LEI. */
+  ocid?: { value?: string };
+  /** P5531 SEC CIK — the bridge to SRC-006. */
+  cik?: { value?: string };
 }
 
 /** Pure mapper — testable against a saved SPARQL response with no live source. */
@@ -103,15 +143,30 @@ export function mapWikidataBinding(
 
   const identifiers = [{ scheme: "WIKIDATA", value: qid }];
   if (binding.lei?.value) identifiers.push({ scheme: "LEI", value: binding.lei.value });
+  // Cross-references Wikidata publishes about the same subject. They are
+  // recorded as identifiers so a join can be corroborated by a scheme the
+  // linking source did not supply; whether any of them may MERGE is
+  // governed by identifier-authority.ts, not by this adapter.
+  if (binding.ocid?.value) identifiers.push({ scheme: "OPENCORPORATES", value: binding.ocid.value });
+  if (binding.cik?.value) identifiers.push({ scheme: "CIK", value: binding.cik.value.replace(/^0+(?=\d)/, "") });
 
   const hindi = binding.itemLabelHi?.value;
+  const official = binding.official?.value;
+  const short = binding.shortName?.value;
+  // A short name is another name the subject goes by, so it is an alias.
+  // An official name is a legal-name claim and gets its own field.
+  const aliases = [...new Set([
+    ...(hindi && hindi !== name ? [hindi.normalize("NFC")] : []),
+    ...(short && short !== name ? [short.normalize("NFC")] : []),
+  ])];
   return parsePublicRecord({
     recordRef: `wikidata:${qid}`,
     registry: "wikidata",
     registryRecordId: qid,
     subjectKind: "organisation",
     name: name.normalize("NFC"),
-    ...(hindi && hindi !== name ? { aliases: [hindi.normalize("NFC")] } : {}),
+    ...(official && official !== name ? { officialName: official.normalize("NFC") } : {}),
+    ...(aliases.length > 0 ? { aliases } : {}),
     identifiers,
     retrievedAt: context.retrievedAt,
     license: context.license,
@@ -195,9 +250,14 @@ export async function collectWikidata(
       }
     }
     const aliases = [...new Set([...(existing.aliases ?? []), ...(record.aliases ?? [])])];
+    // Keep the first official name seen and do not choose between two:
+    // a second, different P1448 value is the publisher contradicting
+    // itself, and picking one would make identity depend on row order.
+    const officialName = existing.officialName ?? record.officialName;
     byQid.set(record.registryRecordId, {
       ...existing,
       identifiers,
+      ...(officialName ? { officialName } : {}),
       ...(aliases.length > 0 ? { aliases } : {}),
     });
   }

@@ -1,0 +1,3323 @@
+{
+  "experiment": "P6.19.3 expanded three-source real corpus, shipped resolver",
+  "dataClass": "REAL - GLEIF SRC-002 + Wikidata SRC-001 + SEC EDGAR SRC-006",
+  "regime": "anchored (GLEIF keeps the LEI it issues; Wikidata and EDGAR stripped)",
+  "resolverPolicy": "UNMODIFIED - src/lib/resolution is byte-identical to P6.18",
+  "corpus": "evidence/expanded/expanded-anchored.corpus.json",
+  "groundTruth": "evidence/expanded/expanded.ground-truth.json",
+  "database": "./data/netintel-expanded.db",
+  "ranAt": "2026-09-04T03:21:06.434Z",
+  "isolation": "own corpus, own ground truth, own database; never mixed with DarkNet Delhi, synthetic fixtures, or the P6.16 no-identifier corpus",
+  "leakCheck": {
+    "maskedIdentifiersSearchedFor": 745,
+    "occurrences": 0,
+    "verdict": "CLEAN",
+    "leaked": []
+  },
+  "counts": {
+    "records": 1245,
+    "mentions": 1245,
+    "entities": 994,
+    "aliases": 228,
+    "relationships": 0,
+    "graphCounts": {
+      "entitiesConsidered": 994,
+      "extractedRecordsConsidered": 11305,
+      "nodesByKind": {
+        "organisation": 994
+      },
+      "edgesByType": {}
+    },
+    "positivePairs": 578,
+    "hardNegativePairs": 146,
+    "formerNamePairsNotScored": 79,
+    "undetermined": 11,
+    "resolutionWarnings": 1
+  },
+  "metrics": {
+    "positivePairJoinRate": {
+      "n": 235,
+      "d": 578,
+      "pct": "40.7%"
+    },
+    "falseMergeRate": {
+      "n": 1,
+      "d": 994,
+      "pct": "0.1%"
+    },
+    "hardNegativeFalseMergeRate": {
+      "n": 1,
+      "d": 146,
+      "pct": "0.7%"
+    },
+    "unresolvedRate": {
+      "n": 0,
+      "d": 1245,
+      "pct": "0.0%"
+    },
+    "selfReportedUnresolvedRate": {
+      "n": 497,
+      "d": 1245,
+      "pct": "39.9%"
+    },
+    "fragmentationRate": {
+      "n": 298,
+      "d": 483,
+      "pct": "61.7%"
+    },
+    "provenanceCompleteness": {
+      "n": 13772,
+      "d": 13772,
+      "pct": "100.0%"
+    },
+    "crossSchemeMergesUnprovable": {
+      "n": 64,
+      "d": 994,
+      "pct": "6.4%",
+      "note": "entities joining records that share no identifier scheme (GLEIF x EDGAR). Neither confirmable nor refutable from identifiers; reported, never scored as an error."
+    }
+  },
+  "joinRateBy": {
+    "basis": {
+      "lei_shared": {
+        "n": 185,
+        "d": 482,
+        "pct": "38.4%"
+      },
+      "cik_shared": {
+        "n": 50,
+        "d": 96,
+        "pct": "52.1%"
+      }
+    },
+    "sourcePairing": {
+      "gleif x wikidata": {
+        "n": 185,
+        "d": 482,
+        "pct": "38.4%"
+      },
+      "edgar x wikidata": {
+        "n": 50,
+        "d": 96,
+        "pct": "52.1%"
+      }
+    },
+    "nameVariation": {
+      "partial_token_overlap": {
+        "n": 0,
+        "d": 69,
+        "pct": "0.0%"
+      },
+      "identical": {
+        "n": 43,
+        "d": 44,
+        "pct": "97.7%"
+      },
+      "script_variant": {
+        "n": 0,
+        "d": 31,
+        "pct": "0.0%"
+      },
+      "containment": {
+        "n": 0,
+        "d": 160,
+        "pct": "0.0%"
+      },
+      "legal_suffix_or_punctuation": {
+        "n": 144,
+        "d": 156,
+        "pct": "92.3%"
+      },
+      "divergent": {
+        "n": 0,
+        "d": 69,
+        "pct": "0.0%"
+      },
+      "case_only": {
+        "n": 48,
+        "d": 49,
+        "pct": "98.0%"
+      }
+    },
+    "split": {
+      "training_candidate": {
+        "n": 114,
+        "d": 279,
+        "pct": "40.9%"
+      },
+      "heldout_evaluation": {
+        "n": 121,
+        "d": 299,
+        "pct": "40.5%"
+      }
+    },
+    "ocidCorroborated": {
+      "ocid_agrees": {
+        "n": 45,
+        "d": 193,
+        "pct": "23.3%"
+      },
+      "no_corroboration": {
+        "n": 190,
+        "d": 385,
+        "pct": "49.4%"
+      }
+    }
+  },
+  "resolutionTypeHistogram": {
+    "new_entity": 497,
+    "unlinked_mention": 497,
+    "normalized_name_match": 195,
+    "exact_name_match": 56
+  },
+  "resolutionStatusHistogram": {
+    "resolved": 748,
+    "unresolved": 497
+  },
+  "hardNegativesFalselyMerged": [
+    {
+      "pairId": "EN-0002",
+      "basis": "normalised_name_collision",
+      "scheme": "CIK",
+      "sourcePairing": "edgar x edgar",
+      "a": {
+        "recordRef": "edgar:785815",
+        "registry": "edgar",
+        "name": "ROCKY MOUNTAIN CHOCOLATE FACTORY INC",
+        "id": "CIK:785815"
+      },
+      "b": {
+        "recordRef": "edgar:1616262",
+        "registry": "edgar",
+        "name": "Rocky Mountain Chocolate Factory, Inc.",
+        "id": "CIK:1616262"
+      },
+      "falselyMerged": true
+    }
+  ],
+  "corpusWideFalseMerges": [
+    {
+      "entityId": "entity_8ef4df8bb373e7dfa18d",
+      "subjects": [
+        "LEI:549300D6ZL62HPKRUC81",
+        "CIK:785815",
+        "CIK:1616262"
+      ],
+      "names": [
+        "Rocky Mountain Chocolate Factory, Inc.",
+        "ROCKY MOUNTAIN CHOCOLATE FACTORY INC"
+      ]
+    }
+  ],
+  "unjoinedPositives": [
+    {
+      "pairId": "EP-0001",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "The Bell Telephone Company of Canada or Bell Canada",
+      "b": "Bell Canada",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0003",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "アサヒビール株式会社",
+      "b": "Asahi Breweries",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0005",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "青岛啤酒股份有限公司",
+      "b": "Tsingtao Brewery",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0006",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "aktsiaselts A. Le Coq",
+      "b": "A. Le Coq",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0007",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "UBER TECHNOLOGIES, INC.",
+      "b": "Uber",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0008",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "株式会社インターネットイニシアティブ",
+      "b": "Internet Initiative Japan",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0010",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "サッポロホールディングス株式会社",
+      "b": "Sapporo Breweries",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0011",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "AASS BRYGGERI AS",
+      "b": "Aass Brewery",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0012",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "GRUPO TELEVISA S A B",
+      "b": "Grupo Televisa",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0013",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Bürgerliches Brauhaus Ravensburg - Lindau Aktiengesellschaft.",
+      "b": "Q1021191",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0014",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "AB \"GUBERNIJA\"",
+      "b": "Gubernija",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0015",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Paulaner Brauerei Gruppe GmbH & Co. KGaA",
+      "b": "Paulaner Brewery",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0016",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Kopparbergs Bryggeri Aktiebolag",
+      "b": "Kopparbergs Brewery",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0017",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "CARLSBERG A/S",
+      "b": "Carlsberg Group",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0018",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "FONTERRA CO-OPERATIVE GROUP LIMITED",
+      "b": "Fonterra",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0019",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Bahnhof AB (publ)",
+      "b": "Bahnhof",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0020",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Einbecker Brauhaus Aktiengesellschaft",
+      "b": "Einbecker Brewery",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0021",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "AGENCIA EFE SA SME",
+      "b": "Agencia EFE",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0022",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "IONOS SE",
+      "b": "Ionos",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0026",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Ottakringer Getränke AG",
+      "b": "Q672384",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0027",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Česká tisková kancelář",
+      "b": "Czech News Agency",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0028",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Bières de Chimay",
+      "b": "Chimay Brewery",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0029",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Aktienbrauerei Kaufbeuren Aktiengesellschaft",
+      "b": "Aktienbrauerei Kaufbeuren",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0030",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Elisa Oyj",
+      "b": "Elisa",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0031",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "野村ホールディングス株式会社",
+      "b": "Nomura Group",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0032",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "野村ホールディングス株式会社",
+      "b": "Nomura Holdings",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0033",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Budějovický Budvar, národní podnik, Budweiser Budvar, National Corporation, Budweiser Budvar, Entreprise Nationale",
+      "b": "Budweiser Budvar",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0034",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Heineken N.V.",
+      "b": "Heineken International",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0035",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Grolsche Bierbrouwerij Nederland B.V.",
+      "b": "Grolsch",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0036",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "PLZENSKÝ PRAZDROJ, A. S.",
+      "b": "Plzeňský Prazdroj",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0038",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "The Associated Press",
+      "b": "Associated Press",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0040",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "VERIZON COMMUNICATIONS INC.",
+      "b": "Verizon",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0041",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "TELUS CORPORATION",
+      "b": "Telus Communications",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0042",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "SLOVENSKA TISKOVNA AGENCIJA d.o.o., Ljubljana",
+      "b": "Slovenian Press Agency",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0043",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Universal Music Group N.V.",
+      "b": "Universal Music Group",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0046",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Österreichische Bundesbahnen-Holding Aktiengesellschaft",
+      "b": "Austrian Federal Railways",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0049",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "PA Group Limited",
+      "b": "Press Association",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0050",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "TELIA FINLAND OYJ",
+      "b": "Telia Finland",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0051",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Bredband2 i Skandinavien AB",
+      "b": "Bredband2",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0054",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Telefónica Deutschland Holding AG",
+      "b": "Telefónica Deutschland",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0058",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "E.P.E. ADMINISTRADOR DE INFRAESTRUCTURAS FERROVIARIAS",
+      "b": "Red Nacional de los Ferrocarriles Españoles",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0061",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "TEKSAVVY SOLUTIONS INC.",
+      "b": "TekSavvy",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0062",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Schweizerische Bundesbahnen SBB",
+      "b": "Swiss Federal Railways",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0063",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "UPC CESKA REPUBLIKA, S.R.O.",
+      "b": "UPC Czech Republic",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0064",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Stavební bytové družstvo \"Mír\" Teplice",
+      "b": "Q67803199",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0065",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "ROLLS-ROYCE CORPORATION",
+      "b": "Rolls-Royce North America",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0066",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "SOCIETE NATIONALE SNCF",
+      "b": "Société nationale des chemins de fer français",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0067",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "DANISH CROWN A/S",
+      "b": "Danish Crown",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0070",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Deutsche Bahn Aktiengesellschaft",
+      "b": "Deutsche Bahn",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0072",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "DB Cargo Aktiengesellschaft",
+      "b": "DB Cargo",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0073",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "DB Regio Aktiengesellschaft",
+      "b": "DB Regio",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0074",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "FERROVIE DELLO STATO ITALIANE S.P.A.",
+      "b": "Ferrovie dello Stato Italiane",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0075",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "TALKTALK TELECOM GROUP LIMITED",
+      "b": "TalkTalk Group",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0076",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "NATIONAL RAILROAD PASSENGER CORPORATION",
+      "b": "Q23239",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0082",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Akcinė bendrovė Lietuvos geležinkeliai",
+      "b": "Lietuvos geležinkeliai, AB",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0083",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "麒麟麦酒株式会社",
+      "b": "Kirin Brewery",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0084",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "BRASSERIE DUPONT",
+      "b": "Dupont brewery",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0087",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "PIVOVAR SVIJANY, a.s.",
+      "b": "Svijany Brewery",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0089",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Mohrenbrauerei Vertriebs GmbH & Co KG",
+      "b": "Mohren-Brewery",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0090",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "VLMedia Oy",
+      "b": "VLMedia",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0091",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Měšťanský pivovar Havlíčkův Brod a.s.",
+      "b": "Havlíčkův Brod Brewery",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0093",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Spendrups Bryggeriaktiebolag",
+      "b": "Spendrups",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0094",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "\"MONOLITH FILMS\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "b": "Monolith Films",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0096",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Snapper Films Oy",
+      "b": "Snapper Films",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0097",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Royal Swinkels N.V.",
+      "b": "Royal Swinkels",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0098",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "ADNAMS PLC",
+      "b": "Adnams Southwold",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0099",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "AKTIESELSKABET BRYGGERIET VESTFYEN",
+      "b": "Bryggeriet Vestfyen",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0100",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "PARK & Bellheimer AG",
+      "b": "Q2052477",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0101",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "PRIMÁTOR a.s.",
+      "b": "Primátor",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0102",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "WASGAU Produktions & Handels AG",
+      "b": "Wasgau",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0104",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Adlibris Aktiebolag",
+      "b": "Adlibris",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0106",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Olvi Oyj",
+      "b": "Olvi",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0107",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "BONTONFILM a.s.",
+      "b": "Bontonfilm",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0109",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "2201 Management Company",
+      "b": "Great Divide Brewing Company",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0110",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "WILD BUNCH",
+      "b": "Q3568109",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0111",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "SOCIETE NOUVELLE DE DISTRIBUTION",
+      "b": "Société nouvelle de distribution",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0112",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Ringnes AS",
+      "b": "Ringnes",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0113",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Carlsberg Sverige Aktiebolag",
+      "b": "Carlsberg Sweden",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0114",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "FULLER SMITH & TURNER PLC",
+      "b": "Fuller's Brewery",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0116",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Kulmbacher Brauerei Aktien-Gesellschaft",
+      "b": "Kulmbacher Brewery",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0117",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "FOMENTO ECONOMICO MEXICANO S A B DE C V",
+      "b": "FEMSA",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0122",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Schweizerische Südostbahn AG",
+      "b": "Südostbahn",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0124",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Sena ehf.",
+      "b": "Sena",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0125",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "SONY MUSIC ENTERTAINMENT",
+      "b": "Sony Music",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0126",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "TANWEER ALLIANCES ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΔΙΑΝΟΜΗΣ ΠΑΡΑΓΩΓΗΣ ΕΚΜΕΤΑΛΛΕΥΣΗΣ ΚΑΙ ΠΡΟΒΟΛΗΣ ΟΠΤΙΚΟΑΚΟΥΣΤΙΚΟΥ ΠΕΡΙΕΧΟΜΕΝΟΥ",
+      "b": "Tanweer Alliances",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0127",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "中国国家铁路集团有限公司",
+      "b": "China State Railway Group",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0129",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Barrandov Studio a.s.",
+      "b": "Barrandov Studios",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0130",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "CARGONET AS",
+      "b": "CargoNet",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0131",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "DUPLICATO MEDIA D.O.O.",
+      "b": "Duplicato Media",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0132",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "FLINS Y PINICULAS",
+      "b": "Flins y Pinículas",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0133",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Coöperatieve Zaaizaad- en Pootgoedtelersvereniging Anna Paulowna B.A.",
+      "b": "Q110069259",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0135",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "FNM S.P.A.",
+      "b": "Ferrovie Nord Milano",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0136",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "NOTORIOUS PICTURES SOCIETA' PER AZIONI",
+      "b": "Notorious Pictures",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0138",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Lighthouse Home Entertainment Vertriebsgesellschaft GmbH & Co. KG",
+      "b": "Q120335859",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0140",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "CONTINENTAL FILM, s.r.o.",
+      "b": "Continental film",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0142",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "VIA RAIL CANADA INC.",
+      "b": "Via Rail",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0143",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "DreamWorks Animation SKG, Inc.",
+      "b": "DreamWorks Animation",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0144",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "NORDISK FILM DISTRIBUSJON AS",
+      "b": "Nordisk Film Norway",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0145",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "BLITZ FILM I VIDEO DISTRIBUCIJA DRUŠTVO S OGRANIČENOM ODGOVORNOŠĆU",
+      "b": "Blitz Film i Video Distribucija",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0147",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Aktiebolaget Storstockholms Lokaltrafik",
+      "b": "Storstockholms Lokaltrafik",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0148",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "PKP CARGO SPÓŁKA AKCYJNA W RESTRUKTURYZACJI",
+      "b": "PKP Cargo",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0149",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "VR-Yhtymä Oyj",
+      "b": "VR Group",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0151",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Green Cargo AB",
+      "b": "Green Cargo",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0152",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "České dráhy, a.s.",
+      "b": "České dráhy",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0153",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "BANCO SANTANDER S.A.",
+      "b": "Santander Group",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0157",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Twentieth Century Fox Film Corporation",
+      "b": "20th Century Studios",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0159",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "台新新光金融控股股份有限公司",
+      "b": "TS Financial Holdings",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0163",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Norfolk Southern Corporation",
+      "b": "Norfolk Southern Railway",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0165",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Žatecký pivovar, spol. s r.o.",
+      "b": "Pivovar Žatec",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0166",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "LKAB Malmtrafik AB",
+      "b": "LKAB Malmtrafik",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0167",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "株式会社大和証券グループ本社",
+      "b": "Daiwa Securities Group",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0168",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "KRAKONOŠ spol. s r.o.",
+      "b": "Brewery Krakonoš",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0169",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "ΖΥΘΟΠΟΙΙΑ ΜΑΚΕΔΟΝΙΑΣ ΘΡΑΚΗΣ Α.Ε.",
+      "b": "Macedonian Thrace Brewery",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0171",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "AKTIESELSKABET THISTED BRYGHUS & THISTED MINERALVANDSFABRIK",
+      "b": "Thisted Bryghus",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0172",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "SBIホールディングス株式会社",
+      "b": "SBI Holdings",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0173",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "JP/POLITIKENS HUS A/S",
+      "b": "JP/Politikens Hus",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0174",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Kombiverkehr Deutsche Gesellschaft für kombinierten Güterverkehr mbH & Co. Kommanditgesellschaft",
+      "b": "Kombiverkehr",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0175",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Pivovar Ferdinand, s.r.o.",
+      "b": "Pivovar Ferdinand",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0176",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Pardubický pivovar a.s.",
+      "b": "Pardubický pivovar",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0177",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Rodinný pivovar BERNARD a.s.",
+      "b": "Family Brewery Bernard",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0178",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "JFM P/S",
+      "b": "JFM",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0179",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Pivovar Nymburk, spol. s r.o.",
+      "b": "Pivovar Nymburk",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0184",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "NORDJYSKE JERNBANER A/S",
+      "b": "Nordjyske Jernbaner",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0185",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "PATHE FILMS",
+      "b": "Pathé",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0186",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Oy Karelian Trains Ltd",
+      "b": "Karelian Trains",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0188",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Pivovar Nová Paka a.s.",
+      "b": "Pivovar Nová Paka",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0193",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "New York Community Bank",
+      "b": "Flagstar Financial",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0195",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Commerce Bank",
+      "b": "Commerce Bancshares",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0198",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Great Movies GmbH",
+      "b": "Q122750594",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0199",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "株式会社紀伊國屋書店",
+      "b": "Books Kinokuniya",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0201",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "China Unicom (Hong Kong) Limited",
+      "b": "China Unicom",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0204",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "A CONTRACORRIENTE FILMS S.L.",
+      "b": "A Contracorriente Films",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0205",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "에스케이하이닉스 주식회사",
+      "b": "SK Hynix",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0209",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Публичное акционерное общество \"Мобильные ТелеСистемы\"",
+      "b": "Mobile TeleSystems",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0213",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "NORDISK FILM DISTRIBUTION AB",
+      "b": "Q122389044",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0215",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Schwerin GmbH (SWS)",
+      "b": "Stadtwerke Schwerin",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0218",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Osnabrück Aktiengesellschaft",
+      "b": "Stadtwerke Osnabrück",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0219",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Erlanger Stadtwerke Aktiengesellschaft",
+      "b": "Erlanger Stadtwerke",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0220",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "豊田通商株式会社",
+      "b": "Toyota Tsusho",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0221",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "DREWAG - Stadtwerke Dresden GmbH",
+      "b": "DREWAG",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0223",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "ESWE Versorgungs AG",
+      "b": "ESWE Versorgung",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0225",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "T-MOBILE POLSKA SPÓŁKA AKCYJNA",
+      "b": "T-Mobile Polska",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0227",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "enercity Aktiengesellschaft",
+      "b": "enercity AG",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0229",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "三井物産株式会社",
+      "b": "Mitsui & Co.",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0233",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Rosebud Books Oy",
+      "b": "Rosebud",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0234",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "GARENA ONLINE PRIVATE LIMITED",
+      "b": "Garena",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0236",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "COMPAGNIE INTERCOMMUNALE LIEGEOISE DES EAUX",
+      "b": "Compagnie intercommunale liégeoise des eaux",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0237",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Ingolstadt Energie GmbH",
+      "b": "Stadtwerke Ingolstadt",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0238",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "PT XL Axiata TBK",
+      "b": "XLSmart",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0240",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "LINE株式会社",
+      "b": "Z Intermediate Global Corporation",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0241",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "SWAN, a.s.",
+      "b": "SWAN MOBILE",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0242",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Social Finance, LLC",
+      "b": "SoFi",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0243",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Lokaltog A/S",
+      "b": "Lokaltog",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0245",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Kiwi.com s.r.o.",
+      "b": "Kiwi.com",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0246",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "INDIGO BOOKS & MUSIC INC.",
+      "b": "Indigo",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0247",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "TELEKOM ROMANIA MOBILE COMMUNICATIONS S.A.",
+      "b": "Telekom Romania Mobile",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0250",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Greifswald Gesellschaft mit beschränkter Haftung",
+      "b": "Stadtwerke Greifswald",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0255",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Elektrizace železnic Praha a.s.",
+      "b": "Elektrizace železnic Praha",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0256",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Kiel Aktiengesellschaft",
+      "b": "Stadtwerke Kiel",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0257",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Städtische Werke Magdeburg GmbH & Co. KG",
+      "b": "Städtische Werke Magdeburg",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0259",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Dillingen/Saar GmbH",
+      "b": "Stadtwerke Dillingen",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0261",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Bielefeld Gesellschaft mit beschränkter Haftung",
+      "b": "Stadtwerke Bielefeld",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0262",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Lübeck Gruppe GmbH",
+      "b": "Stadtwerke Lübeck",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0263",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Essen Aktiengesellschaft",
+      "b": "Stadtwerke Essen",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0264",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "STAWAG - Stadt- und Städteregionswerke Aachen AG",
+      "b": "STAWAG",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0265",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Frankfurt am Main Holding GmbH",
+      "b": "Stadtwerke Frankfurt am Main",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0269",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Bochum Holding GmbH",
+      "b": "Stadtwerke Bochum",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0270",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Duisburg Aktiengesellschaft",
+      "b": "Stadtwerke Duisburg",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0271",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "TFCF CORPORATION",
+      "b": "21st Century Fox",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0272",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "KNIHY DOBROVSKÝ s.r.o.",
+      "b": "Knihy Dobrovský",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0273",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Výzkumný Ústav Železniční, a.s.",
+      "b": "Výzkumný Ústav Železniční",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0274",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Vinohradský pivovar, a.s.",
+      "b": "Vinohradský pivovar",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0275",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Feedzai-Consultoria e Inovação Tecnológica, S.A.",
+      "b": "Q111920377",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0276",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "KfW Capital GmbH & Co. KG",
+      "b": "Q96886253",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0277",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "20230930-DK-BUTTERFLY-1, INC.",
+      "b": "Bed Bath & Beyond Inc.",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0278",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Pivovar Falkenštejn s.r.o.",
+      "b": "Pivovar Falkenštejn",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0279",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Stadtwerke Wertheim GmbH",
+      "b": "Q109744944",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0280",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "株式会社ヤマダホールディングス",
+      "b": "Yamada Denki",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0281",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Pivovar Kamenice s.r.o.",
+      "b": "Pivovar Kamenice",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0283",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Pivovar Clock s.r.o.",
+      "b": "Pivovar Clock",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0285",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "HEMA B.V.",
+      "b": "HEMA",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0286",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Panduro Hobby Aktiebolag",
+      "b": "Panduro Hobby",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0287",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "INDUSTRIA DE DISEÑO TEXTIL, S.A.",
+      "b": "Inditex",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0288",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "BOARDRIDERS, INC.",
+      "b": "Quiksilver",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0290",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Rosenheim GmbH & Co. KG",
+      "b": "Stadtwerke Rosenheim",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0291",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Willich Gesellschaft mit beschränkter Haftung",
+      "b": "Stadtwerke Willich",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0292",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Stadtwerke Mosbach GmbH",
+      "b": "Q110938424",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0293",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "ZEEMAN textielSupers B.V.",
+      "b": "Zeeman",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0295",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Poslovni sistem Mercator d.o.o.",
+      "b": "Mercator",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0296",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "HEINEKEN ČESKÁ REPUBLIKA, A.S.",
+      "b": "Heineken Česká republika",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0297",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "THE BODY SHOP INTERNATIONAL LIMITED",
+      "b": "The Body Shop",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0299",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Göttingen Aktiengesellschaft",
+      "b": "Stadtwerke Göttingen",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0301",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Stadtwerke Fröndenberg Wickede GmbH",
+      "b": "Stadtwerke Fröndenberg",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0306",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "WALMART INC.",
+      "b": "Q483551",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0310",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "COSTCO WHOLESALE CORPORATION",
+      "b": "Costco",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0312",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "BARBEQUES GALORE (AUST) PTY LIMITED",
+      "b": "Barbeques Galore",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0317",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Vlaamse Maatschappij voor Watervoorziening",
+      "b": "De Watergroep",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0320",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Kärkkäinen Oy",
+      "b": "Kärkkäinen",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0321",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "МЕЖДУНАРОДНАЯ КОМПАНИЯ ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"ЛЕНТА\"",
+      "b": "Lenta",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0324",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "MATAS A/S",
+      "b": "Matas",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0325",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Verkkokauppa.com Oyj",
+      "b": "Verkkokauppa.com",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0328",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "CROWN CASTLE INC.",
+      "b": "Crown Castle International Corp.",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0330",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "BULK BARN FOODS LIMITED",
+      "b": "Bulk Barn",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0332",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "FURLA - S.P.A.",
+      "b": "Furla",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0335",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "UNIEURO S.P.A.",
+      "b": "Unieuro",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0336",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "ELKJØP NORDIC AS",
+      "b": "Elkjøp",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0337",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "SOCULTUR",
+      "b": "Cultura",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0338",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "SOCIETE WALLONNE DES EAUX",
+      "b": "Société wallonne des eaux",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0339",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Simon Levelt B.V.",
+      "b": "Simon Lévelt",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0342",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "M REALISATIONS 2020 LIMITED",
+      "b": "Monsoon Accessorize",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0345",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "GOODYEAR & DUNLOP TYRES (AUST) PTY LTD",
+      "b": "Beaurepaires",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0346",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Avalonbay Communities, Inc.",
+      "b": "AvalonBay",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0347",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "MICHAELS STORES, INC.",
+      "b": "Michaels",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0348",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "RYDER SYSTEM, INC.",
+      "b": "Ryder",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0350",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "東京電力ホールディングス株式会社",
+      "b": "Tokyo Electric Power Company Holdings",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0351",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "HROCHOSTROJ a.s.",
+      "b": "HROCHOSTROJ",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0353",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "中国電力株式会社",
+      "b": "Chugoku Electric Power Company",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0354",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Michelské pekárny a.s.",
+      "b": "Michelské pekárny",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0355",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "TÜRKİYE CUMHURİYET MERKEZ BANKASI",
+      "b": "Central Bank of the Republic of Turkey",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0356",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "日本銀行",
+      "b": "Bank of Japan",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0357",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "ZAG Zeitarbeits-Gesellschaft GmbH Hannover",
+      "b": "ZAG – Zeitarbeits-Gesellschaft",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0358",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "東北電力株式会社",
+      "b": "Tohoku Electric Power",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0359",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Broodbakker Simon Meijssen B.V.",
+      "b": "Q110061707",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0360",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "CONFISERIE LEONIDAS",
+      "b": "Leonidas",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0361",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "CyrusOne Holdco LLC",
+      "b": "CyrusOne",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0363",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Lietuvos bankas",
+      "b": "Bank of Lithuania",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0364",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "MERLIN PROPERTIES SOCIMI, S.A.",
+      "b": "Merlin Properties",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0366",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Pražská plynárenská Distribuce, a.s., člen koncernu Pražská plynárenská, a.s.",
+      "b": "Pražská plynárenská Distribuce",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0367",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "HUNSGAS s.r.o.",
+      "b": "HUNSGAS",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0368",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Deutsche Bundesbank",
+      "b": "German Federal Bank",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0370",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "IVANHOÉ CAMBRIDGE INC.",
+      "b": "Ivanhoe Cambridge",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0373",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Východoslovenská vodárenská spoločnosť, a.s.",
+      "b": "East Slovak Water Company",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0374",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Halloren Schokoladenfabrik Aktiengesellschaft",
+      "b": "Halloren Chocolate Factory",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0375",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Anttila Oy",
+      "b": "Anttila",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0376",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Chocoladefabriken Lindt & Sprüngli AG",
+      "b": "Lindt & Sprüngli",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0378",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "SMITH & WESSON BRANDS, INC.",
+      "b": "American Outdoor Brands Corporation",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0380",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "ČESKÁ NÁRODNÍ BANKA",
+      "b": "Czech National Bank",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0383",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "中華民國中央銀行",
+      "b": "Central Bank of the Republic of China",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0384",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "한국은행",
+      "b": "Bank of Korea",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0386",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Adecco Group AG",
+      "b": "The Adecco Group",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0390",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Manila Electric Company",
+      "b": "Meralco",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0391",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "北海道電力株式会社",
+      "b": "Hokkaido Electric Power Company",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0392",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "北陸電力株式会社",
+      "b": "Hokuriku Electric Power Company",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0393",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "中部電力株式会社",
+      "b": "Chubu Electric Power",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0395",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "NARODNA BANKA SRBIJE",
+      "b": "National Bank of Serbia",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0396",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "関西電力株式会社",
+      "b": "Kansai Electric Power Company",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0397",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "BANCA NATIONALA A ROMANIEI",
+      "b": "National Bank of Romania",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0398",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "NORD-TRØNDELAG ELEKTRISITETSVERK HOLDING AS",
+      "b": "Nord-Trøndelag Elektrisitetsverk",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0400",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "九州電力株式会社",
+      "b": "Kyushu Electric Power",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0402",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "EDISON S.P.A.",
+      "b": "Edison",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0403",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "TIWAG-Tiroler Wasserkraft AG",
+      "b": "TIWAG",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0405",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Seðlabanki Íslands",
+      "b": "Central Bank of Iceland",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0407",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "ธนาคารแห่งประเทศไทย",
+      "b": "Bank of Thailand",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0408",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "BANQUE DE FRANCE",
+      "b": "Bank of France",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0409",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "De Nederlandsche Bank N.V.",
+      "b": "De Nederlandsche Bank",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0416",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "LATVIJAS BANKA",
+      "b": "Bank of Latvia",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0418",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "MANPOWERGROUP INC.",
+      "b": "Alpha Tomo Global Resoures Sdn Bhd",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0419",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "MAGYAR NEMZETI BANK",
+      "b": "Hungarian National Bank",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0420",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Bank of Montréal",
+      "b": "Bank of Montreal",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0423",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "BANQUE NATIONALE DE BELGIQUE",
+      "b": "National Bank of Belgium",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0429",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "한화생명보험 (주)",
+      "b": "Hanwha Life Insurance",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0430",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "현대해상화재보험 (주)",
+      "b": "Hyundai Marine & Fire Insurance",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0431",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Team Sportia AB",
+      "b": "Team Sportia",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0434",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Zürich Beteiligungs-Aktiengesellschaft (Deutschland)",
+      "b": "Zurich Gruppe Deutschland",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0435",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Vitamin Shoppe, Inc.",
+      "b": "The Vitamin Shoppe",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0436",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "POWSZECHNA KASA OSZCZĘDNOŚCI BANK POLSKI SPÓŁKA AKCYJNA",
+      "b": "Powszechna Kasa Oszczędności Bank Polski",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0437",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "KANZELSBERGER a.s.",
+      "b": "KANZELSBERGER",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0438",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "ARAG SE",
+      "b": "ARAG",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0439",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Russell Stover Chocolates, LLC",
+      "b": "Russell Stover Candies",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0440",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "AURES Holdings a.s.",
+      "b": "AURES Holdings",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0442",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Rocky Mountain Chocolate Factory, Inc.",
+      "b": "Rocky Mountain Chocolate",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0443",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "MAPFRE S.A.",
+      "b": "MAPFRE",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0444",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "GENERTEL S.P.A.",
+      "b": "Cattolica Assicurazioni",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0445",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "WAWEL SPÓŁKA AKCYJNA",
+      "b": "Wawel",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0446",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "SPORTSDIRECT.COM RETAIL LIMITED",
+      "b": "Sports Direct",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0447",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "KOMPUTRONIK SPÓŁKA AKCYJNA",
+      "b": "Komputronik",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0448",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "PEPCO POLAND SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "b": "Pepco",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0449",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "ASR Nederland N.V.",
+      "b": "ASR Nederland",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0450",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "TOMS GRUPPEN A/S",
+      "b": "Toms Group",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0452",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "COOP DANMARK A/S",
+      "b": "Coop Danmark",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0453",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "Flügger group A/S",
+      "b": "Q10497241",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0454",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "script_variant",
+      "a": "株式会社第一ライフグループ",
+      "b": "The Dai-ichi Life Insurance Company",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0456",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Swiss Life Holding AG",
+      "b": "Swiss Life",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0460",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "UNION ELECTRIC COMPANY",
+      "b": "Ameren Missouri",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0463",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "INSTITUT D'EMISSION D'OUTRE-MER",
+      "b": "Institut d'émission d'outre-mer",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0464",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "WVW Wohnungsbau Wohnungsverwaltung Weißenfels Gesellschaft mit beschränkter Haftung",
+      "b": "WVW",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0468",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "LEG Immobilien SE",
+      "b": "LEG Immobilien",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0469",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "NÜRNBERGER Beteiligungs-AG",
+      "b": "Nürnberger Versicherung",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0470",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "TIROLER VERSICHERUNG V.a.G.",
+      "b": "Tiroler Versicherung",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0471",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Gjensidige Forsikring ASA",
+      "b": "Gjensidige",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0474",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "GENERTEL S.P.A.",
+      "b": "Genertel",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0475",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Württembergische Gemeinde-Versicherung auf Gegenseitigkeit",
+      "b": "Württembergische Gemeinde-Versicherung",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0476",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Steiermärkische Bank und Sparkassen Aktiengesellschaft",
+      "b": "Steiermärkische Sparkasse",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0477",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "divergent",
+      "a": "BELFIUS VERZEKERINGEN",
+      "b": "DVV",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0478",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "POWSZECHNY ZAKŁAD UBEZPIECZEŃ SPÓŁKA AKCYJNA",
+      "b": "Powszechny Zakład Ubezpieczeń",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0479",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "Vonovia SE",
+      "b": "Vonovia",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0482",
+      "basis": "lei_shared",
+      "sourcePairing": "gleif x wikidata",
+      "variation": "containment",
+      "a": "ERSTE GROUP BANK AG",
+      "b": "Erste Group",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0485",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "TELUS CORP",
+      "b": "Telus Communications",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0486",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "VERIZON COMMUNICATIONS INC",
+      "b": "Verizon",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0487",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "Uber Technologies, Inc",
+      "b": "Uber",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0488",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "INTERNET INITIATIVE JAPAN INC",
+      "b": "Internet Initiative Japan",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0493",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Walt Disney Co",
+      "b": "The Walt Disney Company",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0494",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "DreamWorks Animation, LLC",
+      "b": "DreamWorks Animation",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0496",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "SBI Holdings, Inc.",
+      "b": "SBI Holdings",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0497",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "NOMURA HOLDINGS INC",
+      "b": "Nomura Holdings",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0498",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "Hawkeye Acquisition, Inc.",
+      "b": "Meredith Corporation",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0500",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "TCF FINANCIAL CORP",
+      "b": "Chemical Financial Corporation",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0501",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "FIRST BANCORP /NC/",
+      "b": "First Bancorp",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0502",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
+      "b": "Flagstar Financial",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0503",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "NEW YORK COMMUNITY BANK",
+      "b": "Flagstar Financial",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0516",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "SK hynix Inc.",
+      "b": "SK Hynix",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0518",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "MTS INC",
+      "b": "Mobile TeleSystems",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0519",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "TWENTY-FIRST CENTURY FOX, INC.",
+      "b": "21st Century Fox",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0521",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "Social Finance, Inc.",
+      "b": "SoFi",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0522",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "Meitu Inc./ADR",
+      "b": "Meitu",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0527",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "Walmart Inc.",
+      "b": "Q483551",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0529",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "COSTCO WHOLESALE CORP /NEW",
+      "b": "Costco",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0530",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "20230930-DK-Butterfly-1, Inc.",
+      "b": "Bed Bath & Beyond Inc.",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0532",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "QUIKSILVER INC",
+      "b": "Quiksilver",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0533",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "ODP Corp",
+      "b": "Office Depot",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0534",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "RYDER SYSTEM INC",
+      "b": "Ryder",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0536",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "NEW RITE AID, LLC",
+      "b": "Rite Aid",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0538",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "AVALONBAY COMMUNITIES INC",
+      "b": "AvalonBay",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0543",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "CROWN CASTLE INC.",
+      "b": "Crown Castle International Corp.",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0546",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Mahwah Bergen Retail Group, Inc.",
+      "b": "Ascena Retail Group",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0553",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "Iberdrola, S.A.",
+      "b": "Iberdrola",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0556",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "UPBOUND GROUP, INC.",
+      "b": "Rent-A-Center",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0557",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "ROCKY MOUNTAIN CHOCOLATE FACTORY INC",
+      "b": "Rocky Mountain Chocolate",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0558",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "Rocky Mountain Chocolate Factory, Inc.",
+      "b": "Rocky Mountain Chocolate",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0560",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "Vitamin Shoppe, Inc.",
+      "b": "The Vitamin Shoppe",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0564",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "AXA S.A.",
+      "b": "AXA",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0567",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "PROGRESSIVE CORP/OH/",
+      "b": "Progressive Corporation",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0568",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "Lemonade, Inc.",
+      "b": "Lemonade",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0569",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "case_only",
+      "a": "ABBOTT LABORATORIES",
+      "b": "Abbott Laboratories",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0570",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "SMITH & NEPHEW INC",
+      "b": "Smith & Nephew",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0571",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "containment",
+      "a": "BECTON DICKINSON & CO",
+      "b": "Becton Dickinson",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0572",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "identical",
+      "a": "Blackstone Inc.",
+      "b": "Blackstone Inc.",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0573",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "BOSTON SCIENTIFIC CORP",
+      "b": "Boston Scientific",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0574",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "CARDINAL HEALTH INC",
+      "b": "Cardinal Health",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0575",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "partial_token_overlap",
+      "a": "SCHWAB CHARLES CORP",
+      "b": "Charles Schwab Corporation",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0576",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "divergent",
+      "a": "KKR & Co. Inc.",
+      "b": "Kohlberg Kravis Roberts",
+      "split": "training_candidate"
+    },
+    {
+      "pairId": "EP-0577",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "STRYKER CORP",
+      "b": "Stryker Corporation",
+      "split": "heldout_evaluation"
+    },
+    {
+      "pairId": "EP-0578",
+      "basis": "cik_shared",
+      "sourcePairing": "edgar x wikidata",
+      "variation": "legal_suffix_or_punctuation",
+      "a": "INTUITIVE SURGICAL INC",
+      "b": "Intuitive Surgical",
+      "split": "training_candidate"
+    }
+  ],
+  "formerNamePairs": {
+    "note": "ONE authority's temporal claim, not two publishers agreeing. Carried as aliases, so there is no second mention to join to. Not scored; reported as available training material.",
+    "total": 79,
+    "byVariation": [
+      [
+        "divergent",
+        24
+      ],
+      [
+        "legal_suffix_or_punctuation",
+        9
+      ],
+      [
+        "containment",
+        17
+      ],
+      [
+        "partial_token_overlap",
+        29
+      ]
+    ]
+  }
+}
