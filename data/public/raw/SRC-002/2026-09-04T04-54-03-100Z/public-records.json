@@ -1,0 +1,2449 @@
+[
+  {
+    "recordRef": "gleif:549300G0VTDMY8H0RM04",
+    "registry": "gleif",
+    "registryRecordId": "549300G0VTDMY8H0RM04",
+    "subjectKind": "organisation",
+    "name": "SONY MUSIC ENTERTAINMENT",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300G0VTDMY8H0RM04"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/3824209"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "3824209"
+      }
+    ],
+    "observedAt": "2026-05-07T17:39:46.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300G0VTDMY8H0RM04"
+  },
+  {
+    "recordRef": "gleif:549300FNX8TUIVCQQT73",
+    "registry": "gleif",
+    "registryRecordId": "549300FNX8TUIVCQQT73",
+    "subjectKind": "organisation",
+    "name": "GARENA ONLINE PRIVATE LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300FNX8TUIVCQQT73"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "sg/200908142H"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000523",
+        "value": "200908142H"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "529900OM6JLLW44YKI15"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "529900OM6JLLW44YKI15"
+      }
+    ],
+    "observedAt": "2026-04-29T11:14:23.000Z",
+    "jurisdiction": "SG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300FNX8TUIVCQQT73"
+  },
+  {
+    "recordRef": "gleif:549300B2FTG34FILDR98",
+    "registry": "gleif",
+    "registryRecordId": "549300B2FTG34FILDR98",
+    "subjectKind": "organisation",
+    "name": "UBER TECHNOLOGIES, INC.",
+    "aliases": [
+      "UBERCAB, INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300B2FTG34FILDR98"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/4849283"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "4849283"
+      }
+    ],
+    "observedAt": "2026-02-24T11:14:24.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300B2FTG34FILDR98"
+  },
+  {
+    "recordRef": "gleif:549300GZKULIZ0WOW665",
+    "registry": "gleif",
+    "registryRecordId": "549300GZKULIZ0WOW665",
+    "subjectKind": "organisation",
+    "name": "THE WALT DISNEY COMPANY",
+    "aliases": [
+      "TWDC Holdco 613 Corp."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300GZKULIZ0WOW665"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/6931540"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "6931540"
+      }
+    ],
+    "observedAt": "2026-02-20T09:04:38.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300GZKULIZ0WOW665"
+  },
+  {
+    "recordRef": "gleif:549300HNUN45P7J57W81",
+    "registry": "gleif",
+    "registryRecordId": "549300HNUN45P7J57W81",
+    "subjectKind": "organisation",
+    "name": "FIRST CITIZENS BANCSHARES, INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300HNUN45P7J57W81"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_tn/000123149"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000636",
+        "value": "000123149"
+      }
+    ],
+    "observedAt": "2026-02-06T16:53:07.000Z",
+    "jurisdiction": "US-TN",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300HNUN45P7J57W81"
+  },
+  {
+    "recordRef": "gleif:5493009X56A86YBSV846",
+    "registry": "gleif",
+    "registryRecordId": "5493009X56A86YBSV846",
+    "subjectKind": "organisation",
+    "name": "LKAB Malmtrafik AB",
+    "aliases": [
+      "Malmtrafik i Kiruna AB"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493009X56A86YBSV846"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556031-4808"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556031-4808"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "549300ONBUTV20237K19"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "549300ONBUTV20237K19"
+      }
+    ],
+    "observedAt": "2023-03-19T00:00:09.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493009X56A86YBSV846"
+  },
+  {
+    "recordRef": "gleif:549300AI3NQ8YTXXP090",
+    "registry": "gleif",
+    "registryRecordId": "549300AI3NQ8YTXXP090",
+    "subjectKind": "organisation",
+    "name": "Social Finance, LLC",
+    "aliases": [
+      "Credit-Linked Community Notes of Social Finance Inc.",
+      "SOCIAL FINANCE, INC."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300AI3NQ8YTXXP090"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/4974053"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "4974053"
+      }
+    ],
+    "observedAt": "2025-11-04T14:11:17.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300AI3NQ8YTXXP090"
+  },
+  {
+    "recordRef": "gleif:549300886SWD7HHVFM63",
+    "registry": "gleif",
+    "registryRecordId": "549300886SWD7HHVFM63",
+    "subjectKind": "organisation",
+    "name": "Spendrups Bryggeriaktiebolag",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300886SWD7HHVFM63"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556079-6871"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556079-6871"
+      }
+    ],
+    "observedAt": "2025-12-18T20:26:00.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300886SWD7HHVFM63"
+  },
+  {
+    "recordRef": "gleif:5493009QZO6889DTYK94",
+    "registry": "gleif",
+    "registryRecordId": "5493009QZO6889DTYK94",
+    "subjectKind": "organisation",
+    "name": "Team Sportia AB",
+    "aliases": [
+      "Team Sportia Aktiebolag"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493009QZO6889DTYK94"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556297-3270"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556297-3270"
+      }
+    ],
+    "observedAt": "2023-08-02T13:07:00.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493009QZO6889DTYK94"
+  },
+  {
+    "recordRef": "gleif:5493007PY0G5L3Q8W540",
+    "registry": "gleif",
+    "registryRecordId": "5493007PY0G5L3Q8W540",
+    "subjectKind": "organisation",
+    "name": "NORSK RIKSKRINGKASTING AS",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493007PY0G5L3Q8W540"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/976390512"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "976 390 512"
+      }
+    ],
+    "observedAt": "2026-08-13T12:54:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493007PY0G5L3Q8W540"
+  },
+  {
+    "recordRef": "gleif:549300JN2F648ULRTI22",
+    "registry": "gleif",
+    "registryRecordId": "549300JN2F648ULRTI22",
+    "subjectKind": "organisation",
+    "name": "Bredband2 i Skandinavien AB",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300JN2F648ULRTI22"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556346-9062"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556346-9062"
+      }
+    ],
+    "observedAt": "2026-04-09T01:30:29.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300JN2F648ULRTI22"
+  },
+  {
+    "recordRef": "gleif:549300GO1ETT3OKCKN44",
+    "registry": "gleif",
+    "registryRecordId": "549300GO1ETT3OKCKN44",
+    "subjectKind": "organisation",
+    "name": "E-CO ENERGI HOLDING AS",
+    "aliases": [
+      "E- Co Energi AS"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300GO1ETT3OKCKN44"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/976894871"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "976 894 871"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "549300UAIWLC88DDWH20"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "549300UAIWLC88DDWH20"
+      }
+    ],
+    "observedAt": "2023-08-09T11:48:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300GO1ETT3OKCKN44"
+  },
+  {
+    "recordRef": "gleif:549300FGXN1K3HLB1R50",
+    "registry": "gleif",
+    "registryRecordId": "549300FGXN1K3HLB1R50",
+    "subjectKind": "organisation",
+    "name": "ROCKET MORTGAGE, LLC",
+    "aliases": [
+      "QUICKEN LOANS INC.",
+      "QUICKEN LOANS, LLC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300FGXN1K3HLB1R50"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_mi/802434109"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000616",
+        "value": "802434109"
+      }
+    ],
+    "observedAt": "2026-07-07T20:04:23.000Z",
+    "jurisdiction": "US-MI",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300FGXN1K3HLB1R50"
+  },
+  {
+    "recordRef": "gleif:549300E5Y4M86FFRWP82",
+    "registry": "gleif",
+    "registryRecordId": "549300E5Y4M86FFRWP82",
+    "subjectKind": "organisation",
+    "name": "UNION PACIFIC RAILROAD COMPANY",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300E5Y4M86FFRWP82"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/703228"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "703228"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "549300LMMRSZZCZ8CL11"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "549300LMMRSZZCZ8CL11"
+      }
+    ],
+    "observedAt": "2026-06-09T06:28:20.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300E5Y4M86FFRWP82"
+  },
+  {
+    "recordRef": "gleif:5493006S177ZK2ZNBU43",
+    "registry": "gleif",
+    "registryRecordId": "5493006S177ZK2ZNBU43",
+    "subjectKind": "organisation",
+    "name": "CyrusOne Holdco LLC",
+    "aliases": [
+      "CYRUSONE INC."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493006S177ZK2ZNBU43"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/6697539"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "6697539"
+      }
+    ],
+    "observedAt": "2026-06-19T00:52:55.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493006S177ZK2ZNBU43"
+  },
+  {
+    "recordRef": "gleif:549300ER2JOBZCUUTS42",
+    "registry": "gleif",
+    "registryRecordId": "549300ER2JOBZCUUTS42",
+    "subjectKind": "organisation",
+    "name": "Vitamin Shoppe, Inc.",
+    "aliases": [
+      "VS Holdings, Inc."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300ER2JOBZCUUTS42"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/3571643"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "3571643"
+      }
+    ],
+    "observedAt": "2026-07-30T21:03:16.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300ER2JOBZCUUTS42"
+  },
+  {
+    "recordRef": "gleif:549300I3VFWXFDWTF203",
+    "registry": "gleif",
+    "registryRecordId": "549300I3VFWXFDWTF203",
+    "subjectKind": "organisation",
+    "name": "INDIGO BOOKS & MUSIC INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300I3VFWXFDWTF203"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "ca_on/1653848"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000079",
+        "value": "1653848"
+      }
+    ],
+    "observedAt": "2026-02-27T16:41:05.000Z",
+    "jurisdiction": "CA-ON",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300I3VFWXFDWTF203"
+  },
+  {
+    "recordRef": "gleif:549300ISB1DBYZY75044",
+    "registry": "gleif",
+    "registryRecordId": "549300ISB1DBYZY75044",
+    "subjectKind": "organisation",
+    "name": "Adlibris Aktiebolag",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300ISB1DBYZY75044"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556261-3512"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "5562613512"
+      }
+    ],
+    "observedAt": "2022-10-25T17:00:53.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300ISB1DBYZY75044"
+  },
+  {
+    "recordRef": "gleif:549300JM49VWM03KSQ02",
+    "registry": "gleif",
+    "registryRecordId": "549300JM49VWM03KSQ02",
+    "subjectKind": "organisation",
+    "name": "Panduro Hobby Aktiebolag",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300JM49VWM03KSQ02"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556073-6356"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556073-6356"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "213800V7B2AQW2OQ8247"
+      }
+    ],
+    "observedAt": "2026-03-06T05:07:00.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300JM49VWM03KSQ02"
+  },
+  {
+    "recordRef": "gleif:549300E8GLINV6X3FU40",
+    "registry": "gleif",
+    "registryRecordId": "549300E8GLINV6X3FU40",
+    "subjectKind": "organisation",
+    "name": "BULK BARN FOODS LIMITED",
+    "aliases": [
+      "ALIMENTS BULK BARN LIMITEE"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300E8GLINV6X3FU40"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "ca_on/1000082879"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000079",
+        "value": "1000082879"
+      }
+    ],
+    "observedAt": "2026-03-31T09:42:23.000Z",
+    "jurisdiction": "CA-ON",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300E8GLINV6X3FU40"
+  },
+  {
+    "recordRef": "gleif:549300DRQQI75D2JP341",
+    "registry": "gleif",
+    "registryRecordId": "549300DRQQI75D2JP341",
+    "subjectKind": "organisation",
+    "name": "Truist Financial Corporation",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300DRQQI75D2JP341"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_nc/0210719"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000621",
+        "value": "0210719"
+      }
+    ],
+    "observedAt": "2026-06-23T17:12:16.000Z",
+    "jurisdiction": "US-NC",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300DRQQI75D2JP341"
+  },
+  {
+    "recordRef": "gleif:549300FH4R4XMND1HQ55",
+    "registry": "gleif",
+    "registryRecordId": "549300FH4R4XMND1HQ55",
+    "subjectKind": "organisation",
+    "name": "TEKSAVVY SOLUTIONS INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300FH4R4XMND1HQ55"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000079",
+        "value": "1919503"
+      }
+    ],
+    "observedAt": "2023-10-15T01:30:38.000Z",
+    "jurisdiction": "CA-ON",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300FH4R4XMND1HQ55"
+  },
+  {
+    "recordRef": "gleif:549300D6ZL62HPKRUC81",
+    "registry": "gleif",
+    "registryRecordId": "549300D6ZL62HPKRUC81",
+    "subjectKind": "organisation",
+    "name": "Rocky Mountain Chocolate Factory, Inc.",
+    "aliases": [
+      "Rocky Mountain Brands, Inc."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300D6ZL62HPKRUC81"
+      }
+    ],
+    "observedAt": "2023-08-04T16:19:09.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300D6ZL62HPKRUC81"
+  },
+  {
+    "recordRef": "gleif:549300FQ2ILBH7DJ6I45",
+    "registry": "gleif",
+    "registryRecordId": "549300FQ2ILBH7DJ6I45",
+    "subjectKind": "organisation",
+    "name": "Flughafen Wien Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300FQ2ILBH7DJ6I45"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "42984m"
+      }
+    ],
+    "observedAt": "2026-08-17T07:22:09.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300FQ2ILBH7DJ6I45"
+  },
+  {
+    "recordRef": "gleif:549300BC4XSZJHJRGS95",
+    "registry": "gleif",
+    "registryRecordId": "549300BC4XSZJHJRGS95",
+    "subjectKind": "organisation",
+    "name": "2201 Management Company",
+    "aliases": [
+      "GREAT DIVIDE BREWING COMPANY"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300BC4XSZJHJRGS95"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_co/19931038097"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000599",
+        "value": "19931038097"
+      }
+    ],
+    "observedAt": "2026-04-10T10:54:13.000Z",
+    "jurisdiction": "US-CO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300BC4XSZJHJRGS95"
+  },
+  {
+    "recordRef": "gleif:5493007NL8IXOMM2V474",
+    "registry": "gleif",
+    "registryRecordId": "5493007NL8IXOMM2V474",
+    "subjectKind": "organisation",
+    "name": "NORWEGIAN HULL CLUB - GJENSIDIG ASSURANSEFORENING",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493007NL8IXOMM2V474"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/910508334"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "910 508 334"
+      }
+    ],
+    "observedAt": "2026-02-17T10:21:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493007NL8IXOMM2V474"
+  },
+  {
+    "recordRef": "gleif:549300H0248631WJLV25",
+    "registry": "gleif",
+    "registryRecordId": "549300H0248631WJLV25",
+    "subjectKind": "organisation",
+    "name": "Bières de Chimay",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300H0248631WJLV25"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "be/0438560655"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000025",
+        "value": "0438560655"
+      }
+    ],
+    "observedAt": "2026-04-16T12:41:45.000Z",
+    "jurisdiction": "BE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300H0248631WJLV25"
+  },
+  {
+    "recordRef": "gleif:549300EWN48Q47PAWX22",
+    "registry": "gleif",
+    "registryRecordId": "549300EWN48Q47PAWX22",
+    "subjectKind": "organisation",
+    "name": "GENERTEL S.P.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300EWN48Q47PAWX22"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000407",
+        "value": "00171820327"
+      }
+    ],
+    "observedAt": "2024-12-13T18:48:00.000Z",
+    "jurisdiction": "IT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300EWN48Q47PAWX22"
+  },
+  {
+    "recordRef": "gleif:5493008AHEOXL9ETQO38",
+    "registry": "gleif",
+    "registryRecordId": "5493008AHEOXL9ETQO38",
+    "subjectKind": "organisation",
+    "name": "Flügger group A/S",
+    "aliases": [
+      "FLÜGGER A/S",
+      "Flugger group A/S"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493008AHEOXL9ETQO38"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/32788718"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "32788718"
+      }
+    ],
+    "observedAt": "2026-05-11T15:23:00.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493008AHEOXL9ETQO38"
+  },
+  {
+    "recordRef": "gleif:5493006QMFDDMYWIAM13",
+    "registry": "gleif",
+    "registryRecordId": "5493006QMFDDMYWIAM13",
+    "subjectKind": "organisation",
+    "name": "BANCO SANTANDER S.A.",
+    "aliases": [
+      "BANCO DE SANTANDER SA."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493006QMFDDMYWIAM13"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "es/39000013"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000535",
+        "value": "A39000013"
+      }
+    ],
+    "observedAt": "2026-04-23T11:45:49.000Z",
+    "jurisdiction": "ES",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493006QMFDDMYWIAM13"
+  },
+  {
+    "recordRef": "gleif:549300DVPJYGNF2P7B03",
+    "registry": "gleif",
+    "registryRecordId": "549300DVPJYGNF2P7B03",
+    "subjectKind": "organisation",
+    "name": "Steiermärkische Bank und Sparkassen Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300DVPJYGNF2P7B03"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "34274d"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "PQOH26KWDF7CG10L6792"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "PQOH26KWDF7CG10L6792"
+      }
+    ],
+    "observedAt": "2026-08-21T12:34:25.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300DVPJYGNF2P7B03"
+  },
+  {
+    "recordRef": "gleif:549300J5UIRMVZOJBV45",
+    "registry": "gleif",
+    "registryRecordId": "549300J5UIRMVZOJBV45",
+    "subjectKind": "organisation",
+    "name": "BELFIUS VERZEKERINGEN",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300J5UIRMVZOJBV45"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "be/0405764064"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000025",
+        "value": "0405764064"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "A5GWLFH3KM7YV2SFQL84"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "A5GWLFH3KM7YV2SFQL84"
+      }
+    ],
+    "observedAt": "2026-03-03T06:03:31.000Z",
+    "jurisdiction": "BE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300J5UIRMVZOJBV45"
+  },
+  {
+    "recordRef": "gleif:549300J4SXC5ALCJM731",
+    "registry": "gleif",
+    "registryRecordId": "549300J4SXC5ALCJM731",
+    "subjectKind": "organisation",
+    "name": "FERROVIE DELLO STATO ITALIANE S.P.A.",
+    "aliases": [
+      "FERROVIE DELLO STATO S.P.A."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300J4SXC5ALCJM731"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000407",
+        "value": "06359501001"
+      }
+    ],
+    "observedAt": "2026-04-22T15:34:17.000Z",
+    "jurisdiction": "IT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300J4SXC5ALCJM731"
+  },
+  {
+    "recordRef": "gleif:549300A8MDWDJNMLV153",
+    "registry": "gleif",
+    "registryRecordId": "549300A8MDWDJNMLV153",
+    "subjectKind": "organisation",
+    "name": "FOMENTO ECONOMICO MEXICANO S A B DE C V",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300A8MDWDJNMLV153"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000449",
+        "value": "FEM9805095B4"
+      }
+    ],
+    "observedAt": "2026-07-22T07:41:31.000Z",
+    "jurisdiction": "MX",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300A8MDWDJNMLV153"
+  },
+  {
+    "recordRef": "gleif:5493006FBVCBN6H1JG79",
+    "registry": "gleif",
+    "registryRecordId": "5493006FBVCBN6H1JG79",
+    "subjectKind": "organisation",
+    "name": "TFCF CORPORATION",
+    "aliases": [
+      "Twenty-First Century Fox, Inc.",
+      "News Corporation"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493006FBVCBN6H1JG79"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/3718763"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "3718763"
+      }
+    ],
+    "observedAt": "2024-10-04T16:27:56.000Z",
+    "jurisdiction": "US-DE",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493006FBVCBN6H1JG79"
+  },
+  {
+    "recordRef": "gleif:549300HJD00HOXYCA262",
+    "registry": "gleif",
+    "registryRecordId": "549300HJD00HOXYCA262",
+    "subjectKind": "organisation",
+    "name": "ธนาคารแห่งประเทศไทย",
+    "aliases": [
+      "BANK OF THAILAND"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300HJD00HOXYCA262"
+      }
+    ],
+    "observedAt": "2026-01-05T11:58:24.000Z",
+    "jurisdiction": "TH",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300HJD00HOXYCA262"
+  },
+  {
+    "recordRef": "gleif:5493005UZ5TQN0H6HS73",
+    "registry": "gleif",
+    "registryRecordId": "5493005UZ5TQN0H6HS73",
+    "subjectKind": "organisation",
+    "name": "PARK HOTELS & RESORTS INC.",
+    "aliases": [
+      "Hilton Worldwide, Inc."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493005UZ5TQN0H6HS73"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/403628"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "403628"
+      }
+    ],
+    "observedAt": "2025-11-17T18:13:38.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493005UZ5TQN0H6HS73"
+  },
+  {
+    "recordRef": "gleif:549300DS86PEHLIYB473",
+    "registry": "gleif",
+    "registryRecordId": "549300DS86PEHLIYB473",
+    "subjectKind": "organisation",
+    "name": "ČESKÁ NÁRODNÍ BANKA",
+    "aliases": [
+      "CESKA NARODNI BANKA"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300DS86PEHLIYB473"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000168",
+        "value": "48136450"
+      }
+    ],
+    "observedAt": "2026-05-20T06:58:52.000Z",
+    "jurisdiction": "CZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300DS86PEHLIYB473"
+  },
+  {
+    "recordRef": "gleif:549300D8AVGZ5P5HWU88",
+    "registry": "gleif",
+    "registryRecordId": "549300D8AVGZ5P5HWU88",
+    "subjectKind": "organisation",
+    "name": "NATIONAL RAILROAD PASSENGER CORPORATION",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300D8AVGZ5P5HWU88"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000601",
+        "value": "710725"
+      }
+    ],
+    "observedAt": "2026-08-31T20:28:43.000Z",
+    "jurisdiction": "US-DC",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300D8AVGZ5P5HWU88"
+  },
+  {
+    "recordRef": "gleif:549300842G73CMEOUI11",
+    "registry": "gleif",
+    "registryRecordId": "549300842G73CMEOUI11",
+    "subjectKind": "organisation",
+    "name": "GOODYEAR & DUNLOP TYRES (AUST) PTY LTD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300842G73CMEOUI11"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "au/004098346"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000014",
+        "value": "004 098 346"
+      }
+    ],
+    "observedAt": "2025-10-31T10:07:38.000Z",
+    "jurisdiction": "AU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300842G73CMEOUI11"
+  },
+  {
+    "recordRef": "gleif:549300UK6KFVK4A0D603",
+    "registry": "gleif",
+    "registryRecordId": "549300UK6KFVK4A0D603",
+    "subjectKind": "organisation",
+    "name": "CHEMICAL FINANCIAL CORPORATION",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300UK6KFVK4A0D603"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_mi/800074193"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000616",
+        "value": "800074193"
+      }
+    ],
+    "observedAt": "2024-11-13T16:53:35.000Z",
+    "jurisdiction": "US-MI",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300UK6KFVK4A0D603"
+  },
+  {
+    "recordRef": "gleif:549300VSGCJ7E698NM85",
+    "registry": "gleif",
+    "registryRecordId": "549300VSGCJ7E698NM85",
+    "subjectKind": "organisation",
+    "name": "THE CHARLES SCHWAB CORPORATION",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300VSGCJ7E698NM85"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/2108673"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "2108673"
+      }
+    ],
+    "observedAt": "2026-03-13T06:45:58.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300VSGCJ7E698NM85"
+  },
+  {
+    "recordRef": "gleif:549300O1SC78BDUF3J58",
+    "registry": "gleif",
+    "registryRecordId": "549300O1SC78BDUF3J58",
+    "subjectKind": "organisation",
+    "name": "ENDESA",
+    "aliases": [
+      "Fundacion Endesa"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300O1SC78BDUF3J58"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000780",
+        "value": "G82058058"
+      }
+    ],
+    "observedAt": "2025-11-01T09:59:16.000Z",
+    "jurisdiction": "ES",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300O1SC78BDUF3J58"
+  },
+  {
+    "recordRef": "gleif:549300ND3ECNF3Z0GY28",
+    "registry": "gleif",
+    "registryRecordId": "549300ND3ECNF3Z0GY28",
+    "subjectKind": "organisation",
+    "name": "AASS BRYGGERI AS",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300ND3ECNF3Z0GY28"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/912696553"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "912 696 553"
+      }
+    ],
+    "observedAt": "2025-10-28T08:25:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300ND3ECNF3Z0GY28"
+  },
+  {
+    "recordRef": "gleif:549300O4AF0C816ILN62",
+    "registry": "gleif",
+    "registryRecordId": "549300O4AF0C816ILN62",
+    "subjectKind": "organisation",
+    "name": "GRUPO TELEVISA S A B",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300O4AF0C816ILN62"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000449",
+        "value": "GTE901219GK3"
+      }
+    ],
+    "observedAt": "2025-09-09T19:10:50.000Z",
+    "jurisdiction": "MX",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300O4AF0C816ILN62"
+  },
+  {
+    "recordRef": "gleif:549300R6GGKJLEL69M77",
+    "registry": "gleif",
+    "registryRecordId": "549300R6GGKJLEL69M77",
+    "subjectKind": "organisation",
+    "name": "AKTIESELSKABET THISTED BRYGHUS & THISTED MINERALVANDSFABRIK",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300R6GGKJLEL69M77"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/39220814"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "39220814"
+      }
+    ],
+    "observedAt": "2025-12-03T19:28:32.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300R6GGKJLEL69M77"
+  },
+  {
+    "recordRef": "gleif:549300L8743WZZFN1572",
+    "registry": "gleif",
+    "registryRecordId": "549300L8743WZZFN1572",
+    "subjectKind": "organisation",
+    "name": "Lokaltog A/S",
+    "aliases": [
+      "LOKALBANEN A/S"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300L8743WZZFN1572"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/26159040"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "26159040"
+      }
+    ],
+    "observedAt": "2025-10-09T10:09:00.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300L8743WZZFN1572"
+  },
+  {
+    "recordRef": "gleif:549300TN5DYYRVRQMD41",
+    "registry": "gleif",
+    "registryRecordId": "549300TN5DYYRVRQMD41",
+    "subjectKind": "organisation",
+    "name": "JP/POLITIKENS HUS A/S",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300TN5DYYRVRQMD41"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/26933676"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "26933676"
+      }
+    ],
+    "observedAt": "2025-11-03T14:04:00.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300TN5DYYRVRQMD41"
+  },
+  {
+    "recordRef": "gleif:549300LI4SL50S2OKL46",
+    "registry": "gleif",
+    "registryRecordId": "549300LI4SL50S2OKL46",
+    "subjectKind": "organisation",
+    "name": "CONFISERIE LEONIDAS",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300LI4SL50S2OKL46"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "be/0407824919"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000025",
+        "value": "0407.824.919"
+      }
+    ],
+    "observedAt": "2026-06-09T12:09:55.000Z",
+    "jurisdiction": "BE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300LI4SL50S2OKL46"
+  },
+  {
+    "recordRef": "gleif:549300Z8B3NRP9O7MM13",
+    "registry": "gleif",
+    "registryRecordId": "549300Z8B3NRP9O7MM13",
+    "subjectKind": "organisation",
+    "name": "COOP NORGE SA",
+    "aliases": [
+      "COOP NKL BA",
+      "COOP NKL SA"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300Z8B3NRP9O7MM13"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/936560288"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "936 560 288"
+      }
+    ],
+    "observedAt": "2026-04-27T12:39:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300Z8B3NRP9O7MM13"
+  },
+  {
+    "recordRef": "gleif:549300OE4GJOH10WOE13",
+    "registry": "gleif",
+    "registryRecordId": "549300OE4GJOH10WOE13",
+    "subjectKind": "organisation",
+    "name": "Kopparbergs Bryggeri Aktiebolag",
+    "aliases": [
+      "Kopparbergs Bryggeri AB"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300OE4GJOH10WOE13"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556479-8493"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556479-8493"
+      }
+    ],
+    "observedAt": "2026-02-18T13:09:00.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300OE4GJOH10WOE13"
+  },
+  {
+    "recordRef": "gleif:549300NCQQ9E4O5JX172",
+    "registry": "gleif",
+    "registryRecordId": "549300NCQQ9E4O5JX172",
+    "subjectKind": "organisation",
+    "name": "FONTERRA CO-OPERATIVE GROUP LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300NCQQ9E4O5JX172"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "nz/1166320"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000466",
+        "value": "1166320"
+      }
+    ],
+    "observedAt": "2026-05-29T14:05:06.000Z",
+    "jurisdiction": "NZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300NCQQ9E4O5JX172"
+  },
+  {
+    "recordRef": "gleif:549300SZJ9VS8SGXAN81",
+    "registry": "gleif",
+    "registryRecordId": "549300SZJ9VS8SGXAN81",
+    "subjectKind": "organisation",
+    "name": "UBS Group AG",
+    "aliases": [
+      "UBS GROUP INC.",
+      "UBS GROUP SA"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300SZJ9VS8SGXAN81"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000549",
+        "value": "CHE-395.345.924"
+      }
+    ],
+    "observedAt": "2025-12-29T16:13:30.000Z",
+    "jurisdiction": "CH",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300SZJ9VS8SGXAN81"
+  },
+  {
+    "recordRef": "gleif:549300QHIJYOHPACPG31",
+    "registry": "gleif",
+    "registryRecordId": "549300QHIJYOHPACPG31",
+    "subjectKind": "organisation",
+    "name": "T-MOBILE US, INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300QHIJYOHPACPG31"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/3775911"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "3775911"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "549300V9QSIG4WX4GJ96"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "549300V9QSIG4WX4GJ96"
+      }
+    ],
+    "observedAt": "2023-12-08T13:30:04.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300QHIJYOHPACPG31"
+  },
+  {
+    "recordRef": "gleif:549300PMSTQITB1WHR43",
+    "registry": "gleif",
+    "registryRecordId": "549300PMSTQITB1WHR43",
+    "subjectKind": "organisation",
+    "name": "DOLLAR TREE, INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300PMSTQITB1WHR43"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_va/06905996"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000639",
+        "value": "06905996"
+      }
+    ],
+    "observedAt": "2025-06-13T06:52:39.000Z",
+    "jurisdiction": "US-VA",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300PMSTQITB1WHR43"
+  },
+  {
+    "recordRef": "gleif:549300TTCXZOGZM2EY83",
+    "registry": "gleif",
+    "registryRecordId": "549300TTCXZOGZM2EY83",
+    "subjectKind": "organisation",
+    "name": "INDUSTRIA DE DISEÑO TEXTIL, S.A.",
+    "aliases": [
+      "INDUSTRIA DE DISENO TEXTIL, S.A."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300TTCXZOGZM2EY83"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "es/15075062"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000533",
+        "value": "1000059233873"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "959800U254WM470TRW79"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "959800U254WM470TRW79"
+      }
+    ],
+    "observedAt": "2026-08-20T08:51:50.000Z",
+    "jurisdiction": "ES",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300TTCXZOGZM2EY83"
+  },
+  {
+    "recordRef": "gleif:5967007LIEEXZX6FAO47",
+    "registry": "gleif",
+    "registryRecordId": "5967007LIEEXZX6FAO47",
+    "subjectKind": "organisation",
+    "name": "Gjensidige Forsikring ASA",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5967007LIEEXZX6FAO47"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/995568217"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "995 568 217"
+      }
+    ],
+    "observedAt": "2025-10-03T05:16:26.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5967007LIEEXZX6FAO47"
+  },
+  {
+    "recordRef": "gleif:5967007LIEEXZX5PU005",
+    "registry": "gleif",
+    "registryRecordId": "5967007LIEEXZX5PU005",
+    "subjectKind": "organisation",
+    "name": "SPAREBANKEN MØRE",
+    "aliases": [
+      "SPAREBANKEN MORE"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5967007LIEEXZX5PU005"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/937899319"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "937 899 319"
+      }
+    ],
+    "observedAt": "2025-10-01T06:39:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5967007LIEEXZX5PU005"
+  },
+  {
+    "recordRef": "gleif:549300URO8B2DLPRPF61",
+    "registry": "gleif",
+    "registryRecordId": "549300URO8B2DLPRPF61",
+    "subjectKind": "organisation",
+    "name": "VIA RAIL CANADA INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300URO8B2DLPRPF61"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "ca/0180441"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000072",
+        "value": "018044-1"
+      }
+    ],
+    "observedAt": "2026-01-21T12:45:25.000Z",
+    "jurisdiction": "CA",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300URO8B2DLPRPF61"
+  },
+  {
+    "recordRef": "gleif:5967007LIEEXZX51WW28",
+    "registry": "gleif",
+    "registryRecordId": "5967007LIEEXZX51WW28",
+    "subjectKind": "organisation",
+    "name": "SPAREBANKEN ØST",
+    "aliases": [
+      "SPAREBANKEN OST"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5967007LIEEXZX51WW28"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/937888937"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "937 888 937"
+      }
+    ],
+    "observedAt": "2026-07-22T05:31:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5967007LIEEXZX51WW28"
+  },
+  {
+    "recordRef": "gleif:549300JOC93SIW3E1N63",
+    "registry": "gleif",
+    "registryRecordId": "549300JOC93SIW3E1N63",
+    "subjectKind": "organisation",
+    "name": "IVANHOÉ CAMBRIDGE INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300JOC93SIW3E1N63"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "ca_qc/1147856158"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000081",
+        "value": "1147856158"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "HWR6ATEU4L0XN8IT6Y39"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "HWR6ATEU4L0XN8IT6Y39"
+      }
+    ],
+    "observedAt": "2026-03-23T13:09:56.000Z",
+    "jurisdiction": "CA-QC",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300JOC93SIW3E1N63"
+  },
+  {
+    "recordRef": "gleif:549300QGC3EY3EV0NS72",
+    "registry": "gleif",
+    "registryRecordId": "549300QGC3EY3EV0NS72",
+    "subjectKind": "organisation",
+    "name": "FIRST BANCORP",
+    "aliases": [
+      "First National Lincoln Corporation"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300QGC3EY3EV0NS72"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_ca/0700706"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000598",
+        "value": "C0700706"
+      }
+    ],
+    "observedAt": "2023-08-04T17:07:45.000Z",
+    "jurisdiction": "US-CA",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300QGC3EY3EV0NS72"
+  },
+  {
+    "recordRef": "gleif:549300UU8WEFIA03J487",
+    "registry": "gleif",
+    "registryRecordId": "549300UU8WEFIA03J487",
+    "subjectKind": "organisation",
+    "name": "DreamWorks Animation SKG, Inc.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300UU8WEFIA03J487"
+      }
+    ],
+    "observedAt": "2023-08-04T17:25:20.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300UU8WEFIA03J487"
+  },
+  {
+    "recordRef": "gleif:549300V8RNJM71TBP121",
+    "registry": "gleif",
+    "registryRecordId": "549300V8RNJM71TBP121",
+    "subjectKind": "organisation",
+    "name": "Aktiebolaget Storstockholms Lokaltrafik",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300V8RNJM71TBP121"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556013-0683"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556013-0683"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "549300D8Z03IV5KIG791"
+      }
+    ],
+    "observedAt": "2023-08-09T10:44:00.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300V8RNJM71TBP121"
+  },
+  {
+    "recordRef": "gleif:549300X47J0FW574JN34",
+    "registry": "gleif",
+    "registryRecordId": "549300X47J0FW574JN34",
+    "subjectKind": "organisation",
+    "name": "Poslovni sistem Mercator d.o.o.",
+    "aliases": [
+      "Poslovni sistem Mercator d.o.o."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300X47J0FW574JN34"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "si/5300231000"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000529",
+        "value": "5300231000"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "485100NUPTWSSVGAM380"
+      }
+    ],
+    "observedAt": "2025-11-29T00:00:00.000Z",
+    "jurisdiction": "SI",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300X47J0FW574JN34"
+  },
+  {
+    "recordRef": "gleif:549300KMLUSP0ECXVN77",
+    "registry": "gleif",
+    "registryRecordId": "549300KMLUSP0ECXVN77",
+    "subjectKind": "organisation",
+    "name": "HEINEKEN ČESKÁ REPUBLIKA, A.S.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300KMLUSP0ECXVN77"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cz/45148066"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000163",
+        "value": "45148066"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "7245009IC6EL3JEKMA24"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "724500K5PTPSST86UQ23"
+      }
+    ],
+    "observedAt": "2025-09-09T16:19:54.000Z",
+    "jurisdiction": "CZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300KMLUSP0ECXVN77"
+  },
+  {
+    "recordRef": "gleif:549300U497VKMF6R3Q14",
+    "registry": "gleif",
+    "registryRecordId": "549300U497VKMF6R3Q14",
+    "subjectKind": "organisation",
+    "name": "SPAREBANKEN SØR",
+    "aliases": [
+      "SPAREBANKEN PLUSS",
+      "SPAREBANKEN SOR"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300U497VKMF6R3Q14"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/937894538"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "937 894 538"
+      }
+    ],
+    "observedAt": "2025-05-02T13:40:00.000Z",
+    "jurisdiction": "NO",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300U497VKMF6R3Q14"
+  },
+  {
+    "recordRef": "gleif:549300VVUJ67M8IZLO06",
+    "registry": "gleif",
+    "registryRecordId": "549300VVUJ67M8IZLO06",
+    "subjectKind": "organisation",
+    "name": "Ringnes AS",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300VVUJ67M8IZLO06"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/914670705"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "914 670 705"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "5299001O0WJQYB5GYZ19"
+      }
+    ],
+    "observedAt": "2023-08-09T10:49:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300VVUJ67M8IZLO06"
+  },
+  {
+    "recordRef": "gleif:549300OTVFJ3TK0HBC97",
+    "registry": "gleif",
+    "registryRecordId": "549300OTVFJ3TK0HBC97",
+    "subjectKind": "organisation",
+    "name": "Carlsberg Sverige Aktiebolag",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300OTVFJ3TK0HBC97"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556006-9980"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556006-9980"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "549300X3S0E25BWN8L24"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "5299001O0WJQYB5GYZ19"
+      }
+    ],
+    "observedAt": "2026-03-09T08:00:00.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300OTVFJ3TK0HBC97"
+  },
+  {
+    "recordRef": "gleif:549300L1IEXJYJ2NUV45",
+    "registry": "gleif",
+    "registryRecordId": "549300L1IEXJYJ2NUV45",
+    "subjectKind": "organisation",
+    "name": "Sparekassen Danmark",
+    "aliases": [
+      "SPAREKASSEN VENDSYSSEL"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300L1IEXJYJ2NUV45"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/64806815"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "64806815"
+      }
+    ],
+    "observedAt": "2025-11-18T12:31:00.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300L1IEXJYJ2NUV45"
+  },
+  {
+    "recordRef": "gleif:549300XT5NIAS5W8RH41",
+    "registry": "gleif",
+    "registryRecordId": "549300XT5NIAS5W8RH41",
+    "subjectKind": "organisation",
+    "name": "Komerční pojišťovna, a.s.",
+    "aliases": [
+      "Komercni pojistovna, a.s."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300XT5NIAS5W8RH41"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cz/63998017"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000163",
+        "value": "63998017"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "9695009HXSFK8D6V0T62"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "O2RNE8IBXP4R0TD8PU41"
+      }
+    ],
+    "observedAt": "2025-11-25T07:31:48.000Z",
+    "jurisdiction": "CZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300XT5NIAS5W8RH41"
+  },
+  {
+    "recordRef": "gleif:549300K5GD3JPA2LLG98",
+    "registry": "gleif",
+    "registryRecordId": "549300K5GD3JPA2LLG98",
+    "subjectKind": "organisation",
+    "name": "Seðlabanki Íslands",
+    "aliases": [
+      "Central Bank of Iceland",
+      "Sedlabanki Islands"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300K5GD3JPA2LLG98"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "is/5602694129"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000393",
+        "value": "5602694129"
+      }
+    ],
+    "observedAt": "2026-05-15T05:48:00.000Z",
+    "jurisdiction": "IS",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300K5GD3JPA2LLG98"
+  },
+  {
+    "recordRef": "gleif:549300LHK07F2CHV4X31",
+    "registry": "gleif",
+    "registryRecordId": "549300LHK07F2CHV4X31",
+    "subjectKind": "organisation",
+    "name": "ENDESA SA",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300LHK07F2CHV4X31"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000533",
+        "value": "M-6405-8"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "549300R27FMOYJ7L0G26"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "WOCMU6HCI0OJWNPRZS33"
+      }
+    ],
+    "observedAt": "2025-11-04T14:45:18.000Z",
+    "jurisdiction": "ES",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300LHK07F2CHV4X31"
+  },
+  {
+    "recordRef": "gleif:549300RVXR52VP8G0Q95",
+    "registry": "gleif",
+    "registryRecordId": "549300RVXR52VP8G0Q95",
+    "subjectKind": "organisation",
+    "name": "M REALISATIONS 2020 LIMITED",
+    "aliases": [
+      "MONSOON ACCESSORIZE LIMITED",
+      "Monsoon Accessorize Limited"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300RVXR52VP8G0Q95"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/01098034"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "01098034"
+      }
+    ],
+    "observedAt": "2024-12-16T17:06:10.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300RVXR52VP8G0Q95"
+  },
+  {
+    "recordRef": "gleif:549300JTLJBPW24WC760",
+    "registry": "gleif",
+    "registryRecordId": "549300JTLJBPW24WC760",
+    "subjectKind": "organisation",
+    "name": "The Associated Press",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300JTLJBPW24WC760"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_ny/26257"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000628",
+        "value": "26257"
+      }
+    ],
+    "observedAt": "2025-02-17T21:17:44.000Z",
+    "jurisdiction": "US-NY",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300JTLJBPW24WC760"
+  },
+  {
+    "recordRef": "gleif:549300YTRYZPM57T3319",
+    "registry": "gleif",
+    "registryRecordId": "549300YTRYZPM57T3319",
+    "subjectKind": "organisation",
+    "name": "enercity Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300YTRYZPM57T3319"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "de/P2305_HRB6766"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000262",
+        "value": "HRB 6766"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "3912004WPBQBRIXH7D79"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "3912004WPBQBRIXH7D79"
+      }
+    ],
+    "observedAt": "2026-01-28T16:00:07.000Z",
+    "jurisdiction": "DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300YTRYZPM57T3319"
+  },
+  {
+    "recordRef": "gleif:549300V9QSIG4WX4GJ96",
+    "registry": "gleif",
+    "registryRecordId": "549300V9QSIG4WX4GJ96",
+    "subjectKind": "organisation",
+    "name": "DEUTSCHE TELEKOM AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300V9QSIG4WX4GJ96"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "de/R3201_HRB6794"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000220",
+        "value": "HRB 6794"
+      }
+    ],
+    "observedAt": "2025-10-28T12:11:34.000Z",
+    "jurisdiction": "DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300V9QSIG4WX4GJ96"
+  },
+  {
+    "recordRef": "gleif:549300W3HBISRNJS8308",
+    "registry": "gleif",
+    "registryRecordId": "549300W3HBISRNJS8308",
+    "subjectKind": "organisation",
+    "name": "Twentieth Century Fox Film Corporation",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300W3HBISRNJS8308"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/913326"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "913326"
+      }
+    ],
+    "observedAt": "2023-08-04T17:29:13.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300W3HBISRNJS8308"
+  },
+  {
+    "recordRef": "gleif:549300YC8BC386CCTS24",
+    "registry": "gleif",
+    "registryRecordId": "549300YC8BC386CCTS24",
+    "subjectKind": "organisation",
+    "name": "Meredith Corporation",
+    "aliases": [
+      "Meredith Publishing Company",
+      "Successful Farming Publishing Company"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300YC8BC386CCTS24"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_ia/27486"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000606",
+        "value": "27486"
+      }
+    ],
+    "observedAt": "2025-08-19T17:01:24.000Z",
+    "jurisdiction": "US-IA",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300YC8BC386CCTS24"
+  },
+  {
+    "recordRef": "gleif:549300OI428NU7XTM839",
+    "registry": "gleif",
+    "registryRecordId": "549300OI428NU7XTM839",
+    "subjectKind": "organisation",
+    "name": "Office Depot, Inc.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300OI428NU7XTM839"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/2101387"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "2101387"
+      }
+    ],
+    "observedAt": "2023-08-04T17:01:49.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:52:32.227Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300OI428NU7XTM839"
+  }
+]

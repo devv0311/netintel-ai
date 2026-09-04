@@ -1,0 +1,152 @@
+{
+  "sourceId": "SRC-002",
+  "endpoint": "https://api.gleif.org/api/v1/lei-records",
+  "request": "filter[lei]=<25 LEIs from an already-collected source>&page[size]=40 + Level 2: /lei-records/<each of 25 LEIs>/{direct-parent-relationship,ultimate-parent-relationship}",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+  "retrievedAt": "2026-09-04T04:46:19.186Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "21553f7c491542b7cb2c1137e8c43c7adbb156d889e67b6bb1eafbda26dcb585",
+  "rawBytes": 92564,
+  "sourcePayloads": [
+    {
+      "file": "lei-records-batch-01.json",
+      "sha256": "ca1fa1e3e60552638a8c2084a9c0518863ee7b1fb8e7ed3424493b50de076f4e",
+      "bytes": 68841,
+      "records": 25,
+      "storedAt": "raw/lei-records-batch-01.json"
+    },
+    {
+      "file": "relationship-097900BFCN0000010981-direct-parent-relationship.json",
+      "sha256": "05cd4cd328e78df3f139a0395d241b1575e62407a7d9c4636345eb4831315a4b",
+      "bytes": 1305,
+      "records": 1,
+      "storedAt": "raw/relationship-097900BFCN0000010981-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-097900BFCN0000010981-ultimate-parent-relationship.json",
+      "sha256": "00277cfdbf8d46d435dc1d8e54d040e1a33bb525f7b9839e6f79fa927b8abc57",
+      "bytes": 1308,
+      "records": 1,
+      "storedAt": "raw/relationship-097900BFCN0000010981-ultimate-parent-relationship.json"
+    },
+    {
+      "file": "relationship-097900BFE40000025246-direct-parent-relationship.json",
+      "sha256": "27c51397201bf3b08d18aff2a640cd4b214854c0555bbce8f28e7b2ee873c38e",
+      "bytes": 1305,
+      "records": 1,
+      "storedAt": "raw/relationship-097900BFE40000025246-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-097900BFE40000025246-ultimate-parent-relationship.json",
+      "sha256": "53783145398d4c26c79705d22e5a54157ffeb4a7ce33e9550b450e754cfe957e",
+      "bytes": 1309,
+      "records": 1,
+      "storedAt": "raw/relationship-097900BFE40000025246-ultimate-parent-relationship.json"
+    },
+    {
+      "file": "relationship-097900BFEK0000024220-direct-parent-relationship.json",
+      "sha256": "685b61ec738ecccc177707341895d092e754ee538f3bf41f053a5752ce2afe98",
+      "bytes": 1227,
+      "records": 1,
+      "storedAt": "raw/relationship-097900BFEK0000024220-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-097900BFEK0000024220-ultimate-parent-relationship.json",
+      "sha256": "148bca698282f1d65a3aad35565b2074769f7fa3156d83dacaecf4a2dfe76586",
+      "bytes": 1231,
+      "records": 1,
+      "storedAt": "raw/relationship-097900BFEK0000024220-ultimate-parent-relationship.json"
+    },
+    {
+      "file": "relationship-2138002BJWNWW7MFZ169-direct-parent-relationship.json",
+      "sha256": "623457b17f7c1d34dcd617f5c7d38b52bf8d88135c363c3a3582328400814679",
+      "bytes": 1345,
+      "records": 1,
+      "storedAt": "raw/relationship-2138002BJWNWW7MFZ169-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-2138002BJWNWW7MFZ169-ultimate-parent-relationship.json",
+      "sha256": "84d0b2e6898539dcc04a08a4eea8487362b540580177541fef6242aecd3e8101",
+      "bytes": 1281,
+      "records": 1,
+      "storedAt": "raw/relationship-2138002BJWNWW7MFZ169-ultimate-parent-relationship.json"
+    },
+    {
+      "file": "relationship-21380048U1WVXOMEPA24-direct-parent-relationship.json",
+      "sha256": "8f9bece61971d7876d2eb3151d2f043533c4175bc915a764479e414bb8ff9f99",
+      "bytes": 1368,
+      "records": 1,
+      "storedAt": "raw/relationship-21380048U1WVXOMEPA24-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-21380048U1WVXOMEPA24-ultimate-parent-relationship.json",
+      "sha256": "627fb150802409c71a12eb08e36410ad653701bef7dd1130bd3a7cb9fb2a3628",
+      "bytes": 1372,
+      "records": 1,
+      "storedAt": "raw/relationship-21380048U1WVXOMEPA24-ultimate-parent-relationship.json"
+    },
+    {
+      "file": "relationship-213800AHT6KTFMOYWB62-direct-parent-relationship.json",
+      "sha256": "cb9909a4b233498c1c5fb5f20c2434c047812b54deb033a05fcd896819efab4a",
+      "bytes": 1296,
+      "records": 1,
+      "storedAt": "raw/relationship-213800AHT6KTFMOYWB62-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-213800AHT6KTFMOYWB62-ultimate-parent-relationship.json",
+      "sha256": "6f188a223e16f9cc34fd4158f746c1aa3d77c9e7f079c70e3f444ae2d55e90ef",
+      "bytes": 1382,
+      "records": 1,
+      "storedAt": "raw/relationship-213800AHT6KTFMOYWB62-ultimate-parent-relationship.json"
+    },
+    {
+      "file": "relationship-213800AWZ8U3FVALIO26-direct-parent-relationship.json",
+      "sha256": "6b4c5fd133f903eb5a05a54f8063824ba6a5e24cc8833ce6846ce3e80d4b54bb",
+      "bytes": 1231,
+      "records": 1,
+      "storedAt": "raw/relationship-213800AWZ8U3FVALIO26-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-213800AWZ8U3FVALIO26-ultimate-parent-relationship.json",
+      "sha256": "0fd945fb92a898a8379ba2f280d055489f860f1222181b20c3762e5fcd804572",
+      "bytes": 1236,
+      "records": 1,
+      "storedAt": "raw/relationship-213800AWZ8U3FVALIO26-ultimate-parent-relationship.json"
+    },
+    {
+      "file": "relationship-213800EKMAHB2DGHGA76-direct-parent-relationship.json",
+      "sha256": "6d6aa493f638a9cce276aa4db3c8e011a3d98270432e1566e9cb3c75580c6202",
+      "bytes": 1362,
+      "records": 1,
+      "storedAt": "raw/relationship-213800EKMAHB2DGHGA76-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-213800EKMAHB2DGHGA76-ultimate-parent-relationship.json",
+      "sha256": "fbc9d486742a8eda1507c52146f39d59a3869d05b7f4f326292bff3ce49bd1cc",
+      "bytes": 1366,
+      "records": 1,
+      "storedAt": "raw/relationship-213800EKMAHB2DGHGA76-ultimate-parent-relationship.json"
+    },
+    {
+      "file": "relationship-213800HBYIS79IJG2S05-direct-parent-relationship.json",
+      "sha256": "19773ea8baeab87f826c33f46bf197995960f6dab9921dae30e076948e74f8b3",
+      "bytes": 1398,
+      "records": 1,
+      "storedAt": "raw/relationship-213800HBYIS79IJG2S05-direct-parent-relationship.json"
+    },
+    {
+      "file": "relationship-213800HBYIS79IJG2S05-ultimate-parent-relationship.json",
+      "sha256": "9b0f72124c8ffd6cfeeca5877de9da98083457e5cf40fb111d768185537f2985",
+      "bytes": 1401,
+      "records": 1,
+      "storedAt": "raw/relationship-213800HBYIS79IJG2S05-ultimate-parent-relationship.json"
+    }
+  ],
+  "recordCount": 25,
+  "recordsSha256": "498eee9019434ffc6853a25423502e9b69119724cc878b2639a37591da3684b2",
+  "warnings": [
+    "Level 2: asked 25 LEIs for direct-parent-relationship and ultimate-parent-relationship; 18 relationship(s) stated, 32 absent (HTTP 404 — the publisher's answer, not a failure)."
+  ]
+}

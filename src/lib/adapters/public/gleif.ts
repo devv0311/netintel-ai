@@ -50,10 +50,56 @@ export interface GleifQuery {
   jurisdiction: string;
   /** Exact LEIs to fetch. Bounded by MAX_LIMIT like everything else. */
   leis?: string[];
+  /**
+   * Also fetch each collected LEI's Level 2 PARENT relationships.
+   *
+   * Only meaningful with `leis`: the relation endpoints are per-record
+   * sub-resources, so there is no way to express "every relationship in
+   * a jurisdiction" and no way to start a bulk relationship crawl. The
+   * LEI list is itself derived from already-collected approved records,
+   * so this widens what is known about records already held rather than
+   * widening the collection.
+   *
+   * SRC-002 is registered as "GLEIF LEI (Level 1 + Level 2)" and
+   * APPROVED, so Level 2 needs no new approval - it is the half of the
+   * approved source that was never actually requested.
+   */
+  withRelationships?: boolean;
 }
 
 /** GLEIF accepts a comma-separated filter[lei]; batched to stay well inside its page size. */
 const LEI_BATCH = 40;
+
+/**
+ * The Level 2 sub-resources fetched per LEI, in a fixed order.
+ *
+ * BOTH are needed and neither substitutes for the other. GLEIF's
+ * `direct-parent` is the immediate consolidating entity, which for an
+ * operating subsidiary is usually an intermediate holding company whose
+ * name shares no tokens with the group: BNP PARIBAS CARDIF POJISTOVNA's
+ * direct parent is BNP PARIBAS CARDIF, not BNP PARIBAS. The
+ * `ultimate-parent` is the top of the consolidation chain, and that is
+ * the one that answers "is this short name the group this longer name
+ * belongs to". Collecting only the direct parent would leave the
+ * containment question exactly as unanswerable as it is today.
+ *
+ * There is deliberately no `direct-children` / `ultimate-children` here.
+ * Those endpoints are PAGED collections whose size is a property of the
+ * parent, not of our request - one call against a large group returns
+ * thousands of records - so they are not bounded by construction the way
+ * the two parent look-ups are. The parent direction carries the same
+ * edges anyway, stated from the other end.
+ */
+const RELATIONSHIP_PATHS = ["direct-parent-relationship", "ultimate-parent-relationship"] as const;
+
+/**
+ * GLEIF's fair-use guidance is a request rate, not a quota. 120ms is
+ * ~8 req/s, inside the 10 req/s the registry entry records for the
+ * publisher's API, and the collector waits rather than bursting.
+ */
+const MIN_REQUEST_INTERVAL_MS = 120;
+
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /** Rejects anything that is not a syntactically valid LEI before it reaches a query string. */
 export function isLei(value: string): boolean {
@@ -64,22 +110,31 @@ export function planGleif(query: GleifQuery, options: AdapterOptions): AdapterPl
   const entry = requireApprovedSource(GLEIF_SOURCE_ID, options.root);
   const limit = Math.min(options.limit, MAX_LIMIT);
   const leis = (query.leis ?? []).filter(isLei).slice(0, limit);
+  // Relationships are a per-record sub-resource, so they are only
+  // requestable for an explicit LEI list. Asked for without one, the
+  // flag is inert rather than silently widening a jurisdiction page.
+  const wantsRelationships = Boolean(query.withRelationships) && leis.length > 0;
   return {
     sourceId: GLEIF_SOURCE_ID,
     sourceName: entry.sourceName,
     endpoint: ENDPOINT,
     request:
-      leis.length > 0
+      (leis.length > 0
         ? `filter[lei]=<${leis.length} LEIs from an already-collected source>&page[size]=${LEI_BATCH}`
-        : `filter[entity.jurisdiction]=${query.jurisdiction}&page[size]=${PAGE_SIZE}`,
+        : `filter[entity.jurisdiction]=${query.jurisdiction}&page[size]=${PAGE_SIZE}`) +
+      (wantsRelationships
+        ? ` + Level 2: /lei-records/<each of ${leis.length} LEIs>/{${RELATIONSHIP_PATHS.join(",")}}`
+        : ""),
     license: entry.license,
     licenseUrl: entry.licenseUrl,
     rateLimit: entry.rateLimit,
     limit,
     estimatedRequests:
-      leis.length > 0 ? Math.ceil(leis.length / LEI_BATCH) : Math.ceil(limit / PAGE_SIZE),
-    // ~2 KB per LEI record in the API's JSON:API envelope.
-    estimatedBytes: limit * 2048,
+      (leis.length > 0 ? Math.ceil(leis.length / LEI_BATCH) : Math.ceil(limit / PAGE_SIZE)) +
+      (wantsRelationships ? leis.length * RELATIONSHIP_PATHS.length : 0),
+    // ~2 KB per LEI record in the API's JSON:API envelope; a relationship
+    // record is ~1 KB and there are at most two per LEI.
+    estimatedBytes: limit * 2048 + (wantsRelationships ? leis.length * 2048 : 0),
     destination: `data/public/raw/${GLEIF_SOURCE_ID}/<retrievedAt>/lei-records.json`,
   };
 }
@@ -333,6 +388,59 @@ export async function collectGleif(
         if (error instanceof AdapterFetchError) throw error;
         throw new AdapterFetchError(url, error instanceof Error ? error.message : String(error));
       }
+      await sleep(MIN_REQUEST_INTERVAL_MS);
+    }
+
+    // --- Level 2, the approved half of SRC-002 that was never requested ---
+    //
+    // The relationship-record BRANCH of pass 1 below has existed since
+    // P6.x and could never fire, because nothing ever fetched a payload
+    // containing one: the only endpoint called was /lei-records.
+    // Relationship coverage read 0 for that reason and not because GLEIF
+    // withholds the data.
+    if (query.withRelationships && leis.length > 0) {
+      let stated = 0;
+      let absent = 0;
+      for (const lei of leis) {
+        for (const relPath of RELATIONSHIP_PATHS) {
+          const url = `${ENDPOINT}/${lei}/${relPath}`;
+          let response: Response;
+          try {
+            response = await fetch(url, {
+              method: "GET",
+              headers: {
+                Accept: "application/vnd.api+json",
+                "User-Agent": "NetIntelAI-research/0.1 (+https://github.com/devv0311/netintel-ai)",
+              },
+            });
+          } catch (error) {
+            throw new AdapterFetchError(url, error instanceof Error ? error.message : String(error));
+          }
+          if (response.status === 429) {
+            throw new AdapterFetchError(ENDPOINT, "HTTP 429 — rate limited; stop, do not back off in a loop");
+          }
+          // 404 is the publisher's ANSWER, not a failure: GLEIF returns
+          // it for an entity that states no parent of that kind, which
+          // is the common case (a group's ultimate parent has none by
+          // definition). Treating it as an error would abort a run over
+          // its most ordinary result; recording it as a fetch failure
+          // would make "no parent stated" indistinguishable from "we
+          // could not ask". It is counted and otherwise skipped.
+          if (response.status === 404) {
+            absent++;
+            await sleep(MIN_REQUEST_INTERVAL_MS);
+            continue;
+          }
+          if (!response.ok) throw new AdapterFetchError(url, `HTTP ${response.status}`);
+          payloads.push({ file: `relationship-${lei}-${relPath}.json`, body: await response.text() });
+          stated++;
+          await sleep(MIN_REQUEST_INTERVAL_MS);
+        }
+      }
+      warnings.push(
+        `Level 2: asked ${leis.length} LEIs for ${RELATIONSHIP_PATHS.join(" and ")}; ` +
+          `${stated} relationship(s) stated, ${absent} absent (HTTP 404 — the publisher's answer, not a failure).`,
+      );
     }
   }
 
@@ -362,6 +470,14 @@ export async function collectGleif(
   for (const { file, body } of payloads) {
     let inPayload = 0;
     for (const { type, record } of payloadRecords(body)) {
+      // A relationship payload carries no lei-record, so `records` would
+      // read 0 for it and the manifest would look like a payload that
+      // yielded nothing. Count the relations it actually carried, so
+      // every stored payload accounts for what was derived from it.
+      if (type === "relationship-records") {
+        inPayload++;
+        continue;
+      }
       if (type !== "lei-records") continue;
       const raw = record as GleifApiRecord;
       const lei = raw.attributes?.lei;

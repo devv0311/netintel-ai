@@ -1,0 +1,570 @@
+{
+  "study": "P6.20.3 publisher-stated ownership as a false-merge guard",
+  "disclaimer": "Measurement only. No resolver imported, no pipeline run, no database written, no ground truth modified. The guard is NOT enabled by this script or this commit.",
+  "hypothesis": "The pairs guarded containment merges wrongly are parent/subsidiary and group-structure pairs that GLEIF Level 2 already states. If so the containment residual is a relationship to record, not a match to make.",
+  "ranAt": "2026-09-04T04:55:59.098Z",
+  "source": "SRC-002 GLEIF Level 2 (direct-parent, ultimate-parent), CC0 1.0",
+  "recordsFile": "evidence/expanded/gleif-level2.public-records.json",
+  "coverage": {
+    "leisAsked": 345,
+    "leisWithAtLeastOneStatedParent": 82,
+    "statedEdges": 154,
+    "note": "An LEI with no edge was ASKED and the publisher stated none (HTTP 404). That is an answer, not a gap."
+  },
+  "hardNegatives": {
+    "total": 146,
+    "bothEndsAsked": 141,
+    "publisherRelated": 33,
+    "publisherRelatedAmongAsked": 33,
+    "pairs": [
+      {
+        "pairId": "EN-0008",
+        "sourcePairing": "gleif x gleif",
+        "a": "CARLSBERG A/S",
+        "b": "Carlsberg Sverige Aktiebolag",
+        "aId": "LEI:5299001O0WJQYB5GYZ19",
+        "bId": "LEI:549300OTVFJ3TK0HBC97",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "549300OTVFJ3TK0HBC97 is_ultimately_consolidated_by 5299001O0WJQYB5GYZ19"
+      },
+      {
+        "pairId": "EN-0009",
+        "sourcePairing": "gleif x wikidata",
+        "a": "CARLSBERG A/S",
+        "b": "Carlsberg Sweden",
+        "aId": "LEI:5299001O0WJQYB5GYZ19",
+        "bId": "LEI:549300OTVFJ3TK0HBC97",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "549300OTVFJ3TK0HBC97 is_ultimately_consolidated_by 5299001O0WJQYB5GYZ19"
+      },
+      {
+        "pairId": "EN-0010",
+        "sourcePairing": "gleif x wikidata",
+        "a": "Carlsberg Sverige Aktiebolag",
+        "b": "Carlsberg Group",
+        "aId": "LEI:549300OTVFJ3TK0HBC97",
+        "bId": "LEI:5299001O0WJQYB5GYZ19",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "549300OTVFJ3TK0HBC97 is_ultimately_consolidated_by 5299001O0WJQYB5GYZ19"
+      },
+      {
+        "pairId": "EN-0011",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "Carlsberg Group",
+        "b": "Carlsberg Sweden",
+        "aId": "LEI:5299001O0WJQYB5GYZ19",
+        "bId": "LEI:549300OTVFJ3TK0HBC97",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "549300OTVFJ3TK0HBC97 is_ultimately_consolidated_by 5299001O0WJQYB5GYZ19"
+      },
+      {
+        "pairId": "EN-0018",
+        "sourcePairing": "gleif x gleif",
+        "a": "Heineken N.V.",
+        "b": "HEINEKEN ČESKÁ REPUBLIKA, A.S.",
+        "aId": "LEI:724500K5PTPSST86UQ23",
+        "bId": "LEI:549300KMLUSP0ECXVN77",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "549300KMLUSP0ECXVN77 is_ultimately_consolidated_by 724500K5PTPSST86UQ23"
+      },
+      {
+        "pairId": "EN-0019",
+        "sourcePairing": "gleif x wikidata",
+        "a": "Heineken N.V.",
+        "b": "Heineken Česká republika",
+        "aId": "LEI:724500K5PTPSST86UQ23",
+        "bId": "LEI:549300KMLUSP0ECXVN77",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "549300KMLUSP0ECXVN77 is_ultimately_consolidated_by 724500K5PTPSST86UQ23"
+      },
+      {
+        "pairId": "EN-0020",
+        "sourcePairing": "gleif x wikidata",
+        "a": "HEINEKEN ČESKÁ REPUBLIKA, A.S.",
+        "b": "Heineken International",
+        "aId": "LEI:549300KMLUSP0ECXVN77",
+        "bId": "LEI:724500K5PTPSST86UQ23",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "549300KMLUSP0ECXVN77 is_ultimately_consolidated_by 724500K5PTPSST86UQ23"
+      },
+      {
+        "pairId": "EN-0021",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "Heineken International",
+        "b": "Heineken Česká republika",
+        "aId": "LEI:724500K5PTPSST86UQ23",
+        "bId": "LEI:549300KMLUSP0ECXVN77",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "549300KMLUSP0ECXVN77 is_ultimately_consolidated_by 724500K5PTPSST86UQ23"
+      },
+      {
+        "pairId": "EN-0031",
+        "sourcePairing": "gleif x gleif",
+        "a": "T-MOBILE US, INC.",
+        "b": "T-MOBILE POLSKA SPÓŁKA AKCYJNA",
+        "aId": "LEI:549300QHIJYOHPACPG31",
+        "bId": "LEI:529900YTOCI5LBSSD267",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 549300V9QSIG4WX4GJ96"
+      },
+      {
+        "pairId": "EN-0032",
+        "sourcePairing": "gleif x wikidata",
+        "a": "T-MOBILE US, INC.",
+        "b": "T-Mobile Polska",
+        "aId": "LEI:549300QHIJYOHPACPG31",
+        "bId": "LEI:529900YTOCI5LBSSD267",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 549300V9QSIG4WX4GJ96"
+      },
+      {
+        "pairId": "EN-0033",
+        "sourcePairing": "gleif x wikidata",
+        "a": "T-MOBILE POLSKA SPÓŁKA AKCYJNA",
+        "b": "T-Mobile US",
+        "aId": "LEI:529900YTOCI5LBSSD267",
+        "bId": "LEI:549300QHIJYOHPACPG31",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 549300V9QSIG4WX4GJ96"
+      },
+      {
+        "pairId": "EN-0034",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "T-Mobile US",
+        "b": "T-Mobile Polska",
+        "aId": "LEI:549300QHIJYOHPACPG31",
+        "bId": "LEI:529900YTOCI5LBSSD267",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 549300V9QSIG4WX4GJ96"
+      },
+      {
+        "pairId": "EN-0043",
+        "sourcePairing": "gleif x gleif",
+        "a": "DB Cargo Aktiengesellschaft",
+        "b": "DB Regio Aktiengesellschaft",
+        "aId": "LEI:529900BSVWL1G7CV5J16",
+        "bId": "LEI:529900PW60LT8AKRA210",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 52990063S23N13HU4E98"
+      },
+      {
+        "pairId": "EN-0044",
+        "sourcePairing": "gleif x wikidata",
+        "a": "DB Cargo Aktiengesellschaft",
+        "b": "DB Regio",
+        "aId": "LEI:529900BSVWL1G7CV5J16",
+        "bId": "LEI:529900PW60LT8AKRA210",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 52990063S23N13HU4E98"
+      },
+      {
+        "pairId": "EN-0045",
+        "sourcePairing": "gleif x wikidata",
+        "a": "DB Regio Aktiengesellschaft",
+        "b": "DB Cargo",
+        "aId": "LEI:529900PW60LT8AKRA210",
+        "bId": "LEI:529900BSVWL1G7CV5J16",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 52990063S23N13HU4E98"
+      },
+      {
+        "pairId": "EN-0046",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "DB Regio",
+        "b": "DB Cargo",
+        "aId": "LEI:529900PW60LT8AKRA210",
+        "bId": "LEI:529900BSVWL1G7CV5J16",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 52990063S23N13HU4E98"
+      },
+      {
+        "pairId": "EN-0061",
+        "sourcePairing": "gleif x gleif",
+        "a": "Truist Financial Corporation",
+        "b": "Truist Bank",
+        "aId": "LEI:549300DRQQI75D2JP341",
+        "bId": "LEI:JJKC32MCHWDI71265Z06",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "JJKC32MCHWDI71265Z06 is_directly_consolidated_by 549300DRQQI75D2JP341"
+      },
+      {
+        "pairId": "EN-0062",
+        "sourcePairing": "gleif x gleif",
+        "a": "NORDISK FILM DISTRIBUSJON AS",
+        "b": "NORDISK FILM DISTRIBUTION AB",
+        "aId": "LEI:213800Y4AKXG9UF7RJ18",
+        "bId": "LEI:213800ZQJNA4F11DYM18",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 213800WUGGDQ1QK4M646"
+      },
+      {
+        "pairId": "EN-0063",
+        "sourcePairing": "gleif x wikidata",
+        "a": "NORDISK FILM DISTRIBUTION AB",
+        "b": "Nordisk Film Norway",
+        "aId": "LEI:213800ZQJNA4F11DYM18",
+        "bId": "LEI:213800Y4AKXG9UF7RJ18",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 213800WUGGDQ1QK4M646"
+      },
+      {
+        "pairId": "EN-0087",
+        "sourcePairing": "gleif x gleif",
+        "a": "WSW Wuppertaler Stadtwerke GmbH",
+        "b": "WSW Energie & Wasser AG",
+        "aId": "LEI:5299009ND87DUNR2Q640",
+        "bId": "LEI:529900ALT8K1P8IUP494",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "529900ALT8K1P8IUP494 is_directly_consolidated_by 5299009ND87DUNR2Q640"
+      },
+      {
+        "pairId": "EN-0088",
+        "sourcePairing": "gleif x wikidata",
+        "a": "WSW Wuppertaler Stadtwerke GmbH",
+        "b": "WSW Energie & Wasser",
+        "aId": "LEI:5299009ND87DUNR2Q640",
+        "bId": "LEI:529900ALT8K1P8IUP494",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "529900ALT8K1P8IUP494 is_directly_consolidated_by 5299009ND87DUNR2Q640"
+      },
+      {
+        "pairId": "EN-0089",
+        "sourcePairing": "gleif x wikidata",
+        "a": "WSW Energie & Wasser AG",
+        "b": "WSW Wuppertaler Stadtwerke",
+        "aId": "LEI:529900ALT8K1P8IUP494",
+        "bId": "LEI:5299009ND87DUNR2Q640",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "529900ALT8K1P8IUP494 is_directly_consolidated_by 5299009ND87DUNR2Q640"
+      },
+      {
+        "pairId": "EN-0090",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "WSW Energie & Wasser",
+        "b": "WSW Wuppertaler Stadtwerke",
+        "aId": "LEI:529900ALT8K1P8IUP494",
+        "bId": "LEI:5299009ND87DUNR2Q640",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "529900ALT8K1P8IUP494 is_directly_consolidated_by 5299009ND87DUNR2Q640"
+      },
+      {
+        "pairId": "EN-0112",
+        "sourcePairing": "gleif x wikidata",
+        "a": "Zurich Insurance Group AG",
+        "b": "Zurich Gruppe Deutschland",
+        "aId": "LEI:529900QVNRBND50TXP03",
+        "bId": "LEI:391200DKYNILIEHFKL22",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "391200DKYNILIEHFKL22 is_ultimately_consolidated_by 529900QVNRBND50TXP03"
+      },
+      {
+        "pairId": "EN-0113",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "Zurich Gruppe Deutschland",
+        "b": "Zurich Insurance Group",
+        "aId": "LEI:391200DKYNILIEHFKL22",
+        "bId": "LEI:529900QVNRBND50TXP03",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "391200DKYNILIEHFKL22 is_ultimately_consolidated_by 529900QVNRBND50TXP03"
+      },
+      {
+        "pairId": "EN-0114",
+        "sourcePairing": "gleif x gleif",
+        "a": "UBS Group AG",
+        "b": "UBS AG",
+        "aId": "LEI:549300SZJ9VS8SGXAN81",
+        "bId": "LEI:BFM8T61CT2L1QCEMIK50",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "BFM8T61CT2L1QCEMIK50 is_directly_consolidated_by 549300SZJ9VS8SGXAN81"
+      },
+      {
+        "pairId": "EN-0125",
+        "sourcePairing": "gleif x wikidata",
+        "a": "Allianz SE",
+        "b": "Allianz pojišťovna",
+        "aId": "LEI:529900K9B0N5BT694847",
+        "bId": "LEI:5299007KUKZ04LK29K58",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "5299007KUKZ04LK29K58 is_directly_consolidated_by 529900K9B0N5BT694847"
+      },
+      {
+        "pairId": "EN-0126",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "Allianz SE",
+        "b": "Allianz pojišťovna",
+        "aId": "LEI:529900K9B0N5BT694847",
+        "bId": "LEI:5299007KUKZ04LK29K58",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "5299007KUKZ04LK29K58 is_directly_consolidated_by 529900K9B0N5BT694847"
+      },
+      {
+        "pairId": "EN-0129",
+        "sourcePairing": "gleif x wikidata",
+        "a": "BNP PARIBAS",
+        "b": "BNP PARIBAS CARDIF POJIŠŤOVNA,",
+        "aId": "LEI:R0MUWSFPU8MPRO8K5P83",
+        "bId": "LEI:2138002BJWNWW7MFZ169",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "2138002BJWNWW7MFZ169 is_ultimately_consolidated_by R0MUWSFPU8MPRO8K5P83"
+      },
+      {
+        "pairId": "EN-0130",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "BNP Paribas",
+        "b": "BNP PARIBAS CARDIF POJIŠŤOVNA,",
+        "aId": "LEI:R0MUWSFPU8MPRO8K5P83",
+        "bId": "LEI:2138002BJWNWW7MFZ169",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "2138002BJWNWW7MFZ169 is_ultimately_consolidated_by R0MUWSFPU8MPRO8K5P83"
+      },
+      {
+        "pairId": "EN-0143",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "Kooperativa pojišťovna",
+        "b": "Kooperativa",
+        "aId": "LEI:31570010000000008243",
+        "bId": "LEI:097900BFEK0000024220",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 5299002V11Z638MWAS89"
+      },
+      {
+        "pairId": "EN-0144",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "ČSOB Pojišťovna",
+        "b": "ČSOB Poisťovňa",
+        "aId": "LEI:315700Q1S8O1UORF9700",
+        "bId": "LEI:097900BFE40000025246",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by 213800X3Q9LSAKRUWY91"
+      },
+      {
+        "pairId": "EN-0145",
+        "sourcePairing": "wikidata x wikidata",
+        "a": "Komerční pojišťovna",
+        "b": "Komerční banka",
+        "aId": "LEI:549300XT5NIAS5W8RH41",
+        "bId": "LEI:IYKCAVNFR8QGF00HV840",
+        "coverage": [
+          "asked",
+          "asked"
+        ],
+        "publisherRelated": true,
+        "statedAs": "both is_ultimately_consolidated_by O2RNE8IBXP4R0TD8PU41"
+      }
+    ]
+  },
+  "positives": {
+    "total": 578,
+    "guardWouldBlock": 0,
+    "blocked": [],
+    "note": "A positive is two publishers stating the SAME identifier, so a guard keyed on DIFFERENT LEIs should never fire here. This is the falsification test, not a formality."
+  },
+  "control": {
+    "sampledPairs": 500,
+    "publisherRelated": 0,
+    "rate": "0.0%",
+    "note": "Random distinct-LEI pairs from the same asked-for population. If this rate approached the hard-negative rate the edges would separate nothing."
+  },
+  "perRule": [
+    {
+      "rule": "shipped",
+      "falseMergesBefore": 3,
+      "stoppedByGuard": 0,
+      "falseMergesAfter": 3,
+      "stoppedPairIds": [],
+      "survivingPairIds": [
+        "EN-0001",
+        "EN-0002",
+        "EN-0003"
+      ]
+    },
+    {
+      "rule": "R1R2",
+      "falseMergesBefore": 4,
+      "stoppedByGuard": 0,
+      "falseMergesAfter": 4,
+      "stoppedPairIds": [],
+      "survivingPairIds": [
+        "EN-0001",
+        "EN-0002",
+        "EN-0003",
+        "EN-0103"
+      ]
+    },
+    {
+      "rule": "official",
+      "falseMergesBefore": 4,
+      "stoppedByGuard": 0,
+      "falseMergesAfter": 4,
+      "stoppedPairIds": [],
+      "survivingPairIds": [
+        "EN-0001",
+        "EN-0002",
+        "EN-0003",
+        "EN-0124"
+      ]
+    },
+    {
+      "rule": "R1R2_official",
+      "falseMergesBefore": 5,
+      "stoppedByGuard": 0,
+      "falseMergesAfter": 5,
+      "stoppedPairIds": [],
+      "survivingPairIds": [
+        "EN-0001",
+        "EN-0002",
+        "EN-0003",
+        "EN-0103",
+        "EN-0124"
+      ]
+    },
+    {
+      "rule": "R1R2_official_prefix",
+      "falseMergesBefore": 10,
+      "stoppedByGuard": 3,
+      "falseMergesAfter": 7,
+      "stoppedPairIds": [
+        "EN-0129",
+        "EN-0130",
+        "EN-0143"
+      ],
+      "survivingPairIds": [
+        "EN-0001",
+        "EN-0002",
+        "EN-0003",
+        "EN-0071",
+        "EN-0103",
+        "EN-0124",
+        "EN-0137"
+      ]
+    }
+  ]
+}

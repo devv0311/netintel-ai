@@ -1,0 +1,823 @@
+[
+  {
+    "recordRef": "gleif:097900BIFX0000156555",
+    "registry": "gleif",
+    "registryRecordId": "097900BIFX0000156555",
+    "subjectKind": "organisation",
+    "name": "SWAN, a.s.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "097900BIFX0000156555"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "sk/47258314"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000526",
+        "value": "47258314"
+      }
+    ],
+    "observedAt": "2024-10-01T20:56:08.000Z",
+    "jurisdiction": "SK",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/097900BIFX0000156555"
+  },
+  {
+    "recordRef": "gleif:2138007NMAX2LCGJSQ47",
+    "registry": "gleif",
+    "registryRecordId": "2138007NMAX2LCGJSQ47",
+    "subjectKind": "organisation",
+    "name": "ΖΥΘΟΠΟΙΙΑ ΜΑΚΕΔΟΝΙΑΣ ΘΡΑΚΗΣ Α.Ε.",
+    "aliases": [
+      "MACEDONIAN THRACE BREWERY S.A."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138007NMAX2LCGJSQ47"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gr/014029110000"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000685",
+        "value": "014029110000"
+      }
+    ],
+    "observedAt": "2019-10-25T09:15:20.000Z",
+    "jurisdiction": "GR",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138007NMAX2LCGJSQ47"
+  },
+  {
+    "recordRef": "gleif:213800OMCE8QATH73N15",
+    "registry": "gleif",
+    "registryRecordId": "213800OMCE8QATH73N15",
+    "subjectKind": "organisation",
+    "name": "МЕЖДУНАРОДНАЯ КОМПАНИЯ ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"ЛЕНТА\"",
+    "aliases": [
+      "LENTA PLC",
+      "LENTA INTERNATIONAL PUBLIC JOINT-STOCK COMPANY"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800OMCE8QATH73N15"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1213900001545"
+      }
+    ],
+    "observedAt": "2022-11-01T00:05:33.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800OMCE8QATH73N15"
+  },
+  {
+    "recordRef": "gleif:213800LRWL8Q9JP1QQ05",
+    "registry": "gleif",
+    "registryRecordId": "213800LRWL8Q9JP1QQ05",
+    "subjectKind": "organisation",
+    "name": "ADNAMS PLC",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800LRWL8Q9JP1QQ05"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/00031114"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "00031114"
+      }
+    ],
+    "observedAt": "2025-08-29T06:46:42.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800LRWL8Q9JP1QQ05"
+  },
+  {
+    "recordRef": "gleif:21380048U1WVXOMEPA24",
+    "registry": "gleif",
+    "registryRecordId": "21380048U1WVXOMEPA24",
+    "subjectKind": "organisation",
+    "name": "TELIA FINLAND OYJ",
+    "aliases": [
+      "INMICS",
+      "TELIA",
+      "DATAINFO",
+      "AURIA",
+      "HELPSON"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "21380048U1WVXOMEPA24"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "fi/1475607-9"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000188",
+        "value": "1475607-9"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "213800FSR9RNDUOTXO25"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "213800FSR9RNDUOTXO25"
+      }
+    ],
+    "observedAt": "2026-04-29T11:26:16.000Z",
+    "jurisdiction": "FI",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/21380048U1WVXOMEPA24"
+  },
+  {
+    "recordRef": "gleif:213800K7LQU3H85KCU96",
+    "registry": "gleif",
+    "registryRecordId": "213800K7LQU3H85KCU96",
+    "subjectKind": "organisation",
+    "name": "Bahnhof AB (publ)",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800K7LQU3H85KCU96"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556519-9493"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556519-9493"
+      }
+    ],
+    "observedAt": "2026-03-02T07:17:00.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800K7LQU3H85KCU96"
+  },
+  {
+    "recordRef": "gleif:2138004PXX8LWGHGL872",
+    "registry": "gleif",
+    "registryRecordId": "2138004PXX8LWGHGL872",
+    "subjectKind": "organisation",
+    "name": "MATAS A/S",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138004PXX8LWGHGL872"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/27528406"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "27528406"
+      }
+    ],
+    "observedAt": "2026-08-18T12:00:27.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138004PXX8LWGHGL872"
+  },
+  {
+    "recordRef": "gleif:097900BFE40000025246",
+    "registry": "gleif",
+    "registryRecordId": "097900BFE40000025246",
+    "subjectKind": "organisation",
+    "name": "ČSOB Poisťovňa, a.s.",
+    "aliases": [
+      "CSOB Poistovna, a.s."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "097900BFE40000025246"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "sk/31325416"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000526",
+        "value": "31325416"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "213800G63T4ER4MSVR22"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "213800X3Q9LSAKRUWY91"
+      }
+    ],
+    "observedAt": "2026-03-24T07:32:51.000Z",
+    "jurisdiction": "SK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/097900BFE40000025246"
+  },
+  {
+    "recordRef": "gleif:097900BFEK0000024220",
+    "registry": "gleif",
+    "registryRecordId": "097900BFEK0000024220",
+    "subjectKind": "organisation",
+    "name": "KOOPERATIVA poisťovňa, a.s. Vienna Insurance Group",
+    "aliases": [
+      "KOOPERATIVA poistovna, a.s. Vienna Insurance Group"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "097900BFEK0000024220"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "sk/00585441"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000526",
+        "value": "00585441"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "549300JCRU23I1THU176"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "5299002V11Z638MWAS89"
+      }
+    ],
+    "observedAt": "2026-03-24T07:32:53.000Z",
+    "jurisdiction": "SK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/097900BFEK0000024220"
+  },
+  {
+    "recordRef": "gleif:097900BFCN0000010981",
+    "registry": "gleif",
+    "registryRecordId": "097900BFCN0000010981",
+    "subjectKind": "organisation",
+    "name": "Union poisťovňa, a. s.",
+    "aliases": [
+      "Union poistovna, a. s."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "097900BFCN0000010981"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "sk/31322051"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000526",
+        "value": "31322051"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "7245007QUMI1FHIQV531"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "7245007QUMI1FHIQV531"
+      }
+    ],
+    "observedAt": "2026-01-19T07:32:48.000Z",
+    "jurisdiction": "SK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/097900BFCN0000010981"
+  },
+  {
+    "recordRef": "gleif:097900BEL10000005973",
+    "registry": "gleif",
+    "registryRecordId": "097900BEL10000005973",
+    "subjectKind": "organisation",
+    "name": "CONTINENTAL FILM, s.r.o.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "097900BEL10000005973"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "sk/35730897"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000526",
+        "value": "35730897"
+      }
+    ],
+    "observedAt": "2026-04-13T06:33:02.000Z",
+    "jurisdiction": "SK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/097900BEL10000005973"
+  },
+  {
+    "recordRef": "gleif:2138002BJWNWW7MFZ169",
+    "registry": "gleif",
+    "registryRecordId": "2138002BJWNWW7MFZ169",
+    "subjectKind": "organisation",
+    "name": "BNP PARIBAS CARDIF POJIŠŤOVNA, A.S.",
+    "aliases": [
+      "POJIŠŤOVNA CARDIF PRO VITA, A.S."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138002BJWNWW7MFZ169"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cz/25080954"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000163",
+        "value": "25080954"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "969500VRSFWX7S1P2M29"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "R0MUWSFPU8MPRO8K5P83"
+      }
+    ],
+    "observedAt": "2026-06-19T07:57:37.000Z",
+    "jurisdiction": "CZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138002BJWNWW7MFZ169"
+  },
+  {
+    "recordRef": "gleif:213800ATYTEFU1VISD12",
+    "registry": "gleif",
+    "registryRecordId": "213800ATYTEFU1VISD12",
+    "subjectKind": "organisation",
+    "name": "UPC CESKA REPUBLIKA, S.R.O.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800ATYTEFU1VISD12"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cz/00562262"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000163",
+        "value": "00562262"
+      }
+    ],
+    "observedAt": "2024-12-16T17:06:10.000Z",
+    "jurisdiction": "CZ",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800ATYTEFU1VISD12"
+  },
+  {
+    "recordRef": "gleif:213800KZBUKL7G5OPF59",
+    "registry": "gleif",
+    "registryRecordId": "213800KZBUKL7G5OPF59",
+    "subjectKind": "organisation",
+    "name": "Východoslovenská vodárenská spoločnosť, a.s.",
+    "aliases": [
+      "Vychodoslovenska vodarenska spolocnost, a.s."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800KZBUKL7G5OPF59"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "sk/36570460"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000526",
+        "value": "36570460"
+      }
+    ],
+    "observedAt": "2026-07-20T06:32:34.000Z",
+    "jurisdiction": "SK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800KZBUKL7G5OPF59"
+  },
+  {
+    "recordRef": "gleif:213800EKMAHB2DGHGA76",
+    "registry": "gleif",
+    "registryRecordId": "213800EKMAHB2DGHGA76",
+    "subjectKind": "organisation",
+    "name": "ASSURANCEFORENINGEN GARD - GJENSIDIG -",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800EKMAHB2DGHGA76"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/939717609"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "939717609"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "21380084U7O1189W1Q41"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "21380084U7O1189W1Q41"
+      }
+    ],
+    "observedAt": "2026-08-11T16:01:41.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800EKMAHB2DGHGA76"
+  },
+  {
+    "recordRef": "gleif:2138006CAPFV48G81L03",
+    "registry": "gleif",
+    "registryRecordId": "2138006CAPFV48G81L03",
+    "subjectKind": "organisation",
+    "name": "ELKJØP NORDIC AS",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138006CAPFV48G81L03"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/911382296"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "911 382 296"
+      }
+    ],
+    "observedAt": "2026-07-27T16:44:14.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138006CAPFV48G81L03"
+  },
+  {
+    "recordRef": "gleif:213800M7T3CYVZ3ZRT12",
+    "registry": "gleif",
+    "registryRecordId": "213800M7T3CYVZ3ZRT12",
+    "subjectKind": "organisation",
+    "name": "SPAREBANKEN NORGE",
+    "aliases": [
+      "SPAREBANKEN VEST"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800M7T3CYVZ3ZRT12"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "no/832554332"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000472",
+        "value": "832 554 332"
+      }
+    ],
+    "observedAt": "2025-12-18T15:41:00.000Z",
+    "jurisdiction": "NO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800M7T3CYVZ3ZRT12"
+  },
+  {
+    "recordRef": "gleif:213800HBYIS79IJG2S05",
+    "registry": "gleif",
+    "registryRecordId": "213800HBYIS79IJG2S05",
+    "subjectKind": "organisation",
+    "name": "NORDJYSKE JERNBANER A/S",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800HBYIS79IJG2S05"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/29818983"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "29818983"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "213800S8EDE4HQLRTB10"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "213800S8EDE4HQLRTB10"
+      }
+    ],
+    "observedAt": "2025-02-07T00:08:22.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800HBYIS79IJG2S05"
+  },
+  {
+    "recordRef": "gleif:213800AHT6KTFMOYWB62",
+    "registry": "gleif",
+    "registryRecordId": "213800AHT6KTFMOYWB62",
+    "subjectKind": "organisation",
+    "name": "ROLLS-ROYCE CORPORATION",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800AHT6KTFMOYWB62"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/2335555"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "2335555"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "213800XNDZKITUAB8E78"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "213800EC7997ZBLZJH69"
+      }
+    ],
+    "observedAt": "2026-01-06T07:58:49.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800AHT6KTFMOYWB62"
+  },
+  {
+    "recordRef": "gleif:213800KAJ4LXOKLNO654",
+    "registry": "gleif",
+    "registryRecordId": "213800KAJ4LXOKLNO654",
+    "subjectKind": "organisation",
+    "name": "SPORTSDIRECT.COM RETAIL LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800KAJ4LXOKLNO654"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/03406347"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "03406347"
+      }
+    ],
+    "observedAt": "2026-01-06T06:27:54.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800KAJ4LXOKLNO654"
+  },
+  {
+    "recordRef": "gleif:213800AWZ8U3FVALIO26",
+    "registry": "gleif",
+    "registryRecordId": "213800AWZ8U3FVALIO26",
+    "subjectKind": "organisation",
+    "name": "COOP DANMARK A/S",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800AWZ8U3FVALIO26"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/26259495"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "26259495"
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "is_directly_consolidated_by",
+        "targetRegistryRecordId": "213800VDKD1QDC438Q85"
+      },
+      {
+        "predicate": "is_ultimately_consolidated_by",
+        "targetRegistryRecordId": "213800VDKD1QDC438Q85"
+      }
+    ],
+    "observedAt": "2026-02-11T14:11:56.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800AWZ8U3FVALIO26"
+  },
+  {
+    "recordRef": "gleif:21380063C9WS18D6WJ21",
+    "registry": "gleif",
+    "registryRecordId": "21380063C9WS18D6WJ21",
+    "subjectKind": "organisation",
+    "name": "DANISH CROWN A/S",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "21380063C9WS18D6WJ21"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/26121264"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "26121264"
+      }
+    ],
+    "observedAt": "2026-08-13T11:28:06.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/21380063C9WS18D6WJ21"
+  },
+  {
+    "recordRef": "gleif:213800C7ACOFMRCQQW76",
+    "registry": "gleif",
+    "registryRecordId": "213800C7ACOFMRCQQW76",
+    "subjectKind": "organisation",
+    "name": "FULLER SMITH & TURNER PLC",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800C7ACOFMRCQQW76"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/00241882"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "00241882"
+      }
+    ],
+    "observedAt": "2026-01-11T00:05:14.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800C7ACOFMRCQQW76"
+  },
+  {
+    "recordRef": "gleif:2138004B2MB75KHN3J49",
+    "registry": "gleif",
+    "registryRecordId": "2138004B2MB75KHN3J49",
+    "subjectKind": "organisation",
+    "name": "Grolsche Bierbrouwerij Nederland B.V.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138004B2MB75KHN3J49"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "nl/06060381"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000463",
+        "value": "06060381"
+      }
+    ],
+    "observedAt": "2026-02-20T14:04:21.000Z",
+    "jurisdiction": "NL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138004B2MB75KHN3J49"
+  },
+  {
+    "recordRef": "gleif:213800DP8UPUSUJLZA78",
+    "registry": "gleif",
+    "registryRecordId": "213800DP8UPUSUJLZA78",
+    "subjectKind": "organisation",
+    "name": "PLZENSKÝ PRAZDROJ, A. S.",
+    "aliases": [
+      "PLZENSKY PRAZDROJ, A. S."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800DP8UPUSUJLZA78"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cz/45357366"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000163",
+        "value": "45357366"
+      }
+    ],
+    "observedAt": "2025-09-19T07:46:40.000Z",
+    "jurisdiction": "CZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T04:45:43.672Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800DP8UPUSUJLZA78"
+  }
+]

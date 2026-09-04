@@ -51,10 +51,15 @@ async function main(): Promise<void> {
   // P5531), never hand-typed and never crawled.
   const ciksFrom = arg("ciks-from");
   const query = arg("query");
+  // Level 2 (parent relationships) for the LEIs this run collects.
+  // Only meaningful alongside --leis-from: relationships are a per-record
+  // sub-resource, so there is no jurisdiction-wide relationship mode to
+  // ask for. SRC-002 is registered as Level 1 + Level 2 and APPROVED.
+  const withRelationships = flag("with-relationships");
 
   if (source !== "gleif" && source !== "wikidata" && source !== "edgar") {
     console.error(
-      "usage: --source gleif|wikidata|edgar [--limit N] [--query NAME] [--leis-from PATH] [--ciks-from PATH] [--from-file PATH] [--from-dir DIR] [--dry-run]",
+      "usage: --source gleif|wikidata|edgar [--limit N] [--query NAME] [--leis-from PATH] [--ciks-from PATH] [--with-relationships] [--from-file PATH] [--from-dir DIR] [--dry-run]",
     );
     console.error("No other source is collectable: the adapter set is the allowlist.");
     process.exitCode = 1;
@@ -104,7 +109,7 @@ async function main(): Promise<void> {
 
   const plan =
     source === "gleif"
-      ? gleif.planGleif({ jurisdiction: arg("jurisdiction") ?? "IN", leis }, options)
+      ? gleif.planGleif({ jurisdiction: arg("jurisdiction") ?? "IN", leis, withRelationships }, options)
       : source === "edgar"
         ? edgar.planEdgar({ ciks }, options)
         : wikidata.planWikidata(
@@ -132,7 +137,7 @@ async function main(): Promise<void> {
 
   const result =
     source === "gleif"
-      ? await gleif.collectGleif({ jurisdiction: arg("jurisdiction") ?? "IN", leis }, options)
+      ? await gleif.collectGleif({ jurisdiction: arg("jurisdiction") ?? "IN", leis, withRelationships }, options)
       : source === "edgar"
         ? await edgar.collectEdgar({ ciks }, options)
         : await wikidata.collectWikidata(
