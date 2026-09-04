@@ -167,7 +167,7 @@ async function main(): Promise<void> {
   // filesystem that will not let SQLite manage its own journal files, and
   // a measurement should not be blocked by where the checkout happens to
   // sit. It changes no input and no metric.
-  const DB_PATH = arg("db") ?? `./data/netintel-no-identifier-${regime}.db`;
+  const DB_PATH = arg("db") ?? `./data/cipher-no-identifier-${regime}.db`;
   process.env.DATABASE_URL = DB_PATH;
 
   for (const suffix of ["", "-wal", "-shm"]) {

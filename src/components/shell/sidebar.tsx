@@ -31,7 +31,7 @@ interface NavSection {
   items: NavItem[];
 }
 
-const COLLAPSE_KEY = "netintel.nav.collapsed";
+const COLLAPSE_KEY = "cipher.nav.collapsed";
 
 /**
  * The rail's collapsed state is a per-browser preference, read through

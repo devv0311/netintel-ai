@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory will hold the evaluation methodology for NetIntel AI — how the correctness and quality of each pipeline stage (entity resolution, relationship analysis, corroboration, copilot answers, generated reports, etc.) will be measured against the synthetic ground truth.
+This directory will hold the evaluation methodology for CIPHER — how the correctness and quality of each pipeline stage (entity resolution, relationship analysis, corroboration, copilot answers, generated reports, etc.) will be measured against the synthetic ground truth.
 
 ## What Will Eventually Live Here
 

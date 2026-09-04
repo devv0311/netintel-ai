@@ -6,7 +6,7 @@ import { PipelineStatus } from "./pipeline-status";
 /**
  * The command bar (audit §2 — persistent context). A fixed strip that
  * carries, at all times:
- *   - the product identity ("NetIntel AI" / "Investigation Workspace");
+ *   - the product identity ("CIPHER" / "Investigation Workspace");
  *   - the loaded case's name and corpus version, once ingestion has run;
  *   - the live pipeline meter (real `completedStages`, never fabricated);
  *   - the current cross-navigation subject as a dismissible focus chip;
@@ -38,7 +38,7 @@ export function Header({
             NI
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="text-sm font-semibold text-fg">NetIntel AI</span>
+            <span className="text-sm font-semibold text-fg">CIPHER</span>
             <span className="text-xs text-fg-muted">Investigation Workspace</span>
           </div>
         </div>

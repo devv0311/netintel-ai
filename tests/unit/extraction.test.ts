@@ -99,7 +99,7 @@ function isUserSafeMessage(message: string): boolean {
 // ---------------------------------------------------------------------------
 
 describe("evidence extraction — valid corpus", () => {
-  const DB = "./data/netintel-extract-A.db";
+  const DB = "./data/cipher-extract-A.db";
   let mod: ExtractionModule;
   let first: Awaited<ReturnType<ExtractionModule["runExtraction"]>>;
 
@@ -267,7 +267,7 @@ describe("evidence extraction — valid corpus", () => {
 // ---------------------------------------------------------------------------
 
 describe("evidence extraction — partial retry", () => {
-  const DB = "./data/netintel-extract-B.db";
+  const DB = "./data/cipher-extract-B.db";
   let mod: ExtractionModule;
 
   beforeAll(async () => {
@@ -307,7 +307,7 @@ describe("evidence extraction — partial retry", () => {
 // ---------------------------------------------------------------------------
 
 describe("evidence extraction — structured errors", () => {
-  const DB = "./data/netintel-extract-C.db";
+  const DB = "./data/cipher-extract-C.db";
   let mod: ExtractionModule;
 
   beforeAll(async () => {
@@ -392,7 +392,7 @@ describe("evidence extraction — structured errors", () => {
 // ---------------------------------------------------------------------------
 
 describe("evidence extraction — non-inference safeguards", () => {
-  const DB = "./data/netintel-extract-D.db";
+  const DB = "./data/cipher-extract-D.db";
   let mod: ExtractionModule;
   let records: ExtractedRecord[];
 

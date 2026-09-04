@@ -1,11 +1,11 @@
-# NetIntel AI — GitHub Repository Audit (Phase 1B)
+# CIPHER — GitHub Repository Audit (Phase 1B)
 
 **Date:** 2026-09-03 · **Phase:** 1 (research only) · **Nothing installed, nothing vendored yet.**
 
 Scope: what each repository actually does, what is reusable, what is *not* reusable, and where
 code licensing and data licensing diverge.
 
-**Caveat:** this audit was written without access to the existing NetIntel AI codebase. "Reuse"
+**Caveat:** this audit was written without access to the existing CIPHER codebase. "Reuse"
 recommendations below are made against the architecture described in the brief, not against code
 that was read. Any overlap with components you have already built will need reconciling.
 
@@ -13,7 +13,7 @@ that was read. Any overlap with components you have already built will need reco
 
 ## Summary
 
-| Repository | Code license | Adopt? | Role in NetIntel AI |
+| Repository | Code license | Adopt? | Role in CIPHER |
 |---|---|---|---|
 | **followthemoney** | MIT | **Yes — adopt the schema** | Canonical entity/relationship ontology |
 | **nomenklatura** | MIT | **Yes — adopt** | Entity resolution, resolver graph, adjudication UI |
@@ -40,7 +40,7 @@ investigative-journalism sector (Aleph, OpenAleph, OpenSanctions, OCCRP), has an
 specification, and includes mapping tools for loading tabular data into the model.
 
 **Recommendation.** Do not invent a fourth entity ontology. Either adopt FtM directly, or define
-NetIntel's schema **as a documented profile of FtM** with an explicit mapping table. The
+CIPHER's schema **as a documented profile of FtM** with an explicit mapping table. The
 practical payoff is not elegance: it means Wikidata, GLEIF, SEC EDGAR and court-judgment entities
 land in one shared type system instead of four bespoke ones, and it makes the graph exportable to
 tools investigators already use.
@@ -147,11 +147,11 @@ across datasets. Uses **FollowTheMoney** as its schema. Deployment: PostgreSQL +
 Redis + Python services + web UI. ~11,900 commits, actively developed.
 
 **Why it matters.** This is, in substance, a working implementation of a large part of what
-NetIntel AI describes: evidence ingestion, document extraction, entity extraction, cross-dataset
+CIPHER describes: evidence ingestion, document extraction, entity extraction, cross-dataset
 entity matching, and search over an investigative corpus.
 
 **Blunt observation.** If OpenAleph already does most of the ingestion and cross-referencing
-layer, the differentiating work in NetIntel AI is the layer *above* it — topology analytics,
+layer, the differentiating work in CIPHER is the layer *above* it — topology analytics,
 spatial/temporal corroboration, the investigation Copilot, and the observed/corroborated/
 algorithmic/inferred/lead distinction. Rebuilding ingestion from scratch spends time on the
 part that is already solved and commoditised. Worth deciding consciously rather than by

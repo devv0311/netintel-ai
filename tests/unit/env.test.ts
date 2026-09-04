@@ -14,7 +14,7 @@ describe("getEnv", () => {
     const env = getEnv();
 
     expect(env.APP_ENV).toBe("development");
-    expect(env.DATABASE_URL).toBe("./data/netintel.db");
+    expect(env.DATABASE_URL).toBe("./data/cipher.db");
     expect(env.AI_PROVIDER_API_KEY).toBeUndefined();
     expect(env.LOG_LEVEL).toBe("info");
   });

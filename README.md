@@ -1,4 +1,4 @@
-# NetIntel AI
+# CIPHER
 
 *A synthetic-data investigative intelligence platform for demonstrating evidence ingestion, entity resolution, relationship analysis, spatial/temporal corroboration, grounded investigation assistance, and report generation.*
 
@@ -231,7 +231,7 @@ npm run test:e2e      # playwright test (end-to-end)
 npm run db:generate   # regenerate Drizzle migrations after a schema change
 ```
 
-The SQLite database is a local file at `DATABASE_URL` (default `./data/netintel.db`), created and migrated automatically on first use — nothing to provision manually.
+The SQLite database is a local file at `DATABASE_URL` (default `./data/cipher.db`), created and migrated automatically on first use — nothing to provision manually.
 
 ## Development Environment
 

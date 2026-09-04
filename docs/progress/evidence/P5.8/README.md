@@ -9,7 +9,7 @@ Evidence for ledger row **P5.8**, per [`docs/progress/visual-evidence-convention
 | **Associated Git commit** | The P5.8 verification commit (`test(P5.8): complete Investigation Copilot verification`). |
 | **Capture date** | 2026-09-03 |
 | **Captured by** | `tests/e2e/investigation-zzz-copilot.spec.ts`, run with `CAPTURE_EVIDENCE=1 npx playwright test tests/e2e/investigation-zzz-copilot.spec.ts` |
-| **Application state** | The real app (`next dev`) against `./data/netintel-e2e.db`, the full Operation DarkNet Delhi corpus ingested → extracted → resolved → graph-synthesized → analyzed → corroborated, then questions asked through the real command bar. No mocking, no fixtures, no stubbed network. |
+| **Application state** | The real app (`next dev`) against `./data/cipher-e2e.db`, the full Operation DarkNet Delhi corpus ingested → extracted → resolved → graph-synthesized → analyzed → corroborated, then questions asked through the real command bar. No mocking, no fixtures, no stubbed network. |
 | **AI provider key** | Not configured. Every artifact below therefore shows the no-key path: deterministic Copilot narration, explicitly labelled in the UI. The grounding, citations, classifications and confidences are identical to the with-model path. |
 
 Every artifact is a real capture of the running system. Nothing here is a mock, a placeholder, or a design comp.

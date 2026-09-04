@@ -1415,7 +1415,7 @@ async function freshCopilot(dbPath: string): Promise<CopilotModule> {
 }
 
 describe("Investigation Copilot — full Operation DarkNet Delhi corpus", () => {
-  const DB = "./data/netintel-copilot-full.db";
+  const DB = "./data/cipher-copilot-full.db";
   let mod: CopilotModule;
   let state: Awaited<ReturnType<CopilotModule["getCopilotState"]>>;
 

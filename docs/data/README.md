@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory will hold the specification for the synthetic investigative dataset used to demonstrate NetIntel AI — its design, generation methodology, and documentation of what the dataset contains.
+This directory will hold the specification for the synthetic investigative dataset used to demonstrate CIPHER — its design, generation methodology, and documentation of what the dataset contains.
 
 ## What Will Eventually Live Here
 

@@ -2,7 +2,7 @@
 
 **Status**: Specification only. This document defines what the eventual synthetic data generator must produce. **No synthetic data has been generated yet.** Generation is a separate, later phase.
 
-This is the canonical demonstration case for NetIntel AI. All demo materials, ground truth, and evaluation reference this same case by name: **Operation DarkNet Delhi**. It is entirely fictional; see the synthetic-only rule in `docs/requirements.md` §9 and §10.
+This is the canonical demonstration case for CIPHER. All demo materials, ground truth, and evaluation reference this same case by name: **Operation DarkNet Delhi**. It is entirely fictional; see the synthetic-only rule in `docs/requirements.md` §9 and §10.
 
 ## 1. Purpose of This Case
 

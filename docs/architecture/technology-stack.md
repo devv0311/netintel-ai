@@ -1,4 +1,4 @@
-# ADR-001 — NetIntel AI Technology Stack
+# ADR-001 — CIPHER Technology Stack
 
 **Status**: Accepted — this is the definitive implementation baseline.
 **Date**: 2026-09-02
@@ -9,7 +9,7 @@
 
 ## 1. Executive Decision
 
-**NetIntel AI is built as a single-runtime, local-first TypeScript application: Next.js (App Router) + React + Tailwind/shadcn on the front, Next.js server-side route handlers and typed pipeline modules on the back, SQLite (`node:sqlite` + Drizzle) as the single store of record, an in-memory `graphology` graph rebuilt from SQLite for graph synthesis and analytics, `sigma.js` for graph rendering, Leaflet + OpenStreetMap for the map, and remote Claude API inference for extraction and the Copilot — with every LLM response cached to disk, keyed on model/prompt/schema version as well as input, so the demo is deterministic and survives a network failure.**
+**CIPHER is built as a single-runtime, local-first TypeScript application: Next.js (App Router) + React + Tailwind/shadcn on the front, Next.js server-side route handlers and typed pipeline modules on the back, SQLite (`node:sqlite` + Drizzle) as the single store of record, an in-memory `graphology` graph rebuilt from SQLite for graph synthesis and analytics, `sigma.js` for graph rendering, Leaflet + OpenStreetMap for the map, and remote Claude API inference for extraction and the Copilot — with every LLM response cached to disk, keyed on model/prompt/schema version as well as input, so the demo is deterministic and survives a network failure.**
 
 Four decisions carry most of the weight, and each is a deliberate reduction in moving parts:
 

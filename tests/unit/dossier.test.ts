@@ -984,7 +984,7 @@ async function advanceToCorroboration(mod: DossierModule): Promise<void> {
 }
 
 describe("dossier generation — full Operation DarkNet Delhi corpus", () => {
-  const DB = "./data/netintel-dossier-full.db";
+  const DB = "./data/cipher-dossier-full.db";
   let mod: DossierModule;
   let result: Awaited<ReturnType<DossierModule["runDossierGeneration"]>>;
 
@@ -1172,7 +1172,7 @@ describe("dossier generation — full Operation DarkNet Delhi corpus", () => {
 });
 
 describe("dossier generation — stale graph handling", () => {
-  const DB = "./data/netintel-dossier-stale.db";
+  const DB = "./data/cipher-dossier-stale.db";
 
   afterAll(async () => {
     await releaseAndRemoveDb(DB);
@@ -1207,7 +1207,7 @@ describe("dossier generation — stale graph handling", () => {
 });
 
 describe("dossier generation — structured errors on an incomplete pipeline", () => {
-  const DB = "./data/netintel-dossier-empty.db";
+  const DB = "./data/cipher-dossier-empty.db";
 
   afterAll(async () => {
     await releaseAndRemoveDb(DB);

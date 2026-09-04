@@ -1,4 +1,4 @@
-# NetIntel AI — Project Assessment and Phase 1 Revision
+# CIPHER — Project Assessment and Phase 1 Revision
 
 **Date:** 2026-09-03
 **Repository inspected:** `devv0311/netintel-ai` @ `master` (`4493a3e`, shallow clone, depth 50)

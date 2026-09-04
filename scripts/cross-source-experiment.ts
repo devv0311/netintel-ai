@@ -28,7 +28,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const DB_PATH = "./data/netintel-cross-source.db";
+const DB_PATH = "./data/cipher-cross-source.db";
 process.env.DATABASE_URL = DB_PATH;
 
 function arg(name: string): string | undefined {

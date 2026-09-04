@@ -797,7 +797,7 @@ describe("ground-truth isolation — no forbidden import/identifier anywhere in 
 // ---------------------------------------------------------------------------
 
 describe("idempotentPersistCorroboration — partial retry", () => {
-  const TEST_DB_PATH = "./data/netintel-corroboration-persist-test.db";
+  const TEST_DB_PATH = "./data/cipher-corroboration-persist-test.db";
 
   beforeAll(async () => {
     await prepareFreshDb(TEST_DB_PATH);
@@ -905,7 +905,7 @@ async function freshCorroboration(dbPath: string): Promise<CorroborationModule> 
 }
 
 describe("spatial/temporal corroboration — full Operation DarkNet Delhi corpus", () => {
-  const DB = "./data/netintel-corroboration-full.db";
+  const DB = "./data/cipher-corroboration-full.db";
   let mod: CorroborationModule;
   let result: Awaited<ReturnType<CorroborationModule["runCorroborationSynthesis"]>>;
 
@@ -1057,7 +1057,7 @@ describe("spatial/temporal corroboration — full Operation DarkNet Delhi corpus
 });
 
 describe("corroboration — empty and edge-case databases (full pipeline)", () => {
-  const DB = "./data/netintel-corroboration-empty.db";
+  const DB = "./data/cipher-corroboration-empty.db";
 
   afterAll(async () => {
     await releaseAndRemoveDb(DB);

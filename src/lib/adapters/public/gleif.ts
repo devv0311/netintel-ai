@@ -163,7 +163,7 @@ interface GleifApiRecord {
 /**
  * A GLEIF Level 2 relationship record: the publisher's own statement
  * that one LEI stands in a stated relation to another. Both ends are
- * LEIs — publisher ids, never NetIntel entity ids — so attaching one to
+ * LEIs — publisher ids, never CIPHER entity ids — so attaching one to
  * a record asserts nothing about entity identity.
  */
 interface GleifRelationshipRecord {
@@ -376,7 +376,7 @@ export async function collectGleif(
           method: "GET",
           headers: {
             Accept: "application/vnd.api+json",
-            "User-Agent": "NetIntelAI-research/0.1 (+https://github.com/devv0311/netintel-ai)",
+            "User-Agent": "CIPHER-research/0.1 (+https://github.com/devv0311/netintel-ai)",
           },
         });
         if (response.status === 429) {
@@ -410,7 +410,7 @@ export async function collectGleif(
               method: "GET",
               headers: {
                 Accept: "application/vnd.api+json",
-                "User-Agent": "NetIntelAI-research/0.1 (+https://github.com/devv0311/netintel-ai)",
+                "User-Agent": "CIPHER-research/0.1 (+https://github.com/devv0311/netintel-ai)",
               },
             });
           } catch (error) {

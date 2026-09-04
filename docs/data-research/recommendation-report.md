@@ -1,4 +1,4 @@
-# NetIntel AI — Source Recommendation Report (Phase 1D)
+# CIPHER — Source Recommendation Report (Phase 1D)
 
 **Date:** 2026-09-03 · **Phase:** 1 (research only) · **Collection status: NOT approved**
 
@@ -196,7 +196,7 @@ cover most of Phases 3–4.
 
 | # | Question | Blocks | Who decides |
 |---|---|---|---|
-| 1 | Will NetIntel AI ever be commercial or third-party licensed? | OpenSanctions (SRC-012); influences MAVEN-ERE | Project owner |
+| 1 | Will CIPHER ever be commercial or third-party licensed? | OpenSanctions (SRC-012); influences MAVEN-ERE | Project owner |
 | 2 | Who signs the court-judgment privacy policy? | SRC-007, SRC-008 (highest India value) | Project owner + institution |
 | 3 | Does SICSR hold an LDC membership? | TACRED, ACE 2005, OntoNotes, TimeBank | Institution |
 | 4 | What does the existing model consume — documents, entity pairs, or graph triples? | **All of Phase 7**; no source can be called "directly usable" until this is read | Requires repository access |

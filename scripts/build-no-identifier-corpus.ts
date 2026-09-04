@@ -9,7 +9,7 @@
  *
  * WHAT THIS EXPERIMENT ASKS
  *
- * Every cross-source join NetIntel has ever made on real data was made on
+ * Every cross-source join CIPHER has ever made on real data was made on
  * a shared LEI. Tier B — exact name match — has fired zero times on real
  * data across P6.6, P6.9 and P6.14, so the four name-variation hypotheses
  * (suffix, transliteration, abbreviation, name order) have never actually

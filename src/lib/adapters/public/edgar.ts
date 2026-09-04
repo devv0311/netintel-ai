@@ -63,7 +63,7 @@ export const MAX_LIMIT = 400;
  * hard restrictions "enforced at the collector layer, not by
  * convention", so the delay below is not decoration.
  */
-const USER_AGENT = "NetIntelAI-research/0.1 (contact: sanchit.sharma1089@gmail.com)";
+const USER_AGENT = "CIPHER-research/0.1 (contact: sanchit.sharma1089@gmail.com)";
 const MIN_REQUEST_INTERVAL_MS = 150; // ~6.7 req/s, comfortably inside 10/s
 
 /** EDGAR pads CIKs to ten digits in a path and prints them unpadded elsewhere. */

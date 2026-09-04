@@ -170,6 +170,6 @@ Reasoning, in order:
    `docs/data-research/public-data-adapter-design.md`.
 4. Run the generalisation experiment in `docs/evaluation/real-world-generalisation-test.md`.
 
-**What would change this recommendation:** if the answer to "will NetIntel AI ever handle real
+**What would change this recommendation:** if the answer to "will CIPHER ever handle real
 data?" is a firm no — a demonstrator for authorised deployment only — Option A is correct and
 this document should be closed as decided.

@@ -437,7 +437,7 @@ describe("Operation DarkNet Delhi corpus — malformed input is rejected", () =>
 // ---------------------------------------------------------------------------
 
 describe("Operation DarkNet Delhi corpus — database load", () => {
-  const TEST_DB_PATH = "./data/netintel-corpus-test.db";
+  const TEST_DB_PATH = "./data/cipher-corpus-test.db";
   let loaded: ReturnType<typeof loadInvestigationCorpus>;
 
   beforeAll(async () => {

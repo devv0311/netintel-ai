@@ -5,6 +5,6 @@ export default defineConfig({
   schema: "./src/lib/db/schema.ts",
   out: "./drizzle",
   dbCredentials: {
-    url: process.env.DATABASE_URL ?? "./data/netintel.db",
+    url: process.env.DATABASE_URL ?? "./data/cipher.db",
   },
 });

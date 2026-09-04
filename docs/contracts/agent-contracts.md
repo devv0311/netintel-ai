@@ -1,6 +1,6 @@
 # Agent Contracts
 
-**Status**: Conceptual specification only. This document defines the input/output contract for each stage of the NetIntel AI pipeline, independent of implementation technology. "Agent" here means a conceptual processing stage/responsibility — it does not imply any specific agent framework, orchestration technology, or runtime. That selection happens in a later, dedicated phase.
+**Status**: Conceptual specification only. This document defines the input/output contract for each stage of the CIPHER pipeline, independent of implementation technology. "Agent" here means a conceptual processing stage/responsibility — it does not imply any specific agent framework, orchestration technology, or runtime. That selection happens in a later, dedicated phase.
 
 Every agent below must obey the cross-cutting requirements from `docs/requirements.md`: provenance (§8), evidence classification (§7), graceful failure (§6), and observability (§6).
 

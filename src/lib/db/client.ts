@@ -36,7 +36,7 @@ let dbInstance: ReturnType<typeof drizzle> | undefined;
  * file. Application code never needs this — the connection is meant to
  * live as long as the process.
  */
-const OPEN_CONNECTIONS = Symbol.for("netintel.db.openConnections");
+const OPEN_CONNECTIONS = Symbol.for("cipher.db.openConnections");
 
 interface ClosableConnection {
   close(): void;

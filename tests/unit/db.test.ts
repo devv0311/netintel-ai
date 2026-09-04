@@ -15,7 +15,7 @@ import type { Provenance } from "@/lib/domain/provenance";
 
 import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
 
-const TEST_DB_PATH = "./data/netintel-test.db";
+const TEST_DB_PATH = "./data/cipher-test.db";
 
 function freshProvenance(overrides: Partial<Provenance> = {}): Provenance {
   return {

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory will hold the demo runbook for NetIntel AI — the concrete steps to run and present the end-to-end demonstration once implemented.
+This directory will hold the demo runbook for CIPHER — the concrete steps to run and present the end-to-end demonstration once implemented.
 
 ## What Will Eventually Live Here
 

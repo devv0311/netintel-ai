@@ -10,7 +10,7 @@ Evidence for ledger row **P5.10.3** (M10 / Workstream I), per
 | **Associated Git commit** | `feat(P5.10.3): add shared investigation inspector and entity profile` — the commit this evidence was captured against. |
 | **Capture date** | 2026-09-03 |
 | **Captured by** | [`capture.mjs`](capture.mjs), run as `node docs/progress/evidence/P5.10.3/capture.mjs` — it drives the real screens the same way `tests/e2e/investigation-zzz-inspector.spec.ts` does. |
-| **Application state** | The real app (`next dev`) against `./data/netintel-e2e.db`, full Operation DarkNet Delhi pipeline advanced through corroboration. No mocking, no fixtures, no stubbed network. |
+| **Application state** | The real app (`next dev`) against `./data/cipher-e2e.db`, full Operation DarkNet Delhi pipeline advanced through corroboration. No mocking, no fixtures, no stubbed network. |
 | **Theme** | The committed dark operational theme (`colorScheme: "dark"`, 1440×900). |
 | **AI provider key** | Not configured. |
 

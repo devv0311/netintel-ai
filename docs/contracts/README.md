@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory will hold the interface and data contracts between NetIntel AI components — the agreed shapes of data as it moves through the pipeline (e.g. what an "extracted entity" or "evidence record" looks like), independent of any specific implementation.
+This directory will hold the interface and data contracts between CIPHER components — the agreed shapes of data as it moves through the pipeline (e.g. what an "extracted entity" or "evidence record" looks like), independent of any specific implementation.
 
 ## What Will Eventually Live Here
 

@@ -1,4 +1,4 @@
-# NetIntel AI — Requirements Specification
+# CIPHER — Requirements Specification
 
 **Status**: Authoritative functional requirements. This document is implementation-neutral: it defines *what* the system must do and *what must be true* of its outputs, never *which technology* performs the work. Technology selection is deferred to a later, dedicated phase (see `docs/architecture/README.md`).
 
@@ -8,11 +8,11 @@ This document supersedes informal descriptions elsewhere in the repository where
 
 ## 1. Project Objective
 
-NetIntel AI demonstrates, end-to-end and on synthetic data only, how an investigative-intelligence platform can take raw case evidence and turn it into a corroborated, explainable, source-traceable picture of a case — from ingestion through entity resolution, relationship graphing, analytics, spatial/temporal corroboration, a grounded investigation copilot, and a final dossier/report. The objective is to prove the workflow and its guarantees (provenance, evidence/inference separation, explainability), not to ship a production investigative tool.
+CIPHER demonstrates, end-to-end and on synthetic data only, how an investigative-intelligence platform can take raw case evidence and turn it into a corroborated, explainable, source-traceable picture of a case — from ingestion through entity resolution, relationship graphing, analytics, spatial/temporal corroboration, a grounded investigation copilot, and a final dossier/report. The objective is to prove the workflow and its guarantees (provenance, evidence/inference separation, explainability), not to ship a production investigative tool.
 
 ## 2. Problem Statement
 
-Real investigations accumulate evidence from many heterogeneous sources — FIRs, call detail records (CDRs), bank/financial records, witness statements, and more — faster than an investigator can manually cross-reference. Key facts (a shared phone, an alias, a co-location, a money trail) are often buried across dozens of documents and thousands of records, sometimes assembled through synonyms, ambiguous identities, indirect relationships, and misleading noise. NetIntel AI demonstrates a system that ingests such evidence, extracts and resolves entities, synthesizes them into a relationship graph, applies analytics to surface signals a human might miss, corroborates or contradicts claims using spatial/temporal evidence, and lets an investigator ask grounded questions and receive answers that are traceable back to source evidence — while keeping every AI-derived conclusion clearly distinguished from verified fact.
+Real investigations accumulate evidence from many heterogeneous sources — FIRs, call detail records (CDRs), bank/financial records, witness statements, and more — faster than an investigator can manually cross-reference. Key facts (a shared phone, an alias, a co-location, a money trail) are often buried across dozens of documents and thousands of records, sometimes assembled through synonyms, ambiguous identities, indirect relationships, and misleading noise. CIPHER demonstrates a system that ingests such evidence, extracts and resolves entities, synthesizes them into a relationship graph, applies analytics to surface signals a human might miss, corroborates or contradicts claims using spatial/temporal evidence, and lets an investigator ask grounded questions and receive answers that are traceable back to source evidence — while keeping every AI-derived conclusion clearly distinguished from verified fact.
 
 ## 3. Target User
 

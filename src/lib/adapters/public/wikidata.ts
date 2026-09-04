@@ -195,7 +195,7 @@ export async function collectWikidata(
         headers: {
           Accept: "application/sparql-results+json",
           // Wikimedia's User-Agent policy requires identification and contact.
-          "User-Agent": "NetIntelAI-research/0.1 (+https://github.com/devv0311/netintel-ai)",
+          "User-Agent": "CIPHER-research/0.1 (+https://github.com/devv0311/netintel-ai)",
           "Accept-Encoding": "gzip,deflate",
         },
       });

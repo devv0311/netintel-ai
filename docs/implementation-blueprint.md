@@ -1,4 +1,4 @@
-# NetIntel AI — Implementation Blueprint
+# CIPHER — Implementation Blueprint
 
 **Status**: Planning artifact. This is the authoritative execution plan future implementation agents must follow. It is **technology-stack agnostic** — it does not select a frontend, backend, database, LLM provider, orchestration framework, or any other technology. Those decisions are delegated to a dedicated stack-selection task (Milestone M1) executed by separate specialized agents, outside the scope of this document.
 

@@ -11,7 +11,7 @@ decision taken.
 
 ## 1. Why this experiment exists
 
-Every cross-source join NetIntel has ever made on real data was made on a shared
+Every cross-source join CIPHER has ever made on real data was made on a shared
 LEI. Across P6.6, P6.9 and P6.14, Tier B - exact name match - fired **zero**
 times. The four name-variation hypotheses (legal suffix, transliteration,
 abbreviation, name order) were never refuted; they were never **reached**,
@@ -380,7 +380,7 @@ individual failure.
 
 **Corpus isolation.** This corpus has its own evidence files
 (`evidence/no-identifier/`), its own databases
-(`data/netintel-no-identifier-*.db`), its own reports directory and its own
+(`data/cipher-no-identifier-*.db`), its own reports directory and its own
 ground truth. It is never mixed with Operation DarkNet Delhi, with the GLEIF-only
 pilot, or with the GLEIF x Wikidata identifier evaluation. Those were re-run
 unchanged after this work: DarkNet Delhi all 21 metrics identical (61 entities,

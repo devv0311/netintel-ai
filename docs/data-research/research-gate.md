@@ -1,4 +1,4 @@
-# NetIntel AI — Research Gate (Phase 1E)
+# CIPHER — Research Gate (Phase 1E)
 
 **Date:** 2026-09-03
 **Prepared by:** Phase 1 research session
@@ -18,7 +18,7 @@ Source research, licensing assessment and tooling audit are complete for 19 sour
 components of Phase 1 could not be completed:
 
 1. **Project inspection was not possible.** The session that produced this had no access to the
-   NetIntel AI repository, the blueprint prerequisites file, existing schemas, collectors, the
+   CIPHER repository, the blueprint prerequisites file, existing schemas, collectors, the
    synthetic-data generator, or the model training code. Section 0 and Section 3 of the brief
    were therefore not executed, and **no assessment of the existing project state exists**.
 2. **Phase 7 (model-training compatibility) cannot begin.** Whether a source is "directly
@@ -58,7 +58,7 @@ should not be mistaken for a compatibility assessment.
 
 | ID | Source | Question that must be answered | Who answers |
 |---|---|---|---|
-| SRC-012 | OpenSanctions DATA | Is NetIntel AI ever commercial or third-party licensed? CC BY-NC 4.0 forbids commercial use; paid licenses exist for that case. | Project owner |
+| SRC-012 | OpenSanctions DATA | Is CIPHER ever commercial or third-party licensed? CC BY-NC 4.0 forbids commercial use; paid licenses exist for that case. | Project owner |
 | SRC-010 | MAVEN-ERE | GPL-3.0 on a dataset. Does training create obligations on model weights? | Written clarification from THU-KEG, or eval-only |
 | SRC-009 | KILT | Eight constituent datasets, ≥4 license regimes under one MIT badge | Per-dataset clearance |
 | SRC-013 | Open Contracting | License varies per publisher; not clearable as one row | Split per publisher |
@@ -84,7 +84,7 @@ should not be mistaken for a compatibility assessment.
 
 ## Outstanding legal questions
 
-1. **Commercial posture of NetIntel AI.** Single most consequential open question. Decides
+1. **Commercial posture of CIPHER.** Single most consequential open question. Decides
    OpenSanctions (the highest-task-fit entity dataset available) and shapes the MAVEN-ERE
    assessment.
 2. **GPL-3.0 applied to a training dataset** (MAVEN-ERE) — unsettled generally, must not be

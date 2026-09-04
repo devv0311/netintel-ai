@@ -112,7 +112,7 @@ function fixtureRecord(opts: {
 // ---------------------------------------------------------------------------
 
 describe("entity resolution — valid corpus", () => {
-  const DB = "./data/netintel-resolve-A.db";
+  const DB = "./data/cipher-resolve-A.db";
   let mod: ResolutionModule;
   let first: Awaited<ReturnType<ResolutionModule["runResolution"]>>;
 
@@ -303,7 +303,7 @@ describe("entity resolution — valid corpus", () => {
 // ---------------------------------------------------------------------------
 
 describe("entity resolution — partial retry", () => {
-  const DB = "./data/netintel-resolve-B.db";
+  const DB = "./data/cipher-resolve-B.db";
   let mod: ResolutionModule;
 
   beforeAll(async () => {
@@ -347,7 +347,7 @@ describe("entity resolution — partial retry", () => {
 // ---------------------------------------------------------------------------
 
 describe("entity resolution — structured errors", () => {
-  const DB = "./data/netintel-resolve-C.db";
+  const DB = "./data/cipher-resolve-C.db";
   let mod: ResolutionModule;
 
   beforeAll(async () => {
@@ -480,7 +480,7 @@ describe("entity resolution — structured errors", () => {
 // ---------------------------------------------------------------------------
 
 describe("entity resolution — non-inference safeguards", () => {
-  const DB = "./data/netintel-resolve-D.db";
+  const DB = "./data/cipher-resolve-D.db";
   let mod: ResolutionModule;
   let entities: Entity[];
   let decisions: ResolutionDecision[];

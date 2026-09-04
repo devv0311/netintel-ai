@@ -20,6 +20,6 @@ import path from "node:path";
 const dir = path.join(process.cwd(), "data");
 fs.mkdirSync(dir, { recursive: true });
 
-for (const name of ["netintel-e2e.db", "netintel-e2e.db-wal", "netintel-e2e.db-shm"]) {
+for (const name of ["cipher-e2e.db", "cipher-e2e.db-wal", "cipher-e2e.db-shm"]) {
   fs.rmSync(path.join(dir, name), { force: true });
 }

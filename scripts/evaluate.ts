@@ -25,7 +25,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const DB_PATH = process.env.EVAL_DATABASE_URL ?? "./data/netintel-eval.db";
+const DB_PATH = process.env.EVAL_DATABASE_URL ?? "./data/cipher-eval.db";
 const OUT_DIR = path.join(ROOT, "reports", "evaluation");
 
 process.env.DATABASE_URL = DB_PATH;

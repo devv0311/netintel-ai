@@ -300,7 +300,7 @@ with a corpus that contains it.
 
 1. **Tier B still needs an anchor.** The FULL regime is 0/75 and normalisation
    cannot help it. Clustering identifier-less mentions with each other is a new
-   tier with a new risk profile. Build it, or accept that NetIntel resolves
+   tier with a new risk profile. Build it, or accept that CIPHER resolves
    nothing in a corpus where no record carries an identifier?
 2. **Devanagari.** 51 pairs, 100% failure, and no deterministic rule reaches
    them. The honest options are a transliteration table (ISO 15919 / ITRANS -

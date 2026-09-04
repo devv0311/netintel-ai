@@ -16,7 +16,7 @@ import {
 
 import { prepareFreshDb, releaseAndRemoveDb } from "./helpers/db";
 
-const TEST_DB_PATH = "./data/netintel-fixtures-test.db";
+const TEST_DB_PATH = "./data/cipher-fixtures-test.db";
 
 describe("synthetic fixture loader", () => {
   it("loads and validates the foundation-smoke fixture deterministically", () => {

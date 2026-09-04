@@ -42,7 +42,7 @@ npm run dev            # http://localhost:3000
    ingestion** — it reports *"already ingested — no records were
    changed"*.
 
-The local SQLite file lives at `DATABASE_URL` (default `./data/netintel.db`),
+The local SQLite file lives at `DATABASE_URL` (default `./data/cipher.db`),
 created and migrated automatically on first ingestion.
 
 ---

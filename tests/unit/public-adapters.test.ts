@@ -221,7 +221,7 @@ describe("GLEIF Level 2 relationships", () => {
       },
     )!;
     // Both ends stay PUBLISHER ids. A relation is a statement about two
-    // registry records, never a NetIntel entity id and never a merge.
+    // registry records, never a CIPHER entity id and never a merge.
     expect(record.relations).toEqual([
       { predicate: "is_ultimately_consolidated_by", targetRegistryRecordId: "R0MUWSFPU8MPRO8K5P83" },
     ]);

@@ -133,7 +133,7 @@ describe("public_record — extraction", () => {
     expect(identifier?.data.observedValue).toBe("LEI:EXAMPLE0000000000TEST");
   });
 
-  it("records the publisher's own id for a relation's other end, never a NetIntel id", () => {
+  it("records the publisher's own id for a relation's other end, never a CIPHER id", () => {
     const relation = byType("relationship_mention").find((c) => c.data.relationshipType === "parent_of");
     expect(relation?.data.observedValue).toBe("EXAMPLE0000000000SUB1");
   });

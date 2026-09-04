@@ -31,7 +31,7 @@ test("application shell renders with header, safety indicator and disabled futur
 
   await page.goto("/");
 
-  await expect(page.getByText("NetIntel AI")).toBeVisible();
+  await expect(page.getByText("CIPHER")).toBeVisible();
   await expect(page.getByText("Investigation Workspace")).toBeVisible();
   await expect(
     page.getByText("Synthetic data only — not a real investigation"),

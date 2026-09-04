@@ -92,7 +92,7 @@ function isUserSafeMessage(message: string): boolean {
 // ---------------------------------------------------------------------------
 
 describe("evidence ingestion — valid corpus", () => {
-  const DB = "./data/netintel-ingest-A.db";
+  const DB = "./data/cipher-ingest-A.db";
   let mod: IngestionModule;
   let first: Awaited<ReturnType<IngestionModule["runIngestion"]>>;
 
@@ -225,7 +225,7 @@ describe("evidence ingestion — valid corpus", () => {
 // ---------------------------------------------------------------------------
 
 describe("evidence ingestion — structured errors", () => {
-  const DB = "./data/netintel-ingest-B.db";
+  const DB = "./data/cipher-ingest-B.db";
   let mod: IngestionModule;
 
   beforeAll(async () => {
@@ -348,7 +348,7 @@ describe("evidence ingestion — structured errors", () => {
 // ---------------------------------------------------------------------------
 
 describe("evidence ingestion — persistence errors are structured and safe", () => {
-  const DB = "./data/netintel-ingest-C.db";
+  const DB = "./data/cipher-ingest-C.db";
   let mod: IngestionModule;
 
   beforeAll(async () => {

@@ -184,10 +184,10 @@ Three corpora, three databases, three report directories, never mixed:
 
 | Class | Corpus | Database | Report |
 |---|---|---|---|
-| Real cross-source | `evidence/public-pilot/gleif-wikidata-cross.*` | `netintel-cross-source.db` | `reports/cross-source/` |
-| Real GLEIF-only | `evidence/public-pilot/gleif-in-pilot.*` | `netintel-real-pilot.db` | `reports/real-pilot/` |
-| Synthetic morphology | `evidence/public-pilot/name-morphology.*` | `netintel-generalisation.db` | `reports/generalisation/` |
-| Synthetic DarkNet Delhi | `evidence/synthetic/…` | `netintel-eval.db` | `reports/evaluation/` |
+| Real cross-source | `evidence/public-pilot/gleif-wikidata-cross.*` | `cipher-cross-source.db` | `reports/cross-source/` |
+| Real GLEIF-only | `evidence/public-pilot/gleif-in-pilot.*` | `cipher-real-pilot.db` | `reports/real-pilot/` |
+| Synthetic morphology | `evidence/public-pilot/name-morphology.*` | `cipher-generalisation.db` | `reports/generalisation/` |
+| Synthetic DarkNet Delhi | `evidence/synthetic/…` | `cipher-eval.db` | `reports/evaluation/` |
 
 DarkNet Delhi re-measured after every change in this session: **all 21 metrics
 identical.**

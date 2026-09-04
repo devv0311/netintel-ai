@@ -5,7 +5,7 @@
   "resolverPolicy": "UNMODIFIED - src/lib/resolution is byte-identical to P6.18",
   "corpus": "evidence/expanded/expanded-anchored.corpus.json",
   "groundTruth": "evidence/expanded/expanded.ground-truth.json",
-  "database": "./data/netintel-expanded.db",
+  "database": "./data/cipher-expanded.db",
   "ranAt": "2026-09-04T03:21:06.434Z",
   "isolation": "own corpus, own ground truth, own database; never mixed with DarkNet Delhi, synthetic fixtures, or the P6.16 no-identifier corpus",
   "leakCheck": {

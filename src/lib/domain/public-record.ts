@@ -44,7 +44,7 @@ export const PublicRecordIdentifierSchema = z.object({
 export const PublicRecordRelationSchema = z.object({
   /** The publisher's own predicate, normalised by the adapter, e.g. "parent_of". */
   predicate: z.string().min(1),
-  /** The publisher's id for the other end — never a NetIntel entity id. */
+  /** The publisher's id for the other end — never a CIPHER entity id. */
   targetRegistryRecordId: z.string().min(1),
 });
 

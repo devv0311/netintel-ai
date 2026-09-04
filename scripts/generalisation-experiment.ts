@@ -3,7 +3,7 @@
  *
  *   node --import ./scripts/eval-resolve.mjs scripts/generalisation-experiment.ts [--corpus PATH]
  *
- * Question: can the CURRENT NetIntel resolver ingest and reason over
+ * Question: can the CURRENT CIPHER resolver ingest and reason over
  * public-register entities whose name strings it did not generate?
  *
  * The resolver is NOT modified for this run and must not be. If it were
@@ -18,7 +18,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const DB_PATH = "./data/netintel-generalisation.db";
+const DB_PATH = "./data/cipher-generalisation.db";
 process.env.DATABASE_URL = DB_PATH;
 
 function arg(name: string): string | undefined {

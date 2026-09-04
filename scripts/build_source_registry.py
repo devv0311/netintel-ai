@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build the NetIntel AI source registry.
+Build the CIPHER source registry.
 
 Single source of truth for Phase 1 source assessment. Emits:
   docs/data-research/source-registry.csv       (full 44-column registry)
@@ -13,7 +13,7 @@ Anything unverified is marked MANUAL_REVIEW, never APPROVED.
 import csv
 import os
 
-# Task-fit scoring, 0-3, against NetIntel AI's actual ML tasks:
+# Task-fit scoring, 0-3, against CIPHER's actual ML tasks:
 #   er  = entity resolution            ner = entity extraction
 #   re  = relationship extraction      ee  = event extraction
 #   tmp = temporal reasoning           geo = spatial reasoning
@@ -132,7 +132,7 @@ add(
     task_con=1, task_gra=2, task_rpt=2,
     tier="A", status="APPROVED_WITH_RESTRICTIONS",
     manual_review_required="YES",
-    notes="Closest public analogue to NetIntel's own relationship-extraction task, and it comes with evidence spans, which is what a provenance-first system needs. MANUAL_REVIEW on one point: the repo is MIT but the source text is Wikipedia, so redistribution of the text may carry CC BY-SA obligations the MIT file does not mention. Prefer Re-DocRED (revised, fewer false negatives) for evaluation.",
+    notes="Closest public analogue to CIPHER's own relationship-extraction task, and it comes with evidence spans, which is what a provenance-first system needs. MANUAL_REVIEW on one point: the repo is MIT but the source text is Wikipedia, so redistribution of the text may carry CC BY-SA obligations the MIT file does not mention. Prefer Re-DocRED (revised, fewer false negatives) for evaluation.",
 )
 
 add(
@@ -158,7 +158,7 @@ add(
     task_con=3, task_gra=0, task_rpt=3,
     tier="A", status="APPROVED_WITH_RESTRICTIONS",
     manual_review_required="YES",
-    notes="The REFUTES class is real contradiction supervision, and the evidence tuples are exactly the (document, sentence) provenance shape NetIntel already uses. RESTRICTION: CC BY-SA 3.0 is copyleft. Any derived dataset you publish inherits ShareAlike. Keep FEVER-derived records in a separately licensed partition so the obligation cannot leak into the rest of the corpus.",
+    notes="The REFUTES class is real contradiction supervision, and the evidence tuples are exactly the (document, sentence) provenance shape CIPHER already uses. RESTRICTION: CC BY-SA 3.0 is copyleft. Any derived dataset you publish inherits ShareAlike. Keep FEVER-derived records in a separately licensed partition so the obligation cannot leak into the rest of the corpus.",
 )
 
 add(
@@ -297,7 +297,7 @@ add(
     task_er=1, task_ner=2, task_re=2, task_ee=0, task_tmp=0, task_geo=0,
     task_con=2, task_gra=0, task_rpt=3,
     tier="B", status="MANUAL_REVIEW", manual_review_required="YES",
-    notes="The MIT badge covers the KILT tooling, NOT the eight datasets it aggregates. Adopting KILT wholesale would silently import at least four different license regimes. Recommended use: copy the provenance SCHEMA (page + paragraph + char offsets + alignment score) into NetIntel's evidence model, and take individual constituent datasets only after each is separately cleared.",
+    notes="The MIT badge covers the KILT tooling, NOT the eight datasets it aggregates. Adopting KILT wholesale would silently import at least four different license regimes. Recommended use: copy the provenance SCHEMA (page + paragraph + char offsets + alignment score) into CIPHER's evidence model, and take individual constituent datasets only after each is separately cleared.",
 )
 
 add(
@@ -379,7 +379,7 @@ add(
     task_er=3, task_ner=2, task_re=3, task_ee=2, task_tmp=2, task_geo=2,
     task_con=2, task_gra=3, task_rpt=1,
     tier="C", status="MANUAL_REVIEW", manual_review_required="YES",
-    notes="The exact code-vs-data split the brief warned about, confirmed: the repository README states 'The code within this repository is licensed under the MIT License. For content and data, we adhere to CC 4.0 Attribution-NonCommercial.' NonCommercial is not a formality. If NetIntel AI is ever licensed to an agency, sold, or commercialised in any form, training on this data is a breach and paid Screening/OEM licenses exist precisely for that case. RECOMMENDATION: adopt the FtM schema and the OpenSanctions CODE (MIT) and do not ingest the DATA until the commercial posture of the project is decided in writing.",
+    notes="The exact code-vs-data split the brief warned about, confirmed: the repository README states 'The code within this repository is licensed under the MIT License. For content and data, we adhere to CC 4.0 Attribution-NonCommercial.' NonCommercial is not a formality. If CIPHER is ever licensed to an agency, sold, or commercialised in any form, training on this data is a breach and paid Screening/OEM licenses exist precisely for that case. RECOMMENDATION: adopt the FtM schema and the OpenSanctions CODE (MIT) and do not ingest the DATA until the commercial posture of the project is decided in writing.",
 )
 
 add(
@@ -488,7 +488,7 @@ add(
     task_er=0, task_ner=0, task_re=0, task_ee=1, task_tmp=1, task_geo=1,
     task_con=0, task_gra=0, task_rpt=0,
     tier="D", status="REJECTED",
-    notes="Two independent disqualifiers. (1) Shape: de-identification is the whole point of NIBRS, so there are no names, no relationships and no narrative text - precisely the fields NetIntel's models consume. (2) Domain: US-only offense taxonomies and jurisdictions, which would inject distribution shift into an India-facing system for no compensating gain. Task total 3/27.",
+    notes="Two independent disqualifiers. (1) Shape: de-identification is the whole point of NIBRS, so there are no names, no relationships and no narrative text - precisely the fields CIPHER's models consume. (2) Domain: US-only offense taxonomies and jurisdictions, which would inject distribution shift into an India-facing system for no compensating gain. Task total 3/27.",
 )
 
 add(
@@ -540,7 +540,7 @@ add(
 
 add(
     source_id="SRC-019", source_name="Operation DarkNet Delhi (synthetic)",
-    publisher="NetIntel AI (internal)", source_type="synthetic ground truth",
+    publisher="CIPHER (internal)", source_type="synthetic ground truth",
     official_url="", dataset_url="internal", api_url="",
     description="Deterministic synthetic investigative case with known entities, relationships, timeline, contradictions and expected Copilot answers.",
     data_type="synthetic entities, relationships, events, documents, gold answers",

@@ -4,11 +4,11 @@
  * Inspector and persistent focused entity.
  *
  *   # against an already-running dev server on :3000 with the full
- *   # Operation DarkNet Delhi pipeline in ./data/netintel-e2e.db
+ *   # Operation DarkNet Delhi pipeline in ./data/cipher-e2e.db
  *   node docs/progress/evidence/P5.10.3/capture.mjs
  *
  *   # or start one first:
- *   DATABASE_URL=./data/netintel-e2e.db npx next dev -p 3000
+ *   DATABASE_URL=./data/cipher-e2e.db npx next dev -p 3000
  *
  * Nothing here mocks the app: every screenshot is the real Graph /
  * Analytics / Corroboration screen with the shared Inspector, driven the
@@ -31,7 +31,7 @@ const shot = (name) => path.join(HERE, `P5.10.3_${name}_${DATE}.png`);
 async function main() {
   const probe = await fetch(BASE).catch(() => null);
   if (!probe || !probe.ok) {
-    throw new Error(`no dev server at ${BASE} — start one with DATABASE_URL=./data/netintel-e2e.db npx next dev -p 3000`);
+    throw new Error(`no dev server at ${BASE} — start one with DATABASE_URL=./data/cipher-e2e.db npx next dev -p 3000`);
   }
   rmSync(VIDEO_DIR, { recursive: true, force: true });
 

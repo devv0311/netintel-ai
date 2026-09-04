@@ -1,4 +1,4 @@
-# NetIntel AI — Real-World Data Source Registry
+# CIPHER — Real-World Data Source Registry
 
 **Phase:** 1 (research only)
 **Date:** 2026-09-03
@@ -10,7 +10,7 @@
 
 ## 0. Scope note and a caveat about this document
 
-This registry was produced **without access to the existing NetIntel AI repository**. The
+This registry was produced **without access to the existing CIPHER repository**. The
 blueprint prerequisites file, existing schemas, collectors, synthetic-data generator and model
 training code were not readable from the session that produced it. Consequences:
 
@@ -28,7 +28,7 @@ publisher URL during research. Where verification was not possible, the row is m
 
 ## 1. What this registry optimises for
 
-Sources are scored against the nine ML tasks NetIntel AI actually performs, not against how
+Sources are scored against the nine ML tasks CIPHER actually performs, not against how
 investigative they sound:
 
 | Code | Task |
@@ -174,7 +174,7 @@ The brief flagged this and was right. Verified from the repository README:
 > "The code within this repository is licensed under the MIT License. For content and data, we
 > adhere to CC 4.0 Attribution-NonCommercial."
 
-The **NonCommercial** term is not a formality. If NetIntel AI is ever licensed to an agency,
+The **NonCommercial** term is not a formality. If CIPHER is ever licensed to an agency,
 sold, bundled, or commercialised in any form, training on OpenSanctions data breaches it —
 which is exactly why OpenSanctions sells separate Screening and Reseller/OEM licenses.
 
@@ -299,7 +299,7 @@ These are derived from the rows above and are non-optional:
 
 Carried forward to [`research-gate.md`](./research-gate.md):
 
-1. Is NetIntel AI ever going to be commercial or licensed to a third party? This single answer
+1. Is CIPHER ever going to be commercial or licensed to a third party? This single answer
    decides OpenSanctions (SRC-012) and influences MAVEN-ERE (SRC-010).
 2. Does SICSR hold an LDC membership? Decides TACRED / ACE 2005 / OntoNotes / TimeBank.
 3. Who signs off the court-judgment privacy policy (§5.1)?

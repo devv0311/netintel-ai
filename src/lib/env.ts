@@ -13,7 +13,7 @@ const envSchema = z.object({
   APP_ENV: z
     .enum(["development", "demo", "production"])
     .default("development"),
-  DATABASE_URL: z.string().default("./data/netintel.db"),
+  DATABASE_URL: z.string().default("./data/cipher.db"),
   AI_PROVIDER_API_KEY: z.string().optional(),
   LOG_LEVEL: z
     .enum(["debug", "info", "warn", "error"])

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory tracks the implementation progress of NetIntel AI: feature-by-feature status, ownership, associated commits, visual proof, tests, and demo readiness. It is the operational record of what has actually been built, as distinct from what is planned (see `docs/architecture/`, `docs/contracts/`, etc.).
+This directory tracks the implementation progress of CIPHER: feature-by-feature status, ownership, associated commits, visual proof, tests, and demo readiness. It is the operational record of what has actually been built, as distinct from what is planned (see `docs/architecture/`, `docs/contracts/`, etc.).
 
 ## What Will Eventually Live Here
 

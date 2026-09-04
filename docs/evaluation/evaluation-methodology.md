@@ -139,7 +139,7 @@ and visible rather than forgotten.
 ## 6. Running it
 
 ```bash
-npm run evaluate          # runs the pipeline into ./data/netintel-eval.db, then scores it
+npm run evaluate          # runs the pipeline into ./data/cipher-eval.db, then scores it
 npx vitest run tests/unit/evaluation.test.ts
 ```
 

@@ -415,7 +415,7 @@ describe("verify.assertProvenance — endpoint & classification invariants", () 
 });
 
 describe("idempotentPersistAnalytics — partial retry", () => {
-  const TEST_DB_PATH = "./data/netintel-analytics-persist-test.db";
+  const TEST_DB_PATH = "./data/cipher-analytics-persist-test.db";
 
   beforeAll(async () => {
     await prepareFreshDb(TEST_DB_PATH);
@@ -550,7 +550,7 @@ async function freshAnalytics(dbPath: string): Promise<AnalyticsModule> {
 }
 
 describe("topology analytics — full Operation DarkNet Delhi corpus", () => {
-  const DB = "./data/netintel-analytics-full.db";
+  const DB = "./data/cipher-analytics-full.db";
   let mod: AnalyticsModule;
   let result: Awaited<ReturnType<AnalyticsModule["runAnalyticsSynthesis"]>>;
 
@@ -820,7 +820,7 @@ describe("topology analytics — full Operation DarkNet Delhi corpus", () => {
 });
 
 describe("empty and edge-case graphs (full pipeline)", () => {
-  const DB = "./data/netintel-analytics-empty.db";
+  const DB = "./data/cipher-analytics-empty.db";
 
   afterAll(async () => {
     await releaseAndRemoveDb(DB);

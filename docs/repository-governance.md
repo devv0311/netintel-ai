@@ -1,10 +1,16 @@
 # Repository Governance
 
-This document records the operational governance of the NetIntel AI repository: where the canonical source lives, how the default branch is protected, and the Git synchronization protocol every contributor (human or AI) must follow. It is technology-neutral — it governs the repository, not the eventual application stack.
+This document records the operational governance of the CIPHER repository: where the canonical source lives, how the default branch is protected, and the Git synchronization protocol every contributor (human or AI) must follow. It is technology-neutral — it governs the repository, not the eventual application stack.
 
 ## Canonical Repository
 
 - **Repository**: `devv0311/netintel-ai` on GitHub
+- **Product name**: the product was renamed from *NetIntel AI* to **CIPHER** at P6.21.
+  The GitHub repository slug is deliberately NOT renamed: it is the published
+  identity of every commit already pushed, it is the contact URL in the GLEIF and
+  Wikidata crawler `User-Agent` (a URL that must resolve), and renaming it would
+  break every existing clone and every link in the phase record. Repository
+  identity and product name are separate things and are allowed to differ.
 - **Visibility**: Public
 - **GitHub is the single source of truth** for project progress. No implementation is considered complete until it exists on the remote.
 

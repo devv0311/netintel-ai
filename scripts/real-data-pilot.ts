@@ -26,7 +26,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const DB_PATH = "./data/netintel-real-pilot.db";
+const DB_PATH = "./data/cipher-real-pilot.db";
 process.env.DATABASE_URL = DB_PATH;
 
 function arg(name: string): string | undefined {

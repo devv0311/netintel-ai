@@ -440,7 +440,7 @@ function extractCrimeEvent(content: Content): RawFact[] {
  * publisher stated. No name is normalised beyond what the publisher
  * wrote, no identifier is inferred, and no cross-record link is made:
  * `relations[]` records the publisher's own id for the other end, never
- * a NetIntel entity id. Deciding whether two records denote the same
+ * a CIPHER entity id. Deciding whether two records denote the same
  * subject is entity resolution's job, and leaving that decision entirely
  * to the existing resolver is the whole point of the public-data pilot.
  */

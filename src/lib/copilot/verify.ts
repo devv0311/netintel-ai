@@ -155,7 +155,7 @@ const ALLOWED_VOCABULARY = [
   "ai inference",
   "investigative lead",
   "investigation copilot",
-  "netintel ai",
+  "cipher",
   "graph synthesis",
   "entity resolution",
   "topology analytics",

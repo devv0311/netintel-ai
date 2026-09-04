@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory will hold the system architecture documentation for NetIntel AI once the application technology stack has been selected: component diagrams, data flow, service boundaries, and design rationale.
+This directory will hold the system architecture documentation for CIPHER once the application technology stack has been selected: component diagrams, data flow, service boundaries, and design rationale.
 
 ## What Will Eventually Live Here
 

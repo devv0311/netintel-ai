@@ -10,7 +10,7 @@ Evidence for ledger row **P5.10.4** (M10 / Workstream I), per
 | **Associated Git commit** | `feat(P5.10.4): redesign investigation graph surface` — the commit this evidence was captured against. |
 | **Capture date** | 2026-09-03 |
 | **Captured by** | [`capture.mjs`](capture.mjs), run as `node docs/progress/evidence/P5.10.4/capture.mjs` — it drives the real Graph screen the same way `tests/e2e/investigation-synthesis.spec.ts` does (the deterministic node picker, never a raw canvas-coordinate click). |
-| **Application state** | The real app (`next dev`) against `./data/netintel-e2e.db`, full Operation DarkNet Delhi pipeline advanced through graph synthesis (68 nodes / 196 edges). No mocking, no fixtures, no stubbed network. |
+| **Application state** | The real app (`next dev`) against `./data/cipher-e2e.db`, full Operation DarkNet Delhi pipeline advanced through graph synthesis (68 nodes / 196 edges). No mocking, no fixtures, no stubbed network. |
 | **Theme** | The committed dark operational theme (`colorScheme: "dark"`, 1440×900). |
 | **AI provider key** | Not configured. |
 

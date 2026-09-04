@@ -44,7 +44,7 @@ async function main(): Promise<void> {
   const BASE = "evidence/expanded";
   const corpusPath = `${BASE}/expanded-anchored.corpus.json`;
   const truthPath = `${BASE}/expanded.ground-truth.json`;
-  const DB_PATH = arg("db") ?? "./data/netintel-expanded.db";
+  const DB_PATH = arg("db") ?? "./data/cipher-expanded.db";
   process.env.DATABASE_URL = DB_PATH;
   for (const s of ["", "-wal", "-shm"]) fs.rmSync(path.resolve(ROOT, DB_PATH + s), { force: true });
   fs.mkdirSync(path.dirname(path.resolve(ROOT, DB_PATH)), { recursive: true });

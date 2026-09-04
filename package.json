@@ -1,9 +1,9 @@
 {
-  "name": "netintel-ai",
+  "name": "cipher",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "NetIntel AI — synthetic-data investigative intelligence platform (application foundation)",
+  "description": "CIPHER — synthetic-data investigative intelligence platform (application foundation)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

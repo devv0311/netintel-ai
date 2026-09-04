@@ -466,7 +466,7 @@ describe("verify.assertProvenance — endpoint & classification invariants", () 
 });
 
 describe("idempotentPersistGraph — partial retry", () => {
-  const TEST_DB_PATH = "./data/netintel-graph-persist-test.db";
+  const TEST_DB_PATH = "./data/cipher-graph-persist-test.db";
 
   beforeAll(async () => {
     await prepareFreshDb(TEST_DB_PATH);
@@ -640,7 +640,7 @@ async function freshGraph(dbPath: string): Promise<GraphModule> {
 }
 
 describe("graph synthesis — full Operation DarkNet Delhi corpus", () => {
-  const DB = "./data/netintel-graph-full.db";
+  const DB = "./data/cipher-graph-full.db";
   let mod: GraphModule;
   let result: Awaited<ReturnType<GraphModule["runGraphSynthesis"]>>;
 

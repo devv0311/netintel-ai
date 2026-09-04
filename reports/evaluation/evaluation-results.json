@@ -6,7 +6,7 @@
     "corpusName": "operation-darknet-delhi",
     "corpusVersion": "1.0.0",
     "corpusSeed": 20260901,
-    "databasePath": "./data/netintel-eval.db",
+    "databasePath": "./data/cipher-eval.db",
     "gitCommit": null,
     "nodeVersion": "v22.23.2",
     "pipelineStages": [

@@ -178,6 +178,13 @@ function main(): void {
   // control set is the same on every run and on every machine. Pairs are
   // drawn from the SAME asked-for LEI population as the negatives, so a
   // difference in edge rate is a property of the pairs, not the sample.
+  //
+  // The seed literal below deliberately keeps its pre-rename spelling. It is
+  // not a name: it is the input to the hash that fixes WHICH 500 pairs the
+  // control set contains. Renaming it to "cipher-" would draw a different
+  // sample and silently change P6.20's published 0/500 control result, which
+  // could then no longer be reproduced from the record. It is a measurement
+  // constant, and it stays frozen at the value the published run used.
   const asked = [...askedFor].sort();
   const rand = (i: number) => {
     const h = crypto.createHash("sha256").update(`netintel-p6.20-control-${i}`).digest();

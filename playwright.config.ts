@@ -27,7 +27,7 @@ export default defineConfig({
     reuseExistingServer: false,
     timeout: 120_000,
     env: {
-      DATABASE_URL: "./data/netintel-e2e.db",
+      DATABASE_URL: "./data/cipher-e2e.db",
     },
   },
 });

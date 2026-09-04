@@ -110,7 +110,7 @@ async function main() {
 
   const dev = spawn("npx", ["next", "dev", "-p", String(PORT)], {
     cwd: ROOT,
-    env: { ...process.env, DATABASE_URL: "./data/netintel-e2e.db", NODE_ENV: "development" },
+    env: { ...process.env, DATABASE_URL: "./data/cipher-e2e.db", NODE_ENV: "development" },
     stdio: "ignore",
   });
 
@@ -128,7 +128,7 @@ async function main() {
     const page = await context.newPage();
 
     await page.goto(base, { waitUntil: "networkidle" });
-    await page.getByText("NetIntel AI").first().waitFor();
+    await page.getByText("CIPHER").first().waitFor();
 
     await page.locator("header").screenshot({ path: shot("screenshot-command-bar") });
     const nav = page.locator("nav[aria-label='Investigation navigation']");
