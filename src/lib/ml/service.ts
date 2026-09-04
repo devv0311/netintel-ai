@@ -86,11 +86,18 @@ export interface PairSuggestion {
 const DISCLAIMER =
   "Algorithmic signal, not a finding. This score is a model's estimate from name and jurisdiction evidence only; " +
   "it reads no identifier and it does not merge anything. The deterministic resolver remains authoritative. " +
-  "Known limitation, measured rather than asserted: on the final frozen test this model suggested a merge for " +
-  "16.8% of genuine name collisions between DIFFERENT legal entities, against the resolver's 6.6%, and every one " +
+  "Two limitations, both measured on frozen tests rather than asserted. " +
+  "A HIGH score can be a corporate family, not one entity: on the P6.25 test this model suggested a merge for " +
+  "16.8% of genuine name collisions between DIFFERENT legal entities against the resolver's 6.6%, and every one " +
   "of those errors was a corporate-family pair — a holding company against its operating company, a parent " +
-  "against a named subsidiary. Treat a high score between two similar names in one corporate group as unproven. " +
-  "The relationship policy that would govern such pairs (P6.21.2) is not yet decided.";
+  "against a named subsidiary. A second, independently collected frozen test agreed: 3.49% against the " +
+  "resolver's 1.26%, and again every error was a corporate family. Treat a high score between two similar names " +
+  "in one corporate group as unproven; the relationship policy that would govern such pairs (P6.21.2) is not " +
+  "yet decided. " +
+  "A LOW score across a border is close to no evidence at all: where the two publishers state DIFFERENT " +
+  "countries this model recovers 5.1% of genuine same-entity pairs where the deterministic resolver recovers " +
+  "48.7%. A company incorporated offshore and operating onshore is one company, and this model usually misses " +
+  "it. Do not read a low score between records in different countries as evidence that they differ.";
 
 /**
  * Scores one candidate pair.
