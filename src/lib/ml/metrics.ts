@@ -151,17 +151,48 @@ export function candidateThresholds(pairs: readonly ScoredPair[], limit = 400): 
  * unjoined pair only leaves them where the deterministic resolver
  * already left them.
  */
+/**
+ * A second ceiling, applied to a NAMED SUBSET of the negatives.
+ *
+ * A ceiling on the overall false-merge rate is close to no ceiling at all
+ * on the pairs that matter. In the P6.25 validation partition 25 of 774
+ * negatives are curated hard negatives — genuine name collisions between
+ * distinct legal entities — and the other 749 are pairs no threshold would
+ * ever merge. A model can therefore double its false merges on exactly the
+ * hard cases while its overall rate barely moves, and be selected for it.
+ * That was measured, not feared: adding two features raised held-out recall
+ * by 2.5 points and hard-negative false merges from 9 to 12 while the
+ * overall ceiling stayed satisfied throughout.
+ */
+export interface SubsetCeiling {
+  /** Which negatives this ceiling is measured over. */
+  readonly includes: (pair: ScoredPair) => boolean;
+  readonly maxFalseMergeRate: number;
+  readonly label: string;
+}
+
 export function selectThreshold(
   pairs: readonly ScoredPair[],
   maxFalseMergeRate: number,
+  subsetCeiling?: SubsetCeiling,
 ): ThresholdMetrics {
   const candidates = candidateThresholds(pairs);
+  const subsetNegatives = subsetCeiling
+    ? pairs.filter((pair) => pair.label === 0 && subsetCeiling.includes(pair))
+    : [];
+  const subsetRateAt = (threshold: number): number => {
+    if (subsetNegatives.length === 0) return 0;
+    const merged = subsetNegatives.filter((pair) => pair.score >= threshold).length;
+    return merged / subsetNegatives.length;
+  };
+
   let best: ThresholdMetrics | null = null;
   let bestUnconstrained: ThresholdMetrics | null = null;
   for (const threshold of candidates) {
     const metrics = metricsAt(pairs, threshold);
     if (!bestUnconstrained || metrics.f1 > bestUnconstrained.f1) bestUnconstrained = metrics;
     if (metrics.falseMergeRate > maxFalseMergeRate) continue;
+    if (subsetCeiling && subsetRateAt(threshold) > subsetCeiling.maxFalseMergeRate) continue;
     if (!best || metrics.f1 > best.f1) best = metrics;
   }
   return best ?? (bestUnconstrained as ThresholdMetrics);

@@ -77,6 +77,12 @@ export interface ModelArtifact {
   readonly thresholdPolicy: string;
   readonly trainingHyperparameters: Record<string, number | string>;
   readonly notes: string;
+  /**
+   * sha256 of this artifact with its provenance fields removed — see
+   * `weightsDigest`. Optional so an artifact written before P6.25 still
+   * loads; written by every artifact from P6.25 onward.
+   */
+  readonly weightsDigest?: string;
 }
 
 const sigmoid = (z: number): number => {
@@ -124,12 +130,31 @@ export function logitOf(parameters: ModelParameters, standardised: readonly numb
   return z;
 }
 
+/**
+ * Projects a full computed feature vector onto the subset, and in the
+ * order, that an artifact declares.
+ */
+export function projectOntoArtifact(artifact: ModelArtifact, values: readonly number[]): number[] {
+  return artifact.featureNames.map((name) => {
+    const index = (FEATURE_NAMES as readonly string[]).indexOf(name);
+    return values[index] ?? 0;
+  });
+}
+
+/**
+ * Accepts EITHER a full vector in FEATURE_NAMES order, which is projected
+ * onto the artifact's declared subset, OR a vector already in the
+ * artifact's own order and length. Any other length is a caller error and
+ * throws rather than being padded into a plausible-looking score.
+ */
 export function scoreVector(artifact: ModelArtifact, values: readonly number[]): number {
-  if (values.length !== artifact.featureNames.length) {
+  if (values.length !== FEATURE_NAMES.length && values.length !== artifact.featureNames.length) {
     throw new Error(
-      `feature vector has ${values.length} values but the artifact declares ${artifact.featureNames.length}`,
+      `feature vector has ${values.length} values but the artifact declares ` +
+        `${artifact.featureNames.length} and this build computes ${FEATURE_NAMES.length}`,
     );
   }
+  values = values.length === FEATURE_NAMES.length ? projectOntoArtifact(artifact, values) : [...values];
   const { featureMeans, featureStdDevs } = artifact.parameters;
   return sigmoid(logitOf(artifact.parameters, standardise(values, featureMeans, featureStdDevs)));
 }
@@ -160,8 +185,9 @@ export function scoreWithModel(
 ): ScoredRecordPair {
   assertFeatureContract(artifact);
   const vector = buildFeatures(a, b);
+  const projected = projectOntoArtifact(artifact, vector.values);
   const { featureMeans, featureStdDevs } = artifact.parameters;
-  const standardised = standardise(vector.values, featureMeans, featureStdDevs);
+  const standardised = standardise(projected, featureMeans, featureStdDevs);
   const score = scoreVector(artifact, vector.values);
   // For a linear model the contribution is exact. For an ensemble there
   // is no per-feature term, so the field reports 0 and the ensemble's
@@ -179,29 +205,42 @@ export function scoreWithModel(
     modelVersion: artifact.modelVersion,
     features: artifact.featureNames.map((name, index) => ({
       name,
-      value: vector.values[index] ?? 0,
+      value: projected[index] ?? 0,
       contribution: contributionOf(index),
     })),
   };
 }
 
-/** Refuses an artifact whose feature contract does not match the code that would score with it. */
+/**
+ * Refuses an artifact whose feature contract this build cannot honour.
+ *
+ * The contract is BY NAME, not by position. An artifact declares the
+ * features it was fitted on, in its own order, and scoring projects the
+ * computed vector onto that declaration — so a model fitted on 25
+ * features and one fitted on 24 both keep scoring correctly from the same
+ * build. Requiring positional identity with the full list would mean that
+ * dropping one leaky feature silently invalidated every artifact ever
+ * trained, which is how a project loses the ability to compare a new
+ * model against the one it is replacing.
+ *
+ * What is still refused: an unknown feature name (this build cannot
+ * compute it), a duplicate, and an empty set.
+ */
 export function assertFeatureContract(artifact: ModelArtifact): void {
   if (artifact.format !== MODEL_ARTIFACT_FORMAT) {
     throw new Error(`unknown model artifact format "${artifact.format}"`);
   }
-  if (artifact.featureNames.length !== FEATURE_NAMES.length) {
-    throw new Error(
-      `artifact declares ${artifact.featureNames.length} features; this build computes ${FEATURE_NAMES.length}`,
-    );
+  if (artifact.featureNames.length === 0) {
+    throw new Error("artifact declares no features");
   }
-  artifact.featureNames.forEach((name, index) => {
-    if (name !== FEATURE_NAMES[index]) {
-      throw new Error(
-        `feature ${index} is "${name}" in the artifact and "${FEATURE_NAMES[index]}" in this build`,
-      );
+  if (new Set(artifact.featureNames).size !== artifact.featureNames.length) {
+    throw new Error("artifact declares the same feature more than once");
+  }
+  for (const name of artifact.featureNames) {
+    if (!(FEATURE_NAMES as readonly string[]).includes(name)) {
+      throw new Error(`artifact declares feature "${name}", which this build does not compute`);
     }
-  });
+  }
   const parameters = artifact.parameters;
   const checks: (readonly [string, readonly number[]])[] = [
     ["featureMeans", parameters.featureMeans],
@@ -248,10 +287,59 @@ export function artifactSha256(serialised: string): string {
   return createHash("sha256").update(serialised, "utf8").digest("hex");
 }
 
+/**
+ * Fields that record WHEN and WHERE an artifact was produced rather than
+ * WHAT it computes. They are the artifact's provenance, they belong in it,
+ * and they must not participate in the digest that answers "did this
+ * training run reproduce?".
+ */
+const PROVENANCE_FIELDS = ["createdAt", "gitCommit"] as const;
+
+/**
+ * sha256 over everything in the artifact EXCEPT its provenance fields —
+ * the weights, the tree structure, the standardiser statistics, the
+ * feature names, the seed, the threshold and the hyperparameters.
+ *
+ * `artifactSha256` cannot answer the reproducibility question on its own.
+ * Retraining P6.24 from the committed repository produced weights that
+ * were bit-identical and a file hash that was completely different,
+ * because `createdAt` had moved and `gitCommit` now named the commit that
+ * shipped the previous artifact. Both are correct fields to record and
+ * both make the file hash useless as an equality test.
+ *
+ * So an artifact carries BOTH: `artifactSha256` identifies the exact
+ * bytes on disk, and `weightsDigest` identifies the model those bytes
+ * describe. Two training runs of the same commit on the same dataset must
+ * agree on the second whether or not they agree on the first.
+ */
+export function weightsDigest(artifact: ModelArtifact): string {
+  const withoutProvenance = { ...artifact } as Record<string, unknown>;
+  for (const field of PROVENANCE_FIELDS) delete withoutProvenance[field];
+  // `weightsDigest` itself is never part of its own input.
+  delete withoutProvenance.weightsDigest;
+  return createHash("sha256")
+    .update(JSON.stringify(canonicalise(withoutProvenance)), "utf8")
+    .digest("hex");
+}
+
 /** Parses and validates an artifact document. Throws rather than returning a half-checked model. */
 export function loadArtifact(json: string): ModelArtifact {
   const parsed = JSON.parse(json) as ModelArtifact;
   assertFeatureContract(parsed);
   if (!Number.isFinite(parsed.decisionThreshold)) throw new Error("artifact has no finite decisionThreshold");
+  // An artifact that carries a digest must match it. Since the feature
+  // contract became name-based, `featureNames` and `parameters` have to
+  // agree with each other as a unit — editing the name list alone would
+  // otherwise re-label every weight and score confidently wrong. The
+  // digest covers both, so it catches that and any other tampering.
+  // Artifacts written before P6.25 carry no digest and load unverified.
+  if (parsed.weightsDigest) {
+    const recomputed = weightsDigest(parsed);
+    if (recomputed !== parsed.weightsDigest) {
+      throw new Error(
+        `artifact weightsDigest does not match its contents (declared ${parsed.weightsDigest}, computed ${recomputed})`,
+      );
+    }
+  }
   return parsed;
 }

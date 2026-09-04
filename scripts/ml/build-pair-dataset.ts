@@ -65,6 +65,8 @@ const DATASET_VERSION = arg("dataset-version", "1.0.0");
 
 /** Fixed for reproducibility. Changing it draws a different sample and is a dataset version change. */
 const SEED = arg("seed", "cipher-p6.24-pair-dataset-v1");
+/** Single-partition mode: everything is TEST. For a final frozen test. */
+const ALL_TEST = process.argv.includes("--all-test");
 /** Sampled negatives per positive, per partition. Bounded so the class balance stays declarable. */
 const SAMPLED_NEGATIVES_PER_POSITIVE = 4;
 
@@ -327,6 +329,15 @@ function main(): void {
     else freeComponents.push(component);
   }
   for (const component of reservedComponents) partitionOfComponent.set(component, "test");
+  // ALL_TEST builds a corpus with a single partition: every component goes
+  // to TEST, including the ones that touch no reserved subject. A final
+  // frozen test has nothing to fit on, so carving a train/validation cut
+  // out of it would only leave rows that look available for training — and
+  // it silently discards them, since the evaluator reads TEST alone. On the
+  // P6.25.5 corpus that cost 20 curated hard negatives to no purpose.
+  if (ALL_TEST) {
+    for (const component of freeComponents) partitionOfComponent.set(component, "test");
+  }
   // Deterministic shuffle of the free components, then a 75/25 train/validation cut.
   const shuffled = [...freeComponents];
   for (let i = shuffled.length - 1; i > 0; i -= 1) {
@@ -337,9 +348,11 @@ function main(): void {
     shuffled[j] = a;
   }
   const validationCut = Math.round(shuffled.length * 0.25);
-  shuffled.forEach((component, index) => {
-    partitionOfComponent.set(component, index < validationCut ? "validation" : "train");
-  });
+  if (!ALL_TEST) {
+    shuffled.forEach((component, index) => {
+      partitionOfComponent.set(component, index < validationCut ? "validation" : "train");
+    });
+  }
 
   const partitionOfSubject = new Map<string, Partition>();
   for (const [subject, component] of componentOf) {

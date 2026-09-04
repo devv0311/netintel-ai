@@ -8,7 +8,7 @@
   "priorFrozenTestsHonoured": [
     "evidence/ml/pair-dataset.json"
   ],
-  "ranAt": "2026-09-04T08:15:37.840Z",
+  "ranAt": "2026-09-04T08:32:24.713Z",
   "verdict": "PASS",
   "checks": [
     {
@@ -146,6 +146,13 @@
       "name": "no subject from an earlier frozen test appears in train or validation",
       "passed": true,
       "detail": "1 prior dataset(s) checked; 0 subject(s) escaped a frozen test into train or validation",
+      "evidence": []
+    },
+    {
+      "id": "L12",
+      "name": "no trainable feature value is a perfect one-way indicator with real support",
+      "passed": true,
+      "detail": "every trainable binary feature value with at least 30 TRAIN rows occurs alongside BOTH labels; 1 feature(s) are excluded from training and therefore unlearnable: officialNameBothPresent",
       "evidence": []
     }
   ]

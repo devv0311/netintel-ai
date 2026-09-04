@@ -1,0 +1,1384 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q289704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800MON84ZWWPQCN47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Old Mutual"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q289704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800MON84ZWWPQCN47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Old Mutual"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q289704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800MON84ZWWPQCN47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Old Mutual"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q481472"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SSI7XQH8ESJG95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sappi"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q481472"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SSI7XQH8ESJG95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sappi"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900EF3BA9A5F42A59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AngloGold Ashanti"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglogold Ashanti Australia Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "au/008737424"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900EF3BA9A5F42A59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AngloGold Ashanti"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglogold Ashanti Australia Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "au/008737424"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900EF3BA9A5F42A59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AngloGold Ashanti"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglogold Ashanti Australia Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "au/008737424"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900EF3BA9A5F42A59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AngloGold Ashanti"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ANGLOGOLD ASHANTI LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "au/008737424"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900EF3BA9A5F42A59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AngloGold Ashanti"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ANGLOGOLD ASHANTI LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "au/008737424"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900EF3BA9A5F42A59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AngloGold Ashanti"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ANGLOGOLD ASHANTI LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "au/008737424"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q620432"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RORCZ0E5S5FX81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglo American Platinum"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q620432"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RORCZ0E5S5FX81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglo American Platinum"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q905998"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900F4544561A97588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sasol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q905998"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900F4544561A97588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sasol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q905998"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900F4544561A97588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sasol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q905998"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900F4544561A97588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sasol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1507228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900986D05F0C29811"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harmony Gold"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harmony Gold Mining Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1507228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900986D05F0C29811"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harmony Gold"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harmony Gold Mining Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1507228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900986D05F0C29811"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harmony Gold"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harmony Gold Mining Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1534597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800GQ9JFEFGC12262"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gold Fields"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1534597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003KXIBJQYCBBD72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gold Fields"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1534597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800GQ9JFEFGC12262"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gold Fields"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1534597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003KXIBJQYCBBD72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gold Fields"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1534597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800GQ9JFEFGC12262"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gold Fields"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1534597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003KXIBJQYCBBD72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gold Fields"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1576610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003PEZXUT7MDBU41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Standard Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1576610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003PEZXUT7MDBU41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Standard Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1576610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003PEZXUT7MDBU41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Standard Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1576610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003PEZXUT7MDBU41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Standard Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1671741"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007Z3U5GWDN3MY22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Investec"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/03633621"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1813361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009JD6Q6XHZS5E05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MTN Group"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एमटीएन समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1813361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009JD6Q6XHZS5E05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MTN Group"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एमटीएन समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1813361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009JD6Q6XHZS5E05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MTN Group"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एमटीएन समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1818970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GES0BUVJEDKF90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telkom"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "za/1991-005476-06"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1818970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GES0BUVJEDKF90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telkom"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "za/1991-005476-06"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1856518"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "37890012A8DC24B8D663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodacom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodacom Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1856518"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "37890012A8DC24B8D663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodacom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodacom Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1856518"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "37890012A8DC24B8D663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodacom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodacom Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1857639"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q4O1EYP6NH5150"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shoprite"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "za/1936-007721-06"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1857639"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q4O1EYP6NH5150"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shoprite"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "za/1936-007721-06"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1857639"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q4O1EYP6NH5150"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shoprite"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "za/1936-007721-06"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1916123"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002S5BSBIZTD5I60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mediclinic International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1916123"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002S5BSBIZTD5I60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mediclinic International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2751701"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3789009E42FA3CB31065"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nedbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2751701"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3789009E42FA3CB31065"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nedbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4807838"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400ZYSN1IRD5QWQ94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aspen Pharmacare"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5422520"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900BC3D9BFF4E4A37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Exxaro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5453738"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900XYOP8CUZU7R671"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "First Rand"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5453738"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900XYOP8CUZU7R671"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "First Rand"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6939094"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FTW4FNO02STM28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Murray & Roberts"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6939094"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FTW4FNO02STM28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Murray & Roberts"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7166318"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3789006D677C34F69875"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pepkor"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7166318"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3789006D677C34F69875"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pepkor"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7166318"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3789006D677C34F69875"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pepkor"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8033997"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "37890095421E07184E97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woolworths"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8033997"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "37890095421E07184E97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woolworths"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12063032"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Z0P3GRRN23MG34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DRDGOLD Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12063032"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Z0P3GRRN23MG34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DRDGOLD Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17008542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800AA36MIN5FWKV02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Datatec"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17008542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800AA36MIN5FWKV02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Datatec"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22908349"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RTFEWVDQQ0N866"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RMH Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58641733"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138006IPPRD4N6XLT30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ABSA Group Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "za/1986-003934-06"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001040826"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58641733"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138006IPPRD4N6XLT30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ABSA Group Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "za/1986-003934-06"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001040826"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96395828"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300G0TJCT3K15ZG14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ninety One plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109627113"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "378900B1512179F35A69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RENERGEN LIMITED"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RENERGEN LIMITED"
+      }
+    } ]
+  }
+}

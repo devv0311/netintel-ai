@@ -59,7 +59,7 @@ async function main(): Promise<void> {
 
   if (source !== "gleif" && source !== "wikidata" && source !== "edgar") {
     console.error(
-      "usage: --source gleif|wikidata|edgar [--limit N] [--query NAME] [--leis-from PATH] [--ciks-from PATH] [--with-relationships] [--from-file PATH] [--from-dir DIR] [--dry-run]",
+      "usage: --source gleif|wikidata|edgar [--limit N] [--query NAME] [--country CC] [--leis-from PATH] [--ciks-from PATH] [--with-relationships] [--from-file PATH] [--from-dir DIR] [--dry-run]",
     );
     console.error("No other source is collectable: the adapter set is the allowlist.");
     process.exitCode = 1;
@@ -115,6 +115,7 @@ async function main(): Promise<void> {
         : wikidata.planWikidata(
             (query ?? "indian-companies-with-lei") as WikidataQueryName,
             options,
+            arg("country"),
           );
 
   console.log("PLAN");
@@ -143,6 +144,7 @@ async function main(): Promise<void> {
         : await wikidata.collectWikidata(
             (query ?? "indian-companies-with-lei") as WikidataQueryName,
             options,
+            arg("country"),
           );
 
   const retrievedAt = new Date().toISOString();

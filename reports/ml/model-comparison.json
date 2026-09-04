@@ -1,0 +1,157 @@
+{
+  "comparison": "P6.25.4 head-to-head on pairs neither model was fitted on",
+  "ranAt": "2026-09-04T08:29:42.543Z",
+  "evaluationDataset": {
+    "path": "evidence/ml/pair-dataset-v2.json",
+    "id": "cipher-er-pairs",
+    "version": "2.0.0"
+  },
+  "arena": {
+    "heldOutPairs": 6692,
+    "excludedBecauseAModelWasFittedOnTheSubject": 847,
+    "scoredPairs": 5845,
+    "positives": 946,
+    "negatives": 4899,
+    "curatedHardNegatives": 290,
+    "minedHardNegatives": 1160,
+    "sampledNegatives": 3449,
+    "note": "Pairs from the evaluation dataset's held-out partition whose subjects appear in NO fit partition of any compared model. Both models are strangers to every pair here; each is applied at its OWN frozen threshold."
+  },
+  "fitPartitionsExcluded": [
+    {
+      "dataset": "evidence/ml/pair-dataset.json",
+      "subjects": 380
+    },
+    {
+      "dataset": "evidence/ml/pair-dataset-v2.json",
+      "subjects": 441
+    }
+  ],
+  "deterministicBaseline": {
+    "metrics": {
+      "truePositives": 364,
+      "falsePositives": 3,
+      "trueNegatives": 4896,
+      "falseNegatives": 582,
+      "threshold": 0.5,
+      "precision": 0.9918256130790191,
+      "recall": 0.38477801268498946,
+      "f1": 0.5544554455445545,
+      "falseMergeRate": 0.000612369871402327,
+      "falseSplitRate": 0.6152219873150105
+    },
+    "falseMergeByNegativeClass": [
+      {
+        "labelClass": "hard_negative",
+        "negatives": 290,
+        "falseMerges": 3,
+        "falseMergeRate": 0.010344827586206896
+      },
+      {
+        "labelClass": "mined_hard_negative",
+        "negatives": 1160,
+        "falseMerges": 0,
+        "falseMergeRate": 0
+      },
+      {
+        "labelClass": "sampled_negative",
+        "negatives": 3449,
+        "falseMerges": 0,
+        "falseMergeRate": 0
+      }
+    ],
+    "note": "The shipped resolver's Tier B/B2 rule replayed at pair level over the identical pairs."
+  },
+  "models": [
+    {
+      "artifactPath": "models/cipher-er-pair-classifier.v1.json",
+      "modelVersion": "1.0.0",
+      "experimentId": "E3-gradient-boosted-trees",
+      "datasetVersionFittedOn": "1.0.0",
+      "decisionThreshold": 0.8967658267380015,
+      "artifactSha256": "2c15204b85dee34063ddd4500eae42747a0362953dc4bf9627daba4cd97871f7",
+      "weightsDigest": "66602dfa6f3244183fceb551bdc6ee835debc59d4782090cf7668b55820f9c70",
+      "weightsDigestRecordedInArtifact": null,
+      "weightsDigestMatches": null,
+      "metrics": {
+        "truePositives": 25,
+        "falsePositives": 1,
+        "trueNegatives": 4898,
+        "falseNegatives": 921,
+        "threshold": 0.8967658267380015,
+        "precision": 0.9615384615384616,
+        "recall": 0.026427061310782242,
+        "f1": 0.051440329218107,
+        "falseMergeRate": 0.00020412329046744235,
+        "falseSplitRate": 0.9735729386892178
+      },
+      "rocAuc": 0.9739,
+      "prAuc": 0.9305,
+      "falseMergeByNegativeClass": [
+        {
+          "labelClass": "hard_negative",
+          "negatives": 290,
+          "falseMerges": 1,
+          "falseMergeRate": 0.0034482758620689655
+        },
+        {
+          "labelClass": "mined_hard_negative",
+          "negatives": 1160,
+          "falseMerges": 0,
+          "falseMergeRate": 0
+        },
+        {
+          "labelClass": "sampled_negative",
+          "negatives": 3449,
+          "falseMerges": 0,
+          "falseMergeRate": 0
+        }
+      ]
+    },
+    {
+      "artifactPath": "models/cipher-er-pair-classifier.v2.json",
+      "modelVersion": "2.0.0",
+      "experimentId": "E2-logistic-regression",
+      "datasetVersionFittedOn": "2.0.0",
+      "decisionThreshold": 0.9846390839387705,
+      "artifactSha256": "ba625323a04ca6b9dfb8fd49d6380a2ee7e28cf8796a0fedd111d26ee330c394",
+      "weightsDigest": "3261280fa4420edc98f425c0cbe16fc12665d421e3f58b16615cade2409cf20a",
+      "weightsDigestRecordedInArtifact": "3261280fa4420edc98f425c0cbe16fc12665d421e3f58b16615cade2409cf20a",
+      "weightsDigestMatches": true,
+      "metrics": {
+        "truePositives": 679,
+        "falsePositives": 10,
+        "trueNegatives": 4889,
+        "falseNegatives": 267,
+        "threshold": 0.9846390839387705,
+        "precision": 0.9854862119013063,
+        "recall": 0.7177589852008457,
+        "f1": 0.8305810397553517,
+        "falseMergeRate": 0.0020412329046744235,
+        "falseSplitRate": 0.2822410147991543
+      },
+      "rocAuc": 0.9889,
+      "prAuc": 0.9632,
+      "falseMergeByNegativeClass": [
+        {
+          "labelClass": "hard_negative",
+          "negatives": 290,
+          "falseMerges": 9,
+          "falseMergeRate": 0.03103448275862069
+        },
+        {
+          "labelClass": "mined_hard_negative",
+          "negatives": 1160,
+          "falseMerges": 0,
+          "falseMergeRate": 0
+        },
+        {
+          "labelClass": "sampled_negative",
+          "negatives": 3449,
+          "falseMerges": 1,
+          "falseMergeRate": 0.00028993911278631486
+        }
+      ]
+    }
+  ]
+}

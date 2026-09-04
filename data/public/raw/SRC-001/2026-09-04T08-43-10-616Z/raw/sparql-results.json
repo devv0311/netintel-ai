@@ -1,0 +1,5479 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800TYLGG93MM7PR89"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "Rensei"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L85110KA1981PLC013115"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Infosys limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800TYLGG93MM7PR89"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "Rensei"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L85110KA1981PLC013115"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Infosys limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800NLJQZNHM9LBB31"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोल इण्डिया"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L23109WB1973GOI028844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coal India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DR5QSH8MEGZZ11"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450016D1DA0D640356"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DR5QSH8MEGZZ11"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450016D1DA0D640356"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188514"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800BO2LHWJJ8TZI32"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टाटा मोटर्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L28920MH1945PLC004520"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Motors Ltd"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000926042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q357095"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800AKDC7T933T3I86"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindustan Aeronautics Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HAL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q357095"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800AKDC7T933T3I86"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindustan Aeronautics Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HAL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q638231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358003FR3JIC5FRXA90"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लार्सन एंड टूब्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Larsen & Toubro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q638231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358003FR3JIC5FRXA90"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लार्सन एंड टूब्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Larsen & Toubro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q649343"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800569A6H12LH4677"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसीसी लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ACC Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q649343"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800569A6H12LH4677"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसीसी लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ACC Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q726193"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358001BZKWERVWYCK35"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अशोक लेलैंड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ashok Leyland"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q726193"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358001BZKWERVWYCK35"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अशोक लेलैंड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ashok Leyland"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q795622"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800LOXFWU8ZQJMD12"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टाटा कंज्यूमर प्रोडक्ट्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L15491WB1962PLC031425"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Consumer Products"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q848059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358003B573EV4KB4Z02"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "महिन्द्रा एण्ड महिन्द्रा"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mahindra & Mahindra"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q848059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358003B573EV4KB4Z02"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "महिन्द्रा एण्ड महिन्द्रा"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mahindra & Mahindra"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358007X5FQ2R445Z747"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारत हेवी इलेक्ट्रिकल्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bharat Heavy Electricals Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BHEL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358007X5FQ2R445Z747"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारत हेवी इलेक्ट्रिकल्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bharat Heavy Electricals Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BHEL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q908931"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003UOETFYRONLG31"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "रिलायन्स इण्डस्ट्रीज"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L17110MH1973PLC019786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reliance Industries Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reliance Industries Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q908931"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003UOETFYRONLG31"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "रिलायन्स इण्डस्ट्रीज"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L17110MH1973PLC019786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reliance Industries Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reliance Industries Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q908961"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800OVDPY3DVZR2798"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "डॉ. रेड्डीज लेबोरेटरीज"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dr. Reddy's Laboratories"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001135951"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q908961"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800OVDPY3DVZR2798"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "डॉ. रेड्डीज लेबोरेटरीज"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dr. Reddy's Laboratories"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001135951"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1340361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001JZ37UBBZF6L49"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसबीआई"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC004460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Bank of India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1340361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001JZ37UBBZF6L49"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसबीआई"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC004460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Bank of India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1340361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001JZ37UBBZF6L49"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसबीआई"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC004460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Bank of India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1371239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800ZJXMF183ZCQI90"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारतीय इस्पात प्राधिकरण"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Steel Authority of India Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1381966"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800ILXPCOFAHC5V79"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "फ्लिपकार्ट"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flipkart"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1430541"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800FPDZ9MRSNO7N41"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तेल एवं प्राकृतिक गैस निगम लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil and Natural Gas Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1430541"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800FPDZ9MRSNO7N41"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तेल एवं प्राकृतिक गैस निगम लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil and Natural Gas Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1619261"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800KXLE5NO5B4GF90"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिंडाल्को इंडस्ट्रीज"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindalco Industries"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1653258"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "R7RX8ER1V4666J8D1I38"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आईसीआईसीआई बैंक"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L65190GJ1994PLC021012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ICICI Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1653258"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "R7RX8ER1V4666J8D1I38"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आईसीआईसीआई बैंक"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L65190GJ1994PLC021012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ICICI Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1653258"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "R7RX8ER1V4666J8D1I38"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आईसीआईसीआई बैंक"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L65190GJ1994PLC021012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ICICI Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1655008"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WLOU3OFWFTMP43"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आई टी सी लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ITC Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1655008"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WLOU3OFWFTMP43"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आई टी सी लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ITC Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2003549"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HVNWMJPOFVNI41"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ऐक्सिस बैंक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axis Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2003549"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HVNWMJPOFVNI41"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ऐक्सिस बैंक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axis Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2003797"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CQ6M9Q0TJEZR23"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "बैंक ऑफ़ बड़ौदा"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Baroda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2003797"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CQ6M9Q0TJEZR23"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "बैंक ऑफ़ बड़ौदा"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Baroda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2040404"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800E6GTTXKHXE2I75"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोटक महिंद्रा बैंक"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L65110MH1985PLC038137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kotak Mahindra Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2040404"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800E6GTTXKHXE2I75"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोटक महिंद्रा बैंक"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L65110MH1985PLC038137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kotak Mahindra Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2040440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800CKSGJELHJHQ768"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "धनलक्ष्मी बैंक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dhanlaxmi Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2040440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800CKSGJELHJHQ768"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "धनलक्ष्मी बैंक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dhanlaxmi Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3011374"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PJLUEOB8914F48"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "डीएलएफ़ यूनिवर्सल लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DLF Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3011374"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PJLUEOB8914F48"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "डीएलएफ़ यूनिवर्सल लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DLF Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3291801"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800KJ7GE29LB4SS73"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सन फार्मास्युटिकल"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L24230GJ1993PLC019050"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sun Pharmaceutical"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3530250"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800B99NHE5ZGSGR16"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारत डायनेमिक्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bharat Dynamics Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3630918"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500AF53B3E2BI4926"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारत इलैक्ट्रॉनिक्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bharat Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3630918"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500AF53B3E2BI4926"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारत इलैक्ट्रॉनिक्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bharat Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3661655"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RYRJUN78A7PL87"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3010701007835"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nippon Paint"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3958138"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800XDKX9KB5EMCO07"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "sesa sterlite"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vedanta Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4636612"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800YRLRO5AUJCZA23"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "3i Infotech Limited"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "3i Infotech Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5266685"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HLUOQ4ZGINVI30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DCB Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5377917"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800D8QCOQANG91D62"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंजीनियर्स इंडिया लिमिटेड"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC024826"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Engineers India Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5513791"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358008S2MTRWZ255P70"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जीएमआर समूह"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GMR Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5514847"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800VXARLM7IJ93W69"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जीवीके"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GVK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5629103"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300C1F8OLYSOQYB65"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एचसीएल टेक्नोलॉजीज"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HCL Technologies"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5629103"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300C1F8OLYSOQYB65"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एचसीएल टेक्नोलॉजीज"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HCL Technologies"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5766843"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800LB39TLJ8YTWM98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindustan Zinc Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5972349"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PBD2MJ1IMW5380"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आईनॉक्स लीजर लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INOX Leisure Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6123511"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800EUJ3PFW1W1IW19"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जैको प्रकाशन संस्था"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74999MH1956PTC009868"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jaico Publishing House"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6982526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358008DDDK4NDB42Z33"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L22200MH1984PLC034055"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navneet Publications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6982526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800TC8CLDPMON3N33"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L22200MH1984PLC034055"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navneet Publications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7388955"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WMVIESQUO95586"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसबीआई लाइफ इंश्योरेंस कंपनी"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SBI Life Insurance Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7645042"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "33580094NA85GD34LN25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Supreme Industries"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000350846"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7880419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PC9O9B4BQHG814"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अल्ट्राटेक सीमेंंट"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UltraTech Cement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12982969"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358004C17EYJMMSOO84"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जैन इर्रिगेशन सिस्टम्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jain Irrigation Systems Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17086814"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358004YFWQVX2EZDE82"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/SF001026"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Spirits Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17093531"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800FUJQU1BZUGET77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L92200DL1999PLC103001"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TV Today Network"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18128695"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WRTIML8UTR8X82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Newgen Software Technologies Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19757718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800I2TBDZ63LIVM40"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पेटीऍम"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paytm"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19757718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800I2TBDZ63LIVM40"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पेटीऍम"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paytm"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24905990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800HIBW96STL9XW37"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22219PN2017PTC169258"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sakal Media Group"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sakal Media Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24906315"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PJJNVIIZQTUN94"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ओयो रूम्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OYO Rooms"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24906315"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PJJNVIIZQTUN94"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ओयो रूम्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OYO Rooms"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29509603"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800UZ9C7WGVIYHR69"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "गेटवे"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U72200GJ2001PTC039707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gateway Group of Companies"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29509603"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800UZ9C7WGVIYHR69"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "गेटवे"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U72200GJ2001PTC039707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gateway Group of Companies"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29533875"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800HJQJFZ3CJLJ709"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siemens Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55614827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500D5CB82ED645586"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जागरण प्रकाशन"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L22219UP1975PLC004147"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jagran Prakashan Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jagran Prakashan Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60745107"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800MKYUNN6M42G374"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लव फिल्म्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/AAK-3417"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luv Films"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q71935736"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358009HI3KVETXI6X19"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंफोबींस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "InfoBeans Technologies Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96380208"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450068455BFC02DJ88"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22222DL2007PTC164081"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hachette India"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hachette Book Publishing India Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98525422"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500J5N0WGEPW6ML53"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "स्काईरूट एयरोस्पेस"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74999TG2018PTC125073"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skyroot Aerospace"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104839693"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800HMCCX6FK2I1449"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Investment Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106206007"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800XLXJ32DBM6H567"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adani Total Gas Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109985545"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800MPTXBI8YNP7245"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "रेजरपे"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Razorpay"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800TYLGG93MM7PR89"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "Rensei"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L85110KA1981PLC013115"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Infosys limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800TYLGG93MM7PR89"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "Rensei"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L85110KA1981PLC013115"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Infosys limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800NLJQZNHM9LBB31"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोल इण्डिया"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L23109WB1973GOI028844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coal India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DR5QSH8MEGZZ11"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450016D1DA0D640356"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188514"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800BO2LHWJJ8TZI32"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टाटा मोटर्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L28920MH1945PLC004520"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Motors Ltd"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000926042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188514"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800BO2LHWJJ8TZI32"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टाटा मोटर्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L28920MH1945PLC004520"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Motors Ltd"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000926042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q357095"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800AKDC7T933T3I86"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindustan Aeronautics Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HAL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q638231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358003FR3JIC5FRXA90"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लार्सन एंड टूब्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Larsen & Toubro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q649343"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800569A6H12LH4677"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसीसी लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ACC Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q726193"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358001BZKWERVWYCK35"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अशोक लेलैंड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ashok Leyland"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q795622"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800LOXFWU8ZQJMD12"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टाटा कंज्यूमर प्रोडक्ट्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L15491WB1962PLC031425"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Consumer Products"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q848059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358003B573EV4KB4Z02"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "महिन्द्रा एण्ड महिन्द्रा"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mahindra & Mahindra"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q848059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358003B573EV4KB4Z02"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "महिन्द्रा एण्ड महिन्द्रा"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mahindra & Mahindra"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358007X5FQ2R445Z747"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारत हेवी इलेक्ट्रिकल्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bharat Heavy Electricals Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BHEL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q908931"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003UOETFYRONLG31"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "रिलायन्स इण्डस्ट्रीज"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L17110MH1973PLC019786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reliance Industries Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reliance Industries Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q908961"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800OVDPY3DVZR2798"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "डॉ. रेड्डीज लेबोरेटरीज"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dr. Reddy's Laboratories"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001135951"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1340361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001JZ37UBBZF6L49"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसबीआई"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC004460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Bank of India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1340361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001JZ37UBBZF6L49"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसबीआई"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC004460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Bank of India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1371239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800ZJXMF183ZCQI90"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारतीय इस्पात प्राधिकरण"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Steel Authority of India Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1371239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800ZJXMF183ZCQI90"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारतीय इस्पात प्राधिकरण"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Steel Authority of India Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1381966"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800ILXPCOFAHC5V79"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "फ्लिपकार्ट"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flipkart"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1430541"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800FPDZ9MRSNO7N41"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तेल एवं प्राकृतिक गैस निगम लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil and Natural Gas Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1619261"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800KXLE5NO5B4GF90"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिंडाल्को इंडस्ट्रीज"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindalco Industries"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1653258"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "R7RX8ER1V4666J8D1I38"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आईसीआईसीआई बैंक"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L65190GJ1994PLC021012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ICICI Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1655008"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WLOU3OFWFTMP43"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आई टी सी लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ITC Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2003549"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HVNWMJPOFVNI41"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ऐक्सिस बैंक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axis Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2003797"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CQ6M9Q0TJEZR23"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "बैंक ऑफ़ बड़ौदा"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Baroda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2040404"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800E6GTTXKHXE2I75"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोटक महिंद्रा बैंक"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L65110MH1985PLC038137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kotak Mahindra Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2040440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800CKSGJELHJHQ768"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "धनलक्ष्मी बैंक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dhanlaxmi Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2985356"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358004LVIZ8H3SVNB07"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एनडीटीवी"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L92111DL1988PLC033099"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NDTV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3011374"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PJLUEOB8914F48"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "डीएलएफ़ यूनिवर्सल लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DLF Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3291801"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800KJ7GE29LB4SS73"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सन फार्मास्युटिकल"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L24230GJ1993PLC019050"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sun Pharmaceutical"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3530250"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800B99NHE5ZGSGR16"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारत डायनेमिक्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bharat Dynamics Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3630918"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500AF53B3E2BI4926"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "भारत इलैक्ट्रॉनिक्स लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bharat Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3661655"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RYRJUN78A7PL87"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3010701007835"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nippon Paint"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3958138"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800XDKX9KB5EMCO07"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "sesa sterlite"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vedanta Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4636612"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800YRLRO5AUJCZA23"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "3i Infotech Limited"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "3i Infotech Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5266685"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HLUOQ4ZGINVI30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DCB Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5377917"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800D8QCOQANG91D62"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंजीनियर्स इंडिया लिमिटेड"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC024826"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Engineers India Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5425747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "33580047Q2XHGIB4Q674"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U80211DL1997PLC090156"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FIITJEE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5513791"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358008S2MTRWZ255P70"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जीएमआर समूह"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GMR Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5514847"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800VXARLM7IJ93W69"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जीवीके"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GVK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5629103"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300C1F8OLYSOQYB65"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एचसीएल टेक्नोलॉजीज"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HCL Technologies"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5766843"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800LB39TLJ8YTWM98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindustan Zinc Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5972349"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PBD2MJ1IMW5380"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आईनॉक्स लीजर लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INOX Leisure Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6123511"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800EUJ3PFW1W1IW19"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जैको प्रकाशन संस्था"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74999MH1956PTC009868"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jaico Publishing House"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6123511"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800EUJ3PFW1W1IW19"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जैको प्रकाशन संस्था"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74999MH1956PTC009868"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jaico Publishing House"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6123511"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800EUJ3PFW1W1IW19"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जैको प्रकाशन संस्था"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74999MH1956PTC009868"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jaico Publishing House"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6982526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358008DDDK4NDB42Z33"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L22200MH1984PLC034055"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navneet Publications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6982526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800TC8CLDPMON3N33"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L22200MH1984PLC034055"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navneet Publications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6982526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358008DDDK4NDB42Z33"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L22200MH1984PLC034055"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navneet Publications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6982526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800TC8CLDPMON3N33"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L22200MH1984PLC034055"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navneet Publications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7074787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800TCKG1XQXN51L44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oberoi Realty"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7388955"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WMVIESQUO95586"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एसबीआई लाइफ इंश्योरेंस कंपनी"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SBI Life Insurance Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7645042"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "33580094NA85GD34LN25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Supreme Industries"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000350846"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7880419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PC9O9B4BQHG814"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अल्ट्राटेक सीमेंंट"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UltraTech Cement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12982969"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358004C17EYJMMSOO84"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जैन इर्रिगेशन सिस्टम्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jain Irrigation Systems Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17069935"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800U55VUJQV4IYW95"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंडिया टुडे ग्रुप"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U92132DL1962PLC003714"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "India Today Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17069935"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800U55VUJQV4IYW95"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंडिया टुडे ग्रुप"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U92132DL1962PLC003714"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "India Today Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17069935"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800U55VUJQV4IYW95"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंडिया टुडे ग्रुप"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U92132DL1962PLC003714"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "India Today Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17069935"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800U55VUJQV4IYW95"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंडिया टुडे ग्रुप"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U92132DL1962PLC003714"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "India Today Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17069935"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800U55VUJQV4IYW95"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंडिया टुडे ग्रुप"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U92132DL1962PLC003714"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "India Today Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17086814"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358004YFWQVX2EZDE82"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/SF001026"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Spirits Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17093531"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800FUJQU1BZUGET77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L92200DL1999PLC103001"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TV Today Network"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18128695"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WRTIML8UTR8X82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Newgen Software Technologies Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19757718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800I2TBDZ63LIVM40"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पेटीऍम"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paytm"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24041756"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358004UAUY5HCD3VS91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Assam Gramin Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24905990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800HIBW96STL9XW37"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22219PN2017PTC169258"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sakal Media Group"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sakal Media Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24905990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800HIBW96STL9XW37"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22219PN2017PTC169258"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sakal Media Group"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sakal Media Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24906315"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800PJJNVIIZQTUN94"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ओयो रूम्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OYO Rooms"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24952264"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800AKNI23HT4P2C64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Goa Carbon Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28169983"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500B99AD2EWFECF31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Delta Corp Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28172049"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800F64MK3PP52L611"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skipper Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29467293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800JEUOPTRP78GQ40"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "उत्तराखण्ड ग्रामीण बैंक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uttarakhand Gramin Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29509603"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800UZ9C7WGVIYHR69"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "गेटवे"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U72200GJ2001PTC039707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gateway Group of Companies"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29533875"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800HJQJFZ3CJLJ709"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siemens Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30324297"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800NGJ7E9BD4C6Z11"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "फोन पर"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U67190KA2012PTC176031"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PhonePe"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50243312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800NGZCAXIJCKF175"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74899DL1986PTC023532"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ratna Sagar P.Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55614827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500D5CB82ED645586"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "जागरण प्रकाशन"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/L22219UP1975PLC004147"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jagran Prakashan Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jagran Prakashan Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60621590"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358003MFE3SZHBXNS20"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22200DL1991PLC042793"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HarperCollins Publishers India"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harper Collins Publishers India Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60642664"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800RWALTVDEC6NO09"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22110DL1985PTC020493"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Penguin India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60745107"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800MKYUNN6M42G374"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लव फिल्म्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/AAK-3417"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luv Films"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63413114"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800IMN3KYZYUL9T37"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22122DL2002PTC117414"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Springer India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65064081"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800Y97SQ94Z8WZU51"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U92110MH2002PTC135228"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Applause Entertainment"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q71935736"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358009HI3KVETXI6X19"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इंफोबींस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "InfoBeans Technologies Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96380208"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450068455BFC02DJ88"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22222DL2007PTC164081"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hachette India"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hachette Book Publishing India Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96380208"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450068455BFC02DJ88"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U22222DL2007PTC164081"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hachette India"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hachette Book Publishing India Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98525422"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500J5N0WGEPW6ML53"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "स्काईरूट एयरोस्पेस"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74999TG2018PTC125073"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skyroot Aerospace"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104839693"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800HMCCX6FK2I1449"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Investment Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106206007"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800XLXJ32DBM6H567"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adani Total Gas Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106508061"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800YF9JYCEREZRH90"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U80903MH2008PTC184375"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PACE IIT & Medical"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109985545"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800MPTXBI8YNP7245"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "रेजरपे"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Razorpay"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114542995"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500057K39B9F74039"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arihant Publications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124625525"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450007D9D76C85F165"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लेनदेनक्लब"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74999MH2015PTC266499"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LenDenClub"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Innofin Solutions Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124625525"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450007D9D76C85F165"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लेनदेनक्लब"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74999MH2015PTC266499"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LenDenClub"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Innofin Solutions Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130741763"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800KWUEXYN8QDIF86"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लेंडबॉक्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U65900DL2015PTC285968"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lendbox"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Transactree Technologies Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130741763"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800KWUEXYN8QDIF86"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "लेंडबॉक्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U65900DL2015PTC285968"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lendbox"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Transactree Technologies Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q69906"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800SB4EYU1F7N9Q09"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एअर इंडिया"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Air India"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q765398"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800C1B2T9BM5ILM48"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टाटा स्टारबक्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Starbucks"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74900MH2011PTC222589"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1795504"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9695001HW2J8HYBLXG74"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ईएमलियोन बिजनेस स्कूल"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emlyon Business School"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "fr/841892037"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "emlyon business school"
+      },
+      "shortName" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "emlyon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1884798"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WPNZ3ELJCQ3U26"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "महानगर टेलीफोन निगम लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mahanagar Telephone Nigam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1884798"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WPNZ3ELJCQ3U26"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "महानगर टेलीफोन निगम लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mahanagar Telephone Nigam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2331365"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800H6MURUA6FBOW17"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टाटा केमिकल्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Chemicals"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5949332"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500C3E8EZ0XB98B74"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हस्क पावर सिस्टम्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Husk Power Systems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001560625"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6541947"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800R4TVW8X7PE7H88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liberty Shoes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/00042342"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6971147"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358006EZJ631EWWDZ23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Bulk Handling Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7940322"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O9PU0658KRGN15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skoda Auto Volkswagen India"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U70102PN2007FTC133117"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17067368"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WYB6OIBY9EOZ42"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एमक्योर फार्मास्युटिकल्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emcure Pharmaceuticals"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17067368"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800WYB6OIBY9EOZ42"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एमक्योर फार्मास्युटिकल्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emcure Pharmaceuticals"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17073435"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800XF9WUIBEYWXI50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Radiance Realty"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U45201TN2007PLC062662"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22031522"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Z4J063O2I74768"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indegene, Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55454375"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800EEJ5F65HVUOB53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novo Nordisk (India)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65944364"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800R11DC3QR7KH186"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "स्विग्गी"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swiggy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q79605259"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800SLVPD79CRGF875"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RateGain"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96278941"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500I8J9UE5PY4Y545"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Avenue E-Commerce Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96377962"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FBE5B11U0E8846"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FirstCry"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96377962"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FBE5B11U0E8846"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FirstCry"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106455641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3358009PTDF3JSS9N195"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "क्रेड (कंपनी)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CRED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136373803"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "33580092OWOL3XGYH185"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Narsi Interior"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74200MH2008PTC181152"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137826422"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "33580081I62J4X9YQU93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haier India"
+      },
+      "official" : {
+        "xml:lang" : "en-in",
+        "type" : "literal",
+        "value" : "Haier Appliances (India) Pvt Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137826422"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "33580081I62J4X9YQU93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haier India"
+      },
+      "official" : {
+        "xml:lang" : "en-in",
+        "type" : "literal",
+        "value" : "Haier Appliances (India) Pvt Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138835542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "U29308WB2022PTC251024"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टूल्सविला"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toolsvilla"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139888265"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800MUDR3QNJWHM727"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Texture Clothing Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139888265"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800MUDR3QNJWHM727"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Texture Clothing Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139888265"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800MUDR3QNJWHM727"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Texture Clothing Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139888265"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800MUDR3QNJWHM727"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Texture Clothing Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139972566"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845008E7ACDFMWC7391"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MosChip Technologies Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139972566"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845008E7ACDFMWC7391"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MosChip Technologies Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139972566"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845008E7ACDFMWC7391"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MosChip Technologies Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140043069"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "U74140DL2010PTC205953"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elion Technologies and Consulting Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140043069"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "U74140DL2010PTC205953"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elion Technologies and Consulting Private Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140285735"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FD44E71FPC4932"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kanaka Management Services"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74140KA2007PTC043232"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kanaka Management Services Private Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KMS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140285735"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FD44E71FPC4932"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kanaka Management Services"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U74140KA2007PTC043232"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kanaka Management Services Private Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KMS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140995407"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450085BC84C5045F34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prozo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prozo Integrated Logistics Private Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prozo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141048220"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "U10402HR2026PTC148704"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ड्यून ऑरा इंडस्ट्रीज प्राइवेट लिमिटेड"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dune Aura Industries Private Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "in/U10402HR2026PTC148704"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141147954"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800ETU8AXQNSOMA46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Laxcon Steels Limited"
+      }
+    } ]
+  }
+}

@@ -31,6 +31,27 @@
  *                                 contained may appear in this dataset's
  *                                 train or validation partition.
  *
+ *   L12 no one-way veto feature - no feature VALUE may be a perfect
+ *                                 one-way indicator of a class while
+ *                                 carrying real support.
+ *
+ * L12 exists because L7 provably cannot catch this class of artefact,
+ * and one got through. In the P6.24 dataset `jurisdictionBothKnown` was
+ * true for 0 of 222 positives and 196 of 1,216 negatives: Wikidata
+ * published no jurisdiction at all, and every positive was cross-source
+ * WITH Wikidata, so "both sides state a jurisdiction" meant "this pair is
+ * same-source" and therefore "not a positive". The model learned it, and
+ * learned it correctly for that corpus.
+ *
+ * L7 rates a feature by its standalone ROC-AUC and passes anything inside
+ * [0.01, 0.99]. A one-way indicator that fires on 16% of one class and 0%
+ * of the other scores about 0.42 — comfortably inside the band — because
+ * AUC averages over the whole distribution and cannot see that one VALUE
+ * of the feature is a categorical veto. That is not a tuning problem;
+ * it is the wrong statistic for this failure. L12 asks the other
+ * question directly: is there a value of this feature which, when
+ * present in quantity, is never seen alongside one of the labels?
+ *
  * L11 exists because a corpus expansion can undo a freeze without anyone
  * touching the split rule. A subject reaches TEST either by its own
  * `heldout_evaluation` designation or by contagion through its connected
@@ -45,7 +66,12 @@
 
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import path from "node:path";
-import { buildFeatures, FEATURE_NAMES, type FeatureRecord } from "@/lib/ml/features";
+import {
+  buildFeatures,
+  FEATURE_NAMES,
+  TRAINABLE_FEATURE_NAMES,
+  type FeatureRecord,
+} from "@/lib/ml/features";
 import { rocAuc } from "@/lib/ml/metrics";
 import { normalizeName } from "@/lib/resolution/name-normalization";
 
@@ -349,6 +375,67 @@ function main(): void {
         ? "no prior dataset declared; this is the first frozen test, so there is nothing to ratchet against"
         : `${PRIOR_DATASETS.length} prior dataset(s) checked; ${escapees.length} subject(s) escaped a frozen test into train or validation`,
     evidence: escapees.slice(0, 10),
+  });
+
+  // ---- L12 no one-way veto feature ---------------------------------------
+  //
+  // Only the TRAIN partition is examined: this asks what the model could
+  // have learned, and the model sees train.
+  const MIN_SUPPORT = 30;
+  const trainFeatureRows = trainVectors;
+  const vetoes: {
+    feature: string;
+    value: number;
+    support: number;
+    positives: number;
+    negatives: number;
+    reading: string;
+  }[] = [];
+  // Audited over the TRAINABLE set: this asks what a model fitted by this
+  // build could learn, and a feature excluded from training cannot be
+  // learned from at all. Features already excluded are listed separately
+  // rather than silently dropped, so the exclusion stays visible.
+  FEATURE_NAMES.forEach((feature, index) => {
+    if (!(TRAINABLE_FEATURE_NAMES as readonly string[]).includes(feature)) return;
+    // Binary features only. A continuous feature taking one exact value
+    // across a large support is a different phenomenon and would be noise
+    // here; L7 covers the continuous case.
+    const distinct = new Set(trainFeatureRows.map((row) => row.values[index] as number));
+    if (distinct.size !== 2 || ![...distinct].every((v) => v === 0 || v === 1)) return;
+    for (const value of [0, 1]) {
+      const matching = trainFeatureRows.filter((row) => row.values[index] === value);
+      if (matching.length < MIN_SUPPORT) continue;
+      const positives = matching.filter((row) => row.label === 1).length;
+      const negatives = matching.length - positives;
+      if (positives !== 0 && negatives !== 0) continue;
+      vetoes.push({
+        feature,
+        value,
+        support: matching.length,
+        positives,
+        negatives,
+        reading:
+          positives === 0
+            ? `${feature}=${value} occurs ${matching.length} times in TRAIN and NEVER alongside a positive — the model can read it as a veto`
+            : `${feature}=${value} occurs ${matching.length} times in TRAIN and NEVER alongside a negative — the model can read it as a guarantee`,
+      });
+    }
+  });
+  const excludedFeatures = FEATURE_NAMES.filter(
+    (name) => !(TRAINABLE_FEATURE_NAMES as readonly string[]).includes(name),
+  );
+  checks.push({
+    id: "L12",
+    name: "no trainable feature value is a perfect one-way indicator with real support",
+    passed: vetoes.length === 0,
+    detail:
+      (vetoes.length === 0
+        ? `every trainable binary feature value with at least ${MIN_SUPPORT} TRAIN rows occurs alongside BOTH labels`
+        : `${vetoes.length} trainable feature value(s) never co-occur with one of the labels despite at least ${MIN_SUPPORT} TRAIN rows`) +
+      (excludedFeatures.length > 0
+        ? `; ${excludedFeatures.length} feature(s) are excluded from training and therefore unlearnable: ${excludedFeatures.join(", ")}`
+        : ""),
+    evidence: vetoes,
   });
 
   const passed = checks.every((check) => check.passed);

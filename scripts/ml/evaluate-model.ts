@@ -25,11 +25,17 @@ import { metricsAt, prAuc, rocAuc, type ScoredPair, type ThresholdMetrics } from
 import { artifactSha256, loadArtifact, scoreWithModel } from "@/lib/ml/model";
 
 const ROOT = process.cwd();
-const DATASET_PATH = "evidence/ml/pair-dataset.json";
-const ARTIFACT_PATH = "models/cipher-er-pair-classifier.v1.json";
+
+const arg = (name: string, fallback: string): string => {
+  const i = process.argv.indexOf(`--${name}`);
+  return i >= 0 && process.argv[i + 1] ? (process.argv[i + 1] as string) : fallback;
+};
+
+const DATASET_PATH = arg("dataset", "evidence/ml/pair-dataset.json");
+const ARTIFACT_PATH = arg("artifact", "models/cipher-er-pair-classifier.v1.json");
 const OUT_DIR = "reports/ml";
-const EVAL_PATH = path.join(OUT_DIR, "heldout-evaluation.json");
-const ERRORS_PATH = path.join(OUT_DIR, "error-analysis.json");
+const EVAL_PATH = path.join(OUT_DIR, arg("eval-out", "heldout-evaluation.json"));
+const ERRORS_PATH = path.join(OUT_DIR, arg("errors-out", "error-analysis.json"));
 
 const HELD_OUT = "test";
 

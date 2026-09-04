@@ -1,0 +1,1996 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105557"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EM51WYXFHUY333"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Empresa Brasileira de Aeronáutica S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Embraer"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105557"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EM51WYXFHUY333"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Empresa Brasileira de Aeronáutica S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Embraer"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q183184"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900UOXRZRS2TNWP19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabesp"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q183184"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900UOXRZRS2TNWP19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabesp"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000J801JZRCMFE49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petrobras"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/33000167000101"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001119639"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000J801JZRCMFE49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petrobras"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/33000167000101"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001119639"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000J801JZRCMFE49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petrobras"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/33000167000101"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001119639"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000J801JZRCMFE49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petrobras"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/33000167000101"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001119639"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q400384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900K40TEND42S0T46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Siderúrgica Nacional"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001049659"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q400384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900K40TEND42S0T46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Siderúrgica Nacional"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001049659"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q400384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900K40TEND42S0T46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Siderúrgica Nacional"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001049659"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q540891"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZVCBHQE0XHG367"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nielsen Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34036267"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001492633"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q540891"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZVCBHQE0XHG367"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nielsen Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34036267"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001492633"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q540891"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZVCBHQE0XHG367"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nielsen Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34036267"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001492633"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q583268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500FCQ8OA16R17V29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vale"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q583268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500FCQ8OA16R17V29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vale"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q583268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500FCQ8OA16R17V29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vale"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q610817"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "QE0Q0253K88YAGNPE356"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Brazil"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2700150002327"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q610817"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "QE0Q0253K88YAGNPE356"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Brazil"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2700150002327"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q610817"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "QE0Q0253K88YAGNPE356"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Brazil"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2700150002327"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q794272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VTW6UFR5XP5V60"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q794272"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q794272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VTW6UFR5XP5V60"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q794272"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806181"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CTUU1RFXHQJE44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bradesco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806181"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CTUU1RFXHQJE44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bradesco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806181"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CTUU1RFXHQJE44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bradesco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899097"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900MTXR9LUVQFU480"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BRF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899097"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500XZKPCSJRJEUC93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BRF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899097"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900MTXR9LUVQFU480"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BRF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899097"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500XZKPCSJRJEUC93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BRF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899097"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900MTXR9LUVQFU480"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BRF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899097"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500XZKPCSJRJEUC93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BRF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899395"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RPMQUFGBB7EY44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Braskem"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1121202"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900W703PXLDSEM056"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Energética de Minas Gerais"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1121202"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900W703PXLDSEM056"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Energética de Minas Gerais"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1121202"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900W703PXLDSEM056"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Energética de Minas Gerais"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1121216"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GBWSBDXN8GGM28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPFL Energia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001300482"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1121216"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GBWSBDXN8GGM28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPFL Energia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001300482"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1121216"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GBWSBDXN8GGM28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPFL Energia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001300482"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1130970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001AS1I9A71VG663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Paranaense de Energia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1130970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001AS1I9A71VG663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Paranaense de Energia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1130970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001AS1I9A71VG663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Paranaense de Energia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1187505"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500UWH3R77KC7A789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taurus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1187505"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500UWH3R77KC7A789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taurus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1187505"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500UWH3R77KC7A789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taurus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1321868"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HX3UUDPEFTG707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LATAM Airlines Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1321868"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HX3UUDPEFTG707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LATAM Airlines Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1321868"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HX3UUDPEFTG707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LATAM Airlines Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1410766"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AFT8A3KIR1J753"
+      },
+      "official" : {
+        "xml:lang" : "pt",
+        "type" : "literal",
+        "value" : "Fibria Celulose S.A"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fibria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1410766"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AFT8A3KIR1J753"
+      },
+      "official" : {
+        "xml:lang" : "pt",
+        "type" : "literal",
+        "value" : "Fibria Celulose S.A"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fibria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1410766"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AFT8A3KIR1J753"
+      },
+      "official" : {
+        "xml:lang" : "pt",
+        "type" : "literal",
+        "value" : "Fibria Celulose S.A"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fibria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1424293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002W2IVG62O3ZJ94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Itaú Unibanco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150002347"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001132597"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इटाउ उनिबांको"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1424293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002W2IVG62O3ZJ94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Itaú Unibanco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150002347"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001132597"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इटाउ उनिबांको"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1424293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002W2IVG62O3ZJ94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Itaú Unibanco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150002347"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001132597"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इटाउ उनिबांको"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1511043"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YDV6SEQQPZVG24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gerdau"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1511043"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YDV6SEQQPZVG24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gerdau"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1511043"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YDV6SEQQPZVG24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gerdau"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1541470"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003V5B6KLICZCC14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GPA"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001038572"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1541470"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003V5B6KLICZCC14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GPA"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001038572"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1541470"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003V5B6KLICZCC14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GPA"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001038572"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1676554"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RM0MTMZL9O5050"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS S.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/02916265000160"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001450123"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1676554"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RM0MTMZL9O5050"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS S.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/02916265000160"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001450123"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1676554"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RM0MTMZL9O5050"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS S.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/02916265000160"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001450123"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1676554"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RM0MTMZL9O5050"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS S.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/07452328000198"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001450123"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1676554"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RM0MTMZL9O5050"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS S.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/07452328000198"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001450123"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1676554"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RM0MTMZL9O5050"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS S.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "br/07452328000198"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001450123"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1808939"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RB8RC03FUD8DSX57C193"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS USA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B203413"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001467955"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1808939"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RB8RC03FUD8DSX57C193"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS USA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B203413"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001467955"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1808939"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RB8RC03FUD8DSX57C193"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS USA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/3832762"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001467955"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1808939"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RB8RC03FUD8DSX57C193"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JBS USA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/3832762"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001467955"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2142669"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TH5Q6VRP8OT012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AmBev"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2142669"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TH5Q6VRP8OT012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AmBev"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2142669"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TH5Q6VRP8OT012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AmBev"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D1H731B30TSI43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Santander (Brasil)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D1H731B30TSI43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Santander (Brasil)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D1H731B30TSI43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Santander (Brasil)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5155373"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001QYTIDILBVYO18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Brasileira de Aluminio"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5155373"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001QYTIDILBVYO18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Companhia Brasileira de Aluminio"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5416500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500YDBMAYVVN70927"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Even"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5416500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500YDBMAYVVN70927"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Even"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6765587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500V2Y562UW1HJO15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marisa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6765587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500V2Y562UW1HJO15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marisa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6765587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500V2Y562UW1HJO15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marisa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7299713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990010NH26VC32Q522"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raízen"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10336225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800B3RXPMGEZ1W429"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Neoenergia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10336225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800B3RXPMGEZ1W429"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Neoenergia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106632587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500DWJNJBSRO7U567"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Movida"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106632587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500DWJNJBSRO7U567"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Movida"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106632587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500DWJNJBSRO7U567"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Movida"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108736839"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006YP26ETK0IV586"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BR Properties S.A."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001519207"
+      }
+    } ]
+  }
+}

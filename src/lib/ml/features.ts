@@ -41,7 +41,7 @@
  * and excluded from the shipped model. See `docs/evaluation/ml-leakage-audit.md`.
  */
 
-import { normalizeName } from "@/lib/resolution/name-normalization";
+import { LEGAL_SUFFIXES, normalizeName } from "@/lib/resolution/name-normalization";
 import {
   acronym,
   digitRuns,
@@ -97,9 +97,40 @@ export const FEATURE_NAMES = [
   "aliasesEitherPresent",
   "digitSetConflict",
   "romanNumeralConflict",
+  "legalFormConflict",
+  "structuralTokenAsymmetry",
 ] as const;
 
 export type FeatureName = (typeof FEATURE_NAMES)[number];
+
+/**
+ * Features EXCLUDED from any newly trained model, and why.
+ *
+ * `officialNameBothPresent` is a missingness flag, and in this corpus
+ * missingness is a source-pairing proxy rather than evidence about
+ * identity. Only Wikidata publishes an official name (531 of 3,282
+ * records; GLEIF and EDGAR publish none), so "both sides state an
+ * official name" is true exactly when both records are Wikidata — a
+ * same-source pair, which is never a positive here because every
+ * positive is cross-source by construction. Leakage check L12 caught it:
+ * the flag is true for 63 TRAIN rows and never once alongside a positive.
+ *
+ * The official name itself is NOT excluded and remains real evidence: it
+ * is one of the name variants behind `bestVariantTrigramDice` and
+ * `anyVariantNormalizedMatch`, which is where a legal name earns its
+ * keep. What is dropped is only the bare assertion that two publishers
+ * happened to state one.
+ *
+ * It stays in FEATURE_NAMES so that artifacts trained before P6.25 keep
+ * loading and scoring exactly as they did — those models were fitted
+ * with it and must keep receiving it.
+ */
+export const EXCLUDED_FROM_NEW_MODELS: readonly FeatureName[] = ["officialNameBothPresent"];
+
+/** The feature set a model trained by this build is fitted on. */
+export const TRAINABLE_FEATURE_NAMES: readonly FeatureName[] = FEATURE_NAMES.filter(
+  (name) => !EXCLUDED_FROM_NEW_MODELS.includes(name),
+);
 
 export interface FeatureVector {
   readonly values: readonly number[];
@@ -128,6 +159,94 @@ const countryOf = (jurisdiction: string | undefined): string | null => {
 };
 
 const bool = (value: boolean): number => (value ? 1 : 0);
+
+/**
+ * Legal forms, grouped so that two spellings of ONE form are not read as a
+ * disagreement. "Reliance Industries Limited" and "Reliance Industries
+ * Ltd" are the same form written twice; "Simon Property Group, Inc." and
+ * "Simon Property Group, L.P." are two different legal persons.
+ *
+ * This list is deliberately SEPARATE from the resolver's LEGAL_SUFFIXES.
+ * That list governs deterministic normalisation and therefore authoritative
+ * merge behaviour, and it is not this feature's business to change it —
+ * adding "spa" there to help a classifier would alter how every name in
+ * the product resolves. So the ML side keeps its own vocabulary, and the
+ * resolver's semantics are untouched.
+ */
+const LEGAL_FORM_GROUPS: readonly (readonly string[])[] = [
+  ["ltd", "limited"],
+  ["private limited", "pvt ltd", "pvt"],
+  ["plc", "public limited"],
+  ["inc", "incorporated"],
+  ["corp", "corporation"],
+  ["co", "company"],
+  ["llc"], ["llp"], ["lp"], ["gmbh"], ["ag"], ["bv"], ["nv"], ["sa"],
+  // Forms the resolver's list does not carry, which appear in this corpus
+  // because it is worldwide rather than India-filtered.
+  ["spa"], ["ab"], ["as"], ["oy"], ["kk"], ["nsa"], ["se"], ["kgaa"], ["sas"], ["srl"], ["aps"],
+];
+
+const FORM_OF_TOKEN = new Map<string, string>();
+for (const group of LEGAL_FORM_GROUPS) {
+  const canonical = group[0] as string;
+  for (const spelling of group) FORM_OF_TOKEN.set(spelling, canonical);
+}
+
+/**
+ * The canonical legal form a name ends in, or null.
+ *
+ * Read from the RAW name, before normalisation, because normalisation
+ * deliberately strips exactly this token — which is why the two halves of
+ * a corporate family collide in the first place. "Simon Property Group,
+ * Inc." and "Simon Property Group, L.P." both normalise to `simon property
+ * group`, and they are two different legal entities with two different
+ * LEIs: an UPREIT and its operating partnership. Stripping the suffix is
+ * right for matching "Tata Motors Ltd" to "Tata Motors" and wrong here,
+ * and one normalised string cannot serve both. So the form is recovered as
+ * its own signal and handed to the model as evidence.
+ *
+ * Dots are removed rather than replaced by a space, so "L.P." reads as
+ * `lp` and "S.p.A." as `spa`.
+ */
+const legalFormOf = (name: string): string | null => {
+  const cleaned = name
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/[.]/g, "")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (cleaned.length === 0) return null;
+  const tokens = cleaned.split(" ");
+  // Longest match first: "private limited" before "limited".
+  const lastTwo = tokens.length >= 2 ? `${tokens[tokens.length - 2]} ${tokens[tokens.length - 1]}` : null;
+  if (lastTwo && FORM_OF_TOKEN.has(lastTwo)) return FORM_OF_TOKEN.get(lastTwo) as string;
+  const last = tokens[tokens.length - 1] as string;
+  return FORM_OF_TOKEN.get(last) ?? null;
+};
+
+/**
+ * Tokens that name a ROLE INSIDE a corporate group rather than the group's
+ * brand. One side carrying one that the other lacks is the signature of a
+ * parent/subsidiary or holding/operating pair — "Allergan plc" against
+ * "Allergan Finance LLC", "Novartis AG" against "Novartis Pharma AG",
+ * "Humana AB" against "Humana Holding AB".
+ *
+ * This is a NAME feature and nothing more. It is derived from the two
+ * strings alone, reads no relationship record, and asserts no view about
+ * whether a parent and its subsidiary are the same entity — that question
+ * is the owner's under P6.21.2 and is untouched here. All this says is
+ * that the two names describe different POSITIONS in a group, which is
+ * evidence they denote different legal persons, and it can only ever push
+ * a pair away from a merge.
+ */
+const STRUCTURAL_TOKENS = new Set([
+  "holding", "holdings", "group", "groupe", "finance", "financial", "capital",
+  "international", "intressenter", "pharma", "pharmaceutical", "pharmaceuticals",
+  "services", "solutions", "trust", "partners", "partnership", "ventures",
+  "investments", "investment", "management", "operating", "properties",
+  "entertainment", "technologies", "systems", "industries", "enterprises",
+]);
 
 const setsDiffer = (a: readonly string[], b: readonly string[]): boolean => {
   if (a.length === 0 || b.length === 0) return false;
@@ -181,6 +300,25 @@ export function buildFeatures(a: FeatureRecord, b: FeatureRecord): FeatureVector
   const maxLength = Math.max(normA.length, normB.length);
   const maxTokens = Math.max(tokA.length, tokB.length);
 
+  // Both sides must actually STATE a form for a disagreement to exist. A
+  // name with no suffix is silent about its legal form, not in conflict
+  // with one — "Genertel" does not contradict "GENERTEL S.P.A.".
+  const formA = legalFormOf(a.name);
+  const formB = legalFormOf(b.name);
+  const legalFormConflict = formA !== null && formB !== null && formA !== formB;
+
+  const structuralA = tokA.filter((token) => STRUCTURAL_TOKENS.has(token));
+  const structuralB = tokB.filter((token) => STRUCTURAL_TOKENS.has(token));
+  const structuralTokenAsymmetry = setsDiffer(
+    [...new Set(structuralA)].sort(),
+    [...new Set(structuralB)].sort(),
+  )
+    ? true
+    : // setsDiffer returns false when either side is empty, which is the
+      // case that matters most here: one side carries "Holding" and the
+      // other carries nothing at all.
+      structuralA.length !== structuralB.length;
+
   const values: number[] = [
     bool(a.name === b.name),
     bool(normA.length > 0 && normA === normB),
@@ -207,6 +345,8 @@ export function buildFeatures(a: FeatureRecord, b: FeatureRecord): FeatureVector
     bool((a.aliases?.length ?? 0) > 0 || (b.aliases?.length ?? 0) > 0),
     bool(setsDiffer(digitRuns(a.name), digitRuns(b.name))),
     bool(setsDiffer(romanTokens(tokA), romanTokens(tokB))),
+    bool(legalFormConflict),
+    bool(structuralTokenAsymmetry),
   ];
 
   if (values.length !== FEATURE_NAMES.length) {

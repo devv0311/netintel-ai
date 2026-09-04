@@ -6,8 +6,8 @@
     "path": "evidence/ml/pair-dataset.json"
   },
   "priorFrozenTestsHonoured": [],
-  "ranAt": "2026-09-04T08:15:37.618Z",
-  "verdict": "PASS",
+  "ranAt": "2026-09-04T08:32:24.840Z",
+  "verdict": "FAIL",
   "checks": [
     {
       "id": "L1",
@@ -130,6 +130,38 @@
       "passed": true,
       "detail": "no prior dataset declared; this is the first frozen test, so there is nothing to ratchet against",
       "evidence": []
+    },
+    {
+      "id": "L12",
+      "name": "no trainable feature value is a perfect one-way indicator with real support",
+      "passed": false,
+      "detail": "3 trainable feature value(s) never co-occur with one of the labels despite at least 30 TRAIN rows; 1 feature(s) are excluded from training and therefore unlearnable: officialNameBothPresent",
+      "evidence": [
+        {
+          "feature": "jurisdictionBothKnown",
+          "value": 1,
+          "support": 134,
+          "positives": 0,
+          "negatives": 134,
+          "reading": "jurisdictionBothKnown=1 occurs 134 times in TRAIN and NEVER alongside a positive — the model can read it as a veto"
+        },
+        {
+          "feature": "jurisdictionCountryMatch",
+          "value": 1,
+          "support": 59,
+          "positives": 0,
+          "negatives": 59,
+          "reading": "jurisdictionCountryMatch=1 occurs 59 times in TRAIN and NEVER alongside a positive — the model can read it as a veto"
+        },
+        {
+          "feature": "jurisdictionCountryConflict",
+          "value": 1,
+          "support": 75,
+          "positives": 0,
+          "negatives": 75,
+          "reading": "jurisdictionCountryConflict=1 occurs 75 times in TRAIN and NEVER alongside a positive — the model can read it as a veto"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"AU\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nLIMIT 500",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-04T08:44:57.320Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "c1893ffd2748dcd281b6fb94d4aee9f630a1633e57c778600c4b5c9bbf1045cc",
+  "rawBytes": 194126,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "c1893ffd2748dcd281b6fb94d4aee9f630a1633e57c778600c4b5c9bbf1045cc",
+      "bytes": 194126,
+      "records": 198,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 198,
+  "recordsSha256": "53c91afcca563985e13044a76564f83cff8ebfa97c967a59e91c88ce59b34f9d",
+  "warnings": [
+    "334 SPARQL rows folded into 198 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q625713 states 2 LEIs (549300C116EOWV835768, WZE1WSENV6JSZFK0JC28); all kept, none chosen between.",
+    "wikidata:Q637440 states 2 LEIs (254900RIBCDJSUFG1A11, 5493009YO1MGVNTJ0W35); all kept, none chosen between.",
+    "wikidata:Q721162 states 2 LEIs (894500WRW54CVN62K416, PCTXNQGRJVR3OG33JG65); all kept, none chosen between.",
+    "wikidata:Q4823756 states 2 LEIs (549300OBJKQMWQ5R4797, 549300SDK641VC1FPE36); all kept, none chosen between.",
+    "wikidata:Q111914575 states 2 LEIs (XJ73T0B31LKHL9Q4HE61, OE40RLQ75J24YY161R59); all kept, none chosen between."
+  ]
+}

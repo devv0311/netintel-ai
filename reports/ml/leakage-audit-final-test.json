@@ -1,0 +1,129 @@
+{
+  "audit": "P6.24.2 leakage gate",
+  "dataset": {
+    "id": "cipher-er-pairs-final-test",
+    "version": "1.0.0",
+    "path": "evidence/ml/pair-dataset-final-test.json"
+  },
+  "priorFrozenTestsHonoured": [
+    "evidence/ml/pair-dataset.json",
+    "evidence/ml/pair-dataset-v2.json"
+  ],
+  "ranAt": "2026-09-04T08:49:09.073Z",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "id": "L1",
+      "name": "subject disjointness",
+      "passed": true,
+      "detail": "963 subjects appear in the pair set; 0 appear in more than one partition",
+      "evidence": []
+    },
+    {
+      "id": "L2",
+      "name": "declared partition agrees with emitted pairs",
+      "passed": true,
+      "detail": "0 subjects whose emitted pairs disagree with the declared partition",
+      "evidence": []
+    },
+    {
+      "id": "L3",
+      "name": "record disjointness",
+      "passed": true,
+      "detail": "1791 records used; 0 appear in more than one partition",
+      "evidence": []
+    },
+    {
+      "id": "L4",
+      "name": "no duplicate record pair",
+      "passed": true,
+      "detail": "5257 distinct record pairs; 0 appear more than once",
+      "evidence": []
+    },
+    {
+      "id": "L5",
+      "name": "record projection carries no identifier field",
+      "passed": true,
+      "detail": "all 1791 projections carry only name, officialName, aliases, jurisdiction, registry"
+    },
+    {
+      "id": "L6",
+      "name": "feature code reads no identifier",
+      "passed": true,
+      "detail": "no identifier accessor appears in src/lib/ml/features.ts outside comments"
+    },
+    {
+      "id": "L7",
+      "name": "no single feature separates the classes almost perfectly",
+      "passed": true,
+      "detail": "every feature's standalone ROC-AUC on TRAIN is inside [0.01, 0.99]",
+      "evidence": [
+        {
+          "feature": "exactNameMatch",
+          "auc": null
+        },
+        {
+          "feature": "normalizedNameMatch",
+          "auc": null
+        },
+        {
+          "feature": "anyVariantNormalizedMatch",
+          "auc": null
+        },
+        {
+          "feature": "sortedTokenMatch",
+          "auc": null
+        },
+        {
+          "feature": "tokenJaccard",
+          "auc": null
+        },
+        {
+          "feature": "tokenContainment",
+          "auc": null
+        },
+        {
+          "feature": "orderedPrefixContainment",
+          "auc": null
+        },
+        {
+          "feature": "firstTokenMatch",
+          "auc": null
+        }
+      ]
+    },
+    {
+      "id": "L8",
+      "name": "no identical entity spans two partitions",
+      "passed": true,
+      "detail": "0 normalised names occur in more than one partition, all under DIFFERENT subjects (distinct legal entities that share a name — the phenomenon the hard negatives exist to capture, not leakage); 0 occur under the SAME subject, which would be leakage",
+      "evidence": []
+    },
+    {
+      "id": "L9",
+      "name": "standardiser fitted on TRAIN rows only",
+      "passed": true,
+      "detail": "scripts/ml/train-model.ts calls fitStandardiser on the train examples"
+    },
+    {
+      "id": "L10",
+      "name": "training script does not read the test partition",
+      "passed": true,
+      "detail": "no reference to the test partition in scripts/ml/train-model.ts"
+    },
+    {
+      "id": "L11",
+      "name": "no subject from an earlier frozen test appears in train or validation",
+      "passed": true,
+      "detail": "2 prior dataset(s) checked; 0 subject(s) escaped a frozen test into train or validation",
+      "evidence": []
+    },
+    {
+      "id": "L12",
+      "name": "no trainable feature value is a perfect one-way indicator with real support",
+      "passed": true,
+      "detail": "every trainable binary feature value with at least 30 TRAIN rows occurs alongside BOTH labels; 1 feature(s) are excluded from training and therefore unlearnable: officialNameBothPresent",
+      "evidence": []
+    }
+  ]
+}

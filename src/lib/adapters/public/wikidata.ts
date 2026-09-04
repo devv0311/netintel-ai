@@ -131,12 +131,73 @@ LIMIT ${limit}`,
 
 export type WikidataQueryName = keyof typeof QUERIES;
 
+/**
+ * P6.25.5 — the same enriched query, restricted to ONE country.
+ *
+ * Kept apart from QUERIES because it takes a parameter, and a parameter is
+ * exactly what the governance rules are careful about. The parameter is
+ * NOT a query and NOT a URL: it is a two-letter ISO 3166-1 alpha-2 code,
+ * rejected unless it matches /^[A-Z]{2}$/, interpolated into a constant
+ * template whose shape the caller cannot influence. There is still no way
+ * to express an arbitrary crawl.
+ *
+ * It exists for two reasons. Jurisdiction diversity is one: the unordered
+ * worldwide LIMIT returns whatever the endpoint returns, which was 60%
+ * US/DE/CZ/NO. A subject set disjoint from what has already been collected
+ * is the other, and it is the harder requirement — a genuinely fresh
+ * frozen test needs entities that have never informed a single development
+ * decision, and ORDER BY over ~43,800 LEI-bearing items times out at the
+ * WDQS gateway (HTTP 502), so paging with OFFSET is not available.
+ *
+ * The triple order is load-bearing. Filtering the country code after the
+ * fact (`FILTER(?countryCode = "IN")`) makes the endpoint enumerate every
+ * LEI-bearing company first and returns HTTP 504; binding the country
+ * first lets it start from the country. Same result, and the difference
+ * between a query that answers and one that does not.
+ */
+export function countryQuery(countryCode: string, limit: number): string {
+  if (!/^[A-Z]{2}$/.test(countryCode)) {
+    throw new Error(`country must be an ISO 3166-1 alpha-2 code, got "${countryCode}"`);
+  }
+  return `
+SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {
+  BIND("${countryCode}" AS ?countryCode)
+  ?country wdt:P297 ?countryCode .
+  ?item wdt:P17 ?country ;
+        wdt:P31/wdt:P279* wd:Q4830453 ;
+        wdt:P1278 ?lei .
+  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = "hi") }
+  OPTIONAL { ?item wdt:P1448 ?official }
+  OPTIONAL { ?item wdt:P1813 ?shortName }
+  OPTIONAL { ?item wdt:P1320 ?ocid }
+  OPTIONAL { ?item wdt:P5531 ?cik }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+LIMIT ${limit}`.trim();
+}
+
 export function planWikidata(
   queryName: WikidataQueryName,
   options: AdapterOptions,
+  country?: string,
 ): AdapterPlan {
   const entry = requireApprovedSource(WIKIDATA_SOURCE_ID, options.root);
   const limit = Math.min(options.limit, MAX_LIMIT);
+  if (country) {
+    return {
+      sourceId: WIKIDATA_SOURCE_ID,
+      sourceName: entry.sourceName,
+      endpoint: ENDPOINT,
+      request: countryQuery(country, limit),
+      license: entry.license,
+      licenseUrl: entry.licenseUrl,
+      rateLimit: entry.rateLimit,
+      limit,
+      estimatedRequests: 1,
+      estimatedBytes: limit * 512,
+      destination: `data/public/raw/${WIKIDATA_SOURCE_ID}/<retrievedAt>/companies-with-lei-${country}.json`,
+    };
+  }
   return {
     sourceId: WIKIDATA_SOURCE_ID,
     sourceName: entry.sourceName,
@@ -230,8 +291,9 @@ export function mapWikidataBinding(
 export async function collectWikidata(
   queryName: WikidataQueryName,
   options: AdapterOptions,
+  country?: string,
 ): Promise<AdapterResult> {
-  const plan = planWikidata(queryName, options);
+  const plan = planWikidata(queryName, options, country);
   const retrievedAt = new Date().toISOString();
   const warnings: string[] = [];
 

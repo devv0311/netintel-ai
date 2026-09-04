@@ -45,12 +45,16 @@ interface Dataset {
   counts: { byLabelClass: Record<string, number> };
 }
 
-const dataset = JSON.parse(read("evidence/ml/pair-dataset.json")) as Dataset;
-const leakage = JSON.parse(read("reports/ml/leakage-audit.json")) as {
+// The SHIPPED dataset and its reports. P6.25 supersedes the P6.24 pair
+// dataset; that one stays in the repository, and its own gate is asserted
+// separately below because its result is a documented finding rather than
+// a passing check.
+const dataset = JSON.parse(read("evidence/ml/pair-dataset-v2.json")) as Dataset;
+const leakage = JSON.parse(read("reports/ml/leakage-audit-v2.json")) as {
   verdict: string;
   checks: { id: string; passed: boolean; name: string }[];
 };
-const evaluation = JSON.parse(read("reports/ml/heldout-evaluation.json")) as {
+const evaluation = JSON.parse(read("reports/ml/heldout-evaluation-v2.json")) as {
   artifact: { sha256: string; decisionThreshold: number };
   heldOut: { pairs: number; positives: number };
   headline: {
@@ -80,9 +84,15 @@ describe("dataset validity", () => {
     }
   });
 
-  it("keeps every one of the ground truth's 578 positives and 146 curated hard negatives", () => {
-    expect(dataset.counts.byLabelClass.cross_source_positive).toBe(578);
-    expect(dataset.counts.byLabelClass.hard_negative).toBe(146);
+  it("keeps every one of the ground truth's positives and curated hard negatives", () => {
+    // Read from the ground truth rather than hard-coded, so a corpus
+    // expansion cannot make this assertion stale and cannot make it pass
+    // by having quietly dropped labelled pairs on the way in.
+    const truth = JSON.parse(read("evidence/expanded-v2/expanded-v2.ground-truth.json")) as {
+      counts: { crossSourcePositives: number; hardNegatives: number };
+    };
+    expect(dataset.counts.byLabelClass.cross_source_positive).toBe(truth.counts.crossSourcePositives);
+    expect(dataset.counts.byLabelClass.hard_negative).toBe(truth.counts.hardNegatives);
   });
 
   it("uses only the three declared partitions", () => {
@@ -141,7 +151,7 @@ describe("leakage gate", () => {
 });
 
 describe("reproducibility", () => {
-  const raw = read("models/cipher-er-pair-classifier.v1.json");
+  const raw = read("models/cipher-er-pair-classifier.v2.json");
   const artifact = loadArtifact(raw);
   const heldOut = dataset.pairs.filter((pair) => pair.partition === "test");
 
