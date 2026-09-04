@@ -48,8 +48,37 @@ import { normalizeName } from "@/lib/resolution/name-normalization";
 const ROOT = process.cwd();
 const OUT = "evidence/expanded-v2";
 const PRIOR_TRUTH = "evidence/expanded/expanded.ground-truth.json";
-/** The P6.24 pair dataset — the record of what the frozen test ACTUALLY contained. */
-const PRIOR_PAIR_DATASET = "evidence/ml/pair-dataset.json";
+/**
+ * Every dataset whose TEST partition this build must PROMOTE out of
+ * train/validation — the record of what each frozen test ACTUALLY
+ * contained, as opposed to what it was designated.
+ *
+ * The P6.25 final test is deliberately NOT listed, and the reason is
+ * worth stating because the omission looks like the bug it is guarding
+ * against.
+ *
+ * The invariant that matters is pair-based: a subject is "trained on"
+ * when it contributes PAIRS to train or validation. Leakage check L11
+ * enforces exactly that, and it is wired to BOTH frozen tests via
+ * `ml:leakage --prior-datasets`. The shipped v2 dataset passes it: the
+ * three subjects it shares with the final test (CIK:1534701, CIK:1610520,
+ * CIK:823094) carry zero v2 pairs, so the model never saw them.
+ *
+ * Promoting them anyway would be a no-op protection with a real cost.
+ * The train/validation cut below is a positional slice through a
+ * Fisher-Yates shuffle of the free components, so removing three
+ * components reshuffles the rest: promoting these three moves 222 OTHER
+ * subjects across the train/validation boundary and changes the shipped
+ * model, to protect against pairs that do not exist.
+ *
+ * So enforcement lives at the gate, where it is asserted, rather than
+ * here, where it would be assumed. If a later collection ever gives one
+ * of these subjects a pair, L11 FAILS and blocks the build — which is the
+ * outcome wanted, and is strictly better than this file silently
+ * absorbing it. Add the final test here at that point, when the corpus is
+ * being re-cut anyway and the churn costs nothing.
+ */
+const PRIOR_PAIR_DATASETS = ["evidence/ml/pair-dataset.json"];
 
 interface Rec {
   recordRef: string; registry: string; registryRecordId: string; name: string;
@@ -61,6 +90,37 @@ interface Rec {
 }
 
 /**
+ * The collection runs this corpus is built from, pinned.
+ *
+ * The loader below used to read EVERY run directory under
+ * `data/public/raw/<src>`. That is correct exactly once — while a corpus
+ * is being assembled and nothing downstream depends on it yet. It stops
+ * being correct the moment the corpus is frozen and collection continues,
+ * because "every run on disk" then silently means "including runs
+ * collected for a later, disjoint corpus".
+ *
+ * That is not hypothetical here. The P6.25 final test was collected into
+ * these same three source directories AFTER this corpus was frozen, so
+ * rebuilding from the glob grew this corpus from 3,290 scorable records
+ * to 5,085 and pulled 417 of the final test's 973 subjects into TRAIN and
+ * VALIDATION — destroying the only untouched instrument the project has,
+ * while every one of L1-L12 still passed, because a freshly-built split
+ * is internally disjoint no matter what it absorbed.
+ *
+ * So the input is declared, not discovered. `--adopt-runs` re-declares it
+ * from disk and rewrites the pin; nothing else may change it.
+ */
+const PIN_PATH = path.join(ROOT, OUT, "collection-runs.json");
+const ADOPT_RUNS = process.argv.includes("--adopt-runs");
+const PIN: { runs: Record<string, string[]> } | null =
+  !ADOPT_RUNS && fs.existsSync(PIN_PATH)
+    ? (JSON.parse(fs.readFileSync(PIN_PATH, "utf8")) as { runs: Record<string, string[]> })
+    : null;
+if (!PIN && !ADOPT_RUNS) {
+  console.warn(`WARNING  no ${PIN_PATH}; reading every collection run on disk. This corpus is not reproducible until the pin exists.`);
+}
+
+/**
  * Every run for a source, oldest first, de-duplicated by recordRef with the
  * later observation winning. Returns the run directories it actually read so
  * the ground truth can name its own provenance rather than assert it.
@@ -69,10 +129,21 @@ const loadAllRecords = (
   src: string,
 ): { records: Rec[]; dirs: string[]; manifests: Record<string, unknown>[]; runs: number; rowsRead: number } => {
   const base = path.join(ROOT, "data/public/raw", src);
-  const runDirs = fs
+  const onDisk = fs
     .readdirSync(base)
     .filter((d) => fs.statSync(path.join(base, d)).isDirectory())
     .sort();
+  const pinned = PIN?.runs[src];
+  if (pinned) {
+    const missing = pinned.filter((d) => !onDisk.includes(d));
+    if (missing.length > 0) {
+      throw new Error(
+        `${PIN_PATH} pins ${missing.length} collection run(s) for ${src} that are not on disk: ${missing.join(", ")}. ` +
+          `The pin is the corpus's definition of its own input; a missing run means this corpus cannot be rebuilt, not that it should be rebuilt smaller.`,
+      );
+    }
+  }
+  const runDirs = pinned ? onDisk.filter((d) => pinned.includes(d)) : onDisk;
   const byRef = new Map<string, Rec>();
   const dirs: string[] = [];
   const manifests: Record<string, unknown>[] = [];
@@ -271,8 +342,9 @@ function main(): void {
   const prior = JSON.parse(fs.readFileSync(path.join(ROOT, PRIOR_TRUTH), "utf8")) as { split: Record<string, string> };
   const priorSplit: Record<string, string> = { ...prior.split };
   let promotedFromFrozenTest = 0;
-  const priorDatasetPath = path.join(ROOT, PRIOR_PAIR_DATASET);
-  if (fs.existsSync(priorDatasetPath)) {
+  for (const priorPath of PRIOR_PAIR_DATASETS) {
+    const priorDatasetPath = path.join(ROOT, priorPath);
+    if (!fs.existsSync(priorDatasetPath)) continue;
     const priorDataset = JSON.parse(fs.readFileSync(priorDatasetPath, "utf8")) as {
       pairs: { partition: string; subject?: string; subjectA?: string; subjectB?: string }[];
     };
@@ -382,6 +454,24 @@ function main(): void {
     }])),
   };
   fs.writeFileSync(path.join(ROOT, OUT, "expanded-v2.ground-truth.json"), `${JSON.stringify(truth, null, 2)}\n`);
+
+  if (ADOPT_RUNS) {
+    const pin = {
+      note:
+        "The EXACT collection runs this corpus is built from. The builders read these and only these. " +
+        "Without this pin the loader globs every run directory under data/public/raw/<src>, so any later " +
+        "collection silently enters an earlier, frozen corpus - which is how the P6.25 final test's own " +
+        "collection runs came to be swept into the v2 TRAINING corpus. Regenerate deliberately with " +
+        "--adopt-runs, never incidentally.",
+      runs: {
+        "SRC-001": wd.dirs.map((d) => path.basename(d)),
+        "SRC-002": gl.dirs.map((d) => path.basename(d)),
+        "SRC-006": ed.dirs.map((d) => path.basename(d)),
+      },
+    };
+    fs.writeFileSync(path.join(ROOT, OUT, "collection-runs.json"), `${JSON.stringify(pin, null, 2)}\n`);
+    console.log(`ADOPTED collection runs -> ${path.join(OUT, "collection-runs.json")}`);
+  }
 
   /* ---- report ---- */
   const c = (o: Record<string, number>) => Object.entries(o).sort((a, b) => b[1] - a[1]);

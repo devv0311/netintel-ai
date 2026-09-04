@@ -27,6 +27,31 @@ regenerated report against the committed one, ignore `ranAt`,
 `createdAt`, `gitCommit`, `builtAt` and `trainingMillis`; every other
 field must match exactly.
 
+## 0.1 The corpus reads a DECLARED run set, not the disk
+
+Each corpus pins the collection runs it was built from:
+
+- `evidence/expanded-v2/collection-runs.json` — 4 Wikidata, 14 GLEIF, 2 EDGAR
+- `evidence/final-test/collection-runs.json` — 12 Wikidata, 16 GLEIF, 3 EDGAR
+
+The builders read those runs and only those. This is load-bearing, and
+it was added because its absence silently broke this document.
+
+The loader used to read every run directory under
+`data/public/raw/<src>`, which is correct exactly once — while a corpus
+is being assembled and nothing depends on it yet. The P6.25 final test
+was then collected into those same three directories. Re-running §1 from
+a clean checkout therefore rebuilt the *training* corpus from 31 runs
+instead of the 20 it was frozen from: 3,290 scorable records became
+5,085, 1,711 positives became 2,604, and **417 of the final test's 973
+subjects landed in TRAIN and VALIDATION.** Leakage checks L1–L13 all
+still passed — a freshly-built split is internally disjoint whatever it
+absorbed — so nothing would have reported it.
+
+`tests/unit/ml-collection-runs.test.ts` asserts the pins. To extend a
+corpus deliberately, pass `--adopt-runs`, which re-declares the pin from
+disk; nothing else changes it.
+
 ## 1. The shipped model (`cipher-er-pairs` v2.0.0)
 
 **Every `ml:*` script defaults to the SHIPPED pipeline.** The superseded
@@ -45,7 +70,7 @@ Expected:
 | --- | --- |
 | Scorable records / positives / hard negatives | 3,290 / 1,711 / 477 |
 | Partitions (train / validation / test) | 3,121 / 951 / 6,692 pairs |
-| Leakage verdict | **PASS 12/12** |
+| Leakage verdict | **PASS 13/13**, against BOTH frozen tests |
 | Shipped experiment | `E2-logistic-regression`, recall 79.7%, threshold 0.9774753387972909 |
 | **weightsDigest** | `6948e6bc6bb94b0aebe937fe0bd445e39b4c49e62cb456efa7eac742fde2f849` |
 
@@ -54,14 +79,27 @@ Expected:
 ```bash
 npm run ml:final-test:corpus     # collected AFTER all feature work
 npm run ml:final-test:dataset    # single partition: --all-test
-npm run ml:final-test:leakage    # PASS 12/12, and 0 overlap with v1 or v2
+npm run ml:final-test:leakage    # PASS 13/13, and 0 overlap with v1 or v2
 npm run ml:final-test            # scored ONCE against the frozen artifact
 ```
 
 Expected: 5,257 pairs / 892 positives / 244 curated hard negatives / 963
-subjects; leakage **PASS 12/12**; model recall **76.5%** (682/892),
+subjects; leakage **PASS 13/13**; model recall **76.5%** (682/892),
 precision 93.7%, hard-negative false merges **41/244**; baseline recall
 48.7% (434/892), hard-negative false merges 16/244.
+
+**Three subjects are shared with the v2 dataset, and the test was not
+re-cut.** `CIK:1534701`, `CIK:1610520` and `CIK:823094` appear in v2's
+`partitionOfSubject` map but contribute **zero v2 pairs**, so the model
+was never trained on them. They reach this test as one side of three
+`sampled_negative` pairs — 3 of 5,257 (0.06%), **0 positives**, and on a
+negative class where both the model and the baseline make zero false
+merges. Recall (682/892), precision and every hard-negative number above
+are arithmetically unaffected. The exclusion that missed them read only
+prior *pairs*; it now also reads prior `partitionOfSubject`, so a future
+test cannot repeat it. This is recorded rather than repaired because
+re-cutting a frozen test to remove three inert negatives would spend the
+instrument to change no published number.
 
 ## 3. The head-to-head
 

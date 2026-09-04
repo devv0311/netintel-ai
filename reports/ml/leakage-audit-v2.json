@@ -6,9 +6,10 @@
     "path": "evidence/ml/pair-dataset-v2.json"
   },
   "priorFrozenTestsHonoured": [
-    "evidence/ml/pair-dataset.json"
+    "evidence/ml/pair-dataset.json",
+    "evidence/ml/pair-dataset-final-test.json"
   ],
-  "ranAt": "2026-09-04T09:48:04.404Z",
+  "ranAt": "2026-09-04T10:09:42.138Z",
   "verdict": "PASS",
   "checks": [
     {
@@ -145,8 +146,86 @@
       "id": "L11",
       "name": "no subject from an earlier frozen test appears in train or validation",
       "passed": true,
-      "detail": "1 prior dataset(s) checked; 0 subject(s) escaped a frozen test into train or validation",
+      "detail": "2 prior dataset(s) checked; 0 subject(s) escaped a frozen test into train or validation",
       "evidence": []
+    },
+    {
+      "id": "L13",
+      "name": "subjects in this held-out partition that an earlier build fitted on (reported, not enforced)",
+      "passed": true,
+      "detail": "2 prior dataset(s) checked; 75 subject(s) in this held-out partition were fitted on by an earlier build. NOT a failure: this is a training dataset's held-out partition, not a frozen test. It is the measured reason the P6.25 final test exists.",
+      "evidence": [
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:B1WXCWLJVJXMWJX6O298",
+          "fittedIn": [
+            "train"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:213800W4H5KBEEHL6425",
+          "fittedIn": [
+            "validation"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:549300V8RNJM71TBP121",
+          "fittedIn": [
+            "validation"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:549300R6GGKJLEL69M77",
+          "fittedIn": [
+            "validation"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:529900GV66NMGZLKFS48",
+          "fittedIn": [
+            "train"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:549300RVXR52VP8G0Q95",
+          "fittedIn": [
+            "validation"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:213800KZBUKL7G5OPF59",
+          "fittedIn": [
+            "train"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:549300O6E2WAK3IAXE34",
+          "fittedIn": [
+            "validation"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "LEI:529900K9B0N5BT694847",
+          "fittedIn": [
+            "validation"
+          ]
+        },
+        {
+          "priorDataset": "evidence/ml/pair-dataset.json",
+          "subject": "CIK:1127508",
+          "fittedIn": [
+            "validation"
+          ]
+        }
+      ]
     },
     {
       "id": "L12",

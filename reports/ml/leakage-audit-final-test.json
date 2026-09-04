@@ -9,7 +9,7 @@
     "evidence/ml/pair-dataset.json",
     "evidence/ml/pair-dataset-v2.json"
   ],
-  "ranAt": "2026-09-04T08:49:09.073Z",
+  "ranAt": "2026-09-04T10:09:42.362Z",
   "verdict": "PASS",
   "checks": [
     {
@@ -116,6 +116,13 @@
       "name": "no subject from an earlier frozen test appears in train or validation",
       "passed": true,
       "detail": "2 prior dataset(s) checked; 0 subject(s) escaped a frozen test into train or validation",
+      "evidence": []
+    },
+    {
+      "id": "L13",
+      "name": "no subject in this frozen test was fitted on by an earlier build",
+      "passed": true,
+      "detail": "2 prior dataset(s) checked; 0 subject(s) in this FROZEN TEST contributed train or validation pairs to an earlier dataset",
       "evidence": []
     },
     {

@@ -58,6 +58,37 @@ interface Rec {
 }
 
 /**
+ * The collection runs this corpus is built from, pinned.
+ *
+ * The loader below used to read EVERY run directory under
+ * `data/public/raw/<src>`. That is correct exactly once — while a corpus
+ * is being assembled and nothing downstream depends on it yet. It stops
+ * being correct the moment the corpus is frozen and collection continues,
+ * because "every run on disk" then silently means "including runs
+ * collected for a later, disjoint corpus".
+ *
+ * That is not hypothetical here. The P6.25 final test was collected into
+ * these same three source directories AFTER this corpus was frozen, so
+ * rebuilding from the glob grew this corpus from 3,290 scorable records
+ * to 5,085 and pulled 417 of the final test's 973 subjects into TRAIN and
+ * VALIDATION — destroying the only untouched instrument the project has,
+ * while every one of L1-L12 still passed, because a freshly-built split
+ * is internally disjoint no matter what it absorbed.
+ *
+ * So the input is declared, not discovered. `--adopt-runs` re-declares it
+ * from disk and rewrites the pin; nothing else may change it.
+ */
+const PIN_PATH = path.join(ROOT, OUT, "collection-runs.json");
+const ADOPT_RUNS = process.argv.includes("--adopt-runs");
+const PIN: { runs: Record<string, string[]> } | null =
+  !ADOPT_RUNS && fs.existsSync(PIN_PATH)
+    ? (JSON.parse(fs.readFileSync(PIN_PATH, "utf8")) as { runs: Record<string, string[]> })
+    : null;
+if (!PIN && !ADOPT_RUNS) {
+  console.warn(`WARNING  no ${PIN_PATH}; reading every collection run on disk. This corpus is not reproducible until the pin exists.`);
+}
+
+/**
  * Every run for a source, oldest first, de-duplicated by recordRef with the
  * later observation winning. Returns the run directories it actually read so
  * the ground truth can name its own provenance rather than assert it.
@@ -66,10 +97,21 @@ const loadAllRecords = (
   src: string,
 ): { records: Rec[]; dirs: string[]; manifests: Record<string, unknown>[]; runs: number; rowsRead: number } => {
   const base = path.join(ROOT, "data/public/raw", src);
-  const runDirs = fs
+  const onDisk = fs
     .readdirSync(base)
     .filter((d) => fs.statSync(path.join(base, d)).isDirectory())
     .sort();
+  const pinned = PIN?.runs[src];
+  if (pinned) {
+    const missing = pinned.filter((d) => !onDisk.includes(d));
+    if (missing.length > 0) {
+      throw new Error(
+        `${PIN_PATH} pins ${missing.length} collection run(s) for ${src} that are not on disk: ${missing.join(", ")}. ` +
+          `The pin is the corpus's definition of its own input; a missing run means this corpus cannot be rebuilt, not that it should be rebuilt smaller.`,
+      );
+    }
+  }
+  const runDirs = pinned ? onDisk.filter((d) => pinned.includes(d)) : onDisk;
   const byRef = new Map<string, Rec>();
   const dirs: string[] = [];
   const manifests: Record<string, unknown>[] = [];
@@ -119,13 +161,16 @@ function main(): void {
       pairs: { subjectA?: string; subjectB?: string; subject?: string }[];
     };
     let added = 0;
-    for (const pair of priorDataset.pairs) {
-      for (const subject of [pair.subject, pair.subjectA, pair.subjectB]) {
-        if (subject && !seenSubjects.has(subject)) {
-          seenSubjects.add(subject);
-          added++;
-        }
+    const see = (subject: string | undefined) => {
+      if (subject && !seenSubjects.has(subject)) {
+        seenSubjects.add(subject);
+        added++;
       }
+    };
+    for (const pair of priorDataset.pairs) {
+      see(pair.subject);
+      see(pair.subjectA);
+      see(pair.subjectB);
     }
     seenProvenance.push({ dataset: priorPath, subjects: added });
   }
@@ -389,6 +434,24 @@ function main(): void {
     }])),
   };
   fs.writeFileSync(path.join(ROOT, OUT, "final-test.ground-truth.json"), `${JSON.stringify(truth, null, 2)}\n`);
+
+  if (ADOPT_RUNS) {
+    const pin = {
+      note:
+        "The EXACT collection runs this corpus is built from. The builders read these and only these. " +
+        "Without this pin the loader globs every run directory under data/public/raw/<src>, so any later " +
+        "collection silently enters an earlier, frozen corpus - which is how the P6.25 final test's own " +
+        "collection runs came to be swept into the v2 TRAINING corpus. Regenerate deliberately with " +
+        "--adopt-runs, never incidentally.",
+      runs: {
+        "SRC-001": wd.dirs.map((d) => path.basename(d)),
+        "SRC-002": gl.dirs.map((d) => path.basename(d)),
+        "SRC-006": ed.dirs.map((d) => path.basename(d)),
+      },
+    };
+    fs.writeFileSync(path.join(ROOT, OUT, "collection-runs.json"), `${JSON.stringify(pin, null, 2)}\n`);
+    console.log(`ADOPTED collection runs -> ${path.join(OUT, "collection-runs.json")}`);
+  }
 
   /* ---- report ---- */
   const c = (o: Record<string, number>) => Object.entries(o).sort((a, b) => b[1] - a[1]);

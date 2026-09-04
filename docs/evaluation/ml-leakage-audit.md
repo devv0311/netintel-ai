@@ -8,17 +8,17 @@ exits non-zero and the split is rebuilt, not argued with.
 npm run ml:leakage                                        # v1 (superseded) — FAILS L12, deliberately
 node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts \
   --dataset evidence/ml/pair-dataset-v2.json --out leakage-audit-v2.json \
-  --prior-datasets evidence/ml/pair-dataset.json            # v2 — PASS 12/12
+  --prior-datasets evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-final-test.json   # v2 — PASS 13/13
 node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts \
   --dataset evidence/ml/pair-dataset-final-test.json --out leakage-audit-final-test.json \
-  --prior-datasets evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-v2.json   # PASS 12/12
+  --prior-datasets evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-v2.json   # PASS 13/13
 ```
 
 | Dataset | Verdict | Report |
 | --- | --- | --- |
 | `cipher-er-pairs` v1.0.0 (superseded) | **FAIL — L12** | `reports/ml/leakage-audit.json` |
-| `cipher-er-pairs` v2.0.0 (shipped) | **PASS 12/12** | `reports/ml/leakage-audit-v2.json` |
-| `cipher-er-pairs-final-test` v1.0.0 | **PASS 12/12** | `reports/ml/leakage-audit-final-test.json` |
+| `cipher-er-pairs` v2.0.0 (shipped) | **PASS 13/13** | `reports/ml/leakage-audit-v2.json` |
+| `cipher-er-pairs-final-test` v1.0.0 | **PASS 13/13** | `reports/ml/leakage-audit-final-test.json` |
 
 The v1 FAIL is left in the repository as it stands. It is a finding about
 a shipped model, and regenerating it into a pass would delete the
@@ -42,9 +42,10 @@ evidence.
 | L10 | **Test untouched** — the training script never references the test partition, checked by grep. |
 | L11 | **The frozen test is a ratchet** *(new in P6.25)*. |
 | L12 | **No trainable feature value is a one-way veto** *(new in P6.25)*. |
+| L13 | **Nothing in a frozen test was fitted on before** *(new in P6.26)*. |
 
-L1–L10 are unchanged from P6.24. L11 and L12 exist because each caught a
-real defect that the other ten could not.
+L1–L10 are unchanged from P6.24. L11, L12 and L13 exist because each
+caught a real defect that the others could not.
 
 ## L11 — a frozen test can thaw when the corpus grows
 
@@ -103,17 +104,55 @@ missingness flag with no other content — is excluded from training, while
 the official name itself still feeds the variant comparisons where it is
 real evidence.
 
-## Extra guarantees for the final frozen test
+## L13 — the ratchet only ran in one direction
 
-Beyond 12/12, the final-test corpus asserts a stricter property: **no
-subject appears in any partition of any earlier dataset**, verified at 0
-overlap across 963 subjects.
+L11 asks whether a subject an **earlier** test froze has reached **this**
+train or validation. Nothing asked the converse: whether a subject an
+earlier build actually **fitted on** has reached **this** test. A test
+that fails the converse is measuring memorisation and reporting
+generalisation, which is the failure the whole suite exists to prevent —
+and it was unchecked.
+
+L13 asks it, and it is **enforced only on a frozen test** — a dataset
+that is one test partition and nothing else. On a training dataset's
+held-out partition it reports rather than fails, because that partition
+never claimed to be unseen: v2's held-out partition contains **75
+subjects the P6.24 build fitted on**, which is not a defect but the
+measured reason the final test exists.
+
+The frozen final test returns **0**.
+
+## Extra guarantees for the final frozen test — and one exception
 
 Exclusion is applied at the **record** level, not the pair level.
 Filtering only labelled pairs was tried first and left 1,563 of 2,520
 subjects in place, because mined and sampled negatives are *derived* from
 whatever records the corpus holds — the positives were clean and the
 negatives were not.
+
+**Three subjects nevertheless got through, and this document previously
+claimed zero.** `CIK:1534701`, `CIK:1610520` and `CIK:823094` appear in
+the v2 dataset's `partitionOfSubject` map; the exclusion scanned prior
+*pairs*, and these three carry no v2 pairs, so it never saw them. They
+reach the final test as one side of three `sampled_negative` pairs.
+
+Exactly what that costs, measured rather than asserted:
+
+| | |
+| --- | --- |
+| Final-test pairs touching one of them | 3 of 5,257 (0.06%) |
+| Positives affected | **0** of 892 |
+| v2 training/validation pairs they contributed | **0** — the model never saw them |
+| Model false merges on `sampled_negative` | 0 (baseline: 0) |
+
+Recall (682/892), precision, and every hard-negative figure are
+arithmetically unaffected. **The test was not re-cut**, and that is a
+decision, not an oversight: re-cutting a frozen instrument to remove
+three inert negatives would change no published number while destroying
+the one property that makes the instrument worth having. The condition is
+now asserted by L13 instead of assumed by a comment — and L13 passes,
+because the subjects were never fitted on, which is the distinction that
+actually matters.
 
 ## What the suite still does not check
 

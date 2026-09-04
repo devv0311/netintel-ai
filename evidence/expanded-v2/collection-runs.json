@@ -1,0 +1,31 @@
+{
+  "note": "The EXACT collection runs this corpus is built from. The builders read these and only these. Without this pin the loader globs every run directory under data/public/raw/<src>, so any later collection silently enters an earlier, frozen corpus - which is how the P6.25 final test's own collection runs came to be swept into the v2 TRAINING corpus. Regenerate deliberately with --adopt-runs, never incidentally.",
+  "runs": {
+    "SRC-001": [
+      "2026-09-03T19-52-56-323Z",
+      "2026-09-03T20-51-29-042Z",
+      "2026-09-04T03-07-48-927Z",
+      "2026-09-04T08-07-56-391Z"
+    ],
+    "SRC-002": [
+      "2026-09-03T19-09-00-940Z",
+      "2026-09-03T19-52-58-411Z",
+      "2026-09-03T20-51-37-651Z",
+      "2026-09-03T20-51-49-134Z",
+      "2026-09-04T03-08-22-399Z",
+      "2026-09-04T04-46-19-186Z",
+      "2026-09-04T04-48-06-574Z",
+      "2026-09-04T04-49-18-609Z",
+      "2026-09-04T04-54-03-100Z",
+      "2026-09-04T04-55-42-932Z",
+      "2026-09-04T08-08-41-623Z",
+      "2026-09-04T08-08-51-475Z",
+      "2026-09-04T08-09-01-593Z",
+      "2026-09-04T08-09-03-802Z"
+    ],
+    "SRC-006": [
+      "2026-09-04T03-09-43-738Z",
+      "2026-09-04T08-10-57-871Z"
+    ]
+  }
+}

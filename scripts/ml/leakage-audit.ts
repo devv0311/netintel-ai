@@ -35,6 +35,10 @@
  *                                 one-way indicator of a class while
  *                                 carrying real support.
  *
+ *   L13 nothing here was fitted  - no subject in THIS test partition may
+ *       on before                  have contributed train or validation
+ *                                  pairs to an earlier dataset.
+ *
  * L12 exists because L7 provably cannot catch this class of artefact,
  * and one got through. In the P6.24 dataset `jurisdictionBothKnown` was
  * true for 0 of 222 positives and 196 of 1,216 negatives: Wikidata
@@ -375,6 +379,77 @@ function main(): void {
         ? "no prior dataset declared; this is the first frozen test, so there is nothing to ratchet against"
         : `${PRIOR_DATASETS.length} prior dataset(s) checked; ${escapees.length} subject(s) escaped a frozen test into train or validation`,
     evidence: escapees.slice(0, 10),
+  });
+
+  // ---- L13 nothing here was fitted on by a prior model -------------------
+  //
+  // L11 runs one direction: a subject an EARLIER test froze must not reach
+  // THIS train or validation. L13 runs the other: a subject an earlier
+  // build actually FITTED ON must not reach this test, or this test is
+  // measuring memorisation and reporting generalisation.
+  //
+  // The two are not the same check and only one of them was here. The
+  // P6.25 final test shares three subjects with the v2 dataset
+  // (CIK:1534701, CIK:1610520, CIK:823094) because the builder's exclusion
+  // scanned prior PAIRS while those subjects live only in v2's
+  // `partitionOfSubject` map. The test survives this check because those
+  // subjects carry zero v2 pairs and so were never fitted on — which is
+  // the distinction that matters, and is exactly what this asserts rather
+  // than assumes.
+  //
+  // It deliberately reports SUBJECTS FITTED ON, not subjects merely seen.
+  // A check that failed on any overlap would fail the committed final test
+  // over three inert sampled negatives, and the only ways to make it green
+  // would be to re-cut a frozen test or to weaken the check — the first
+  // silently redefines the instrument, the second removes it.
+  const testSubjects = new Set<string>();
+  for (const pair of dataset.pairs) {
+    if (pair.partition !== "test") continue;
+    testSubjects.add(pair.subjectA);
+    testSubjects.add(pair.subjectB);
+  }
+  const fittedOn: { priorDataset: string; subject: string; fittedIn: string[] }[] = [];
+  for (const priorPath of PRIOR_DATASETS) {
+    const prior = JSON.parse(readFileSync(path.join(ROOT, priorPath), "utf8")) as Dataset;
+    const priorFitted = new Map<string, Set<string>>();
+    for (const pair of prior.pairs) {
+      if (pair.partition === "test") continue;
+      for (const subject of [pair.subjectA, pair.subjectB]) {
+        if (!priorFitted.has(subject)) priorFitted.set(subject, new Set());
+        priorFitted.get(subject)?.add(pair.partition);
+      }
+    }
+    for (const [subject, partitions] of priorFitted) {
+      if (!testSubjects.has(subject)) continue;
+      fittedOn.push({ priorDataset: priorPath, subject, fittedIn: [...partitions].sort() });
+    }
+  }
+  // Scope: this is binding on a FROZEN TEST — a dataset that is one test
+  // partition and nothing else — because that is the only artifact that
+  // claims to measure generalisation to unseen data.
+  //
+  // It is NOT binding on a training dataset's held-out partition, which
+  // never made that claim. v2's held-out partition legitimately contains
+  // subjects the P6.24 build fitted on; P6.25 documented that it had
+  // stopped being an untouched exam and built the final test precisely
+  // because of it. Failing v2 here would assert an invariant v2 never
+  // held, so the number is reported instead of enforced — and the number
+  // is worth reporting, because it quantifies exactly how much of that
+  // partition an earlier model had already seen.
+  const isFrozenTest = dataset.pairs.every((p) => p.partition === "test");
+  checks.push({
+    id: "L13",
+    name: isFrozenTest
+      ? "no subject in this frozen test was fitted on by an earlier build"
+      : "subjects in this held-out partition that an earlier build fitted on (reported, not enforced)",
+    passed: isFrozenTest ? fittedOn.length === 0 : true,
+    detail:
+      PRIOR_DATASETS.length === 0
+        ? "no prior dataset declared; nothing could have been fitted on before this one"
+        : isFrozenTest
+          ? `${PRIOR_DATASETS.length} prior dataset(s) checked; ${fittedOn.length} subject(s) in this FROZEN TEST contributed train or validation pairs to an earlier dataset`
+          : `${PRIOR_DATASETS.length} prior dataset(s) checked; ${fittedOn.length} subject(s) in this held-out partition were fitted on by an earlier build. NOT a failure: this is a training dataset's held-out partition, not a frozen test. It is the measured reason the P6.25 final test exists.`,
+    evidence: fittedOn.slice(0, 10),
   });
 
   // ---- L12 no one-way veto feature ---------------------------------------

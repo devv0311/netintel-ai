@@ -21,7 +21,7 @@
     "experiment:generalisation": "node --import ./scripts/eval-resolve.mjs scripts/generalisation-experiment.ts",
     "ml:dataset": "node --import ./scripts/eval-resolve.mjs scripts/ml/build-pair-dataset.ts --corpus evidence/expanded-v2/expanded-v2-anchored.corpus.json --ground-truth evidence/expanded-v2/expanded-v2.ground-truth.json --out pair-dataset-v2.json --dataset-version 2.0.0 --seed cipher-p6.25-pair-dataset-v2",
     "ml:corpus": "node --import ./scripts/eval-resolve.mjs scripts/build-corpus-v2.ts",
-    "ml:leakage": "node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts --dataset evidence/ml/pair-dataset-v2.json --out leakage-audit-v2.json --prior-datasets evidence/ml/pair-dataset.json",
+    "ml:leakage": "node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts --dataset evidence/ml/pair-dataset-v2.json --out leakage-audit-v2.json --prior-datasets evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-final-test.json",
     "ml:train": "node --import ./scripts/eval-resolve.mjs scripts/ml/train-model.ts --dataset evidence/ml/pair-dataset-v2.json --registry experiment-registry-v2.json --artifact cipher-er-pair-classifier.v2.json --model-version 2.0.0",
     "ml:evaluate": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts --dataset evidence/ml/pair-dataset-v2.json --artifact models/cipher-er-pair-classifier.v2.json --eval-out heldout-evaluation-v2.json --errors-out error-analysis-v2.json",
     "ml:final-test:corpus": "node --import ./scripts/eval-resolve.mjs scripts/build-final-test-corpus.ts",
