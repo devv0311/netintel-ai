@@ -1,0 +1,854 @@
+{
+  "experiment": "P6.18 transliteration study",
+  "dataClass": "REAL - Wikidata rdfs:label@hi + GLEIF legal names, CC0 1.0",
+  "disclaimer": "Measurement only. No resolver imported, no pipeline run, no database written, no ground truth modified. Script conversion only - no name was translated, invented or guessed.",
+  "corpus": "evidence/no-identifier/devanagari-pilot-anchored.corpus.json",
+  "groundTruth": "evidence/no-identifier/devanagari-pilot.ground-truth.json",
+  "ranAt": "2026-09-04T02:11:49.757Z",
+  "devanagariPairs": 51,
+  "strategies": [
+    {
+      "id": "S0_baseline",
+      "label": "shipped normalisation only (no script folding)",
+      "pairsJoined": {
+        "n": 0,
+        "d": 51,
+        "pct": "0.0%"
+      },
+      "joined": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "corpusWideFalseMerges": {
+        "n": 0,
+        "cases": []
+      }
+    },
+    {
+      "id": "S1_translit",
+      "label": "+ deterministic Devanagari->Latin transliteration",
+      "pairsJoined": {
+        "n": 1,
+        "d": 51,
+        "pct": "2.0%"
+      },
+      "joined": [
+        "POS-020"
+      ],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "corpusWideFalseMerges": {
+        "n": 0,
+        "cases": []
+      }
+    },
+    {
+      "id": "S2_translit_acronym",
+      "label": "+ transliteration AND English-letter-name decoding",
+      "pairsJoined": {
+        "n": 2,
+        "d": 51,
+        "pct": "3.9%"
+      },
+      "joined": [
+        "POS-010",
+        "POS-020"
+      ],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "corpusWideFalseMerges": {
+        "n": 0,
+        "cases": []
+      }
+    },
+    {
+      "id": "S3_medial_schwa",
+      "label": "+ S2 AND Hindi medial schwa deletion",
+      "pairsJoined": {
+        "n": 2,
+        "d": 51,
+        "pct": "3.9%"
+      },
+      "joined": [
+        "POS-010",
+        "POS-020"
+      ],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "corpusWideFalseMerges": {
+        "n": 0,
+        "cases": []
+      }
+    }
+  ],
+  "perPair": [
+    {
+      "pairId": "POS-001",
+      "hindi": "रेजरपे",
+      "translit": "rejrpe",
+      "gleif": "razorpay software",
+      "joined": false
+    },
+    {
+      "pairId": "POS-002",
+      "hindi": "लेनदेनक्लब",
+      "translit": "lendenaklab",
+      "gleif": "innofin solutions",
+      "joined": false
+    },
+    {
+      "pairId": "POS-003",
+      "hindi": "कोल इण्डिया",
+      "translit": "kol indiya",
+      "gleif": "coal india",
+      "joined": false
+    },
+    {
+      "pairId": "POS-004",
+      "hindi": "लेंडबॉक्स",
+      "translit": "lendboks",
+      "gleif": "transactree technologies",
+      "joined": false
+    },
+    {
+      "pairId": "POS-005",
+      "hindi": "एसबीआई",
+      "translit": "sbi",
+      "gleif": "state bank of india",
+      "joined": false
+    },
+    {
+      "pairId": "POS-006",
+      "hindi": "भारतीय इस्पात प्राधिकरण",
+      "translit": "bhartiy ispat pradhikran",
+      "gleif": "steel authority of india",
+      "joined": false
+    },
+    {
+      "pairId": "POS-007",
+      "hindi": "फ्लिपकार्ट",
+      "translit": "phlipkart",
+      "gleif": "flipkart india",
+      "joined": false
+    },
+    {
+      "pairId": "POS-008",
+      "hindi": "तेल एवं प्राकृतिक गैस निगम लिमिटेड",
+      "translit": "tel evan prakritik gais nigam",
+      "gleif": "oil and natural gas",
+      "joined": false
+    },
+    {
+      "pairId": "POS-009",
+      "hindi": "हिंडाल्को इंडस्ट्रीज",
+      "translit": "hindalko indastrij",
+      "gleif": "hindalco industries",
+      "joined": false
+    },
+    {
+      "pairId": "POS-010",
+      "hindi": "आईसीआईसीआई बैंक",
+      "translit": "icici bank",
+      "gleif": "icici bank",
+      "joined": true
+    },
+    {
+      "pairId": "POS-011",
+      "hindi": "आई टी सी लिमिटेड",
+      "translit": "ai ti si",
+      "gleif": "itc",
+      "joined": false
+    },
+    {
+      "pairId": "POS-012",
+      "hindi": "एमक्योर फार्मास्युटिकल्स",
+      "translit": "emakyor pharmasyutikals",
+      "gleif": "emcure pharmaceuticals",
+      "joined": false
+    },
+    {
+      "pairId": "POS-013",
+      "hindi": "इंडिया टुडे ग्रुप",
+      "translit": "indiya tude grup",
+      "gleif": "living media india",
+      "joined": false
+    },
+    {
+      "pairId": "POS-014",
+      "hindi": "ईएमलियोन बिजनेस स्कूल",
+      "translit": "iemaliyon bijnes skul",
+      "gleif": "early makers group",
+      "joined": false
+    },
+    {
+      "pairId": "POS-015",
+      "hindi": "महानगर टेलीफोन निगम लिमिटेड",
+      "translit": "mahangar teliphon nigam",
+      "gleif": "mahanagar telephone nigam",
+      "joined": false
+    },
+    {
+      "pairId": "POS-016",
+      "hindi": "टाटा मोटर्स",
+      "translit": "tata motars",
+      "gleif": "tata motors passenger vehicles",
+      "joined": false
+    },
+    {
+      "pairId": "POS-017",
+      "hindi": "पेटीऍम",
+      "translit": "petiem",
+      "gleif": "ultraviolet tech",
+      "joined": false
+    },
+    {
+      "pairId": "POS-018",
+      "hindi": "ऐक्सिस बैंक",
+      "translit": "aiksis bank",
+      "gleif": "axis bank",
+      "joined": false
+    },
+    {
+      "pairId": "POS-019",
+      "hindi": "बैंक ऑफ़ बड़ौदा",
+      "translit": "bank of barauda",
+      "gleif": "bank of baroda",
+      "joined": false
+    },
+    {
+      "pairId": "POS-020",
+      "hindi": "कोटक महिंद्रा बैंक",
+      "translit": "kotak mahindra bank",
+      "gleif": "kotak mahindra bank",
+      "joined": true
+    },
+    {
+      "pairId": "POS-021",
+      "hindi": "धनलक्ष्मी बैंक",
+      "translit": "dhanlakshmi bank",
+      "gleif": "dhanlaxmi bank",
+      "joined": false
+    },
+    {
+      "pairId": "POS-022",
+      "hindi": "टाटा केमिकल्स",
+      "translit": "tata kemikals",
+      "gleif": "tata chemicals",
+      "joined": false
+    },
+    {
+      "pairId": "POS-023",
+      "hindi": "ओयो रूम्स",
+      "translit": "oyo rums",
+      "gleif": "oravel stays",
+      "joined": false
+    },
+    {
+      "pairId": "POS-025",
+      "hindi": "गेटवे",
+      "translit": "getve",
+      "gleif": "gateway technolabs",
+      "joined": false
+    },
+    {
+      "pairId": "POS-026",
+      "hindi": "एनडीटीवी",
+      "translit": "ndtv",
+      "gleif": "new delhi television",
+      "joined": false
+    },
+    {
+      "pairId": "POS-027",
+      "hindi": "डीएलएफ़ यूनिवर्सल लिमिटेड",
+      "translit": "dlf yunivarsal",
+      "gleif": "dlf",
+      "joined": false
+    },
+    {
+      "pairId": "POS-028",
+      "hindi": "सन फार्मास्युटिकल",
+      "translit": "san pharmasyutikal",
+      "gleif": "sun pharmaceutical industries",
+      "joined": false
+    },
+    {
+      "pairId": "POS-029",
+      "hindi": "भारत डायनेमिक्स लिमिटेड",
+      "translit": "bharat daynemiks",
+      "gleif": "bharat dynamics",
+      "joined": false
+    },
+    {
+      "pairId": "POS-030",
+      "hindi": "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड",
+      "translit": "hindustan aironotiks",
+      "gleif": "hindustan aeronautics",
+      "joined": false
+    },
+    {
+      "pairId": "POS-031",
+      "hindi": "भारत इलैक्ट्रॉनिक्स लिमिटेड",
+      "translit": "bharat ilaiktroniks",
+      "gleif": "bharat electronics",
+      "joined": false
+    },
+    {
+      "pairId": "POS-034",
+      "hindi": "इंजीनियर्स इंडिया लिमिटेड",
+      "translit": "injiniyars indiya",
+      "gleif": "engineers india",
+      "joined": false
+    },
+    {
+      "pairId": "POS-035",
+      "hindi": "जीएमआर समूह",
+      "translit": "gmr samuh",
+      "gleif": "gmr airports",
+      "joined": false
+    },
+    {
+      "pairId": "POS-036",
+      "hindi": "जीवीके",
+      "translit": "gvk",
+      "gleif": "gvk power and infrastructure",
+      "joined": false
+    },
+    {
+      "pairId": "POS-037",
+      "hindi": "एचसीएल टेक्नोलॉजीज",
+      "translit": "hcl teknolojij",
+      "gleif": "hcl technologies",
+      "joined": false
+    },
+    {
+      "pairId": "POS-038",
+      "hindi": "हस्क पावर सिस्टम्स",
+      "translit": "hask pavar sistams",
+      "gleif": "husk power systems",
+      "joined": false
+    },
+    {
+      "pairId": "POS-039",
+      "hindi": "आईनॉक्स लीजर लिमिटेड",
+      "translit": "ainoks lijar",
+      "gleif": "inox leisure",
+      "joined": false
+    },
+    {
+      "pairId": "POS-040",
+      "hindi": "लव फिल्म्स",
+      "translit": "lav philms",
+      "gleif": "luv films",
+      "joined": false
+    },
+    {
+      "pairId": "POS-041",
+      "hindi": "जैको प्रकाशन संस्था",
+      "translit": "jaiko prkashan sanstha",
+      "gleif": "jaico publishing house",
+      "joined": false
+    },
+    {
+      "pairId": "POS-042",
+      "hindi": "लार्सन एंड टूब्रो",
+      "translit": "larsan end tubro",
+      "gleif": "larsen and toubro",
+      "joined": false
+    },
+    {
+      "pairId": "POS-043",
+      "hindi": "एसीसी लिमिटेड",
+      "translit": "esisi",
+      "gleif": "acc",
+      "joined": false
+    },
+    {
+      "pairId": "POS-044",
+      "hindi": "एअर इंडिया",
+      "translit": "ear indiya",
+      "gleif": "air india",
+      "joined": false
+    },
+    {
+      "pairId": "POS-045",
+      "hindi": "अशोक लेलैंड",
+      "translit": "ashok leland",
+      "gleif": "ashok leyland",
+      "joined": false
+    },
+    {
+      "pairId": "POS-046",
+      "hindi": "एसबीआई लाइफ इंश्योरेंस कंपनी",
+      "translit": "sbi laiph inshyorens kanpni",
+      "gleif": "sbi life insurance",
+      "joined": false
+    },
+    {
+      "pairId": "POS-047",
+      "hindi": "टाटा स्टारबक्स",
+      "translit": "tata starbaks",
+      "gleif": "tata starbucks",
+      "joined": false
+    },
+    {
+      "pairId": "POS-048",
+      "hindi": "अल्ट्राटेक सीमेंंट",
+      "translit": "altratek siment",
+      "gleif": "ultratech cement",
+      "joined": false
+    },
+    {
+      "pairId": "POS-049",
+      "hindi": "टाटा कंज्यूमर प्रोडक्ट्स",
+      "translit": "tata kanjyumar prodakts",
+      "gleif": "tata consumer products",
+      "joined": false
+    },
+    {
+      "pairId": "POS-050",
+      "hindi": "महिन्द्रा एण्ड महिन्द्रा",
+      "translit": "mahindra end mahindra",
+      "gleif": "mahindra and mahindra",
+      "joined": false
+    },
+    {
+      "pairId": "POS-051",
+      "hindi": "भारत हेवी इलेक्ट्रिकल्स लिमिटेड",
+      "translit": "bharat hevi ilektrikals",
+      "gleif": "bharat heavy electricals",
+      "joined": false
+    },
+    {
+      "pairId": "POS-052",
+      "hindi": "रिलायन्स इण्डस्ट्रीज",
+      "translit": "rilayans indastrij",
+      "gleif": "reliance industries",
+      "joined": false
+    },
+    {
+      "pairId": "POS-053",
+      "hindi": "डॉ. रेड्डीज लेबोरेटरीज",
+      "translit": "do reddij leboretrij",
+      "gleif": "dr reddys laboratories",
+      "joined": false
+    },
+    {
+      "pairId": "POS-054",
+      "hindi": "स्काईरूट एयरोस्पेस",
+      "translit": "skairut eyarospes",
+      "gleif": "skyroot aerospace",
+      "joined": false
+    }
+  ],
+  "residualCharacterisation": {
+    "note": "Edit distance DESCRIBES how far the residual pairs are from matching. It is not a proposed rule and nothing here merges on it.",
+    "unjoined": 49,
+    "withinEditDistance3": 13,
+    "beyondEditDistance3": 36,
+    "cases": [
+      {
+        "pairId": "POS-045",
+        "hindi": "अशोक लेलैंड",
+        "translit": "ashok leland",
+        "gleif": "ashok leyland",
+        "joined": false,
+        "editDistance": 1
+      },
+      {
+        "pairId": "POS-050",
+        "hindi": "महिन्द्रा एण्ड महिन्द्रा",
+        "translit": "mahindra end mahindra",
+        "gleif": "mahindra and mahindra",
+        "joined": false,
+        "editDistance": 1
+      },
+      {
+        "pairId": "POS-019",
+        "hindi": "बैंक ऑफ़ बड़ौदा",
+        "translit": "bank of barauda",
+        "gleif": "bank of baroda",
+        "joined": false,
+        "editDistance": 2
+      },
+      {
+        "pairId": "POS-047",
+        "hindi": "टाटा स्टारबक्स",
+        "translit": "tata starbaks",
+        "gleif": "tata starbucks",
+        "joined": false,
+        "editDistance": 2
+      },
+      {
+        "pairId": "POS-003",
+        "hindi": "कोल इण्डिया",
+        "translit": "kol indiya",
+        "gleif": "coal india",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-015",
+        "hindi": "महानगर टेलीफोन निगम लिमिटेड",
+        "translit": "mahangar teliphon nigam",
+        "gleif": "mahanagar telephone nigam",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-018",
+        "hindi": "ऐक्सिस बैंक",
+        "translit": "aiksis bank",
+        "gleif": "axis bank",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-021",
+        "hindi": "धनलक्ष्मी बैंक",
+        "translit": "dhanlakshmi bank",
+        "gleif": "dhanlaxmi bank",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-022",
+        "hindi": "टाटा केमिकल्स",
+        "translit": "tata kemikals",
+        "gleif": "tata chemicals",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-029",
+        "hindi": "भारत डायनेमिक्स लिमिटेड",
+        "translit": "bharat daynemiks",
+        "gleif": "bharat dynamics",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-040",
+        "hindi": "लव फिल्म्स",
+        "translit": "lav philms",
+        "gleif": "luv films",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-042",
+        "hindi": "लार्सन एंड टूब्रो",
+        "translit": "larsan end tubro",
+        "gleif": "larsen and toubro",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-044",
+        "hindi": "एअर इंडिया",
+        "translit": "ear indiya",
+        "gleif": "air india",
+        "joined": false,
+        "editDistance": 3
+      },
+      {
+        "pairId": "POS-009",
+        "hindi": "हिंडाल्को इंडस्ट्रीज",
+        "translit": "hindalko indastrij",
+        "gleif": "hindalco industries",
+        "joined": false,
+        "editDistance": 4
+      },
+      {
+        "pairId": "POS-030",
+        "hindi": "हिन्दुस्तान ऐरोनॉटिक्स लिमिटेड",
+        "translit": "hindustan aironotiks",
+        "gleif": "hindustan aeronautics",
+        "joined": false,
+        "editDistance": 4
+      },
+      {
+        "pairId": "POS-031",
+        "hindi": "भारत इलैक्ट्रॉनिक्स लिमिटेड",
+        "translit": "bharat ilaiktroniks",
+        "gleif": "bharat electronics",
+        "joined": false,
+        "editDistance": 5
+      },
+      {
+        "pairId": "POS-037",
+        "hindi": "एचसीएल टेक्नोलॉजीज",
+        "translit": "hcl teknolojij",
+        "gleif": "hcl technologies",
+        "joined": false,
+        "editDistance": 5
+      },
+      {
+        "pairId": "POS-043",
+        "hindi": "एसीसी लिमिटेड",
+        "translit": "esisi",
+        "gleif": "acc",
+        "joined": false,
+        "editDistance": 5
+      },
+      {
+        "pairId": "POS-048",
+        "hindi": "अल्ट्राटेक सीमेंंट",
+        "translit": "altratek siment",
+        "gleif": "ultratech cement",
+        "joined": false,
+        "editDistance": 5
+      },
+      {
+        "pairId": "POS-051",
+        "hindi": "भारत हेवी इलेक्ट्रिकल्स लिमिटेड",
+        "translit": "bharat hevi ilektrikals",
+        "gleif": "bharat heavy electricals",
+        "joined": false,
+        "editDistance": 5
+      },
+      {
+        "pairId": "POS-011",
+        "hindi": "आई टी सी लिमिटेड",
+        "translit": "ai ti si",
+        "gleif": "itc",
+        "joined": false,
+        "editDistance": 6
+      },
+      {
+        "pairId": "POS-034",
+        "hindi": "इंजीनियर्स इंडिया लिमिटेड",
+        "translit": "injiniyars indiya",
+        "gleif": "engineers india",
+        "joined": false,
+        "editDistance": 6
+      },
+      {
+        "pairId": "POS-038",
+        "hindi": "हस्क पावर सिस्टम्स",
+        "translit": "hask pavar sistams",
+        "gleif": "husk power systems",
+        "joined": false,
+        "editDistance": 6
+      },
+      {
+        "pairId": "POS-039",
+        "hindi": "आईनॉक्स लीजर लिमिटेड",
+        "translit": "ainoks lijar",
+        "gleif": "inox leisure",
+        "joined": false,
+        "editDistance": 7
+      },
+      {
+        "pairId": "POS-049",
+        "hindi": "टाटा कंज्यूमर प्रोडक्ट्स",
+        "translit": "tata kanjyumar prodakts",
+        "gleif": "tata consumer products",
+        "joined": false,
+        "editDistance": 7
+      },
+      {
+        "pairId": "POS-007",
+        "hindi": "फ्लिपकार्ट",
+        "translit": "phlipkart",
+        "gleif": "flipkart india",
+        "joined": false,
+        "editDistance": 8
+      },
+      {
+        "pairId": "POS-012",
+        "hindi": "एमक्योर फार्मास्युटिकल्स",
+        "translit": "emakyor pharmasyutikals",
+        "gleif": "emcure pharmaceuticals",
+        "joined": false,
+        "editDistance": 8
+      },
+      {
+        "pairId": "POS-035",
+        "hindi": "जीएमआर समूह",
+        "translit": "gmr samuh",
+        "gleif": "gmr airports",
+        "joined": false,
+        "editDistance": 8
+      },
+      {
+        "pairId": "POS-052",
+        "hindi": "रिलायन्स इण्डस्ट्रीज",
+        "translit": "rilayans indastrij",
+        "gleif": "reliance industries",
+        "joined": false,
+        "editDistance": 8
+      },
+      {
+        "pairId": "POS-053",
+        "hindi": "डॉ. रेड्डीज लेबोरेटरीज",
+        "translit": "do reddij leboretrij",
+        "gleif": "dr reddys laboratories",
+        "joined": false,
+        "editDistance": 8
+      },
+      {
+        "pairId": "POS-023",
+        "hindi": "ओयो रूम्स",
+        "translit": "oyo rums",
+        "gleif": "oravel stays",
+        "joined": false,
+        "editDistance": 9
+      },
+      {
+        "pairId": "POS-054",
+        "hindi": "स्काईरूट एयरोस्पेस",
+        "translit": "skairut eyarospes",
+        "gleif": "skyroot aerospace",
+        "joined": false,
+        "editDistance": 10
+      },
+      {
+        "pairId": "POS-027",
+        "hindi": "डीएलएफ़ यूनिवर्सल लिमिटेड",
+        "translit": "dlf yunivarsal",
+        "gleif": "dlf",
+        "joined": false,
+        "editDistance": 11
+      },
+      {
+        "pairId": "POS-001",
+        "hindi": "रेजरपे",
+        "translit": "rejrpe",
+        "gleif": "razorpay software",
+        "joined": false,
+        "editDistance": 13
+      },
+      {
+        "pairId": "POS-017",
+        "hindi": "पेटीऍम",
+        "translit": "petiem",
+        "gleif": "ultraviolet tech",
+        "joined": false,
+        "editDistance": 13
+      },
+      {
+        "pairId": "POS-041",
+        "hindi": "जैको प्रकाशन संस्था",
+        "translit": "jaiko prkashan sanstha",
+        "gleif": "jaico publishing house",
+        "joined": false,
+        "editDistance": 13
+      },
+      {
+        "pairId": "POS-002",
+        "hindi": "लेनदेनक्लब",
+        "translit": "lendenaklab",
+        "gleif": "innofin solutions",
+        "joined": false,
+        "editDistance": 14
+      },
+      {
+        "pairId": "POS-013",
+        "hindi": "इंडिया टुडे ग्रुप",
+        "translit": "indiya tude grup",
+        "gleif": "living media india",
+        "joined": false,
+        "editDistance": 14
+      },
+      {
+        "pairId": "POS-046",
+        "hindi": "एसबीआई लाइफ इंश्योरेंस कंपनी",
+        "translit": "sbi laiph inshyorens kanpni",
+        "gleif": "sbi life insurance",
+        "joined": false,
+        "editDistance": 14
+      },
+      {
+        "pairId": "POS-014",
+        "hindi": "ईएमलियोन बिजनेस स्कूल",
+        "translit": "iemaliyon bijnes skul",
+        "gleif": "early makers group",
+        "joined": false,
+        "editDistance": 15
+      },
+      {
+        "pairId": "POS-025",
+        "hindi": "गेटवे",
+        "translit": "getve",
+        "gleif": "gateway technolabs",
+        "joined": false,
+        "editDistance": 15
+      },
+      {
+        "pairId": "POS-028",
+        "hindi": "सन फार्मास्युटिकल",
+        "translit": "san pharmasyutikal",
+        "gleif": "sun pharmaceutical industries",
+        "joined": false,
+        "editDistance": 15
+      },
+      {
+        "pairId": "POS-005",
+        "hindi": "एसबीआई",
+        "translit": "sbi",
+        "gleif": "state bank of india",
+        "joined": false,
+        "editDistance": 16
+      },
+      {
+        "pairId": "POS-026",
+        "hindi": "एनडीटीवी",
+        "translit": "ndtv",
+        "gleif": "new delhi television",
+        "joined": false,
+        "editDistance": 16
+      },
+      {
+        "pairId": "POS-008",
+        "hindi": "तेल एवं प्राकृतिक गैस निगम लिमिटेड",
+        "translit": "tel evan prakritik gais nigam",
+        "gleif": "oil and natural gas",
+        "joined": false,
+        "editDistance": 19
+      },
+      {
+        "pairId": "POS-016",
+        "hindi": "टाटा मोटर्स",
+        "translit": "tata motars",
+        "gleif": "tata motors passenger vehicles",
+        "joined": false,
+        "editDistance": 19
+      },
+      {
+        "pairId": "POS-004",
+        "hindi": "लेंडबॉक्स",
+        "translit": "lendboks",
+        "gleif": "transactree technologies",
+        "joined": false,
+        "editDistance": 20
+      },
+      {
+        "pairId": "POS-006",
+        "hindi": "भारतीय इस्पात प्राधिकरण",
+        "translit": "bhartiy ispat pradhikran",
+        "gleif": "steel authority of india",
+        "joined": false,
+        "editDistance": 22
+      },
+      {
+        "pairId": "POS-036",
+        "hindi": "जीवीके",
+        "translit": "gvk",
+        "gleif": "gvk power and infrastructure",
+        "joined": false,
+        "editDistance": 25
+      }
+    ]
+  }
+}

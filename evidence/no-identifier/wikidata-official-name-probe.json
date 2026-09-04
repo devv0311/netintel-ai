@@ -1,0 +1,27 @@
+{
+  "probe": "P6.18 evidence-availability probe - Wikidata P1448 (official name) / P1813 (short name)",
+  "purpose": "Answer whether the DIVERGENT-name failures can be bridged by a claim the approved publisher ALREADY makes, rather than by inference. Availability measurement only.",
+  "dataClass": "REAL",
+  "source": { "registryId": "SRC-001", "registry": "wikidata", "endpoint": "https://query.wikidata.org/sparql", "license": "CC0 1.0", "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access", "registryStatus": "APPROVED" },
+  "retrievalChannel": "agent-relay",
+  "retrievalChannelCaveat": "Retrieved through the session's cloud container because this session's local runtime has NO egress (DNS resolves, TCP times out). The content is the publisher's; the bytes are NOT hashed as publisher wire bytes and this probe is therefore NOT admissible as collected evidence. It is an availability measurement only. To become corpus evidence it must be re-collected through scripts/collect-public.ts on the direct-https path, which needs no code change.",
+  "retrievedAt": "2026-09-04T02:20:00Z",
+  "itemsProbed": 78,
+  "itemSelection": "Every Wikidata item already present in the P6.16 no-identifier corpus. QIDs were recovered from the STORED raw SPARQL payload data/public/raw/SRC-001/2026-09-03T20-51-29-042Z/raw/sparql-results.json - no new item was discovered and the collection was not broadened.",
+  "coverage": { "withOfficialName": 8, "withOfficialNamePct": "10.3%", "withShortName": 3, "withShortNamePct": "3.8%" },
+  "officialNames": [
+    { "qid": "Q908931",    "label": "Reliance Industries Limited",     "officialName": "Reliance Industries Limited" },
+    { "qid": "Q1795504",   "label": "Emlyon Business School",          "officialName": "emlyon business school" },
+    { "qid": "Q24905990",  "label": "Sakal Media Group",               "officialName": "Sakal Media Private Limited" },
+    { "qid": "Q60621590",  "label": "HarperCollins Publishers India",  "officialName": "Harper Collins Publishers India Limited" },
+    { "qid": "Q96380208",  "label": "Hachette India",                  "officialName": "Hachette Book Publishing India Private Limited" },
+    { "qid": "Q124625525", "label": "LenDenClub",                      "officialName": "Innofin Solutions Private Limited" },
+    { "qid": "Q130741763", "label": "Lendbox",                         "officialName": "Transactree Technologies Private Limited" },
+    { "qid": "Q137826422", "label": "Haier India",                     "officialName": "Haier Appliances (India) Pvt Ltd" }
+  ],
+  "shortNames": [
+    { "qid": "Q357095",  "label": "Hindustan Aeronautics Limited",   "shortName": "HAL" },
+    { "qid": "Q854820",  "label": "Bharat Heavy Electricals Limited","shortName": "BHEL" },
+    { "qid": "Q1795504", "label": "Emlyon Business School",          "shortName": "emlyon" }
+  ]
+}

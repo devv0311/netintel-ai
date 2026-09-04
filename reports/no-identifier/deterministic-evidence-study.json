@@ -1,0 +1,536 @@
+{
+  "experiment": "P6.18 deterministic evidence study",
+  "dataClass": "REAL - GLEIF + Wikidata, CC0 1.0",
+  "disclaimer": "Measurement only. No resolver code was imported, no pipeline run, no database written, no ground truth modified, no name variant manufactured.",
+  "corpus": "evidence/no-identifier/no-identifier-pilot-anchored.corpus.json",
+  "groundTruth": "evidence/no-identifier/no-identifier-pilot.ground-truth.json",
+  "ranAt": "2026-09-04T02:14:20.699Z",
+  "harnessValidation": {
+    "baselinePositivesJoined": 53,
+    "expected": 53,
+    "valid": true
+  },
+  "rules": [
+    {
+      "id": "baseline",
+      "label": "shipped normalisation (today's Tier B2)",
+      "positivePairsJoined": {
+        "n": 53,
+        "d": 75,
+        "pct": "70.7%"
+      },
+      "deltaVsBaseline": 0,
+      "newlyJoined": [],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 54,
+        "correct": 53,
+        "false": 0
+      },
+      "components": 203
+    },
+    {
+      "id": "R1_dotted_initialism",
+      "label": "+ trailing dotted legal form (b.v. -> bv, already in the suffix list)",
+      "positivePairsJoined": {
+        "n": 54,
+        "d": 75,
+        "pct": "72.0%"
+      },
+      "deltaVsBaseline": 1,
+      "newlyJoined": [
+        "POS-064"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 55,
+        "correct": 54,
+        "false": 0
+      },
+      "components": 202
+    },
+    {
+      "id": "R2_leading_article",
+      "label": "+ leading definite article",
+      "positivePairsJoined": {
+        "n": 54,
+        "d": 75,
+        "pct": "72.0%"
+      },
+      "deltaVsBaseline": 1,
+      "newlyJoined": [
+        "POS-065"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 55,
+        "correct": 54,
+        "false": 0
+      },
+      "components": 202
+    },
+    {
+      "id": "R1R2",
+      "label": "+ R1 and R2 together",
+      "positivePairsJoined": {
+        "n": 55,
+        "d": 75,
+        "pct": "73.3%"
+      },
+      "deltaVsBaseline": 2,
+      "newlyJoined": [
+        "POS-064",
+        "POS-065"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 56,
+        "correct": 55,
+        "false": 0
+      },
+      "components": 201
+    },
+    {
+      "id": "R4_trailing_geo",
+      "label": "+ trailing geographic token (MEASURED, NOT PROPOSED)",
+      "positivePairsJoined": {
+        "n": 55,
+        "d": 75,
+        "pct": "73.3%"
+      },
+      "deltaVsBaseline": 2,
+      "newlyJoined": [
+        "POS-003",
+        "POS-010"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 56,
+        "correct": 55,
+        "false": 0
+      },
+      "components": 201
+    },
+    {
+      "id": "R1R2R4",
+      "label": "+ R1, R2 and R4 together (MEASURED, NOT PROPOSED)",
+      "positivePairsJoined": {
+        "n": 57,
+        "d": 75,
+        "pct": "76.0%"
+      },
+      "deltaVsBaseline": 4,
+      "newlyJoined": [
+        "POS-003",
+        "POS-010",
+        "POS-064",
+        "POS-065"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 58,
+        "correct": 57,
+        "false": 0
+      },
+      "components": 199
+    },
+    {
+      "id": "R3a_prefix_any",
+      "label": "token-prefix containment, any length",
+      "positivePairsJoined": {
+        "n": 61,
+        "d": 75,
+        "pct": "81.3%"
+      },
+      "deltaVsBaseline": 8,
+      "newlyJoined": [
+        "POS-002",
+        "POS-003",
+        "POS-010",
+        "POS-022",
+        "POS-029",
+        "POS-035",
+        "POS-047",
+        "POS-064"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 62,
+        "correct": 61,
+        "false": 0
+      },
+      "components": 195
+    },
+    {
+      "id": "R3a_prefix_min2",
+      "label": "token-prefix containment, shorter side >= 2 tokens",
+      "positivePairsJoined": {
+        "n": 57,
+        "d": 75,
+        "pct": "76.0%"
+      },
+      "deltaVsBaseline": 4,
+      "newlyJoined": [
+        "POS-003",
+        "POS-022",
+        "POS-029",
+        "POS-035"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 58,
+        "correct": 57,
+        "false": 0
+      },
+      "components": 199
+    },
+    {
+      "id": "R3b_subset_any",
+      "label": "unordered token subset, any length",
+      "positivePairsJoined": {
+        "n": 64,
+        "d": 75,
+        "pct": "85.3%"
+      },
+      "deltaVsBaseline": 11,
+      "newlyJoined": [
+        "POS-002",
+        "POS-003",
+        "POS-009",
+        "POS-010",
+        "POS-022",
+        "POS-029",
+        "POS-035",
+        "POS-047",
+        "POS-064",
+        "POS-065",
+        "POS-074"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 1,
+        "d": 19,
+        "cases": [
+          {
+            "pairId": "NEG-013",
+            "a": "BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+            "b": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED"
+          }
+        ]
+      },
+      "falseMergeComponents": [
+        {
+          "records": [
+            {
+              "sur": "NIDP-0081",
+              "name": "BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+              "leis": [
+                "6488009OG9Q06ZQ7D981"
+              ]
+            },
+            {
+              "sur": "NIDP-0092",
+              "name": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+              "leis": [
+                "648800EIDTT0NVZWOX61"
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": {
+        "proposed": 66,
+        "correct": 64,
+        "false": 1
+      },
+      "components": 191
+    },
+    {
+      "id": "R3b_subset_min2",
+      "label": "unordered token subset, shorter side >= 2 tokens",
+      "positivePairsJoined": {
+        "n": 60,
+        "d": 75,
+        "pct": "80.0%"
+      },
+      "deltaVsBaseline": 7,
+      "newlyJoined": [
+        "POS-003",
+        "POS-009",
+        "POS-022",
+        "POS-029",
+        "POS-035",
+        "POS-065",
+        "POS-074"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 1,
+        "d": 19,
+        "cases": [
+          {
+            "pairId": "NEG-013",
+            "a": "BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+            "b": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED"
+          }
+        ]
+      },
+      "falseMergeComponents": [
+        {
+          "records": [
+            {
+              "sur": "NIDP-0081",
+              "name": "BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+              "leis": [
+                "6488009OG9Q06ZQ7D981"
+              ]
+            },
+            {
+              "sur": "NIDP-0092",
+              "name": "RAJDEEP BHATI SOLAR SOLUTIONS PRIVATE LIMITED",
+              "leis": [
+                "648800EIDTT0NVZWOX61"
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": {
+        "proposed": 62,
+        "correct": 60,
+        "false": 1
+      },
+      "components": 195
+    },
+    {
+      "id": "R5_official_name",
+      "label": "+ publisher-stated official name (Wikidata P1448)",
+      "positivePairsJoined": {
+        "n": 58,
+        "d": 75,
+        "pct": "77.3%"
+      },
+      "deltaVsBaseline": 5,
+      "newlyJoined": [
+        "POS-004",
+        "POS-006",
+        "POS-009",
+        "POS-029",
+        "POS-074"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 60,
+        "correct": 59,
+        "false": 0
+      },
+      "components": 198
+    },
+    {
+      "id": "R3a_prefix_guarded",
+      "label": "+ prefix containment, suppressed when it reaches >1 subject",
+      "positivePairsJoined": {
+        "n": 61,
+        "d": 75,
+        "pct": "81.3%"
+      },
+      "deltaVsBaseline": 8,
+      "newlyJoined": [
+        "POS-002",
+        "POS-003",
+        "POS-010",
+        "POS-022",
+        "POS-029",
+        "POS-035",
+        "POS-047",
+        "POS-064"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 62,
+        "correct": 61,
+        "false": 0
+      },
+      "components": 195
+    },
+    {
+      "id": "COMBINED_no_containment",
+      "label": "R1 + R2 + official name (no containment rule at all)",
+      "positivePairsJoined": {
+        "n": 60,
+        "d": 75,
+        "pct": "80.0%"
+      },
+      "deltaVsBaseline": 7,
+      "newlyJoined": [
+        "POS-004",
+        "POS-006",
+        "POS-009",
+        "POS-029",
+        "POS-064",
+        "POS-065",
+        "POS-074"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 62,
+        "correct": 61,
+        "false": 0
+      },
+      "components": 196
+    },
+    {
+      "id": "COMBINED_all",
+      "label": "R1 + R2 + official name + guarded prefix containment",
+      "positivePairsJoined": {
+        "n": 66,
+        "d": 75,
+        "pct": "88.0%"
+      },
+      "deltaVsBaseline": 13,
+      "newlyJoined": [
+        "POS-002",
+        "POS-003",
+        "POS-004",
+        "POS-006",
+        "POS-009",
+        "POS-010",
+        "POS-022",
+        "POS-029",
+        "POS-035",
+        "POS-047",
+        "POS-064",
+        "POS-065",
+        "POS-074"
+      ],
+      "broken": [],
+      "hardNegativeFalseMerges": {
+        "n": 0,
+        "d": 19,
+        "cases": []
+      },
+      "falseMergeComponents": [],
+      "edges": {
+        "proposed": 70,
+        "correct": 69,
+        "false": 0
+      },
+      "components": 190
+    }
+  ],
+  "officialNameClaimsAttachable": 8,
+  "prefixRelationsSuppressedByGuard": [],
+  "stillUnjoinedUnderBestRule": [
+    {
+      "pairId": "POS-001",
+      "gleif": "IIT-IAN'S PACE EDUCATION PRIVATE LIMITED",
+      "wikidata": "PACE IIT & Medical"
+    },
+    {
+      "pairId": "POS-019",
+      "gleif": "LIVING MEDIA INDIA LIMITED",
+      "wikidata": "India Today Group"
+    },
+    {
+      "pairId": "POS-020",
+      "gleif": "EARLY MAKERS GROUP",
+      "wikidata": "Emlyon Business School"
+    },
+    {
+      "pairId": "POS-023",
+      "gleif": "ULTRAVIOLET TECH PRIVATE LIMITED",
+      "wikidata": "Paytm"
+    },
+    {
+      "pairId": "POS-030",
+      "gleif": "ORAVEL STAYS LIMITED",
+      "wikidata": "OYO Rooms"
+    },
+    {
+      "pairId": "POS-032",
+      "gleif": "GATEWAY TECHNOLABS PRIVATE LIMITED",
+      "wikidata": "Gateway Group of Companies"
+    },
+    {
+      "pairId": "POS-033",
+      "gleif": "NEW DELHI TELEVISION LIMITED",
+      "wikidata": "NDTV"
+    },
+    {
+      "pairId": "POS-039",
+      "gleif": "日本ペイントホールディングス株式会社",
+      "wikidata": "Nippon Paint"
+    },
+    {
+      "pairId": "POS-046",
+      "gleif": "GMR AIRPORTS LIMITED",
+      "wikidata": "GMR Group"
+    }
+  ]
+}
