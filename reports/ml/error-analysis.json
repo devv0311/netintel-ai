@@ -1,0 +1,2281 @@
+{
+  "evaluation": "P6.24.4 error analysis",
+  "ranAt": "2026-09-04T07:35:16.916Z",
+  "artifactSha256": "2c15204b85dee34063ddd4500eae42747a0362953dc4bf9627daba4cd97871f7",
+  "totalErrors": 42,
+  "errorCategoryCounts": {
+    "false_merge_shared_leading_token": 3,
+    "false_split_no_shared_token": 28,
+    "false_split_partial_overlap": 11
+  },
+  "rows": [
+    {
+      "pairId": "EN-0124",
+      "truth": "different_entities",
+      "prediction": "same_entity",
+      "score": 0.9994,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "hard_negative",
+      "labelClass": "hard_negative",
+      "labelBasis": "shared_leading_token",
+      "failureCategory": "false_merge_shared_leading_token",
+      "fields": {
+        "aName": "GENERTEL S.P.A.",
+        "bName": "Genertel",
+        "aJurisdiction": "IT",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "Genertel S.p.A."
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 1,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.25,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 1,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "precision gap — inspect before any threshold change; the deterministic resolver still governs the merge"
+    },
+    {
+      "pairId": "EN-0137",
+      "truth": "different_entities",
+      "prediction": "same_entity",
+      "score": 0.9867,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "wikidata x wikidata",
+      "entityCategory": "hard_negative",
+      "labelClass": "hard_negative",
+      "labelBasis": "shared_leading_token",
+      "failureCategory": "false_merge_shared_leading_token",
+      "fields": {
+        "aName": "Cultura",
+        "bName": "Cultura Sparebank",
+        "aJurisdiction": null,
+        "bJurisdiction": null,
+        "aOfficialName": "SOCULTUR",
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.5,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 1,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "precision gap — inspect before any threshold change; the deterministic resolver still governs the merge"
+    },
+    {
+      "pairId": "EN-0129",
+      "truth": "different_entities",
+      "prediction": "same_entity",
+      "score": 0.9853,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "hard_negative",
+      "labelClass": "hard_negative",
+      "labelBasis": "shared_leading_token",
+      "failureCategory": "false_merge_shared_leading_token",
+      "fields": {
+        "aName": "BNP PARIBAS",
+        "bName": "BNP PARIBAS CARDIF POJIŠŤOVNA,",
+        "aJurisdiction": "FR",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "BNP PARIBAS CARDIF POJIŠŤOVNA, A.S."
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.5,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 1,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "precision gap — inspect before any threshold change; the deterministic resolver still governs the merge"
+    },
+    {
+      "pairId": "EP-0209",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.8791,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Публичное акционерное общество \"Мобильные ТелеСистемы\"",
+        "bName": "Mobile TeleSystems",
+        "aJurisdiction": "RU",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "OJSC «Mobile TeleSystems»"
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0339",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.7146,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "Simon Levelt B.V.",
+        "bName": "Simon Lévelt",
+        "aJurisdiction": "NL",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "Simon Lévelt B.V."
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.2,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.5,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0153",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.6609,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "BANCO SANTANDER S.A.",
+        "bName": "Santander Group",
+        "aJurisdiction": "ES",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.2,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.5,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0416",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.652,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "LATVIJAS BANKA",
+        "bName": "Bank of Latvia",
+        "aJurisdiction": "LV",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0446",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.6366,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "SPORTSDIRECT.COM RETAIL LIMITED",
+        "bName": "Sports Direct",
+        "aJurisdiction": "GB",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0240",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.6212,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "script_variant",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "LINE株式会社",
+        "bName": "Z Intermediate Global Corporation",
+        "aJurisdiction": "JP",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "Z中間グローバル株式会社"
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0035",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.6104,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Grolsche Bierbrouwerij Nederland B.V.",
+        "bName": "Grolsch",
+        "aJurisdiction": "NL",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "Koninklijke Grolsch N.V."
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0397",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.6104,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "BANCA NATIONALA A ROMANIEI",
+        "bName": "National Bank of Romania",
+        "aJurisdiction": "RO",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0434",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.5547,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "Zürich Beteiligungs-Aktiengesellschaft (Deutschland)",
+        "bName": "Zurich Gruppe Deutschland",
+        "aJurisdiction": "DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.1667,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.3333,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0275",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.5179,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Feedzai-Consultoria e Inovação Tecnológica, S.A.",
+        "bName": "Q111920377",
+        "aJurisdiction": "PT",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0066",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.4661,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "SOCIETE NATIONALE SNCF",
+        "bName": "Société nationale des chemins de fer français",
+        "aJurisdiction": "FR",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.1111,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.3333,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0213",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.389,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "NORDISK FILM DISTRIBUTION AB",
+        "bName": "Q122389044",
+        "aJurisdiction": "SE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0016",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.3725,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "Kopparbergs Bryggeri Aktiebolag",
+        "bName": "Kopparbergs Brewery",
+        "aJurisdiction": "SE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.25,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.5,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0292",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.3468,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Stadtwerke Mosbach GmbH",
+        "bName": "Q110938424",
+        "aJurisdiction": "DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0005",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.3105,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "script_variant",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "青岛啤酒股份有限公司",
+        "bName": "Tsingtao Brewery",
+        "aJurisdiction": "CN",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0100",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.2814,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "PARK & Bellheimer AG",
+        "bName": "Q2052477",
+        "aJurisdiction": "DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0110",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.2716,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "WILD BUNCH",
+        "bName": "Q3568109",
+        "aJurisdiction": "FR",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0138",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.2641,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Lighthouse Home Entertainment Vertriebsgesellschaft GmbH & Co. KG",
+        "bName": "Q120335859",
+        "aJurisdiction": "DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0453",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.1782,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Flügger group A/S",
+        "bName": "Q10497241",
+        "aJurisdiction": "DK",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0242",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.1588,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Social Finance, LLC",
+        "bName": "SoFi",
+        "aJurisdiction": "US-DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0135",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.1492,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "FNM S.P.A.",
+        "bName": "Ferrovie Nord Milano",
+        "aJurisdiction": "IT",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0521",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.1336,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "edgar x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "cik_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Social Finance, Inc.",
+        "bName": "SoFi",
+        "aJurisdiction": "US-DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0013",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.1313,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Bürgerliches Brauhaus Ravensburg - Lindau Aktiengesellschaft.",
+        "bName": "Q1021191",
+        "aJurisdiction": "DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0518",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.1053,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "edgar x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "cik_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "MTS INC",
+        "bName": "Mobile TeleSystems",
+        "aJurisdiction": "US-CA",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "OJSC «Mobile TeleSystems»"
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0015",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0669,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "Paulaner Brauerei Gruppe GmbH & Co. KGaA",
+        "bName": "Paulaner Brewery",
+        "aJurisdiction": "DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.125,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.5,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0011",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0551,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "AASS BRYGGERI AS",
+        "bName": "Aass Brewery",
+        "aJurisdiction": "NO",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.25,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.5,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0374",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0375,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "Halloren Schokoladenfabrik Aktiengesellschaft",
+        "bName": "Halloren Chocolate Factory",
+        "aJurisdiction": "DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.2,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.3333,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0306",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0322,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "WALMART INC.",
+        "bName": "Q483551",
+        "aJurisdiction": "US-DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0527",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0322,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "edgar x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "cik_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Walmart Inc.",
+        "bName": "Q483551",
+        "aJurisdiction": "US-DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0058",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0218,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "E.P.E. ADMINISTRADOR DE INFRAESTRUCTURAS FERROVIARIAS",
+        "bName": "Red Nacional de los Ferrocarriles Españoles",
+        "aJurisdiction": "ES",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.0909,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.1667,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0117",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0203,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "FOMENTO ECONOMICO MEXICANO S A B DE C V",
+        "bName": "FEMSA",
+        "aJurisdiction": "MX",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0419",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0199,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "MAGYAR NEMZETI BANK",
+        "bName": "Hungarian National Bank",
+        "aJurisdiction": "HU",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.2,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.3333,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0144",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0186,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "partial_token_overlap",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_partial_overlap",
+      "fields": {
+        "aName": "NORDISK FILM DISTRIBUSJON AS",
+        "bName": "Nordisk Film Norway",
+        "aJurisdiction": "NO",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0.4,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0.6667,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0368",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0145,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Deutsche Bundesbank",
+        "bName": "German Federal Bank",
+        "aJurisdiction": "DE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0363",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.007,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "Lietuvos bankas",
+        "bName": "Bank of Lithuania",
+        "aJurisdiction": "LT",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0503",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0056,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "edgar x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "cik_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "NEW YORK COMMUNITY BANK",
+        "bName": "Flagstar Financial",
+        "aJurisdiction": null,
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "Flagstar Financial, Inc."
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0355",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0054,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "TÜRKİYE CUMHURİYET MERKEZ BANKASI",
+        "bName": "Central Bank of the Republic of Turkey",
+        "aJurisdiction": "TR",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0477",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0051,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "BELFIUS VERZEKERINGEN",
+        "bName": "DVV",
+        "aJurisdiction": "BE",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": null
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    },
+    {
+      "pairId": "EP-0193",
+      "truth": "same_entity",
+      "prediction": "different_entities",
+      "score": 0.0046,
+      "threshold": 0.8967658267380015,
+      "deterministicResult": "not merged",
+      "sources": "gleif x wikidata",
+      "entityCategory": "divergent",
+      "labelClass": "cross_source_positive",
+      "labelBasis": "lei_shared",
+      "failureCategory": "false_split_no_shared_token",
+      "fields": {
+        "aName": "New York Community Bank",
+        "bName": "Flagstar Financial",
+        "aJurisdiction": "US-NY",
+        "bJurisdiction": null,
+        "aOfficialName": null,
+        "bOfficialName": "Flagstar Financial, Inc."
+      },
+      "topFeatures": [
+        {
+          "name": "exactNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "normalizedNameMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "anyVariantNormalizedMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "sortedTokenMatch",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenJaccard",
+          "value": 0,
+          "contribution": 0
+        },
+        {
+          "name": "tokenContainment",
+          "value": 0,
+          "contribution": 0
+        }
+      ],
+      "recommendedNextAction": "recall gap — candidate for a future feature or for human review; NEVER a ground-truth edit"
+    }
+  ]
+}

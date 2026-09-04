@@ -18,7 +18,11 @@
     "evaluate": "node --import ./scripts/eval-resolve.mjs scripts/evaluate.ts",
     "collect:public": "node --use-env-proxy --import ./scripts/eval-resolve.mjs scripts/collect-public.ts",
     "fixture:morphology": "node --import ./scripts/eval-resolve.mjs scripts/build-morphology-fixture.ts",
-    "experiment:generalisation": "node --import ./scripts/eval-resolve.mjs scripts/generalisation-experiment.ts"
+    "experiment:generalisation": "node --import ./scripts/eval-resolve.mjs scripts/generalisation-experiment.ts",
+    "ml:dataset": "node --import ./scripts/eval-resolve.mjs scripts/ml/build-pair-dataset.ts",
+    "ml:leakage": "node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts",
+    "ml:train": "node --import ./scripts/eval-resolve.mjs scripts/ml/train-model.ts",
+    "ml:evaluate": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.123.0",

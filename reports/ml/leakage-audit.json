@@ -1,0 +1,127 @@
+{
+  "audit": "P6.24.2 leakage gate",
+  "dataset": {
+    "id": "cipher-er-pairs",
+    "version": "1.0.0",
+    "path": "evidence/ml/pair-dataset.json"
+  },
+  "ranAt": "2026-09-04T07:33:34.073Z",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "id": "L1",
+      "name": "subject disjointness",
+      "passed": true,
+      "detail": "756 subjects appear in the pair set; 0 appear in more than one partition",
+      "evidence": []
+    },
+    {
+      "id": "L2",
+      "name": "declared partition agrees with emitted pairs",
+      "passed": true,
+      "detail": "0 subjects whose emitted pairs disagree with the declared partition",
+      "evidence": []
+    },
+    {
+      "id": "L3",
+      "name": "record disjointness",
+      "passed": true,
+      "detail": "1240 records used; 0 appear in more than one partition",
+      "evidence": []
+    },
+    {
+      "id": "L4",
+      "name": "no duplicate record pair",
+      "passed": true,
+      "detail": "4053 distinct record pairs; 0 appear more than once",
+      "evidence": []
+    },
+    {
+      "id": "L5",
+      "name": "record projection carries no identifier field",
+      "passed": true,
+      "detail": "all 1240 projections carry only name, officialName, aliases, jurisdiction, registry"
+    },
+    {
+      "id": "L6",
+      "name": "feature code reads no identifier",
+      "passed": true,
+      "detail": "no identifier accessor appears in src/lib/ml/features.ts outside comments"
+    },
+    {
+      "id": "L7",
+      "name": "no single feature separates the classes almost perfectly",
+      "passed": true,
+      "detail": "every feature's standalone ROC-AUC on TRAIN is inside [0.01, 0.99]",
+      "evidence": [
+        {
+          "feature": "bestVariantTrigramDice",
+          "auc": 0.945
+        },
+        {
+          "feature": "trigramDice",
+          "auc": 0.8751
+        },
+        {
+          "feature": "tokenContainment",
+          "auc": 0.8722
+        },
+        {
+          "feature": "tokenJaccard",
+          "auc": 0.8634
+        },
+        {
+          "feature": "jaroWinkler",
+          "auc": 0.8429
+        },
+        {
+          "feature": "levenshteinRatio",
+          "auc": 0.8204
+        },
+        {
+          "feature": "anyVariantNormalizedMatch",
+          "auc": 0.805
+        },
+        {
+          "feature": "firstTokenMatch",
+          "auc": 0.747
+        }
+      ]
+    },
+    {
+      "id": "L8",
+      "name": "no identical entity spans two partitions",
+      "passed": true,
+      "detail": "1 normalised names occur in more than one partition, all under DIFFERENT subjects (distinct legal entities that share a name — the phenomenon the hard negatives exist to capture, not leakage); 0 occur under the SAME subject, which would be leakage",
+      "evidence": [
+        {
+          "normalised": "truist financial",
+          "refs": [
+            "gleif:549300DRQQI75D2JP341",
+            "edgar:EXP-1159"
+          ],
+          "partitions": [
+            "train",
+            "test"
+          ],
+          "subjects": [
+            "LEI:549300DRQQI75D2JP341",
+            "CIK:92230"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L9",
+      "name": "standardiser fitted on TRAIN rows only",
+      "passed": true,
+      "detail": "scripts/ml/train-model.ts calls fitStandardiser on the train examples"
+    },
+    {
+      "id": "L10",
+      "name": "training script does not read the test partition",
+      "passed": true,
+      "detail": "no reference to the test partition in scripts/ml/train-model.ts"
+    }
+  ]
+}

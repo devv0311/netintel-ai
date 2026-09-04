@@ -1,0 +1,340 @@
+{
+  "evaluation": "P6.24.4 frozen held-out evaluation",
+  "dataClass": "REAL",
+  "ranAt": "2026-09-04T07:35:16.916Z",
+  "artifact": {
+    "path": "models/cipher-er-pair-classifier.v1.json",
+    "sha256": "2c15204b85dee34063ddd4500eae42747a0362953dc4bf9627daba4cd97871f7",
+    "modelId": "cipher-er-pair-classifier",
+    "modelVersion": "1.0.0",
+    "experimentId": "E3-gradient-boosted-trees",
+    "modelKind": "gradient_boosted_trees",
+    "decisionThreshold": 0.8967658267380015,
+    "thresholdPolicy": "Chosen on the validation partition as the threshold maximising F1 subject to a false-merge rate no higher than the deterministic resolver's on the same partition (0.0000). The held-out partition was not consulted.",
+    "gitCommit": "fbadf309419d18e46ae6977786b7c165a6156687",
+    "datasetId": "cipher-er-pairs",
+    "datasetVersion": "1.0.0"
+  },
+  "heldOut": {
+    "partition": "test",
+    "pairs": 2615,
+    "positives": 356,
+    "negatives": 2259,
+    "curatedHardNegatives": 114,
+    "minedHardNegatives": 721,
+    "sampledNegatives": 1424,
+    "subjects": 376
+  },
+  "headline": {
+    "model": {
+      "truePositives": 317,
+      "falsePositives": 3,
+      "trueNegatives": 2256,
+      "falseNegatives": 39,
+      "threshold": 0.8967658267380015,
+      "precision": 0.990625,
+      "recall": 0.8904494382022472,
+      "f1": 0.9378698224852071,
+      "falseMergeRate": 0.0013280212483399733,
+      "falseSplitRate": 0.10955056179775281,
+      "rocAuc": 0.9822,
+      "prAuc": 0.9482,
+      "positivePairRecovery": "317/356"
+    },
+    "deterministicBaseline": {
+      "truePositives": 158,
+      "falsePositives": 2,
+      "trueNegatives": 2257,
+      "falseNegatives": 198,
+      "threshold": 0.5,
+      "precision": 0.9875,
+      "recall": 0.4438202247191011,
+      "f1": 0.6124031007751939,
+      "falseMergeRate": 0.0008853474988933156,
+      "falseSplitRate": 0.5561797752808989,
+      "rocAuc": null,
+      "prAuc": null,
+      "positivePairRecovery": "158/356",
+      "note": "The shipped resolver's Tier B/B2 rule replayed at pair level. NOT the 70.7% figure from the earlier 75-pair India-filtered corpus, which is a different dataset and not comparable."
+    },
+    "deltaRecallPoints": 44.7,
+    "deltaFalseMergeRatePoints": 0.044
+  },
+  "falseMergeByNegativeClass": [
+    {
+      "labelClass": "hard_negative",
+      "negatives": 114,
+      "modelFalseMerges": 3,
+      "modelFalseMergeRate": 0.02631578947368421,
+      "deterministicFalseMerges": 2,
+      "deterministicFalseMergeRate": 0.017543859649122806
+    },
+    {
+      "labelClass": "mined_hard_negative",
+      "negatives": 721,
+      "modelFalseMerges": 0,
+      "modelFalseMergeRate": 0,
+      "deterministicFalseMerges": 0,
+      "deterministicFalseMergeRate": 0
+    },
+    {
+      "labelClass": "sampled_negative",
+      "negatives": 1424,
+      "modelFalseMerges": 0,
+      "modelFalseMergeRate": 0,
+      "deterministicFalseMerges": 0,
+      "deterministicFalseMergeRate": 0
+    }
+  ],
+  "hardNegativeFalseMergeRate": {
+    "denominator": 835,
+    "model": 3,
+    "modelPct": "0.36%",
+    "deterministic": 2,
+    "deterministicPct": "0.24%"
+  },
+  "falseSplitRate": {
+    "model": "39/356",
+    "modelPct": "10.96%",
+    "deterministic": "198/356",
+    "deterministicPct": "55.62%"
+  },
+  "breakdowns": [
+    {
+      "dimension": "name variation (ground-truth class)",
+      "slices": {
+        "exact / near-exact": {
+          "positives": 57,
+          "model": 57,
+          "deterministic": 57,
+          "modelPct": "100.0%",
+          "deterministicPct": "100.0%"
+        },
+        "transliteration / script variant": {
+          "positives": 15,
+          "model": 13,
+          "deterministic": 0,
+          "modelPct": "86.7%",
+          "deterministicPct": "0.0%"
+        },
+        "partial token overlap": {
+          "positives": 40,
+          "model": 29,
+          "deterministic": 0,
+          "modelPct": "72.5%",
+          "deterministicPct": "0.0%"
+        },
+        "containment": {
+          "positives": 98,
+          "model": 98,
+          "deterministic": 0,
+          "modelPct": "100.0%",
+          "deterministicPct": "0.0%"
+        },
+        "legal suffix or punctuation": {
+          "positives": 101,
+          "model": 101,
+          "deterministic": 101,
+          "modelPct": "100.0%",
+          "deterministicPct": "100.0%"
+        },
+        "divergent": {
+          "positives": 45,
+          "model": 19,
+          "deterministic": 0,
+          "modelPct": "42.2%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "source pairing",
+      "slices": {
+        "gleif x wikidata": {
+          "positives": 292,
+          "model": 257,
+          "deterministic": 120,
+          "modelPct": "88.0%",
+          "deterministicPct": "41.1%"
+        },
+        "edgar x wikidata": {
+          "positives": 64,
+          "model": 60,
+          "deterministic": 38,
+          "modelPct": "93.8%",
+          "deterministicPct": "59.4%"
+        }
+      }
+    },
+    {
+      "dimension": "abbreviation / acronym",
+      "slices": {
+        "no acronym match": {
+          "positives": 356,
+          "model": 317,
+          "deterministic": 158,
+          "modelPct": "89.0%",
+          "deterministicPct": "44.4%"
+        }
+      }
+    },
+    {
+      "dimension": "name order",
+      "slices": {
+        "not a pure reordering": {
+          "positives": 356,
+          "model": 317,
+          "deterministic": 158,
+          "modelPct": "89.0%",
+          "deterministicPct": "44.4%"
+        }
+      }
+    },
+    {
+      "dimension": "legal suffix",
+      "slices": {
+        "other": {
+          "positives": 255,
+          "model": 216,
+          "deterministic": 57,
+          "modelPct": "84.7%",
+          "deterministicPct": "22.4%"
+        },
+        "suffix or punctuation only": {
+          "positives": 101,
+          "model": 101,
+          "deterministic": 101,
+          "modelPct": "100.0%",
+          "deterministicPct": "100.0%"
+        }
+      }
+    },
+    {
+      "dimension": "script",
+      "slices": {
+        "same script": {
+          "positives": 340,
+          "model": 303,
+          "deterministic": 158,
+          "modelPct": "89.1%",
+          "deterministicPct": "46.5%"
+        },
+        "different script": {
+          "positives": 16,
+          "model": 14,
+          "deterministic": 0,
+          "modelPct": "87.5%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "publisher aliases present",
+      "slices": {
+        "at least one side has aliases": {
+          "positives": 176,
+          "model": 164,
+          "deterministic": 69,
+          "modelPct": "93.2%",
+          "deterministicPct": "39.2%"
+        },
+        "neither side has aliases": {
+          "positives": 180,
+          "model": 153,
+          "deterministic": 89,
+          "modelPct": "85.0%",
+          "deterministicPct": "49.4%"
+        }
+      }
+    },
+    {
+      "dimension": "jurisdiction",
+      "slices": {
+        "not stated by both publishers": {
+          "positives": 356,
+          "model": 317,
+          "deterministic": 158,
+          "modelPct": "89.0%",
+          "deterministicPct": "44.4%"
+        }
+      }
+    }
+  ],
+  "previouslyKnownRealFailures": [
+    {
+      "pairId": "EN-0002",
+      "names": [
+        "ROCKY MOUNTAIN CHOCOLATE FACTORY INC",
+        "Rocky Mountain Chocolate Factory, Inc."
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.6741,
+      "modelMerges": false,
+      "deterministicMerges": true
+    },
+    {
+      "pairId": "EN-0003",
+      "names": [
+        "GENERTEL S.P.A.",
+        "GENERTEL S.P.A."
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.6445,
+      "modelMerges": false,
+      "deterministicMerges": true
+    },
+    {
+      "pairId": "EN-0103",
+      "names": [
+        "SIMON PROPERTY GROUP, INC.",
+        "SIMON PROPERTY GROUP, L.P."
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.7592,
+      "modelMerges": false,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0124",
+      "names": [
+        "GENERTEL S.P.A.",
+        "Genertel"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.9994,
+      "modelMerges": true,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0129",
+      "names": [
+        "BNP PARIBAS",
+        "BNP PARIBAS CARDIF POJIŠŤOVNA,"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.9853,
+      "modelMerges": true,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0130",
+      "names": [
+        "BNP Paribas",
+        "BNP PARIBAS CARDIF POJIŠŤOVNA,"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.62,
+      "modelMerges": false,
+      "deterministicMerges": false
+    }
+  ],
+  "formerNameSlice": {
+    "note": "A former name is a TEMPORAL claim by a single authority. It is not an identity label, was never trained on, and is reported here only so the number is visible.",
+    "pairs": 55
+  },
+  "errorCategoryCounts": {
+    "false_merge_shared_leading_token": 3,
+    "false_split_no_shared_token": 28,
+    "false_split_partial_overlap": 11
+  }
+}

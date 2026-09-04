@@ -1,0 +1,473 @@
+{
+  "registry": "P6.24 experiment registry",
+  "ranAt": "2026-09-04T07:35:16.736Z",
+  "gitCommit": "fbadf309419d18e46ae6977786b7c165a6156687",
+  "dataset": {
+    "id": "cipher-er-pairs",
+    "version": "1.0.0",
+    "path": "evidence/ml/pair-dataset.json",
+    "seed": "cipher-p6.24-pair-dataset-v1"
+  },
+  "partitionsUsed": [
+    "train",
+    "validation"
+  ],
+  "heldOutPartition": "NOT READ by this script. Opened only by scripts/ml/evaluate-model.ts.",
+  "classBalance": {
+    "train": {
+      "pairs": 1044,
+      "positives": 162,
+      "negatives": 882,
+      "hardNegatives": 28,
+      "minedHardNegatives": 206,
+      "sampledNegatives": 648
+    },
+    "validation": {
+      "pairs": 394,
+      "positives": 60,
+      "negatives": 334,
+      "hardNegatives": 4,
+      "minedHardNegatives": 90,
+      "sampledNegatives": 240
+    }
+  },
+  "baselineOnFitPartition": {
+    "truePositives": 65,
+    "falsePositives": 1,
+    "trueNegatives": 881,
+    "falseNegatives": 97,
+    "threshold": 0.5,
+    "precision": 0.9848484848484849,
+    "recall": 0.4012345679012346,
+    "f1": 0.5701754385964912,
+    "falseMergeRate": 0.0011337868480725624,
+    "falseSplitRate": 0.5987654320987654
+  },
+  "falseMergeCeiling": 0,
+  "featureNames": [
+    "exactNameMatch",
+    "normalizedNameMatch",
+    "anyVariantNormalizedMatch",
+    "sortedTokenMatch",
+    "tokenJaccard",
+    "tokenContainment",
+    "orderedPrefixContainment",
+    "firstTokenMatch",
+    "lastTokenMatch",
+    "levenshteinRatio",
+    "jaroWinkler",
+    "trigramDice",
+    "bestVariantTrigramDice",
+    "lengthRatio",
+    "tokenCountRatio",
+    "singleTokenSide",
+    "acronymMatch",
+    "sameScript",
+    "jurisdictionBothKnown",
+    "jurisdictionCountryMatch",
+    "jurisdictionCountryConflict",
+    "officialNameBothPresent",
+    "aliasesEitherPresent",
+    "digitSetConflict",
+    "romanNumeralConflict"
+  ],
+  "experiments": [
+    {
+      "experimentId": "E1-deterministic-baseline",
+      "model": "deterministic normalised-name equality (src/lib/resolution/name-normalization.ts)",
+      "featureSet": "none — the shipped resolver's own Tier B/B2 rule, replayed at pair level",
+      "featureCount": 0,
+      "hyperparameters": {},
+      "seed": 0,
+      "trainingMillis": 0,
+      "validation": {
+        "rocAuc": null,
+        "prAuc": null,
+        "selected": {
+          "truePositives": 26,
+          "falsePositives": 0,
+          "trueNegatives": 334,
+          "falseNegatives": 34,
+          "threshold": 0.5,
+          "precision": 1,
+          "recall": 0.43333333333333335,
+          "f1": 0.6046511627906976,
+          "falseMergeRate": 0,
+          "falseSplitRate": 0.5666666666666667
+        },
+        "atFixedHalf": {
+          "truePositives": 26,
+          "falsePositives": 0,
+          "trueNegatives": 334,
+          "falseNegatives": 34,
+          "threshold": 0.5,
+          "precision": 1,
+          "recall": 0.43333333333333335,
+          "f1": 0.6046511627906976,
+          "falseMergeRate": 0,
+          "falseSplitRate": 0.5666666666666667
+        }
+      },
+      "shipped": false,
+      "note": "Not a learned model and not tuneable. This is the number every other row must beat, measured on the same pairs. It is deliberately NOT the 70.7% figure from the earlier India-filtered 75-pair corpus, which is a different corpus and not comparable.",
+      "parameterSummary": null
+    },
+    {
+      "experimentId": "E2-logistic-regression",
+      "model": "logistic_regression",
+      "featureSet": "engineered-25",
+      "featureCount": 25,
+      "hyperparameters": {
+        "learningRate": 0.5,
+        "epochs": 4000,
+        "l2": 0.002,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 388,
+      "validation": {
+        "rocAuc": 0.9806,
+        "prAuc": 0.9618,
+        "selected": {
+          "truePositives": 52,
+          "falsePositives": 0,
+          "trueNegatives": 334,
+          "falseNegatives": 8,
+          "threshold": 0.7999996158738335,
+          "precision": 1,
+          "recall": 0.8666666666666667,
+          "f1": 0.9285714285714286,
+          "falseMergeRate": 0,
+          "falseSplitRate": 0.13333333333333333
+        },
+        "atFixedHalf": {
+          "truePositives": 55,
+          "falsePositives": 1,
+          "trueNegatives": 333,
+          "falseNegatives": 5,
+          "threshold": 0.5,
+          "precision": 0.9821428571428571,
+          "recall": 0.9166666666666666,
+          "f1": 0.9482758620689654,
+          "falseMergeRate": 0.0029940119760479044,
+          "falseSplitRate": 0.08333333333333333
+        }
+      },
+      "shipped": false,
+      "note": "The simplest interpretable model the ladder allows. Every coefficient is readable and every score decomposes into per-feature contributions, which is what makes a merge suggestion auditable.",
+      "parameterSummary": {
+        "kind": "logistic_regression",
+        "intercept": -2.2796,
+        "weights": [
+          {
+            "feature": "bestVariantTrigramDice",
+            "weight": 2.3308
+          },
+          {
+            "feature": "firstTokenMatch",
+            "weight": -1.5807
+          },
+          {
+            "feature": "officialNameBothPresent",
+            "weight": -1.2751
+          },
+          {
+            "feature": "orderedPrefixContainment",
+            "weight": 1.1455
+          },
+          {
+            "feature": "trigramDice",
+            "weight": 1.0471
+          },
+          {
+            "feature": "jurisdictionCountryMatch",
+            "weight": -0.9846
+          },
+          {
+            "feature": "jurisdictionBothKnown",
+            "weight": -0.8745
+          },
+          {
+            "feature": "anyVariantNormalizedMatch",
+            "weight": 0.602
+          },
+          {
+            "feature": "tokenCountRatio",
+            "weight": -0.4321
+          },
+          {
+            "feature": "aliasesEitherPresent",
+            "weight": -0.3502
+          },
+          {
+            "feature": "jaroWinkler",
+            "weight": -0.3311
+          },
+          {
+            "feature": "tokenContainment",
+            "weight": 0.3159
+          },
+          {
+            "feature": "jurisdictionCountryConflict",
+            "weight": -0.2522
+          },
+          {
+            "feature": "tokenJaccard",
+            "weight": -0.2144
+          },
+          {
+            "feature": "lengthRatio",
+            "weight": -0.1798
+          },
+          {
+            "feature": "lastTokenMatch",
+            "weight": 0.178
+          },
+          {
+            "feature": "singleTokenSide",
+            "weight": 0.1684
+          },
+          {
+            "feature": "sortedTokenMatch",
+            "weight": 0.1597
+          },
+          {
+            "feature": "digitSetConflict",
+            "weight": -0.134
+          },
+          {
+            "feature": "exactNameMatch",
+            "weight": 0.1092
+          },
+          {
+            "feature": "normalizedNameMatch",
+            "weight": 0.1044
+          },
+          {
+            "feature": "sameScript",
+            "weight": -0.0799
+          },
+          {
+            "feature": "levenshteinRatio",
+            "weight": 0.0419
+          },
+          {
+            "feature": "acronymMatch",
+            "weight": 0
+          },
+          {
+            "feature": "romanNumeralConflict",
+            "weight": 0
+          }
+        ]
+      }
+    },
+    {
+      "experimentId": "E3-gradient-boosted-trees",
+      "model": "gradient_boosted_trees",
+      "featureSet": "engineered-25",
+      "featureCount": 25,
+      "hyperparameters": {
+        "rounds": 120,
+        "learningRate": 0.1,
+        "maxDepth": 3,
+        "minSamplesPerLeaf": 12,
+        "l2": 1,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 1408,
+      "validation": {
+        "rocAuc": 0.9865,
+        "prAuc": 0.9709,
+        "selected": {
+          "truePositives": 54,
+          "falsePositives": 0,
+          "trueNegatives": 334,
+          "falseNegatives": 6,
+          "threshold": 0.8967658267380015,
+          "precision": 1,
+          "recall": 0.9,
+          "f1": 0.9473684210526316,
+          "falseMergeRate": 0,
+          "falseSplitRate": 0.1
+        },
+        "atFixedHalf": {
+          "truePositives": 55,
+          "falsePositives": 4,
+          "trueNegatives": 330,
+          "falseNegatives": 5,
+          "threshold": 0.5,
+          "precision": 0.9322033898305084,
+          "recall": 0.9166666666666666,
+          "f1": 0.9243697478991596,
+          "falseMergeRate": 0.011976047904191617,
+          "falseSplitRate": 0.08333333333333333
+        }
+      },
+      "shipped": true,
+      "note": "Tried because the failures this model exists to recover are interactions a linear model cannot express: a high token overlap is evidence of identity ONLY when the pair does not also look like a shared-leading-token family.",
+      "parameterSummary": {
+        "kind": "gradient_boosted_trees",
+        "trees": 120,
+        "learningRate": 0.1
+      }
+    },
+    {
+      "experimentId": "E4-ablation-registry-pairing",
+      "model": "logistic_regression",
+      "featureSet": "engineered-25 + sameRegistry (ablation)",
+      "featureCount": 26,
+      "hyperparameters": {
+        "learningRate": 0.5,
+        "epochs": 4000,
+        "l2": 0.002,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 402,
+      "validation": {
+        "rocAuc": 0.9892,
+        "prAuc": 0.9712,
+        "selected": {
+          "truePositives": 55,
+          "falsePositives": 0,
+          "trueNegatives": 334,
+          "falseNegatives": 5,
+          "threshold": 0.6846714436900959,
+          "precision": 1,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348,
+          "falseMergeRate": 0,
+          "falseSplitRate": 0.08333333333333333
+        },
+        "atFixedHalf": {
+          "truePositives": 56,
+          "falsePositives": 1,
+          "trueNegatives": 333,
+          "falseNegatives": 4,
+          "threshold": 0.5,
+          "precision": 0.9824561403508771,
+          "recall": 0.9333333333333333,
+          "f1": 0.9572649572649572,
+          "falseMergeRate": 0.0029940119760479044,
+          "falseSplitRate": 0.06666666666666667
+        }
+      },
+      "shipped": false,
+      "note": "ABLATION, NEVER SHIPPED. Every positive in this corpus is cross-source by construction while many negatives are same-source, so `sameRegistry` predicts the label partly because of how the labels were BUILT. The gap between this row and E2 is the size of that artefact, measured rather than assumed.",
+      "parameterSummary": {
+        "kind": "logistic_regression",
+        "intercept": -3.2084,
+        "weights": [
+          {
+            "feature": "bestVariantTrigramDice",
+            "weight": 2.2178
+          },
+          {
+            "feature": "firstTokenMatch",
+            "weight": -1.602
+          },
+          {
+            "feature": "trigramDice",
+            "weight": 1.0625
+          },
+          {
+            "feature": "orderedPrefixContainment",
+            "weight": 1.0596
+          },
+          {
+            "feature": "officialNameBothPresent",
+            "weight": -0.8455
+          },
+          {
+            "feature": "jurisdictionCountryMatch",
+            "weight": -0.6324
+          },
+          {
+            "feature": "anyVariantNormalizedMatch",
+            "weight": 0.5872
+          },
+          {
+            "feature": "aliasesEitherPresent",
+            "weight": -0.5066
+          },
+          {
+            "feature": "jaroWinkler",
+            "weight": -0.4965
+          },
+          {
+            "feature": "jurisdictionBothKnown",
+            "weight": -0.471
+          },
+          {
+            "feature": "tokenContainment",
+            "weight": 0.4459
+          },
+          {
+            "feature": "lengthRatio",
+            "weight": -0.346
+          },
+          {
+            "feature": "singleTokenSide",
+            "weight": 0.306
+          },
+          {
+            "feature": "tokenCountRatio",
+            "weight": -0.2232
+          },
+          {
+            "feature": "levenshteinRatio",
+            "weight": 0.1962
+          },
+          {
+            "feature": "sortedTokenMatch",
+            "weight": 0.1011
+          },
+          {
+            "feature": "exactNameMatch",
+            "weight": 0.0832
+          },
+          {
+            "feature": "normalizedNameMatch",
+            "weight": 0.0828
+          },
+          {
+            "feature": "digitSetConflict",
+            "weight": -0.0741
+          },
+          {
+            "feature": "lastTokenMatch",
+            "weight": 0.0595
+          },
+          {
+            "feature": "jurisdictionCountryConflict",
+            "weight": -0.0446
+          },
+          {
+            "feature": "sameScript",
+            "weight": -0.0291
+          },
+          {
+            "feature": "tokenJaccard",
+            "weight": 0.0104
+          },
+          {
+            "feature": "acronymMatch",
+            "weight": 0
+          },
+          {
+            "feature": "romanNumeralConflict",
+            "weight": 0
+          }
+        ]
+      }
+    }
+  ],
+  "shipped": {
+    "experimentId": "E3-gradient-boosted-trees",
+    "artifactPath": "models/cipher-er-pair-classifier.v1.json",
+    "artifactSha256": "2c15204b85dee34063ddd4500eae42747a0362953dc4bf9627daba4cd97871f7",
+    "decisionThreshold": 0.8967658267380015
+  }
+}
