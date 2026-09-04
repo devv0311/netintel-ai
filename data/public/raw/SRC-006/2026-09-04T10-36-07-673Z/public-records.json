@@ -1,0 +1,20 @@
+[
+  {
+    "recordRef": "edgar:1013131",
+    "registry": "edgar",
+    "registryRecordId": "1013131",
+    "subjectKind": "organisation",
+    "name": "BUENAVENTURA MINING CO INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1013131"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:36:07.163Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013131"
+  }
+]

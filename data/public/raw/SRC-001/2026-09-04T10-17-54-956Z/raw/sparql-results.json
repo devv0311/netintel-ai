@@ -1,0 +1,4241 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48872"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VDIGTMXUNT7H71"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ईटान निगम"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001551182"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eaton Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48872"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VDIGTMXUNT7H71"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ईटान निगम"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001551182"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eaton Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170614"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400BR2ROC1FVEBQ56"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001038683"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryanair"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q253967"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400TLVVBNXLFHWC59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kerry Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q253967"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400TLVVBNXLFHWC59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kerry Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q338825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000EWHDSR3MZWH98"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एक्सेंचर"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001467373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Accenture"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/471706"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q338825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000EWHDSR3MZWH98"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एक्सेंचर"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001467373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Accenture"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/471706"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q338825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000EWHDSR3MZWH98"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एक्सेंचर"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001467373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Accenture"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/471706"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T0GJTEK811VI53"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000884629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Actavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400FWJZQC1IPYUH69"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000884629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Actavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T0GJTEK811VI53"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000884629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Actavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400FWJZQC1IPYUH69"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000884629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Actavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400JUG5XJXOPPJJ47"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001857475"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dole plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/606201"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400JUG5XJXOPPJJ47"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001857475"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dole plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/606201"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400JUG5XJXOPPJJ47"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001857475"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dole plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/606201"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541461"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "63540035YHNEXOHCEB47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglo Irish Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q667865"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3LB2NG8VUULSCV2NO430"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000833444"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johnson Controls"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q667865"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3LB2NG8VUULSCV2NO430"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000833444"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johnson Controls"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q682759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003QR1WT0EF88V51"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001707925"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linde Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/602527"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q682759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003QR1WT0EF88V51"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001707925"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linde Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/602527"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q692157"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400RXXHHYT1JTSZ26"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एक्सपेरियन"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Experian"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q692157"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400RXXHHYT1JTSZ26"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एक्सपेरियन"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Experian"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q856897"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "LONOZNOJYIBXOHXWDB86"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000055067"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kellanova"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_mi/801010099"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q856897"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "LONOZNOJYIBXOHXWDB86"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000055067"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kellanova"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_mi/801010099"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q906187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400FWJZQC1IPYUH69"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001578845"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allergan plc"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allergan Public Liability Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1053299"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MIDJNNTH068E74"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000849395"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CRH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1053299"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MIDJNNTH068E74"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000849395"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CRH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1066031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KTII4OWLMHW585"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ASL Airlines Belgium"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0466467258"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1642179"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3U8WV1YX2VMUHH7Z1Q21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allied Irish Banks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1642179"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3U8WV1YX2VMUHH7Z1Q21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allied Irish Banks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1654187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200ZOAI9BOLGC1D37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INIT SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2662047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400B2XEYYR6B7R551"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Independent News & Media"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2662047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400B2XEYYR6B7R551"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Independent News & Media"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2916497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IFOQS6R1QLY196"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001585364"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perrigo Company Plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/529592"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perrigo Company plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2916497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IFOQS6R1QLY196"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001585364"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perrigo Company Plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/529592"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perrigo Company plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3050566"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400UFHDIQCDZ6JK11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ESB Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4047081"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400OOBAGP8IV4TA84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Playrix"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cy/HE444520"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4047081"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400OOBAGP8IV4TA84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Playrix"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cy/HE444520"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4650685"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003BPVMZUJ6F5C02"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000935036"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ACI Worldwide"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4650685"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003BPVMZUJ6F5C02"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000935036"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ACI Worldwide"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4687934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SZYINBBLJQU475"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AerCap"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34251954"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "AerCap Holdings N.V"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4687934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SZYINBBLJQU475"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AerCap"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34251954"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "AerCap Holdings N.V"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4727688"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YHRMYLL071E243"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000874663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alkermes"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4727688"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YHRMYLL071E243"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000874663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alkermes"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5426582"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI58A0MHGHTZ98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FLY Leasing"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5426582"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI58A0MHGHTZ98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FLY Leasing"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5592537"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400BE9SBAG61DJ963"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grafton Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6413386"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400HM7V74SUB9OG75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingspan Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/70576"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7624104"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CLHGIPTCYHQ143"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "स्ट्राईप"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001691342"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stripe"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/4675506"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stripe, LLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16738121"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500560CAC2E6FB757"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001579241"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allegion"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16738121"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500560CAC2E6FB757"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001579241"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allegion"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18168341"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900AL535Q7FCWY921"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001826018"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rover.com"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22121865"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JJX3WMIPNL7R91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cimpress"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/14117527"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22121865"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JJX3WMIPNL7R91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cimpress"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/14117527"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23022611"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400EG4YIJLJMZJ782"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flutter Entertainment"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23022611"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400EG4YIJLJMZJ782"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flutter Entertainment"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26912024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "YYPPRNO5HB304LHFVG31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Google Ireland Holdings Unlimited Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/368047"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30274031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900916EI8NU0SVV60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pfizer Ireland Pharmaceuticals"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/490938"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41171672"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005KDININGAXCV64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aldi Süd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41171672"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005KDININGAXCV64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aldi Süd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80055035"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WCLFVEBTBNRF76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Microsoft Ireland Operations"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/256796"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415926"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CCEVCTY7T5EG24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415928"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GF0YV0I6J7FV27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canniffe"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/266757"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canniffe Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415929"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GNDU412NNY0Q50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/329465"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415930"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700S35T3RBMJYFL17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Conservative Bond Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Conservative Bond Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415932"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UW9DUZSD4JKH24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEA JET LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/619156"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEA JET LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415933"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UXWU1VPH2PQW42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Bond Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Bond Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YCHL3H9WHDLK05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Dynamic Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Dynamic Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415935"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000NUMZUYMCZTJ48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Houseglade"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/501711"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Houseglade Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415936"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157002E3FI14ULIEZ05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COLLINGTON II LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/506355"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COLLINGTON II LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415937"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003169"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Generali Invest CEE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/468417"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415938"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003266"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Conservative Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Conservative Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415940"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003363"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commodity Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commodity Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415941"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corporate Bonds Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corporate Bonds Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415942"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003557"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emerging Europe Bond Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emerging Europe Bond Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415944"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003654"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emerging Europe Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emerging Europe Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415945"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003751"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Equity Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Equity Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003848"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New Economies Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New Economies Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415948"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil and Energy Industry Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil and Energy Industry Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415949"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000004042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Balanced Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Balanced Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415950"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000004139"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dynamic Balanced Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dynamic Balanced Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415952"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570044MLJZSF1GQL70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest New Europe Bond Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest New Europe Bond Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111083500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400I6H6CSZ39WIN49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GTLK Europe"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PXRYWZ0KVFW494"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bord Gáis Energy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466391"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DU874K2NWPIN33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Electroroute Energy Trading"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466394"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400ZIDJC82IPWWW05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cenergise"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466397"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400AUPCYJPCIXRH42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ESB Independent Generation Trading Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466400"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JYRUF8F2YWTJ49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Huntstown Power Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466416"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800J6CDDIKPCBJG32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energia Customer Solutions"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466434"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "JE75XDS7HR68LR10VO64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Susquehanna Ireland"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466435"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JP04ME10WRRL36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EirGrid Interconnector"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466437"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400115UIEKE6OB758"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naturgy (Ireland)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466459"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500BFD59D4BOECA98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LCC Power"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48872"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VDIGTMXUNT7H71"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ईटान निगम"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001551182"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eaton Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170614"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400BR2ROC1FVEBQ56"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001038683"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryanair"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q253967"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400TLVVBNXLFHWC59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kerry Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T0GJTEK811VI53"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000884629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Actavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400FWJZQC1IPYUH69"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000884629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Actavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T0GJTEK811VI53"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000884629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Actavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400FWJZQC1IPYUH69"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000884629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Actavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541461"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "63540035YHNEXOHCEB47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglo Irish Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541461"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "63540035YHNEXOHCEB47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglo Irish Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q667865"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3LB2NG8VUULSCV2NO430"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000833444"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johnson Controls"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q682759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003QR1WT0EF88V51"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001707925"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linde Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/602527"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q692157"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400RXXHHYT1JTSZ26"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एक्सपेरियन"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Experian"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q856897"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "LONOZNOJYIBXOHXWDB86"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000055067"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kellanova"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_mi/801010099"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q906187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400FWJZQC1IPYUH69"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001578845"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allergan plc"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allergan Public Liability Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1053299"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MIDJNNTH068E74"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000849395"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CRH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1066031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KTII4OWLMHW585"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ASL Airlines Belgium"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0466467258"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1642179"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3U8WV1YX2VMUHH7Z1Q21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allied Irish Banks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2662047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400B2XEYYR6B7R551"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Independent News & Media"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2916497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IFOQS6R1QLY196"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001585364"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perrigo Company Plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/529592"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perrigo Company plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2916497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IFOQS6R1QLY196"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001585364"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perrigo Company Plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/529592"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perrigo Company plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4687934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SZYINBBLJQU475"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AerCap"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34251954"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "AerCap Holdings N.V"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5592537"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400BE9SBAG61DJ963"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grafton Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41171672"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005KDININGAXCV64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aldi Süd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415926"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CCEVCTY7T5EG24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415928"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GF0YV0I6J7FV27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canniffe"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/266757"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canniffe Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415929"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GNDU412NNY0Q50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/329465"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415930"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700S35T3RBMJYFL17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Conservative Bond Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Conservative Bond Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415932"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UW9DUZSD4JKH24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEA JET LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/619156"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEA JET LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415933"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UXWU1VPH2PQW42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Bond Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest Bond Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YCHL3H9WHDLK05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Dynamic Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Dynamic Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415935"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000NUMZUYMCZTJ48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Houseglade"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/501711"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Houseglade Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415936"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157002E3FI14ULIEZ05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COLLINGTON II LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/506355"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COLLINGTON II LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415937"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003169"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Generali Invest CEE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/468417"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415938"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003266"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Conservative Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Conservative Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415940"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003363"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commodity Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commodity Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415941"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corporate Bonds Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corporate Bonds Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415942"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003557"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emerging Europe Bond Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emerging Europe Bond Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415944"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003654"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emerging Europe Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emerging Europe Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415945"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003751"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Equity Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Equity Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003848"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New Economies Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New Economies Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415948"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000003945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil and Energy Industry Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil and Energy Industry Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415949"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000004042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Balanced Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premium Balanced Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415950"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000004139"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dynamic Balanced Fund, Generali Invest CEE"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dynamic Balanced Fund, Generali Invest CEE plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415952"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570044MLJZSF1GQL70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest New Europe Bond Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conseq Invest New Europe Bond Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300I7VOV1CGPX5F38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Phillips 66 Whitegate Refinery"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466540"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003FR1STIRZPAR62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kilrush Energy Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466541"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GQN23SGZPG3G08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carraigcannon Wind Farm Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466576"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JS24A5W7R6LW83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Solstar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466586"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6354008ZEX1XBUOEUY66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Geneva Ireland Financial Trading"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002WKR72AOP5H129"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CFP Commodities"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466624"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ECANH7BFVRWH05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cloosh Valley Wind Farm Designated Activity Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466630"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6354002JN8SBOCTHSR11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panda Power"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466667"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RFD07WYQ63UJ33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Virtu Financial Europe"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466684"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400AVLXK7LPVDCQ73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naturgy LNG Marketing"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466692"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400JLXR6WLMCS8Y40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oldmill Wind"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466694"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003GIG3RI871J624"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Citadel Energy Investments (Ireland) Designated Activity Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466695"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XG5LFGN1IGYC71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Virtu Financial Ireland"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466701"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400AOTXV6SLXO6M95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raheenleagh Power Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466706"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AN8HMGAQ87LS78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Fuel Commodities Services (Ireland)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466725"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HC0HDAWBHGG218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDF Trading Markets (Ireland)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466732"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300E8OOVFNZ86MO37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Scart Energy DAC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400YJ7DKHEINIGW51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Slievereagh Power (CS) Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466746"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400XZYEPDRQOTPQ67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ballycumber Wind Farm"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466756"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400IHK3QEXMINSY34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ever Energy Supply"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466757"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800QKKKU2HTJMSL68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Derrysallagh Windfarm"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466763"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400QU1CDG7FOKVJ42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Edenderry Power Operations"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466770"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6354000TNPDQGNEZU040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Black Lough Windfarm"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466775"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MOGFTM38LKNJ30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mauricetown Wind Farm"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466778"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138004JY6U9N7JAH967"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WIndgeneration Ireland"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466783"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300E5ENQVY2IBLF67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macquarie Bank Europe Designated Activity Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8755001HETNRZSG3NZ62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Calvi Energy Services"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500UR1HKQA215KK77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S&G MCARDLE LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466830"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400WSOQYF11I9ZK57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amazon Energy Eoraip Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124461238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000573DS7005T657"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001737806"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PDD Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134581221"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PORJUTGY34ZS68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vivid Money"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIVID MONEY HOLDCO LIMITED"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vivid"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134581221"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PORJUTGY34ZS68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vivid Money"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIVID MONEY HOLDCO LIMITED"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vivid"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779163"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845003D98SCC2851458"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Payward Global Solutions"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Payward Global Solutions Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779164"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900641D8KNHUZYX24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Payward Europe Solutions"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Payward Europe Solutions Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779165"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845007FA1A8E1DE3989"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Legend Financial Ireland"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Legend Financial Ireland Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779166"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400NEDOJDEJEQZQ77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Push Virtual Assets Ireland"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Push Virtual Assets Ireland Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779167"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "89450036UW3ID72T1M84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ramp Swaps (Ireland)"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Ramp Swaps (Ireland) Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779168"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800QBQVHWRBHJTA89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paysafe Payment Solutions Limited."
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Paysafe Payment Solutions Limited."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779169"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450066Q3A1G1A4T786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CoinJar Europe"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "CoinJar Europe Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779170"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F75CJ82D8B7D76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Confirmo"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Confirmo Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779171"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FD0NZ8949F4363"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pionew Ireland"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Pionew Ireland Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779172"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450043FB90T6REA408"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "StoneX Digital International"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "StoneX Digital International Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140325361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900NULT3LTDELUK76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Artane Partners"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140442529"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "TQ2V64QBMXBOX8Z1KC25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nortonlifelock Ireland Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/159355"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141072443"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930027SQL2KPSDBM58"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q141072443"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ie/470672"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Apple Distribution International Limited"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ADI"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141163810"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FF9D3B59EFA315"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mindfield Biosystems"
+      }
+    } ]
+  }
+}

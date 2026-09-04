@@ -1,0 +1,4297 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q162345"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400RMQFTGZIOG0609"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ऍलजी इलैक्ट्रॉनिक्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150004079"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000948343"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LG Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q162345"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400RMQFTGZIOG0609"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ऍलजी इलैक्ट्रॉनिक्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150004079"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000948343"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LG Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q162345"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400RMQFTGZIOG0609"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "ऍलजी इलैक्ट्रॉनिक्स"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150004079"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000948343"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LG Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QTUXYDN8W3MZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QTUXYDN8W3MZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QTUXYDN8W3MZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QTUXYDN8W3MZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QTUXYDN8W3MZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에쓰-오일 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QTUXYDN8W3MZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에쓰-오일 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QTUXYDN8W3MZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에쓰-오일 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QTUXYDN8W3MZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-Oil"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에쓰-오일 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q211165"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001V1YWXYBSZX565"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एशियाना एयरलाइंस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asiana Airlines"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asiana Airlines Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q211165"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001V1YWXYBSZX565"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एशियाना एयरलाइंस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asiana Airlines"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asiana Airlines Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q211165"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001V1YWXYBSZX565"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एशियाना एयरलाइंस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asiana Airlines"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "아시아나항공 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q211165"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001V1YWXYBSZX565"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एशियाना एयरलाइंस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asiana Airlines"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "아시아나항공 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213147"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400C2UFBF4B660C58"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोरिया एयर"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q213147"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korean Air Lines Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213147"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400C2UFBF4B660C58"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोरिया एयर"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q213147"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 대한항공"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q370719"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400XAIK6XISWQV045"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हैनिक्स"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0002120882"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Hynix"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q370719"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400XAIK6XISWQV045"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हैनिक्स"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0002120882"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Hynix"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q370719"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400XAIK6XISWQV045"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हैनिक्स"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0002120882"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Hynix"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q370719"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400XAIK6XISWQV045"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हैनिक्स"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0002120882"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Hynix"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007N0ASZNM5Z9L42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jeju Air"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JEJUAIR, CO., LTD."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007N0ASZNM5Z9L42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jeju Air"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JEJUAIR, CO., LTD."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007N0ASZNM5Z9L42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jeju Air"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 제주항공"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007N0ASZNM5Z9L42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jeju Air"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 제주항공"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482973"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400SYR92543UITC37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyundai Marine & Fire Insurance"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyundai Marine & Fire Insurance Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482973"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400SYR92543UITC37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyundai Marine & Fire Insurance"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyundai Marine & Fire Insurance Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482973"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400SYR92543UITC37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyundai Marine & Fire Insurance"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "현대해상화재보험 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482973"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400SYR92543UITC37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyundai Marine & Fire Insurance"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "현대해상화재보험 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483006"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400P37K91W0SABO95"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150007289"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LG Display"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483006"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400P37K91W0SABO95"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150007289"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LG Display"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483006"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400P37K91W0SABO95"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150007289"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LG Display"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400E5HRVX81AYLM04"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000889132"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "POSCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400E5HRVX81AYLM04"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000889132"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "POSCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400E5HRVX81AYLM04"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000889132"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "POSCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q484047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6RPK2YDJN6L35AS0M510"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150000404"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hana Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q484047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6RPK2YDJN6L35AS0M510"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150000404"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hana Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q484117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VUVMRL6RE7R376"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woori Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q484117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VUVMRL6RE7R376"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woori Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q484117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VUVMRL6RE7R376"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woori Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q484117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VUVMRL6RE7R376"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woori Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q485531"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RVHOHKPBCJ2GSJ37YH94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Korea"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국은행"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한은"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q485908"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005ACF8449EANY26"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000892450"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KT Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q485908"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005ACF8449EANY26"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000892450"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KT Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q485908"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005ACF8449EANY26"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000892450"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KT Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국전력공사"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국전력공사"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국전력공사"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한전"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한전"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한전"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국전력공사"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한전"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국전력공사"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한전"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486737"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QG33WS7JEIV602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8700150000399"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000887225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Electric Power Corporation"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국전력공사"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한전"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400IES4EIG7O06940"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150108723"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LG Chem"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400IES4EIG7O06940"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150108723"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LG Chem"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003P813VL21KG928"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/OE022057"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank Co., Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400EB8A6G49E5KO54"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/OE022057"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank Co., Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003P813VL21KG928"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/OE022057"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank Co., Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400EB8A6G49E5KO54"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/OE022057"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank Co., Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003P813VL21KG928"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/OE022057"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank Co., Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400EB8A6G49E5KO54"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/OE022057"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinhan Bank Co., Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400ZKCI3R9DQHR320"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanwha Life Insurance"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanwha Life Insurance Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400ZKCI3R9DQHR320"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanwha Life Insurance"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanwha Life Insurance Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400ZKCI3R9DQHR320"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanwha Life Insurance"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한화생명보험 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400ZKCI3R9DQHR320"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanwha Life Insurance"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한화생명보험 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400TK5NA3GLSTN506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Enerbility"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Enerbility Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400TK5NA3GLSTN506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Enerbility"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Enerbility Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400TK5NA3GLSTN506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Enerbility"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "두산에너빌리티 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400TK5NA3GLSTN506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Enerbility"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "두산에너빌리티 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400TK5NA3GLSTN506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Enerbility"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "두산중공업 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q492581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400TK5NA3GLSTN506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Enerbility"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "두산중공업 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003WEA1PHW006037"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150070751"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003WEA1PHW006037"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150070751"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003WEA1PHW006037"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150070751"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003WEA1PHW006037"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150070751"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에스케이텔레콤 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003WEA1PHW006037"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150070751"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에스케이텔레콤 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003WEA1PHW006037"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150070751"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Telecom"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에스케이텔레콤 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q494369"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VUVMRL6RE7R376"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woori Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q495372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TJ3RRV6Q1UEW14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korean Stock Exchange"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q495372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TJ3RRV6Q1UEW14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korean Stock Exchange"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q496606"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XXMOJSIW8P4769"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150000434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KB Kookmin Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q496606"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XXMOJSIW8P4769"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150000434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KB Kookmin Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q496606"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XXMOJSIW8P4769"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150000434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KB Kookmin Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q496606"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XXMOJSIW8P4769"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6700150000434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KB Kookmin Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q497825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400XZQA7CG16LDK87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OCI Company Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q497825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400XZQA7CG16LDK87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OCI Company Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q499194"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PGVX1QSTAONM08"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150004822"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung C&T Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q499194"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PGVX1QSTAONM08"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150004822"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung C&T Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5122452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "745P3MMS7E8CUVXDRJ82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Citibank Korea"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5642735"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004WIDNO4WOEYG91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanon Systems"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한온시스템 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007ER46L6N7EI764"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सैमसंग इलेक्ट्रॉनिक्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007ER46L6N7EI764"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सैमसंग इलेक्ट्रॉनिक्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007ER46L6N7EI764"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सैमसंग इलेक्ट्रॉनिक्स"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung Electronics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55931"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884004RQX8PRBXQ8S60"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हुंडई मोटर कंपनी"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyundai Motor Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55931"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884004RQX8PRBXQ8S60"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हुंडई मोटर कंपनी"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyundai Motor Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16172809"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400PXP70BWVSJVF07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Innovation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16181506"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DEIM500GHLTQ45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aurora World"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16181506"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DEIM500GHLTQ45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aurora World"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16181506"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DEIM500GHLTQ45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aurora World"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16185155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400J7KBR5E7G73X06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heerim Architects & Planners Co."
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heerim Architects & Planners Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16185155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400J7KBR5E7G73X06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heerim Architects & Planners Co."
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heerim Architects & Planners Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16185155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400J7KBR5E7G73X06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heerim Architects & Planners Co."
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 희림종합건축사사무소"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16185155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400J7KBR5E7G73X06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heerim Architects & Planners Co."
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 희림종합건축사사무소"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16191970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QOIT2SDDKYHN51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HiteJinro Holdings"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HITEJINRO HOLDINGS CO., LTD."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16191970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QOIT2SDDKYHN51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HiteJinro Holdings"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HITEJINRO HOLDINGS CO., LTD."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16191970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QOIT2SDDKYHN51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HiteJinro Holdings"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "하이트진로홀딩스 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16191970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400QOIT2SDDKYHN51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HiteJinro Holdings"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "하이트진로홀딩스 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21120876"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884002AESDO4YW87G32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21120876"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884002AESDO4YW87G32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21120876"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884002AESDO4YW87G32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21120876"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884002AESDO4YW87G32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "삼성SDI 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21120876"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884002AESDO4YW87G32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "삼성SDI 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21120876"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884002AESDO4YW87G32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung SDI"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "삼성SDI 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47912783"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400G1SM42IYEHS059"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sungwoo Hitech"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 성우하이텍"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47912783"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400G1SM42IYEHS059"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sungwoo Hitech"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 성우하이텍"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47912783"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400G1SM42IYEHS059"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sungwoo Hitech"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sungwoo Hitech Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47912783"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400G1SM42IYEHS059"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sungwoo Hitech"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sungwoo Hitech Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131187811"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400SUTJA1BDSX0Y30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Construction Equipment"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Construction Equipment Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131187811"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400SUTJA1BDSX0Y30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Construction Equipment"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에이치디현대건설기계 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5642735"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004WIDNO4WOEYG91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanon Systems"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한온시스템 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5962649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400KOE4LX969V8V02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5962649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400KOE4LX969V8V02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5962649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400KOE4LX969V8V02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5962649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400KOE4LX969V8V02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에이치디현대오일뱅크 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5962649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400KOE4LX969V8V02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에이치디현대오일뱅크 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5962649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400KOE4LX969V8V02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Oilbank"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에이치디현대오일뱅크 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008CRY5MLCN8OQ43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Hydro & Nuclear Power"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국수력원자력"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KHNP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008CRY5MLCN8OQ43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Hydro & Nuclear Power"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국수력원자력"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KHNP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008CRY5MLCN8OQ43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Hydro & Nuclear Power"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국수력원자력"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한수원"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008CRY5MLCN8OQ43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korea Hydro & Nuclear Power"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한국수력원자력"
+      },
+      "shortName" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한수원"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431688"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900O9ZDU5LOHVC289"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO Plant Service & Engineering Co."
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO Plant Service & Engineering Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431688"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900O9ZDU5LOHVC289"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO Plant Service & Engineering Co."
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO Plant Service & Engineering Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431688"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900O9ZDU5LOHVC289"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO Plant Service & Engineering Co."
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한전케이피에스 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431688"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900O9ZDU5LOHVC289"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KEPCO Plant Service & Engineering Co."
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "한전케이피에스 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6451272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008938PK154I3A92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ Cheil Jedang"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ CheilJedang Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6451272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008938PK154I3A92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ Cheil Jedang"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ CheilJedang Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6451272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008938PK154I3A92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ Cheil Jedang"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ CheilJedang Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6451272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008938PK154I3A92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ Cheil Jedang"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "씨제이제일제당 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6451272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008938PK154I3A92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ Cheil Jedang"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "씨제이제일제당 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6451272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884008938PK154I3A92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ Cheil Jedang"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "씨제이제일제당 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6684905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007VHCK33CNXZA95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung Beverage Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6684905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007VHCK33CNXZA95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung Beverage Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6684905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007VHCK33CNXZA95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung Beverage Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6684905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007VHCK33CNXZA95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "롯데칠성음료 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6684905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007VHCK33CNXZA95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "롯데칠성음료 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6684905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884007VHCK33CNXZA95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Chilsung"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "롯데칠성음료 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12580820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005N1TS61ILH6840"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ ENM Commerce Division"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ O Shopping Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12580820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005N1TS61ILH6840"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ ENM Commerce Division"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ O Shopping Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12580820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005N1TS61ILH6840"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ ENM Commerce Division"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ O Shopping Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12580820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005N1TS61ILH6840"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ ENM Commerce Division"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 씨제이오쇼핑"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12580820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005N1TS61ILH6840"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ ENM Commerce Division"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 씨제이오쇼핑"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12580820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884005N1TS61ILH6840"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CJ ENM Commerce Division"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "주식회사 씨제이오쇼핑"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12581339"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TKE4MXG3Q6GW86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KB Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12581339"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TKE4MXG3Q6GW86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KB Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12581843"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845007BF42BAEEAD731"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Marine Engine"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Marine Engine Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12581843"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845007BF42BAEEAD731"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HD Hyundai Marine Engine"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "에이치디현대마린엔진 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12594197"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003SJK2VZLLC4B08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Shopping"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Shopping Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12594197"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003SJK2VZLLC4B08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Shopping"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Shopping Co., Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12594197"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003SJK2VZLLC4B08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Shopping"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "롯데쇼핑 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12594197"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9884003SJK2VZLLC4B08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotte Shopping"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "롯데쇼핑 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12620655"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XR4L1D80AK4W76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coupang"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001834584"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12620655"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XR4L1D80AK4W76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coupang"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001834584"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15283673"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400GSDJCW3LKJBD20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nonghyup Bank"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "농협은행 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15283673"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400GSDJCW3LKJBD20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nonghyup Bank"
+      },
+      "official" : {
+        "xml:lang" : "ko",
+        "type" : "literal",
+        "value" : "농협은행 주식회사"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16172809"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400PXP70BWVSJVF07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Innovation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16172809"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400PXP70BWVSJVF07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Innovation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16172809"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "988400PXP70BWVSJVF07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SK Innovation"
+      }
+    } ]
+  }
+}

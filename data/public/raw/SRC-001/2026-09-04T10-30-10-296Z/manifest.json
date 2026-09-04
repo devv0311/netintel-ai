@@ -1,0 +1,32 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"DE\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nLIMIT 400",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-04T10:30:10.296Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "7ca80eb2d4ba301bdeff81a4a62d03acef80207910d868212c9ef2eb72e21e27",
+  "rawBytes": 215665,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "7ca80eb2d4ba301bdeff81a4a62d03acef80207910d868212c9ef2eb72e21e27",
+      "bytes": 215665,
+      "records": 222,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 222,
+  "recordsSha256": "d7c30f0fd8cd9a7690674648b7e75e08066036f1b5e479cf67c8162ade615add",
+  "warnings": [
+    "400 SPARQL rows folded into 222 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q9401 states 2 LEIs (529900A9NIYR2QY8GP86, 529900PM64WH8AF1E917); all kept, none chosen between.",
+    "wikidata:Q81230 states 2 LEIs (W38RGI023J3WT1HWRP32, 529900ZZVLZ93I1AW009); all kept, none chosen between.",
+    "wikidata:Q151954 states 2 LEIs (529900NLMRZXPZYU1D43, 529900EW0ZH7KAZ11H71); all kept, none chosen between.",
+    "wikidata:Q156829 states 2 LEIs (529900AJLXERVU6GEY09, 529900RGKUYZ5JEP9791); all kept, none chosen between.",
+    "wikidata:Q516061 states 2 LEIs (529900M25NF9TALIWQ20, 529900YOBXEE8ZYM4V56); all kept, none chosen between.",
+    "wikidata:Q521818 states 2 LEIs (529900UA3Q7431SAUU79, 52990026HQOTT4AJP655); all kept, none chosen between."
+  ]
+}

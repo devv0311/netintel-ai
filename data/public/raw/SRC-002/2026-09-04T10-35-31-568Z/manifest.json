@@ -1,0 +1,59 @@
+{
+  "sourceId": "SRC-002",
+  "endpoint": "https://api.gleif.org/api/v1/lei-records",
+  "request": "filter[lei]=<226 LEIs from an already-collected source>&page[size]=40",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+  "retrievedAt": "2026-09-04T10:35:31.568Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "e467a40614827a6b2c1bd678f1f189b09b0fff9778351351c29641e0c438b6b7",
+  "rawBytes": 574135,
+  "sourcePayloads": [
+    {
+      "file": "lei-records-batch-01.json",
+      "sha256": "5d4ea2b6cf5495345274f4efdcf1d8860b6d188c403d75aa694e8f945bc7073e",
+      "bytes": 105286,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-01.json"
+    },
+    {
+      "file": "lei-records-batch-02.json",
+      "sha256": "4326e2ddc178d936cd2fe39a30d51f691f13556f0d06e0ebbda40a57fdfd18b5",
+      "bytes": 101859,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-02.json"
+    },
+    {
+      "file": "lei-records-batch-03.json",
+      "sha256": "b06cf20e2a0a8394de2de8850131c4bec0c0c71a20eaf0f68b0cceeefb992058",
+      "bytes": 100908,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-03.json"
+    },
+    {
+      "file": "lei-records-batch-04.json",
+      "sha256": "e101dc88cf9962a8f08474db46bbdad82e4e8e88f6804a4e0569b6445025135b",
+      "bytes": 101006,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-04.json"
+    },
+    {
+      "file": "lei-records-batch-05.json",
+      "sha256": "f7e52ba268fc92bd2bc3a240dbc5ddd1fe2361861a9e5090fea0a25835e9bdb0",
+      "bytes": 101311,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-05.json"
+    },
+    {
+      "file": "lei-records-batch-06.json",
+      "sha256": "a753737fcab3a890d57ea65b22b70e02c3e64b6aa62b91d0c1c7bbf90057d146",
+      "bytes": 63765,
+      "records": 26,
+      "storedAt": "raw/lei-records-batch-06.json"
+    }
+  ],
+  "recordCount": 226,
+  "recordsSha256": "08ad38be63fe8d4d69a9770878e2f1c887d447b6a9f89086cea078c1987a5b0b",
+  "warnings": []
+}

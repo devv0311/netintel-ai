@@ -1,0 +1,132 @@
+[
+  {
+    "recordRef": "gleif:529900O97Q8EBC2RBV34",
+    "registry": "gleif",
+    "registryRecordId": "529900O97Q8EBC2RBV34",
+    "subjectKind": "organisation",
+    "name": "Nam Tai Property Inc.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900O97Q8EBC2RBV34"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000063",
+        "value": "3805"
+      }
+    ],
+    "observedAt": "2022-02-09T08:25:07.000Z",
+    "jurisdiction": "VG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:48.146Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900O97Q8EBC2RBV34"
+  },
+  {
+    "recordRef": "gleif:5493004PPTP8I282TC83",
+    "registry": "gleif",
+    "registryRecordId": "5493004PPTP8I282TC83",
+    "subjectKind": "organisation",
+    "name": "KARUNA VENTURES COMPANY LTD.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493004PPTP8I282TC83"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000063",
+        "value": "1546150"
+      }
+    ],
+    "observedAt": "2023-08-03T08:18:54.000Z",
+    "jurisdiction": "VG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:48.146Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493004PPTP8I282TC83"
+  },
+  {
+    "recordRef": "gleif:254900J45F1XD6MNW660",
+    "registry": "gleif",
+    "registryRecordId": "254900J45F1XD6MNW660",
+    "subjectKind": "organisation",
+    "name": "Bravo Transport Services Limited",
+    "aliases": [
+      "NWS Transport Services Limited"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900J45F1XD6MNW660"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000063",
+        "value": "544309"
+      }
+    ],
+    "observedAt": "2022-05-05T12:27:15.000Z",
+    "jurisdiction": "VG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:48.146Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900J45F1XD6MNW660"
+  },
+  {
+    "recordRef": "gleif:52990002N6UQUBN3YE10",
+    "registry": "gleif",
+    "registryRecordId": "52990002N6UQUBN3YE10",
+    "subjectKind": "organisation",
+    "name": "Unitas Holdings Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "52990002N6UQUBN3YE10"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000063",
+        "value": "1911053"
+      }
+    ],
+    "observedAt": "2026-09-01T23:30:21.000Z",
+    "jurisdiction": "VG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:48.146Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/52990002N6UQUBN3YE10"
+  },
+  {
+    "recordRef": "gleif:213800NZKFBQAMMLXC39",
+    "registry": "gleif",
+    "registryRecordId": "213800NZKFBQAMMLXC39",
+    "subjectKind": "organisation",
+    "name": "EUROPEAN METALS HOLDINGS LIMITED",
+    "aliases": [
+      "EQUAMINERAL HOLDINGS LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800NZKFBQAMMLXC39"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "au/154618989"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000014",
+        "value": "154 618 989"
+      }
+    ],
+    "observedAt": "2026-02-27T11:17:56.000Z",
+    "jurisdiction": "AU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:48.146Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800NZKFBQAMMLXC39"
+  }
+]

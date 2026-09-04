@@ -1,0 +1,26 @@
+[
+  {
+    "recordRef": "gleif:549300JWO836U8W2PR12",
+    "registry": "gleif",
+    "registryRecordId": "549300JWO836U8W2PR12",
+    "subjectKind": "organisation",
+    "name": "BANQUE RICHELIEU MONACO",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300JWO836U8W2PR12"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000452",
+        "value": "96S03147"
+      }
+    ],
+    "observedAt": "2026-07-03T09:04:05.000Z",
+    "jurisdiction": "MC",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:33.366Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300JWO836U8W2PR12"
+  }
+]

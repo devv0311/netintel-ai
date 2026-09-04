@@ -19,6 +19,8 @@ node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts \
 | `cipher-er-pairs` v1.0.0 (superseded) | **FAIL — L12** | `reports/ml/leakage-audit.json` |
 | `cipher-er-pairs` v2.0.0 (shipped) | **PASS 13/13** | `reports/ml/leakage-audit-v2.json` |
 | `cipher-er-pairs-final-test` v1.0.0 | **PASS 13/13** | `reports/ml/leakage-audit-final-test.json` |
+| `cipher-er-pairs` v3.0.0 (P6.26, not shipped) | **PASS 13/13** | `reports/ml/leakage-audit-v3.json` |
+| `cipher-er-pairs-final-test-2` v1.0.0 | **PASS 13/13**, L13 = 0 | `reports/ml/leakage-audit-final-test-2.json` |
 
 The v1 FAIL is left in the repository as it stands. It is a finding about
 a shipped model, and regenerating it into a pass would delete the

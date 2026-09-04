@@ -1,0 +1,78 @@
+[
+  {
+    "recordRef": "gleif:529900UYAEYQCQ2BKB17",
+    "registry": "gleif",
+    "registryRecordId": "529900UYAEYQCQ2BKB17",
+    "subjectKind": "organisation",
+    "name": "CREDICORP LTD.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900UYAEYQCQ2BKB17"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "bm/21045"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000028",
+        "value": "21045"
+      }
+    ],
+    "observedAt": "2026-08-28T13:00:09.000Z",
+    "jurisdiction": "BM",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:06.221Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900UYAEYQCQ2BKB17"
+  },
+  {
+    "recordRef": "gleif:529900WQB1ZU9KB6EL71",
+    "registry": "gleif",
+    "registryRecordId": "529900WQB1ZU9KB6EL71",
+    "subjectKind": "organisation",
+    "name": "Compañia de Minas Buenaventura S.A.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900WQB1ZU9KB6EL71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000482",
+        "value": "20100079501"
+      }
+    ],
+    "observedAt": "2021-07-19T05:07:28.000Z",
+    "jurisdiction": "PE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:06.221Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900WQB1ZU9KB6EL71"
+  },
+  {
+    "recordRef": "gleif:5493002F857O2TX7EU13",
+    "registry": "gleif",
+    "registryRecordId": "5493002F857O2TX7EU13",
+    "subjectKind": "organisation",
+    "name": "SOCIEDAD MINERA CERRO VERDE S.A.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493002F857O2TX7EU13"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000689",
+        "value": "20170072465"
+      }
+    ],
+    "observedAt": "2025-12-11T12:38:06.000Z",
+    "jurisdiction": "PE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:06.221Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493002F857O2TX7EU13"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "recordRef": "gleif:254900ZRFNB8CRAHHO95",
+    "registry": "gleif",
+    "registryRecordId": "254900ZRFNB8CRAHHO95",
+    "subjectKind": "organisation",
+    "name": "CONG TY CO PHAN DAU TU THE GIOI DI DONG",
+    "aliases": [
+      "Mobile World Investment Corporation"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900ZRFNB8CRAHHO95"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000649",
+        "value": "0306731335"
+      }
+    ],
+    "observedAt": "2025-04-27T13:30:03.000Z",
+    "jurisdiction": "VN",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:13.453Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900ZRFNB8CRAHHO95"
+  },
+  {
+    "recordRef": "gleif:529900U7YWQAAT1QBP44",
+    "registry": "gleif",
+    "registryRecordId": "529900U7YWQAAT1QBP44",
+    "subjectKind": "organisation",
+    "name": "Luxoft Holding, Inc.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900U7YWQAAT1QBP44"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000063",
+        "value": "1014092"
+      }
+    ],
+    "observedAt": "2022-02-09T07:26:08.000Z",
+    "jurisdiction": "VG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:13.453Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900U7YWQAAT1QBP44"
+  },
+  {
+    "recordRef": "gleif:254900M1892CMJ87XD24",
+    "registry": "gleif",
+    "registryRecordId": "254900M1892CMJ87XD24",
+    "subjectKind": "organisation",
+    "name": "Masan Group Corporation",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900M1892CMJ87XD24"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000649",
+        "value": "0303576603"
+      }
+    ],
+    "observedAt": "2022-03-15T11:45:58.000Z",
+    "jurisdiction": "VN",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:13.453Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900M1892CMJ87XD24"
+  },
+  {
+    "recordRef": "gleif:2549003IUT1BV50L7X69",
+    "registry": "gleif",
+    "registryRecordId": "2549003IUT1BV50L7X69",
+    "subjectKind": "organisation",
+    "name": "SAI GON JOINT STOCK COMMERCIAL BANK",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2549003IUT1BV50L7X69"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000649",
+        "value": "0311449990"
+      }
+    ],
+    "observedAt": "2024-03-25T13:30:03.000Z",
+    "jurisdiction": "VN",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:13.453Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2549003IUT1BV50L7X69"
+  }
+]

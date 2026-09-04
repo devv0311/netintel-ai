@@ -1,0 +1,215 @@
+{
+  "sourceId": "SRC-006",
+  "endpoint": "https://data.sec.gov/submissions",
+  "request": "GET https://data.sec.gov/submissions/CIK<10-digit>.json for 28 CIK(s); company block only, filings never read",
+  "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+  "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+  "retrievedAt": "2026-09-04T10:23:51.263Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "932bcd1aea9e7d242fcfa5523637634dcf0486e81566bd1a6ee97d112c226a38",
+  "rawBytes": 1724513,
+  "sourcePayloads": [
+    {
+      "file": "submissions-0001329099.json",
+      "sha256": "0e43e1a108ac77fe8ff76cb2fc73758a3168a79a74481701e2a48cae952bab92",
+      "bytes": 92072,
+      "records": 1,
+      "storedAt": "raw/submissions-0001329099.json"
+    },
+    {
+      "file": "submissions-0001110646.json",
+      "sha256": "ee507e502b1c6747aad31b1acafe564425267b7fa02fc8a744b4b803c277d2b2",
+      "bytes": 72017,
+      "records": 1,
+      "storedAt": "raw/submissions-0001110646.json"
+    },
+    {
+      "file": "submissions-0001267482.json",
+      "sha256": "388fa6e413070b6605cad05234cce8aa2d8d0afda452cd472dc8ab73b983c1e5",
+      "bytes": 127913,
+      "records": 1,
+      "storedAt": "raw/submissions-0001267482.json"
+    },
+    {
+      "file": "submissions-0001462887.json",
+      "sha256": "a0cdaa21c72726c4c701a5693cc9bc24c5bcfef68c9fcf8757bb97ba118976a3",
+      "bytes": 1736,
+      "records": 1,
+      "storedAt": "raw/submissions-0001462887.json"
+    },
+    {
+      "file": "submissions-0001094005.json",
+      "sha256": "3bcd79479ddf8740a7948af4b283825a35d17d60c6b251520fb4ff7a8d146180",
+      "bytes": 112842,
+      "records": 1,
+      "storedAt": "raw/submissions-0001094005.json"
+    },
+    {
+      "file": "submissions-0001577552.json",
+      "sha256": "5c9ae2e1a55656d1a60a9646559c2aa25b500665f68de1efab20cb7b51713a6b",
+      "bytes": 105825,
+      "records": 1,
+      "storedAt": "raw/submissions-0001577552.json"
+    },
+    {
+      "file": "submissions-0001552033.json",
+      "sha256": "059b849ba273cd6084a69c5162dd78208e60baa7e71d3d12838b3c371f256653",
+      "bytes": 164647,
+      "records": 1,
+      "storedAt": "raw/submissions-0001552033.json"
+    },
+    {
+      "file": "submissions-0001678057.json",
+      "sha256": "d344d631a89419fbd1a78a89652a7d06658db5d26dd25d87f376e38a2230c9cc",
+      "bytes": 3313,
+      "records": 1,
+      "storedAt": "raw/submissions-0001678057.json"
+    },
+    {
+      "file": "submissions-0001452158.json",
+      "sha256": "f702e43b225a52335dc11239dea90344fa9f0b9dd8f81808143451823f892a51",
+      "bytes": 1552,
+      "records": 1,
+      "storedAt": "raw/submissions-0001452158.json"
+    },
+    {
+      "file": "submissions-0001677250.json",
+      "sha256": "33c92f7433e0eef7c0c2c241a9788e12bc4e945e40aed0ede52a49e73514fa4b",
+      "bytes": 63107,
+      "records": 1,
+      "storedAt": "raw/submissions-0001677250.json"
+    },
+    {
+      "file": "submissions-0001095348.json",
+      "sha256": "5b6227031f5ce1503b11c8a58f8333d0a5193775b2358b9992474d283d3390bd",
+      "bytes": 60240,
+      "records": 1,
+      "storedAt": "raw/submissions-0001095348.json"
+    },
+    {
+      "file": "submissions-0001595761.json",
+      "sha256": "743e56ae89807bd7dc47631f589ed957ae17b73bf27bca2be13974f982e19b20",
+      "bytes": 42398,
+      "records": 1,
+      "storedAt": "raw/submissions-0001595761.json"
+    },
+    {
+      "file": "submissions-0001372920.json",
+      "sha256": "766910e6e3243faf10d9796e6702be93a9d371a07ada9461b61ddc286177c6b0",
+      "bytes": 72110,
+      "records": 1,
+      "storedAt": "raw/submissions-0001372920.json"
+    },
+    {
+      "file": "submissions-0001095595.json",
+      "sha256": "5daf059a792381f4b8c41f88603a539da60c665947f8377f287c55607857c1de",
+      "bytes": 147723,
+      "records": 1,
+      "storedAt": "raw/submissions-0001095595.json"
+    },
+    {
+      "file": "submissions-0000929058.json",
+      "sha256": "b2fc9e4d0a6f86c210e250af60d9554befd243f432a8b679655b30ac41a6a6fb",
+      "bytes": 159226,
+      "records": 1,
+      "storedAt": "raw/submissions-0000929058.json"
+    },
+    {
+      "file": "submissions-0001818611.json",
+      "sha256": "5eb95b972c8ab10e532bedd931f0e406a1bdd0cf39f2ac35549c7fefe3b857f2",
+      "bytes": 1998,
+      "records": 1,
+      "storedAt": "raw/submissions-0001818611.json"
+    },
+    {
+      "file": "submissions-0001722608.json",
+      "sha256": "dbcea89c0b540df2d048bfde294e0d698483c92474fa777f6fb8806f9e951220",
+      "bytes": 34709,
+      "records": 1,
+      "storedAt": "raw/submissions-0001722608.json"
+    },
+    {
+      "file": "submissions-0001510593.json",
+      "sha256": "dc137ccb29578313648263395222ccb1ede0886a779a20698f365750714541de",
+      "bytes": 35431,
+      "records": 1,
+      "storedAt": "raw/submissions-0001510593.json"
+    },
+    {
+      "file": "submissions-0001483994.json",
+      "sha256": "47665d8bebb49d0b34504434e4fd3f00b04cb46ecf79f5c1b7abad7c0fde2afd",
+      "bytes": 71434,
+      "records": 1,
+      "storedAt": "raw/submissions-0001483994.json"
+    },
+    {
+      "file": "submissions-0001699967.json",
+      "sha256": "1746f95172c66199a2004f1e6f0a63e19f0b7ed6750f5322cfdec0eaef07eb67",
+      "bytes": 1833,
+      "records": 1,
+      "storedAt": "raw/submissions-0001699967.json"
+    },
+    {
+      "file": "submissions-0001560438.json",
+      "sha256": "907844b8b159b082d7fe5484a40845919090e1331bee5fb0b5c01320a198ee73",
+      "bytes": 2202,
+      "records": 1,
+      "storedAt": "raw/submissions-0001560438.json"
+    },
+    {
+      "file": "submissions-0001529192.json",
+      "sha256": "74802ef12d43b95824fe4cfbe4960cf841109a58f0bb5fa7183e8c63fc66be45",
+      "bytes": 49496,
+      "records": 1,
+      "storedAt": "raw/submissions-0001529192.json"
+    },
+    {
+      "file": "submissions-0001530238.json",
+      "sha256": "37080d80939ac8e2c52f7b11846809813c6826a1fb4da94c03e7a2777853c048",
+      "bytes": 47489,
+      "records": 1,
+      "storedAt": "raw/submissions-0001530238.json"
+    },
+    {
+      "file": "submissions-0001708441.json",
+      "sha256": "b4f577d8197f3bc4944eb55ed4a9e0778c7ff972946d5dad90e16e7656a78a3f",
+      "bytes": 29058,
+      "records": 1,
+      "storedAt": "raw/submissions-0001708441.json"
+    },
+    {
+      "file": "submissions-0001792267.json",
+      "sha256": "28d2f80ea72c67d98aaa7ff6dc7ee2aad2b630d14caf3e10d5299cfb427142c2",
+      "bytes": 27984,
+      "records": 1,
+      "storedAt": "raw/submissions-0001792267.json"
+    },
+    {
+      "file": "submissions-0001692705.json",
+      "sha256": "1679b942e1660d953c6cecb7418a7362287634321d5bd3e95bf562e04bbee9b7",
+      "bytes": 25618,
+      "records": 1,
+      "storedAt": "raw/submissions-0001692705.json"
+    },
+    {
+      "file": "submissions-0001499620.json",
+      "sha256": "8d337283518f78047bd2b50d19c6c20aa9c47bc952daa3ee6d4399826140bb82",
+      "bytes": 55730,
+      "records": 1,
+      "storedAt": "raw/submissions-0001499620.json"
+    },
+    {
+      "file": "submissions-0001704292.json",
+      "sha256": "db291f3a4f7276e8195ec4e4037f9a49c4196db6210622614f03905063241e6f",
+      "bytes": 114810,
+      "records": 1,
+      "storedAt": "raw/submissions-0001704292.json"
+    }
+  ],
+  "recordCount": 28,
+  "recordsSha256": "2d290265a344ddff5bc7ae6a38559d97cfdd752422a2f8436b6d3a23bf3bf578",
+  "warnings": [
+    "11 of 28 record(s) carry at least one SEC-stated former name."
+  ]
+}

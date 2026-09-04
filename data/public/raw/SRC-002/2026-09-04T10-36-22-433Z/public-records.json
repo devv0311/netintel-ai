@@ -1,0 +1,85 @@
+[
+  {
+    "recordRef": "gleif:549300FFSRVBS0SQXY75",
+    "registry": "gleif",
+    "registryRecordId": "549300FFSRVBS0SQXY75",
+    "subjectKind": "organisation",
+    "name": "QATAR NATIONAL BANK (Q.P.S.C.)",
+    "aliases": [
+      "بنك قطر الوطني",
+      "QNB"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300FFSRVBS0SQXY75"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000494",
+        "value": "21"
+      }
+    ],
+    "observedAt": "2025-11-02T06:06:26.000Z",
+    "jurisdiction": "QA",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:21.686Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300FFSRVBS0SQXY75"
+  },
+  {
+    "recordRef": "gleif:549300HDF99L84TF2D68",
+    "registry": "gleif",
+    "registryRecordId": "549300HDF99L84TF2D68",
+    "subjectKind": "organisation",
+    "name": "مجموعة الخطوط الجوية القطرية",
+    "aliases": [
+      "Qatar Airways Group Q.C.S.C."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300HDF99L84TF2D68"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000494",
+        "value": "16070"
+      }
+    ],
+    "observedAt": "2026-03-31T10:20:21.000Z",
+    "jurisdiction": "QA",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:21.686Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300HDF99L84TF2D68"
+  },
+  {
+    "recordRef": "gleif:6HHLXIOGCDNZ4IRAIW26",
+    "registry": "gleif",
+    "registryRecordId": "6HHLXIOGCDNZ4IRAIW26",
+    "subjectKind": "organisation",
+    "name": "CUBIC CORPORATION",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "6HHLXIOGCDNZ4IRAIW26"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/2050509"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "2050509"
+      }
+    ],
+    "observedAt": "2023-08-04T15:16:14.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:21.686Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/6HHLXIOGCDNZ4IRAIW26"
+  }
+]

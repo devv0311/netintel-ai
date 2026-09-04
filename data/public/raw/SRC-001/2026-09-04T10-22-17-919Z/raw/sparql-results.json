@@ -1,0 +1,493 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q166729"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009O1JMLWDLTIC26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abu Dhabi National Oil Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q166729"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009O1JMLWDLTIC26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abu Dhabi National Oil Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q212304"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "DF0BVHAOM8TIXBR3S960"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Etihad Airways"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एतिहाद एयरवेज"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q543449"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900XDPQPWEQ9BGB80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "e&"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एतिसलात"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q543449"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900XDPQPWEQ9BGB80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "e&"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एतिसलात"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1163521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800BBECR1I9FTPZ70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masdar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1331200"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900DP7CY9LMWBVD58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumeirah"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1331200"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900DP7CY9LMWBVD58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumeirah"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1654187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200ZOAI9BOLGC1D37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INIT SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17513924"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800R42RHUZR883M76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atlas Mara Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17513924"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800R42RHUZR883M76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atlas Mara Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466767"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500O3EFBA8613AA78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cobblestone Energy DMCC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466824"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GS3WHZ4C7AGZ87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EnergeTech Trading DMCC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114066246"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FBB0B5DE9E8827"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Al Fardan Investments Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115146129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500854E13DB5DMB85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gulf Navigation Holding (P . J . S . C)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558477"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700478NEUNQR7MU72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Borets International FZE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558477"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700478NEUNQR7MU72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Borets International FZE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140768339"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900URZ5DLQA930Q93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Playgama"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140768339"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900URZ5DLQA930Q93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Playgama"
+      }
+    } ]
+  }
+}

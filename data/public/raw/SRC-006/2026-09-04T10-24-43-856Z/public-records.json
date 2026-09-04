@@ -1,0 +1,43 @@
+[
+  {
+    "recordRef": "edgar:799514",
+    "registry": "edgar",
+    "registryRecordId": "799514",
+    "subjectKind": "organisation",
+    "name": "INDUSTRIAL IMAGING CORP",
+    "aliases": [
+      "ORBIS INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "799514"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:42.684Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000799514"
+  },
+  {
+    "recordRef": "edgar:1140252",
+    "registry": "edgar",
+    "registryRecordId": "1140252",
+    "subjectKind": "organisation",
+    "name": "EUROCASH INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1140252"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:42.684Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001140252"
+  }
+]

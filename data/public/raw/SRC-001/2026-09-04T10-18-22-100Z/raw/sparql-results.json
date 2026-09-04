@@ -1,0 +1,4151 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2200392"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800D1MJVOT6SNBX11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unibet"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18209385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QIYUX3GA7JGB11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mr Green"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30020679"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SYUCFQHI3JZQ05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MeDirect"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MeDirect"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30020679"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SYUCFQHI3JZQ05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MeDirect"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MeDirect"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30020679"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SYUCFQHI3JZQ05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MeDirect"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MeDirect"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337002"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700B68IQEJ6I1JQ76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV173"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337003"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CQZT9M3FG79B23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T AIF Fund SICAV PLC"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T AIF Fund SICAV PLC"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/sv472"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337005"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CXSHTD5UH5FF68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Polaris Omega"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Polaris Omega"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337006"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CX033U26A0P363"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD Waste Management Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD Waste Management Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C45903"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337007"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700C5KVLADU8HAG38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron LongShort Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron LongShort Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337008"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DD8NCJQOV6YX13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Polaris Alpha"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Polaris Alpha"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337009"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DNV9M558KASY72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T High Yield II Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T High Yield II Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337011"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DYPU1AFZKB5977"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Alternative Investments Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Alternative Investments Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700EEHQTVG6320W22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ROVA CONSULTING LTD"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ROVA CONSULTING LTD"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C60752"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337013"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FJI4TT7Y0E9V25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Emerging and Frontier Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Emerging and Frontier Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337014"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FXEDT4U8ER9C29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greenhub Ltd."
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greenhub Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C61047"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337015"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700F0NM0QAY7IGN64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BTG Capital Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BTG Capital Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C94275"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337017"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700F81QCQQ93DTK12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A-MARK Trading Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A-MARK Trading Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C62563"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337018"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700F9HVT8L8SYO019"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mediterranean Travel Services Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mediterranean Travel Services Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C66595"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337019"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GMBDMBQPS73K10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Harvest Alpha Capital"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Harvest Alpha Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HBPJ61UZBG9N47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD FINANCE LIMITED"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD FINANCE LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C69536"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337022"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HKPFO0UU20TD43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Funds SICAV p.l.c. - Wood & Company Central & Eastern European Sub-Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Funds SICAV p.l.c. - Wood & Company Central & Eastern European Sub-Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337023"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JJMRAWDPIP8507"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Options Trading Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Options Trading Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JQHHGD3W2C3B41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BB SERVICES LIMITED"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BB SERVICES LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C64893"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337025"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JURYYEIM2ZKW97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Special Situation Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Special Situation Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337027"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JX9SUIBHV41L76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "V-MARK Trading Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "V-MARK Trading Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C62560"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337029"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700KTHVWPD78RED38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commerg Ltd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commerg Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C 61678"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700L36SU5E0AFG451"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Dividend Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Dividend Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MCK6HNW7L4O683"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Global Macro Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Global Macro Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MZN6IRN5C07D07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Credit Opportunities Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Credit Opportunities Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337034"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MZTJRZGFE2NV35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c.- Charles Bridge Global Macro Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c.- Charles Bridge Global Macro Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337035"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NBCBDH4POXZ266"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Equity Trading Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Equity Trading Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337037"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NKFO6BSG2W2745"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Funds SICAV"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Funds SICAV p.l.c."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV282"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337038"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700N1R0NP36KYBG63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Funds Sicav Plc - Commodity Trading Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Funds Sicav Plc - Commodity Trading Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337039"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700N4TLZCMSF1PG82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hero Holdings Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hero Holdings Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C69662"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337040"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OF3PI5D78TJA22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T AIF FUND SICAV P.L.C."
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T AIF FUND SICAV P.L.C."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV 472"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337042"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700O70NU25CFZTV76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T SICAV P.L.C."
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T SICAV P.L.C."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/sv501"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337043"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700QYLDVJM80ZVS07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Florida Trading Company Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Florida Trading Company Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C68179"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337044"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700SXQX0LR88LGZ83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Elstar Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Elstar Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700S5WYP9AVIMHX21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Opportunity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Opportunity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700T55NVU7F653O34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Wealth Management Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Wealth Management Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337048"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UXWIRVPL7B8E85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Executed Vision Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Executed Vision Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C50668"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337049"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WISIDRB70REZ15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337051"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XKYE0FV7FPZ090"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD Trade Finance Ltd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD Trade Finance Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C80076"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337052"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XWLZ8WH7GQW808"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J & T Loan Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J & T Loan Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337053"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700X3VIBMYCYNM219"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BARBERO INVESTCO LTD"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BARBERO INVESTCO LTD"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C61739"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337055"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YJYSDPIKSIHM71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Funds SICAV"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Funds SICAV p.l.c."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV51"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337056"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Y8TS2MQE1Z6Z52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JULIUS MEINL LIVING PLC"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JULIUS MEINL LIVING PLC"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C76799"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337057"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZG8GPC7DWLPE38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Advanced Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Advanced Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337058"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZZISH5O4MCBY19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Capital SICAV plc"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Capital SICAV plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV177"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000OYXXAE5SYI563"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron LongTerm Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron LongTerm Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337061"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000TKAG4JVD83A80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Akane Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Akane Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337063"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001KWKTHIEBVY167"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpha Quest Funds SICAV"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpha Quest Funds SICAV p.l.c."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV430"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337065"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700255SLD81SKMZ37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Rentier Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Rentier Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337066"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570027CKJLXF8CVH62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "M-MARK Trading Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "M-MARK Trading Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C62555"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000001229"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LiveSport Media Ltd."
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LiveSport Media Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C54555"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337119"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007AHDRYG8EHQC82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Faust Trading Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Faust Trading Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C62464"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337121"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007NYA7DQOFZLS85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "All-Star Holding Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "All-Star Holding Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C 43151"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337122"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007P5NKY91F93Q47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironside limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironside limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C38054"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337123"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008D3X214YPGV479"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Advanced Solutions SICAV plc"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Advanced Solutions SICAV plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV69"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107097486"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LVB0R279MUX376"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "International Hotel Investments"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C26136"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CXNTW384RDKB36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cayan Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558270"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700C4ERBE02P7SN31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Advisors"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558314"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700IO3TEL0RS9P210"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD GLOBAL SERVICES"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558354"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NR95HAQUJJX404"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mezaconti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558417"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WKSKNME4J0OH27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FINRENT HOLDING LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WLWZEL2312TF56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JCK GROUP P.L.C."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558486"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005QJHAUKDVM1N15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fraternity Capital Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558488"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005SGUZVHKBSOW59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Plan B Investments Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221604"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZOB7NM74E7OU49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Air Malta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1341101"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZIF78FSY4ZT673"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enemalta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337118"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004KN8BSNYPNQ329"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Topaz Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Topaz Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107098578"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HIX50FN8L8JK88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corinthia Palace Hotel Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C257"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108723530"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BQXPX2BHJTO269"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greenshark Technology Fund"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV457"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167262"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138003WBERIMWQVKZ64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MEDSERVREGIS P.L.C"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130238956"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AOLMEKXO0DSU51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Papaya ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137808714"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CDNG9QXMGHOO41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Ontario Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2200392"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800D1MJVOT6SNBX11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unibet"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2680856"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YD55O8IUMG7H12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "King"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C42504"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2680856"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YD55O8IUMG7H12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "King"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C42504"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18209385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QIYUX3GA7JGB11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mr Green"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30020679"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SYUCFQHI3JZQ05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MeDirect"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MeDirect"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62603319"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700K34QGK7YV5ZW89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Accolade Fund SICAV"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV322"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q71437057"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700G1P98ENYR8W689"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LiveSport Holding"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C65224"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q72160139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800RPLJ8TD5YIGD84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Equa Group Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C48269"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94640530"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700C1YL1Q8NNKED81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "StLaurent Holdco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C61737"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337002"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700B68IQEJ6I1JQ76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV173"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337003"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CQZT9M3FG79B23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T AIF Fund SICAV PLC"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/sv472"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T AIF Fund SICAV PLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337005"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CXSHTD5UH5FF68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Polaris Omega"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Polaris Omega"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337006"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CX033U26A0P363"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD Waste Management Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C45903"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD Waste Management Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337007"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700C5KVLADU8HAG38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron LongShort Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron LongShort Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337008"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DD8NCJQOV6YX13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Polaris Alpha"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Polaris Alpha"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337009"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DNV9M558KASY72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T High Yield II Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T High Yield II Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337011"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DYPU1AFZKB5977"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Alternative Investments Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Alternative Investments Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700EEHQTVG6320W22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ROVA CONSULTING LTD"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C60752"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ROVA CONSULTING LTD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337013"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FJI4TT7Y0E9V25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Emerging and Frontier Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Emerging and Frontier Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337014"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FXEDT4U8ER9C29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greenhub Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C61047"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greenhub Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337015"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700F0NM0QAY7IGN64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BTG Capital Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C94275"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BTG Capital Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337017"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700F81QCQQ93DTK12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A-MARK Trading Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C62563"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A-MARK Trading Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337018"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700F9HVT8L8SYO019"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mediterranean Travel Services Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C66595"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mediterranean Travel Services Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337019"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GMBDMBQPS73K10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Harvest Alpha Capital"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c. - Harvest Alpha Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HBPJ61UZBG9N47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD FINANCE LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C69536"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD FINANCE LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337022"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HKPFO0UU20TD43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Funds SICAV p.l.c. - Wood & Company Central & Eastern European Sub-Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Funds SICAV p.l.c. - Wood & Company Central & Eastern European Sub-Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337023"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JJMRAWDPIP8507"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Options Trading Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Options Trading Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JQHHGD3W2C3B41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BB SERVICES LIMITED"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C64893"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BB SERVICES LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337025"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JURYYEIM2ZKW97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Special Situation Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Special Situation Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337027"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JX9SUIBHV41L76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "V-MARK Trading Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C62560"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "V-MARK Trading Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337029"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700KTHVWPD78RED38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commerg Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C 61678"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commerg Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700L36SU5E0AFG451"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Dividend Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Dividend Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MCK6HNW7L4O683"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Global Macro Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Global Macro Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MZN6IRN5C07D07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Credit Opportunities Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Credit Opportunities Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337034"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MZTJRZGFE2NV35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c.- Charles Bridge Global Macro Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Finance SICAV p.l.c.- Charles Bridge Global Macro Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337035"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NBCBDH4POXZ266"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Equity Trading Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Equity Trading Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337037"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NKFO6BSG2W2745"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Funds SICAV"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV282"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Funds SICAV p.l.c."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337038"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700N1R0NP36KYBG63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Funds Sicav Plc - Commodity Trading Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Funds Sicav Plc - Commodity Trading Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337039"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700N4TLZCMSF1PG82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hero Holdings Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C69662"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hero Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337040"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OF3PI5D78TJA22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T AIF FUND SICAV P.L.C."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV 472"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T AIF FUND SICAV P.L.C."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337042"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700O70NU25CFZTV76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T SICAV P.L.C."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/sv501"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T SICAV P.L.C."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337043"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700QYLDVJM80ZVS07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Florida Trading Company Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C68179"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Florida Trading Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337044"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700SXQX0LR88LGZ83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Elstar Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Elstar Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700S5WYP9AVIMHX21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Opportunity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Opportunity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700T55NVU7F653O34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Wealth Management Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Wealth Management Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337048"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UXWIRVPL7B8E85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Executed Vision Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C50668"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Executed Vision Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337049"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WISIDRB70REZ15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IJC Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337051"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XKYE0FV7FPZ090"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD Trade Finance Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C80076"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD Trade Finance Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337052"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XWLZ8WH7GQW808"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J & T Loan Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J & T Loan Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337053"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700X3VIBMYCYNM219"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BARBERO INVESTCO LTD"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C61739"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BARBERO INVESTCO LTD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337055"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YJYSDPIKSIHM71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Funds SICAV"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV51"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Funds SICAV p.l.c."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337056"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Y8TS2MQE1Z6Z52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JULIUS MEINL LIVING PLC"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C76799"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JULIUS MEINL LIVING PLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337057"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZG8GPC7DWLPE38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Advanced Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Advanced Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337058"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZZISH5O4MCBY19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Capital SICAV plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV177"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron Capital SICAV plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000OYXXAE5SYI563"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron LongTerm Equity Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metatron LongTerm Equity Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337061"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000TKAG4JVD83A80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Akane Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Akane Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337063"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001KWKTHIEBVY167"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpha Quest Funds SICAV"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV430"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpha Quest Funds SICAV p.l.c."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337065"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700255SLD81SKMZ37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Rentier Fund"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Rentier Fund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337066"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570027CKJLXF8CVH62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "M-MARK Trading Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C62555"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "M-MARK Trading Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337078"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UWJTIDIVBBHB45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Burton & Simpson"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C42467"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570030000000001229"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LiveSport Media Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C54555"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LiveSport Media Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337119"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007AHDRYG8EHQC82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Faust Trading Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C62464"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Faust Trading Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337121"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007NYA7DQOFZLS85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "All-Star Holding Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C 43151"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "All-Star Holding Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337122"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007P5NKY91F93Q47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironside limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C38054"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironside limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337123"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008D3X214YPGV479"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Advanced Solutions SICAV plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV69"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J&T Advanced Solutions SICAV plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106548902"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900Y773UTH7DPMU12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Savarin"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C92435"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106602961"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002NUHXN3V1WHQ97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Crecol Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C97685"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107097486"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LVB0R279MUX376"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "International Hotel Investments"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C26136"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108770716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WJM99CLMJD3646"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsara"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001642896"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466493"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002E3XKON2QW6B96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CFP Trading"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466612"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UH8VKHBL5BW645"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rascasse Investments"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466679"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900G40BUBIU7I1S70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energy Commodities Trading Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900140HG3DZGBK427"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AUDENTIA CAPITAL SICAV II PLC OBO EURENER FUND"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466731"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005TGVVCMQRZ7O90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ERDAL TRADING LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466734"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500N46H778DF50875"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "E&T Consult"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114750726"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700H7SQ6LOI9H0L24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Envien International Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C58766"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167173"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400HEVTYHONROBR24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premier Capital p.l.c."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CXNTW384RDKB36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cayan Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558270"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700C4ERBE02P7SN31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polaris Advisors"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558314"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700IO3TEL0RS9P210"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD GLOBAL SERVICES"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558354"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NR95HAQUJJX404"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mezaconti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558417"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WKSKNME4J0OH27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FINRENT HOLDING LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WLWZEL2312TF56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JCK GROUP P.L.C."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558486"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005QJHAUKDVM1N15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fraternity Capital Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558488"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005SGUZVHKBSOW59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Plan B Investments Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133815046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930069NLWEIGLHXU42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OKCoin Europe"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C88193"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "OKCoin Europe Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133815047"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500DEID7B03J77118"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BP23 CA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C106261"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "BP23 CA Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133815048"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549005CVR5HH70FDO07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Foris DAX MT"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C88392"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Foris DAX MT Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133815050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900FESD7AF56FOQ37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZillionBits"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "ZillionBits Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133815051"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000X84JRI8MS7D35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Altarius Asset Management"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C33168"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Altarius Asset Management Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136717377"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000QXQDVZQEGCI97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuffieh Funds Sicav"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/SV162"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779184"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002QAMX8PPKSO715"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gemini Intergalactic EU"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Gemini Intergalactic EU Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779185"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500EBA2E9980CDD80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Socios Europe Services"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Socios Europe Services Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779186"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500D6A0F945BB5A15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gate Technology"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Gate Technology Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GDCT8070R2VV26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Blue Cube (Malta) Limited"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Blue Cube (Malta) Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779188"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845001DD90AF543DC90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Payhound"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Payhound Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138754529"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008EKXNMKZRXCT63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malta International Airport"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C12663"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138754663"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900S8U9OL57V41N88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIE (Malta)"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C29862"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140044314"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "limited company"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beazt"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141150299"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900Y38OXTS23ARZ62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A&R Investments"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mt/C36498"
+      }
+    } ]
+  }
+}

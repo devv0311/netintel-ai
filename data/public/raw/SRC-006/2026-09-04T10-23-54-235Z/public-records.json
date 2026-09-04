@@ -1,0 +1,103 @@
+[
+  {
+    "recordRef": "edgar:1162704",
+    "registry": "edgar",
+    "registryRecordId": "1162704",
+    "subjectKind": "organisation",
+    "name": "CITIC PACIFIC LTD /FI",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1162704"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:23:51.449Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001162704"
+  },
+  {
+    "recordRef": "edgar:1398453",
+    "registry": "edgar",
+    "registryRecordId": "1398453",
+    "subjectKind": "organisation",
+    "name": "Xinyuan Real Estate Co., Ltd.",
+    "aliases": [
+      "Xinyuan Real Estate Co Ltd"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1398453"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:23:51.449Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001398453"
+  },
+  {
+    "recordRef": "edgar:1382112",
+    "registry": "edgar",
+    "registryRecordId": "1382112",
+    "subjectKind": "organisation",
+    "name": "GME INNOTAINMENT, INC.",
+    "aliases": [
+      "GREAT CHINA MANIA HOLDINGS, INC.",
+      "Great East Bottles & Drinks (China) Holdings, Inc",
+      "Jomar Specialties, Inc."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1382112"
+      }
+    ],
+    "jurisdiction": "US-FL",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:23:51.449Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001382112"
+  },
+  {
+    "recordRef": "edgar:1700499",
+    "registry": "edgar",
+    "registryRecordId": "1700499",
+    "subjectKind": "organisation",
+    "name": "Mongolian Mining Corp",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1700499"
+      }
+    ],
+    "jurisdiction": "US-E9",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:23:51.449Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001700499"
+  },
+  {
+    "recordRef": "edgar:1789097",
+    "registry": "edgar",
+    "registryRecordId": "1789097",
+    "subjectKind": "organisation",
+    "name": "Insilico Medicine Cayman TopCo",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1789097"
+      }
+    ],
+    "jurisdiction": "US-E9",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:23:51.449Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001789097"
+  }
+]

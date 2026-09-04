@@ -1,0 +1,6436 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003ZVBH73EPNS513"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point Software Technologies Ltd."
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003ZVBH73EPNS513"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point Software Technologies Ltd."
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003ZVBH73EPNS513"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "צ'ק פוינט טכנולוגיות תוכנה בע\"מ"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003ZVBH73EPNS513"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "צ'ק פוינט טכנולוגיות תוכנה בע\"מ"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q187212"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000K6Y58XXPDF853"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001419612"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SolarEdge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203386"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380089EIJRELKAIL21"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "צים שירותי ספנות משולבים בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zim Integrated Shipping Services Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520015041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203386"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380089EIJRELKAIL21"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "צים שירותי ספנות משולבים בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zim Integrated Shipping Services Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520015041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203386"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380089EIJRELKAIL21"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "צים שירותי ספנות משולבים בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zim Integrated Shipping Services Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520015041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208489"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TW18OUVFDCDP95"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אל על  נתיבי אויר לישראל בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001445210"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EL AL Israel Airlines Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520017146"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208489"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TW18OUVFDCDP95"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אל על  נתיבי אויר לישראל בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001445210"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EL AL Israel Airlines Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520017146"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q250362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XWZ7BG5G23OF51"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק דיסקונט לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Discount Bank Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520007030"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q250362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XWZ7BG5G23OF51"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק דיסקונט לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Discount Bank Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520007030"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q636231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CWUC7NV7VR3D03"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בתי זקוק לנפט בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil Refineries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036658"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q636231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CWUC7NV7VR3D03"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בתי זקוק לנפט בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil Refineries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036658"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7JDSZWRGUQY2DSTWCR57"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק לאומי לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Leumi Le- Israel B.m."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520018078"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7JDSZWRGUQY2DSTWCR57"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק לאומי לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Leumi Le- Israel B.m."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520018078"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7JDSZWRGUQY2DSTWCR57"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק לאומי לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Leumi Le- Israel B.m."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520018078"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q853619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XCGZCFSWY9U863"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בזק החברה הישראלית לתקשורת בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bezeq The Israeli Telecommunication Corp. Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520031931"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q853619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XCGZCFSWY9U863"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בזק החברה הישראלית לתקשורת בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bezeq The Israeli Telecommunication Corp. Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520031931"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q876017"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NHLDOM1LVCYX17"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "התעשיה האוירית לישראל בע\"מ"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IAI"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Aerospace Industries Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520027194"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इसराइल एयरोस्पेस इंडस्ट्रीज"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q898750"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BAFGM4RC74ZJ94"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "טבע תעשיות פרמצבטיות בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000818686"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teva Pharmaceutical Industries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520013954"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q898750"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BAFGM4RC74ZJ94"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "טבע תעשיות פרמצבטיות בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000818686"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teva Pharmaceutical Industries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520013954"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903943"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WNAEYCPL9G3563"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Adama Agricultural Solutions"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adama Agricultural Solutions Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043605"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "indian agriculutre soluction"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903943"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WNAEYCPL9G3563"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אדמה פתרונות לחקלאות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adama Agricultural Solutions Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043605"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "indian agriculutre soluction"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903957"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FQVQD88SHIGM04"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "איי.סי.אל גרופ בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Icl Group Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520027830"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903957"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FQVQD88SHIGM04"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "איי.סי.אל גרופ בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Icl Group Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520027830"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1184087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CYKA4XE2HZZB09"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קבוצת דלק בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Delek Group Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044322"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1184087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CYKA4XE2HZZB09"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קבוצת דלק בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Delek Group Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044322"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1287771"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900MJ7IXAH75VFC61"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001504379"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Caesarstone Sdot-Yam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1287771"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900MJ7IXAH75VFC61"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001504379"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Caesarstone Sdot-Yam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1325369"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q9CB1REUMZSS32"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלביט מערכות בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elbit Systems Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043027"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1325369"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q9CB1REUMZSS32"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלביט מערכות בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elbit Systems Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043027"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1548363"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PT36UHAIVEFN60"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מג'יק תעשיות תכנה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Magic Software Enterprises Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036740"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1548363"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PT36UHAIVEFN60"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מג'יק תעשיות תכנה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Magic Software Enterprises Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036740"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549511"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009APZLSTWD7BN31"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אורמת טכנולוגיות, אינק"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000749037"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ormat Technologies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/2435414"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549511"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000TSHHWY24VHM09"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אורמת טכנולוגיות, אינק"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000749037"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ormat Technologies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/2435414"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1674598"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800VASRTF37M7LO42"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "החברה לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Israel Corporation Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520028010"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1674598"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800VASRTF37M7LO42"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "החברה לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Israel Corporation Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520028010"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2000500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P1P6RZ1NC37U33"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "חברת פרטנר תקשורת בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Partner Communications Company Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044314"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2000500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P1P6RZ1NC37U33"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "חברת פרטנר תקשורת בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Partner Communications Company Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044314"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2000500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P1P6RZ1NC37U33"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "חברת פרטנר תקשורת בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Partner Communications Company Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044314"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2091479"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YTY4EF5Z4W0A51"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "נייס בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001003935"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nice Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036872"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2120877"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GBA9EK5FGVQA80"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שטראוס גרופ בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001445208"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strauss Group Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520003781"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2450722"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900438MNY6TZ5ZY17"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "סלקום ישראל בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001385145"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cellcom Israel Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/511930125"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2450722"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900438MNY6TZ5ZY17"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "סלקום ישראל בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001385145"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cellcom Israel Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/511930125"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2666775"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "B6ARUI4946ST4S7WOU88"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק הפועלים בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Hapoalim B.M."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520000118"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2666775"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "B6ARUI4946ST4S7WOU88"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק הפועלים בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Hapoalim B.M."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520000118"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2666775"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "B6ARUI4946ST4S7WOU88"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק הפועלים בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Hapoalim B.M."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520000118"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2742556"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800EO12XXGZSQ2A73"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ג'י סיטי בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "G City Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520033234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2777129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "YZO9YEGEO4VYDZMDWF93"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק מזרחי טפחות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mizrahi Tefahot Bank Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520000522"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2777497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002RV6AUUX19F397"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הבנק הבינלאומי הראשון לישראל בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "First International Bank Of Israel Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520029083"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2895117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TA48138NEVR854"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אודיוקודס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Audiocodes Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044132"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2900227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FMB5FGSDWKK368"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק ירושלים בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Of Jerusalem L.t.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520025636"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2901365"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LGCIT32XWAK965"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001910139"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobileye"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512700436"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2909852"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800Z7833KR44LCC93"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "חברת הכשרת הישוב בישראל ב\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Land Development Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520020116"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2912754"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800THWVY4MIDWYH93"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "דלתא-גליל תעשיות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Delta-galil Industries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520025602"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2915481"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JW7GE35YNJGJ55"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "חברת החשמל לישראל בע\"מ"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IEC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Electric Corporation"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520000472"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2918112"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800N8SB4D3Y6BFI15"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ישראמקו נגב 2 שותפות מוגבלת"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Isramco Negev 2 Limited Partnership"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/550010003"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4523181"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F64E05B78E0D41"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שופרסל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shufersal Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520022732"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4523181"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F64E05B78E0D41"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שופרסל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shufersal Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520022732"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4523181"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F64E05B78E0D41"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שופרסל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shufersal Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520022732"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4733161"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008MLSB5KCVNRK06"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלוט בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allot Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512394776"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4836950"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YL04U005WJH709"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בי קומיוניקיישנס בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001402606"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "B Communications Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512832742"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4914627"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900AKIOSC15Y63R18"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ביוליין אר אקס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bioline Rx Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/513398750"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5353752"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UWRB10FFBCZQ53"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלביט הדמיה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elbit Imaging Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043035"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5470333"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299007HN634606FI520"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פורמולה מערכות (1985)בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001045986"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Formula Systems (1985) Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036690"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5656834"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800BDNN3W11SXXD60"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הראל השקעות בביטוח ושרותים פיננסים בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001429390"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harel Insurance Investments & Financial Services Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520033986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5656834"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800BDNN3W11SXXD60"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הראל השקעות בביטוח ושרותים פיננסים בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001429390"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harel Insurance Investments & Financial Services Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520033986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6432445"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006DPCQWP3VTFK34"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קורנית דיגיטל בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001625791"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kornit Digital"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/513195420"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6586714"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800ZFO2DPAZ4UAL65"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מיטב בית השקעות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meitav Investment House Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043795"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6654568"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IN2P1JZ20G7N40"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "לייבפרסון, אינק."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liveperson Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/2565635"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6784385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009I6K3RDXFFY773"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מנורה מבטחים החזקות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Menora Mivtachim Holdings Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520007469"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6844054"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300W4Y1WPXVCYYE42"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מגדל אחזקות ביטוח ופיננסים בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001415912"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Migdal Insurance & Financial Holdings Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520029984"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6894740"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900VGY0GZ748GKD76"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הכשרה חברה לביטוח בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hachshara Insurance Company Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520042177"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7064069"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B2DSWE5V3SC292"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "נובה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nova Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/511812463"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7205567"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OZKMF7JGZMYM81"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פלורי אינק."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001158780"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pluri Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_nv/C12337-2001"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7251166"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SDVB3GP4XDFM60"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פרוטליקס ביות'רפיוטיקס אינק"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Protalix Biotherapeutics Inc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/6003661"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7829730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930086ZSNXZOUX0C54"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "טאואר סמיקונדקטור בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000928876"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tower Semiconductor Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520041997"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7829730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930086ZSNXZOUX0C54"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "טאואר סמיקונדקטור בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000928876"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tower Semiconductor Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520041997"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11159866"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RVHDCYJ5YWHP12"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "גילת רשתות לווין בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gilat Satellite Networks Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520038936"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12410538"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NIHUD0E1TFP265"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "איי.אי.מערכות שיחה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ai Conversation Systems Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520034919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12411853"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T21HBCYML0V651"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שמן תעשיות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shemen Industries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520023474"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13577818"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138004NVQ51G35LN253"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שיכון ובינוי בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shikun & Binui Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036104"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15109906"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DTVUC4EUFS1607"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001566844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazor Robotics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16130352"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845000EEC9BF5N06482"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "דור אלון אנרגיה בישראל (1988) בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dor Alon Energy In Israel (1988) Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043878"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16130352"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845000EEC9BF5N06482"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "דור אלון אנרגיה בישראל (1988) בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dor Alon Energy In Israel (1988) Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043878"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16130776"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005Y2T191RSUXG21"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אי.בי.אי. בית השקעות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "I.b.i Investment House Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520034356"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16131515"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002WIJCSC2L2VL79"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000906338"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TARO Pharmaceuticals"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16245318"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FLQUB9J289RU66"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "באטמ תקשורת מתקדמת בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Batm Advanced Communications Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520042813"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17138182"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900A4S2D4OGOJLL02"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אופקו הלת', אינק"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Opko Health Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/2279206"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17538813"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GWO7PNBAYCPJ12"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Similarweb"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Similarweb"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3010401129830"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19605389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900N5LVBX92GMVN72"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קנון הולדינגס"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenon Holdings Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/201406588W"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28760388"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006K52ZIIGQJ6R84"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אורמד פארמסוטיקלס אינק."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001176309"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oramed Pharmaceuticals"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/4951722"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28760388"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006K52ZIIGQJ6R84"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אורמד פארמסוטיקלס אינק."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001176309"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oramed Pharmaceuticals"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/4951722"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61125214"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450000955804579A79"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "או.פי.סי אנרגיה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Opc Energy Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/514401702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96481629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900FHSYEEYLHR7Y05"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלומיי קפיטל בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ellomay Capital Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039868"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96481629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900FHSYEEYLHR7Y05"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלומיי קפיטל בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ellomay Capital Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039868"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96482054"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NDDXEAPTUTXP41"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אקס טי אל  ביופרמסוטיקלס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "XTL Bio"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039470"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96482054"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NDDXEAPTUTXP41"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אקס טי אל  ביופרמסוטיקלס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "XTL Bio"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039470"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96482303"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZLRH6GSBOHFZ59"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "כן פייט ביופרמה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Can Fite Biopharma"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512022153"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96575127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OK432R4C6NQQ73"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פננטפארק פלוטינג רייט קפיטל לימיטד"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_md/D13814710"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001383414"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PennantPark Investment Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96575127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OK432R4C6NQQ73"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פננטפארק פלוטינג רייט קפיטל לימיטד"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_md/D13814710"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001383414"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PennantPark Investment Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96575127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OK432R4C6NQQ73"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פננטפארק פלוטינג רייט קפיטל לימיטד"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_md/D13814710"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001504619"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PennantPark Investment Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96575127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OK432R4C6NQQ73"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פננטפארק פלוטינג רייט קפיטל לימיטד"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_md/D13814710"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001504619"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PennantPark Investment Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310947"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OL3KGWRNK73R15"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "טרמינל איקס אונליין בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/515722536"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Terminal X"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96482303"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZLRH6GSBOHFZ59"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "כן פייט ביופרמה בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512022153"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Can Fite Biopharma"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96574751"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005KAEJOQ73AME77"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פורסייט אוטונומס הולדינגס בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036062"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "foresight automotive LTD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96574751"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005KAEJOQ73AME77"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פורסייט אוטונומס הולדינגס בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036062"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "foresight automotive LTD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500AMGSB9R178TW69"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ע.י. נופר אנרג'י בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/514599943"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310788"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310843"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380092Z2CWL9KOOM34"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פלאזה סנטרס אן.וי"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33248324"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310843"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310906"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XDMLMF5NBYNH22"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שיכון ובינוי אנרגיה בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/510459928"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310906"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310947"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OL3KGWRNK73R15"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "טרמינל איקס אונליין בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/515722536"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Terminal X"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q154610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GTHDKIZL3XIO17"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rafael Advanced Defense Systems Ltd."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rafael Advanced Defense Systems"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q154610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GTHDKIZL3XIO17"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rafael Advanced Defense Systems Ltd."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rafael Advanced Defense Systems"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2903265"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009EEY4WL8MF8H93"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520018649"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Union Bank Of Israel Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22022271"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007V8ZEVXWVS3567"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cross River Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22022271"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007V8ZEVXWVS3567"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cross River Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22022271"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007V8ZEVXWVS3567"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cross River Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109711537"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003YHR77FMKNX175"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Verbit Software"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110460007"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZL4OTK0T60P930"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בראק קפיטל פרופרטיז אן וי"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34250659"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brack Capital Properties N.v"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110460007"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZL4OTK0T60P930"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בראק קפיטל פרופרטיז אן וי"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34250659"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brack Capital Properties N.v"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110460009"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900HMNI9LS2PXLQ14"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "כרמית תעשיות ממתקים בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039058"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carmit Candy Industries Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110460009"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900HMNI9LS2PXLQ14"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "כרמית תעשיות ממתקים בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039058"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carmit Candy Industries Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310915"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900R2MAR4ZEW3DO03"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "סאמיט אחזקות נדל''ן בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043720"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Summit Real Estate Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310921"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002CZXIBSBDEA424"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ספרינג ונצ'רס בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512758350"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310921"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310951"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549006QHZTQOYRBB695"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ריטיילורס בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/514211457"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310951"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310971"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OM5K3PJ11F0Q09"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "יו.אמ.איץ' פרופרטיס אינק"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_md/D07439896"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310971"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121002697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SL7HYNVD6HG708"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פריון נטוורק בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512849498"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001338940"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perion Network Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121002697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SL7HYNVD6HG708"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פריון נטוורק בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512849498"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001338940"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perion Network Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121002697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SL7HYNVD6HG708"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פריון נטוורק בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512849498"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001338940"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Perion Network Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136684502"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Z8OREY6THCPF67"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פייבר אינטרנשיונל בע\"מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/514440874"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001762301"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fiverr International Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310771"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945001Z4S0WYNZBSJ26"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מור גמל ופנסיה בע''מ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/514956465"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310771"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003ZVBH73EPNS513"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point Software Technologies Ltd."
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003ZVBH73EPNS513"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "צ'ק פוינט טכנולוגיות תוכנה בע\"מ"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001015922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Check Point"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q187212"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000K6Y58XXPDF853"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001419612"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SolarEdge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203386"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380089EIJRELKAIL21"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "צים שירותי ספנות משולבים בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zim Integrated Shipping Services Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520015041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208489"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TW18OUVFDCDP95"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אל על  נתיבי אויר לישראל בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001445210"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EL AL Israel Airlines Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520017146"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q244411"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "M8LYVLF5DOB9X0LZOW72"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "بنك إسرائيل"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Israel"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इस्राएल के बैंक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q244411"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "M8LYVLF5DOB9X0LZOW72"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק ישראל"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Israel"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इस्राएल के बैंक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q250362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XWZ7BG5G23OF51"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק דיסקונט לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Discount Bank Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520007030"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q636231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CWUC7NV7VR3D03"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בתי זקוק לנפט בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oil Refineries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036658"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7JDSZWRGUQY2DSTWCR57"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק לאומי לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Leumi Le- Israel B.m."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520018078"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q853619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XCGZCFSWY9U863"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בזק החברה הישראלית לתקשורת בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bezeq The Israeli Telecommunication Corp. Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520031931"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q876017"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NHLDOM1LVCYX17"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "התעשיה האוירית לישראל בע\"מ"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IAI"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Aerospace Industries Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520027194"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इसराइल एयरोस्पेस इंडस्ट्रीज"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q876017"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NHLDOM1LVCYX17"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "התעשיה האוירית לישראל בע\"מ"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IAI"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Aerospace Industries Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520027194"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इसराइल एयरोस्पेस इंडस्ट्रीज"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q898750"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BAFGM4RC74ZJ94"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "טבע תעשיות פרמצבטיות בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000818686"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teva Pharmaceutical Industries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520013954"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903943"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WNAEYCPL9G3563"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Adama Agricultural Solutions"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adama Agricultural Solutions Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043605"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "indian agriculutre soluction"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903943"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WNAEYCPL9G3563"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אדמה פתרונות לחקלאות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adama Agricultural Solutions Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043605"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "indian agriculutre soluction"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903957"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FQVQD88SHIGM04"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "איי.סי.אל גרופ בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Icl Group Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520027830"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1184087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CYKA4XE2HZZB09"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קבוצת דלק בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Delek Group Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044322"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1287771"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900MJ7IXAH75VFC61"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001504379"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Caesarstone Sdot-Yam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1325369"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q9CB1REUMZSS32"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלביט מערכות בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elbit Systems Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043027"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1548363"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PT36UHAIVEFN60"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מג'יק תעשיות תכנה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Magic Software Enterprises Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036740"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549511"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009APZLSTWD7BN31"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אורמת טכנולוגיות, אינק"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000749037"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ormat Technologies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/2435414"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549511"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000TSHHWY24VHM09"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אורמת טכנולוגיות, אינק"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000749037"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ormat Technologies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/2435414"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1674598"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800VASRTF37M7LO42"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "החברה לישראל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Israel Corporation Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520028010"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2000500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P1P6RZ1NC37U33"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "חברת פרטנר תקשורת בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Partner Communications Company Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044314"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2091479"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YTY4EF5Z4W0A51"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "נייס בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001003935"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nice Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036872"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2120877"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GBA9EK5FGVQA80"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שטראוס גרופ בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001445208"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strauss Group Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520003781"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2450722"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900438MNY6TZ5ZY17"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "סלקום ישראל בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001385145"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cellcom Israel Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/511930125"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2666775"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "B6ARUI4946ST4S7WOU88"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק הפועלים בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Hapoalim B.M."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520000118"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2742556"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800EO12XXGZSQ2A73"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ג'י סיטי בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "G City Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520033234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2777129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "YZO9YEGEO4VYDZMDWF93"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק מזרחי טפחות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mizrahi Tefahot Bank Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520000522"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2777497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002RV6AUUX19F397"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הבנק הבינלאומי הראשון לישראל בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "First International Bank Of Israel Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520029083"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2895117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TA48138NEVR854"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אודיוקודס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Audiocodes Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044132"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2900227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FMB5FGSDWKK368"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנק ירושלים בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Of Jerusalem L.t.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520025636"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2901365"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LGCIT32XWAK965"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001910139"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobileye"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512700436"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2909852"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800Z7833KR44LCC93"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "חברת הכשרת הישוב בישראל ב\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Land Development Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520020116"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2912754"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800THWVY4MIDWYH93"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "דלתא-גליל תעשיות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Delta-galil Industries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520025602"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2915481"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JW7GE35YNJGJ55"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "חברת החשמל לישראל בע\"מ"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IEC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Electric Corporation"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520000472"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2918112"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800N8SB4D3Y6BFI15"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ישראמקו נגב 2 שותפות מוגבלת"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Isramco Negev 2 Limited Partnership"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/550010003"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4523181"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F64E05B78E0D41"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שופרסל בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shufersal Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520022732"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4733161"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008MLSB5KCVNRK06"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלוט בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allot Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512394776"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4836950"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YL04U005WJH709"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בי קומיוניקיישנס בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001402606"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "B Communications Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512832742"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4914627"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900AKIOSC15Y63R18"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ביוליין אר אקס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bioline Rx Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/513398750"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5353752"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UWRB10FFBCZQ53"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלביט הדמיה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elbit Imaging Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043035"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5470333"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299007HN634606FI520"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פורמולה מערכות (1985)בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001045986"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Formula Systems (1985) Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036690"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5656834"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800BDNN3W11SXXD60"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הראל השקעות בביטוח ושרותים פיננסים בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001429390"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harel Insurance Investments & Financial Services Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520033986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6432445"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006DPCQWP3VTFK34"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קורנית דיגיטל בע\"מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001625791"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kornit Digital"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/513195420"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6586714"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800ZFO2DPAZ4UAL65"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מיטב בית השקעות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meitav Investment House Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043795"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6629860"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007GUR4FWSN9NB79"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "יוניטרוניקס (1989) (ר''ג) בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unitronics (1989)(Rg) Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520044199"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6654568"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IN2P1JZ20G7N40"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "לייבפרסון, אינק."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liveperson Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/2565635"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6665151"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FJ1OEB8SH3PM88"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אבגול תעשיות 1953 בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Avgol Industries 1953 Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/510119068"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6686758"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800B9SL62L9VLO604"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מליסרון בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Melisron Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520037789"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6784385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009I6K3RDXFFY773"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מנורה מבטחים החזקות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Menora Mivtachim Holdings Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520007469"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6844054"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300W4Y1WPXVCYYE42"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מגדל אחזקות ביטוח ופיננסים בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001415912"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Migdal Insurance & Financial Holdings Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520029984"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6894740"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900VGY0GZ748GKD76"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הכשרה חברה לביטוח בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hachshara Insurance Company Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520042177"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7057933"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138005T746J61F84918"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלקטרה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Electra Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520028911"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7064069"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B2DSWE5V3SC292"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "נובה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nova Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/511812463"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7205567"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OZKMF7JGZMYM81"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פלורי אינק."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001158780"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pluri Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_nv/C12337-2001"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7251166"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SDVB3GP4XDFM60"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פרוטליקס ביות'רפיוטיקס אינק"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Protalix Biotherapeutics Inc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/6003661"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7829730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930086ZSNXZOUX0C54"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "טאואר סמיקונדקטור בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000928876"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tower Semiconductor Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520041997"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10819817"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9695006Q886EUEEXOT65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Silicom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11159866"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RVHDCYJ5YWHP12"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "גילת רשתות לווין בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gilat Satellite Networks Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520038936"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12403800"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GSQ9MH8UUE0W77"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אימאג'סט אינטרנשיונל(אי.אס.איי)בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Imagesat International (I.s.i) Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512737560"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12409964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300S140E7NK1NGZ65"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "נתיבי הגז הטבעי לישראל בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel Natural Gas Lines Company Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/513436394"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12410538"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NIHUD0E1TFP265"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "איי.אי.מערכות שיחה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ai Conversation Systems Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520034919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12411853"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T21HBCYML0V651"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שמן תעשיות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shemen Industries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520023474"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13577818"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138004NVQ51G35LN253"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שיכון ובינוי בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shikun & Binui Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036104"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15109906"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DTVUC4EUFS1607"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001566844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazor Robotics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16130352"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845000EEC9BF5N06482"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "דור אלון אנרגיה בישראל (1988) בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dor Alon Energy In Israel (1988) Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520043878"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16130776"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005Y2T191RSUXG21"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אי.בי.אי. בית השקעות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "I.b.i Investment House Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520034356"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16131515"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002WIJCSC2L2VL79"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000906338"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TARO Pharmaceuticals"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16245318"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FLQUB9J289RU66"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "באטמ תקשורת מתקדמת בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Batm Advanced Communications Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520042813"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16338537"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500HF6A99N758F734"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אנלייט אנרגיה מתחדשת בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001922641"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enlight Renewable Energy Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520041146"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17138182"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900A4S2D4OGOJLL02"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אופקו הלת', אינק"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Opko Health Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/2279206"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17538813"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GWO7PNBAYCPJ12"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Similarweb"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Similarweb"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3010401129830"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19605389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900N5LVBX92GMVN72"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קנון הולדינגס"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenon Holdings Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/201406588W"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28760388"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006K52ZIIGQJ6R84"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אורמד פארמסוטיקלס אינק."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001176309"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oramed Pharmaceuticals"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/4951722"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30527362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800IFXNS418YYLM41"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קליל תעשיות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Klil Industries Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520032442"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55610870"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RVMKU0CYUZBB05"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אנרג'יאן פי אל סי"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energean Plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/10758801"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55649221"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800PNXOBRJDRRDC27"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלוני-חץ נכסים והשקעות בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alony Hetz Properties & Investments Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520038506"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55649221"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800PNXOBRJDRRDC27"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלוני-חץ נכסים והשקעות בע\"מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alony Hetz Properties & Investments Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520038506"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55649802"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945002CZNG0EZOGOI09"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "י.ד. מור השקעות בע''מ"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001870364"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Y.d. More Investments Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/513834606"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61125214"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450000955804579A79"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "או.פי.סי אנרגיה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Opc Energy Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/514401702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61125462"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000H80W07HCKGS43"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קמטק בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Camtek Ltd."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/511235434"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65120554"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001EZA3O56862L58"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "גלאסבוקס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Glassbox Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/514525260"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96481629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900FHSYEEYLHR7Y05"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אלומיי קפיטל בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ellomay Capital Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039868"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96482054"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NDDXEAPTUTXP41"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אקס טי אל  ביופרמסוטיקלס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "XTL Bio"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039470"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96482303"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZLRH6GSBOHFZ59"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "כן פייט ביופרמה בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Can Fite Biopharma"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512022153"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96574751"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005KAEJOQ73AME77"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פורסייט אוטונומס הולדינגס בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "foresight automotive LTD"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520036062"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96575127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OK432R4C6NQQ73"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פננטפארק פלוטינג רייט קפיטל לימיטד"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001383414"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PennantPark Investment Corporation"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_md/D13814710"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96575127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OK432R4C6NQQ73"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "פננטפארק פלוטינג רייט קפיטל לימיטד"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001504619"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PennantPark Investment Corporation"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_md/D13814710"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310376"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800P6ORZZT3X4TY55"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עמיעד מערכות מים בע''מ"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310376"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512497694"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310424"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500VWIAC6N6VHCK55"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ארגו פרופרטיז אן.וי."
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310424"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/70252750"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800D91SMVAFC3P903"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אוטומקס מוטורס בע''מ"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310436"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/513795427"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310479"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500W3PS1DRDQS9972"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בלנדר טכנולוגיות פיננסיות בע''מ"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310479"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/515005502"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310480"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300F8BNFP4T2XGY79"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בליץ טכנולוגיות בע''מ"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310480"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520038779"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BU71VW7M2LXU91"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "גן שמואל מזון בע''מ"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310597"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039934"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310668"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KI5ESXF8F5GP06"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אינטרקיור בע''מ"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "InterCure"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/512051699"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900DA5KDQUHJZY811"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "קבוצת עמוס לוזון יזמות ואנרגיה בע''מ"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310716"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "il/520039660"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115310762"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800H1XWWUBTDPGU55"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מירלנד דיוולופמנט קורפריישן פי אל סי"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115310762"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cy/HE153919"
+      }
+    } ]
+  }
+}

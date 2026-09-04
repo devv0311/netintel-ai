@@ -1,0 +1,42 @@
+[
+  {
+    "recordRef": "edgar:1447382",
+    "registry": "edgar",
+    "registryRecordId": "1447382",
+    "subjectKind": "organisation",
+    "name": "Ocean Rig UDW Inc.",
+    "aliases": [
+      "PRIMELEAD SHAREHOLDERS INC."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1447382"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:27.751Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001447382"
+  },
+  {
+    "recordRef": "edgar:1714831",
+    "registry": "edgar",
+    "registryRecordId": "1714831",
+    "subjectKind": "organisation",
+    "name": "Songa Offshore SE",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1714831"
+      }
+    ],
+    "jurisdiction": "US-G4",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:27.751Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001714831"
+  }
+]

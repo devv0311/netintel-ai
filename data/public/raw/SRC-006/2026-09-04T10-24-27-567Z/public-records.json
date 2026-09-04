@@ -1,0 +1,121 @@
+[
+  {
+    "recordRef": "edgar:1243429",
+    "registry": "edgar",
+    "registryRecordId": "1243429",
+    "subjectKind": "organisation",
+    "name": "ArcelorMittal",
+    "aliases": [
+      "ARCELOR"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1243429"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:24.322Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001243429"
+  },
+  {
+    "recordRef": "edgar:1525773",
+    "registry": "edgar",
+    "registryRecordId": "1525773",
+    "subjectKind": "organisation",
+    "name": "Intelsat S.A.",
+    "aliases": [
+      "Intelsat Global Holdings S.A."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1525773"
+      }
+    ],
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:24.322Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001525773"
+  },
+  {
+    "recordRef": "edgar:1439579",
+    "registry": "edgar",
+    "registryRecordId": "1439579",
+    "subjectKind": "organisation",
+    "name": "Schroders",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1439579"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:24.322Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001439579"
+  },
+  {
+    "recordRef": "edgar:1502636",
+    "registry": "edgar",
+    "registryRecordId": "1502636",
+    "subjectKind": "organisation",
+    "name": "APERAM",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1502636"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:24.322Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001502636"
+  },
+  {
+    "recordRef": "edgar:1594266",
+    "registry": "edgar",
+    "registryRecordId": "1594266",
+    "subjectKind": "organisation",
+    "name": "SecurityScorecard, Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1594266"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:24.322Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001594266"
+  },
+  {
+    "recordRef": "edgar:1859723",
+    "registry": "edgar",
+    "registryRecordId": "1859723",
+    "subjectKind": "organisation",
+    "name": "EP Equity Investment S.a r.l",
+    "aliases": [
+      "EP Equity Investment S.a.r.l"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1859723"
+      }
+    ],
+    "jurisdiction": "US-N4",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:24.322Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001859723"
+  }
+]

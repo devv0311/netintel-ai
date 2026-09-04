@@ -1,0 +1,31 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"DK\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nLIMIT 400",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-04T10:21:02.393Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "3544fef206bee2c695015171cc93b435ce60cc80c6c8dfc2b619472eadf552b5",
+  "rawBytes": 214659,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "3544fef206bee2c695015171cc93b435ce60cc80c6c8dfc2b619472eadf552b5",
+      "bytes": 214659,
+      "records": 228,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 228,
+  "recordsSha256": "b3948a363d563cd94c8ae9a8b68d6e0aa92b0ddfa7a445699a24e8f14af37b8f",
+  "warnings": [
+    "400 SPARQL rows folded into 228 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q689791 states 2 LEIs (213800LEZA58SZNCBN19, 213800W6DPUGWBGTD766); all kept, none chosen between.",
+    "wikidata:Q694872 states 2 LEIs (213800A5UXABGUQ3PX11, 213800VL1H1ABVM1ZF63); all kept, none chosen between.",
+    "wikidata:Q969760 states 2 LEIs (529900EFI0OD4JHP6569, 529900FSU45YYVLKB451); all kept, none chosen between.",
+    "wikidata:Q45557 states 2 LEIs (213800G7EG4156NNPG91, 213800MXXDGQ3ITPXI41); all kept, none chosen between.",
+    "wikidata:Q1770068 states 3 LEIs (549300E6M3PRJSKMH312, 5967007LIEEXZXINVS13, 96950053J0GTYCKDYV37); all kept, none chosen between."
+  ]
+}

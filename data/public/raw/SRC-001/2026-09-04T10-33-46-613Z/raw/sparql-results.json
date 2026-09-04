@@ -1,0 +1,1308 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q679322"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5586006WD91QHB7J4X50"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Arabian Oil Group"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Aramco"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सऊदी अरामको"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q679322"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5586006WD91QHB7J4X50"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Arabian Oil Group"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Aramco"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सऊदी अरामको"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q679322"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5586006WD91QHB7J4X50"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Arabian Oil Group"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Aramco"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सऊदी अरामको"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q679322"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5586006WD91QHB7J4X50"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Arabian Oil Group"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Aramco"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सऊदी अरामको"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q679322"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5586006WD91QHB7J4X50"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Arabian Oil Group"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Aramco"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सऊदी अरामको"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1189080"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600G2ULMABTVNXP27"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "flynas"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1189080"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1189080"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600G2ULMABTVNXP27"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "flynas"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1189080"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1189080"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600G2ULMABTVNXP27"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Nas Air"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1189080"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1189080"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600G2ULMABTVNXP27"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Nas Air"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1189080"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1518238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5586006ZEFQ542K7CY16"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك الأهلي السعودي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Saudi National Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1518238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5586006ZEFQ542K7CY16"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك الأهلي السعودي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Saudi National Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1518238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5586006ZEFQ542K7CY16"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك الأهلي السعودي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Saudi National Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1535171"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380028ATJ79OTA9W17"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة الاتصالات السعودية"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Telecom Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1535171"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380028ATJ79OTA9W17"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة الاتصالات السعودية"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Telecom Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1535171"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380028ATJ79OTA9W17"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة الاتصالات السعودية"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Telecom Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1742118"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZFG0YO58NZON90"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة المملكة القابضة"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingdom Holding Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1742118"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZFG0YO58NZON90"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة المملكة القابضة"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingdom Holding Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1742118"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZFG0YO58NZON90"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة المملكة القابضة"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingdom Holding Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3433985"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930037RJ782ISGGM71"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "بنك الرياض"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Riyad Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC012256"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3433985"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930037RJ782ISGGM71"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "بنك الرياض"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Riyad Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC012256"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3433985"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930037RJ782ISGGM71"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "بنك الرياض"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Riyad Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC012256"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3535226"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B4EDUXYD2G6098"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة المراعي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Almarai Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3535226"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B4EDUXYD2G6098"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة المراعي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Almarai Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3535226"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B4EDUXYD2G6098"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة المراعي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Almarai Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4120111"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600HPAUTN6XSVBK93"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "مصرف الإنماء"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alinma Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4120111"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600HPAUTN6XSVBK93"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "مصرف الإنماء"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alinma Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4120111"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600HPAUTN6XSVBK93"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "مصرف الإنماء"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alinma Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4166519"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600TQS0WENZUC5190"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي البريطاني"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Awwal Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4166519"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600TQS0WENZUC5190"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي البريطاني"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Awwal Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4166519"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600TQS0WENZUC5190"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي البريطاني"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Awwal Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4783214"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CYWGYQVT1ZBQ57"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك العربي الوطني"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arab National Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC013714"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4783214"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CYWGYQVT1ZBQ57"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك العربي الوطني"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arab National Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC013714"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4783214"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CYWGYQVT1ZBQ57"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك العربي الوطني"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arab National Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC013714"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4783384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600CVF09J7RL38E62"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة الدرع العربي للتأمين التعاوني"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arabian Shield Cooperative Insurance Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4783384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600CVF09J7RL38E62"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة الدرع العربي للتأمين التعاوني"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arabian Shield Cooperative Insurance Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7181252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600N07EDF4ATYR106"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي الفرنسي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banque Saudi Fransi"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7181252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600N07EDF4ATYR106"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي الفرنسي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banque Saudi Fransi"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7181252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600N07EDF4ATYR106"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي الفرنسي"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banque Saudi Fransi"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7408955"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380056S7QW4AGHY117"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "مجموعة سامبا المالية"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samba Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7408955"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380056S7QW4AGHY117"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "مجموعة سامبا المالية"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samba Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7408955"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380056S7QW4AGHY117"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "مجموعة سامبا المالية"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samba Financial Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12184641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600V3J4M5TUY9HR70"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي للإستثمار"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12184641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600V3J4M5TUY9HR70"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي للإستثمار"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12184641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "558600V3J4M5TUY9HR70"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك السعودي للإستثمار"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12188903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FXO4ZXUIAXGP41"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "الشركة السعودية للكهرباء"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Electricity Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12188903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FXO4ZXUIAXGP41"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "الشركة السعودية للكهرباء"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Electricity Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12188903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FXO4ZXUIAXGP41"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "الشركة السعودية للكهرباء"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Electricity Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12218587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300J2GTNKWJRJ8581"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "الشركة التعاونية للتأمين"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Company for Cooperative Insurance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28715280"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549000WEZ982XWY5Y65"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "شركة لازوردي للمجوهرات"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazurde Company for Jewelry"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106036194"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "89450095HZF65FORQR22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ejaz Electronic Publishing Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106036194"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "89450095HZF65FORQR22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ejaz Electronic Publishing Company"
+      }
+    } ]
+  }
+}

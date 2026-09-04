@@ -1,0 +1,61 @@
+[
+  {
+    "recordRef": "edgar:51296",
+    "registry": "edgar",
+    "registryRecordId": "51296",
+    "subjectKind": "organisation",
+    "name": "Navistar, Inc.",
+    "aliases": [
+      "INTERNATIONAL TRUCK & ENGINE CORP",
+      "NAVISTAR INTERNATIONAL TRANSPORTATION CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "51296"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:39.011Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000051296"
+  },
+  {
+    "recordRef": "edgar:1520504",
+    "registry": "edgar",
+    "registryRecordId": "1520504",
+    "subjectKind": "organisation",
+    "name": "Controladora Vuela Compania de Aviacion, S.A.B. de C.V.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1520504"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:39.011Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001520504"
+  },
+  {
+    "recordRef": "edgar:1023025",
+    "registry": "edgar",
+    "registryRecordId": "1023025",
+    "subjectKind": "organisation",
+    "name": "TV AZTECA SA DE CV",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1023025"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:39.011Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001023025"
+  }
+]

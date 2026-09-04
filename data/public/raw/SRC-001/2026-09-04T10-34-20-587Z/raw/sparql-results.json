@@ -1,0 +1,1487 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q196259"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004AF4DSJDB0PA32"
+      },
+      "official" : {
+        "xml:lang" : "zh-cn",
+        "type" : "literal",
+        "value" : "广州网易计算机系统有限公司"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001110646"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NetEase"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q196259"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004AF4DSJDB0PA32"
+      },
+      "official" : {
+        "xml:lang" : "zh-cn",
+        "type" : "literal",
+        "value" : "广州网易计算机系统有限公司"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001110646"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NetEase"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q196259"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004AF4DSJDB0PA32"
+      },
+      "official" : {
+        "xml:lang" : "zh-cn",
+        "type" : "literal",
+        "value" : "广州网易计算机系统有限公司"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001110646"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NetEase"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B3H0RSWJ089K63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Razer Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B3H0RSWJ089K63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Razer Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B3H0RSWJ089K63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Razer Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q691592"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BA76VK784VMX48"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GLOBALFOUNDRIES Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001709048"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GlobalFoundries"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q691592"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BA76VK784VMX48"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GLOBALFOUNDRIES Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001709048"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GlobalFoundries"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q691592"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BA76VK784VMX48"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GLOBALFOUNDRIES Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001709048"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GlobalFoundries"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q933850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZYZMMW6P92NT47"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001462887"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Huiyuan Juice"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q933850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZYZMMW6P92NT47"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001462887"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Huiyuan Juice"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1272525"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900T77L2FV3FZ3U81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Li-Ning Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1272525"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900T77L2FV3FZ3U81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Li-Ning Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4036129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KRNJT6HAXT3773"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Properties Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4036129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KRNJT6HAXT3773"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Properties Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4042227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500DA6D87CSD7C975"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingboard Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4042227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500DA6D87CSD7C975"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingboard Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4653060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900291XG0CTK4LF95"
+      },
+      "official" : {
+        "xml:lang" : "en-gb",
+        "type" : "literal",
+        "value" : "CHINA MERCHANTS BANK CO., LTD"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4653060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900291XG0CTK4LF95"
+      },
+      "official" : {
+        "xml:lang" : "en-gb",
+        "type" : "literal",
+        "value" : "CHINA MERCHANTS BANK CO., LTD"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4653060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900291XG0CTK4LF95"
+      },
+      "official" : {
+        "xml:lang" : "zh-hk",
+        "type" : "literal",
+        "value" : "招商銀行股份有限公司"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4653060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900291XG0CTK4LF95"
+      },
+      "official" : {
+        "xml:lang" : "zh-hk",
+        "type" : "literal",
+        "value" : "招商銀行股份有限公司"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5099926"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QVUUH13RIZIR85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China State Construction International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5099926"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QVUUH13RIZIR85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China State Construction International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5417145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CUF7B1LAB15T90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evergrande Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5417145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CUF7B1LAB15T90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evergrande Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5752816"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845006FE68AAA5F5729"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hidili Industry International Development Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5752816"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845006FE68AAA5F5729"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hidili Industry International Development Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10883085"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YZHJSSW59BA132"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hengdeli Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10883085"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YZHJSSW59BA132"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hengdeli Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10896530"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299007KRREO0400F739"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001095348"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "O2Micro International Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10896530"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299007KRREO0400F739"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001095348"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "O2Micro International Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10901378"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WRKZ47N6I5N743"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shengli Oil & Gas Pipe Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10901378"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WRKZ47N6I5N743"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shengli Oil & Gas Pipe Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11080927"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900N99TVMJ68CS860"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New World Department Store China Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11080927"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900N99TVMJ68CS860"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New World Department Store China Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11082860"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OPZE8WLBH24074"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "XINCHEN CHINA POWER HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11082860"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OPZE8WLBH24074"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "XINCHEN CHINA POWER HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15913951"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EVO6UZDGY05787"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sands China"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15913951"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EVO6UZDGY05787"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sands China"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15915960"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PYSOIKBMQIQY91"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001510593"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xunlei Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15915960"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PYSOIKBMQIQY91"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001510593"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xunlei Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15931251"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VZFN87OS7WJM66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MGM CHINA HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15931251"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VZFN87OS7WJM66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MGM CHINA HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15956351"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006X3IIJ4XT36I16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Forgame Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15956351"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006X3IIJ4XT36I16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Forgame Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926210"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500XS4ILCA7TNKD16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leoch International Technology Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926210"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500XS4ILCA7TNKD16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leoch International Technology Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17022931"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900EO2ZNZMHL6VQ78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Boer Power Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17022931"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900EO2ZNZMHL6VQ78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Boer Power Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17154829"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NRV6LBR3T6B421"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Melco PBL Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18658020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P2POH56W116T02"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001699967"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meitu"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18658020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P2POH56W116T02"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001699967"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meitu"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20182011"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Y93WNCS05FG852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001481513"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jinko Solar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20182011"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Y93WNCS05FG852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001481513"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jinko Solar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27346385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GWGZPE83MJOV59"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001549107"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Manchester United plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27346385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GWGZPE83MJOV59"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001549107"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Manchester United plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27346385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GWGZPE83MJOV59"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001549107"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Manchester United plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42893706"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QLPKS8U9QOPB59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wharf Real Estate Investment Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47016300"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NYB6ZGZN3MVT56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Autohome"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48898961"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YXWIZUFHMK8W28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Literature Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65185499"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "EVK05KS7XY1DEII3R011"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elliott International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97180096"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845000A05E8F937E337"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pop Mart"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पॉप मार्ट"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104626435"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "PIRK3IP22W3DKV63YG19"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001011712"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Capital Ventures International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113153195"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8368006Y2DHY77ADSY31"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001764757"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DiDi Global"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113153195"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8368006Y2DHY77ADSY31"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001764757"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DiDi Global"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466387"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800U3KTN4LIRQ5R98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dare Global"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466403"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300134JOIXUR96M47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IHG Core Holdings, Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466631"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138003P5ER1797GWW87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AVALON ELECTRICITY FUND"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466638"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450006BE8Q5D44MB84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meteo-Logic Futures Fund L.P."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466703"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KGPWD02N443J38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rascasse Energy Europe Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466809"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0P0M06XFLZJYTDBWEU07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Citadel Energy Investments Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466822"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KM4DRKLEPZUO76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atlas Macro Master Fund LTD."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124461238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000573DS7005T657"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001737806"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PDD Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138874364"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930057HU24VGK3CO92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ByteDance Limited"
+      }
+    } ]
+  }
+}

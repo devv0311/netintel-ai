@@ -1,0 +1,146 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q126559"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UYAEYQCQ2BKB17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Credicorp"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q126559"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UYAEYQCQ2BKB17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Credicorp"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1001788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WQB1ZU9KB6EL71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Buenaventura"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001013131"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1001788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WQB1ZU9KB6EL71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Buenaventura"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001013131"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1001788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WQB1ZU9KB6EL71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Buenaventura"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001013131"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5064993"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002F857O2TX7EU13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cerro Verde"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5064993"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002F857O2TX7EU13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cerro Verde"
+      }
+    } ]
+  }
+}

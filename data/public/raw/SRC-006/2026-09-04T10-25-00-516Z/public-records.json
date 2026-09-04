@@ -1,0 +1,64 @@
+[
+  {
+    "recordRef": "edgar:924613",
+    "registry": "edgar",
+    "registryRecordId": "924613",
+    "subjectKind": "organisation",
+    "name": "NOKIA CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "924613"
+      }
+    ],
+    "jurisdiction": "US-H9",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:59.186Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000924613"
+  },
+  {
+    "recordRef": "edgar:1436777",
+    "registry": "edgar",
+    "registryRecordId": "1436777",
+    "subjectKind": "organisation",
+    "name": "Sanoma Corp",
+    "aliases": [
+      "Sanomawsoy"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1436777"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:59.186Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001436777"
+  },
+  {
+    "recordRef": "edgar:1826018",
+    "registry": "edgar",
+    "registryRecordId": "1826018",
+    "subjectKind": "organisation",
+    "name": "ROVER GROUP, INC.",
+    "aliases": [
+      "Nebula Caravel Acquisition Corp."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1826018"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:59.186Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826018"
+  }
+]

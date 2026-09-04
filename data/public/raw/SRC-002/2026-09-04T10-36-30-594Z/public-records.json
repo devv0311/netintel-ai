@@ -1,0 +1,30 @@
+[
+  {
+    "recordRef": "gleif:391200JWCL5VCOSXNT56",
+    "registry": "gleif",
+    "registryRecordId": "391200JWCL5VCOSXNT56",
+    "subjectKind": "organisation",
+    "name": "Jumia Technologies AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "391200JWCL5VCOSXNT56"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "de/F1103R_HRB203542"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000217",
+        "value": "HRB 203542"
+      }
+    ],
+    "observedAt": "2026-02-06T10:42:21.000Z",
+    "jurisdiction": "DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:29.867Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/391200JWCL5VCOSXNT56"
+  }
+]

@@ -1,0 +1,358 @@
+[
+  {
+    "recordRef": "edgar:1551182",
+    "registry": "edgar",
+    "registryRecordId": "1551182",
+    "subjectKind": "organisation",
+    "name": "Eaton Corp plc",
+    "aliases": [
+      "Eaton Corp Ltd"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1551182"
+      }
+    ],
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551182"
+  },
+  {
+    "recordRef": "edgar:1038683",
+    "registry": "edgar",
+    "registryRecordId": "1038683",
+    "subjectKind": "organisation",
+    "name": "RYANAIR HOLDINGS PLC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1038683"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001038683"
+  },
+  {
+    "recordRef": "edgar:1467373",
+    "registry": "edgar",
+    "registryRecordId": "1467373",
+    "subjectKind": "organisation",
+    "name": "Accenture plc",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1467373"
+      }
+    ],
+    "jurisdiction": "US-L2",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467373"
+  },
+  {
+    "recordRef": "edgar:884629",
+    "registry": "edgar",
+    "registryRecordId": "884629",
+    "subjectKind": "organisation",
+    "name": "Allergan Finance LLC",
+    "aliases": [
+      "Actavis, Inc.",
+      "WATSON PHARMACEUTICALS INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "884629"
+      }
+    ],
+    "jurisdiction": "US-NV",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884629"
+  },
+  {
+    "recordRef": "edgar:1857475",
+    "registry": "edgar",
+    "registryRecordId": "1857475",
+    "subjectKind": "organisation",
+    "name": "Dole plc",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1857475"
+      }
+    ],
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001857475"
+  },
+  {
+    "recordRef": "edgar:833444",
+    "registry": "edgar",
+    "registryRecordId": "833444",
+    "subjectKind": "organisation",
+    "name": "Johnson Controls International plc",
+    "aliases": [
+      "TYCO INTERNATIONAL plc",
+      "TYCO INTERNATIONAL LTD",
+      "TYCO INTERNATIONAL LTD /BER/",
+      "ADT LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "833444"
+      }
+    ],
+    "jurisdiction": "US-L2",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833444"
+  },
+  {
+    "recordRef": "edgar:1707925",
+    "registry": "edgar",
+    "registryRecordId": "1707925",
+    "subjectKind": "organisation",
+    "name": "LINDE PLC",
+    "aliases": [
+      "ZAMALIGHT PLC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1707925"
+      }
+    ],
+    "jurisdiction": "US-L2",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707925"
+  },
+  {
+    "recordRef": "edgar:55067",
+    "registry": "edgar",
+    "registryRecordId": "55067",
+    "subjectKind": "organisation",
+    "name": "KELLANOVA",
+    "aliases": [
+      "KELLOGG CO"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "55067"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000055067"
+  },
+  {
+    "recordRef": "edgar:1578845",
+    "registry": "edgar",
+    "registryRecordId": "1578845",
+    "subjectKind": "organisation",
+    "name": "Allergan plc",
+    "aliases": [
+      "Actavis plc",
+      "Actavis Ltd"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1578845"
+      }
+    ],
+    "jurisdiction": "US-L2",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001578845"
+  },
+  {
+    "recordRef": "edgar:849395",
+    "registry": "edgar",
+    "registryRecordId": "849395",
+    "subjectKind": "organisation",
+    "name": "CRH PUBLIC LTD CO",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "849395"
+      }
+    ],
+    "jurisdiction": "US-L2",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000849395"
+  },
+  {
+    "recordRef": "edgar:1585364",
+    "registry": "edgar",
+    "registryRecordId": "1585364",
+    "subjectKind": "organisation",
+    "name": "PERRIGO Co plc",
+    "aliases": [
+      "PERRIGO Co Ltd"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1585364"
+      }
+    ],
+    "jurisdiction": "US-L2",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001585364"
+  },
+  {
+    "recordRef": "edgar:935036",
+    "registry": "edgar",
+    "registryRecordId": "935036",
+    "subjectKind": "organisation",
+    "name": "ACI WORLDWIDE, INC.",
+    "aliases": [
+      "TRANSACTION SYSTEMS ARCHITECTS INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "935036"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000935036"
+  },
+  {
+    "recordRef": "edgar:874663",
+    "registry": "edgar",
+    "registryRecordId": "874663",
+    "subjectKind": "organisation",
+    "name": "ALKERMES INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "874663"
+      }
+    ],
+    "jurisdiction": "US-PA",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874663"
+  },
+  {
+    "recordRef": "edgar:1691342",
+    "registry": "edgar",
+    "registryRecordId": "1691342",
+    "subjectKind": "organisation",
+    "name": "Stripe, Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1691342"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001691342"
+  },
+  {
+    "recordRef": "edgar:1579241",
+    "registry": "edgar",
+    "registryRecordId": "1579241",
+    "subjectKind": "organisation",
+    "name": "Allegion plc",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1579241"
+      }
+    ],
+    "jurisdiction": "US-L2",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579241"
+  },
+  {
+    "recordRef": "edgar:1826018",
+    "registry": "edgar",
+    "registryRecordId": "1826018",
+    "subjectKind": "organisation",
+    "name": "ROVER GROUP, INC.",
+    "aliases": [
+      "Nebula Caravel Acquisition Corp."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1826018"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826018"
+  },
+  {
+    "recordRef": "edgar:1737806",
+    "registry": "edgar",
+    "registryRecordId": "1737806",
+    "subjectKind": "organisation",
+    "name": "PDD Holdings Inc.",
+    "aliases": [
+      "Pinduoduo Inc.",
+      "Walnut Street Group Holding Ltd"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1737806"
+      }
+    ],
+    "jurisdiction": "US-E9",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:07.729Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737806"
+  }
+]

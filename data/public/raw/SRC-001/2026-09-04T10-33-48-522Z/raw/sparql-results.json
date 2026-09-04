@@ -1,0 +1,126 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "QA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HDF99L84TF2D68"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कतर एयरवेज़"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "الْخُطُوطُ الْجَوِّيَّةُ الْقَطَرِيَّة"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Qatar Airways"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "QA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1136759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FFSRVBS0SQXY75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "QNB Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "QA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1136759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FFSRVBS0SQXY75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "QNB Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "QA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1136759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FFSRVBS0SQXY75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "QNB Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "QA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "QA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    } ]
+  }
+}

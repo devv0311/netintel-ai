@@ -1,0 +1,24 @@
+[
+  {
+    "recordRef": "edgar:1756708",
+    "registry": "edgar",
+    "registryRecordId": "1756708",
+    "subjectKind": "organisation",
+    "name": "Jumia Technologies AG",
+    "aliases": [
+      "Africa Internet Holding GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1756708"
+      }
+    ],
+    "jurisdiction": "US-2M",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:36:15.656Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001756708"
+  }
+]

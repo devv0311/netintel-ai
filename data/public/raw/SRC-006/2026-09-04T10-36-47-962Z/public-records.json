@@ -1,0 +1,145 @@
+[
+  {
+    "recordRef": "edgar:1737706",
+    "registry": "edgar",
+    "registryRecordId": "1737706",
+    "subjectKind": "organisation",
+    "name": "Seadrill Ltd",
+    "aliases": [
+      "NEW SDRL LTD."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1737706"
+      }
+    ],
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:36:43.980Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737706"
+  },
+  {
+    "recordRef": "edgar:1468091",
+    "registry": "edgar",
+    "registryRecordId": "1468091",
+    "subjectKind": "organisation",
+    "name": "VEON Ltd.",
+    "aliases": [
+      "VimpelCom Ltd."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1468091"
+      }
+    ],
+    "jurisdiction": "US-D0",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:36:43.980Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001468091"
+  },
+  {
+    "recordRef": "edgar:1207179",
+    "registry": "edgar",
+    "registryRecordId": "1207179",
+    "subjectKind": "organisation",
+    "name": "GOLAR LNG LTD",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1207179"
+      }
+    ],
+    "jurisdiction": "US-D0",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:36:43.980Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001207179"
+  },
+  {
+    "recordRef": "edgar:1412100",
+    "registry": "edgar",
+    "registryRecordId": "1412100",
+    "subjectKind": "organisation",
+    "name": "Maiden Holdings, Ltd.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1412100"
+      }
+    ],
+    "jurisdiction": "US-D0",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:36:43.980Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001412100"
+  },
+  {
+    "recordRef": "edgar:832988",
+    "registry": "edgar",
+    "registryRecordId": "832988",
+    "subjectKind": "organisation",
+    "name": "SIGNET JEWELERS LTD",
+    "aliases": [
+      "SIGNET GROUP PLC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "832988"
+      }
+    ],
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:36:43.980Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000832988"
+  },
+  {
+    "recordRef": "edgar:1545772",
+    "registry": "edgar",
+    "registryRecordId": "1545772",
+    "subjectKind": "organisation",
+    "name": "Brookfield Property Partners L.P.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1545772"
+      }
+    ],
+    "jurisdiction": "US-D0",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:36:43.980Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001545772"
+  },
+  {
+    "recordRef": "edgar:1597659",
+    "registry": "edgar",
+    "registryRecordId": "1597659",
+    "subjectKind": "organisation",
+    "name": "HERMITAGE OFFSHORE SERVICES LTD.",
+    "aliases": [
+      "NORDIC AMERICAN OFFSHORE LTD."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1597659"
+      }
+    ],
+    "jurisdiction": "US-D0",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:36:43.980Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001597659"
+  }
+]

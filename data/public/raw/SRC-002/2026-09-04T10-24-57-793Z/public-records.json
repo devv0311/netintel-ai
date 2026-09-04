@@ -1,0 +1,5486 @@
+[
+  {
+    "recordRef": "gleif:984500B6QD0666C0GB44",
+    "registry": "gleif",
+    "registryRecordId": "984500B6QD0666C0GB44",
+    "subjectKind": "organisation",
+    "name": "WESTbahn Management GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500B6QD0666C0GB44"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "319409w"
+      }
+    ],
+    "observedAt": "2026-05-23T14:03:23.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500B6QD0666C0GB44"
+  },
+  {
+    "recordRef": "gleif:529900MQGS697ZYK8K15",
+    "registry": "gleif",
+    "registryRecordId": "529900MQGS697ZYK8K15",
+    "subjectKind": "organisation",
+    "name": "biolitec AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900MQGS697ZYK8K15"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "376788a"
+      }
+    ],
+    "observedAt": "2024-01-24T07:22:40.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900MQGS697ZYK8K15"
+  },
+  {
+    "recordRef": "gleif:254900RIBCDJSUFG1A11",
+    "registry": "gleif",
+    "registryRecordId": "254900RIBCDJSUFG1A11",
+    "subjectKind": "organisation",
+    "name": "LAZARD, INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900RIBCDJSUFG1A11"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/2779795"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "2779795"
+      }
+    ],
+    "observedAt": "2025-11-21T15:08:51.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900RIBCDJSUFG1A11"
+  },
+  {
+    "recordRef": "gleif:529900Q4SDRO8QNBBJ33",
+    "registry": "gleif",
+    "registryRecordId": "529900Q4SDRO8QNBBJ33",
+    "subjectKind": "organisation",
+    "name": "Österreichische Bundesbahnen-Holding Aktiengesellschaft",
+    "aliases": [
+      "Osterreichische Bundesbahnen-Holding Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900Q4SDRO8QNBBJ33"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "247642f"
+      }
+    ],
+    "observedAt": "2025-10-30T14:02:52.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900Q4SDRO8QNBBJ33"
+  },
+  {
+    "recordRef": "gleif:549300TAT2TADBW0WR70",
+    "registry": "gleif",
+    "registryRecordId": "549300TAT2TADBW0WR70",
+    "subjectKind": "organisation",
+    "name": "BOREALIS GMBH",
+    "aliases": [
+      "BOREALIS AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300TAT2TADBW0WR70"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "269858a"
+      }
+    ],
+    "observedAt": "2025-12-15T12:01:58.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300TAT2TADBW0WR70"
+  },
+  {
+    "recordRef": "gleif:529900KCNFQU5OJH7L33",
+    "registry": "gleif",
+    "registryRecordId": "529900KCNFQU5OJH7L33",
+    "subjectKind": "organisation",
+    "name": "Telekom Austria Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900KCNFQU5OJH7L33"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "144477t"
+      }
+    ],
+    "observedAt": "2026-05-08T12:30:20.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900KCNFQU5OJH7L33"
+  },
+  {
+    "recordRef": "gleif:529900PNUEQE2B5IX405",
+    "registry": "gleif",
+    "registryRecordId": "529900PNUEQE2B5IX405",
+    "subjectKind": "organisation",
+    "name": "PUM Friese GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900PNUEQE2B5IX405"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "213343s"
+      }
+    ],
+    "observedAt": "2021-07-19T05:07:28.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900PNUEQE2B5IX405"
+  },
+  {
+    "recordRef": "gleif:549300JM7BK9UYT2CS02",
+    "registry": "gleif",
+    "registryRecordId": "549300JM7BK9UYT2CS02",
+    "subjectKind": "organisation",
+    "name": "ANDRITZ",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300JM7BK9UYT2CS02"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "fr/380237909"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000192",
+        "value": "380 237 909"
+      }
+    ],
+    "observedAt": "2025-11-10T09:48:50.000Z",
+    "jurisdiction": "FR",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300JM7BK9UYT2CS02"
+  },
+  {
+    "recordRef": "gleif:529900QN2O8H65HMXX86",
+    "registry": "gleif",
+    "registryRecordId": "529900QN2O8H65HMXX86",
+    "subjectKind": "organisation",
+    "name": "Österreichische Hagelversicherung-Versicherungsverein auf Gegenseitigkeit",
+    "aliases": [
+      "Österreichische Hagelversicherung- Versicherungsverein auf Gegenseitigkeit",
+      "Osterreichische Hagelversicherung-Versicherungsverein auf Gegenseitigkeit"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900QN2O8H65HMXX86"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "106532s"
+      }
+    ],
+    "observedAt": "2026-03-27T06:02:12.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900QN2O8H65HMXX86"
+  },
+  {
+    "recordRef": "gleif:529900YPGRP3KTUTBZ47",
+    "registry": "gleif",
+    "registryRecordId": "529900YPGRP3KTUTBZ47",
+    "subjectKind": "organisation",
+    "name": "Österreichische Beamtenversicherung, Versicherungsverein auf Gegenseitigkeit",
+    "aliases": [
+      "Osterreichische Beamtenversicherung, Versicherungsverein auf Gegenseitigkeit"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900YPGRP3KTUTBZ47"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "86811p"
+      }
+    ],
+    "observedAt": "2026-01-17T23:03:29.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900YPGRP3KTUTBZ47"
+  },
+  {
+    "recordRef": "gleif:5493000FHOCPRAERG577",
+    "registry": "gleif",
+    "registryRecordId": "5493000FHOCPRAERG577",
+    "subjectKind": "organisation",
+    "name": "Josef Manner & Comp. Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493000FHOCPRAERG577"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "40643w"
+      }
+    ],
+    "observedAt": "2026-03-12T15:10:29.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493000FHOCPRAERG577"
+  },
+  {
+    "recordRef": "gleif:5299001RXIEYZXN71T68",
+    "registry": "gleif",
+    "registryRecordId": "5299001RXIEYZXN71T68",
+    "subjectKind": "organisation",
+    "name": "MAGNA STEYR Fahrzeugtechnik GmbH & Co KG",
+    "aliases": [
+      "MAGNA STEYR Fahrzeugtechnik AG & Co KG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299001RXIEYZXN71T68"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "187417p"
+      }
+    ],
+    "observedAt": "2026-06-23T06:44:27.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299001RXIEYZXN71T68"
+  },
+  {
+    "recordRef": "gleif:5299001JPPT2QFTV5D76",
+    "registry": "gleif",
+    "registryRecordId": "5299001JPPT2QFTV5D76",
+    "subjectKind": "organisation",
+    "name": "ams-OSRAM AG",
+    "aliases": [
+      "ams AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299001JPPT2QFTV5D76"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "34109k"
+      }
+    ],
+    "observedAt": "2026-02-09T13:22:47.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299001JPPT2QFTV5D76"
+  },
+  {
+    "recordRef": "gleif:549300V62YJ9HTLRI486",
+    "registry": "gleif",
+    "registryRecordId": "549300V62YJ9HTLRI486",
+    "subjectKind": "organisation",
+    "name": "OMV AKTIENGESELLSCHAFT",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300V62YJ9HTLRI486"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "93363z"
+      }
+    ],
+    "observedAt": "2025-08-28T15:26:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300V62YJ9HTLRI486"
+  },
+  {
+    "recordRef": "gleif:5493009YO1MGVNTJ0W35",
+    "registry": "gleif",
+    "registryRecordId": "5493009YO1MGVNTJ0W35",
+    "subjectKind": "organisation",
+    "name": "LAZARD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493009YO1MGVNTJ0W35"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "be/0899695289"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000025",
+        "value": "0899.695.289"
+      }
+    ],
+    "observedAt": "2025-08-27T14:27:17.000Z",
+    "jurisdiction": "BE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493009YO1MGVNTJ0W35"
+  },
+  {
+    "recordRef": "gleif:529900GEMOEGGR4Y7U53",
+    "registry": "gleif",
+    "registryRecordId": "529900GEMOEGGR4Y7U53",
+    "subjectKind": "organisation",
+    "name": "Ottakringer Getränke AG",
+    "aliases": [
+      "Ottakringer Getranke AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900GEMOEGGR4Y7U53"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "84925s"
+      }
+    ],
+    "observedAt": "2026-03-30T12:01:10.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900GEMOEGGR4Y7U53"
+  },
+  {
+    "recordRef": "gleif:5299001AMHDLKUM80611",
+    "registry": "gleif",
+    "registryRecordId": "5299001AMHDLKUM80611",
+    "subjectKind": "organisation",
+    "name": "Mayr-Melnhof Karton Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299001AMHDLKUM80611"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "81906a"
+      }
+    ],
+    "observedAt": "2026-06-01T08:04:14.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299001AMHDLKUM80611"
+  },
+  {
+    "recordRef": "gleif:5299002Q68E35257UV46",
+    "registry": "gleif",
+    "registryRecordId": "5299002Q68E35257UV46",
+    "subjectKind": "organisation",
+    "name": "Österreichische Apothekerbank eG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299002Q68E35257UV46"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "FN 98423s"
+      }
+    ],
+    "observedAt": "2018-07-05T10:28:44.000Z",
+    "jurisdiction": "AT",
+    "status": "NULL",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299002Q68E35257UV46"
+  },
+  {
+    "recordRef": "gleif:529900PG9O7YFYX5UM88",
+    "registry": "gleif",
+    "registryRecordId": "529900PG9O7YFYX5UM88",
+    "subjectKind": "organisation",
+    "name": "Semperit Aktiengesellschaft Holding",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900PG9O7YFYX5UM88"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "112544g"
+      }
+    ],
+    "observedAt": "2025-11-01T15:06:28.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900PG9O7YFYX5UM88"
+  },
+  {
+    "recordRef": "gleif:529900TYYSRJH2VJSP60",
+    "registry": "gleif",
+    "registryRecordId": "529900TYYSRJH2VJSP60",
+    "subjectKind": "organisation",
+    "name": "STRABAG SE",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900TYYSRJH2VJSP60"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "88983h"
+      }
+    ],
+    "observedAt": "2025-11-27T10:10:50.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900TYYSRJH2VJSP60"
+  },
+  {
+    "recordRef": "gleif:5299001QKV44IT3WPL26",
+    "registry": "gleif",
+    "registryRecordId": "5299001QKV44IT3WPL26",
+    "subjectKind": "organisation",
+    "name": "S IMMO AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299001QKV44IT3WPL26"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "58358x"
+      }
+    ],
+    "observedAt": "2025-11-01T06:55:33.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299001QKV44IT3WPL26"
+  },
+  {
+    "recordRef": "gleif:529900ICA8XQYGIKR372",
+    "registry": "gleif",
+    "registryRecordId": "529900ICA8XQYGIKR372",
+    "subjectKind": "organisation",
+    "name": "BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft",
+    "aliases": [
+      "BAWAG P.S.K. Bank fur Arbeit und Wirtschaft und Osterreichische Postsparkasse Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900ICA8XQYGIKR372"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "205340x"
+      }
+    ],
+    "observedAt": "2025-10-29T08:11:17.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900ICA8XQYGIKR372"
+  },
+  {
+    "recordRef": "gleif:529900P4JZBFEVNEAE60",
+    "registry": "gleif",
+    "registryRecordId": "529900P4JZBFEVNEAE60",
+    "subjectKind": "organisation",
+    "name": "EVN AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900P4JZBFEVNEAE60"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "72000h"
+      }
+    ],
+    "observedAt": "2025-11-11T15:01:15.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900P4JZBFEVNEAE60"
+  },
+  {
+    "recordRef": "gleif:549300VZKC61IR5U8G96",
+    "registry": "gleif",
+    "registryRecordId": "549300VZKC61IR5U8G96",
+    "subjectKind": "organisation",
+    "name": "Andritz AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300VZKC61IR5U8G96"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "50935f"
+      }
+    ],
+    "observedAt": "2025-10-23T10:31:33.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300VZKC61IR5U8G96"
+  },
+  {
+    "recordRef": "gleif:5299000HTNHA5ACH9N32",
+    "registry": "gleif",
+    "registryRecordId": "5299000HTNHA5ACH9N32",
+    "subjectKind": "organisation",
+    "name": "Red Bull GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299000HTNHA5ACH9N32"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "56247t"
+      }
+    ],
+    "observedAt": "2025-09-14T12:01:58.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299000HTNHA5ACH9N32"
+  },
+  {
+    "recordRef": "gleif:529900B2JGN28UCEQ136",
+    "registry": "gleif",
+    "registryRecordId": "529900B2JGN28UCEQ136",
+    "subjectKind": "organisation",
+    "name": "Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft",
+    "aliases": [
+      "Autobahnen- und Schnellstrassen-Finanzierungs-Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900B2JGN28UCEQ136"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "92191a"
+      }
+    ],
+    "observedAt": "2026-01-29T07:01:09.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900B2JGN28UCEQ136"
+  },
+  {
+    "recordRef": "gleif:529900ZAFSOBVFCKF263",
+    "registry": "gleif",
+    "registryRecordId": "529900ZAFSOBVFCKF263",
+    "subjectKind": "organisation",
+    "name": "Benteler International Austria GmbH",
+    "aliases": [
+      "Benteler International Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900ZAFSOBVFCKF263"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "319670d"
+      }
+    ],
+    "observedAt": "2026-03-09T13:49:30.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900ZAFSOBVFCKF263"
+  },
+  {
+    "recordRef": "gleif:529900S9YO2JHTIIDG38",
+    "registry": "gleif",
+    "registryRecordId": "529900S9YO2JHTIIDG38",
+    "subjectKind": "organisation",
+    "name": "BAWAG Group AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900S9YO2JHTIIDG38"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "269842b"
+      }
+    ],
+    "observedAt": "2026-08-18T13:08:46.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900S9YO2JHTIIDG38"
+  },
+  {
+    "recordRef": "gleif:5299006UDSEJCTTEJS30",
+    "registry": "gleif",
+    "registryRecordId": "5299006UDSEJCTTEJS30",
+    "subjectKind": "organisation",
+    "name": "VERBUND AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299006UDSEJCTTEJS30"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "76023z"
+      }
+    ],
+    "observedAt": "2025-10-28T16:01:12.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299006UDSEJCTTEJS30"
+  },
+  {
+    "recordRef": "gleif:5299003ATVTQVPTW4735",
+    "registry": "gleif",
+    "registryRecordId": "5299003ATVTQVPTW4735",
+    "subjectKind": "organisation",
+    "name": "BTV Vier Länder Bank AG",
+    "aliases": [
+      "Bank für Tirol und Vorarlberg Aktiengesellschaft",
+      "BTV Vier Lander Bank AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299003ATVTQVPTW4735"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "32942w"
+      }
+    ],
+    "observedAt": "2025-09-11T10:02:06.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299003ATVTQVPTW4735"
+  },
+  {
+    "recordRef": "gleif:529900CPC3UZMJ3DTN75",
+    "registry": "gleif",
+    "registryRecordId": "529900CPC3UZMJ3DTN75",
+    "subjectKind": "organisation",
+    "name": "Wolford Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900CPC3UZMJ3DTN75"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "68605s"
+      }
+    ],
+    "observedAt": "2026-06-26T13:53:49.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900CPC3UZMJ3DTN75"
+  },
+  {
+    "recordRef": "gleif:529900B9P29R8W03IX88",
+    "registry": "gleif",
+    "registryRecordId": "529900B9P29R8W03IX88",
+    "subjectKind": "organisation",
+    "name": "BKS Bank AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900B9P29R8W03IX88"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "91810s"
+      }
+    ],
+    "observedAt": "2026-08-05T13:03:42.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900B9P29R8W03IX88"
+  },
+  {
+    "recordRef": "gleif:549300JCRU23I1THU176",
+    "registry": "gleif",
+    "registryRecordId": "549300JCRU23I1THU176",
+    "subjectKind": "organisation",
+    "name": "VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300JCRU23I1THU176"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "75687f"
+      }
+    ],
+    "observedAt": "2026-08-10T09:29:29.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300JCRU23I1THU176"
+  },
+  {
+    "recordRef": "gleif:5299005VO3GJ18GL5F14",
+    "registry": "gleif",
+    "registryRecordId": "5299005VO3GJ18GL5F14",
+    "subjectKind": "organisation",
+    "name": "AMAG Austria Metall AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299005VO3GJ18GL5F14"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "310593f"
+      }
+    ],
+    "observedAt": "2026-07-29T10:51:12.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299005VO3GJ18GL5F14"
+  },
+  {
+    "recordRef": "gleif:529900VXIFBHO0SW2I31",
+    "registry": "gleif",
+    "registryRecordId": "529900VXIFBHO0SW2I31",
+    "subjectKind": "organisation",
+    "name": "Wienerberger AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900VXIFBHO0SW2I31"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "77676f"
+      }
+    ],
+    "observedAt": "2026-07-10T10:01:13.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900VXIFBHO0SW2I31"
+  },
+  {
+    "recordRef": "gleif:529900IIODYNYAZ2ID26",
+    "registry": "gleif",
+    "registryRecordId": "529900IIODYNYAZ2ID26",
+    "subjectKind": "organisation",
+    "name": "Zumtobel Group AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900IIODYNYAZ2ID26"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "62309g"
+      }
+    ],
+    "observedAt": "2026-06-14T10:07:18.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900IIODYNYAZ2ID26"
+  },
+  {
+    "recordRef": "gleif:QSUV2642CITZRNBXQB64",
+    "registry": "gleif",
+    "registryRecordId": "QSUV2642CITZRNBXQB64",
+    "subjectKind": "organisation",
+    "name": "KOMMUNALKREDIT AUSTRIA AG",
+    "aliases": [
+      "KOMMUNALKREDIT DEPOTBANK AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "QSUV2642CITZRNBXQB64"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "45776 v"
+      }
+    ],
+    "observedAt": "2024-12-16T17:06:10.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/QSUV2642CITZRNBXQB64"
+  },
+  {
+    "recordRef": "gleif:D1HEB8VEU6D9M8ZUXG17",
+    "registry": "gleif",
+    "registryRecordId": "D1HEB8VEU6D9M8ZUXG17",
+    "subjectKind": "organisation",
+    "name": "UniCredit Bank Austria AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "D1HEB8VEU6D9M8ZUXG17"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "150714p"
+      }
+    ],
+    "observedAt": "2026-08-17T14:53:30.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/D1HEB8VEU6D9M8ZUXG17"
+  },
+  {
+    "recordRef": "gleif:I6SS27Q1Q3385V753S50",
+    "registry": "gleif",
+    "registryRecordId": "I6SS27Q1Q3385V753S50",
+    "subjectKind": "organisation",
+    "name": "Raiffeisenlandesbank Oberösterreich Aktiengesellschaft",
+    "aliases": [
+      "Raiffeisenlandesbank Oberosterreich Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "I6SS27Q1Q3385V753S50"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "247579m"
+      }
+    ],
+    "observedAt": "2026-01-22T09:51:33.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/I6SS27Q1Q3385V753S50"
+  },
+  {
+    "recordRef": "gleif:FJDBAXYL0TCMGLPQ4563",
+    "registry": "gleif",
+    "registryRecordId": "FJDBAXYL0TCMGLPQ4563",
+    "subjectKind": "organisation",
+    "name": "immigon portfolioabbau ag i.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "FJDBAXYL0TCMGLPQ4563"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "116476p"
+      }
+    ],
+    "observedAt": "2025-11-11T10:01:51.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/FJDBAXYL0TCMGLPQ4563"
+  },
+  {
+    "recordRef": "gleif:529900P7WHC88U8QF536",
+    "registry": "gleif",
+    "registryRecordId": "529900P7WHC88U8QF536",
+    "subjectKind": "organisation",
+    "name": "Mohrenbrauerei Vertriebs GmbH & Co KG",
+    "aliases": [
+      "Mohrenbrauerei Vertriebs GmbH &Co KG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900P7WHC88U8QF536"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "423612i"
+      }
+    ],
+    "observedAt": "2026-07-13T13:06:53.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900P7WHC88U8QF536"
+  },
+  {
+    "recordRef": "gleif:529900O015GLGIMHV534",
+    "registry": "gleif",
+    "registryRecordId": "529900O015GLGIMHV534",
+    "subjectKind": "organisation",
+    "name": "WIENER STADTWERKE GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900O015GLGIMHV534"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "127783t"
+      }
+    ],
+    "observedAt": "2026-03-03T11:36:53.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900O015GLGIMHV534"
+  },
+  {
+    "recordRef": "gleif:529900JNA1MSNDLJVC46",
+    "registry": "gleif",
+    "registryRecordId": "529900JNA1MSNDLJVC46",
+    "subjectKind": "organisation",
+    "name": "Petro Welt Technologies AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900JNA1MSNDLJVC46"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "69011m"
+      }
+    ],
+    "observedAt": "2024-07-30T23:30:04.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900JNA1MSNDLJVC46"
+  },
+  {
+    "recordRef": "gleif:5299000T02ZLV12N4N79",
+    "registry": "gleif",
+    "registryRecordId": "5299000T02ZLV12N4N79",
+    "subjectKind": "organisation",
+    "name": "HTI High Tech Industries AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299000T02ZLV12N4N79"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "173270i"
+      }
+    ],
+    "observedAt": "2025-10-31T09:29:45.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299000T02ZLV12N4N79"
+  },
+  {
+    "recordRef": "gleif:5299006C0EVA5LAYOR30",
+    "registry": "gleif",
+    "registryRecordId": "5299006C0EVA5LAYOR30",
+    "subjectKind": "organisation",
+    "name": "AGRANA Beteiligungs-Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299006C0EVA5LAYOR30"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "99489h"
+      }
+    ],
+    "observedAt": "2026-05-14T09:03:36.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299006C0EVA5LAYOR30"
+  },
+  {
+    "recordRef": "gleif:529900Q07WXVH9B1PP64",
+    "registry": "gleif",
+    "registryRecordId": "529900Q07WXVH9B1PP64",
+    "subjectKind": "organisation",
+    "name": "Gurktaler Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900Q07WXVH9B1PP64"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "389840w"
+      }
+    ],
+    "observedAt": "2026-06-18T17:03:17.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900Q07WXVH9B1PP64"
+  },
+  {
+    "recordRef": "gleif:391200ZOAI9BOLGC1D37",
+    "registry": "gleif",
+    "registryRecordId": "391200ZOAI9BOLGC1D37",
+    "subjectKind": "organisation",
+    "name": "init innovation in traffic systems SE",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "391200ZOAI9BOLGC1D37"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "de/B8535_HRB727217"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000296",
+        "value": "HRB 727217"
+      }
+    ],
+    "observedAt": "2026-04-15T13:37:22.000Z",
+    "jurisdiction": "DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/391200ZOAI9BOLGC1D37"
+  },
+  {
+    "recordRef": "gleif:3912001MRZQFTGEBQG35",
+    "registry": "gleif",
+    "registryRecordId": "3912001MRZQFTGEBQG35",
+    "subjectKind": "organisation",
+    "name": "Sanochemia Pharmazeutika AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3912001MRZQFTGEBQG35"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "117055s"
+      }
+    ],
+    "observedAt": "2025-08-05T08:46:48.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3912001MRZQFTGEBQG35"
+  },
+  {
+    "recordRef": "gleif:5299004QZXUXX24HAX74",
+    "registry": "gleif",
+    "registryRecordId": "5299004QZXUXX24HAX74",
+    "subjectKind": "organisation",
+    "name": "TIROLER VERSICHERUNG V.a.G.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299004QZXUXX24HAX74"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "32927y"
+      }
+    ],
+    "observedAt": "2025-09-30T09:04:06.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299004QZXUXX24HAX74"
+  },
+  {
+    "recordRef": "gleif:529900DHHGNSNU167B06",
+    "registry": "gleif",
+    "registryRecordId": "529900DHHGNSNU167B06",
+    "subjectKind": "organisation",
+    "name": "KTM AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900DHHGNSNU167B06"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "107673v"
+      }
+    ],
+    "observedAt": "2026-07-27T14:11:49.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900DHHGNSNU167B06"
+  },
+  {
+    "recordRef": "gleif:5299003ICAPV07J0R180",
+    "registry": "gleif",
+    "registryRecordId": "5299003ICAPV07J0R180",
+    "subjectKind": "organisation",
+    "name": "CA Immobilien Anlagen Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299003ICAPV07J0R180"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "75895k"
+      }
+    ],
+    "observedAt": "2025-10-06T09:04:35.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299003ICAPV07J0R180"
+  },
+  {
+    "recordRef": "gleif:549300FQ2ILBH7DJ6I45",
+    "registry": "gleif",
+    "registryRecordId": "549300FQ2ILBH7DJ6I45",
+    "subjectKind": "organisation",
+    "name": "Flughafen Wien Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300FQ2ILBH7DJ6I45"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "42984m"
+      }
+    ],
+    "observedAt": "2026-08-17T07:22:09.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300FQ2ILBH7DJ6I45"
+  },
+  {
+    "recordRef": "gleif:529900OVSOBJNXZACW81",
+    "registry": "gleif",
+    "registryRecordId": "529900OVSOBJNXZACW81",
+    "subjectKind": "organisation",
+    "name": "POLYTEC Holding AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900OVSOBJNXZACW81"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "197646g"
+      }
+    ],
+    "observedAt": "2026-01-17T16:42:06.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900OVSOBJNXZACW81"
+  },
+  {
+    "recordRef": "gleif:52990038OKF8UAD5LA12",
+    "registry": "gleif",
+    "registryRecordId": "52990038OKF8UAD5LA12",
+    "subjectKind": "organisation",
+    "name": "Frauenthal Holding AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "52990038OKF8UAD5LA12"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "83990s"
+      }
+    ],
+    "observedAt": "2026-04-20T16:01:59.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/52990038OKF8UAD5LA12"
+  },
+  {
+    "recordRef": "gleif:5299000DUMZ99SBBX121",
+    "registry": "gleif",
+    "registryRecordId": "5299000DUMZ99SBBX121",
+    "subjectKind": "organisation",
+    "name": "CPI Europe AG",
+    "aliases": [
+      "IMMOFINANZ AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299000DUMZ99SBBX121"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "114425y"
+      }
+    ],
+    "observedAt": "2026-01-06T13:49:51.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299000DUMZ99SBBX121"
+  },
+  {
+    "recordRef": "gleif:529900L5GWPLRF3T6825",
+    "registry": "gleif",
+    "registryRecordId": "529900L5GWPLRF3T6825",
+    "subjectKind": "organisation",
+    "name": "Sparkasse Korneuburg AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900L5GWPLRF3T6825"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "315215b"
+      }
+    ],
+    "observedAt": "2026-07-29T13:28:33.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900L5GWPLRF3T6825"
+  },
+  {
+    "recordRef": "gleif:5299003OJ63JPZGDLT05",
+    "registry": "gleif",
+    "registryRecordId": "5299003OJ63JPZGDLT05",
+    "subjectKind": "organisation",
+    "name": "bauMax AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299003OJ63JPZGDLT05"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "113712z"
+      }
+    ],
+    "observedAt": "2021-07-14T05:31:46.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299003OJ63JPZGDLT05"
+  },
+  {
+    "recordRef": "gleif:529900MVUWACNUTK8467",
+    "registry": "gleif",
+    "registryRecordId": "529900MVUWACNUTK8467",
+    "subjectKind": "organisation",
+    "name": "Österreichische Post Aktiengesellschaft",
+    "aliases": [
+      "Österreichische Post Aktiengesell- schaft",
+      "Osterreichische Post Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900MVUWACNUTK8467"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "180219d"
+      }
+    ],
+    "observedAt": "2026-04-28T12:37:50.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900MVUWACNUTK8467"
+  },
+  {
+    "recordRef": "gleif:529900OOW8ELHOXWZP82",
+    "registry": "gleif",
+    "registryRecordId": "529900OOW8ELHOXWZP82",
+    "subjectKind": "organisation",
+    "name": "UNIQA Insurance Group AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900OOW8ELHOXWZP82"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "92933t"
+      }
+    ],
+    "observedAt": "2026-01-03T23:01:13.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900OOW8ELHOXWZP82"
+  },
+  {
+    "recordRef": "gleif:529900T935OF4RF2OU10",
+    "registry": "gleif",
+    "registryRecordId": "529900T935OF4RF2OU10",
+    "subjectKind": "organisation",
+    "name": "WIEN ENERGIE Vertrieb GmbH & Co KG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900T935OF4RF2OU10"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "225657z"
+      }
+    ],
+    "observedAt": "2026-04-24T12:26:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900T935OF4RF2OU10"
+  },
+  {
+    "recordRef": "gleif:529900MUHCX60Q4RYE54",
+    "registry": "gleif",
+    "registryRecordId": "529900MUHCX60Q4RYE54",
+    "subjectKind": "organisation",
+    "name": "WIEN ENERGIE GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900MUHCX60Q4RYE54"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "215854h"
+      }
+    ],
+    "observedAt": "2025-12-17T09:01:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900MUHCX60Q4RYE54"
+  },
+  {
+    "recordRef": "gleif:529900G8QD457M2SW556",
+    "registry": "gleif",
+    "registryRecordId": "529900G8QD457M2SW556",
+    "subjectKind": "organisation",
+    "name": "Alpen Privatbank Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900G8QD457M2SW556"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "46138a"
+      }
+    ],
+    "observedAt": "2026-03-03T08:27:49.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900G8QD457M2SW556"
+  },
+  {
+    "recordRef": "gleif:5299009RR0HTPV5X4982",
+    "registry": "gleif",
+    "registryRecordId": "5299009RR0HTPV5X4982",
+    "subjectKind": "organisation",
+    "name": "Miba Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299009RR0HTPV5X4982"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "107386x"
+      }
+    ],
+    "observedAt": "2025-12-10T09:04:10.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299009RR0HTPV5X4982"
+  },
+  {
+    "recordRef": "gleif:529900EVOKN4LCCD9321",
+    "registry": "gleif",
+    "registryRecordId": "529900EVOKN4LCCD9321",
+    "subjectKind": "organisation",
+    "name": "AT & S Austria Technologie & Systemtechnik Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900EVOKN4LCCD9321"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "55638x"
+      }
+    ],
+    "observedAt": "2025-10-25T19:01:20.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900EVOKN4LCCD9321"
+  },
+  {
+    "recordRef": "gleif:529900GPOO9ISPD1EE83",
+    "registry": "gleif",
+    "registryRecordId": "529900GPOO9ISPD1EE83",
+    "subjectKind": "organisation",
+    "name": "RAIFFEISENLANDESBANK NIEDERÖSTERREICH-WIEN AG",
+    "aliases": [
+      "RAIFFEISENLANDESBANK NIEDEROSTERREICH-WIEN AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900GPOO9ISPD1EE83"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "203160s"
+      }
+    ],
+    "observedAt": "2025-11-05T07:20:27.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900GPOO9ISPD1EE83"
+  },
+  {
+    "recordRef": "gleif:529900UNUKYZ9HND3309",
+    "registry": "gleif",
+    "registryRecordId": "529900UNUKYZ9HND3309",
+    "subjectKind": "organisation",
+    "name": "Raiffeisen-Landesbank Steiermark AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900UNUKYZ9HND3309"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "264700s"
+      }
+    ],
+    "observedAt": "2025-10-15T16:14:56.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900UNUKYZ9HND3309"
+  },
+  {
+    "recordRef": "gleif:5299002PSXXMVHB26433",
+    "registry": "gleif",
+    "registryRecordId": "5299002PSXXMVHB26433",
+    "subjectKind": "organisation",
+    "name": "Kontron AG",
+    "aliases": [
+      "S&T AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299002PSXXMVHB26433"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "190272m"
+      }
+    ],
+    "observedAt": "2025-12-30T15:01:12.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299002PSXXMVHB26433"
+  },
+  {
+    "recordRef": "gleif:529900P1JL15TFXFZ679",
+    "registry": "gleif",
+    "registryRecordId": "529900P1JL15TFXFZ679",
+    "subjectKind": "organisation",
+    "name": "TIWAG-Tiroler Wasserkraft AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900P1JL15TFXFZ679"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "44133b"
+      }
+    ],
+    "observedAt": "2025-09-04T08:04:42.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900P1JL15TFXFZ679"
+  },
+  {
+    "recordRef": "gleif:549300DVPJYGNF2P7B03",
+    "registry": "gleif",
+    "registryRecordId": "549300DVPJYGNF2P7B03",
+    "subjectKind": "organisation",
+    "name": "Steiermärkische Bank und Sparkassen Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300DVPJYGNF2P7B03"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "34274d"
+      }
+    ],
+    "observedAt": "2026-08-21T12:34:25.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300DVPJYGNF2P7B03"
+  },
+  {
+    "recordRef": "gleif:529900BI5KIGX6YLX375",
+    "registry": "gleif",
+    "registryRecordId": "529900BI5KIGX6YLX375",
+    "subjectKind": "organisation",
+    "name": "Oberösterreichische Landesbank Aktiengesellschaft",
+    "aliases": [
+      "Oberosterreichische Landesbank Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900BI5KIGX6YLX375"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "157656y"
+      }
+    ],
+    "observedAt": "2026-08-24T07:09:42.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900BI5KIGX6YLX375"
+  },
+  {
+    "recordRef": "gleif:5299000OVRLMF858L016",
+    "registry": "gleif",
+    "registryRecordId": "5299000OVRLMF858L016",
+    "subjectKind": "organisation",
+    "name": "Oesterreichische Kontrollbank Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299000OVRLMF858L016"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "85749b"
+      }
+    ],
+    "observedAt": "2026-08-17T13:01:31.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299000OVRLMF858L016"
+  },
+  {
+    "recordRef": "gleif:529900DS2PAVS3K9RV51",
+    "registry": "gleif",
+    "registryRecordId": "529900DS2PAVS3K9RV51",
+    "subjectKind": "organisation",
+    "name": "Rosenbauer International AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900DS2PAVS3K9RV51"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "78543f"
+      }
+    ],
+    "observedAt": "2026-05-07T22:10:34.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900DS2PAVS3K9RV51"
+  },
+  {
+    "recordRef": "gleif:549300ZD9ED8GSG3JW36",
+    "registry": "gleif",
+    "registryRecordId": "549300ZD9ED8GSG3JW36",
+    "subjectKind": "organisation",
+    "name": "SBO AG",
+    "aliases": [
+      "SCHOELLER-BLECKMANN OILFIELD EQUIPMENT Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300ZD9ED8GSG3JW36"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "102999w"
+      }
+    ],
+    "observedAt": "2026-02-23T09:07:27.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300ZD9ED8GSG3JW36"
+  },
+  {
+    "recordRef": "gleif:5493007BWYDPQZLZ0Y27",
+    "registry": "gleif",
+    "registryRecordId": "5493007BWYDPQZLZ0Y27",
+    "subjectKind": "organisation",
+    "name": "HYPO NOE Landesbank für Niederösterreich und Wien AG",
+    "aliases": [
+      "HYPO NOE Landesbank fur Niederosterreich und Wien AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493007BWYDPQZLZ0Y27"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "99073x"
+      }
+    ],
+    "observedAt": "2026-07-15T10:35:34.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493007BWYDPQZLZ0Y27"
+  },
+  {
+    "recordRef": "gleif:549300835ZM8G0BT5C94",
+    "registry": "gleif",
+    "registryRecordId": "549300835ZM8G0BT5C94",
+    "subjectKind": "organisation",
+    "name": "TITAN MACHINERY INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300835ZM8G0BT5C94"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/4471082"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "4471082"
+      }
+    ],
+    "observedAt": "2026-06-30T20:49:10.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300835ZM8G0BT5C94"
+  },
+  {
+    "recordRef": "gleif:0W5QHUNYV4W7GJO62R27",
+    "registry": "gleif",
+    "registryRecordId": "0W5QHUNYV4W7GJO62R27",
+    "subjectKind": "organisation",
+    "name": "HYPO TIROL BANK AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "0W5QHUNYV4W7GJO62R27"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "171611w"
+      }
+    ],
+    "observedAt": "2026-01-15T15:01:50.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/0W5QHUNYV4W7GJO62R27"
+  },
+  {
+    "recordRef": "gleif:PQOH26KWDF7CG10L6792",
+    "registry": "gleif",
+    "registryRecordId": "PQOH26KWDF7CG10L6792",
+    "subjectKind": "organisation",
+    "name": "ERSTE GROUP BANK AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "PQOH26KWDF7CG10L6792"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "33209m"
+      }
+    ],
+    "observedAt": "2025-08-07T15:04:28.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/PQOH26KWDF7CG10L6792"
+  },
+  {
+    "recordRef": "gleif:9ZHRYM6F437SQJ6OUG95",
+    "registry": "gleif",
+    "registryRecordId": "9ZHRYM6F437SQJ6OUG95",
+    "subjectKind": "organisation",
+    "name": "Raiffeisen Bank International AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "9ZHRYM6F437SQJ6OUG95"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "122119m"
+      }
+    ],
+    "observedAt": "2026-01-30T15:01:17.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/9ZHRYM6F437SQJ6OUG95"
+  },
+  {
+    "recordRef": "gleif:RRUN0TCQ1K2JDV7MXO75",
+    "registry": "gleif",
+    "registryRecordId": "RRUN0TCQ1K2JDV7MXO75",
+    "subjectKind": "organisation",
+    "name": "Oberbank AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "RRUN0TCQ1K2JDV7MXO75"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "79063w"
+      }
+    ],
+    "observedAt": "2026-08-05T08:12:49.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/RRUN0TCQ1K2JDV7MXO75"
+  },
+  {
+    "recordRef": "gleif:EXKDMVYZD1BRX1AH7433",
+    "registry": "gleif",
+    "registryRecordId": "EXKDMVYZD1BRX1AH7433",
+    "subjectKind": "organisation",
+    "name": "BUNDESIMMOBILIENGESELLSCHAFT M.B.H.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "EXKDMVYZD1BRX1AH7433"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "34897w"
+      }
+    ],
+    "observedAt": "2025-09-23T13:22:04.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/EXKDMVYZD1BRX1AH7433"
+  },
+  {
+    "recordRef": "gleif:529900RWEEMC830UJI77",
+    "registry": "gleif",
+    "registryRecordId": "529900RWEEMC830UJI77",
+    "subjectKind": "organisation",
+    "name": "LAT Nitrogen Linz GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900RWEEMC830UJI77"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "78587w"
+      }
+    ],
+    "observedAt": "2026-03-05T11:06:30.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900RWEEMC830UJI77"
+  },
+  {
+    "recordRef": "gleif:984500C8BCD3E1A3N484",
+    "registry": "gleif",
+    "registryRecordId": "984500C8BCD3E1A3N484",
+    "subjectKind": "organisation",
+    "name": "Allianz New Europe Holding GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500C8BCD3E1A3N484"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "270043y"
+      }
+    ],
+    "observedAt": "2025-10-09T09:00:26.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500C8BCD3E1A3N484"
+  },
+  {
+    "recordRef": "gleif:254900AL535Q7FCWY921",
+    "registry": "gleif",
+    "registryRecordId": "254900AL535Q7FCWY921",
+    "subjectKind": "organisation",
+    "name": "A PLACE FOR ROVER, INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900AL535Q7FCWY921"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/4998211"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "4998211"
+      }
+    ],
+    "observedAt": "2026-02-02T05:02:16.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900AL535Q7FCWY921"
+  },
+  {
+    "recordRef": "gleif:529900GLT2R8ZHEQ4J80",
+    "registry": "gleif",
+    "registryRecordId": "529900GLT2R8ZHEQ4J80",
+    "subjectKind": "organisation",
+    "name": "D. Swarovski KG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900GLT2R8ZHEQ4J80"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "22150z"
+      }
+    ],
+    "observedAt": "2025-11-30T00:30:05.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900GLT2R8ZHEQ4J80"
+  },
+  {
+    "recordRef": "gleif:549300WCB4ODS02N7778",
+    "registry": "gleif",
+    "registryRecordId": "549300WCB4ODS02N7778",
+    "subjectKind": "organisation",
+    "name": "Stibo DX A/S",
+    "aliases": [
+      "STIBO A/S",
+      "CCI EUROPE A/S"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300WCB4ODS02N7778"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/41915811"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "41915811"
+      }
+    ],
+    "observedAt": "2026-06-22T06:06:00.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300WCB4ODS02N7778"
+  },
+  {
+    "recordRef": "gleif:2138004OE2T6PILDKI08",
+    "registry": "gleif",
+    "registryRecordId": "2138004OE2T6PILDKI08",
+    "subjectKind": "organisation",
+    "name": "MONDI UNCOATED FINE & KRAFT PAPER GMBH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138004OE2T6PILDKI08"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "196403d"
+      }
+    ],
+    "observedAt": "2025-08-21T14:46:18.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138004OE2T6PILDKI08"
+  },
+  {
+    "recordRef": "gleif:529900EXCJW58F50DB19",
+    "registry": "gleif",
+    "registryRecordId": "529900EXCJW58F50DB19",
+    "subjectKind": "organisation",
+    "name": "STOP.SHOP. Rakovnik s.r.o.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900EXCJW58F50DB19"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cz/27619559"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000163",
+        "value": "27619559"
+      }
+    ],
+    "observedAt": "2022-03-29T11:11:55.000Z",
+    "jurisdiction": "CZ",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900EXCJW58F50DB19"
+  },
+  {
+    "recordRef": "gleif:529900GN3B1EN80XF405",
+    "registry": "gleif",
+    "registryRecordId": "529900GN3B1EN80XF405",
+    "subjectKind": "organisation",
+    "name": "Marinomed Biotech AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900GN3B1EN80XF405"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "276819m"
+      }
+    ],
+    "observedAt": "2026-08-06T09:21:35.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900GN3B1EN80XF405"
+  },
+  {
+    "recordRef": "gleif:52990021YEMY298JY727",
+    "registry": "gleif",
+    "registryRecordId": "52990021YEMY298JY727",
+    "subjectKind": "organisation",
+    "name": "FACC AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "52990021YEMY298JY727"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "336290w"
+      }
+    ],
+    "observedAt": "2025-10-08T08:04:11.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/52990021YEMY298JY727"
+  },
+  {
+    "recordRef": "gleif:529900TR0K86WYPDQW04",
+    "registry": "gleif",
+    "registryRecordId": "529900TR0K86WYPDQW04",
+    "subjectKind": "organisation",
+    "name": "LINZ TEXTIL HOLDING AG",
+    "aliases": [
+      "LINZ TEXTIL HOLDING AKTIEN- GESELLSCHAFT"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900TR0K86WYPDQW04"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "75631y"
+      }
+    ],
+    "observedAt": "2026-08-25T08:01:44.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900TR0K86WYPDQW04"
+  },
+  {
+    "recordRef": "gleif:391200WHND7OZEFNNL77",
+    "registry": "gleif",
+    "registryRecordId": "391200WHND7OZEFNNL77",
+    "subjectKind": "organisation",
+    "name": "Fabasoft AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "391200WHND7OZEFNNL77"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "98699x"
+      }
+    ],
+    "observedAt": "2026-08-11T09:28:19.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/391200WHND7OZEFNNL77"
+  },
+  {
+    "recordRef": "gleif:529900IWRUBPP2VNQB05",
+    "registry": "gleif",
+    "registryRecordId": "529900IWRUBPP2VNQB05",
+    "subjectKind": "organisation",
+    "name": "UBM Development AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900IWRUBPP2VNQB05"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "100059x"
+      }
+    ],
+    "observedAt": "2026-06-30T11:01:36.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900IWRUBPP2VNQB05"
+  },
+  {
+    "recordRef": "gleif:315700LCYNUH9SYC0I94",
+    "registry": "gleif",
+    "registryRecordId": "315700LCYNUH9SYC0I94",
+    "subjectKind": "organisation",
+    "name": "Wiener Börse AG",
+    "aliases": [
+      "Wiener Borse AG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700LCYNUH9SYC0I94"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "334022i"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700LCYNUH9SYC0I94"
+  },
+  {
+    "recordRef": "gleif:529900BCMXMP743UUB91",
+    "registry": "gleif",
+    "registryRecordId": "529900BCMXMP743UUB91",
+    "subjectKind": "organisation",
+    "name": "Constantia Flexibles Holding GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900BCMXMP743UUB91"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "425945s"
+      }
+    ],
+    "observedAt": "2026-01-09T14:26:50.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900BCMXMP743UUB91"
+  },
+  {
+    "recordRef": "gleif:529900USHB48TPI3AI79",
+    "registry": "gleif",
+    "registryRecordId": "529900USHB48TPI3AI79",
+    "subjectKind": "organisation",
+    "name": "Raiffeisen Bausparkassen Holding GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900USHB48TPI3AI79"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "197869i"
+      }
+    ],
+    "observedAt": "2025-09-06T08:30:46.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900USHB48TPI3AI79"
+  },
+  {
+    "recordRef": "gleif:529900UKZBMDBDZIXD62",
+    "registry": "gleif",
+    "registryRecordId": "529900UKZBMDBDZIXD62",
+    "subjectKind": "organisation",
+    "name": "Addiko Bank AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900UKZBMDBDZIXD62"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "350921k"
+      }
+    ],
+    "observedAt": "2025-10-06T07:06:34.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900UKZBMDBDZIXD62"
+  },
+  {
+    "recordRef": "gleif:315700PYVMI1K02TNX45",
+    "registry": "gleif",
+    "registryRecordId": "315700PYVMI1K02TNX45",
+    "subjectKind": "organisation",
+    "name": "ERIELL Corporation, s.r.o.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700PYVMI1K02TNX45"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cz/25749811"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000163",
+        "value": "25749811"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "CZ",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700PYVMI1K02TNX45"
+  },
+  {
+    "recordRef": "gleif:529900BSLL2C1GODJ972",
+    "registry": "gleif",
+    "registryRecordId": "529900BSLL2C1GODJ972",
+    "subjectKind": "organisation",
+    "name": "LB CERAMICS Beteiligungs-GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900BSLL2C1GODJ972"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "288365t"
+      }
+    ],
+    "observedAt": "2026-02-18T11:07:20.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900BSLL2C1GODJ972"
+  },
+  {
+    "recordRef": "gleif:5299002NFQKOBT1E8569",
+    "registry": "gleif",
+    "registryRecordId": "5299002NFQKOBT1E8569",
+    "subjectKind": "organisation",
+    "name": "DO & CO Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299002NFQKOBT1E8569"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "156765m"
+      }
+    ],
+    "observedAt": "2026-03-09T11:06:15.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299002NFQKOBT1E8569"
+  },
+  {
+    "recordRef": "gleif:529900DP3STK4JWYLE08",
+    "registry": "gleif",
+    "registryRecordId": "529900DP3STK4JWYLE08",
+    "subjectKind": "organisation",
+    "name": "INTERSPORT AUSTRIA Gesellschaft m.b.H.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900DP3STK4JWYLE08"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "101648h"
+      }
+    ],
+    "observedAt": "2025-12-02T13:15:23.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900DP3STK4JWYLE08"
+  },
+  {
+    "recordRef": "gleif:529900WEWTWSNCK1VE42",
+    "registry": "gleif",
+    "registryRecordId": "529900WEWTWSNCK1VE42",
+    "subjectKind": "organisation",
+    "name": "Raiffeisen Bausparkasse Gesellschaft m.b.H.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900WEWTWSNCK1VE42"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "116309v"
+      }
+    ],
+    "observedAt": "2025-11-26T10:43:59.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900WEWTWSNCK1VE42"
+  },
+  {
+    "recordRef": "gleif:529900IFAV83BX8O1O91",
+    "registry": "gleif",
+    "registryRecordId": "529900IFAV83BX8O1O91",
+    "subjectKind": "organisation",
+    "name": "PALFINGER AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900IFAV83BX8O1O91"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "33393h"
+      }
+    ],
+    "observedAt": "2026-07-09T14:01:59.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900IFAV83BX8O1O91"
+  },
+  {
+    "recordRef": "gleif:5299008NK571QZL7CF97",
+    "registry": "gleif",
+    "registryRecordId": "5299008NK571QZL7CF97",
+    "subjectKind": "organisation",
+    "name": "Centrex Europe Energy & Gas AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299008NK571QZL7CF97"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "230884k"
+      }
+    ],
+    "observedAt": "2025-11-14T11:37:41.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299008NK571QZL7CF97"
+  },
+  {
+    "recordRef": "gleif:529900YA3EOWAR2PF526",
+    "registry": "gleif",
+    "registryRecordId": "529900YA3EOWAR2PF526",
+    "subjectKind": "organisation",
+    "name": "LASSELSBERGER Group GmbH",
+    "aliases": [
+      "LASSELSBERGER GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900YA3EOWAR2PF526"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "81763s"
+      }
+    ],
+    "observedAt": "2025-10-30T09:08:11.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900YA3EOWAR2PF526"
+  },
+  {
+    "recordRef": "gleif:529900RCLERIIXF4QM23",
+    "registry": "gleif",
+    "registryRecordId": "529900RCLERIIXF4QM23",
+    "subjectKind": "organisation",
+    "name": "bank99 AG",
+    "aliases": [
+      "Capital Bank International-GRAWE Group AG",
+      "SANPAOLO Bank (Austria) Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900RCLERIIXF4QM23"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "76198g"
+      }
+    ],
+    "observedAt": "2025-10-29T12:38:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900RCLERIIXF4QM23"
+  },
+  {
+    "recordRef": "gleif:549300HDMOFU6GZHLO71",
+    "registry": "gleif",
+    "registryRecordId": "549300HDMOFU6GZHLO71",
+    "subjectKind": "organisation",
+    "name": "\"PFIZER CORPORATION AUSTRIA\" GESELLSCHAFT M.B.H.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300HDMOFU6GZHLO71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "126844k"
+      }
+    ],
+    "observedAt": "2026-03-19T12:44:05.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300HDMOFU6GZHLO71"
+  },
+  {
+    "recordRef": "gleif:529900ARBU9SBJFNX419",
+    "registry": "gleif",
+    "registryRecordId": "529900ARBU9SBJFNX419",
+    "subjectKind": "organisation",
+    "name": "PORR AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900ARBU9SBJFNX419"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "34853f"
+      }
+    ],
+    "observedAt": "2026-01-14T09:47:40.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900ARBU9SBJFNX419"
+  },
+  {
+    "recordRef": "gleif:529900N7I4DSM16GF659",
+    "registry": "gleif",
+    "registryRecordId": "529900N7I4DSM16GF659",
+    "subjectKind": "organisation",
+    "name": "FREQUENTIS AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900N7I4DSM16GF659"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "72115b"
+      }
+    ],
+    "observedAt": "2025-10-21T09:13:17.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900N7I4DSM16GF659"
+  },
+  {
+    "recordRef": "gleif:529900IZ8TASAYR3A694",
+    "registry": "gleif",
+    "registryRecordId": "529900IZ8TASAYR3A694",
+    "subjectKind": "organisation",
+    "name": "MeSoFa Vermögensverwaltungs AG in Abwicklung",
+    "aliases": [
+      "Sberbank Europe AG",
+      "Sber Vermögensverwaltungs AG in Abwicklung",
+      "MeSoFa Vermogensverwaltungs AG in Abwicklung"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900IZ8TASAYR3A694"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "161285i"
+      }
+    ],
+    "observedAt": "2026-05-05T23:30:16.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900IZ8TASAYR3A694"
+  },
+  {
+    "recordRef": "gleif:529900VVXGAWG6MCDO69",
+    "registry": "gleif",
+    "registryRecordId": "529900VVXGAWG6MCDO69",
+    "subjectKind": "organisation",
+    "name": "Müller GmbH & Co. KG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900VVXGAWG6MCDO69"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "de/B8537_HRA2271"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000355",
+        "value": "HRA 2271"
+      }
+    ],
+    "observedAt": "2021-07-19T05:07:28.000Z",
+    "jurisdiction": "DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900VVXGAWG6MCDO69"
+  },
+  {
+    "recordRef": "gleif:529900WNOWBQF8BIRF63",
+    "registry": "gleif",
+    "registryRecordId": "529900WNOWBQF8BIRF63",
+    "subjectKind": "organisation",
+    "name": "VERBUND Hydro Power GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900WNOWBQF8BIRF63"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "84438z"
+      }
+    ],
+    "observedAt": "2025-11-04T13:15:42.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900WNOWBQF8BIRF63"
+  },
+  {
+    "recordRef": "gleif:529900A9NX1TM65N4176",
+    "registry": "gleif",
+    "registryRecordId": "529900A9NX1TM65N4176",
+    "subjectKind": "organisation",
+    "name": "KELAG-Kärntner Elektrizitäts-Aktiengesellschaft",
+    "aliases": [
+      "KELAG-Karntner Elektrizitats-Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900A9NX1TM65N4176"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "99133i"
+      }
+    ],
+    "observedAt": "2026-09-02T06:07:13.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900A9NX1TM65N4176"
+  },
+  {
+    "recordRef": "gleif:52990001XQ75KF74T578",
+    "registry": "gleif",
+    "registryRecordId": "52990001XQ75KF74T578",
+    "subjectKind": "organisation",
+    "name": "Linde Österreich Holding GmbH",
+    "aliases": [
+      "Linde Osterreich Holding GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "52990001XQ75KF74T578"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "97537m"
+      }
+    ],
+    "observedAt": "2025-09-08T07:07:22.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/52990001XQ75KF74T578"
+  },
+  {
+    "recordRef": "gleif:529900KP61PQU2R79X91",
+    "registry": "gleif",
+    "registryRecordId": "529900KP61PQU2R79X91",
+    "subjectKind": "organisation",
+    "name": "ZIMA Holding AG",
+    "aliases": [
+      "ZIMA BPM Holding GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900KP61PQU2R79X91"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "187275f"
+      }
+    ],
+    "observedAt": "2025-12-17T08:05:30.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900KP61PQU2R79X91"
+  },
+  {
+    "recordRef": "gleif:529900BKFJBI0QRDJH63",
+    "registry": "gleif",
+    "registryRecordId": "529900BKFJBI0QRDJH63",
+    "subjectKind": "organisation",
+    "name": "Lenzing Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900BKFJBI0QRDJH63"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "96499k"
+      }
+    ],
+    "observedAt": "2025-10-03T06:11:05.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900BKFJBI0QRDJH63"
+  },
+  {
+    "recordRef": "gleif:5493000C4S664YT7T556",
+    "registry": "gleif",
+    "registryRecordId": "5493000C4S664YT7T556",
+    "subjectKind": "organisation",
+    "name": "SALZBURG AG FÜR ENERGIE, VERKEHR UND TELEKOMMUNIKATION",
+    "aliases": [
+      "SALZBURG AG FOR ENERGY, TRANSPORT AND TELECOMMUNICATIONS"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493000C4S664YT7T556"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "51350s"
+      }
+    ],
+    "observedAt": "2026-06-16T11:16:45.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493000C4S664YT7T556"
+  },
+  {
+    "recordRef": "gleif:529900ZAXBMQDIWPNB72",
+    "registry": "gleif",
+    "registryRecordId": "529900ZAXBMQDIWPNB72",
+    "subjectKind": "organisation",
+    "name": "voestalpine AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900ZAXBMQDIWPNB72"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "66209t"
+      }
+    ],
+    "observedAt": "2026-07-14T10:40:47.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900ZAXBMQDIWPNB72"
+  },
+  {
+    "recordRef": "gleif:54930060U4XOVED1T359",
+    "registry": "gleif",
+    "registryRecordId": "54930060U4XOVED1T359",
+    "subjectKind": "organisation",
+    "name": "OMV GAS MARKETING & TRADING GMBH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "54930060U4XOVED1T359"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "223028h"
+      }
+    ],
+    "observedAt": "2025-08-28T13:25:37.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/54930060U4XOVED1T359"
+  },
+  {
+    "recordRef": "gleif:529900ENFTO28GS3KF76",
+    "registry": "gleif",
+    "registryRecordId": "529900ENFTO28GS3KF76",
+    "subjectKind": "organisation",
+    "name": "RAG Austria AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900ENFTO28GS3KF76"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "78563i"
+      }
+    ],
+    "observedAt": "2026-06-07T10:08:32.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900ENFTO28GS3KF76"
+  },
+  {
+    "recordRef": "gleif:V0VY22PV9D0HFTF8EI62",
+    "registry": "gleif",
+    "registryRecordId": "V0VY22PV9D0HFTF8EI62",
+    "subjectKind": "organisation",
+    "name": "SPARKASSE OBERÖSTERREICH BANK AG",
+    "aliases": [
+      "ALLGEMEINE SPARKASSE OBERÖSTERREICH BANKAKTIENGESELLSCHAFT"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "V0VY22PV9D0HFTF8EI62"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "78633m"
+      }
+    ],
+    "observedAt": "2026-01-14T13:31:41.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/V0VY22PV9D0HFTF8EI62"
+  },
+  {
+    "recordRef": "gleif:9845000E0478C3CA6574",
+    "registry": "gleif",
+    "registryRecordId": "9845000E0478C3CA6574",
+    "subjectKind": "organisation",
+    "name": "Allianz Holding eins GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "9845000E0478C3CA6574"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "270042x"
+      }
+    ],
+    "observedAt": "2025-10-29T12:29:11.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/9845000E0478C3CA6574"
+  },
+  {
+    "recordRef": "gleif:315700R5X8FEXUI23E08",
+    "registry": "gleif",
+    "registryRecordId": "315700R5X8FEXUI23E08",
+    "subjectKind": "organisation",
+    "name": "HIRSCH Porozell GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700R5X8FEXUI23E08"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "117255i"
+      }
+    ],
+    "observedAt": "2026-05-13T09:02:06.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700R5X8FEXUI23E08"
+  },
+  {
+    "recordRef": "gleif:5493007WZ7IFULIL8G21",
+    "registry": "gleif",
+    "registryRecordId": "5493007WZ7IFULIL8G21",
+    "subjectKind": "organisation",
+    "name": "Bitpanda GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493007WZ7IFULIL8G21"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "423018k"
+      }
+    ],
+    "observedAt": "2026-06-24T17:40:25.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21"
+  },
+  {
+    "recordRef": "gleif:315700VYP58A8RFDEJ89",
+    "registry": "gleif",
+    "registryRecordId": "315700VYP58A8RFDEJ89",
+    "subjectKind": "organisation",
+    "name": "Graf's Naturprodukte GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700VYP58A8RFDEJ89"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "464365s"
+      }
+    ],
+    "observedAt": "2026-04-15T09:59:48.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700VYP58A8RFDEJ89"
+  },
+  {
+    "recordRef": "gleif:315700J000F2KRB16L70",
+    "registry": "gleif",
+    "registryRecordId": "315700J000F2KRB16L70",
+    "subjectKind": "organisation",
+    "name": "CTR Holding Assets GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700J000F2KRB16L70"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "478279b"
+      }
+    ],
+    "observedAt": "2026-04-27T13:26:05.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700J000F2KRB16L70"
+  },
+  {
+    "recordRef": "gleif:3157001D1Q41S786HP36",
+    "registry": "gleif",
+    "registryRecordId": "3157001D1Q41S786HP36",
+    "subjectKind": "organisation",
+    "name": "Estate Kongressorganisations-Gesellschaft m.b.H.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157001D1Q41S786HP36"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "128559h"
+      }
+    ],
+    "observedAt": "2026-04-22T07:43:16.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157001D1Q41S786HP36"
+  },
+  {
+    "recordRef": "gleif:894500GOYJT8J3DRBJ21",
+    "registry": "gleif",
+    "registryRecordId": "894500GOYJT8J3DRBJ21",
+    "subjectKind": "organisation",
+    "name": "PROMERCIUM LTD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "894500GOYJT8J3DRBJ21"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/10372969"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "10372969"
+      }
+    ],
+    "observedAt": "2019-12-28T18:00:10.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/894500GOYJT8J3DRBJ21"
+  },
+  {
+    "recordRef": "gleif:5299009A2CSKJBWWKY81",
+    "registry": "gleif",
+    "registryRecordId": "5299009A2CSKJBWWKY81",
+    "subjectKind": "organisation",
+    "name": "Rath Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299009A2CSKJBWWKY81"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "83203h"
+      }
+    ],
+    "observedAt": "2025-11-26T00:30:04.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299009A2CSKJBWWKY81"
+  },
+  {
+    "recordRef": "gleif:3157002UZO9NWTZZWY15",
+    "registry": "gleif",
+    "registryRecordId": "3157002UZO9NWTZZWY15",
+    "subjectKind": "organisation",
+    "name": "CE Energy Holding AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157002UZO9NWTZZWY15"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "256500g"
+      }
+    ],
+    "observedAt": "2025-10-06T11:17:35.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157002UZO9NWTZZWY15"
+  },
+  {
+    "recordRef": "gleif:52990011AZ7JBRDLY933",
+    "registry": "gleif",
+    "registryRecordId": "52990011AZ7JBRDLY933",
+    "subjectKind": "organisation",
+    "name": "Stadtwerke Bregenz G.m.b.H.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "52990011AZ7JBRDLY933"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "67988h"
+      }
+    ],
+    "observedAt": "2025-10-13T12:02:05.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/52990011AZ7JBRDLY933"
+  },
+  {
+    "recordRef": "gleif:529900W0Z9I9ZNI80T97",
+    "registry": "gleif",
+    "registryRecordId": "529900W0Z9I9ZNI80T97",
+    "subjectKind": "organisation",
+    "name": "SKB Industrieholding GmbH",
+    "aliases": [
+      "SKW-Beteiligungsgesellschaft m.b.H."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900W0Z9I9ZNI80T97"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "129126t"
+      }
+    ],
+    "observedAt": "2025-11-10T11:29:01.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900W0Z9I9ZNI80T97"
+  },
+  {
+    "recordRef": "gleif:315700RHTF1L2ROG7413",
+    "registry": "gleif",
+    "registryRecordId": "315700RHTF1L2ROG7413",
+    "subjectKind": "organisation",
+    "name": "CTR Holding GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700RHTF1L2ROG7413"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "290482f"
+      }
+    ],
+    "observedAt": "2026-05-13T10:31:31.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700RHTF1L2ROG7413"
+  },
+  {
+    "recordRef": "gleif:529900YBFN87N63PFT67",
+    "registry": "gleif",
+    "registryRecordId": "529900YBFN87N63PFT67",
+    "subjectKind": "organisation",
+    "name": "Pierer Industrie AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900YBFN87N63PFT67"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "290677t"
+      }
+    ],
+    "observedAt": "2026-08-07T07:19:07.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900YBFN87N63PFT67"
+  },
+  {
+    "recordRef": "gleif:529900YNJUVNIV42X518",
+    "registry": "gleif",
+    "registryRecordId": "529900YNJUVNIV42X518",
+    "subjectKind": "organisation",
+    "name": "Stora Enso Wood Products GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900YNJUVNIV42X518"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "175295m"
+      }
+    ],
+    "observedAt": "2026-06-02T23:30:21.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900YNJUVNIV42X518"
+  },
+  {
+    "recordRef": "gleif:3157007X67TLCO604P70",
+    "registry": "gleif",
+    "registryRecordId": "3157007X67TLCO604P70",
+    "subjectKind": "organisation",
+    "name": "Drachenwand Immobilien GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157007X67TLCO604P70"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "302995g"
+      }
+    ],
+    "observedAt": "2026-01-20T06:55:00.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157007X67TLCO604P70"
+  },
+  {
+    "recordRef": "gleif:3157001PJWLKXDADPJ92",
+    "registry": "gleif",
+    "registryRecordId": "3157001PJWLKXDADPJ92",
+    "subjectKind": "organisation",
+    "name": "King SP Alpha Beteiligungs GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157001PJWLKXDADPJ92"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "377751t"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157001PJWLKXDADPJ92"
+  },
+  {
+    "recordRef": "gleif:315700ZQ6Y5JR4KAQ888",
+    "registry": "gleif",
+    "registryRecordId": "315700ZQ6Y5JR4KAQ888",
+    "subjectKind": "organisation",
+    "name": "Paytria Unternehmensbeteiligungen GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700ZQ6Y5JR4KAQ888"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "102081w"
+      }
+    ],
+    "observedAt": "2026-05-20T06:46:22.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700ZQ6Y5JR4KAQ888"
+  },
+  {
+    "recordRef": "gleif:315700N4FPT55UTE0H46",
+    "registry": "gleif",
+    "registryRecordId": "315700N4FPT55UTE0H46",
+    "subjectKind": "organisation",
+    "name": "MARINA TOWER Holding GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700N4FPT55UTE0H46"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "352457w"
+      }
+    ],
+    "observedAt": "2026-04-28T13:22:53.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700N4FPT55UTE0H46"
+  },
+  {
+    "recordRef": "gleif:31570002QNI9J05JIP27",
+    "registry": "gleif",
+    "registryRecordId": "31570002QNI9J05JIP27",
+    "subjectKind": "organisation",
+    "name": "MARINA CITY Entwicklungs GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "31570002QNI9J05JIP27"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "184052s"
+      }
+    ],
+    "observedAt": "2026-04-21T12:57:36.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/31570002QNI9J05JIP27"
+  },
+  {
+    "recordRef": "gleif:3157006KNOPFAW4AJ749",
+    "registry": "gleif",
+    "registryRecordId": "3157006KNOPFAW4AJ749",
+    "subjectKind": "organisation",
+    "name": "MARINA TOWER Entwicklungs GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157006KNOPFAW4AJ749"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "FN166059f"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157006KNOPFAW4AJ749"
+  },
+  {
+    "recordRef": "gleif:315700NXSFEZCOBRZX70",
+    "registry": "gleif",
+    "registryRecordId": "315700NXSFEZCOBRZX70",
+    "subjectKind": "organisation",
+    "name": "Österreichische Wertpapierdaten Service GmbH",
+    "aliases": [
+      "Osterreichische Wertpapierdaten Service GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700NXSFEZCOBRZX70"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "145871t"
+      }
+    ],
+    "observedAt": "2026-05-12T14:16:20.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700NXSFEZCOBRZX70"
+  },
+  {
+    "recordRef": "gleif:3157003QCCXANLTFEY78",
+    "registry": "gleif",
+    "registryRecordId": "3157003QCCXANLTFEY78",
+    "subjectKind": "organisation",
+    "name": "VIENNA DC Bauträger GmbH",
+    "aliases": [
+      "VIENNA DC Bautrager GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157003QCCXANLTFEY78"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "FN36364b"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157003QCCXANLTFEY78"
+  },
+  {
+    "recordRef": "gleif:315700NEJWCJWUYIPC34",
+    "registry": "gleif",
+    "registryRecordId": "315700NEJWCJWUYIPC34",
+    "subjectKind": "organisation",
+    "name": "VIENNA DC Tower 2 Liegenschaftsbesitz GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700NEJWCJWUYIPC34"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "270673z"
+      }
+    ],
+    "observedAt": "2025-10-06T11:15:58.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700NEJWCJWUYIPC34"
+  },
+  {
+    "recordRef": "gleif:3157003WGDK6GUSTXV18",
+    "registry": "gleif",
+    "registryRecordId": "3157003WGDK6GUSTXV18",
+    "subjectKind": "organisation",
+    "name": "WED Holding GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157003WGDK6GUSTXV18"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "FN59640g"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157003WGDK6GUSTXV18"
+  },
+  {
+    "recordRef": "gleif:315700KV97VYG9VGF879",
+    "registry": "gleif",
+    "registryRecordId": "315700KV97VYG9VGF879",
+    "subjectKind": "organisation",
+    "name": "VIENNA DC Tower 1 Liegenschaftsbesitz GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700KV97VYG9VGF879"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "FN270669v"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700KV97VYG9VGF879"
+  },
+  {
+    "recordRef": "gleif:529900RML1TKNTGDNX20",
+    "registry": "gleif",
+    "registryRecordId": "529900RML1TKNTGDNX20",
+    "subjectKind": "organisation",
+    "name": "Commerzialbank Mattersburg im Burgenland Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900RML1TKNTGDNX20"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "138734x"
+      }
+    ],
+    "observedAt": "2021-09-03T23:30:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900RML1TKNTGDNX20"
+  },
+  {
+    "recordRef": "gleif:52990097HEM6G3FED703",
+    "registry": "gleif",
+    "registryRecordId": "52990097HEM6G3FED703",
+    "subjectKind": "organisation",
+    "name": "Europäische Reiseversicherung Aktiengesellschaft",
+    "aliases": [
+      "Europaische Reiseversicherung Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "52990097HEM6G3FED703"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "55418y"
+      }
+    ],
+    "observedAt": "2026-07-29T23:30:20.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/52990097HEM6G3FED703"
+  },
+  {
+    "recordRef": "gleif:5299007427MOFSJ54I90",
+    "registry": "gleif",
+    "registryRecordId": "5299007427MOFSJ54I90",
+    "subjectKind": "organisation",
+    "name": "RLB OÖ Sektorholding GmbH",
+    "aliases": [
+      "RLB OO Sektorholding GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299007427MOFSJ54I90"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "318734b"
+      }
+    ],
+    "observedAt": "2026-05-04T13:10:21.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299007427MOFSJ54I90"
+  },
+  {
+    "recordRef": "gleif:315700HC87U78O43RZ08",
+    "registry": "gleif",
+    "registryRecordId": "315700HC87U78O43RZ08",
+    "subjectKind": "organisation",
+    "name": "Schieneninfrastruktur-Dienstleistungs-gesellschaft mbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700HC87U78O43RZ08"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "261480f"
+      }
+    ],
+    "observedAt": "2026-04-20T08:57:50.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700HC87U78O43RZ08"
+  },
+  {
+    "recordRef": "gleif:3157007T8REIZ7GRBN37",
+    "registry": "gleif",
+    "registryRecordId": "3157007T8REIZ7GRBN37",
+    "subjectKind": "organisation",
+    "name": "Rail Test & Research GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157007T8REIZ7GRBN37"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "180629g"
+      }
+    ],
+    "observedAt": "2026-04-20T08:57:08.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157007T8REIZ7GRBN37"
+  },
+  {
+    "recordRef": "gleif:315700BVDS63M7IXH260",
+    "registry": "gleif",
+    "registryRecordId": "315700BVDS63M7IXH260",
+    "subjectKind": "organisation",
+    "name": "WED Wiener Entwicklungsgesellschaft für den Donauraum GmbH",
+    "aliases": [
+      "WED Wiener Entwicklungsgesellschaft fur den Donauraum GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700BVDS63M7IXH260"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "FN42321m"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700BVDS63M7IXH260"
+  },
+  {
+    "recordRef": "gleif:315700W1LSCELE4D3039",
+    "registry": "gleif",
+    "registryRecordId": "315700W1LSCELE4D3039",
+    "subjectKind": "organisation",
+    "name": "WED Donau-City GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700W1LSCELE4D3039"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "FN62142k"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700W1LSCELE4D3039"
+  },
+  {
+    "recordRef": "gleif:315700RL9SV98KC6QD18",
+    "registry": "gleif",
+    "registryRecordId": "315700RL9SV98KC6QD18",
+    "subjectKind": "organisation",
+    "name": "Ostersetzer & Co. Gesellschaft m.b.H.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700RL9SV98KC6QD18"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "201690d"
+      }
+    ],
+    "observedAt": "2026-05-13T10:35:11.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700RL9SV98KC6QD18"
+  },
+  {
+    "recordRef": "gleif:5299003DNH4OIGZ4KG82",
+    "registry": "gleif",
+    "registryRecordId": "5299003DNH4OIGZ4KG82",
+    "subjectKind": "organisation",
+    "name": "TIGAS-Erdgas Tirol GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299003DNH4OIGZ4KG82"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "33547i"
+      }
+    ],
+    "observedAt": "2021-07-14T05:31:46.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299003DNH4OIGZ4KG82"
+  },
+  {
+    "recordRef": "gleif:529900VYY1MRNR59PN57",
+    "registry": "gleif",
+    "registryRecordId": "529900VYY1MRNR59PN57",
+    "subjectKind": "organisation",
+    "name": "Wiener Privatbank SE",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900VYY1MRNR59PN57"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "84890p"
+      }
+    ],
+    "observedAt": "2025-10-17T08:07:55.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900VYY1MRNR59PN57"
+  },
+  {
+    "recordRef": "gleif:529900D4CD6DIB3CI904",
+    "registry": "gleif",
+    "registryRecordId": "529900D4CD6DIB3CI904",
+    "subjectKind": "organisation",
+    "name": "VOLKSBANK WIEN AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900D4CD6DIB3CI904"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "211524s"
+      }
+    ],
+    "observedAt": "2025-11-01T23:01:21.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900D4CD6DIB3CI904"
+  },
+  {
+    "recordRef": "gleif:529900L7QSUOI52K6094",
+    "registry": "gleif",
+    "registryRecordId": "529900L7QSUOI52K6094",
+    "subjectKind": "organisation",
+    "name": "HYPO-INVEST",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900L7QSUOI52K6094"
+      }
+    ],
+    "observedAt": "2025-10-25T10:45:31.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900L7QSUOI52K6094"
+  },
+  {
+    "recordRef": "gleif:5299009UKA32FKL4MA71",
+    "registry": "gleif",
+    "registryRecordId": "5299009UKA32FKL4MA71",
+    "subjectKind": "organisation",
+    "name": "VERBUND Thermal Power GmbH & Co KG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299009UKA32FKL4MA71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "220426g"
+      }
+    ],
+    "observedAt": "2026-04-24T11:59:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299009UKA32FKL4MA71"
+  },
+  {
+    "recordRef": "gleif:529900NNYRQ2ADKGKZ18",
+    "registry": "gleif",
+    "registryRecordId": "529900NNYRQ2ADKGKZ18",
+    "subjectKind": "organisation",
+    "name": "IWP Großhofen GmbH & Co KG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900NNYRQ2ADKGKZ18"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "570804v"
+      }
+    ],
+    "observedAt": "2023-01-20T00:30:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900NNYRQ2ADKGKZ18"
+  },
+  {
+    "recordRef": "gleif:391200K16APYNNEFMO71",
+    "registry": "gleif",
+    "registryRecordId": "391200K16APYNNEFMO71",
+    "subjectKind": "organisation",
+    "name": "stefan eder gmbh",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "391200K16APYNNEFMO71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "252106w"
+      }
+    ],
+    "observedAt": "2025-10-30T13:16:24.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/391200K16APYNNEFMO71"
+  },
+  {
+    "recordRef": "gleif:315700489RZOR6P3UA71",
+    "registry": "gleif",
+    "registryRecordId": "315700489RZOR6P3UA71",
+    "subjectKind": "organisation",
+    "name": "Austin Europe GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700489RZOR6P3UA71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "346585i"
+      }
+    ],
+    "observedAt": "2026-04-09T07:11:26.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700489RZOR6P3UA71"
+  },
+  {
+    "recordRef": "gleif:529900Z75GQ9YRPLFD86",
+    "registry": "gleif",
+    "registryRecordId": "529900Z75GQ9YRPLFD86",
+    "subjectKind": "organisation",
+    "name": "Ökowind Neuhof GmbH",
+    "aliases": [
+      "Okowind Neuhof GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900Z75GQ9YRPLFD86"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "375649a"
+      }
+    ],
+    "observedAt": "2026-06-17T12:30:10.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900Z75GQ9YRPLFD86"
+  },
+  {
+    "recordRef": "gleif:9845004C9565CD669692",
+    "registry": "gleif",
+    "registryRecordId": "9845004C9565CD669692",
+    "subjectKind": "organisation",
+    "name": "HUNERGY AUSTRIA GmbH",
+    "aliases": [
+      "AGT GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "9845004C9565CD669692"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "529713s"
+      }
+    ],
+    "observedAt": "2025-11-07T16:52:47.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/9845004C9565CD669692"
+  },
+  {
+    "recordRef": "gleif:529900O8NIO8DD27AW32",
+    "registry": "gleif",
+    "registryRecordId": "529900O8NIO8DD27AW32",
+    "subjectKind": "organisation",
+    "name": "Albrechtsfeld Windpower GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900O8NIO8DD27AW32"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "341276b"
+      }
+    ],
+    "observedAt": "2026-07-19T10:07:15.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900O8NIO8DD27AW32"
+  },
+  {
+    "recordRef": "gleif:529900HZ66M481PS2B22",
+    "registry": "gleif",
+    "registryRecordId": "529900HZ66M481PS2B22",
+    "subjectKind": "organisation",
+    "name": "MASS Response Service GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900HZ66M481PS2B22"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "219470a"
+      }
+    ],
+    "observedAt": "2026-08-17T10:05:06.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900HZ66M481PS2B22"
+  },
+  {
+    "recordRef": "gleif:984500B14FC50D547084",
+    "registry": "gleif",
+    "registryRecordId": "984500B14FC50D547084",
+    "subjectKind": "organisation",
+    "name": "ALEDA Beratungs- und Beteiligungs-GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500B14FC50D547084"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "324024g"
+      }
+    ],
+    "observedAt": "2022-02-23T15:28:32.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500B14FC50D547084"
+  },
+  {
+    "recordRef": "gleif:875500EC0ZLSS182BB36",
+    "registry": "gleif",
+    "registryRecordId": "875500EC0ZLSS182BB36",
+    "subjectKind": "organisation",
+    "name": "CET Central Energy Trade GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "875500EC0ZLSS182BB36"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "421986v"
+      }
+    ],
+    "observedAt": "2026-04-29T06:58:14.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/875500EC0ZLSS182BB36"
+  },
+  {
+    "recordRef": "gleif:875500P8I3CJBWVA2W80",
+    "registry": "gleif",
+    "registryRecordId": "875500P8I3CJBWVA2W80",
+    "subjectKind": "organisation",
+    "name": "Transalpine Ölleitung in Österreich Gesellschaft m.b.H.",
+    "aliases": [
+      "Transalpine Oelleitung in Oesterreich Gesellschaft m.b.H."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "875500P8I3CJBWVA2W80"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "42101p"
+      }
+    ],
+    "observedAt": "2026-04-29T07:04:45.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/875500P8I3CJBWVA2W80"
+  },
+  {
+    "recordRef": "gleif:391200O6GNNPBN9BMR98",
+    "registry": "gleif",
+    "registryRecordId": "391200O6GNNPBN9BMR98",
+    "subjectKind": "organisation",
+    "name": "ALWADO ENERGY GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "391200O6GNNPBN9BMR98"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "302424t"
+      }
+    ],
+    "observedAt": "2025-12-23T15:56:54.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/391200O6GNNPBN9BMR98"
+  },
+  {
+    "recordRef": "gleif:529900RY75YW6CKETE22",
+    "registry": "gleif",
+    "registryRecordId": "529900RY75YW6CKETE22",
+    "subjectKind": "organisation",
+    "name": "Stadtwerke Bruck an der Mur GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900RY75YW6CKETE22"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "366600v"
+      }
+    ],
+    "observedAt": "2024-09-19T23:30:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900RY75YW6CKETE22"
+  },
+  {
+    "recordRef": "gleif:529900NA1KSGD5J2B704",
+    "registry": "gleif",
+    "registryRecordId": "529900NA1KSGD5J2B704",
+    "subjectKind": "organisation",
+    "name": "Stadtbetriebe Mariazell GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900NA1KSGD5J2B704"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "78401x"
+      }
+    ],
+    "observedAt": "2025-10-07T12:22:51.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900NA1KSGD5J2B704"
+  },
+  {
+    "recordRef": "gleif:529900P207H2AFQ19Q27",
+    "registry": "gleif",
+    "registryRecordId": "529900P207H2AFQ19Q27",
+    "subjectKind": "organisation",
+    "name": "Elektrizitätswerk Mariahof GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900P207H2AFQ19Q27"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "264720w"
+      }
+    ],
+    "observedAt": "2025-07-30T23:30:04.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900P207H2AFQ19Q27"
+  },
+  {
+    "recordRef": "gleif:529900TZWN3Z0B2JWD88",
+    "registry": "gleif",
+    "registryRecordId": "529900TZWN3Z0B2JWD88",
+    "subjectKind": "organisation",
+    "name": "ÖKO Wind Erneuerbare Energieerzeugungs GmbH",
+    "aliases": [
+      "OKO Wind Erneuerbare Energieerzeugungs GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900TZWN3Z0B2JWD88"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "238031x"
+      }
+    ],
+    "observedAt": "2026-08-28T15:21:35.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900TZWN3Z0B2JWD88"
+  },
+  {
+    "recordRef": "gleif:529900HM9YCQHAU2QC84",
+    "registry": "gleif",
+    "registryRecordId": "529900HM9YCQHAU2QC84",
+    "subjectKind": "organisation",
+    "name": "SW Umwelttechnik Stoiser & Wolschner AG",
+    "aliases": [
+      "Stoiser u. Wolschner Betonwerk und Baustoffe GesmbH,Stoiser u. Wolschner Betonwerk und Baustoffe Umwelttechnik GesmbH,Stoiser u. Wolschner GesmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900HM9YCQHAU2QC84"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "109859h"
+      }
+    ],
+    "observedAt": "2026-06-19T13:50:50.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900HM9YCQHAU2QC84"
+  },
+  {
+    "recordRef": "gleif:5299000CRZDXC0OUG623",
+    "registry": "gleif",
+    "registryRecordId": "5299000CRZDXC0OUG623",
+    "subjectKind": "organisation",
+    "name": "GASELA GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299000CRZDXC0OUG623"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "381549b"
+      }
+    ],
+    "observedAt": "2026-06-08T12:02:15.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299000CRZDXC0OUG623"
+  },
+  {
+    "recordRef": "gleif:529900VJQNDBIKCDNM81",
+    "registry": "gleif",
+    "registryRecordId": "529900VJQNDBIKCDNM81",
+    "subjectKind": "organisation",
+    "name": "HALLAG Kommunal GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900VJQNDBIKCDNM81"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "147261k"
+      }
+    ],
+    "observedAt": "2025-08-26T08:07:57.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900VJQNDBIKCDNM81"
+  },
+  {
+    "recordRef": "gleif:529900BIDYJEHXFVZC39",
+    "registry": "gleif",
+    "registryRecordId": "529900BIDYJEHXFVZC39",
+    "subjectKind": "organisation",
+    "name": "Windpark Marchfeld Mitte GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900BIDYJEHXFVZC39"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "389809z"
+      }
+    ],
+    "observedAt": "2025-09-24T23:30:05.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900BIDYJEHXFVZC39"
+  },
+  {
+    "recordRef": "gleif:529900OS660KJC03FA52",
+    "registry": "gleif",
+    "registryRecordId": "529900OS660KJC03FA52",
+    "subjectKind": "organisation",
+    "name": "NRG Services GmbH in Liqu.",
+    "aliases": [
+      "Afrelia Trading GmbH",
+      "NRG Services GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900OS660KJC03FA52"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "387730t"
+      }
+    ],
+    "observedAt": "2023-04-03T14:28:09.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900OS660KJC03FA52"
+  },
+  {
+    "recordRef": "gleif:529900FBE7HL0EDDHC15",
+    "registry": "gleif",
+    "registryRecordId": "529900FBE7HL0EDDHC15",
+    "subjectKind": "organisation",
+    "name": "Wels Strom GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900FBE7HL0EDDHC15"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "221676w"
+      }
+    ],
+    "observedAt": "2026-03-20T13:56:41.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900FBE7HL0EDDHC15"
+  },
+  {
+    "recordRef": "gleif:529900JAHTDYBBMZHY97",
+    "registry": "gleif",
+    "registryRecordId": "529900JAHTDYBBMZHY97",
+    "subjectKind": "organisation",
+    "name": "TAUERNWIND Windkraftanlagen GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900JAHTDYBBMZHY97"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "183321s"
+      }
+    ],
+    "observedAt": "2026-03-04T10:05:01.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900JAHTDYBBMZHY97"
+  },
+  {
+    "recordRef": "gleif:529900KUCGUHP32P3754",
+    "registry": "gleif",
+    "registryRecordId": "529900KUCGUHP32P3754",
+    "subjectKind": "organisation",
+    "name": "VORARLBERGER LANDES-VERSICHERUNG V.a.G.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900KUCGUHP32P3754"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "60016i"
+      }
+    ],
+    "observedAt": "2026-01-26T08:13:11.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900KUCGUHP32P3754"
+  },
+  {
+    "recordRef": "gleif:529900MKHG793BLH2L52",
+    "registry": "gleif",
+    "registryRecordId": "529900MKHG793BLH2L52",
+    "subjectKind": "organisation",
+    "name": "IEL Mön I GmbH",
+    "aliases": [
+      "IEL Mon I GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900MKHG793BLH2L52"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "350411k"
+      }
+    ],
+    "observedAt": "2025-10-27T12:21:35.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900MKHG793BLH2L52"
+  },
+  {
+    "recordRef": "gleif:529900DZOSG73RRCSB07",
+    "registry": "gleif",
+    "registryRecordId": "529900DZOSG73RRCSB07",
+    "subjectKind": "organisation",
+    "name": "IEL Nick I GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900DZOSG73RRCSB07"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "350412m"
+      }
+    ],
+    "observedAt": "2026-03-05T00:30:04.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900DZOSG73RRCSB07"
+  },
+  {
+    "recordRef": "gleif:5493001W31MVFKKLV295",
+    "registry": "gleif",
+    "registryRecordId": "5493001W31MVFKKLV295",
+    "subjectKind": "organisation",
+    "name": "Warimpex Finanz- und Beteiligungs Aktiengesellschaft",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493001W31MVFKKLV295"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "78485w"
+      }
+    ],
+    "observedAt": "2026-03-22T15:01:41.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493001W31MVFKKLV295"
+  },
+  {
+    "recordRef": "gleif:529900U2XZG2830U7007",
+    "registry": "gleif",
+    "registryRecordId": "529900U2XZG2830U7007",
+    "subjectKind": "organisation",
+    "name": "Stadtwerke Kapfenberg GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900U2XZG2830U7007"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "208959v"
+      }
+    ],
+    "observedAt": "2026-01-13T14:01:07.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900U2XZG2830U7007"
+  },
+  {
+    "recordRef": "gleif:529900VURYXPK1ZQ6S10",
+    "registry": "gleif",
+    "registryRecordId": "529900VURYXPK1ZQ6S10",
+    "subjectKind": "organisation",
+    "name": "Energie Graz GmbH & Co KG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900VURYXPK1ZQ6S10"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "234711p"
+      }
+    ],
+    "observedAt": "2024-08-15T08:23:57.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900VURYXPK1ZQ6S10"
+  },
+  {
+    "recordRef": "gleif:5299000E86AAQXE5G212",
+    "registry": "gleif",
+    "registryRecordId": "5299000E86AAQXE5G212",
+    "subjectKind": "organisation",
+    "name": "W. Hamburger GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299000E86AAQXE5G212"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "174465t"
+      }
+    ],
+    "observedAt": "2026-02-10T14:52:32.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299000E86AAQXE5G212"
+  },
+  {
+    "recordRef": "gleif:529900QF6QY66QULSI15",
+    "registry": "gleif",
+    "registryRecordId": "529900QF6QY66QULSI15",
+    "subjectKind": "organisation",
+    "name": "CCP Austria Abwicklungsstelle für Börsengeschäfte GmbH",
+    "aliases": [
+      "CCP Austria Abwicklungsstelle fur Borsengeschafte GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900QF6QY66QULSI15"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "251990z"
+      }
+    ],
+    "observedAt": "2026-07-23T22:08:59.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900QF6QY66QULSI15"
+  },
+  {
+    "recordRef": "gleif:529900UUANUJ60MNMX97",
+    "registry": "gleif",
+    "registryRecordId": "529900UUANUJ60MNMX97",
+    "subjectKind": "organisation",
+    "name": "ÖBB-Infrastruktur Aktiengesellschaft",
+    "aliases": [
+      "OBB-Infrastruktur Aktiengesellschaft"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900UUANUJ60MNMX97"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "71396w"
+      }
+    ],
+    "observedAt": "2025-11-24T14:02:03.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900UUANUJ60MNMX97"
+  },
+  {
+    "recordRef": "gleif:5299008HV6OAR885JC40",
+    "registry": "gleif",
+    "registryRecordId": "5299008HV6OAR885JC40",
+    "subjectKind": "organisation",
+    "name": "eww ag",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299008HV6OAR885JC40"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "102455w"
+      }
+    ],
+    "observedAt": "2025-11-22T11:34:39.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299008HV6OAR885JC40"
+  },
+  {
+    "recordRef": "gleif:2138007KLN4GYUX57M02",
+    "registry": "gleif",
+    "registryRecordId": "2138007KLN4GYUX57M02",
+    "subjectKind": "organisation",
+    "name": "SHELL AUSTRIA GESELLSCHAFT M.B.H.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138007KLN4GYUX57M02"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "92517f"
+      }
+    ],
+    "observedAt": "2025-11-03T08:07:05.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138007KLN4GYUX57M02"
+  },
+  {
+    "recordRef": "gleif:549300L4E7Q8VHKTWM29",
+    "registry": "gleif",
+    "registryRecordId": "549300L4E7Q8VHKTWM29",
+    "subjectKind": "organisation",
+    "name": "OMV DOWNSTREAM GMBH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300L4E7Q8VHKTWM29"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "185462p"
+      }
+    ],
+    "observedAt": "2025-08-28T13:14:54.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300L4E7Q8VHKTWM29"
+  },
+  {
+    "recordRef": "gleif:5299000BULT5GWLSRA49",
+    "registry": "gleif",
+    "registryRecordId": "5299000BULT5GWLSRA49",
+    "subjectKind": "organisation",
+    "name": "LINZ STROM GAS WÄRME GmbH für Energiedienstleistungen und Telekommunikation",
+    "aliases": [
+      "LINZ STROM GAS WARME GmbH fur Energiedienstleistungen und Telekommunikation"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299000BULT5GWLSRA49"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "199533g"
+      }
+    ],
+    "observedAt": "2025-10-31T16:06:21.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299000BULT5GWLSRA49"
+  },
+  {
+    "recordRef": "gleif:5299004X7X8MPXMRG702",
+    "registry": "gleif",
+    "registryRecordId": "5299004X7X8MPXMRG702",
+    "subjectKind": "organisation",
+    "name": "Axpo Austria GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299004X7X8MPXMRG702"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "291139x"
+      }
+    ],
+    "observedAt": "2025-09-15T15:50:39.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299004X7X8MPXMRG702"
+  },
+  {
+    "recordRef": "gleif:529900RTYBY8TPW9U991",
+    "registry": "gleif",
+    "registryRecordId": "529900RTYBY8TPW9U991",
+    "subjectKind": "organisation",
+    "name": "VERBUND Energy4Business GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900RTYBY8TPW9U991"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "173735v"
+      }
+    ],
+    "observedAt": "2025-11-04T13:09:38.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900RTYBY8TPW9U991"
+  },
+  {
+    "recordRef": "gleif:529900KLV8XU0GKM1E19",
+    "registry": "gleif",
+    "registryRecordId": "529900KLV8XU0GKM1E19",
+    "subjectKind": "organisation",
+    "name": "Energie Steiermark Business GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900KLV8XU0GKM1E19"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "386795t"
+      }
+    ],
+    "observedAt": "2026-09-02T12:41:27.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900KLV8XU0GKM1E19"
+  },
+  {
+    "recordRef": "gleif:529900D90WJ3WBXB1R67",
+    "registry": "gleif",
+    "registryRecordId": "529900D90WJ3WBXB1R67",
+    "subjectKind": "organisation",
+    "name": "Energie AG Oberösterreich Trading GmbH",
+    "aliases": [
+      "Energie AG Oberosterreich Trading GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900D90WJ3WBXB1R67"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "282822s"
+      }
+    ],
+    "observedAt": "2026-09-01T07:07:28.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900D90WJ3WBXB1R67"
+  },
+  {
+    "recordRef": "gleif:529900WM5HNVJXNZOZ29",
+    "registry": "gleif",
+    "registryRecordId": "529900WM5HNVJXNZOZ29",
+    "subjectKind": "organisation",
+    "name": "Enery Power SLAVIC Portfolio GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900WM5HNVJXNZOZ29"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "649013g"
+      }
+    ],
+    "observedAt": "2026-05-31T00:10:17.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900WM5HNVJXNZOZ29"
+  },
+  {
+    "recordRef": "gleif:529900KTP3Y86BZKY754",
+    "registry": "gleif",
+    "registryRecordId": "529900KTP3Y86BZKY754",
+    "subjectKind": "organisation",
+    "name": "DADAT Krypto GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900KTP3Y86BZKY754"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "656642a"
+      }
+    ],
+    "observedAt": "2026-05-18T12:07:57.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900KTP3Y86BZKY754"
+  },
+  {
+    "recordRef": "gleif:529900B4G0EGK7Z9KT45",
+    "registry": "gleif",
+    "registryRecordId": "529900B4G0EGK7Z9KT45",
+    "subjectKind": "organisation",
+    "name": "KuCoin EU Exchange GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900B4G0EGK7Z9KT45"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "641084x"
+      }
+    ],
+    "observedAt": "2026-03-09T08:20:36.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900B4G0EGK7Z9KT45"
+  },
+  {
+    "recordRef": "gleif:529900LZM6X3GBFNLG10",
+    "registry": "gleif",
+    "registryRecordId": "529900LZM6X3GBFNLG10",
+    "subjectKind": "organisation",
+    "name": "Cryptonow GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900LZM6X3GBFNLG10"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "619454m"
+      }
+    ],
+    "observedAt": "2026-03-06T00:30:04.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900LZM6X3GBFNLG10"
+  },
+  {
+    "recordRef": "gleif:529900BSNR4XPZ6WBK17",
+    "registry": "gleif",
+    "registryRecordId": "529900BSNR4XPZ6WBK17",
+    "subjectKind": "organisation",
+    "name": "Coinfinity GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900BSNR4XPZ6WBK17"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "415803a"
+      }
+    ],
+    "observedAt": "2025-12-20T23:08:53.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900BSNR4XPZ6WBK17"
+  },
+  {
+    "recordRef": "gleif:5299005V5GBSN2A4C303",
+    "registry": "gleif",
+    "registryRecordId": "5299005V5GBSN2A4C303",
+    "subjectKind": "organisation",
+    "name": "Bybit EU GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299005V5GBSN2A4C303"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "636180i"
+      }
+    ],
+    "observedAt": "2025-11-29T11:04:06.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299005V5GBSN2A4C303"
+  },
+  {
+    "recordRef": "gleif:5299005I4LYIFW7GKB54",
+    "registry": "gleif",
+    "registryRecordId": "5299005I4LYIFW7GKB54",
+    "subjectKind": "organisation",
+    "name": "AMINA (Austria) AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299005I4LYIFW7GKB54"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "631729p"
+      }
+    ],
+    "observedAt": "2025-11-17T11:07:04.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299005I4LYIFW7GKB54"
+  },
+  {
+    "recordRef": "gleif:529900HMYYJR2NHVZ124",
+    "registry": "gleif",
+    "registryRecordId": "529900HMYYJR2NHVZ124",
+    "subjectKind": "organisation",
+    "name": "FIOR Digital GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900HMYYJR2NHVZ124"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "556789h"
+      }
+    ],
+    "observedAt": "2026-07-14T13:03:40.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900HMYYJR2NHVZ124"
+  },
+  {
+    "recordRef": "gleif:98450078752B9363LC69",
+    "registry": "gleif",
+    "registryRecordId": "98450078752B9363LC69",
+    "subjectKind": "organisation",
+    "name": "H & S Heilig und Schubert Software AG",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "98450078752B9363LC69"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "121836x"
+      }
+    ],
+    "observedAt": "2026-03-07T10:56:21.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/98450078752B9363LC69"
+  },
+  {
+    "recordRef": "gleif:984500RED989EB8O9589",
+    "registry": "gleif",
+    "registryRecordId": "984500RED989EB8O9589",
+    "subjectKind": "organisation",
+    "name": "Quintik Capital GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500RED989EB8O9589"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "568937y"
+      }
+    ],
+    "observedAt": "2026-02-08T11:55:58.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500RED989EB8O9589"
+  },
+  {
+    "recordRef": "gleif:984500ELF63A64DF0C48",
+    "registry": "gleif",
+    "registryRecordId": "984500ELF63A64DF0C48",
+    "subjectKind": "organisation",
+    "name": "Enery Power Holding GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500ELF63A64DF0C48"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "524697p"
+      }
+    ],
+    "observedAt": "2026-02-19T11:39:58.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500ELF63A64DF0C48"
+  },
+  {
+    "recordRef": "gleif:98450070974DBB10D008",
+    "registry": "gleif",
+    "registryRecordId": "98450070974DBB10D008",
+    "subjectKind": "organisation",
+    "name": "KÖRBER MARKETING EXPERTS GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "98450070974DBB10D008"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "572366s"
+      }
+    ],
+    "observedAt": "2026-01-20T14:14:50.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/98450070974DBB10D008"
+  },
+  {
+    "recordRef": "gleif:98450076E8FE3D5EEE44",
+    "registry": "gleif",
+    "registryRecordId": "98450076E8FE3D5EEE44",
+    "subjectKind": "organisation",
+    "name": "Wukonig & Partner OG",
+    "aliases": [
+      "Wukonig & Partner OEG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "98450076E8FE3D5EEE44"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "179163a"
+      }
+    ],
+    "observedAt": "2026-07-10T12:03:46.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/98450076E8FE3D5EEE44"
+  },
+  {
+    "recordRef": "gleif:529900NZAYGU5WA3NU90",
+    "registry": "gleif",
+    "registryRecordId": "529900NZAYGU5WA3NU90",
+    "subjectKind": "organisation",
+    "name": "Ringer GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900NZAYGU5WA3NU90"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "103607p"
+      }
+    ],
+    "observedAt": "2025-11-17T09:15:51.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900NZAYGU5WA3NU90"
+  },
+  {
+    "recordRef": "gleif:9845008D7BB6AA5E8114",
+    "registry": "gleif",
+    "registryRecordId": "9845008D7BB6AA5E8114",
+    "subjectKind": "organisation",
+    "name": "Enery Development GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "9845008D7BB6AA5E8114"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "515242i"
+      }
+    ],
+    "observedAt": "2026-01-12T16:39:36.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/9845008D7BB6AA5E8114"
+  },
+  {
+    "recordRef": "gleif:529900Z4E2C4QUXGOT85",
+    "registry": "gleif",
+    "registryRecordId": "529900Z4E2C4QUXGOT85",
+    "subjectKind": "organisation",
+    "name": "WP Components GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900Z4E2C4QUXGOT85"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "105014h"
+      }
+    ],
+    "observedAt": "2025-10-18T11:27:52.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900Z4E2C4QUXGOT85"
+  },
+  {
+    "recordRef": "gleif:529900B02O4F88JE1V62",
+    "registry": "gleif",
+    "registryRecordId": "529900B02O4F88JE1V62",
+    "subjectKind": "organisation",
+    "name": "biz.talk Language Consulting Grill KG",
+    "aliases": [
+      "biz.talk Language Consulting Grill & Reis OG"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900B02O4F88JE1V62"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "173362w"
+      }
+    ],
+    "observedAt": "2026-07-24T08:11:49.000Z",
+    "jurisdiction": "AT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900B02O4F88JE1V62"
+  },
+  {
+    "recordRef": "gleif:529900E2K8U7VAKS1L04",
+    "registry": "gleif",
+    "registryRecordId": "529900E2K8U7VAKS1L04",
+    "subjectKind": "organisation",
+    "name": "Knünz GmbH",
+    "aliases": [
+      "Knunz GmbH"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900E2K8U7VAKS1L04"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "72711d"
+      }
+    ],
+    "observedAt": "2026-07-02T15:04:01.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900E2K8U7VAKS1L04"
+  },
+  {
+    "recordRef": "gleif:5299005JRMPUVB0ODL06",
+    "registry": "gleif",
+    "registryRecordId": "5299005JRMPUVB0ODL06",
+    "subjectKind": "organisation",
+    "name": "Pierer Konzerngesellschaft mbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299005JRMPUVB0ODL06"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "134766k"
+      }
+    ],
+    "observedAt": "2026-05-26T12:03:45.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299005JRMPUVB0ODL06"
+  },
+  {
+    "recordRef": "gleif:5299009OFU0Y3HC73N71",
+    "registry": "gleif",
+    "registryRecordId": "5299009OFU0Y3HC73N71",
+    "subjectKind": "organisation",
+    "name": "KTM Sportmotorcycle GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299009OFU0Y3HC73N71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "295902a"
+      }
+    ],
+    "observedAt": "2026-07-28T12:19:02.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299009OFU0Y3HC73N71"
+  },
+  {
+    "recordRef": "gleif:529900M4MXT3MWDG8Y02",
+    "registry": "gleif",
+    "registryRecordId": "529900M4MXT3MWDG8Y02",
+    "subjectKind": "organisation",
+    "name": "XARION Laser Acoustics GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900M4MXT3MWDG8Y02"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "385649g"
+      }
+    ],
+    "observedAt": "2026-05-18T08:11:42.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900M4MXT3MWDG8Y02"
+  },
+  {
+    "recordRef": "gleif:529900Q999QJ65UBHU24",
+    "registry": "gleif",
+    "registryRecordId": "529900Q999QJ65UBHU24",
+    "subjectKind": "organisation",
+    "name": "MAHLE Filtersysteme Austria GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900Q999QJ65UBHU24"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "96970d"
+      }
+    ],
+    "observedAt": "2026-07-06T08:46:54.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900Q999QJ65UBHU24"
+  },
+  {
+    "recordRef": "gleif:529900NMLVQDD7CC6T03",
+    "registry": "gleif",
+    "registryRecordId": "529900NMLVQDD7CC6T03",
+    "subjectKind": "organisation",
+    "name": "MAHLE Holding Austria GmbH",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900NMLVQDD7CC6T03"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000017",
+        "value": "96839k"
+      }
+    ],
+    "observedAt": "2026-07-06T08:41:37.000Z",
+    "jurisdiction": "AT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:52.986Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900NMLVQDD7CC6T03"
+  }
+]

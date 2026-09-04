@@ -1,0 +1,189 @@
+[
+  {
+    "recordRef": "gleif:549300DSTCVDE3FXGX20",
+    "registry": "gleif",
+    "registryRecordId": "549300DSTCVDE3FXGX20",
+    "subjectKind": "organisation",
+    "name": "Speedy Global Holdings Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300DSTCVDE3FXGX20"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "bs/161161B"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000020",
+        "value": "161161B"
+      }
+    ],
+    "observedAt": "2023-10-22T13:30:04.000Z",
+    "jurisdiction": "BS",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:50.248Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300DSTCVDE3FXGX20"
+  },
+  {
+    "recordRef": "gleif:213800XJIPNDVKXMOC11",
+    "registry": "gleif",
+    "registryRecordId": "213800XJIPNDVKXMOC11",
+    "subjectKind": "organisation",
+    "name": "HIPGNOSIS SONGS FUND LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800XJIPNDVKXMOC11"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000383",
+        "value": "65158"
+      }
+    ],
+    "observedAt": "2025-06-20T00:05:13.000Z",
+    "jurisdiction": "GG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:50.248Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800XJIPNDVKXMOC11"
+  },
+  {
+    "recordRef": "gleif:213800IXRTBCLHNTUM08",
+    "registry": "gleif",
+    "registryRecordId": "213800IXRTBCLHNTUM08",
+    "subjectKind": "organisation",
+    "name": "BUTEO RAPAX LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800IXRTBCLHNTUM08"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000383",
+        "value": "53433"
+      }
+    ],
+    "observedAt": "2025-12-02T10:09:37.000Z",
+    "jurisdiction": "GG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:50.248Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800IXRTBCLHNTUM08"
+  },
+  {
+    "recordRef": "gleif:213800X8MBI5VQITLW60",
+    "registry": "gleif",
+    "registryRecordId": "213800X8MBI5VQITLW60",
+    "subjectKind": "organisation",
+    "name": "SYNCONA LIMITED",
+    "aliases": [
+      "BACIT LIMITED",
+      "BATTLE AGAINST CANCER INVESTMENT TRUST LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800X8MBI5VQITLW60"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000383",
+        "value": "55514"
+      }
+    ],
+    "observedAt": "2025-11-27T09:53:25.000Z",
+    "jurisdiction": "GG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:50.248Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800X8MBI5VQITLW60"
+  },
+  {
+    "recordRef": "gleif:21380061FGAJ8K7ZIK45",
+    "registry": "gleif",
+    "registryRecordId": "21380061FGAJ8K7ZIK45",
+    "subjectKind": "organisation",
+    "name": "MACQUARIE EUROPEAN INFRASTRUCTURE FUND 4 LP",
+    "aliases": [
+      "MEIF 4 LP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "21380061FGAJ8K7ZIK45"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/LP014601"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "LP014601"
+      }
+    ],
+    "observedAt": "2025-12-31T10:08:31.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:50.248Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/21380061FGAJ8K7ZIK45"
+  },
+  {
+    "recordRef": "gleif:213800D39CS7T5FTC763",
+    "registry": "gleif",
+    "registryRecordId": "213800D39CS7T5FTC763",
+    "subjectKind": "organisation",
+    "name": "MACQUARIE EUROPEAN INFRASTRUCTURE FUND II",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800D39CS7T5FTC763"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/LP011265"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "LP011265"
+      }
+    ],
+    "observedAt": "2025-07-10T13:25:56.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:50.248Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800D39CS7T5FTC763"
+  },
+  {
+    "recordRef": "gleif:K4RPB4GFEGVL1V93O265",
+    "registry": "gleif",
+    "registryRecordId": "K4RPB4GFEGVL1V93O265",
+    "subjectKind": "organisation",
+    "name": "COMPASS OFFSHORE HTV PCC LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "K4RPB4GFEGVL1V93O265"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000886",
+        "value": "1010469"
+      }
+    ],
+    "observedAt": "2026-01-26T16:57:25.000Z",
+    "jurisdiction": "GG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:50.248Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/K4RPB4GFEGVL1V93O265"
+  }
+]

@@ -1,0 +1,2896 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12664045"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GJOSVHI055QR67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LHV Pank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16984141"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500J4EH6RDEBCDT19"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q16984141"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28966957"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JD2L89GGG7LF07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luminor Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337992"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PUVMJEJEADNG35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siseinfo"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Siseinfo OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337993"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PYYZR1X9GKWL75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sifu"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Sifu OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337995"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700QJW2VOAGQPUH04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Solaris"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Solaris OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Q05X878EXS7S73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Skandok"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Skandok"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337997"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Q19GFS220FYJ58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALDIREKT"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "osaühing ALDIREKT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337999"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700R5T2B6T3V1D373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nobe Juku"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Nobe Juku OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338000"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700SNW8UXJSASSD13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osaühing Essende"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Osaühing Essende"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338001"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UQEX5QSQ1XAS12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kaldernik"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Kaldernik OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338003"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700VC1QJ8PTPRFA85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grotta Azzurra"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Grotta Azzurra OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338004"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WFLY9T5S9U2198"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kerinax"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Kerinax OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338005"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WNFB16PQT0YM92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Minu Säästud"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Minu Säästud OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338006"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WXQ405YK87VD66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Argentia Osaühing"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Argentia Osaühing"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338008"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000APWNCHG307995"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "D&HV Investments"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "D&HV Investments OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338009"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570004GFYXTUG9LR70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Megaton Capital"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Megaton Capital OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700479M7EJN6FHU69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Galdarix"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Galdarix OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338011"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007RQJNUK2820Q20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strauch Holding"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Strauch Holding OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338013"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007X7ZJ0BZRDC255"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Alusprojekt"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Alusprojekt"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338014"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009OPXS77G913U06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMAVARA"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OMAVARA OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009O0GV0NB0GH533"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TRU BALTICA"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "TRU BALTICA OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130482276"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZFEZ30LGM77469"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q130482276"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558242"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AGPFY93XDF9950"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ebisu Media"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558246"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AVRLBL3PZKZL37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Algatus Finance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558313"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700IJO6O41A4L8M90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Passive Active"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558360"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OK1BNHSWIME538"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Caribalt Alliance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558379"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RBZQVOXTKBHT45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wolf Tactical OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558406"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700USW8Z5H2HPZZ60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Net Zero"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138574676"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002XHSBSWEPAE072"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Terminal"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "AS Terminal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429668"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900M0D5QVXUEB8Z70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Platano Eesti OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114887008"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500560TCAE368FC32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aquaphor"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Aquaphor International OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138586835"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008L2W9HFE9UTS74"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lidl Eesti"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Lidl Eesti OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138586835"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008L2W9HFE9UTS74"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lidl Eesti"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Lidl Eesti OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q278905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100JG0TYMCVEPMU59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A. Le Coq"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q278905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100JG0TYMCVEPMU59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A. Le Coq"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q622824"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000I3W254YEMG75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltika Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980219"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25490093MDYISEP1Y539"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Port of Tallinn"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980219"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25490093MDYISEP1Y539"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Port of Tallinn"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1295560"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005044RTLQ5RZU70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eesti Energia"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Eesti Energia Aktsiaselts"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1536909"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QRMWAKKR3L9W75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tallink"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Aktsiaselts Tallink Grupp"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1536909"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QRMWAKKR3L9W75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tallink"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Aktsiaselts Tallink Grupp"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1976140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009GM96I0NYKWS93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harju Elekter"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Harju Elekter"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1976140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009GM96I0NYKWS93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harju Elekter"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Harju Elekter"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2205755"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ND1MQ8SNNYMJ22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEB Pank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7689088"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RI07ES08Z1EI40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tavid AS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11117373"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000D8HSLK854I81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nordecon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12005126"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000M6TVS2X0KWC97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tallinna Vesi"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12376139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100X55SS49BMVCI25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tallinna Farmaatsiatehase AS"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Tallinna Farmaatsiatehase Aktsiaselts"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12664045"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GJOSVHI055QR67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LHV Pank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12664045"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GJOSVHI055QR67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LHV Pank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16984141"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500J4EH6RDEBCDT19"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q16984141"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28966957"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JD2L89GGG7LF07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luminor Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55285976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100EAUB2D0VTK1R43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enefit"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Enefit OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55673245"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900785KF1K0EEW940"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tallinna Kaubamaja Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65256025"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JG015JC10LED24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LHV Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AF9O7BS6Q3E979"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Paradigm Ventures"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Paradigm Ventures"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AF9O7BS6Q3E979"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Paradigm Ventures"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Paradigm Ventures"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337965"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AJO46RQVUJMM87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Qlikiq"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Qlikiq OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337965"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AJO46RQVUJMM87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Qlikiq"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Qlikiq OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337966"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ALFHQ2XGLPNC27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teeneks"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Teeneks OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337966"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ALFHQ2XGLPNC27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teeneks"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Teeneks OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337968"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700A2U488WC3K5S49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Accio Capital"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Accio Capital OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337968"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700A2U488WC3K5S49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Accio Capital"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Accio Capital OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337969"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BEZIE8WW1YXV98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lõunaranna Investeeringud OÜ"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Lõunaranna Investeeringud OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337969"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BEZIE8WW1YXV98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lõunaranna Investeeringud OÜ"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Lõunaranna Investeeringud OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700B6LMR9X8UFZM53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stimonter"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Stimonter OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700B6LMR9X8UFZM53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stimonter"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Stimonter OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337972"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700B9QBCF8CPHJZ11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umika Seiza"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Umika Seiza OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337972"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700B9QBCF8CPHJZ11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umika Seiza"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Umika Seiza OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337973"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CGBDDWC3N10O31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "osaühing Marelarn"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "osaühing Marelarn"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337973"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CGBDDWC3N10O31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "osaühing Marelarn"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "osaühing Marelarn"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337974"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DGEPKM77CR4N72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Primabel"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Primabel OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337974"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DGEPKM77CR4N72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Primabel"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Primabel OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DHVITUBUM0T482"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Interfiber OÜ"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Interfiber OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DHVITUBUM0T482"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Interfiber OÜ"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Interfiber OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337977"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700D63NOH43N5DR65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osaühing Tiiu Murd Raamatupidamisteenused"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Osaühing Tiiu Murd Raamatupidamisteenused"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337977"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700D63NOH43N5DR65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osaühing Tiiu Murd Raamatupidamisteenused"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Osaühing Tiiu Murd Raamatupidamisteenused"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337978"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ELH74N1YRDY327"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Plaatina Invest OÜ"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Plaatina Invest OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337978"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ELH74N1YRDY327"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Plaatina Invest OÜ"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Plaatina Invest OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337979"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FPVMBRT4TK4X23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ prePress"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ prePress"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337979"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FPVMBRT4TK4X23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ prePress"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ prePress"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337981"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GBMW11N6E1M085"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kollane Korsten"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Kollane Korsten OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337981"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GBMW11N6E1M085"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kollane Korsten"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Kollane Korsten OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337982"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GVU5RESTZIW758"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Kariste"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Kariste"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337982"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GVU5RESTZIW758"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Kariste"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Kariste"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337983"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HR2Z1EI5L50X57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harte"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Harte OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337983"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HR2Z1EI5L50X57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harte"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Harte OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337985"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700K5JZP30AA1F030"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Dekaad"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Dekaad"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337985"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700K5JZP30AA1F030"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Dekaad"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Dekaad"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337986"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MHWNCKVOCICD36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Transnautic Ship Management"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Transnautic Ship Management OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337986"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MHWNCKVOCICD36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Transnautic Ship Management"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Transnautic Ship Management OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337987"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MM4NJ19T3L1896"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SAOLEO"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "SAOLEO OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337987"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MM4NJ19T3L1896"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SAOLEO"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "SAOLEO OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700M4NKUM80HLIS03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mips"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Mips OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700M4NKUM80HLIS03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mips"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Mips OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NHDWJMNIOGD797"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OSAÜHING VATSON & VATSON"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OSAÜHING VATSON & VATSON"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337990"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NHDWJMNIOGD797"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OSAÜHING VATSON & VATSON"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OSAÜHING VATSON & VATSON"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337991"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OBKE2LAD8TWU40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Upgrade Capital"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Upgrade Capital OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337991"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OBKE2LAD8TWU40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Upgrade Capital"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Upgrade Capital OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337992"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PUVMJEJEADNG35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siseinfo"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Siseinfo OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337993"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PYYZR1X9GKWL75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sifu"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Sifu OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337995"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700QJW2VOAGQPUH04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Solaris"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Solaris OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Q05X878EXS7S73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Skandok"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Skandok"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337997"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Q19GFS220FYJ58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALDIREKT"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "osaühing ALDIREKT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337999"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700R5T2B6T3V1D373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nobe Juku"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Nobe Juku OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338000"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700SNW8UXJSASSD13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osaühing Essende"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Osaühing Essende"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338001"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UQEX5QSQ1XAS12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kaldernik"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Kaldernik OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338003"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700VC1QJ8PTPRFA85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grotta Azzurra"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Grotta Azzurra OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338004"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WFLY9T5S9U2198"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kerinax"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Kerinax OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338005"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WNFB16PQT0YM92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Minu Säästud"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Minu Säästud OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338006"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WXQ405YK87VD66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Argentia Osaühing"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Argentia Osaühing"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338008"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000APWNCHG307995"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "D&HV Investments"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "D&HV Investments OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338009"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570004GFYXTUG9LR70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Megaton Capital"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Megaton Capital OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700479M7EJN6FHU69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Galdarix"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Galdarix OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338011"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007RQJNUK2820Q20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strauch Holding"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Strauch Holding OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338013"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007X7ZJ0BZRDC255"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OÜ Alusprojekt"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OÜ Alusprojekt"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338014"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009OPXS77G913U06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMAVARA"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "OMAVARA OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009O0GV0NB0GH533"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TRU BALTICA"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "TRU BALTICA OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466483"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300M7Q1ZEHBQTT572"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nordic Power Management OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EZRSQOV1SE8075"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic Energy Partners OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UU1I4NRLLH7W85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Imatra Elekter AS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466743"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AANDFAJGL4RC36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EnergyKey OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125116793"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500P6NDF78A4FF624"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mordor Management"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130482276"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZFEZ30LGM77469"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q130482276"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558242"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AGPFY93XDF9950"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ebisu Media"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558246"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AVRLBL3PZKZL37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Algatus Finance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558313"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700IJO6O41A4L8M90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Passive Active"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558360"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OK1BNHSWIME538"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Caribalt Alliance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558379"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RBZQVOXTKBHT45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wolf Tactical OÜ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558406"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700USW8Z5H2HPZZ60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Net Zero"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138574676"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002XHSBSWEPAE072"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Terminal"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "AS Terminal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138574676"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002XHSBSWEPAE072"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Terminal"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "AS Terminal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138583708"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450063969475439F59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Electric Terminal"
+      },
+      "official" : {
+        "xml:lang" : "et",
+        "type" : "literal",
+        "value" : "Electric Terminal OÜ"
+      }
+    } ]
+  }
+}

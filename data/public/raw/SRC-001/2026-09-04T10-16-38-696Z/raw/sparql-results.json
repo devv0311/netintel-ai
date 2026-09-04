@@ -1,0 +1,128 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GB"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "GBQKSY6W7G0OHCQ8OQ72"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/00293262"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Associated British Foods"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GB"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "GBQKSY6W7G0OHCQ8OQ72"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/00293262"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Associated British Foods"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GB"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "GBQKSY6W7G0OHCQ8OQ72"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/00293262"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Associated British Foods"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GB"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "GBQKSY6W7G0OHCQ8OQ72"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/00293262"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Associated British Foods"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GB"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q122141"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800TB53ELEUKM7Q61"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/01833679"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodafone"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "वोडाफोन एस्सार"
+      },
+      "official" : {
+        "xml:lang" : "en-gb",
+        "type" : "literal",
+        "value" : "Vodafone Group Plc"
+      }
+    } ]
+  }
+}

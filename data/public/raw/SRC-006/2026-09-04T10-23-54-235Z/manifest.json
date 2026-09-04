@@ -1,0 +1,54 @@
+{
+  "sourceId": "SRC-006",
+  "endpoint": "https://data.sec.gov/submissions",
+  "request": "GET https://data.sec.gov/submissions/CIK<10-digit>.json for 5 CIK(s); company block only, filings never read",
+  "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+  "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+  "retrievedAt": "2026-09-04T10:23:54.235Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "cf74c0763d3d472b04750f0b5465ee4bf27e0e88a5b4de27389b01e880f8daf5",
+  "rawBytes": 130084,
+  "sourcePayloads": [
+    {
+      "file": "submissions-0001162704.json",
+      "sha256": "36ca3a74d66def6bf1751599eae149a655034efad58a1667f9b964ccac38edba",
+      "bytes": 17920,
+      "records": 1,
+      "storedAt": "raw/submissions-0001162704.json"
+    },
+    {
+      "file": "submissions-0001398453.json",
+      "sha256": "0130eabd80316abb180dc7b544934ff9ae6baeaa9bb50b6a8f50168813ee6027",
+      "bytes": 70054,
+      "records": 1,
+      "storedAt": "raw/submissions-0001398453.json"
+    },
+    {
+      "file": "submissions-0001382112.json",
+      "sha256": "ef7ac58d1cb4b26722a8781c00119dda22a7af37e577884bf9a28aa75858370d",
+      "bytes": 37827,
+      "records": 1,
+      "storedAt": "raw/submissions-0001382112.json"
+    },
+    {
+      "file": "submissions-0001700499.json",
+      "sha256": "0f35e8edbdd4b884fcfab63278a7d141a044a9cd57781ca6dfea297806598bda",
+      "bytes": 2749,
+      "records": 1,
+      "storedAt": "raw/submissions-0001700499.json"
+    },
+    {
+      "file": "submissions-0001789097.json",
+      "sha256": "61bdf0c5e5c6e0040be558d3b96671690d5d3893ccacf58e1cabdb69a6a97fbe",
+      "bytes": 1534,
+      "records": 1,
+      "storedAt": "raw/submissions-0001789097.json"
+    }
+  ],
+  "recordCount": 5,
+  "recordsSha256": "904612b5f73211b52982eb4ece72c5bd61bd71a657f4b07c07532beb5e31d56a",
+  "warnings": [
+    "2 of 5 record(s) carry at least one SEC-stated former name."
+  ]
+}

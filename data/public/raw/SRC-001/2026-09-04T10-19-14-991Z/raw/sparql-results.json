@@ -1,0 +1,574 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29739"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "WNDD3CRVXJGC8I7GX671"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000051296"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29739"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "WNDD3CRVXJGC8I7GX671"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000051296"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29739"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "WNDD3CRVXJGC8I7GX671"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000051296"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O4AF0C816ILN62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo Televisa"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टेलेविसा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O4AF0C816ILN62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo Televisa"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टेलेविसा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O4AF0C816ILN62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo Televisa"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टेलेविसा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O4AF0C816ILN62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo Televisa"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टेलेविसा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O4AF0C816ILN62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo Televisa"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टेलेविसा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q431757"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300G8NLCMP9Z44X52"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001520504"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Volaris"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806914"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002C56S2RYRKJ580"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banorte"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806914"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002C56S2RYRKJ580"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banorte"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1053348"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JHGUF0VVA38719"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cemex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1053348"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JHGUF0VVA38719"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cemex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1281055"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H2ZXE4KL0NUV88"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001023025"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TV Azteca"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टीवी एज़्टेका"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mx/1467690"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1281055"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H2ZXE4KL0NUV88"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001023025"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TV Azteca"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टीवी एज़्टेका"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "mx/1467690"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1343885"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "4469000001DNSZR75N05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monterrey Institute of Technology and Higher Education"
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "ITESM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1435628"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A8MDWDJNMLV153"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FEMSA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1435628"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A8MDWDJNMLV153"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FEMSA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1435628"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A8MDWDJNMLV153"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FEMSA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1435628"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A8MDWDJNMLV153"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FEMSA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4838903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900CZQ27EMGKCHG63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bachoco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4838903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900CZQ27EMGKCHG63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bachoco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4853573"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930088R4YQVV0P9F21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BanRegio"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5718183"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "4469000001BD95FFLY16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BanBajío"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114740573"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500E3ACC0D4U7F056"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chata"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1417227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001H1M69RFJCSH88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KazMunayGas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1417227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001H1M69RFJCSH88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KazMunayGas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1417227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001H1M69RFJCSH88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KazMunayGas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "KZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2380266"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JKJ5HJWYS4GR61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Solidcore Resources"
+      }
+    } ]
+  }
+}

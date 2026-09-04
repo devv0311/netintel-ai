@@ -38,7 +38,23 @@ import path from "node:path";
 import { normalizeName } from "@/lib/resolution/name-normalization";
 
 const ROOT = process.cwd();
-const OUT = "evidence/final-test";
+
+const arg = (name: string, fallback: string): string => {
+  const i = process.argv.indexOf(`--${name}`);
+  return i >= 0 && process.argv[i + 1] ? (process.argv[i + 1] as string) : fallback;
+};
+
+/**
+ * Parameterised rather than copied, for the same reason the training
+ * corpus builder is: the labelling rules must be identical character for
+ * character across every corpus, and running the same code is the only
+ * way to guarantee that rather than promise it.
+ */
+const OUT = arg("out", "evidence/final-test");
+const CORPUS_BASENAME = arg("corpus-basename", "final-test");
+const CORPUS_NAME = arg("corpus-name", "final-frozen-test-anchored");
+const CORPUS_VERSION = arg("corpus-version", "2.0.0");
+const EXPERIMENT = arg("experiment", "P6.25.5 final frozen test corpus");
 const PRIOR_TRUTH = "evidence/expanded/expanded.ground-truth.json";
 /**
  * Every dataset whose subjects must NOT appear here, in ANY partition.
@@ -46,7 +62,13 @@ const PRIOR_TRUTH = "evidence/expanded/expanded.ground-truth.json";
  * question was "was this subject ever frozen?", here it is "has this
  * subject ever been seen at all?".
  */
-const PRIOR_PAIR_DATASETS = ["evidence/ml/pair-dataset.json", "evidence/ml/pair-dataset-v2.json"];
+const PRIOR_PAIR_DATASETS = arg(
+  "prior-datasets",
+  "evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-v2.json",
+)
+  .split(",")
+  .map((v) => v.trim())
+  .filter((v) => v.length > 0);
 
 interface Rec {
   recordRef: string; registry: string; registryRecordId: string; name: string;
@@ -375,7 +397,7 @@ function main(): void {
 
   fs.mkdirSync(path.join(ROOT, OUT), { recursive: true });
   const corpus = {
-    corpus: { name: "final-frozen-test-anchored", version: "2.0.0", seed: null, generatedAt: new Date().toISOString(),
+    corpus: { name: CORPUS_NAME, version: CORPUS_VERSION, seed: null, generatedAt: new Date().toISOString(),
       description: "REAL collected public-register records from THREE approved publishers (GLEIF SRC-002, Wikidata SRC-001, SEC EDGAR SRC-006; CC0 1.0 / US public domain), merged across every collection run. Adds the publisher-stated country (Wikidata P17 -> P297) that the P6.24 corpus lacked entirely, so jurisdiction is comparable across publishers. ANCHORED regime: GLEIF keeps the LEI it issues, every other record is stripped, so the shared identifier is unavailable and name evidence is actually exercised. Names, official names and aliases are verbatim publisher strings; NO variant is manufactured. Never to be mixed with Operation DarkNet Delhi, the synthetic fixtures, or the P6.16 no-identifier corpus." },
     investigation: { name: "Final frozen test corpus (anchored)", status: "in_progress" },
     evidenceSources: [...new Set(scorable.map((r) => r.registry))].map((k) => ({ key: k, label: `${k} public records (real, anchored)`, sourceType: "structured_dataset" })),
@@ -384,10 +406,10 @@ function main(): void {
     communicationEvents: [],
     financialTransactions: [],
   };
-  fs.writeFileSync(path.join(ROOT, OUT, "final-test-anchored.corpus.json"), `${JSON.stringify(corpus, null, 2)}\n`);
+  fs.writeFileSync(path.join(ROOT, OUT, `${CORPUS_BASENAME}-anchored.corpus.json`), `${JSON.stringify(corpus, null, 2)}\n`);
 
   const truth = {
-    experiment: "P6.25.5 final frozen test corpus",
+    experiment: EXPERIMENT,
     dataClass: "REAL",
     builtFrom: { wikidata: wd.dirs, gleif: gl.dirs, edgar: ed.dirs },
     collectionRuns: { wikidata: wd.runs, gleif: gl.runs, edgar: ed.runs },
@@ -433,7 +455,7 @@ function main(): void {
       ocids: [...new Set(idsOf(r, "OPENCORPORATES"))],
     }])),
   };
-  fs.writeFileSync(path.join(ROOT, OUT, "final-test.ground-truth.json"), `${JSON.stringify(truth, null, 2)}\n`);
+  fs.writeFileSync(path.join(ROOT, OUT, `${CORPUS_BASENAME}.ground-truth.json`), `${JSON.stringify(truth, null, 2)}\n`);
 
   if (ADOPT_RUNS) {
     const pin = {
@@ -482,7 +504,7 @@ function main(): void {
     `   dropped as previously seen: ${droppedAsSeenRecords} record(s), ` +
       `${droppedPositives} positive(s), ${droppedNegatives} hard negative(s)`,
   );
-  console.log(`\nwritten: ${OUT}/final-test-anchored.corpus.json`);
-  console.log(`written: ${OUT}/final-test.ground-truth.json`);
+  console.log(`\nwritten: ${OUT}/${CORPUS_BASENAME}-anchored.corpus.json`);
+  console.log(`written: ${OUT}/${CORPUS_BASENAME}.ground-truth.json`);
 }
 main();

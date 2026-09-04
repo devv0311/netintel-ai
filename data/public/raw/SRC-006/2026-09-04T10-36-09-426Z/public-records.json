@@ -1,0 +1,21 @@
+[
+  {
+    "recordRef": "edgar:1071371",
+    "registry": "edgar",
+    "registryRecordId": "1071371",
+    "subjectKind": "organisation",
+    "name": "BANCOLOMBIA SA",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1071371"
+      }
+    ],
+    "jurisdiction": "US-F8",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:36:08.768Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001071371"
+  }
+]

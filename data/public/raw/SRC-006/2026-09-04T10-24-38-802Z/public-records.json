@@ -1,0 +1,79 @@
+[
+  {
+    "recordRef": "edgar:311669",
+    "registry": "edgar",
+    "registryRecordId": "311669",
+    "subjectKind": "organisation",
+    "name": "ASIAN DEVELOPMENT BANK",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "311669"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:36.266Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000311669"
+  },
+  {
+    "recordRef": "edgar:1398500",
+    "registry": "edgar",
+    "registryRecordId": "1398500",
+    "subjectKind": "organisation",
+    "name": "AYALA CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1398500"
+      }
+    ],
+    "jurisdiction": "US-R6",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:36.266Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001398500"
+  },
+  {
+    "recordRef": "edgar:1096692",
+    "registry": "edgar",
+    "registryRecordId": "1096692",
+    "subjectKind": "organisation",
+    "name": "GLOBE TELECOM INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1096692"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:36.266Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001096692"
+  },
+  {
+    "recordRef": "edgar:925464",
+    "registry": "edgar",
+    "registryRecordId": "925464",
+    "subjectKind": "organisation",
+    "name": "SECURITY BANK CORP",
+    "aliases": [
+      "SNB BANCSHARES INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "925464"
+      }
+    ],
+    "jurisdiction": "US-GA",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:36.266Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000925464"
+  }
+]

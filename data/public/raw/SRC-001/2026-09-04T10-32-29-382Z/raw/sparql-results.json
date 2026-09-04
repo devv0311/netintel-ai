@@ -1,0 +1,7395 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q298400"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800S3PME328HYZ792"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003086271"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PrivatBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q404542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800HNB8DBFIACDP23"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003052786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tet"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q506656"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "097900BGMO0000055872"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003000642"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvijas Gāze"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q687709"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "H0HWWEVOF2OSX76KYU55"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/90000158236"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q687709"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "H0HWWEVOF2OSX76KYU55"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/90000158236"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1586376"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138004Q1UZS7BES7125"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003056133"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1586376"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1618438"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RCKD18PS6LDJ64"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003022654"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lido"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1624698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YRBS4XYCVIH803"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003167049"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nasdaq Riga"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "NASDAQ OMX Riga"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1624698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YRBS4XYCVIH803"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003167049"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nasdaq Riga"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Nasdaq Riga"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1624698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YRBS4XYCVIH803"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003167049"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nasdaq Riga"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Rīgas Fondu birža"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2071602"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006DWR32NKWM1O86"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003034935"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grindeks"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Akciju sabiedrība \"GRINDEKS\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2071602"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006DWR32NKWM1O86"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003034935"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grindeks"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Akciju sabiedrība \"GRINDEKS\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3133469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "097900BGLZ0000056644"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003031873"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amber Latvijas balzams"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3736450"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DJRB539Q1EMW75"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003032949"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvenergo"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Akciju sabiedrība \"Latvenergo\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3736450"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DJRB539Q1EMW75"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003032949"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvenergo"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Akciju sabiedrība \"Latvenergo\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3744542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000PIT2XZ7X9Y86"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003286712"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Radiotehnika RRR"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4045485"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300J6I0BUEY33QO16"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003072918"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PNB Banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4048312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007F5HA5FFJROB80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003074497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rietumu Banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4155236"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "097900BHBZ0000065239"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003030219"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daugavpils Locomotive Repair Plant"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4394571"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340065CF9HB5QZ3Z81"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003042006"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AS Rīgas elektromašīnbūves rūpnīca"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5364357"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TNFQRZUIMUKG02"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003129564"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elko Grupa"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Akciju sabiedrība \"ELKO GRUPA\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6497410"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000VYR04HZGC213"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003021108"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvian Shipping Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6726489"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000NFH7BLQEYU67"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003844254"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MADARA Cosmetics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7083044"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WCG52W62ENOP27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003007246"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Olpha"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7388547"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000F6NVA4T63P67"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003474109"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SAF Tehnika"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7388547"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000F6NVA4T63P67"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003474109"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SAF Tehnika"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7389564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YW95G1VBBGGV07"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003151743"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEB banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7844643"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300L6JVCPDL6FK602"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003581667"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trivest"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12103619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534005A84927EKSR789"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003043232"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Signet Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14239556"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009Y59EAR7H1UO97"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103303559"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Citadele banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16351775"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800M5SZU3KLAROZ16"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003194988"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Industra Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16355300"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002SRN4MYJ15G677"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003294758"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Real Estate"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16355300"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002SRN4MYJ15G677"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003294758"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Real Estate"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16359849"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YCHHN4TW6P4B93"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003991692"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "4finance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16361282"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100001PLJJ09NZT59"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003242879"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nasdaq CSD SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16458129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "4851000NJ8O90MDGXG16"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003094173"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvijas Finieris"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17308599"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "097900BHBR0000064855"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003074590"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reverta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18121568"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930080G2M7EJ097A27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003551060"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BluOr Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20558687"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25940034Z0RI47GCPC59"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003049409"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Balta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20561175"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900G15YF9QDBVVO59"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003952521"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grand Credit"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20757895"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800W6HJSDZVV2WQ60"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003387032"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltikums Vienna Insurance Group AASHSBC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21014205"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SIOZ3DCYR70E48"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003980843"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "REF Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21086548"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990046M7I2PXGILX93"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003176944"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cido Grupa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22666341"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500761OFEWB6A7E87"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003026431"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Preiļu siers"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22906965"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CDJOF7ZZVSKW68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103903643"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mintos Marketplace"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22906965"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CDJOF7ZZVSKW68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103903643"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mintos Marketplace"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23016252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WIP0INFDAWTJ81"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003029667"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TRASTA KOMERCBANKA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24038988"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157002Q3I11LG1R1C12"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103840140"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BTA Baltic Insurance Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24175265"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200F7N0U9Q7191R41"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003020653"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dobeles dzirnavnieks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25035930"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006XWNR6BLL15O35"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003031676"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Valmieras stikla šķiedra"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VALMIERA GLASS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25933155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900S1YDO0MHC8K318"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003454390"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HansaMatrix"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25933155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900S1YDO0MHC8K318"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003454390"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HansaMatrix"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26969139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JDOTKJMCUB1M79"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003024725"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luminor Bank AS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27987988"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000DWP0BMQCTM64"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003045892"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Riga Shipyard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28058285"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100YDVP9E8GT6PJ90"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203041605"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conexus Baltic Grid"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28058285"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100YDVP9E8GT6PJ90"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203041605"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conexus Baltic Grid"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30206893"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004M3VEI7YA7QZ81"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103942087"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Compensa Vienna Insurance Group ADB Latvijas filiāle"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30612100"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P4UITGHCIHXR72"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003448619"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PATA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50378789"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DMDEDIDNEAOR80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003242737"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Virši-A"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50378996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500N1WITB1AKEPD14"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103839550"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amber Beverage Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52317094"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800U3Y2TMRMKLNE90"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003127883"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic International Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q67200054"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500734E0CZRR14H78"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103035386"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liepajas energija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426506"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500C606CCEC956B65"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103659860"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IDT Media"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549006U7G1SG7932655"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203231613"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DAH Invest"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426595"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100V2CYXAG0VGSI05"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003723815"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Apotheka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426598"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100U4AOWWBTJRSR82"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003060393"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Magnum Medical"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426599"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900O0Q3U9A7MAVB74"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103290555"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energy Resources CHP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845002FE4A63B851B55"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/41703001139"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ceļu būvniecības sabiedrība IGATE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426607"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500SNM7C14KEBG250"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203147079"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Longo Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426615"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510045PA58ROF2O387"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003242366"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilomix Baltic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450036452E4D2FC503"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203054012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Santa Monica Networks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500O5D8CF07DCBF24"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003286750"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rīgas Siltums"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BGE3R8CBU4N011"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103852506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IS Property"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002591I27MC2LJ41"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003234547"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Recipe Plus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426720"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500536574FEF0BA63"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103854352"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gren Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426726"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500RE9QRWYXRJRA92"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003321238"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eugesta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426734"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100EH43HVNESY5B03"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003219834"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latakko"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426735"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945008AJU1UU6D18269"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103251030"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sakret Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426736"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002V8LFLJ43QUS18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003693027"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fristads Production"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450047FB9ARK653964"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203206071"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liplat Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426836"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JQ334M6Y7OBM60"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103297500"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kinetics Nail Systems"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845001D681B9D47F319"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203159487"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Apmark"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426873"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945008XCEN18W4Z2N09"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003774690"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kronospan Riga"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426877"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100H7G81ILBDKEX64"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42803008058"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jūrmalas siltums"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426879"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100HCD0VG4WM3C887"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003007655"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ventspils siltums"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426974"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25490027UQG4OEPANZ66"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103000187"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UPB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426979"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500HLAL4GL6OEQ716"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003286727"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bulterjers"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426981"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500I2JEMG33MW0F73"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103684497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALPS Investments"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426982"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500HZGJN3BH1AXB17"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103948164"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skanstes Biroju Centrs"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426984"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500J9NGDETW137Z68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103406467"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic Derrick"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426986"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900I7AZ2APYX0L025"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003189347"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Premier Restaurants Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426987"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900W0PXTRTZMP1K28"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003565747"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karavela"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427006"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500UVZVACABL40F39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103314105"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alfa Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427015"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100MYPKU71WINFN02"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003059981"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kalceks"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Akciju sabiedriba \"Kalceks\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427080"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "4851007EH8QQDTNTX306"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003606528"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedbank Atklātais Pensiju Fonds"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427090"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549004MBRL65SVVBZ55"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003332918"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic Block"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427101"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900TL89694COXU360"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103340377"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NewFuels"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427103"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002DTXPR33Y4XT58"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103200693"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agro Lestene"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427109"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300E13UBLS8HEVX14"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103068438"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grostatrans"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427163"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500PGAD6K3BMHSF18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203154028"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Base Stone"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q298400"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800S3PME328HYZ792"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003086271"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PrivatBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q298400"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800S3PME328HYZ792"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003086271"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PrivatBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q300924"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JVURXEAA48FV35"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003245752"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AirBaltic"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "Air Baltic Corporation, AS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q506656"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "097900BGMO0000055872"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003000642"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvijas Gāze"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q687709"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "H0HWWEVOF2OSX76KYU55"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/90000158236"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1586376"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138004Q1UZS7BES7125"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003056133"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1586376"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4032875"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IHIJ7SCANBWN17"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003149401"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ABLV Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4032875"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IHIJ7SCANBWN17"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003149401"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ABLV Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4045485"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300J6I0BUEY33QO16"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003072918"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PNB Banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4048312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007F5HA5FFJROB80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003074497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rietumu Banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4048312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007F5HA5FFJROB80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003074497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rietumu Banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4155236"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "097900BHBZ0000065239"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003030219"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daugavpils Locomotive Repair Plant"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7389564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YW95G1VBBGGV07"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003151743"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEB banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14239556"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009Y59EAR7H1UO97"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103303559"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Citadele banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16351775"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800M5SZU3KLAROZ16"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003194988"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Industra Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18121568"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930080G2M7EJ097A27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003551060"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BluOr Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20564457"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500TGPU44S1RI4190"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103794602"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Primera Air Nordic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23016252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WIP0INFDAWTJ81"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003029667"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TRASTA KOMERCBANKA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26969139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JDOTKJMCUB1M79"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003024725"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luminor Bank AS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27987988"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000DWP0BMQCTM64"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003045892"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Riga Shipyard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52317094"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800U3Y2TMRMKLNE90"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003127883"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic International Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65297361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945004TU6LJOQ0M8F27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003307535"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Forevers"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65921529"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "4851006434KD18TF7C88"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103902690"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mintos Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95400796"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006RLUBCNZY7GZ83"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003462947"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Optibet"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95401695"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NYRRCG1N3KLK40"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103022610"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tolmets"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95402393"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WUCW9E7PWOLH75"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003113582"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LEXEL FABRIKA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95402400"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100KK3K70B1FGMG94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003164644"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Celu buves firma BINDERS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97231849"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845004C736BPB9D4264"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103036112"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LAUMA FABRICS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q99395784"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OFBLHY2EDODL51"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103116320"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kreiss"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q99395784"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OFBLHY2EDODL51"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103116320"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kreiss"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425691"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CB689EL9KTXX42"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103716434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic RE Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425694"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6488X71602ZE0YRR9R63"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203273852"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosehill Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425695"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100C776AGBDIC0U78"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103360072"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vikton"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425696"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534009ACUPRNCEK5939"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103913482"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uralkali Trading"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Uralkali Trading, SIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425702"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500908DDB6A9K9Y43"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003766284"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TCK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425720"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500KFU8TRQSG0I614"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103936485"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Laviola"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425731"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007CQHAT3W7LP680"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003045888"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tetra Pak"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425746"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100NGU5FL75BKJ971"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103657588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Orawin"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425753"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450089F94M4EB62C37"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103029708"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PET Baltija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450000ATCDCD1CFF95"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003309841"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eco Baltia vide"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425772"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F3ETBEAC0E2D46"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103435432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eco Baltia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425774"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500A39504C5SEE863"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003495810"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nordic Plast"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425775"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845008C690E9612F336"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103380859"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ave Steel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425776"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900O802X2GAF0TF02"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50203101431"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atea Global Services"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425777"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900TCIJFGFNWYAS94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003558618"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ATOMEX"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425789"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450073AC4AF5B0CB27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103276212"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Servolux"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425823"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100RQO0VD8MWEBO13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003037448"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gaujas Koks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425823"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100RQO0VD8MWEBO13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003037448"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gaujas Koks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425848"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845003BC30E1DFE7F20"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103775495"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KG Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425849"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500EGQBJ944WLU622"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103019682"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CTB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425856"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100916PS8A306OD18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103493089"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KAMO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100P6BTBA1ALJNU68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103893059"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobnx"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425862"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UD01X0F9HJP433"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203023760"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lidl Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425862"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UD01X0F9HJP433"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203023760"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lidl Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425867"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500C748AE05064C87"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103168996"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Booking Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425868"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500C8EEB76BE0E658"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/41203055943"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chemispec"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425924"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500A2ED1AF7J45C05"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103948728"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KM invest"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300K8MO14IEWRD339"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50103915451"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "iPS Media"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425941"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845005FAFFA0Y7D3D30"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003942171"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emera"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425950"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PDBD054DG2T756"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/44103028772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Padtex Insulation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425952"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500DD2FCYQE876151"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203173828"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AV Time"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500PA709A8747AA83"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003638167"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dito"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425966"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100OA9SKWJWVWJ791"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003754321"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mercor"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104425967"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XAV052FGL60C18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103086467"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DD Ventures"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426468"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500B8889AO47PC797"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103057947"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "iCotton"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426470"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500BEB37A2D68A620"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003215480"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rēzeknes siltumtīkli"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426474"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FA7C5D92FC1F57"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103107025"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "pro100cap"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426485"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F6DBDB91F8D968"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103941081"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ogres Namsaimnieks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426487"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900WA2T51HC4F0X78"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003562596"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Compaqpeat"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426501"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500CR3F8CA69OBK40"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103519867"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KMI"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104426502"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900L6XXOROHCT7E20"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103639192"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PMPC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427186"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8755006M4FUVXSP6HC58"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203049079"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AJ Power Gas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427194"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500WG10N8WF7BLD63"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103806598"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novo Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427195"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500VRURFPOCE9V596"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203084939"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nams 24"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427208"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900NUJG6X4F92X181"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103579601"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AM Project"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427245"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100DCGRPE2A2H3L32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003893298"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JK Investment"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427250"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900A067VGEPV4H593"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103356255"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EVOLUTION"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427251"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003BKFTVNQQ74418"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103992868"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aura Investments"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427266"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500GA0D17URVM9D92"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103031530"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akvarius"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900N0MRCBEMII0423"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003881778"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amazon Travel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427271"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008X6DVAYWKZVF34"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003240191"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rettenmeier Baltic Timber"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427308"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100O3PW8CSARAWI97"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/45101000230"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ziedi JP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427322"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WHZ8RSJ4UZPW26"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003108882"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coca-Cola HBC Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427323"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009M5LPXL2CRG403"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003676154"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Joker Līzings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427326"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945004DT6Z5JJ7BLD39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/45403021522"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pharmeko Lettland"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427336"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900XEI7EAMO08JV98"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003645722"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gren Rīga"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427337"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900AO8Y5NJP2J7Y70"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003058280"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Valpro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427341"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CMQQ1VWKM85P48"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103498353"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kubit"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427357"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900Z4ZYFCATY6GJ90"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003493561"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvijas Propāna Gāze"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427455"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900K1XR46NFJ68192"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003745390"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hansahold"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427457"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009I6MY0EG39JU33"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103420846"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hansa+"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427461"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900IUXDMQ7658FN66"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103362872"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Signet Asset Management Latvia IPS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427471"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900EVKDA64Q5WQM44"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003513410"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ARTHA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JLUF5LCBTFMI66"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003668091"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Breyton Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427522"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900LDCBUKVO7LI311"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103497343"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panda Investment"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427736"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900G8W5ZXZV1ZWA61"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103234242"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Blue Sky Transport"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427757"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BO9IYZ6ER3TR25"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003814724"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Signet Pensiju Pārvalde IPAS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427785"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549007LDNE2MJKDCH51"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003629130"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Santa Monica Networks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427902"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "967600NSM7Z344Y95T83"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/43603069171"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltyre Fincom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427913"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25490045FPXB6P58G436"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003843899"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AppXite"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427175"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900S7SEJ9M7IXEM95"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/41203006308"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sumata"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427178"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100IM4XCQ1CYC7986"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003752271"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Citrus Solutions"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FXBIWWGK7T0Y98"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003074764"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedbank Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429643"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003DKHPFS3JZD157"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/41203022482"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bio-Venta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429647"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900P50XU56HXTTX16"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003312822"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atea"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429648"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9676009ECCKT0UZZ3W47"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103801232"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Krugmans"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Z7BTXHEBVTPH20"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103225038"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uralchem Trading"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "URALCHEM TRADING SIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429654"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JC12Z131T18O38"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003132723"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Neste Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429655"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GP8ZG19QGWM669"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103058465"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "G4S Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429657"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Q25E47PLNDRB53"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003963909"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samsung Electronics Baltics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429659"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000KDG6VT6TTLW80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003053029"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rimi Latvia"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "SIA \"RIMI LATVIA\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429659"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000KDG6VT6TTLW80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003053029"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rimi Latvia"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "SIA \"RIMI LATVIA\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900X6K8V149DZV807"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bellafonte Trading LP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104438748"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001RGW7AQ3GXK510"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003684043"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic Hotel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104439294"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100IMAEAEL6QYGG53"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/42103001587"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q104439294"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111854127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500EFABEB2A0KCB60"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103841447"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MS CAP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466474"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003664BXVB6FS505"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SIA \"IMLITEX LATVIJA\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466762"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450067EE2A55E91F05"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/45403058402"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Virši Renergy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124474762"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RIMS4LNC2FY461"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/44103055569"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agerona"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124570727"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500CTRNF7FX2VT935"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203089743"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Avrora Baltic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124978718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845006C7B5CC707X660"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203295309"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedbank Baltics"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q127280231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "648808P5G964RO0OQS12"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203401432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indemo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q127432955"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900S3F1J74PM55N67"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103065880"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "All Media Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558350"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NHMHLWPDZGWO12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zalkrasti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558350"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NHMHLWPDZGWO12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zalkrasti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558400"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UFP2XLN6FGSZ87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zebrix"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558400"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UFP2XLN6FGSZ87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zebrix"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558423"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WXY3N187AZVU61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IT services, SIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558423"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700WXY3N187AZVU61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IT services, SIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779182"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BBV7FA7LUG5913"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BlockBen"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "BlockBen SIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779183"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500ISUYBQF9I7BE66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nexdesk"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Nexdesk SIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138412266"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "64889HJJEWH71X131480"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40203045645"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q138412266"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429630"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OMTXWX1144LP69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003563375"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regionala investiciju banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104427928"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RPKHRUR323LW03"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50103951541"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paul Mason Properties"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428027"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900S89H5QB3H6X214"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003475509"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jūrnieku forums"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428029"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900FXHNBPPF456F94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003500721"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reck"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428035"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Z5PFXQBEU8KQ40"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003000252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LNK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428043"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QKY1EW7RM18M35"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003814620"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anderson Baltic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428055"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900T1S4YH4G2X0E52"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003554989"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ibiza"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428061"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DO65B3U807TQ04"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003553786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brenntag Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428063"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008RGTU38IRCST03"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103953555"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Frigate"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428065"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900VGU8QV7WVE3243"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/41503046009"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ADLV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428067"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UOKHYF1SKHI807"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003440140"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metalekspo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428069"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549004MMMJH2SK9NH50"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003212728"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lameko Impex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428070"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900QVL6SPLIIVDG38"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003740196"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nekustamā īpašuma projekti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428072"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FMZ63Q5E5GWJ80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/53603019011"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linas Agro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428212"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BDTY6ZGCOI6A80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103733152"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ACG Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000VDV2RCCA2M09"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103990157"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EfTEN Domina"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428232"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930062Y99N5U1MUQ39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003733207"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Do It"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428259"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LP9GXCHOG1RU72"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003005264"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltcom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428261"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RSRXBO8AYJX179"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103238102"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polystylex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428285"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001ODBQD7AWJNR86"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003585673"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tavex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428287"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25490000V0HRII4SFK24"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003428031"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mārupes Metālmeistars"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428494"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008UK13BSQPZCE31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003940611"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BWT Timber"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428498"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008P2X2Y0Y8VAH07"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003079615"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skonto Plan Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428513"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GICD17X3AJWM79"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103970396"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bierini LLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428519"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900AOOPYIW9VZE919"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003248848"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skonto Būve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428531"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25490020G7AQ5BLX7C10"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103274387"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elagro Trade"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009SIFIUWAMA2S70"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003424042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banalat"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428552"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NZH0UW8ZF18P37"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103167045"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Averto"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428599"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900322GAQVBB1XH53"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003133428"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tamro, SIA"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "SIA \"Tamro\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428599"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900322GAQVBB1XH53"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003133428"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tamro, SIA"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "SIA \"Tamro\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428814"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009AH5DLRETTEP56"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003764029"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aquarium Investments"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900B46411P8J19853"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/44103026146"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RDZ Energy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428822"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DWO77W0U73RZ32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103735416"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COB Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428824"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800873UON7HY3KQ10"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/43603027407"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agrochema Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428829"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007HPQSSX8BJ4315"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50103744891"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Altum"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428832"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800GB6VSSM55PTK37"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103468062"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nafta LV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002PKHUJIMVMYB13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103252854"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DelfinGroup"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002PKHUJIMVMYB13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103252854"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DelfinGroup"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428863"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KYEWO4FP2XMF82"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003017085"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kurzemes ciltslietu un mākslīgās apsēklošanas stacija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428864"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B6BX2C1KFI6P75"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003020121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PATA Saldus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428866"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900XUJYAE6JJDV687"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/51203021811"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bucher Municipal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428891"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100009P6918YAAS43"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003113243"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Talsu mežrūpniecība"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428896"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800HWW8SETV2QDD72"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003901472"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIA SMS group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VM6UAZYZCTKD47"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003737707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lat Chem"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428907"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800ZYDPVAY35VQ153"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003139859"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bitus Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104428909"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DHAKQOK7OC4P19"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103990335"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LSREF3 Riga Plaza"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429001"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900CUUTY73NYFPP29"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103784604"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pernod Ricard Eastern Europe Operations"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429003"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002PJOUGRJHOXA07"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003400631"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pernod Ricard Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429015"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001WHF7D1E7P8O40"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003989630"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CCF Baltija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429017"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NYELXV4JH5BA79"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103736854"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AmberStone Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429023"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005RWKTSS4MX4210"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103780693"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AJ Power"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429034"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NGKGJEXZSYCL43"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103821436"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Inbank Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429049"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800W1YXOI9WTYEX34"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003506739"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bohnenkamp"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429051"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TWUTHNB1GTTH69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003174322"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jeld-Wen Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429059"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "259400VDTC20UW6M5D80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003494976"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltijas Apdrošināšanas Nams"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429061"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004B8G5O11QLVE59"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103201097"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sunrise Projects"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429088"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TI782PLWRZWR37"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003084961"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Distehnika"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429270"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800SJCSWC2RJIK417"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003752725"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "D & P"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429271"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800ZBLNS9DTRURZ78"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003178377"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Avento"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429275"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003U0K53UE30UK16"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003824046"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enefit"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429277"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380062IWF7VWDY7A49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003760921"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Citadele Factoring"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429283"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300V0HSIXQ7JTPM30"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003337582"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedbank Ieguldījumu Pārvaldes Sabiedrība"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429286"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T2LHFTKA0L2Q39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003485047"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEB atklatais pensiju fonds"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429290"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EOIPME5OPE8U19"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003012938"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEB Life and Pension Baltic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UKTJN0KSRBNH30"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003525797"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEB Investment Management"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429294"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006PZNKJOWWIGF15"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103642991"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ignitis Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429301"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800HCKNKBNTT6BO10"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/44103005731"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VAKS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429302"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900AIZ6VCMDUBQR53"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003229974"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic Agro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429304"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "259400SKTDDROKYI3Y90"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003344762"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dukascopy Europe IBS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429308"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O4VEIMHLGPDX54"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103267173"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NB Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429309"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LJCDVHF7PIAM91"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003227920"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INTRAC Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JIDCKLP0KB0T31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003473264"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barona Projekts"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429319"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800AYPH5GGBNPHW06"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/43603038415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Scandagra Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429321"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800THUIP39TZKN642"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003423085"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Citadele Leasing"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429326"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800PYXVN5KTKK7S32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103656192"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arona Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429426"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006VWQGWZFFN8S80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003551944"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OneMed, SIA"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "SIA \"OneMed\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429426"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006VWQGWZFFN8S80"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003551944"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OneMed, SIA"
+      },
+      "official" : {
+        "xml:lang" : "lv",
+        "type" : "literal",
+        "value" : "SIA \"Tamro MedLab\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429443"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MAQ69RR5OG1912"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003159840"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Balcia Insurance SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429453"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900AKRX1RHR3SEZ35"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003492814"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "L'Oreal Baltic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429456"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300L2K6LSDPKJVN40"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003390091"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Delta Property"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429457"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138004VLUHX19Z52375"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003343042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dentsu Aegis Network Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429458"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008BB7QQ59AIOT03"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/58503007191"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latraps"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429460"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UKH43NJIYMEY32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003377087"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "YIT Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429461"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AINE6HB5H17G79"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003295522"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "East-West Transit"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429464"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IHFDUVPM2NLR43"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003315411"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linstow"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429465"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NHEICGZFBK8J71"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003040166"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Viesnica Latvija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429466"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LBOE7RARKT8Q53"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103223624"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AKZ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WOPQ2FULAHZQ86"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003720039"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CCM Trading"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429480"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RUDL8V1MKRDJ47"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003193130"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tietoevry Banking Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429482"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138006K6SWNFWF6PE87"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003076407"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SB Resolution"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429485"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380017RIFYL39SXU16"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003283415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polipaks"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429608"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400VKAILEYT8PYJ96"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50003549231"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gren Jelgava"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429612"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138003MH4IM76JXIS11"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/43903002559"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "8 CBR"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429620"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BKFIOXU7RPCQ75"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003450717"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baltic Agro Machinery"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NST2A98S72BE60"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003250931"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kurekss"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429622"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299007RV37BM1AHPD95"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003350896"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saint-Gobain Celtniecības Produkti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429623"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900D6ENC96PQSP893"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003140449"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Optimera Latvia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429624"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DMAUKVGRKU4G89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003095713"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A.C.B."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429626"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "259400YE9CCQBVY41L71"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50103189561"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LPB Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429626"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "259400YE9CCQBVY41L71"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/50103189561"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LPB Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429630"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OMTXWX1144LP69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40003563375"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regionala investiciju banka"
+      }
+    } ]
+  }
+}

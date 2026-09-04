@@ -1,0 +1,29 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BD"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16323660"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GL92L3558EMS17"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "dk/34687641"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q16323660"
+      }
+    } ]
+  }
+}

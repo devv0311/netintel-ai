@@ -1,0 +1,7149 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83822"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q4SDRO8QNBBJ33"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Österreichische Bundesbahnen-Holding Aktiengesellschaft"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Austrian Federal Railways"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83822"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q4SDRO8QNBBJ33"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Österreichische Bundesbahnen-Holding Aktiengesellschaft"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Austrian Federal Railways"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q151415"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "QSUV2642CITZRNBXQB64"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kommunalkredit Austria AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kommunalkredit Austria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300V62YJ9HTLRI486"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300V62YJ9HTLRI486"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q229527"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PNUEQE2B5IX405"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zum Schwarzen Kameel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q229752"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IIODYNYAZ2ID26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zumtobel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q259010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "I6SS27Q1Q3385V753S50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisenlandesbank Oberösterreich"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q259010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "I6SS27Q1Q3385V753S50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisenlandesbank Oberösterreich"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q266280"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500B6QD0666C0GB44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WESTbahn"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q297650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B2JGN28UCEQ136"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ASFiNAG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q301251"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002Q68E35257UV46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Österreichische Apothekerbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q301367"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YPGRP3KTUTBZ47"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q301367"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "ÖBV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q303309"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QN2O8H65HMXX86"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q303309"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q329523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "FJDBAXYL0TCMGLPQ4563"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Österreichische Volksbanken-Aktiengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q329523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "FJDBAXYL0TCMGLPQ4563"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Österreichische Volksbanken-Aktiengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q370223"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001QKV44IT3WPL26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S IMMO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q379938"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900S9YO2JHTIIDG38"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BAWAG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q379938"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ICA8XQYGIKR372"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BAWAG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q431607"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900CPC3UZMJ3DTN75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wolford"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q437469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005VO3GJ18GL5F14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AMAG Austria Metall AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442018"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JM7BK9UYT2CS02"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Andritz AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Andritz"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442018"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VZKC61IR5U8G96"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Andritz AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Andritz"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q446542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PG9O7YFYX5UM88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Semperit"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q446542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PG9O7YFYX5UM88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Semperit"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q477875"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001JPPT2QFTV5D76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ams OSRAM AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q586665"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VXIFBHO0SW2I31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wienerberger"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q586665"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VXIFBHO0SW2I31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wienerberger"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GEMOEGGR4Y7U53"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q672384"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GEMOEGGR4Y7U53"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q672384"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TAT2TADBW0WR70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Borealis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q681316"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TYYSRJH2VJSP60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strabag"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688755"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KCNFQU5OJH7L33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A1 Telekom Austria Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688755"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KCNFQU5OJH7L33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A1 Telekom Austria Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688816"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006UDSEJCTTEJS30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Verbund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688816"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006UDSEJCTTEJS30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Verbund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q689404"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001AMHDLKUM80611"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mayr-Melnhof"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q694257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JCRU23I1THU176"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vienna Insurance Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q694257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JCRU23I1THU176"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vienna Insurance Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q697619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "D1HEB8VEU6D9M8ZUXG17"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "UniCredit Bank Austria AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Austria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q698447"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001RXIEYZXN71T68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maḥmīyat Umm al-Rayḥān"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q698639"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000HTNHA5ACH9N32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Red Bull GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q700436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000FHOCPRAERG577"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Josef Manner & Comp AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796136"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B9P29R8W03IX88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BKS Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796136"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B9P29R8W03IX88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BKS Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806665"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003ATVTQVPTW4735"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank für Tirol und Vorarlberg"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q818228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZAFSOBVFCKF263"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Benteler International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q864453"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MQGS697ZYK8K15"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q864453"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q872140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P4JZBFEVNEAE60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EVN Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q872140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P4JZBFEVNEAE60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EVN Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1006210"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "EXKDMVYZD1BRX1AH7433"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bundesimmobiliengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022332"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JNA1MSNDLJVC46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petro Welt"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OOW8ELHOXWZP82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uniqa Insurance Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OOW8ELHOXWZP82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uniqa Insurance Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022921"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003ICAPV07J0R180"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CA Immo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1271744"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P1JL15TFXFZ679"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TIWAG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1310001"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "PQOH26KWDF7CG10L6792"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erste Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1310001"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "PQOH26KWDF7CG10L6792"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erste Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1433222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FQ2ILBH7DJ6I45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flughafen Wien AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1433222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FQ2ILBH7DJ6I45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flughafen Wien AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1451893"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990038OKF8UAD5LA12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Frauenthal Holding AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1555572"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DVPJYGNF2P7B03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Steiermärkische Sparkasse"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1566184"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BI5KIGX6YLX375"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HYPO Oberösterreich"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1641280"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007BWYDPQZLZ0Y27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hypo Noe Landesbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1641284"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0W5QHUNYV4W7GJO62R27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hypo Tirol Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1641284"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0W5QHUNYV4W7GJO62R27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hypo Tirol Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1654187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200ZOAI9BOLGC1D37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INIT SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1660121"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000DUMZ99SBBX121"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1660121"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1663734"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3912001MRZQFTGEBQG35"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1663734"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1670912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UNUKYZ9HND3309"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Raiffeisen-Landesbank Steiermark AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisen-Landesbank Steiermark"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1719075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DHHGNSNU167B06"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "KTM AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KTM AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1719075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DHHGNSNU167B06"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KTM AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KTM AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1763505"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MVUWACNUTK8467"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Österreichische Post"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1779248"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O015GLGIMHV534"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Wiener Stadtwerke GmbH"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wiener Stadtwerke"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1779248"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O015GLGIMHV534"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Wiener Stadtwerke GmbH"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wiener Stadtwerke"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1800946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900L5GWPLRF3T6825"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sparkasse Korneuburg"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1926646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009RR0HTPV5X4982"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Miba (Austria)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1942919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P7WHC88U8QF536"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Mohrenbrauerei Vertriebs GmbH & Co KG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mohren-Brewery"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2009139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RRUN0TCQ1K2JDV7MXO75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oberbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2015260"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000OVRLMF858L016"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Oesterreichische Kontrollbank AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oesterreichische Kontrollbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2103118"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OVSOBJNXZACW81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polytec Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2127528"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9ZHRYM6F437SQJ6OUG95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisen Bank International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2127528"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9ZHRYM6F437SQJ6OUG95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisen Bank International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2127615"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GPOO9ISPD1EE83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisenlandesbank Niederösterreich-Wien"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2248502"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZD9ED8GSG3JW36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Schoeller-Bleckmann Oilfield Equipment"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2436299"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004QZXUXX24HAX74"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tiroler Versicherung"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2568787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MUHCX60Q4RYE54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wien Energie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2568787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900T935OF4RF2OU10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wien Energie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2798971"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002PSXXMVHB26433"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "S&T AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S&T"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "official" : {
+        "xml:lang" : "bg",
+        "type" : "literal",
+        "value" : "Titan Machinery Bulgaria EAD"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Titan Machinery Austria GmbH"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery Inc."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "official" : {
+        "xml:lang" : "en-au",
+        "type" : "literal",
+        "value" : "Titan Machinery Holdings Australia Pty. Ltd."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "official" : {
+        "xml:lang" : "ro",
+        "type" : "literal",
+        "value" : "Titan Machinery Romania SRL"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "official" : {
+        "xml:lang" : "uk",
+        "type" : "literal",
+        "value" : "Titan Machinery Ukraine, LLC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15815548"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000T02ZLV12N4N79"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "High Tech Industries, A.G."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001162226"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15926596"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q07WXVH9B1PP64"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q15926596"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19971145"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900G8QD457M2SW556"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Alpenbank Aktiengesellschaft"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AlpenBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300V62YJ9HTLRI486"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300V62YJ9HTLRI486"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q266280"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500B6QD0666C0GB44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WESTbahn"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q297650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B2JGN28UCEQ136"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ASFiNAG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q298533"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900EVOKN4LCCD9321"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AT&S"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q310499"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003OJ63JPZGDLT05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baumax"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q310499"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003OJ63JPZGDLT05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baumax"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q370223"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001QKV44IT3WPL26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S IMMO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q379938"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900S9YO2JHTIIDG38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BAWAG"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q379938"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ICA8XQYGIKR372"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BAWAG"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q395978"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006C0EVA5LAYOR30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agrana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q431607"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900CPC3UZMJ3DTN75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wolford"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q437469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005VO3GJ18GL5F14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AMAG Austria Metall AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442018"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JM7BK9UYT2CS02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Andritz"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Andritz AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442018"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VZKC61IR5U8G96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Andritz"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Andritz AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q446542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PG9O7YFYX5UM88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Semperit"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q446542"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PG9O7YFYX5UM88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Semperit"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q459825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DS2PAVS3K9RV51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosenbauer"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q477875"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001JPPT2QFTV5D76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ams OSRAM AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q477875"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001JPPT2QFTV5D76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ams OSRAM AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q611115"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GLT2R8ZHEQ4J80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swarovski"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "स्वारोवस्की"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q681316"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TYYSRJH2VJSP60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strabag"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q681316"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TYYSRJH2VJSP60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strabag"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688755"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KCNFQU5OJH7L33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A1 Telekom Austria Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688755"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KCNFQU5OJH7L33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A1 Telekom Austria Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688816"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006UDSEJCTTEJS30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Verbund"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q689404"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001AMHDLKUM80611"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mayr-Melnhof"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q689750"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZAXBMQDIWPNB72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Voestalpine"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "voestalpine AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q697492"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IFAV83BX8O1O91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palfinger"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q697492"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IFAV83BX8O1O91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palfinger"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q697619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "D1HEB8VEU6D9M8ZUXG17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Austria"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "UniCredit Bank Austria AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q697619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "D1HEB8VEU6D9M8ZUXG17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Austria"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "UniCredit Bank Austria AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q698447"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001RXIEYZXN71T68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maḥmīyat Umm al-Rayḥān"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q698447"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001RXIEYZXN71T68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maḥmīyat Umm al-Rayḥān"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q698535"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700LCYNUH9SYC0I94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wiener Boerse AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q698639"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000HTNHA5ACH9N32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Red Bull GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q700436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000FHOCPRAERG577"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Josef Manner & Comp AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q818228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZAFSOBVFCKF263"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Benteler International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q872140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P4JZBFEVNEAE60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EVN Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q873450"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BKFJBI0QRDJH63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lenzing AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q873925"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002PSXXMVHB26433"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S&T"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kontron AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q873925"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002PSXXMVHB26433"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S&T"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "S&T AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q893478"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RWEEMC830UJI77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LAT Nitrogen Linz"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1006210"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "EXKDMVYZD1BRX1AH7433"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bundesimmobiliengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OOW8ELHOXWZP82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uniqa Insurance Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OOW8ELHOXWZP82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uniqa Insurance Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1233020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002NFQKOBT1E8569"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Do & Co"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1271744"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P1JL15TFXFZ679"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TIWAG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1282064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930060U4XOVED1T359"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMV Gas Marketing & Trading"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1310001"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "PQOH26KWDF7CG10L6792"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erste Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1386449"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990021YEMY298JY727"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fischer Advanced Composite Components"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1390074"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200WHND7OZEFNNL77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fabasoft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1433222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FQ2ILBH7DJ6I45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flughafen Wien AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1453452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900A9NX1TM65N4176"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kelag"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1453452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900A9NX1TM65N4176"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kelag"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1455549"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900N7I4DSM16GF659"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Frequentis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1555572"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DVPJYGNF2P7B03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Steiermärkische Sparkasse"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1641280"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007BWYDPQZLZ0Y27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hypo Noe Landesbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1641284"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0W5QHUNYV4W7GJO62R27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hypo Tirol Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1660121"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000DUMZ99SBBX121"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1660121"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1666157"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ENFTO28GS3KF76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RAG Austria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1666157"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ENFTO28GS3KF76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RAG Austria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1763505"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MVUWACNUTK8467"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Österreichische Post"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1770478"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ARBU9SBJFNX419"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PORR"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1779248"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O015GLGIMHV534"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wiener Stadtwerke"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Wiener Stadtwerke GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1926646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009RR0HTPV5X4982"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Miba (Austria)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1942919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P7WHC88U8QF536"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mohren-Brewery"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Mohrenbrauerei Vertriebs GmbH & Co KG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1958759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VVXGAWG6MCDO69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Müller"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "DroMaMü"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8537_HRA2271"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1958759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VVXGAWG6MCDO69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Müller"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "DroMaMü"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8537_HRA2271"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2009139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RRUN0TCQ1K2JDV7MXO75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oberbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2009139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RRUN0TCQ1K2JDV7MXO75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oberbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2015260"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000OVRLMF858L016"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oesterreichische Kontrollbank"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Oesterreichische Kontrollbank AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2127530"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WEWTWSNCK1VE42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisen Bausparkasse"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Raiffeisen Bausparkasse Ges.m.b.H."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2127615"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GPOO9ISPD1EE83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisenlandesbank Niederösterreich-Wien"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2215905"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000C4S664YT7T556"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Salzburg AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2568787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MUHCX60Q4RYE54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wien Energie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2568787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900T935OF4RF2OU10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wien Energie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3021558"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YA3EOWAR2PF526"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lasselsberger"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5009603"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WCB4ODS02N7778"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stibo DX"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "dk/41915811"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "bg",
+        "type" : "literal",
+        "value" : "Titan Machinery Bulgaria EAD"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Titan Machinery Austria GmbH"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en-au",
+        "type" : "literal",
+        "value" : "Titan Machinery Holdings Australia Pty. Ltd."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "ro",
+        "type" : "literal",
+        "value" : "Titan Machinery Romania SRL"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "uk",
+        "type" : "literal",
+        "value" : "Titan Machinery Ukraine, LLC"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17006713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008NK571QZL7CF97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centrex Europe Energy & Gas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18028837"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IWRUBPP2VNQB05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UBM Development"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18028837"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IWRUBPP2VNQB05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UBM Development"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18168341"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900AL535Q7FCWY921"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rover.com"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001826018"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18746384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "V0VY22PV9D0HFTF8EI62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allgemeine Sparkasse Oberösterreich"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18746384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "V0VY22PV9D0HFTF8EI62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allgemeine Sparkasse Oberösterreich"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19277588"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BCMXMP743UUB91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Constantia Flexibles"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19604540"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IZ8TASAYR3A694"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sberbank Europe"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19604540"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IZ8TASAYR3A694"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sberbank Europe"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27441029"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KP61PQU2R79X91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZIMA Group"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "ZIMA Holding AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27926559"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UKZBMDBDZIXD62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Addiko Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27926559"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UKZBMDBDZIXD62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Addiko Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43876242"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TR0K86WYPDQW04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linz Textil"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43894971"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GN3B1EN80XF405"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marinomed Biotech (Austria)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43894971"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GN3B1EN80XF405"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marinomed Biotech (Austria)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43896299"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HDMOFU6GZHLO71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pfizer Corporation Austria Gesellschaft mbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q51626197"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WNOWBQF8BIRF63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Verbund Hydro Power"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VHP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54959771"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PYVMI1K02TNX45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ERIELL Corporation"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "ERIELL GmbH"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cz/25749811"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54959771"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PYVMI1K02TNX45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ERIELL Corporation"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "ERIELL GmbH"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cz/25749811"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54969191"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900EXCJW58F50DB19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "STOP.SHOP. Rakovnik"
+      },
+      "official" : {
+        "xml:lang" : "cs",
+        "type" : "literal",
+        "value" : "STOP.SHOP. Rakovnik s.r.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cz/27619559"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54969191"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900EXCJW58F50DB19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "STOP.SHOP. Rakovnik"
+      },
+      "official" : {
+        "xml:lang" : "cs",
+        "type" : "literal",
+        "value" : "STOP.SHOP. Rakovnik s.r.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cz/27619559"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61959713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500C8BCD3E1A3N484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allianz New Europe Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64522973"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138004OE2T6PILDKI08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mondi Uncoated Fine & Kraft Paper"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q67384855"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900USHB48TPI3AI79"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisen Bausparkassen Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q71012507"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BSLL2C1GODJ972"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LB Ceramics Beteiligungs"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q72926779"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990001XQ75KF74T578"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linde Österreich Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q81113813"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DP3STK4JWYLE08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Intersport Austria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q91200481"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RCLERIIXF4QM23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "bank99"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97012080"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990074JMYFJGLSWO60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "illwerke vkw"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "illwerke vkw AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97012080"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990074JMYFJGLSWO60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "illwerke vkw"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "illwerke vkw AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97446987"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RML1TKNTGDNX20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commerzialbank Mattersburg"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "cb"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Commerzialbank Mattersburg im Burgenland AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97446987"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RML1TKNTGDNX20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commerzialbank Mattersburg"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "cb"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Commerzbank Mattersburg im Burgenland AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415694"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BVDS63M7IXH260"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WED Wiener Entwicklungsgesellschaft für den Donauraum"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "WED Wiener Entwicklungsgesellschaft für den Donauraum GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415694"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BVDS63M7IXH260"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WED Wiener Entwicklungsgesellschaft für den Donauraum"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "WED Wiener Entwicklungsgesellschaft für den Donauraum GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415696"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HC87U78O43RZ08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Schieneninfrastruktur-Dienstleistungs-gesellschaft mbH"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Schieneninfrastruktur-Dienstleistungs-gesellschaft mbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415696"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HC87U78O43RZ08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Schieneninfrastruktur-Dienstleistungs-gesellschaft mbH"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Schieneninfrastruktur-Dienstleistungs-gesellschaft mbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700J000F2KRB16L70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CTR Holding Assets"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "CTR Holding Assets GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700J000F2KRB16L70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CTR Holding Assets"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "CTR Holding Assets GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700KV97VYG9VGF879"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIENNA DC Tower 1 Liegenschaftsbesitz"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VIENNA DC Tower 1 Liegenschaftsbesitz GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700KV97VYG9VGF879"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIENNA DC Tower 1 Liegenschaftsbesitz"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VIENNA DC Tower 1 Liegenschaftsbesitz GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NEJWCJWUYIPC34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIENNA DC Tower 2 Liegenschaftsbesitz"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VIENNA DC Tower 2 Liegenschaftsbesitz GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NEJWCJWUYIPC34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIENNA DC Tower 2 Liegenschaftsbesitz"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VIENNA DC Tower 2 Liegenschaftsbesitz GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415701"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NXSFEZCOBRZX70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Österreichische Wertpapierdaten Service"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Österreichische Wertpapierdaten Service GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415701"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NXSFEZCOBRZX70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Österreichische Wertpapierdaten Service"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Österreichische Wertpapierdaten Service GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415702"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700N4FPT55UTE0H46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARINA TOWER Holding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "MARINA TOWER Holding GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415702"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700N4FPT55UTE0H46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARINA TOWER Holding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "MARINA TOWER Holding GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415703"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RHTF1L2ROG7413"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CTR Holding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "CTR Holding GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415703"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RHTF1L2ROG7413"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CTR Holding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "CTR Holding GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RL9SV98KC6QD18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ostersetzer & Co. Gesellschaft m.b.H."
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ostersetzer & Co. Gesellschaft m.b.H."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RL9SV98KC6QD18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ostersetzer & Co. Gesellschaft m.b.H."
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ostersetzer & Co. Gesellschaft m.b.H."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415706"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700R5X8FEXUI23E08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HIRSCH Porozell"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "HIRSCH Porozell GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415706"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700R5X8FEXUI23E08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HIRSCH Porozell"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "HIRSCH Porozell GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700VYP58A8RFDEJ89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Graf's Naturprodukte"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Graf s Naturprodukte GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700VYP58A8RFDEJ89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Graf's Naturprodukte"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Graf s Naturprodukte GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415709"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700W1LSCELE4D3039"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WED Donau-City"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "WED Donau-City GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415709"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700W1LSCELE4D3039"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WED Donau-City"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "WED Donau-City GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415710"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZQ6Y5JR4KAQ888"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paytria Unternehmensbeteiligungen"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Paytria Unternehmensbeteiligungen GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415710"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZQ6Y5JR4KAQ888"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paytria Unternehmensbeteiligungen"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Paytria Unternehmensbeteiligungen GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415711"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570002QNI9J05JIP27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARINA CITY Entwicklungs"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "MARINA CITY Entwicklungs GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415711"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570002QNI9J05JIP27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARINA CITY Entwicklungs"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "MARINA CITY Entwicklungs GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001D1Q41S786HP36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Estate Kongressorganisations-Gesellschaft m.b.H."
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Estate Kongressorganisations-Gesellschaft m.b.H."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001D1Q41S786HP36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Estate Kongressorganisations-Gesellschaft m.b.H."
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Estate Kongressorganisations-Gesellschaft m.b.H."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001PJWLKXDADPJ92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "King SP Alpha Beteiligungs"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "King SP Alpha Beteiligungs GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001PJWLKXDADPJ92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "King SP Alpha Beteiligungs"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "King SP Alpha Beteiligungs GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415715"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157002UZO9NWTZZWY15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CE Energy Holding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "CE Energy Holding AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415715"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157002UZO9NWTZZWY15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CE Energy Holding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "CE Energy Holding AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003QCCXANLTFEY78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIENNA DC Bauträger"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VIENNA DC Bauträger GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003QCCXANLTFEY78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIENNA DC Bauträger"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VIENNA DC Bauträger GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003WGDK6GUSTXV18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WED Holding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "WED Holding GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415718"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003WGDK6GUSTXV18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WED Holding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "WED Holding GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415719"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157006KNOPFAW4AJ749"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARINA TOWER Entwicklungs"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "MARINA TOWER Entwicklungs GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415719"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157006KNOPFAW4AJ749"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARINA TOWER Entwicklungs"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "MARINA TOWER Entwicklungs GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415720"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007T8REIZ7GRBN37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rail Test & Research"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Rail Test & Research GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415720"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007T8REIZ7GRBN37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rail Test & Research"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Rail Test & Research GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415721"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007X67TLCO604P70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Drachenwand Immobilien"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Drachenwand Immobilien GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102415721"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007X67TLCO604P70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Drachenwand Immobilien"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Drachenwand Immobilien GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104546701"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299007427MOFSJ54I90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RLB OÖ Sektorholding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105794137"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500GOYJT8J3DRBJ21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Promercium"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Promercium Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/10372969"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105794137"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500GOYJT8J3DRBJ21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Promercium"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Promercium Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/10372969"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105794137"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500GOYJT8J3DRBJ21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Promercium"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Promercium Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/10372969"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106098315"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990097HEM6G3FED703"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Europäische Reiseversicherung"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106288935"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009A2CSKJBWWKY81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RATH Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106610486"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YNJUVNIV42X518"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stora Enso Wood Products"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108839758"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900W0Z9I9ZNI80T97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SKB Industrieholding"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "SKB Industrieholding GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109391386"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007WZ7IFULIL8G21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bitpanda"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bitpanda"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Bitpanda GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109391386"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007WZ7IFULIL8G21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bitpanda"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bitpanda"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Bitpanda GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109948331"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845000E0478C3CA6574"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allianz Holding eins"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110015955"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YBFN87N63PFT67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pierer Industrie AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110016619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900S9YO2JHTIIDG38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BAWAG Group AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110022515"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VYY1MRNR59PN57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wiener Privatbank SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110026346"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900D4CD6DIB3CI904"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VOLKSBANK WIEN AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110026711"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900L7QSUOI52K6094"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HYPO-INVEST"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466429"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "ACER00A00007891AT000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erdgas Import Salzburg"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466430"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009UKA32FKL4MA71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VERBUND Thermal Power GmbH & Co KG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466431"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990011AZ7JBRDLY933"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stadtwerke Bregenz"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466439"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003DNH4OIGZ4KG82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TIGAS-Erdgas Tirol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466442"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KLV8XU0GKM1E19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energie Steiermark Business"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466443"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RTYBY8TPW9U991"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VERBUND Energy4Business"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466444"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900D90WJ3WBXB1R67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energie AG Oberösterreich Trading"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466445"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000BULT5GWLSRA49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LINZ STROM GAS WÄRME GmbH für Energiedienstleistungen und Telekommunikation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466456"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FBE7HL0EDDHC15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wels Strom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466458"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900U2XZG2830U7007"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stadtwerke Kapfenberg"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466481"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300L4E7Q8VHKTWM29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMV Downstream"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466507"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VURYXPK1ZQ6S10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energie Graz GmbH & Co KG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466579"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004X7X8MPXMRG702"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axpo Austria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008HV6OAR885JC40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "eww ag"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466594"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000CRZDXC0OUG623"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GASELA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466595"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OS660KJC03FA52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NRG Services"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466596"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200O6GNNPBN9BMR98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALWADO ENERGY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466617"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900P207H2AFQ19Q27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elektrizitätswerk Mariahof"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466622"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000E86AAQXE5G212"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "W.Hamburger"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466639"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JAHTDYBBMZHY97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tauernwind Windkraftanlagen"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466640"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845004C9565CD669692"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HUNERGY AUSTRIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43876242"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TR0K86WYPDQW04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linz Textil"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56425426"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UUANUJ60MNMX97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ÖBB-Infrastruktur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83949077"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001W31MVFKKLV295"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Warimpex"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Warimpex Finanz- und Beteiligungs Aktiengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q103482239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KUCGUHP32P3754"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q103482239"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VLV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107483089"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HZ66M481PS2B22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MASS Response"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "MASS Response Service GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110025827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HM9YCQHAU2QC84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SW UmwelttechnikStoiser & Wolschner AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466674"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RY75YW6CKETE22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stadtwerke Bruck an der Mur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56425426"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UUANUJ60MNMX97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ÖBB-Infrastruktur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83949077"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001W31MVFKKLV295"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Warimpex"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Warimpex Finanz- und Beteiligungs Aktiengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83949077"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001W31MVFKKLV295"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Warimpex"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Warimpex Finanz- und Beteiligungs Aktiengesellschaft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q103482239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KUCGUHP32P3754"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q103482239"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "VLV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107483089"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HZ66M481PS2B22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MASS Response"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "MASS Response Service GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107483089"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HZ66M481PS2B22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MASS Response"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "MASS Response Service GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466668"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NA1KSGD5J2B704"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stadtbetriebe Mariazell"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466683"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NNYRQ2ADKGKZ18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IWP Großhofen GmbH & Co KG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466699"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BIDYJEHXFVZC39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Windpark Marchfeld Mitte"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466738"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TZWN3Z0B2JWD88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ÖKO Wind Erneuerbare Energierzeugungs"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466739"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Z75GQ9YRPLFD86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ÖKowind Neuhof"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466740"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "AT713100000104035820"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZaNGaS Hoch-und Tiefbau"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466741"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500EC0ZLSS182BB36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CET Central Energy Trade"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466777"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VJQNDBIKCDNM81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HALLAG Kommunal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466793"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QF6QY66QULSI15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CCP Austria Abwicklungsstelle für Börsengeschäfte"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466803"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MKHG793BLH2L52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IEL MÖN I GMbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466804"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DZOSG73RRCSB07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IEL Nick I"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466808"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O8NIO8DD27AW32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Albrechtsfeld Windpower"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466826"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500B14FC50D547084"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "STW Vertriebs GmbH & CO KG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118611102"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500P8I3CJBWVA2W80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Transalpine Ölleitung in Österreich"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118611117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007KLN4GYUX57M02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shell Austria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558478"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700489RZOR6P3UA71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Austin Europe"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558478"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700489RZOR6P3UA71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Austin Europe"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131085244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200K16APYNNEFMO71"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q131085244"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131361600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009OFU0Y3HC73N71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KTM Sportmotorcycle GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131363220"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005JRMPUVB0ODL06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pierer Konzerngeselshaft mbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131363969"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900E2K8U7VAKS1L04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Knünz GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131364172"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NMLVQDD7CC6T03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAHLE Holding Austria GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131364177"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Q999QJ65UBHU24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAHLE Filtersysteme Austria GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131364239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Z4E2C4QUXGOT85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WP Components GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131502236"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500RED989EB8O9589"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Quintik Capital"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Quintik Capital GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137176781"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900M4MXT3MWDG8Y02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "XARION"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "XARION Laser Acoustics GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137176781"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900M4MXT3MWDG8Y02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "XARION"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "XARION Laser Acoustics GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779109"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005V5GBSN2A4C303"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bybit EU"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Bybit EU GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779110"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LZM6X3GBFNLG10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cryptonow"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Cryptonow GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779111"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005I4LYIFW7GKB54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AMINA (Austria)"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "AMINA (Austria) AG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779112"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HMYYJR2NHVZ124"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FIOR Digital"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "FIOR Digital GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779113"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B4G0EGK7Z9KT45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KuCoin EU Exchange"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "KuCoin EU Exchange GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779114"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KTP3Y86BZKY754"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DADAT Krypto"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "DADAT Krypto GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779115"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BSNR4XPZ6WBK17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coinfinity"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Coinfinity GmbH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138799914"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450070974DBB10D008"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q138799914"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139019579"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NZAYGU5WA3NU90"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q139019579"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139083564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B02O4F88JE1V62"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q139083564"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139665332"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450076E8FE3D5EEE44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wukonig & Partner OG"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Wukonig & Partner OG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140622994"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WM5HNVJXNZOZ29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enery Power Slavic Portfolio"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140623516"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500ELF63A64DF0C48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enery Power Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140623891"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845008D7BB6AA5E8114"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enery Development"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141181470"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450078752B9363LC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "H & S Heilig und Schubert Software AG"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "H & S Heilig und Schubert Software AG"
+      }
+    } ]
+  }
+}

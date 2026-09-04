@@ -1,0 +1,39 @@
+[
+  {
+    "recordRef": "edgar:1732162",
+    "registry": "edgar",
+    "registryRecordId": "1732162",
+    "subjectKind": "organisation",
+    "name": "YDreams Global Interactive Technologies Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1732162"
+      }
+    ],
+    "jurisdiction": "US-A1",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:44.060Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001732162"
+  },
+  {
+    "recordRef": "edgar:1740915",
+    "registry": "edgar",
+    "registryRecordId": "1740915",
+    "subjectKind": "organisation",
+    "name": "Farfetch Ltd",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1740915"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:44.060Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001740915"
+  }
+]

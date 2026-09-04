@@ -1,0 +1,2705 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q532746"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Y9K70J2INEUB08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Esprit Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q606222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0WKKFB7N1TW1Q5WJ1V86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Star Cruises"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q606222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0WKKFB7N1TW1Q5WJ1V86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Star Cruises"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q751361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YTVSXYQN17BW16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hong Kong Exchanges and Clearing Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q751361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YTVSXYQN17BW16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hong Kong Exchanges and Clearing Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q752084"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008GWMWXTIRL4S48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New World Development Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q752084"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008GWMWXTIRL4S48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New World Development Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q985475"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549005Q343BSJ8RSS21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mengniu Dairy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q985475"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549005Q343BSJ8RSS21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mengniu Dairy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1023763"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549006I3Q3M98KHOT11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CITIC Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hk/0145656"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001162704"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1023763"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549006I3Q3M98KHOT11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CITIC Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hk/0145656"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001162704"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1439934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UVT35D3Q7YQY41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingsoft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1439934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UVT35D3Q7YQY41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingsoft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1439934"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UVT35D3Q7YQY41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingsoft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1482052"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SI7GPUPA1TJX39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PCCW Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1482052"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SI7GPUPA1TJX39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PCCW Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1506638"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JCV4TBBPX9IW91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Wharf (Holdings) Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1506638"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JCV4TBBPX9IW91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Wharf (Holdings) Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1604969"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SYQB7IVR9QGN76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KOLOUR"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1604969"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SYQB7IVR9QGN76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KOLOUR"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1853060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BKG9FQLCKFVK72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SANY Heavy Industry Co., Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1853060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BKG9FQLCKFVK72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SANY Heavy Industry Co., Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4039120"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O1QCZWP5IWVY66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GCL-Poly"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4039120"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O1QCZWP5IWVY66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GCL-Poly"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4185510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DMAV31G6XWLO55"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "I-Cable Communications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4185510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DMAV31G6XWLO55"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "I-Cable Communications"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4692540"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZRISRT38EEYY07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agile Group Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4692540"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZRISRT38EEYY07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agile Group Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5099887"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001HL0TU7X15HK51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Resources Land"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5099887"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001HL0TU7X15HK51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Resources Land"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5373896"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3003002GET5X9UP2V860"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emperor International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5373896"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3003002GET5X9UP2V860"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emperor International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5629997"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008D4GKSRL4VE775"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HKR International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5629997"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008D4GKSRL4VE775"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HKR International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5900378"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900E0ETLMXQJFMD74"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shenzhen Investment Holdings Bay Area Development"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5900378"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900E0ETLMXQJFMD74"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shenzhen Investment Holdings Bay Area Development"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7122305"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900LNPK737X4Y3V26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pacific Basin Shipping Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7122305"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900LNPK737X4Y3V26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pacific Basin Shipping Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7215569"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900NL3DXVIEY4HJ17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pico Far East Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7658810"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001L12PHYVQ92465"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swire Properties"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7658810"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001L12PHYVQ92465"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swire Properties"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7831552"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300C7M6EZYJHBKK44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tracker Fund of Hong Kong"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7831552"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300C7M6EZYJHBKK44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tracker Fund of Hong Kong"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8044687"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005I1X3PG0G3GC95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xinyuan Real Estate"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001398453"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8044687"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005I1X3PG0G3GC95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xinyuan Real Estate"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001398453"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10852436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HX6KMZX55KU043"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPDR FTSE Greater China ETF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10852436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HX6KMZX55KU043"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPDR FTSE Greater China ETF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874551"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D9WFI6G10MLL93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beijing Gas Blue Sky Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874551"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D9WFI6G10MLL93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beijing Gas Blue Sky Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XC5O6QB2SM1870"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CHINA WATER INDUSTRY GROUP LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XC5O6QB2SM1870"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CHINA WATER INDUSTRY GROUP LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874682"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LPR4ADFEJAR786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sino Biopharmaceutical Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874682"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LPR4ADFEJAR786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sino Biopharmaceutical Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874793"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DQVKFLU0PS2P65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Fortune Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874793"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DQVKFLU0PS2P65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Fortune Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10876503"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005XJ7NQ5FG94C84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great China Mania Holdings"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001382112"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10881423"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009IC8ZP94KPH034"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pacific Textiles Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10882818"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990027WVZT26V8EV34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asia Energy Logistics Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10888048"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KSTW8CO6OHZY52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cinda International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10900651"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900266P1TX5IIS107"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LIPPO LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10921837"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900CO7POSAPH8UL47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BC Technology Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10924054"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001L84J5GUJPFO80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ka Shui International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10946619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FP3M6CQA614W95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENM Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10948032"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D4IEI9VQMVAU18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honghua Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11059720"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500QZPNJDZ5H8C432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brockman Mining Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BROCKMAN MINING LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11065412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JDML9PYG0CIJ22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central China Real Estate Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11079086"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990005BW6K71UPKX41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Man Wah Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11084896"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900U65W3LD3SHSM93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Founder Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11089624"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BQ3VMVGVTX1J58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chinlink International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11097140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380057SDS1LER3KZ63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LEE'S PHARMACEUTICAL HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11134329"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900B1C5AX1W2M0W14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KONG SUN HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11149155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RBD6CR3VHFQH72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hosa International Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11149577"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JUV4MOM9CE3V12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SITC International Holdings Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11150697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380028OPRUVBBGKF36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strong Petrochemical Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11173963"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900Y1W7FP9NXS5F96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hung Hing Printing Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15922324"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PI8IF6UEHMVV14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Merchants Land Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15922324"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PI8IF6UEHMVV14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Merchants Land Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15940141"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006PUX29DFJ1DE03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HK Electric Investments Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15940141"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006PUX29DFJ1DE03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HK Electric Investments Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16923226"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RXCFKI6KHCMP52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JINGRUI HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926192"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Z57DVJXUBLHX66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Medical System Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17030706"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500B657C5AC8BC588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KuangChi Science Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17031767"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OPUNJYLOX4OL37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shougang Fushan Resources Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17060278"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TAELI2JXTKK009"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Modern Dairy Holdings Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17063030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IYLCAGSW3WSO86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SFCE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17065314"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004ZGJ44MCTNUB95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xiwang Special Steel Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19599200"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900B2AH0G13K9G204"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Minth Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22101492"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GZPJKTEXK55X75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Realord Group Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23680159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900XQ2EY5O3SAYL47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mongolian Mining Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001700499"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29468921"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Q1JC7X89PPGN26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haitong International Securities Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48740858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900FW30RFXQKV0G40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Compass RE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55118127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YS3T1KVQ2SNI84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Geely Auto"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55118127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YS3T1KVQ2SNI84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Geely Auto"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106238857"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YP54EOBADL7333"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JS Global Lifestyle Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106239207"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NJ0E6Q0S1VOG90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Logan Group Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q606222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0WKKFB7N1TW1Q5WJ1V86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Star Cruises"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q751361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YTVSXYQN17BW16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hong Kong Exchanges and Clearing Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q752084"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008GWMWXTIRL4S48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New World Development Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q985475"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549005Q343BSJ8RSS21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mengniu Dairy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1482052"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SI7GPUPA1TJX39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PCCW Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1506638"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JCV4TBBPX9IW91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Wharf (Holdings) Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10876503"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005XJ7NQ5FG94C84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great China Mania Holdings"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001382112"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10881423"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009IC8ZP94KPH034"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pacific Textiles Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10882818"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990027WVZT26V8EV34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asia Energy Logistics Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10888048"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KSTW8CO6OHZY52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cinda International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10900651"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900266P1TX5IIS107"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LIPPO LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10921837"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900CO7POSAPH8UL47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BC Technology Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10924054"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001L84J5GUJPFO80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ka Shui International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10946619"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FP3M6CQA614W95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENM Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10948032"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D4IEI9VQMVAU18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honghua Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11059720"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500QZPNJDZ5H8C432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brockman Mining Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BROCKMAN MINING LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11065412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JDML9PYG0CIJ22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central China Real Estate Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11079086"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990005BW6K71UPKX41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Man Wah Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11084896"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900U65W3LD3SHSM93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Founder Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11089624"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BQ3VMVGVTX1J58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chinlink International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11097140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380057SDS1LER3KZ63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LEE'S PHARMACEUTICAL HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11134329"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900B1C5AX1W2M0W14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KONG SUN HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11149155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RBD6CR3VHFQH72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hosa International Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11149577"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JUV4MOM9CE3V12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SITC International Holdings Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11150697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380028OPRUVBBGKF36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Strong Petrochemical Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11173963"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900Y1W7FP9NXS5F96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hung Hing Printing Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16923226"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RXCFKI6KHCMP52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JINGRUI HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926192"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900Z57DVJXUBLHX66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Medical System Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17030706"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500B657C5AC8BC588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KuangChi Science Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17031767"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OPUNJYLOX4OL37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shougang Fushan Resources Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17060278"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TAELI2JXTKK009"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Modern Dairy Holdings Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17063030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900IYLCAGSW3WSO86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SFCE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17065314"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004ZGJ44MCTNUB95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xiwang Special Steel Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19599200"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900B2AH0G13K9G204"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Minth Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22101492"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GZPJKTEXK55X75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Realord Group Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29468921"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Q1JC7X89PPGN26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haitong International Securities Group Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48740858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900FW30RFXQKV0G40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Compass RE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48740858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900FW30RFXQKV0G40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Compass RE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55118127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YS3T1KVQ2SNI84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Geely Auto"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43080151"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900MQK3C1TR58H275"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Insilico Medicine"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001789097"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56068421"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549005M4UVY5ECAWW87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Union Medical Healthcare Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86732580"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DZIZ5WPHB3IN57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jy Grandmark Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116860734"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SFH5DKUCV0GC42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cornell Capital"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cornell Capital Partners LLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136469110"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900HCMW7SQVV0N749"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tether Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hk/2142570"
+      }
+    } ]
+  }
+}

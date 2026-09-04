@@ -1,0 +1,422 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q82115"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QEKV8G0AMNQD28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arauco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q585150"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800MY6QVH4FVLD628"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antofagasta plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q585150"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800MY6QVH4FVLD628"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antofagasta plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q585150"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800MY6QVH4FVLD628"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antofagasta plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918206"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKH11TFCJLZK20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enel Américas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918206"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKH11TFCJLZK20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enel Américas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1321868"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HX3UUDPEFTG707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LATAM Airlines Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1321868"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HX3UUDPEFTG707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LATAM Airlines Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1321868"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HX3UUDPEFTG707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LATAM Airlines Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2990393"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BJW9B0O6LI2R39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CCU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2990393"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BJW9B0O6LI2R39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CCU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2990393"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900BJW9B0O6LI2R39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CCU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3053992"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PVHXUFEIE6LY50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enel Generación Chile"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3053992"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PVHXUFEIE6LY50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enel Generación Chile"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3067064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "TJ88LXZZW5PWIN93ZC81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sociedad Química y Minera de Chile"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3067064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "TJ88LXZZW5PWIN93ZC81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sociedad Química y Minera de Chile"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3067064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "TJ88LXZZW5PWIN93ZC81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sociedad Química y Minera de Chile"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3366007"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001WW2PV1Y0UEU97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Parque Arauco S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3366007"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001WW2PV1Y0UEU97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Parque Arauco S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7252351"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FK7HEJO33J5N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Provida"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7252351"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FK7HEJO33J5N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Provida"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65478176"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YM5CWCAUVOPB53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enel Chile"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167590"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FU5HJ5AXKACP98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NOVA AUSTRAL S.A."
+      }
+    } ]
+  }
+}

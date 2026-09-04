@@ -1,0 +1,39 @@
+[
+  {
+    "recordRef": "edgar:1033767",
+    "registry": "edgar",
+    "registryRecordId": "1033767",
+    "subjectKind": "organisation",
+    "name": "UNITED MICROELECTRONICS CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1033767"
+      }
+    ],
+    "jurisdiction": "US-F5",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:33.826Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001033767"
+  },
+  {
+    "recordRef": "edgar:1046179",
+    "registry": "edgar",
+    "registryRecordId": "1046179",
+    "subjectKind": "organisation",
+    "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1046179"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:33.826Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046179"
+  }
+]

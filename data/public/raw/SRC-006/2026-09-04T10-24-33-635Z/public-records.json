@@ -1,0 +1,142 @@
+[
+  {
+    "recordRef": "edgar:948343",
+    "registry": "edgar",
+    "registryRecordId": "948343",
+    "subjectKind": "organisation",
+    "name": "LG ELECTRONICS INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "948343"
+      }
+    ],
+    "jurisdiction": "US-IL",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:30.220Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000948343"
+  },
+  {
+    "recordRef": "edgar:2120882",
+    "registry": "edgar",
+    "registryRecordId": "2120882",
+    "subjectKind": "organisation",
+    "name": "SK hynix Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "2120882"
+      }
+    ],
+    "jurisdiction": "US-M5",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:30.220Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002120882"
+  },
+  {
+    "recordRef": "edgar:889132",
+    "registry": "edgar",
+    "registryRecordId": "889132",
+    "subjectKind": "organisation",
+    "name": "POSCO HOLDINGS INC.",
+    "aliases": [
+      "POSCO",
+      "POHANG IRON & STEEL CO LTD"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "889132"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:30.220Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000889132"
+  },
+  {
+    "recordRef": "edgar:892450",
+    "registry": "edgar",
+    "registryRecordId": "892450",
+    "subjectKind": "organisation",
+    "name": "KT CORP",
+    "aliases": [
+      "KOREA TELECOM CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "892450"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:30.220Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000892450"
+  },
+  {
+    "recordRef": "edgar:887225",
+    "registry": "edgar",
+    "registryRecordId": "887225",
+    "subjectKind": "organisation",
+    "name": "KOREA ELECTRIC POWER CORP",
+    "aliases": [
+      "KOREA ELECTRIC POWER CORPORATION"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "887225"
+      }
+    ],
+    "jurisdiction": "US-M5",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:30.220Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887225"
+  },
+  {
+    "recordRef": "edgar:1015650",
+    "registry": "edgar",
+    "registryRecordId": "1015650",
+    "subjectKind": "organisation",
+    "name": "SK TELECOM CO LTD",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1015650"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:30.220Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001015650"
+  },
+  {
+    "recordRef": "edgar:1834584",
+    "registry": "edgar",
+    "registryRecordId": "1834584",
+    "subjectKind": "organisation",
+    "name": "Coupang, Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1834584"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:30.220Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001834584"
+  }
+]

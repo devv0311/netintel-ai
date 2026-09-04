@@ -1,0 +1,78 @@
+[
+  {
+    "recordRef": "gleif:254900IDGKCJICKBPA66",
+    "registry": "gleif",
+    "registryRecordId": "254900IDGKCJICKBPA66",
+    "subjectKind": "organisation",
+    "name": "Ecopetrol S.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900IDGKCJICKBPA66"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000101",
+        "value": "899999068-1"
+      }
+    ],
+    "observedAt": "2025-12-26T21:18:25.000Z",
+    "jurisdiction": "CO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:07.860Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900IDGKCJICKBPA66"
+  },
+  {
+    "recordRef": "gleif:5493003UWHNNZEJZO875",
+    "registry": "gleif",
+    "registryRecordId": "5493003UWHNNZEJZO875",
+    "subjectKind": "organisation",
+    "name": "Universidad de los Andes",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493003UWHNNZEJZO875"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000093",
+        "value": "860007386 - 1"
+      }
+    ],
+    "observedAt": "2023-08-04T15:45:20.000Z",
+    "jurisdiction": "CO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:07.860Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493003UWHNNZEJZO875"
+  },
+  {
+    "recordRef": "gleif:54930052NWJRPNMP1W58",
+    "registry": "gleif",
+    "registryRecordId": "54930052NWJRPNMP1W58",
+    "subjectKind": "organisation",
+    "name": "BANCOLOMBIA S.A.",
+    "aliases": [
+      "Banco Industrial Colombiano S.A.",
+      "COLOMBIA S.A."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "54930052NWJRPNMP1W58"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000093",
+        "value": "890903938 - 8"
+      }
+    ],
+    "observedAt": "2026-06-05T05:11:36.000Z",
+    "jurisdiction": "CO",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:07.860Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/54930052NWJRPNMP1W58"
+  }
+]

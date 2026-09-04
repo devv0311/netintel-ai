@@ -1,0 +1,4453 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q143017"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H9RLRTRTLRUZ73"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "KRKA, tovarna zdravil, d.d., Novo mesto"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5043611000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Krka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174824"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CAAOUTT4QDOZ16"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "PETROL D.D."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petrol Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q738412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X47J0FW574JN34"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "POSLOVNI SISTEM MERCATOR D.D."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mercator"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q848521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001KRYD613GTA170"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Gorenje gospodinjski aparati, d. o. o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5163676000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gorenje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1335433"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003GE7UJGPQAMN79"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "TELEKOM SLOVENIJE, D.D."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telekom Slovenije"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1481509"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001BABFV7P27OW30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NLB Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1481509"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001BABFV7P27OW30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NLB Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1958759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VVXGAWG6MCDO69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8537_HRA2271"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Müller"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "DroMaMü"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4052392"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XWRPNT7WD8TK89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unior"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19933475"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RU28PG6AU1PJ85"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ETI Elektroelement, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5042178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ETI Elektroelement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30299354"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700J2I1LYLPNGET72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trelleborg Slovenija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30299422"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006A9I0754X6PC56"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2172836000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Litostroj Power"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49419742"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FK2RJNEZAU7M84"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "PAPIRNICA VEVČE d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5033721000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Papirnica Vevče"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AL71FNWBOG9P18"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Alples, Industrija pohištva, d.d. Železniki"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5039584"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alples, Industrija pohištva, d.d. Železniki"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336585"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BP3GXO4SZGSQ31"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "KGZ KRPAN kmetijsko gozdarska zadruga z.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5808065000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KGZ KRPAN kmetijsko gozdarska zadruga z.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700B6H0HAUW813660"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MAREKS INVEST d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6880797"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAREKS INVEST"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336588"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CI6BRPFWTSWN12"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "LTH Castings, ulitki d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5287073000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LTH Castings, ulitki"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336589"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CKEVJEF3LNT027"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ABD Alagić, zaključna dela v gradbeništvu d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3813193000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ABD Alagić, zaključna dela v gradbeništvu"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336590"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700EF4YB550ODHE18"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "BUTAN PLIN d.d., Ljubljana"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5094933000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BUTAN PLIN d.d., Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336591"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700EVW4OZDX69YT77"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "IMPAKTA d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2259796000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IMPAKTA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336592"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FH6A9N59TUEU76"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ETIS, d.o.o. Ljubljana"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5335434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ETIS, d.o.o. Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336595"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FIIRYUZ4B29Z34"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "HR SVETOVANJE, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1606069000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HR SVETOVANJE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700G3P4J1GG09T233"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SPORT TRADE 2000 d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5322979000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPORT TRADE 2000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336598"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700H7RCZZT2J58R30"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "AVANTEAM, strateški management, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1840282000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AVANTEAM, strateški management"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336599"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700H8AYJ52S9PQN11"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "PRIMORSKA HRANILNICA VIPAVA d.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5214246000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PRIMORSKA HRANILNICA VIPAVA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JUPP1W289DL989"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "METRO trgovska družba d.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5003059000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "METRO trgovska družba"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336602"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700K6BNA9XCRFK424"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SONCE energija obnovljivi viri d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1710460000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SONCE energija obnovljivi viri"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336603"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MJKSYFF93ULK38"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ALPE-PANON, gostinske storitve d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5775256000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALPE-PANON, gostinske storitve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336604"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MO72K3FB2K8F02"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "CHICO PLASTIK d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5574480000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CHICO PLASTIK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336605"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700M7KDPHT2MRN441"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "RAYCAP d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5286948000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RAYCAP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336607"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700M9I30ZFIJXE737"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "PRIGO, d.o.o., Brezovica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5460271000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PRIGO, d.o.o., Brezovica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336608"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NLU59EC9QW5K45"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MIKROCOP d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5346410000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MIKROCOP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336609"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OIJB5KK5XTHS81"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SENSUM d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1554077000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SENSUM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OYQHHRTVBRW552"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ARSING inženiring, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2198487"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ARSING inženiring"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336612"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700O5AN5ELRCKWP83"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "TOMPLAST, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2304708000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TOMPLAST"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336614"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700O61HGHN2ZBCQ77"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "KINGCONSULTING, finančno svetovanje, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3523381000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KINGCONSULTING, finančno svetovanje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336615"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PE5T2OUU0UJT76"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "S&T SLOVENIJA, informacijske rešitve in storitve, d.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5447640000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S&T SLOVENIJA, informacijske rešitve in storitve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336616"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PNXQJESV32IF73"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Cordia d.o.o. DAF CENTER"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5396468000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cordia d.o.o. DAF CENTER"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336618"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PWC33E323PUK02"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "JAVNO PODJETJE LJUBLJANSKI POTNIŠKI PROMET, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5222966000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JAVNO PODJETJE LJUBLJANSKI POTNIŠKI PROMET"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336620"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700P0ZIYZMP650J87"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "DOORS, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1733010000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DOORS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336622"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700QFM5DLUKHKUM69"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MARKPRO d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6189431000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARKPRO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336623"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700QUIW7RLYDTXH40"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "odelo Slovenija d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/201081000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "odelo Slovenija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336625"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700R98OXX4DQ61J96"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MINES IB d.o.o. Kobarid"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5931096000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MINES IB d.o.o. Kobarid"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336627"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700SGSCOUJ9BYPK54"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Zeleni biser, Proizvodnja električne energije iz obnovljivih virov, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6273459000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zeleni biser, Proizvodnja električne energije iz obnovljivih virov"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336628"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700T11IWJ4S6UKR25"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "S-FACTORING, faktoring družba d.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2319748000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-FACTORING, faktoring družba"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700VOUGGQG65DRB29"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "BARSOS-MC d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5591716000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BARSOS-MC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336630"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700V0K18J31VHX944"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "TDR LEGURE, proizvodnja legur, trgovina, storitve d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2271648000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TDR LEGURE, proizvodnja legur, trgovina, storitve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336631"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700W0UBGZ2T7GR379"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MAREX d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5406153000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAREX"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336633"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XAQ39OPJ7B5G56"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Sparkasse Leasing S, družba za financiranje d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3724310000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sparkasse Leasing S, družba za financiranje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336634"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XC33BYOVB0II51"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ANALOŽBE, upravljanje z naložbami, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2247127"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ANALOŽBE, upravljanje z naložbami"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336635"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YBLDSJTVSQDJ04"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "RARITETA poslovno svetovanje, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5641969000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RARITETA poslovno svetovanje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336636"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Y1NAB69VQ67840"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "A.B.S. Factoring, finančna družba za faktoring d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5719194"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A.B.S. Factoring, finančna družba za faktoring"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336637"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZTE1E5QXS2Z171"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Globalna hrana, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6588476"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Globalna hrana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336638"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000AMGIALLB9SR77"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "POLYCOM Škofja Loka d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5399815000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "POLYCOM Škofja Loka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336640"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000AT2LK0ANY4422"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "BENT EXCELLENT d.o.o. Domžale"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1274104000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BENT EXCELLENT d.o.o. Domžale"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700070TKBY0UVE318"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "DELAMARIS konzervna industrija d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3375790000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DELAMARIS konzervna industrija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700079UXDI8H7Y386"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "AC-Mobil, d.o.o. Ljubljana"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5662885"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AC-Mobil, d.o.o. Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336643"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001C64NUBHZ22507"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "BANEX d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5348382"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BANEX"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336645"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004MKYW3MV3MK778"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SIMING, Ljubljana, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5325846000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SIMING, Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004RDM1NST8NUK74"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SPORTINA Bled d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5331765000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPORTINA Bled"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336647"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004UKW2VDA0VAU41"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Mersteel, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3307417000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mersteel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005K9UZ2G3JIEY45"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "INTERRA podjetje za financiranje, trgovino in svetovanje d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5499119"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INTERRA podjetje za financiranje, trgovino in svetovanje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336701"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005PGRP51TZ8AC60"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Telemach d.o.o"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3496791"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telemach d.o.o"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336702"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005046DJJLB9YO29"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SMARTIS d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3637735"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SMARTIS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336703"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700510JARBQJFEA36"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "CHS d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5996651000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CHS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157006Q7VGQGZ4ZO252"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ALTEL PCB proizvodnja in trgovina d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1412116000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALTEL PCB proizvodnja in trgovina"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570065DJBT7NJUPM28"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MELTAL IS d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3770109000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MELTAL IS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "950400BF427DD4617640"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MELTAL IS d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3770109000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MELTAL IS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336708"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570067U8TW71NJ1G71"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ELGOLINE d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5323452000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ELGOLINE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336709"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008SW0HQGR9Z2790"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "POLITEX storitve d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5297419000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "POLITEX storitve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336711"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700812NXJXZTXTM08"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "LOGOS TREND zastopanje tujih firm in veleprodaja d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1304305000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LOGOS TREND zastopanje tujih firm in veleprodaja"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009S6IDSS2ZVW283"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "PX ENERGIJA d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6199607000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PX ENERGIJA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466433"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KRZTPE6IXQYU97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HOLDING SLOVENSKE ELEKTRARNE d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700IDAJ2HX9R96545"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ceneje d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558414"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700V867P86EOKSW54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALEF Distribucija SI d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q223191"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VK6GRKP5PW1L35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adria Airways"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779206"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OSVFQK3XISEQ85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ILIRIKA borzno posredniška hiša d.d."
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "ILIRIKA borzno posredniška hiša d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779207"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100UM87L7ILR4L484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INCREMENTUM poslovne storitve d.o.o."
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "INCREMENTUM poslovne storitve d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779208"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100OLL2HA92JDWC71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Orcabay finančne storitve d.o.o."
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Orcabay finančne storitve d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q143017"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H9RLRTRTLRUZ73"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "KRKA, tovarna zdravil, d.d., Novo mesto"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5043611000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Krka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q166873"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KGI78MKHO38N42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zavarovalnica Triglav"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174824"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CAAOUTT4QDOZ16"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "PETROL D.D."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petrol Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q478048"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H1GO5N7BK34P37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Port of Koper"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q738412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X47J0FW574JN34"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "POSLOVNI SISTEM MERCATOR D.D."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mercator"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q738412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X47J0FW574JN34"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "POSLOVNI SISTEM MERCATOR D.D."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mercator"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q848521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001KRYD613GTA170"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Gorenje gospodinjski aparati, d. o. o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5163676000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gorenje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1335433"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003GE7UJGPQAMN79"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "TELEKOM SLOVENIJE, D.D."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telekom Slovenije"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1481509"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001BABFV7P27OW30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NLB Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1958759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VVXGAWG6MCDO69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8537_HRA2271"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Müller"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "DroMaMü"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4052392"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XWRPNT7WD8TK89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unior"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7541831"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100XW7HUXAUEL9960"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Slovenska tiskovna agencija"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5488745000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Slovenian Press Agency"
+      },
+      "shortName" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "STA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12793205"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000WTI9P96I8F80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KD Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12793205"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BYRMGEH57IQL04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KD Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12804409"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KGI78MKHO38N42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Triglav"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19933475"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RU28PG6AU1PJ85"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ETI Elektroelement, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5042178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ETI Elektroelement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30299354"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700J2I1LYLPNGET72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trelleborg Slovenija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30299365"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "747800Z0UCVZ3JBU0N84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cetis (Slovenia)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30299422"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006A9I0754X6PC56"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2172836000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Litostroj Power"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49419742"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FK2RJNEZAU7M84"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "PAPIRNICA VEVČE d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5033721000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Papirnica Vevče"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49419795"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000SWQEL0UUUJ73"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q49419795"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AL71FNWBOG9P18"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Alples, Industrija pohištva, d.d. Železniki"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5039584"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alples, Industrija pohištva, d.d. Železniki"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336585"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BP3GXO4SZGSQ31"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "KGZ KRPAN kmetijsko gozdarska zadruga z.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5808065000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KGZ KRPAN kmetijsko gozdarska zadruga z.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700B6H0HAUW813660"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MAREKS INVEST d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6880797"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAREKS INVEST"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336588"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CI6BRPFWTSWN12"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "LTH Castings, ulitki d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5287073000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LTH Castings, ulitki"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336589"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CKEVJEF3LNT027"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ABD Alagić, zaključna dela v gradbeništvu d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3813193000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ABD Alagić, zaključna dela v gradbeništvu"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336590"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700EF4YB550ODHE18"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "BUTAN PLIN d.d., Ljubljana"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5094933000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BUTAN PLIN d.d., Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336591"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700EVW4OZDX69YT77"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "IMPAKTA d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2259796000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IMPAKTA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336592"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FH6A9N59TUEU76"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ETIS, d.o.o. Ljubljana"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5335434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ETIS, d.o.o. Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336595"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FIIRYUZ4B29Z34"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "HR SVETOVANJE, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1606069000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HR SVETOVANJE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700G3P4J1GG09T233"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SPORT TRADE 2000 d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5322979000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPORT TRADE 2000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336598"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700H7RCZZT2J58R30"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "AVANTEAM, strateški management, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1840282000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AVANTEAM, strateški management"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336599"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700H8AYJ52S9PQN11"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "PRIMORSKA HRANILNICA VIPAVA d.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5214246000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PRIMORSKA HRANILNICA VIPAVA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JUPP1W289DL989"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "METRO trgovska družba d.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5003059000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "METRO trgovska družba"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336602"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700K6BNA9XCRFK424"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SONCE energija obnovljivi viri d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1710460000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SONCE energija obnovljivi viri"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336603"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MJKSYFF93ULK38"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ALPE-PANON, gostinske storitve d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5775256000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALPE-PANON, gostinske storitve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336604"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MO72K3FB2K8F02"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "CHICO PLASTIK d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5574480000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CHICO PLASTIK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336605"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700M7KDPHT2MRN441"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "RAYCAP d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5286948000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RAYCAP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336607"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700M9I30ZFIJXE737"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "PRIGO, d.o.o., Brezovica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5460271000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PRIGO, d.o.o., Brezovica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336608"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NLU59EC9QW5K45"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MIKROCOP d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5346410000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MIKROCOP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336609"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OIJB5KK5XTHS81"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SENSUM d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1554077000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SENSUM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OYQHHRTVBRW552"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ARSING inženiring, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2198487"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ARSING inženiring"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336612"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700O5AN5ELRCKWP83"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "TOMPLAST, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2304708000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TOMPLAST"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336614"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700O61HGHN2ZBCQ77"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "KINGCONSULTING, finančno svetovanje, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3523381000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KINGCONSULTING, finančno svetovanje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336615"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PE5T2OUU0UJT76"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "S&T SLOVENIJA, informacijske rešitve in storitve, d.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5447640000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S&T SLOVENIJA, informacijske rešitve in storitve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336616"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PNXQJESV32IF73"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Cordia d.o.o. DAF CENTER"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5396468000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cordia d.o.o. DAF CENTER"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336618"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PWC33E323PUK02"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "JAVNO PODJETJE LJUBLJANSKI POTNIŠKI PROMET, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5222966000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JAVNO PODJETJE LJUBLJANSKI POTNIŠKI PROMET"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336620"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700P0ZIYZMP650J87"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "DOORS, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1733010000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DOORS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336622"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700QFM5DLUKHKUM69"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MARKPRO d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6189431000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARKPRO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336623"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700QUIW7RLYDTXH40"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "odelo Slovenija d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/201081000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "odelo Slovenija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336625"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700R98OXX4DQ61J96"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MINES IB d.o.o. Kobarid"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5931096000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MINES IB d.o.o. Kobarid"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336627"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700SGSCOUJ9BYPK54"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Zeleni biser, Proizvodnja električne energije iz obnovljivih virov, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6273459000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zeleni biser, Proizvodnja električne energije iz obnovljivih virov"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336628"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700T11IWJ4S6UKR25"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "S-FACTORING, faktoring družba d.d."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2319748000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S-FACTORING, faktoring družba"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700VOUGGQG65DRB29"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "BARSOS-MC d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5591716000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BARSOS-MC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336630"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700V0K18J31VHX944"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "TDR LEGURE, proizvodnja legur, trgovina, storitve d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2271648000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TDR LEGURE, proizvodnja legur, trgovina, storitve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336631"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700W0UBGZ2T7GR379"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MAREX d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5406153000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAREX"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336633"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XAQ39OPJ7B5G56"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Sparkasse Leasing S, družba za financiranje d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3724310000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sparkasse Leasing S, družba za financiranje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336634"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XC33BYOVB0II51"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ANALOŽBE, upravljanje z naložbami, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/2247127"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ANALOŽBE, upravljanje z naložbami"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336635"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YBLDSJTVSQDJ04"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "RARITETA poslovno svetovanje, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5641969000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RARITETA poslovno svetovanje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336636"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Y1NAB69VQ67840"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "A.B.S. Factoring, finančna družba za faktoring d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5719194"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A.B.S. Factoring, finančna družba za faktoring"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336637"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZTE1E5QXS2Z171"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Globalna hrana, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6588476"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Globalna hrana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336638"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000AMGIALLB9SR77"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "POLYCOM Škofja Loka d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5399815000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "POLYCOM Škofja Loka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336640"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000AT2LK0ANY4422"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "BENT EXCELLENT d.o.o. Domžale"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1274104000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BENT EXCELLENT d.o.o. Domžale"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700070TKBY0UVE318"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "DELAMARIS konzervna industrija d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3375790000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DELAMARIS konzervna industrija"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700079UXDI8H7Y386"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "AC-Mobil, d.o.o. Ljubljana"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5662885"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AC-Mobil, d.o.o. Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336643"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001C64NUBHZ22507"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "BANEX d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5348382"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BANEX"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336645"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004MKYW3MV3MK778"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SIMING, Ljubljana, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5325846000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SIMING, Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004RDM1NST8NUK74"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SPORTINA Bled d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5331765000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPORTINA Bled"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336647"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004UKW2VDA0VAU41"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Mersteel, d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3307417000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mersteel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005K9UZ2G3JIEY45"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "INTERRA podjetje za financiranje, trgovino in svetovanje d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5499119"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INTERRA podjetje za financiranje, trgovino in svetovanje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336701"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005PGRP51TZ8AC60"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "Telemach d.o.o"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3496791"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telemach d.o.o"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336702"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157005046DJJLB9YO29"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "SMARTIS d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3637735"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SMARTIS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336703"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700510JARBQJFEA36"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "CHS d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5996651000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CHS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157006Q7VGQGZ4ZO252"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ALTEL PCB proizvodnja in trgovina d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1412116000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALTEL PCB proizvodnja in trgovina"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570065DJBT7NJUPM28"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MELTAL IS d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3770109000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MELTAL IS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "950400BF427DD4617640"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "MELTAL IS d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/3770109000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MELTAL IS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336708"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570067U8TW71NJ1G71"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "ELGOLINE d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5323452000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ELGOLINE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336709"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008SW0HQGR9Z2790"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "POLITEX storitve d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/5297419000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "POLITEX storitve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336711"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700812NXJXZTXTM08"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "LOGOS TREND zastopanje tujih firm in veleprodaja d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/1304305000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LOGOS TREND zastopanje tujih firm in veleprodaja"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009S6IDSS2ZVW283"
+      },
+      "official" : {
+        "xml:lang" : "sl",
+        "type" : "literal",
+        "value" : "PX ENERGIJA d.o.o."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "si/6199607000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PX ENERGIJA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110018159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P6F1BDSFSW5T72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sava Insurance Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110018593"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000CZ9CNFR9I370"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KS NALOŽBE finančne naložbe d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110022239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "4851000025STPWS61L07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SALUS promet s farmacevtskimi, medicinskimi in drugimi proizvodi, d.d., Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110022318"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000B3IAQZ9WMI43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Terme Čatež d.d. Čatež ob Savi"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110022538"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "747800G0NBL9LSLRWX97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "M1, financna druzba, d.d., Ljubljana"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110023371"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000THRSZ0J7CH41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KOMPAS SHOP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110026322"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "48510000T1H6K8NW5369"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PRVA GROUP, insurance holding company, plc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466433"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KRZTPE6IXQYU97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HOLDING SLOVENSKE ELEKTRARNE d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466446"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008ABXZ31HZ1SL34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Interenergo, energetski inženiring, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466451"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900AXYB1IBYBC2C81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GEN-I, trgovanje in prodaja električne energije, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990022XNVSH8933M59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ELEKTRIČNI FINANČNI TIM, prodaja električne energije, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466503"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400VFC3VWLHSN6P88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GEOPLIN d.o.o. Ljubljana, Družba za trgovanje in transport zemeljskega plina"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466504"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A1S48MPPTFDP07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TALUM Tovarna aluminija d.d. Kidričevo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466506"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HSPMKD4KW5YB25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ELEKTRO ENERGIJA, podjetje za prodajo elektrike in drugih energentov, svetovanje in storitve, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466562"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YE00MPPHROSI62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BELEKTRON, svetovanje in trgovina, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466569"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800IUTUJKRABZOQ17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hidroelektrarne na Spodnji Savi, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466736"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007Z7H5XUF6A1158"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VECTAR trgovanje d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466816"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "950400MDK73827DTZ842"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GHG Energy, prodaja plina, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700IDAJ2HX9R96545"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ceneje d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558414"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700V867P86EOKSW54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALEF Distribucija SI d.o.o."
+      }
+    } ]
+  }
+}

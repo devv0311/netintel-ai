@@ -1,0 +1,80 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q583242"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380068TTB6Z9ZEU548"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Playtech"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q583242"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380068TTB6Z9ZEU548"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Playtech"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q583242"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380068TTB6Z9ZEU548"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Playtech"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21006897"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800GNI3K45LQR8L28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "partypoker"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1145004"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002TSG2FEQZOYH72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Randgold Resources"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1145004"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002TSG2FEQZOYH72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Randgold Resources"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1145004"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002TSG2FEQZOYH72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Randgold Resources"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1642605"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WNO9IQTTI4PG55"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rusal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1642605"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WNO9IQTTI4PG55"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rusal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1642605"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WNO9IQTTI4PG55"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rusal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4038038"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LUFXVT8CKW5113"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "En+ Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4038038"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LUFXVT8CKW5113"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "En+ Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4038038"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LUFXVT8CKW5113"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "En+ Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7953597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RM7QHUD3W9DM42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WNS Global Services"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "डब्ल्यूएनएस ग्लोबल सर्विसेज़"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7953597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RM7QHUD3W9DM42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WNS Global Services"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "डब्ल्यूएनएस ग्लोबल सर्विसेज़"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30593544"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138005UBLKEZRITH576"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sanne Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104481392"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001ZPBCI498PEC02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petroineos Trading"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC030825"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109626961"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299007Q99X0945RXA76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CLASS LIMITED"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CLASS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558381"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700REM5QE53ZEJZ57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Three P Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558381"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700REM5QE53ZEJZ57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Three P Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136831526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800TQEVD7NHYQQ475"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CVC Capital Partners VIII (A)"
+      }
+    } ]
+  }
+}

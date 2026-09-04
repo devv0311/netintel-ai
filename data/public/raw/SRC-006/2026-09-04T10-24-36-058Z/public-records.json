@@ -1,0 +1,25 @@
+[
+  {
+    "recordRef": "edgar:929700",
+    "registry": "edgar",
+    "registryRecordId": "929700",
+    "subjectKind": "organisation",
+    "name": "PT Indosat Tbk",
+    "aliases": [
+      "P T INDOSAT TBK",
+      "P T INDONESIAN SATELLITE CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "929700"
+      }
+    ],
+    "jurisdiction": "US-K8",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:35.349Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000929700"
+  }
+]

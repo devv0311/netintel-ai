@@ -135,7 +135,8 @@ partition of any earlier dataset (`reports/ml/final-test-evaluation.json`):
 | Curated hard-negative false merges | 16/244 (6.6%) | **41/244 (16.8%)** |
 
 **Every one of the 46 false merges is a corporate-family pair.** Not
-most — all. `BARCLAYS PLC` / `BARCLAYS BANK PLC`, `ROLLS-ROYCE HOLDINGS
+most — all. On the second frozen test the same holds: **all 28** of this
+model's false merges are corporate-family. `BARCLAYS PLC` / `BARCLAYS BANK PLC`, `ROLLS-ROYCE HOLDINGS
 PLC` / `ROLLS-ROYCE PLC`, `AMUNDI` / `AMUNDI ASSET MANAGEMENT`,
 `Virgin Australia` / `Virgin Australia Holdings`, `Renault` /
 `RENAULT SAS`. The two family features moved this substantially but did
@@ -146,23 +147,44 @@ subsidiary may ever be one entity — and it has not been decided.
 Promoting this score to an authoritative merge would decide it by
 accident, which is the single reason the model remains advisory.
 
-**A second limitation, found on the same test and not yet addressed.**
-The model recovers only 5.7% of cross-border positives (6 of 106) where
-the resolver recovers 50.9%, and it is *worse than the baseline* on
-edgar×wikidata pairs (32.8% vs 65.6%). The cause is a semantic mismatch
-the jurisdiction features paper over: GLEIF's `jurisdiction` is the legal
-jurisdiction of *incorporation* (Jersey, Cyprus, BVI) and EDGAR's is the
-US state of incorporation, while Wikidata's P17 is the country the entity
-is *associated with*. `CAPITAL COM SV INVESTMENTS LIMITED` (CY) and
-`Capital.com` (AU) are one company incorporated offshore and operating
-onshore, and `jurisdictionCountryConflict` reads that as evidence against
-identity at weight −1.12.
+**A second limitation, confirmed on a second untouched test, with a
+known fix that is not shipped.** The model recovers only 5.7% of
+cross-border positives (6 of 106) where the resolver recovers 50.9%, and
+it is *worse than the baseline* on edgar×wikidata pairs (32.8% vs 65.6%).
 
-This was found by reading the final test's breakdown, so **it must not be
-fixed by tuning against that test** — doing so would spend the only
-unbiased instrument available, which is the mistake P6.25 was partly
-about correcting. The fix is to distinguish the two properties at
-collection time and re-measure on a fresh test. See
+P6.26 re-measured this on a second frozen test built from 40 country
+queries disjoint from every prior collection (16,675 pairs, 1,792
+positives, leakage PASS 13/13, **0 subjects fitted on by any earlier
+build**). The gap reproduced independently: **5.1%** cross-border
+recovery, 2 of 39.
+
+**The cause stated here was wrong, and the real one is measured.** The
+semantic mismatch below is real but accounts for **one** training pair.
+The actual cause is distributional: in v2's training data
+P(positive | different countries) is **1.0%** against **47.0%** for
+same-country — a 48× likelihood ratio against identity, correctly learned
+from a corpus holding 26 cross-border positives.
+
+Collecting 340 real cross-border positives (NetEase KY/CN, Tencent KY/CN,
+Elsevier NL/IT) and retraining closes it: **46.2% cross-border recovery**
+against the resolver's 48.7%, and edgar×wikidata rises above the resolver
+at 61.5%. That model is **not shipped**: it recovers 82 fewer real pairs
+overall, and 5 of its 25 false merges are wholly unrelated entities
+merged on shared spelled-out legal forms (`Sabiedrība ar ierobežotu
+atbildību`), a worse failure class than the corporate-family pairs above.
+Full record, both columns, in
+[`ml-cross-border-experiment.md`](./ml-cross-border-experiment.md).
+
+The original diagnosis, kept because it is the thing that was tested:
+GLEIF's `jurisdiction` is the legal jurisdiction of *incorporation*
+(Jersey, Cyprus, BVI) and EDGAR's is the US state of incorporation, while
+Wikidata's P17 is the country the entity is *associated with*.
+`CAPITAL COM SV INVESTMENTS LIMITED` (CY) and `Capital.com` (AU) are one
+company incorporated offshore and operating onshore, and
+`jurisdictionCountryConflict` reads that as evidence against identity at
+weight −1.12. GLEIF publishes the headquarters country alongside the
+jurisdiction; comparing those instead resolves 1 of 642 training
+positives. See also
 [`ml-evaluation-and-error-analysis.md`](./ml-evaluation-and-error-analysis.md) §5.
 
 ## 7. Data

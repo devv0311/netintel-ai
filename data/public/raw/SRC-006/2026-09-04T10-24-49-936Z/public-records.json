@@ -1,0 +1,64 @@
+[
+  {
+    "recordRef": "edgar:1338607",
+    "registry": "edgar",
+    "registryRecordId": "1338607",
+    "subjectKind": "organisation",
+    "name": "REPLY INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1338607"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:48.722Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001338607"
+  },
+  {
+    "recordRef": "edgar:1826018",
+    "registry": "edgar",
+    "registryRecordId": "1826018",
+    "subjectKind": "organisation",
+    "name": "ROVER GROUP, INC.",
+    "aliases": [
+      "Nebula Caravel Acquisition Corp."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1826018"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:48.722Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826018"
+  },
+  {
+    "recordRef": "edgar:1648416",
+    "registry": "edgar",
+    "registryRecordId": "1648416",
+    "subjectKind": "organisation",
+    "name": "Ferrari N.V.",
+    "aliases": [
+      "NEW BUSINESS NETHERLANDS N.V."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1648416"
+      }
+    ],
+    "jurisdiction": "US-P7",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:48.722Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001648416"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "sourceId": "SRC-006",
+  "endpoint": "https://data.sec.gov/submissions",
+  "request": "GET https://data.sec.gov/submissions/CIK<10-digit>.json for 4 CIK(s); company block only, filings never read",
+  "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+  "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+  "retrievedAt": "2026-09-04T10:24:38.802Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "70baf3481b7c19090b862fabf03bfd1bf47ff670500598118b395771dac075e1",
+  "rawBytes": 200295,
+  "sourcePayloads": [
+    {
+      "file": "submissions-0000311669.json",
+      "sha256": "2346903fa51d00b1cfbd28fe9af3f3f56daf819e8a67cd08d9a459e73a177e12",
+      "bytes": 108434,
+      "records": 1,
+      "storedAt": "raw/submissions-0000311669.json"
+    },
+    {
+      "file": "submissions-0001398500.json",
+      "sha256": "63648d10b1959d0e79031a7eb60effe64186a481c0c636b8f95b6c30392d8c2e",
+      "bytes": 3501,
+      "records": 1,
+      "storedAt": "raw/submissions-0001398500.json"
+    },
+    {
+      "file": "submissions-0001096692.json",
+      "sha256": "a46576263725995c92e3e26f6850b613b499af356fd89768d358b689ad0a92ea",
+      "bytes": 6618,
+      "records": 1,
+      "storedAt": "raw/submissions-0001096692.json"
+    },
+    {
+      "file": "submissions-0000925464.json",
+      "sha256": "63dc534d0f7edf46787c39dfab91c908731b97585e333af92089ccae0ddbd329",
+      "bytes": 81742,
+      "records": 1,
+      "storedAt": "raw/submissions-0000925464.json"
+    }
+  ],
+  "recordCount": 4,
+  "recordsSha256": "1ae99423842b00f0215a58bc91746863c5ca917bfc228621ac151b990d3840d1",
+  "warnings": [
+    "1 of 4 record(s) carry at least one SEC-stated former name."
+  ]
+}

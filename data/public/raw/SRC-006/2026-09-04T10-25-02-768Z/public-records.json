@@ -1,0 +1,82 @@
+[
+  {
+    "recordRef": "edgar:1279956",
+    "registry": "edgar",
+    "registryRecordId": "1279956",
+    "subjectKind": "organisation",
+    "name": "YARA INTERNATIONAL ASA",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1279956"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:00.711Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001279956"
+  },
+  {
+    "recordRef": "edgar:1371723",
+    "registry": "edgar",
+    "registryRecordId": "1371723",
+    "subjectKind": "organisation",
+    "name": "WILH. WILHELMSEN",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1371723"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:00.711Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001371723"
+  },
+  {
+    "recordRef": "edgar:1437736",
+    "registry": "edgar",
+    "registryRecordId": "1437736",
+    "subjectKind": "organisation",
+    "name": "Prosafe SE/ADR",
+    "aliases": [
+      "Prosafe SE"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1437736"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:00.711Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437736"
+  },
+  {
+    "recordRef": "edgar:1126216",
+    "registry": "edgar",
+    "registryRecordId": "1126216",
+    "subjectKind": "organisation",
+    "name": "NTS, INC.",
+    "aliases": [
+      "XFONE INC.",
+      "XFONE INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1126216"
+      }
+    ],
+    "jurisdiction": "US-NV",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:00.711Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001126216"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "recordRef": "gleif:2138001H1M69RFJCSH88",
+    "registry": "gleif",
+    "registryRecordId": "2138001H1M69RFJCSH88",
+    "subjectKind": "organisation",
+    "name": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"НАЦИОНАЛЬНАЯ КОМПАНИЯ \"КАЗМУНАЙГАЗ\"",
+    "aliases": [
+      "KAZMUNAYGAS NC JSC",
+      "KAZMUNAYGAS NATIONAL COMPANY JOINT-STOCK COMPANY"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138001H1M69RFJCSH88"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000416",
+        "value": "020240000555"
+      }
+    ],
+    "observedAt": "2026-08-12T16:05:14.000Z",
+    "jurisdiction": "KZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:05.242Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138001H1M69RFJCSH88"
+  },
+  {
+    "recordRef": "gleif:213800JKJ5HJWYS4GR61",
+    "registry": "gleif",
+    "registryRecordId": "213800JKJ5HJWYS4GR61",
+    "subjectKind": "organisation",
+    "name": "SOLIDCORE RESOURCES PLC",
+    "aliases": [
+      "POLYMETAL INTERNATIONAL PLC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800JKJ5HJWYS4GR61"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000919",
+        "value": "230840900131"
+      }
+    ],
+    "observedAt": "2025-11-20T12:33:57.000Z",
+    "jurisdiction": "KZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:05.242Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800JKJ5HJWYS4GR61"
+  }
+]

@@ -1,0 +1,181 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1361530"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900J9F41PU70ANE36"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिल्टी"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Hilti AG"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8020001009122"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hilti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1361530"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900J9F41PU70ANE36"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिल्टी"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Hilti AG"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/8020001009122"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hilti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DTB9L3WM24JG95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Powertica Commodities"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779173"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QH6TWSXWH0XM44"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "ZEUS Anstalt für Vermögensverwaltung"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZEUS Anstalt für Vermögensverwaltung"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779174"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7KDSOB6Z0X4S67TMX170"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "LGT Bank AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LGT Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779175"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RQOBT3ZJMDRK43"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Bank Frick AG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Frick"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139496414"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900M9UEOOG175ZP17"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "li/FL-0001-111-031-9"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fürstlich Schwarzenberg'sche Familienstiftung"
+      }
+    } ]
+  }
+}

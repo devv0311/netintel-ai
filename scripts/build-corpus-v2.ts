@@ -46,8 +46,44 @@ import path from "node:path";
 import { normalizeName } from "@/lib/resolution/name-normalization";
 
 const ROOT = process.cwd();
-const OUT = "evidence/expanded-v2";
+
+const arg = (name: string, fallback: string): string => {
+  const i = process.argv.indexOf(`--${name}`);
+  return i >= 0 && process.argv[i + 1] ? (process.argv[i + 1] as string) : fallback;
+};
+
+/**
+ * Parameterised rather than copied.
+ *
+ * v3 is this same corpus widened with a targeted cross-border collection.
+ * The labelling rules must be identical to v2's character for character —
+ * a corpus expansion that also moves the definition of a positive is two
+ * experiments wearing one name — so the way to guarantee that is to run
+ * the same code, not to fork it and promise.
+ */
+const OUT = arg("out", "evidence/expanded-v2");
+const CORPUS_BASENAME = arg("corpus-basename", "expanded-v2");
+const CORPUS_NAME = arg("corpus-name", "expanded-cross-source-anchored-v2");
+const CORPUS_VERSION = arg("corpus-version", "2.0.0");
+const EXPERIMENT = arg("experiment", "P6.25 expanded cross-source corpus v2");
 const PRIOR_TRUTH = "evidence/expanded/expanded.ground-truth.json";
+
+/**
+ * Datasets whose subjects must not appear in this corpus AT ALL, dropped
+ * at the record level before a single pair is formed.
+ *
+ * Empty for v2, which was built before the P6.25 final test existed. v3
+ * passes the final test here: a training corpus that contains the frozen
+ * test's entities cannot be trained on safely, and excluding the records
+ * outright is stronger than promoting the subjects to held-out, because
+ * it removes them from the mined and sampled negatives too — which are
+ * DERIVED from whatever records the corpus holds, and were the leak the
+ * final-test builder found the hard way.
+ */
+const EXCLUDE_SUBJECTS_FROM = arg("exclude-subjects-from", "")
+  .split(",")
+  .map((v) => v.trim())
+  .filter((v) => v.length > 0);
 /**
  * Every dataset whose TEST partition this build must PROMOTE out of
  * train/validation — the record of what each frozen test ACTUALLY
@@ -185,8 +221,41 @@ function main(): void {
   for (const r of Object.values(priorTruth.surrogateMap)) for (const l of r.leis) reserved.add(l);
 
   const touchesReserved = (r: Rec) => idsOf(r, "LEI").some((l) => reserved.has(l));
-  const excluded = all.filter(touchesReserved);
-  const kept = all.filter((r) => !touchesReserved(r));
+
+  /* ---- exclude every subject a frozen test already holds ---- */
+  const frozenSubjects = new Set<string>();
+  const frozenProvenance: { dataset: string; subjects: number }[] = [];
+  for (const priorPath of EXCLUDE_SUBJECTS_FROM) {
+    const prior = JSON.parse(fs.readFileSync(path.join(ROOT, priorPath), "utf8")) as {
+      pairs: { subject?: string; subjectA?: string; subjectB?: string }[];
+      partitionOfSubject?: Record<string, string>;
+    };
+    let added = 0;
+    const see = (subject: string | undefined) => {
+      if (subject && !frozenSubjects.has(subject)) {
+        frozenSubjects.add(subject);
+        added++;
+      }
+    };
+    for (const pair of prior.pairs) {
+      see(pair.subject);
+      see(pair.subjectA);
+      see(pair.subjectB);
+    }
+    // Both the pairs AND the partition map. Reading only the pairs is what
+    // let three subjects cross between the v2 dataset and the P6.25 final
+    // test: a subject can be assigned a partition and still emit no pair,
+    // and a pair-only scan cannot see it.
+    for (const subject of Object.keys(prior.partitionOfSubject ?? {})) see(subject);
+    frozenProvenance.push({ dataset: priorPath, subjects: added });
+  }
+  const touchesFrozen = (r: Rec) =>
+    idsOf(r, "LEI").some((v) => frozenSubjects.has(`LEI:${v}`)) ||
+    idsOf(r, "CIK").some((v) => frozenSubjects.has(`CIK:${v}`));
+
+  const excluded = all.filter((r) => touchesReserved(r) || touchesFrozen(r));
+  const kept = all.filter((r) => !touchesReserved(r) && !touchesFrozen(r));
+  const droppedAsFrozen = all.filter((r) => !touchesReserved(r) && touchesFrozen(r)).length;
 
   /* ---- undetermined: a record contradicting itself on a mergeable scheme ---- */
   const undetermined = kept.filter((r) => new Set(idsOf(r, "LEI")).size > 1)
@@ -400,7 +469,7 @@ function main(): void {
 
   fs.mkdirSync(path.join(ROOT, OUT), { recursive: true });
   const corpus = {
-    corpus: { name: "expanded-cross-source-anchored-v2", version: "2.0.0", seed: null, generatedAt: new Date().toISOString(),
+    corpus: { name: CORPUS_NAME, version: CORPUS_VERSION, seed: null, generatedAt: new Date().toISOString(),
       description: "REAL collected public-register records from THREE approved publishers (GLEIF SRC-002, Wikidata SRC-001, SEC EDGAR SRC-006; CC0 1.0 / US public domain), merged across every collection run. Adds the publisher-stated country (Wikidata P17 -> P297) that the P6.24 corpus lacked entirely, so jurisdiction is comparable across publishers. ANCHORED regime: GLEIF keeps the LEI it issues, every other record is stripped, so the shared identifier is unavailable and name evidence is actually exercised. Names, official names and aliases are verbatim publisher strings; NO variant is manufactured. Never to be mixed with Operation DarkNet Delhi, the synthetic fixtures, or the P6.16 no-identifier corpus." },
     investigation: { name: "Expanded cross-source resolution corpus v2 (anchored)", status: "in_progress" },
     evidenceSources: [...new Set(scorable.map((r) => r.registry))].map((k) => ({ key: k, label: `${k} public records (real, anchored)`, sourceType: "structured_dataset" })),
@@ -409,13 +478,16 @@ function main(): void {
     communicationEvents: [],
     financialTransactions: [],
   };
-  fs.writeFileSync(path.join(ROOT, OUT, "expanded-v2-anchored.corpus.json"), `${JSON.stringify(corpus, null, 2)}\n`);
+  fs.writeFileSync(path.join(ROOT, OUT, `${CORPUS_BASENAME}-anchored.corpus.json`), `${JSON.stringify(corpus, null, 2)}\n`);
 
   const truth = {
-    experiment: "P6.25 expanded cross-source corpus v2",
+    experiment: EXPERIMENT,
     dataClass: "REAL",
     builtFrom: { wikidata: wd.dirs, gleif: gl.dirs, edgar: ed.dirs },
     collectionRuns: { wikidata: wd.runs, gleif: gl.runs, edgar: ed.runs },
+    ...(EXCLUDE_SUBJECTS_FROM.length > 0
+      ? { excludedFrozenTestSubjects: frozenProvenance, excludedFrozenTestRecords: droppedAsFrozen }
+      : {}),
     sources: [
       { sourceId: "SRC-001", registry: "wikidata", license: "CC0 1.0", licenseUrl: "https://www.wikidata.org/wiki/Wikidata:Data_access", channels: [...new Set(wd.manifests.map((m) => m.retrievalChannel))] },
       { sourceId: "SRC-002", registry: "gleif", license: "CC0 1.0", licenseUrl: "https://www.gleif.org/en/meta/lei-data-terms-of-use", channels: [...new Set(gl.manifests.map((m) => m.retrievalChannel))] },
@@ -453,7 +525,7 @@ function main(): void {
       ocids: [...new Set(idsOf(r, "OPENCORPORATES"))],
     }])),
   };
-  fs.writeFileSync(path.join(ROOT, OUT, "expanded-v2.ground-truth.json"), `${JSON.stringify(truth, null, 2)}\n`);
+  fs.writeFileSync(path.join(ROOT, OUT, `${CORPUS_BASENAME}.ground-truth.json`), `${JSON.stringify(truth, null, 2)}\n`);
 
   if (ADOPT_RUNS) {
     const pin = {
@@ -483,6 +555,9 @@ function main(): void {
   console.log("=".repeat(74));
   console.log("P6.25.1  EXPANDED CROSS-SOURCE CORPUS v2");
   console.log("=".repeat(74));
+  if (EXCLUDE_SUBJECTS_FROM.length > 0) {
+    console.log(`excluded - frozen-test subject ${droppedAsFrozen} record(s) over ${frozenSubjects.size} subject(s) from ${EXCLUDE_SUBJECTS_FROM.join(", ")}`);
+  }
   console.log(`collection runs merged       gleif ${gl.runs}, wikidata ${wd.runs}, edgar ${ed.runs}`);
   console.log(`rows read across runs        ${gl.rowsRead + wd.rowsRead + ed.rowsRead}`);
   console.log(`distinct records             ${all.length}  (gleif ${gl.records.length}, wikidata ${wd.records.length}, edgar ${ed.records.length})`);
@@ -501,7 +576,7 @@ function main(): void {
   console.log(`\nsplit: ${JSON.stringify(splitCount)}  over ${Object.keys(split).length} subjects`);
   console.log(`   inherited ${inherited}   newly assigned ${assigned}   carried forward ${carriedForward}`);
   console.log(`   promoted to heldout because the P6.24 frozen test contained them: ${promotedFromFrozenTest}`);
-  console.log(`\nwritten: ${OUT}/expanded-v2-anchored.corpus.json`);
-  console.log(`written: ${OUT}/expanded-v2.ground-truth.json`);
+  console.log(`\nwritten: ${OUT}/${CORPUS_BASENAME}-anchored.corpus.json`);
+  console.log(`written: ${OUT}/${CORPUS_BASENAME}.ground-truth.json`);
 }
 main();

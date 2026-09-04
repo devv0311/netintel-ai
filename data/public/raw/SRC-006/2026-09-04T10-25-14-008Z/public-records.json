@@ -1,0 +1,61 @@
+[
+  {
+    "recordRef": "edgar:1224389",
+    "registry": "edgar",
+    "registryRecordId": "1224389",
+    "subjectKind": "organisation",
+    "name": "TITAN MACHINERY INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1224389"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:11.918Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001224389"
+  },
+  {
+    "recordRef": "edgar:1162226",
+    "registry": "edgar",
+    "registryRecordId": "1162226",
+    "subjectKind": "organisation",
+    "name": "HIGH TECH INDUSTRIES INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1162226"
+      }
+    ],
+    "jurisdiction": "US-CO",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:11.918Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001162226"
+  },
+  {
+    "recordRef": "edgar:1826018",
+    "registry": "edgar",
+    "registryRecordId": "1826018",
+    "subjectKind": "organisation",
+    "name": "ROVER GROUP, INC.",
+    "aliases": [
+      "Nebula Caravel Acquisition Corp."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1826018"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:11.918Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826018"
+  }
+]

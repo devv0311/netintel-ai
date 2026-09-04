@@ -1,0 +1,385 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493719"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900X9GQZM6UGXYF10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Síminn"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493719"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900X9GQZM6UGXYF10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Síminn"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q662664"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RIL4VBPDB0M7Z3KXSF19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arion Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q662664"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "RIL4VBPDB0M7Z3KXSF19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arion Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1063464"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GM65LBINUNMK73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Landsbanki"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1063464"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GM65LBINUNMK73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Landsbanki"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1195916"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300K5GD3JPA2LLG98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Bank of Iceland"
+      },
+      "official" : {
+        "xml:lang" : "fo",
+        "type" : "literal",
+        "value" : "Seðlabanki Íslands"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1646597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800K2AVTAFWJ4DP64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Össur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1646597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800K2AVTAFWJ4DP64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Össur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1646597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800K2AVTAFWJ4DP64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Össur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2937983"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008YTLEN09WTHW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2937983"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008YTLEN09WTHW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2937983"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008YTLEN09WTHW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3278622"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UMI5MBLZSXGL15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Icelandair Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3278622"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UMI5MBLZSXGL15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Icelandair Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30266588"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500D85A45CTF9C408"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kerecis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "is/6510070620"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466691"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F3B51AE1AF7R20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kria Energy ehf"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115285691"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6367002A48DZS0VPSB77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sena"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "is/5102051380"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115285691"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6367002A48DZS0VPSB77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sena"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "is/5102051380"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140521495"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "967600SM27FQVOIXI208"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arev verðbréfafyrirtæki"
+      }
+    } ]
+  }
+}

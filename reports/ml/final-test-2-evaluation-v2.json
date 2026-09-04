@@ -1,0 +1,378 @@
+{
+  "evaluation": "P6.24.4 frozen held-out evaluation",
+  "dataClass": "REAL",
+  "ranAt": "2026-09-04T10:37:26.450Z",
+  "artifact": {
+    "path": "models/cipher-er-pair-classifier.v2.json",
+    "sha256": "8948a73fa3d5640a978eb80fd1dddd623bdf286c8a6ae03e8d63f0d37b706e22",
+    "modelId": "cipher-er-pair-classifier",
+    "modelVersion": "2.0.0",
+    "experimentId": "E2-logistic-regression",
+    "modelKind": "logistic_regression",
+    "decisionThreshold": 0.9774753387972909,
+    "thresholdPolicy": "Chosen on the validation partition as the threshold maximising F1 subject to a false-merge rate no higher than the deterministic resolver's on the same partition (0.0013), AND no higher than that resolver's false-merge rate over the CURATED HARD NEGATIVES alone (1/25 = 0.0400). The second ceiling exists because hard negatives are 25 of the partition's negatives, so an overall ceiling alone barely constrains the pairs a merge decision actually turns on. The held-out partition was not consulted.",
+    "gitCommit": "6599c70e0a07b8383f914c11eacc2018212fd1ae",
+    "datasetId": "cipher-er-pairs",
+    "datasetVersion": "2.0.0"
+  },
+  "heldOut": {
+    "partition": "test",
+    "pairs": 16675,
+    "positives": 1792,
+    "negatives": 14883,
+    "curatedHardNegatives": 716,
+    "minedHardNegatives": 6999,
+    "sampledNegatives": 7168,
+    "subjects": 1917
+  },
+  "headline": {
+    "model": {
+      "truePositives": 1464,
+      "falsePositives": 28,
+      "trueNegatives": 14855,
+      "falseNegatives": 328,
+      "threshold": 0.9774753387972909,
+      "precision": 0.9812332439678284,
+      "recall": 0.8169642857142857,
+      "f1": 0.8915956151035322,
+      "falseMergeRate": 0.0018813411274608614,
+      "falseSplitRate": 0.18303571428571427,
+      "rocAuc": 0.9893,
+      "prAuc": 0.9641,
+      "positivePairRecovery": "1464/1792"
+    },
+    "deterministicBaseline": {
+      "truePositives": 346,
+      "falsePositives": 9,
+      "trueNegatives": 14874,
+      "falseNegatives": 1446,
+      "threshold": 0.5,
+      "precision": 0.9746478873239437,
+      "recall": 0.19308035714285715,
+      "f1": 0.3223102002794597,
+      "falseMergeRate": 0.0006047167909695626,
+      "falseSplitRate": 0.8069196428571429,
+      "rocAuc": null,
+      "prAuc": null,
+      "positivePairRecovery": "346/1792",
+      "note": "The shipped resolver's Tier B/B2 rule replayed at pair level. NOT the 70.7% figure from the earlier 75-pair India-filtered corpus, which is a different dataset and not comparable."
+    },
+    "deltaRecallPoints": 62.4,
+    "deltaFalseMergeRatePoints": 0.128
+  },
+  "falseMergeByNegativeClass": [
+    {
+      "labelClass": "hard_negative",
+      "negatives": 716,
+      "modelFalseMerges": 25,
+      "modelFalseMergeRate": 0.034916201117318434,
+      "deterministicFalseMerges": 9,
+      "deterministicFalseMergeRate": 0.012569832402234637
+    },
+    {
+      "labelClass": "mined_hard_negative",
+      "negatives": 6999,
+      "modelFalseMerges": 3,
+      "modelFalseMergeRate": 0.0004286326618088298,
+      "deterministicFalseMerges": 0,
+      "deterministicFalseMergeRate": 0
+    },
+    {
+      "labelClass": "sampled_negative",
+      "negatives": 7168,
+      "modelFalseMerges": 0,
+      "modelFalseMergeRate": 0,
+      "deterministicFalseMerges": 0,
+      "deterministicFalseMergeRate": 0
+    }
+  ],
+  "hardNegativeFalseMergeRate": {
+    "denominator": 7715,
+    "model": 28,
+    "modelPct": "0.36%",
+    "deterministic": 9,
+    "deterministicPct": "0.12%"
+  },
+  "falseSplitRate": {
+    "model": "328/1792",
+    "modelPct": "18.30%",
+    "deterministic": "1446/1792",
+    "deterministicPct": "80.69%"
+  },
+  "breakdowns": [
+    {
+      "dimension": "name variation (ground-truth class)",
+      "slices": {
+        "partial token overlap": {
+          "positives": 408,
+          "model": 236,
+          "deterministic": 0,
+          "modelPct": "57.8%",
+          "deterministicPct": "0.0%"
+        },
+        "legal suffix or punctuation": {
+          "positives": 130,
+          "model": 119,
+          "deterministic": 130,
+          "modelPct": "91.5%",
+          "deterministicPct": "100.0%"
+        },
+        "exact / near-exact": {
+          "positives": 216,
+          "model": 208,
+          "deterministic": 216,
+          "modelPct": "96.3%",
+          "deterministicPct": "100.0%"
+        },
+        "containment": {
+          "positives": 892,
+          "model": 839,
+          "deterministic": 0,
+          "modelPct": "94.1%",
+          "deterministicPct": "0.0%"
+        },
+        "divergent": {
+          "positives": 146,
+          "model": 62,
+          "deterministic": 0,
+          "modelPct": "42.5%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "source pairing",
+      "slices": {
+        "gleif x wikidata": {
+          "positives": 1766,
+          "model": 1451,
+          "deterministic": 331,
+          "modelPct": "82.2%",
+          "deterministicPct": "18.7%"
+        },
+        "edgar x wikidata": {
+          "positives": 26,
+          "model": 13,
+          "deterministic": 15,
+          "modelPct": "50.0%",
+          "deterministicPct": "57.7%"
+        }
+      }
+    },
+    {
+      "dimension": "abbreviation / acronym",
+      "slices": {
+        "no acronym match": {
+          "positives": 1792,
+          "model": 1464,
+          "deterministic": 346,
+          "modelPct": "81.7%",
+          "deterministicPct": "19.3%"
+        }
+      }
+    },
+    {
+      "dimension": "name order",
+      "slices": {
+        "not a pure reordering": {
+          "positives": 1758,
+          "model": 1430,
+          "deterministic": 346,
+          "modelPct": "81.3%",
+          "deterministicPct": "19.7%"
+        },
+        "reordered tokens, same multiset": {
+          "positives": 34,
+          "model": 34,
+          "deterministic": 0,
+          "modelPct": "100.0%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "legal suffix",
+      "slices": {
+        "other": {
+          "positives": 1662,
+          "model": 1345,
+          "deterministic": 216,
+          "modelPct": "80.9%",
+          "deterministicPct": "13.0%"
+        },
+        "suffix or punctuation only": {
+          "positives": 130,
+          "model": 119,
+          "deterministic": 130,
+          "modelPct": "91.5%",
+          "deterministicPct": "100.0%"
+        }
+      }
+    },
+    {
+      "dimension": "script",
+      "slices": {
+        "same script": {
+          "positives": 1781,
+          "model": 1458,
+          "deterministic": 346,
+          "modelPct": "81.9%",
+          "deterministicPct": "19.4%"
+        },
+        "different script": {
+          "positives": 11,
+          "model": 6,
+          "deterministic": 0,
+          "modelPct": "54.5%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "publisher aliases present",
+      "slices": {
+        "neither side has aliases": {
+          "positives": 1791,
+          "model": 1464,
+          "deterministic": 346,
+          "modelPct": "81.7%",
+          "deterministicPct": "19.3%"
+        },
+        "at least one side has aliases": {
+          "positives": 1,
+          "model": 0,
+          "deterministic": 0,
+          "modelPct": "0.0%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "jurisdiction",
+      "slices": {
+        "both stated, same country": {
+          "positives": 1740,
+          "model": 1451,
+          "deterministic": 318,
+          "modelPct": "83.4%",
+          "deterministicPct": "18.3%"
+        },
+        "both stated, different country": {
+          "positives": 39,
+          "model": 2,
+          "deterministic": 19,
+          "modelPct": "5.1%",
+          "deterministicPct": "48.7%"
+        },
+        "not stated by both publishers": {
+          "positives": 13,
+          "model": 11,
+          "deterministic": 9,
+          "modelPct": "84.6%",
+          "deterministicPct": "69.2%"
+        }
+      }
+    }
+  ],
+  "previouslyKnownRealFailures": [
+    {
+      "pairId": "EN-0001",
+      "names": [
+        "DIAMOND BANK PLC",
+        "Diamond Bank"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.8606,
+      "modelMerges": false,
+      "deterministicMerges": true
+    },
+    {
+      "pairId": "EN-0002",
+      "names": [
+        "LUMINOR BANK AS",
+        "Luminor Bank AS"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.8606,
+      "modelMerges": false,
+      "deterministicMerges": true
+    },
+    {
+      "pairId": "EN-0003",
+      "names": [
+        "LUMINOR BANK AS",
+        "Luminor Bank AS"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.8606,
+      "modelMerges": false,
+      "deterministicMerges": true
+    },
+    {
+      "pairId": "EN-0103",
+      "names": [
+        "LUMINOR BANK AB",
+        "Luminor Bank AS"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.0031,
+      "modelMerges": false,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0124",
+      "names": [
+        "Vinted, UAB",
+        "Vinted Pay, UAB"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.6505,
+      "modelMerges": false,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0129",
+      "names": [
+        "Sabiedriba ar ierobezotu atbildibu \"Santa Monica Networks\"",
+        "Sabiedriba ar ierobezotu atbildibu \"Orawin\""
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.4987,
+      "modelMerges": false,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0130",
+      "names": [
+        "Sabiedriba ar ierobezotu atbildibu \"Santa Monica Networks\"",
+        "SABIEDRIBA AR IEROBEZOTU ATBILDIBU \"OPTIBET\""
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.4827,
+      "modelMerges": false,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0143",
+      "names": [
+        "aktsiaselts TALLINNA SADAM",
+        "Aktsiaselts BALTIKA"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.1705,
+      "modelMerges": false,
+      "deterministicMerges": false
+    }
+  ],
+  "formerNameSlice": {
+    "note": "A former name is a TEMPORAL claim by a single authority. It is not an identity label, was never trained on, and is reported here only so the number is visible.",
+    "pairs": 23
+  },
+  "errorCategoryCounts": {
+    "false_merge_identical_normalised_name": 5,
+    "false_merge_shared_leading_token": 23,
+    "false_split_containment": 53,
+    "false_split_partial_overlap": 191,
+    "false_split_no_shared_token": 84
+  }
+}

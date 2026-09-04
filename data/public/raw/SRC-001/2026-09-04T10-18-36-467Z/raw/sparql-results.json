@@ -1,0 +1,341 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24259"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009JSTRFMR7A8D34"
+      },
+      "shortName" : {
+        "xml:lang" : "ms",
+        "type" : "literal",
+        "value" : "KLK"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kuala Lumpur Kepong Berhad"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900VH5AOK4HHV4I38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bursa Malaysia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221692"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003RZQYJM7QGNE15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petronas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221692"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003RZQYJM7QGNE15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petronas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221692"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003RZQYJM7QGNE15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petronas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q308952"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OXA1QQLTW68560"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malaysia Airlines"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मलेशिया एयरलाइंस"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q308952"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OXA1QQLTW68560"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malaysia Airlines"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मलेशिया एयरलाइंस"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NROGNBV2T1GS07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Negara Malaysia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1129117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "G8NWFN4YP7CR6FOP4886"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tupperware"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1129117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "G8NWFN4YP7CR6FOP4886"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tupperware"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3045976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FYDN5UD7USZW18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CIMB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3045976"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FYDN5UD7USZW18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CIMB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5973440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X7UWHMKP3F4R66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IRC Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5973440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X7UWHMKP3F4R66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IRC Limited"
+      }
+    } ]
+  }
+}

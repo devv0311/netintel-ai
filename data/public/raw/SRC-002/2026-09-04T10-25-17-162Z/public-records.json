@@ -1,0 +1,1684 @@
+[
+  {
+    "recordRef": "gleif:98450016D1DA0D640356",
+    "registry": "gleif",
+    "registryRecordId": "98450016D1DA0D640356",
+    "subjectKind": "organisation",
+    "name": "UNIPRO",
+    "aliases": [
+      "M/S UNIPRO"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "98450016D1DA0D640356"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000754",
+        "value": "02AABFU1480B1ZV"
+      }
+    ],
+    "observedAt": "2025-10-25T11:14:37.000Z",
+    "jurisdiction": "IN",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/98450016D1DA0D640356"
+  },
+  {
+    "recordRef": "gleif:549300IMUCFEWXP6RU11",
+    "registry": "gleif",
+    "registryRecordId": "549300IMUCFEWXP6RU11",
+    "subjectKind": "organisation",
+    "name": "HEADHUNTER GROUP PLC",
+    "aliases": [
+      "ZEMENIK TRADING LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300IMUCFEWXP6RU11"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cy/HE332806"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000161",
+        "value": "ΗΕ 332806"
+      }
+    ],
+    "observedAt": "2025-06-16T15:26:04.000Z",
+    "jurisdiction": "CY",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300IMUCFEWXP6RU11"
+  },
+  {
+    "recordRef": "gleif:894500BWICTDJXSYHA71",
+    "registry": "gleif",
+    "registryRecordId": "894500BWICTDJXSYHA71",
+    "subjectKind": "organisation",
+    "name": "ООО «Азур Эйр»",
+    "aliases": [
+      "AZUR air LLC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "894500BWICTDJXSYHA71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1022401744342"
+      }
+    ],
+    "observedAt": "2023-12-29T18:01:34.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/894500BWICTDJXSYHA71"
+  },
+  {
+    "recordRef": "gleif:253400DYLWR5A6YAWJ69",
+    "registry": "gleif",
+    "registryRecordId": "253400DYLWR5A6YAWJ69",
+    "subjectKind": "organisation",
+    "name": "публичное акционерное общество \"Современный коммерческий флот\"",
+    "aliases": [
+      "PAO SCF",
+      "PAO Sovcomflot",
+      "ПАО \"Совкомфлот\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400DYLWR5A6YAWJ69"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027739028712"
+      }
+    ],
+    "observedAt": "2024-09-30T07:03:45.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400DYLWR5A6YAWJ69"
+  },
+  {
+    "recordRef": "gleif:894500DKUWVBYZLLE651",
+    "registry": "gleif",
+    "registryRecordId": "894500DKUWVBYZLLE651",
+    "subjectKind": "organisation",
+    "name": "АКЦИОНЕРНАЯ КОМПАНИЯ \"АЛРОСА\" (ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)",
+    "aliases": [
+      "JOINT STOCK COMPANY \"ALROSA\" (PUBLIC JOINT STOCK COMPANY)",
+      "АК \"АЛРОСА\" (ПАО)"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "894500DKUWVBYZLLE651"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1021400967092"
+      }
+    ],
+    "observedAt": "2026-06-15T12:01:35.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/894500DKUWVBYZLLE651"
+  },
+  {
+    "recordRef": "gleif:253400DR5QSH8MEGZZ11",
+    "registry": "gleif",
+    "registryRecordId": "253400DR5QSH8MEGZZ11",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Юнипро\"",
+    "aliases": [
+      "PJSC \"Unipro\"",
+      "Public Joint-Stock Company \"Unipro\"",
+      "ПАО \"Юнипро\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400DR5QSH8MEGZZ11"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1058602056985"
+      }
+    ],
+    "observedAt": "2025-05-16T02:01:50.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400DR5QSH8MEGZZ11"
+  },
+  {
+    "recordRef": "gleif:529900U7YWQAAT1QBP44",
+    "registry": "gleif",
+    "registryRecordId": "529900U7YWQAAT1QBP44",
+    "subjectKind": "organisation",
+    "name": "Luxoft Holding, Inc.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900U7YWQAAT1QBP44"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000063",
+        "value": "1014092"
+      }
+    ],
+    "observedAt": "2022-02-09T07:26:08.000Z",
+    "jurisdiction": "VG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900U7YWQAAT1QBP44"
+  },
+  {
+    "recordRef": "gleif:253400C9GSPBSKERRP65",
+    "registry": "gleif",
+    "registryRecordId": "253400C9GSPBSKERRP65",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Мечел\"",
+    "aliases": [
+      "Mechel PAO",
+      "ПАО \"Мечел\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400C9GSPBSKERRP65"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1037703012896"
+      }
+    ],
+    "observedAt": "2026-07-02T02:01:44.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400C9GSPBSKERRP65"
+  },
+  {
+    "recordRef": "gleif:253400VWDGA1977ZTQ68",
+    "registry": "gleif",
+    "registryRecordId": "253400VWDGA1977ZTQ68",
+    "subjectKind": "organisation",
+    "name": "NanduQ PLC",
+    "aliases": [
+      "QIWI PLC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400VWDGA1977ZTQ68"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "cy/HE193010"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000161",
+        "value": "ΗΕ 193010"
+      }
+    ],
+    "observedAt": "2025-10-22T15:55:19.000Z",
+    "jurisdiction": "CY",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400VWDGA1977ZTQ68"
+  },
+  {
+    "recordRef": "gleif:213800FD9J2IHTA7YX78",
+    "registry": "gleif",
+    "registryRecordId": "213800FD9J2IHTA7YX78",
+    "subjectKind": "organisation",
+    "name": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"ГАЗПРОМ\"",
+    "aliases": [
+      "ПАО \"ГАЗПРОМ\"",
+      "ОАО \"ГАЗПРОМ\"",
+      "PUBLIC JOINT STOCK COMPANY \"GAZPROM\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800FD9J2IHTA7YX78"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700070518"
+      }
+    ],
+    "observedAt": "2023-01-25T00:05:30.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800FD9J2IHTA7YX78"
+  },
+  {
+    "recordRef": "gleif:2534005TJN9DX4YWVT97",
+    "registry": "gleif",
+    "registryRecordId": "2534005TJN9DX4YWVT97",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Федеральная гидрогенерирующая компания - РусГидро\"",
+    "aliases": [
+      "\"Public Joint-Stock Company Federal Hydro-Generating Company - RusHydro\"",
+      "PJSC \"RusHydro\"",
+      "ПАО \"РусГидро\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2534005TJN9DX4YWVT97"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1042401810494"
+      }
+    ],
+    "observedAt": "2026-04-02T11:17:09.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2534005TJN9DX4YWVT97"
+  },
+  {
+    "recordRef": "gleif:253400XX5U3XALBF5728",
+    "registry": "gleif",
+    "registryRecordId": "253400XX5U3XALBF5728",
+    "subjectKind": "organisation",
+    "name": "открытое акционерное общество \"Российские железные дороги\"",
+    "aliases": [
+      "Joint Stock Company \"Russian Railways\"",
+      "JSCo \"RZD\"",
+      "ОАО \"РЖД\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400XX5U3XALBF5728"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1037739877295"
+      }
+    ],
+    "observedAt": "2024-05-03T13:34:53.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400XX5U3XALBF5728"
+  },
+  {
+    "recordRef": "gleif:253400PAT768SVJMV121",
+    "registry": "gleif",
+    "registryRecordId": "253400PAT768SVJMV121",
+    "subjectKind": "organisation",
+    "name": "публичное акционерное общество \"Татнефть\" имени В.Д. Шашина",
+    "aliases": [
+      "PJSC TATNEFT n.a. V.D. Shashin",
+      "Public Joint Stock Company TATNEFT named after V.D. Shashin",
+      "ПАО \"Татнефть\" им. В.Д. Шашина"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400PAT768SVJMV121"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1021601623702"
+      }
+    ],
+    "observedAt": "2025-12-25T10:14:48.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400PAT768SVJMV121"
+  },
+  {
+    "recordRef": "gleif:2138002GZLU65FRAC894",
+    "registry": "gleif",
+    "registryRecordId": "2138002GZLU65FRAC894",
+    "subjectKind": "organisation",
+    "name": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СУРГУТНЕФТЕГАЗ\"",
+    "aliases": [
+      "\"SURGUTNEFTEGAS\" PUBLIC JOINT STOCK COMPANY"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138002GZLU65FRAC894"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1028600584540"
+      }
+    ],
+    "observedAt": "2023-01-07T00:05:40.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138002GZLU65FRAC894"
+  },
+  {
+    "recordRef": "gleif:25340067LEEMJ79K8X43",
+    "registry": "gleif",
+    "registryRecordId": "25340067LEEMJ79K8X43",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Группа ЛСР\"",
+    "aliases": [
+      "PJSC LSR Group",
+      "Public Joint Stock Company LSR Group",
+      "ПАО \"Группа ЛСР\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "25340067LEEMJ79K8X43"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "5067847227300"
+      }
+    ],
+    "observedAt": "2025-11-11T08:08:45.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/25340067LEEMJ79K8X43"
+  },
+  {
+    "recordRef": "gleif:213800913TPW32I84456",
+    "registry": "gleif",
+    "registryRecordId": "213800913TPW32I84456",
+    "subjectKind": "organisation",
+    "name": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"НОВОЛИПЕЦКИЙ МЕТАЛЛУРГИЧЕСКИЙ КОМБИНАТ\"",
+    "aliases": [
+      "PJSC NLMK",
+      "PUBLIC JOINT STOCK COMPANY \"NOVOLIPETSK METALLURGICAL COMBINE\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800913TPW32I84456"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1024800823123"
+      }
+    ],
+    "observedAt": "2022-12-01T00:05:29.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800913TPW32I84456"
+  },
+  {
+    "recordRef": "gleif:2138009IXUP41SPL5B50",
+    "registry": "gleif",
+    "registryRecordId": "2138009IXUP41SPL5B50",
+    "subjectKind": "organisation",
+    "name": "VK COMPANY LIMITED",
+    "aliases": [
+      "MAIL.RU GROUP LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138009IXUP41SPL5B50"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000063",
+        "value": "655058"
+      }
+    ],
+    "observedAt": "2025-04-03T15:38:08.000Z",
+    "jurisdiction": "VG",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138009IXUP41SPL5B50"
+  },
+  {
+    "recordRef": "gleif:213800OMCE8QATH73N15",
+    "registry": "gleif",
+    "registryRecordId": "213800OMCE8QATH73N15",
+    "subjectKind": "organisation",
+    "name": "МЕЖДУНАРОДНАЯ КОМПАНИЯ ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"ЛЕНТА\"",
+    "aliases": [
+      "LENTA PLC",
+      "LENTA INTERNATIONAL PUBLIC JOINT-STOCK COMPANY"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800OMCE8QATH73N15"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1213900001545"
+      }
+    ],
+    "observedAt": "2022-11-01T00:05:33.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800OMCE8QATH73N15"
+  },
+  {
+    "recordRef": "gleif:253400XSJ4C01YMCXG44",
+    "registry": "gleif",
+    "registryRecordId": "253400XSJ4C01YMCXG44",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Магнитогорский металлургический комбинат\"",
+    "aliases": [
+      "PJSC MMK",
+      "Public Joint Stock Company Magnitogorsk Iron & Steel Works",
+      "ПАО \"ММК\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400XSJ4C01YMCXG44"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027402166835"
+      }
+    ],
+    "observedAt": "2024-01-18T19:05:42.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400XSJ4C01YMCXG44"
+  },
+  {
+    "recordRef": "gleif:213800HE6VDVJWT85874",
+    "registry": "gleif",
+    "registryRecordId": "213800HE6VDVJWT85874",
+    "subjectKind": "organisation",
+    "name": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"МЕГАФОН\"",
+    "aliases": [
+      "ПАО \"\"МЕГАФОН\"\"",
+      "\"\"MEGAFON\"\" \""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800HE6VDVJWT85874"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027809169585"
+      }
+    ],
+    "observedAt": "2024-02-26T09:32:10.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800HE6VDVJWT85874"
+  },
+  {
+    "recordRef": "gleif:2138008R6GCRVBDFA581",
+    "registry": "gleif",
+    "registryRecordId": "2138008R6GCRVBDFA581",
+    "subjectKind": "organisation",
+    "name": "публичное акционерное общество \"НОВАТЭК\"",
+    "aliases": [
+      "Joint Stock Company \"NOVATEK\"",
+      "JSC \"NOVATEK\"",
+      "ПАО \"НОВАТЭК\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138008R6GCRVBDFA581"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1026303117642"
+      }
+    ],
+    "observedAt": "2026-05-22T08:43:10.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138008R6GCRVBDFA581"
+  },
+  {
+    "recordRef": "gleif:549300LCJ1UJXHYBWI24",
+    "registry": "gleif",
+    "registryRecordId": "549300LCJ1UJXHYBWI24",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Нефтяная компания \"ЛУКОЙЛ\"",
+    "aliases": [
+      "PJSC \"LUKOIL\"",
+      "Public Joint Stock Company \"Oil company \"LUKOIL\"",
+      "ПАО \"ЛУКОЙЛ\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300LCJ1UJXHYBWI24"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700035769"
+      }
+    ],
+    "observedAt": "2025-09-15T13:33:14.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300LCJ1UJXHYBWI24"
+  },
+  {
+    "recordRef": "gleif:549300FUXVT7TF6ZKV71",
+    "registry": "gleif",
+    "registryRecordId": "549300FUXVT7TF6ZKV71",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Полюс\"",
+    "aliases": [
+      "PJSC Polyus",
+      "Public Joint Stock Company Polyus",
+      "ПАО \"Полюс\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300FUXVT7TF6ZKV71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1068400002990"
+      }
+    ],
+    "observedAt": "2025-12-19T09:19:40.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300FUXVT7TF6ZKV71"
+  },
+  {
+    "recordRef": "gleif:253400JPTEEW143W3E47",
+    "registry": "gleif",
+    "registryRecordId": "253400JPTEEW143W3E47",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Горно-металлургическая компания \"Норильский никель\"",
+    "aliases": [
+      "PJSC \"MMC \"NORILSK NICKEL\"",
+      "Public Joint Stock Company \"Mining and Metallurgical Company \"NORILSK NICKEL\"",
+      "ПАО \"ГМК \"Норильский никель\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400JPTEEW143W3E47"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1028400000298"
+      }
+    ],
+    "observedAt": "2026-06-05T08:32:56.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400JPTEEW143W3E47"
+  },
+  {
+    "recordRef": "gleif:213800J17UJJJDGUVF56",
+    "registry": "gleif",
+    "registryRecordId": "213800J17UJJJDGUVF56",
+    "subjectKind": "organisation",
+    "name": "X5 RETAIL GROUP N.V.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800J17UJJJDGUVF56"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "nl/33143036"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000463",
+        "value": "33143036"
+      }
+    ],
+    "observedAt": "2025-12-11T14:38:56.000Z",
+    "jurisdiction": "NL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800J17UJJJDGUVF56"
+  },
+  {
+    "recordRef": "gleif:253400AZ1GVUT9AB6E44",
+    "registry": "gleif",
+    "registryRecordId": "253400AZ1GVUT9AB6E44",
+    "subjectKind": "organisation",
+    "name": "акционерное общество \"Государственная транспортная лизинговая компания\"",
+    "aliases": [
+      "JSC \"GTLK\"",
+      "публичное акционерное общество \"Государственная транспортная лизинговая компания\"",
+      "АО \"ГТЛК\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400AZ1GVUT9AB6E44"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027739407189"
+      }
+    ],
+    "observedAt": "2025-02-25T09:43:03.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400AZ1GVUT9AB6E44"
+  },
+  {
+    "recordRef": "gleif:213800JSZ2UUK4QQK694",
+    "registry": "gleif",
+    "registryRecordId": "213800JSZ2UUK4QQK694",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Акционерная финансовая корпорация \"Система\"",
+    "aliases": [
+      "Sistema PJSFC",
+      "Sistema Public Joint Stock Financial Corporation",
+      "ПАО АФК \"Система\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800JSZ2UUK4QQK694"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700003891"
+      }
+    ],
+    "observedAt": "2025-09-04T09:37:34.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800JSZ2UUK4QQK694"
+  },
+  {
+    "recordRef": "gleif:253400MSLG0NS4C3NB96",
+    "registry": "gleif",
+    "registryRecordId": "253400MSLG0NS4C3NB96",
+    "subjectKind": "organisation",
+    "name": "публичное акционерное общество \"Аэрофлот - российские авиалинии\"",
+    "aliases": [
+      "PJSC \"Aeroflot\"",
+      "Public Joint Stock Company \"Aeroflot - Russian Airlines\"",
+      "ПАО \"Аэрофлот\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400MSLG0NS4C3NB96"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700092661"
+      }
+    ],
+    "observedAt": "2024-01-18T18:48:47.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400MSLG0NS4C3NB96"
+  },
+  {
+    "recordRef": "gleif:2534001D752JPNM0H170",
+    "registry": "gleif",
+    "registryRecordId": "2534001D752JPNM0H170",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Ростелеком\"",
+    "aliases": [
+      "PJSC \"Rostelecom\"",
+      "Public Joint Stock Company \"Rostelecom\"",
+      "Публичное акционерное общество междугородной и международной электрической связи \"Ростелеком\"",
+      "ПАО \"Ростелеком\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2534001D752JPNM0H170"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700198767"
+      }
+    ],
+    "observedAt": "2026-02-17T07:39:16.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2534001D752JPNM0H170"
+  },
+  {
+    "recordRef": "gleif:253400JT3MQWNDKMJE44",
+    "registry": "gleif",
+    "registryRecordId": "253400JT3MQWNDKMJE44",
+    "subjectKind": "organisation",
+    "name": "публичное акционерное общество \"Нефтяная компания \"Роснефть\"",
+    "aliases": [
+      "Rosneft",
+      "Rosneft Oil Company",
+      "ПАО \"НК \"Роснефть\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400JT3MQWNDKMJE44"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700043502"
+      }
+    ],
+    "observedAt": "2025-10-17T08:38:38.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400JT3MQWNDKMJE44"
+  },
+  {
+    "recordRef": "gleif:2534008FX8EXH1FMJA74",
+    "registry": "gleif",
+    "registryRecordId": "2534008FX8EXH1FMJA74",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Мобильные ТелеСистемы\"",
+    "aliases": [
+      "Mobile TeleSystems Public Joint Stock Company",
+      "MTS PJSC",
+      "ПАО \"МТС\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2534008FX8EXH1FMJA74"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700149124"
+      }
+    ],
+    "observedAt": "2026-09-03T02:03:40.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2534008FX8EXH1FMJA74"
+  },
+  {
+    "recordRef": "gleif:2534008CWTSB8JAUM458",
+    "registry": "gleif",
+    "registryRecordId": "2534008CWTSB8JAUM458",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Уралкалий\"",
+    "aliases": [
+      "PJSC Uralkali",
+      "Public Joint Stock Company Uralkali",
+      "ПАО \"Уралкалий\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2534008CWTSB8JAUM458"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1025901702188"
+      }
+    ],
+    "observedAt": "2026-08-05T08:49:10.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2534008CWTSB8JAUM458"
+  },
+  {
+    "recordRef": "gleif:253400QS6NB20B1EVG74",
+    "registry": "gleif",
+    "registryRecordId": "253400QS6NB20B1EVG74",
+    "subjectKind": "organisation",
+    "name": "Общество с ограниченной ответственностью \"ЯНДЕКС\"",
+    "aliases": [
+      "YANDEX Limited Liability Company",
+      "YANDEX LLC",
+      "ООО \"ЯНДЕКС\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400QS6NB20B1EVG74"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700229193"
+      }
+    ],
+    "observedAt": "2025-10-29T10:49:22.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400QS6NB20B1EVG74"
+  },
+  {
+    "recordRef": "gleif:253400KXA9P2AN72P004",
+    "registry": "gleif",
+    "registryRecordId": "253400KXA9P2AN72P004",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Газпром нефть\"",
+    "aliases": [
+      "Gazprom Neft PJSC",
+      "Public Joint Stock Company Gazprom Neft",
+      "ПАО \"Газпром нефть\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400KXA9P2AN72P004"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1025501701686"
+      }
+    ],
+    "observedAt": "2026-08-14T02:06:31.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400KXA9P2AN72P004"
+  },
+  {
+    "recordRef": "gleif:25340053KRUNNYUWF472",
+    "registry": "gleif",
+    "registryRecordId": "25340053KRUNNYUWF472",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"ФосАгро\"",
+    "aliases": [
+      "PJSC \"PhosAgro\"",
+      "Public Joint Stock Company \"PhosAgro\"",
+      "ПАО \"ФосАгро\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "25340053KRUNNYUWF472"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700190572"
+      }
+    ],
+    "observedAt": "2026-04-21T07:16:16.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/25340053KRUNNYUWF472"
+  },
+  {
+    "recordRef": "gleif:253400R9KWF00G0V2542",
+    "registry": "gleif",
+    "registryRecordId": "253400R9KWF00G0V2542",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Акрон\"",
+    "aliases": [
+      "PJSC Acron",
+      "Public Joint Stock Company Acron",
+      "ПАО \"Акрон\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400R9KWF00G0V2542"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1025300786610"
+      }
+    ],
+    "observedAt": "2026-06-16T07:44:29.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400R9KWF00G0V2542"
+  },
+  {
+    "recordRef": "gleif:253400V1H6ART1UQ0N98",
+    "registry": "gleif",
+    "registryRecordId": "253400V1H6ART1UQ0N98",
+    "subjectKind": "organisation",
+    "name": "Банк ВТБ (публичное акционерное общество)",
+    "aliases": [
+      "VTB Bank (PJSC)",
+      "VTB Bank (Public Joint-Stock Company)",
+      "Банк ВТБ (ПАО)"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400V1H6ART1UQ0N98"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027739609391"
+      }
+    ],
+    "observedAt": "2026-05-26T10:33:44.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400V1H6ART1UQ0N98"
+  },
+  {
+    "recordRef": "gleif:253400YGH90JM0RMLU50",
+    "registry": "gleif",
+    "registryRecordId": "253400YGH90JM0RMLU50",
+    "subjectKind": "organisation",
+    "name": "Акционерное общество \"Дальневосточный банк\"",
+    "aliases": [
+      "Far Eastern Bank",
+      "Публичное акционерное общество \"Дальневосточный банк\"",
+      "АО \"Дальневосточный банк\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400YGH90JM0RMLU50"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1022500000786"
+      }
+    ],
+    "observedAt": "2026-08-13T11:17:22.000Z",
+    "jurisdiction": "RU",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400YGH90JM0RMLU50"
+  },
+  {
+    "recordRef": "gleif:25340076UP17XECUF417",
+    "registry": "gleif",
+    "registryRecordId": "25340076UP17XECUF417",
+    "subjectKind": "organisation",
+    "name": "государственная корпорация развития \"ВЭБ.РФ\"",
+    "aliases": [
+      "State Development Corporation \"VEB.RF\"",
+      "VEB.RF",
+      "Государственная корпорация \"Банк развития и внешнеэкономической деятельности (Внешэкономбанк)\"",
+      "ВЭБ.РФ"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "25340076UP17XECUF417"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1077711000102"
+      }
+    ],
+    "observedAt": "2026-06-15T08:57:16.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/25340076UP17XECUF417"
+  },
+  {
+    "recordRef": "gleif:549300WE6TAF5EEWQS81",
+    "registry": "gleif",
+    "registryRecordId": "549300WE6TAF5EEWQS81",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Сбербанк России\"",
+    "aliases": [
+      "Sberbank",
+      "Sberbank of Russia",
+      "ПАО Сбербанк"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300WE6TAF5EEWQS81"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700132195"
+      }
+    ],
+    "observedAt": "2026-06-11T06:54:58.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300WE6TAF5EEWQS81"
+  },
+  {
+    "recordRef": "gleif:2534004L951WTUL81746",
+    "registry": "gleif",
+    "registryRecordId": "2534004L951WTUL81746",
+    "subjectKind": "organisation",
+    "name": "Акционерное общество \"Русский Уголь\"",
+    "aliases": [
+      "Joint-stock company \"Russian Coal\"",
+      "JSC \"Russian Coal\"",
+      "АО \"Русский Уголь\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2534004L951WTUL81746"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1097746061390"
+      }
+    ],
+    "observedAt": "2024-01-18T18:25:24.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2534004L951WTUL81746"
+  },
+  {
+    "recordRef": "gleif:253400FZQ7Z49QZNSG30",
+    "registry": "gleif",
+    "registryRecordId": "253400FZQ7Z49QZNSG30",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Федеральная сетевая компания - Россети\"",
+    "aliases": [
+      "\"Federal Grid Company - Rosseti\", PUBLIC JOINT-STOCK COMPANY",
+      "\"Rosseti\", PJSC",
+      "Публичное акционерное общество \"Федеральная сетевая компания Единой энергетической системы\"",
+      "ПАО \"Россети\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400FZQ7Z49QZNSG30"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1024701893336"
+      }
+    ],
+    "observedAt": "2025-08-15T13:16:17.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400FZQ7Z49QZNSG30"
+  },
+  {
+    "recordRef": "gleif:894500NH5LDB23SI2A38",
+    "registry": "gleif",
+    "registryRecordId": "894500NH5LDB23SI2A38",
+    "subjectKind": "organisation",
+    "name": "Freedom Finance Ukraine",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "894500NH5LDB23SI2A38"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "ua/21654295"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000567",
+        "value": "21654295"
+      }
+    ],
+    "observedAt": "2023-08-01T17:00:32.000Z",
+    "jurisdiction": "UA",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/894500NH5LDB23SI2A38"
+  },
+  {
+    "recordRef": "gleif:253400F8K126F5WX2996",
+    "registry": "gleif",
+    "registryRecordId": "253400F8K126F5WX2996",
+    "subjectKind": "organisation",
+    "name": "КИВИ Банк (акционерное общество)",
+    "aliases": [
+      "QIWI Bank (joint-stock company)",
+      "QIWI Bank (JSC)",
+      "КИВИ Банк (АО)"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400F8K126F5WX2996"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027739328440"
+      }
+    ],
+    "observedAt": "2026-08-04T12:05:00.000Z",
+    "jurisdiction": "RU",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400F8K126F5WX2996"
+  },
+  {
+    "recordRef": "gleif:253400GL21TKKLSCCT84",
+    "registry": "gleif",
+    "registryRecordId": "253400GL21TKKLSCCT84",
+    "subjectKind": "organisation",
+    "name": "Общество с ограниченной ответственностью \"Вайлдберриз Банк\"",
+    "aliases": [
+      "WB Bank",
+      "Wildberries Bank Company Limited",
+      "Общество с ограниченной ответственностью \"Банк Стандарт-Кредит\"",
+      "ООО \"ВБ Банк\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400GL21TKKLSCCT84"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1020100002340"
+      }
+    ],
+    "observedAt": "2026-04-30T08:58:42.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400GL21TKKLSCCT84"
+  },
+  {
+    "recordRef": "gleif:253400PT5760286MJW82",
+    "registry": "gleif",
+    "registryRecordId": "253400PT5760286MJW82",
+    "subjectKind": "organisation",
+    "name": "РОССИЙСКИЙ НАЦИОНАЛЬНЫЙ КОММЕРЧЕСКИЙ БАНК (публичное акционерное общество)",
+    "aliases": [
+      "RNCB",
+      "Russian National Commercial Bank",
+      "РНКБ Банк (ПАО)"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400PT5760286MJW82"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700381290"
+      }
+    ],
+    "observedAt": "2025-06-26T11:10:47.000Z",
+    "jurisdiction": "RU",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400PT5760286MJW82"
+  },
+  {
+    "recordRef": "gleif:315700W801DBQKVMIA62",
+    "registry": "gleif",
+    "registryRecordId": "315700W801DBQKVMIA62",
+    "subjectKind": "organisation",
+    "name": "ZAO Locat Leasing Russia",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700W801DBQKVMIA62"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "7709588755"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "RU",
+    "status": "NULL",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700W801DBQKVMIA62"
+  },
+  {
+    "recordRef": "gleif:315700BMQ60TLPDPFJ37",
+    "registry": "gleif",
+    "registryRecordId": "315700BMQ60TLPDPFJ37",
+    "subjectKind": "organisation",
+    "name": "General Logistic Solutions LLC",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700BMQ60TLPDPFJ37"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1037739005215"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "RU",
+    "status": "NULL",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700BMQ60TLPDPFJ37"
+  },
+  {
+    "recordRef": "gleif:315700C6LDKIOQJ7OZ48",
+    "registry": "gleif",
+    "registryRecordId": "315700C6LDKIOQJ7OZ48",
+    "subjectKind": "organisation",
+    "name": "OOO UniCredit Leasing",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700C6LDKIOQJ7OZ48"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "7710446378"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "RU",
+    "status": "NULL",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700C6LDKIOQJ7OZ48"
+  },
+  {
+    "recordRef": "gleif:315700Y26905XLYUUM93",
+    "registry": "gleif",
+    "registryRecordId": "315700Y26905XLYUUM93",
+    "subjectKind": "organisation",
+    "name": "GOPAK",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700Y26905XLYUUM93"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "LLG"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "RU",
+    "status": "NULL",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700Y26905XLYUUM93"
+  },
+  {
+    "recordRef": "gleif:2534007XNRQ38CWWDP74",
+    "registry": "gleif",
+    "registryRecordId": "2534007XNRQ38CWWDP74",
+    "subjectKind": "organisation",
+    "name": "Общество с ограниченной ответственностью \"Хоум Кредит энд Финанс Банк\"",
+    "aliases": [
+      "HCF Bank",
+      "Home Credit & Finance Bank Limited Liability Company",
+      "ООО \"ХКФ Банк\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2534007XNRQ38CWWDP74"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700280937"
+      }
+    ],
+    "observedAt": "2025-04-09T10:32:45.000Z",
+    "jurisdiction": "RU",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2534007XNRQ38CWWDP74"
+  },
+  {
+    "recordRef": "gleif:253400HYBTF10T9XBR98",
+    "registry": "gleif",
+    "registryRecordId": "253400HYBTF10T9XBR98",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"БАНК УРАЛСИБ\"",
+    "aliases": [
+      "PJSC \"BANK URALSIB\"",
+      "Public joint stock company \"BANK URALSIB\"",
+      "ПАО \"БАНК УРАЛСИБ\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400HYBTF10T9XBR98"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1020280000190"
+      }
+    ],
+    "observedAt": "2026-05-25T09:09:13.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400HYBTF10T9XBR98"
+  },
+  {
+    "recordRef": "gleif:253400EUVJ68M201Y139",
+    "registry": "gleif",
+    "registryRecordId": "253400EUVJ68M201Y139",
+    "subjectKind": "organisation",
+    "name": "Межрегиональный коммерческий банк развития связи и информатики (публичное акционерное общество)",
+    "aliases": [
+      "Interregional Bank for Settlements of the Telecommunications and Postal Services",
+      "Sviaz-Bank",
+      "ПАО АКБ \"Связь-Банк\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400EUVJ68M201Y139"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027700159288"
+      }
+    ],
+    "observedAt": "2024-01-18T18:39:08.000Z",
+    "jurisdiction": "RU",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400EUVJ68M201Y139"
+  },
+  {
+    "recordRef": "gleif:253400M18U5TB02TW421",
+    "registry": "gleif",
+    "registryRecordId": "253400M18U5TB02TW421",
+    "subjectKind": "organisation",
+    "name": "Небанковская кредитная организация акционерное общество \"Национальный расчетный депозитарий\"",
+    "aliases": [
+      "National Settlement Depository",
+      "NSD",
+      "НКО АО НРД"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "253400M18U5TB02TW421"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027739132563"
+      }
+    ],
+    "observedAt": "2026-05-29T06:33:19.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/253400M18U5TB02TW421"
+  },
+  {
+    "recordRef": "gleif:529900HYJEPSBNG1RL03",
+    "registry": "gleif",
+    "registryRecordId": "529900HYJEPSBNG1RL03",
+    "subjectKind": "organisation",
+    "name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"АГР\"",
+    "aliases": [
+      "AGR LLC",
+      "OOO VOLKSWAGEN Group Rus",
+      "OBSESTVO S OGRANICENNOJ OTVETSTVENNOSTU \"AGR\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900HYJEPSBNG1RL03"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1025005336564"
+      }
+    ],
+    "observedAt": "2026-01-09T08:32:03.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900HYJEPSBNG1RL03"
+  },
+  {
+    "recordRef": "gleif:724500GQV9YLNSWECU41",
+    "registry": "gleif",
+    "registryRecordId": "724500GQV9YLNSWECU41",
+    "subjectKind": "organisation",
+    "name": "NORD GOLD PLC",
+    "aliases": [
+      "NORD GOLD UK SOCIETAS / NORD GOLD SE"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "724500GQV9YLNSWECU41"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/13287342"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "13287342"
+      }
+    ],
+    "observedAt": "2025-09-29T10:58:31.000Z",
+    "jurisdiction": "GB",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/724500GQV9YLNSWECU41"
+  },
+  {
+    "recordRef": "gleif:549300XQRN9MR54V1W18",
+    "registry": "gleif",
+    "registryRecordId": "549300XQRN9MR54V1W18",
+    "subjectKind": "organisation",
+    "name": "Международная компания публичное акционерное общество \"Т-Технологии\"",
+    "aliases": [
+      "International Public Joint-Stock Company T-Technologies",
+      "IPJSC T-Technologies",
+      "Международная компания публичное акционерное общество \"ТКС Холдинг\"",
+      "МКПАО \"Т-Технологии\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300XQRN9MR54V1W18"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1242500004383"
+      }
+    ],
+    "observedAt": "2025-10-02T02:07:26.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300XQRN9MR54V1W18"
+  },
+  {
+    "recordRef": "gleif:549300BVSSKP13UVXI08",
+    "registry": "gleif",
+    "registryRecordId": "549300BVSSKP13UVXI08",
+    "subjectKind": "organisation",
+    "name": "Публичное акционерное общество \"Российские сети\"",
+    "aliases": [
+      "PJSC \"ROSSETI\"",
+      "Public Joint stock company \"ROSSETI\"",
+      "ПАО \"Россети\""
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300BVSSKP13UVXI08"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1087760000019"
+      }
+    ],
+    "observedAt": "2024-01-18T19:08:32.000Z",
+    "jurisdiction": "RU",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300BVSSKP13UVXI08"
+  },
+  {
+    "recordRef": "gleif:UNYGG3DC3W0FZQWM1779",
+    "registry": "gleif",
+    "registryRecordId": "UNYGG3DC3W0FZQWM1779",
+    "subjectKind": "organisation",
+    "name": "ИНГ БАНК (ЕВРАЗИЯ) АКЦИОНЕРНОЕ ОБЩЕСТВО",
+    "aliases": [
+      "ING BANK (EURASIA) JOINT STOCK COMPANY",
+      "ING BANK (EURASIA) JSC",
+      "ИНГ БАНК (ЕВРАЗИЯ) АО"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "UNYGG3DC3W0FZQWM1779"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000499",
+        "value": "1027739329375"
+      }
+    ],
+    "observedAt": "2026-06-01T11:22:27.000Z",
+    "jurisdiction": "RU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:14.929Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/UNYGG3DC3W0FZQWM1779"
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "recordRef": "gleif:2549001WW2PV1Y0UEU97",
+    "registry": "gleif",
+    "registryRecordId": "2549001WW2PV1Y0UEU97",
+    "subjectKind": "organisation",
+    "name": "Parque Arauco S A",
+    "aliases": [
+      "PARAUCO"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2549001WW2PV1Y0UEU97"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000787",
+        "value": "94627000-8"
+      }
+    ],
+    "observedAt": "2025-09-09T19:35:55.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2549001WW2PV1Y0UEU97"
+  },
+  {
+    "recordRef": "gleif:529900BJW9B0O6LI2R39",
+    "registry": "gleif",
+    "registryRecordId": "529900BJW9B0O6LI2R39",
+    "subjectKind": "organisation",
+    "name": "Compañía Cervecerías Unidas S.A.",
+    "aliases": [
+      "Compania Cervecerias Unidas S.A."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900BJW9B0O6LI2R39"
+      }
+    ],
+    "observedAt": "2025-12-06T07:16:24.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900BJW9B0O6LI2R39"
+  },
+  {
+    "recordRef": "gleif:549300YM5CWCAUVOPB53",
+    "registry": "gleif",
+    "registryRecordId": "549300YM5CWCAUVOPB53",
+    "subjectKind": "organisation",
+    "name": "ENEL CHILE S.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300YM5CWCAUVOPB53"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000090",
+        "value": "76536353-5"
+      }
+    ],
+    "observedAt": "2025-11-04T14:48:27.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300YM5CWCAUVOPB53"
+  },
+  {
+    "recordRef": "gleif:549300LKH11TFCJLZK20",
+    "registry": "gleif",
+    "registryRecordId": "549300LKH11TFCJLZK20",
+    "subjectKind": "organisation",
+    "name": "ENEL AMERICAS S.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300LKH11TFCJLZK20"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000787",
+        "value": "94271000-3"
+      }
+    ],
+    "observedAt": "2025-11-04T14:49:16.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300LKH11TFCJLZK20"
+  },
+  {
+    "recordRef": "gleif:213800FU5HJ5AXKACP98",
+    "registry": "gleif",
+    "registryRecordId": "213800FU5HJ5AXKACP98",
+    "subjectKind": "organisation",
+    "name": "NOVA AUSTRAL S.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800FU5HJ5AXKACP98"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000787",
+        "value": "96892540-7"
+      }
+    ],
+    "observedAt": "2026-04-23T22:56:09.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800FU5HJ5AXKACP98"
+  },
+  {
+    "recordRef": "gleif:213800MY6QVH4FVLD628",
+    "registry": "gleif",
+    "registryRecordId": "213800MY6QVH4FVLD628",
+    "subjectKind": "organisation",
+    "name": "ANTOFAGASTA PLC",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800MY6QVH4FVLD628"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/01627889"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "01627889"
+      }
+    ],
+    "observedAt": "2025-10-21T16:25:13.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800MY6QVH4FVLD628"
+  },
+  {
+    "recordRef": "gleif:549300QEKV8G0AMNQD28",
+    "registry": "gleif",
+    "registryRecordId": "549300QEKV8G0AMNQD28",
+    "subjectKind": "organisation",
+    "name": "CELULOSA ARAUCO Y CONSTITUCION S A",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300QEKV8G0AMNQD28"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000787",
+        "value": "93458000-1"
+      }
+    ],
+    "observedAt": "2026-05-18T07:21:45.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300QEKV8G0AMNQD28"
+  },
+  {
+    "recordRef": "gleif:549300PVHXUFEIE6LY50",
+    "registry": "gleif",
+    "registryRecordId": "549300PVHXUFEIE6LY50",
+    "subjectKind": "organisation",
+    "name": "ENEL GENERACION CHILE S.A.",
+    "aliases": [
+      "Empresa Nacional de Electricidad S.A."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300PVHXUFEIE6LY50"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000090",
+        "value": "91081000-6"
+      }
+    ],
+    "observedAt": "2025-11-04T14:09:14.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300PVHXUFEIE6LY50"
+  },
+  {
+    "recordRef": "gleif:549300HX3UUDPEFTG707",
+    "registry": "gleif",
+    "registryRecordId": "549300HX3UUDPEFTG707",
+    "subjectKind": "organisation",
+    "name": "LATAM AIRLINES GROUP S.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300HX3UUDPEFTG707"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000787",
+        "value": "89862200-2"
+      }
+    ],
+    "observedAt": "2026-08-04T18:13:09.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300HX3UUDPEFTG707"
+  },
+  {
+    "recordRef": "gleif:549300FK7HEJO33J5N35",
+    "registry": "gleif",
+    "registryRecordId": "549300FK7HEJO33J5N35",
+    "subjectKind": "organisation",
+    "name": "ADMINISTRADORA DE FONDOS DE PENSIONES PROVIDA S.A.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300FK7HEJO33J5N35"
+      }
+    ],
+    "observedAt": "2026-03-06T08:17:09.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300FK7HEJO33J5N35"
+  },
+  {
+    "recordRef": "gleif:TJ88LXZZW5PWIN93ZC81",
+    "registry": "gleif",
+    "registryRecordId": "TJ88LXZZW5PWIN93ZC81",
+    "subjectKind": "organisation",
+    "name": "SOC QUIMICA Y MINERA DE CHILE S A",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "TJ88LXZZW5PWIN93ZC81"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000787",
+        "value": "93007000-9"
+      }
+    ],
+    "observedAt": "2025-12-05T19:19:01.000Z",
+    "jurisdiction": "CL",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:24:08.141Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/TJ88LXZZW5PWIN93ZC81"
+  }
+]

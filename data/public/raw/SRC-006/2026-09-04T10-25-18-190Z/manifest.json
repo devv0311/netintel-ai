@@ -1,0 +1,82 @@
+{
+  "sourceId": "SRC-006",
+  "endpoint": "https://data.sec.gov/submissions",
+  "request": "GET https://data.sec.gov/submissions/CIK<10-digit>.json for 9 CIK(s); company block only, filings never read",
+  "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+  "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+  "retrievedAt": "2026-09-04T10:25:18.190Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "519f185e53146996f4b1038a226ce948956b49b0690bbdc5299e1b1ca6092eae",
+  "rawBytes": 744058,
+  "sourcePayloads": [
+    {
+      "file": "submissions-0000790703.json",
+      "sha256": "d7a87dd69e32e5ae4bb8a8fd00e4dd7c2396ecf193a2cc615f79663ac1f51a72",
+      "bytes": 158830,
+      "records": 1,
+      "storedAt": "raw/submissions-0000790703.json"
+    },
+    {
+      "file": "submissions-0001325378.json",
+      "sha256": "0e94cd36a0e258c99e02618b8fd1e9442599b454f50cabd23f3f3a624272b7c1",
+      "bytes": 3709,
+      "records": 1,
+      "storedAt": "raw/submissions-0001325378.json"
+    },
+    {
+      "file": "submissions-0001668717.json",
+      "sha256": "81cabb2fe4e90bfb940857976c21a4201fa7dd034e9d2ed570ac1ca1fc6bd2f5",
+      "bytes": 59432,
+      "records": 1,
+      "storedAt": "raw/submissions-0001668717.json"
+    },
+    {
+      "file": "submissions-0000077476.json",
+      "sha256": "78a5ef7e21df9d597bd3ae154fa1ecd4b1ec39de2241ddf3baadd577399f4ab9",
+      "bytes": 162290,
+      "records": 1,
+      "storedAt": "raw/submissions-0000077476.json"
+    },
+    {
+      "file": "submissions-0000833444.json",
+      "sha256": "fd5d4f42ab9a3df2cc74fc60ffefd3bc840173d249b95c554419390f95ac1980",
+      "bytes": 158696,
+      "records": 1,
+      "storedAt": "raw/submissions-0000833444.json"
+    },
+    {
+      "file": "submissions-0001477038.json",
+      "sha256": "5234c702e5acaf7dc90059be1f2e947c2e2a1fb46b046c9daf5b2244180d732c",
+      "bytes": 3140,
+      "records": 1,
+      "storedAt": "raw/submissions-0001477038.json"
+    },
+    {
+      "file": "submissions-0001421876.json",
+      "sha256": "ee63a2ed531afc4e56e8abed960e99dca80f628b6c23e301ad8bb1bec8d60e97",
+      "bytes": 87803,
+      "records": 1,
+      "storedAt": "raw/submissions-0001421876.json"
+    },
+    {
+      "file": "submissions-0001091223.json",
+      "sha256": "3feec6c803337ab553f539efcfb6588ac39b666d6c2858836c767a05c4848177",
+      "bytes": 44811,
+      "records": 1,
+      "storedAt": "raw/submissions-0001091223.json"
+    },
+    {
+      "file": "submissions-0001826018.json",
+      "sha256": "0b7fdc43057c102bdb7acd5ef2bd981274e10efd8d1c9502ec41c5c9c2b1d61f",
+      "bytes": 65347,
+      "records": 1,
+      "storedAt": "raw/submissions-0001826018.json"
+    }
+  ],
+  "recordCount": 9,
+  "recordsSha256": "f70dccfa19cc53bc10ed426c7b83304e7e20827518e316b672eab88c70cd2d6d",
+  "warnings": [
+    "6 of 9 record(s) carry at least one SEC-stated former name."
+  ]
+}

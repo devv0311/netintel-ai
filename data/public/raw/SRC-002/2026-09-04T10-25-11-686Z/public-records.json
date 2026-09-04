@@ -1,0 +1,420 @@
+[
+  {
+    "recordRef": "gleif:254900URZ5DLQA930Q93",
+    "registry": "gleif",
+    "registryRecordId": "254900URZ5DLQA930Q93",
+    "subjectKind": "organisation",
+    "name": "ليد تو تشينجز ش.ذ.م.م-منطقة حرة",
+    "aliases": [
+      "LeadToChanges L.L.C-FZ"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900URZ5DLQA930Q93"
+      }
+    ],
+    "observedAt": "2025-12-10T13:30:00.000Z",
+    "jurisdiction": "AE-DU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900URZ5DLQA930Q93"
+  },
+  {
+    "recordRef": "gleif:984500854E13DB5DMB85",
+    "registry": "gleif",
+    "registryRecordId": "984500854E13DB5DMB85",
+    "subjectKind": "organisation",
+    "name": "GULF NAVIGATION HOLDING (P . J . S . C)",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500854E13DB5DMB85"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000573",
+        "value": "10812906"
+      }
+    ],
+    "observedAt": "2026-04-06T23:00:00.000Z",
+    "jurisdiction": "AE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500854E13DB5DMB85"
+  },
+  {
+    "recordRef": "gleif:984500FBB0B5DE9E8827",
+    "registry": "gleif",
+    "registryRecordId": "984500FBB0B5DE9E8827",
+    "subjectKind": "organisation",
+    "name": "AL FARDAN INVESTMENTS LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500FBB0B5DE9E8827"
+      }
+    ],
+    "observedAt": "2021-07-14T20:28:10.000Z",
+    "jurisdiction": "AE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500FBB0B5DE9E8827"
+  },
+  {
+    "recordRef": "gleif:213800BBECR1I9FTPZ70",
+    "registry": "gleif",
+    "registryRecordId": "213800BBECR1I9FTPZ70",
+    "subjectKind": "organisation",
+    "name": "شركة ابوظبي لطاقة المستقبل - ش م خ - مصدر",
+    "aliases": [
+      "ABU DHABI FUTURE ENERGY COMPANY - PJSC - MASDAR"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800BBECR1I9FTPZ70"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000568",
+        "value": "CN-1137318"
+      }
+    ],
+    "observedAt": "2026-08-20T17:06:35.000Z",
+    "jurisdiction": "AE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800BBECR1I9FTPZ70"
+  },
+  {
+    "recordRef": "gleif:549300GS3WHZ4C7AGZ87",
+    "registry": "gleif",
+    "registryRecordId": "549300GS3WHZ4C7AGZ87",
+    "subjectKind": "organisation",
+    "name": "ENERGETECH TRADING FZCO",
+    "aliases": [
+      "ENERGETECH TRADING DMCC",
+      "إنرجيتك تريدينغ ش.م.ح"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300GS3WHZ4C7AGZ87"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000715",
+        "value": "DMCC183541"
+      }
+    ],
+    "observedAt": "2026-06-29T12:18:24.000Z",
+    "jurisdiction": "AE-DU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300GS3WHZ4C7AGZ87"
+  },
+  {
+    "recordRef": "gleif:984500O3EFBA8613AA78",
+    "registry": "gleif",
+    "registryRecordId": "984500O3EFBA8613AA78",
+    "subjectKind": "organisation",
+    "name": "كوبلستون إنرجي م.د.م.س",
+    "aliases": [
+      "COBBLESTONE ENERGY DMCC",
+      "LUZIRA DMCC",
+      "COBBLESTONE ENERGY FZCO"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500O3EFBA8613AA78"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000715",
+        "value": "DMCC-179669"
+      }
+    ],
+    "observedAt": "2026-05-12T09:16:16.000Z",
+    "jurisdiction": "AE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500O3EFBA8613AA78"
+  },
+  {
+    "recordRef": "gleif:254900DP7CY9LMWBVD58",
+    "registry": "gleif",
+    "registryRecordId": "254900DP7CY9LMWBVD58",
+    "subjectKind": "organisation",
+    "name": "Jumeirah Group L.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900DP7CY9LMWBVD58"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000574",
+        "value": "563312"
+      }
+    ],
+    "observedAt": "2022-05-05T12:27:15.000Z",
+    "jurisdiction": "AE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900DP7CY9LMWBVD58"
+  },
+  {
+    "recordRef": "gleif:5493009O1JMLWDLTIC26",
+    "registry": "gleif",
+    "registryRecordId": "5493009O1JMLWDLTIC26",
+    "subjectKind": "organisation",
+    "name": "Abu Dhabi National Oil Company",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493009O1JMLWDLTIC26"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000568",
+        "value": "CN-1250984"
+      }
+    ],
+    "observedAt": "2025-12-26T18:30:59.000Z",
+    "jurisdiction": "AE-AZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493009O1JMLWDLTIC26"
+  },
+  {
+    "recordRef": "gleif:254900RIBCDJSUFG1A11",
+    "registry": "gleif",
+    "registryRecordId": "254900RIBCDJSUFG1A11",
+    "subjectKind": "organisation",
+    "name": "LAZARD, INC.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900RIBCDJSUFG1A11"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/2779795"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "2779795"
+      }
+    ],
+    "observedAt": "2025-11-21T15:08:51.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900RIBCDJSUFG1A11"
+  },
+  {
+    "recordRef": "gleif:213800R42RHUZR883M76",
+    "registry": "gleif",
+    "registryRecordId": "213800R42RHUZR883M76",
+    "subjectKind": "organisation",
+    "name": "ATLAS MARA LIMITED",
+    "aliases": [
+      "ATLAS MARA CO-NVEST LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800R42RHUZR883M76"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000063",
+        "value": "1800950"
+      }
+    ],
+    "observedAt": "2022-03-07T00:06:02.000Z",
+    "jurisdiction": "VG",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800R42RHUZR883M76"
+  },
+  {
+    "recordRef": "gleif:391200ZOAI9BOLGC1D37",
+    "registry": "gleif",
+    "registryRecordId": "391200ZOAI9BOLGC1D37",
+    "subjectKind": "organisation",
+    "name": "init innovation in traffic systems SE",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "391200ZOAI9BOLGC1D37"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "de/B8535_HRB727217"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000296",
+        "value": "HRB 727217"
+      }
+    ],
+    "observedAt": "2026-04-15T13:37:22.000Z",
+    "jurisdiction": "DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/391200ZOAI9BOLGC1D37"
+  },
+  {
+    "recordRef": "gleif:315700478NEUNQR7MU72",
+    "registry": "gleif",
+    "registryRecordId": "315700478NEUNQR7MU72",
+    "subjectKind": "organisation",
+    "name": "Borets International FZE",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700478NEUNQR7MU72"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000573",
+        "value": "DAFZ462"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "AE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700478NEUNQR7MU72"
+  },
+  {
+    "recordRef": "gleif:529900XDPQPWEQ9BGB80",
+    "registry": "gleif",
+    "registryRecordId": "529900XDPQPWEQ9BGB80",
+    "subjectKind": "organisation",
+    "name": "شركة مجموعة الامارات للاتصالات ش.م.ع.",
+    "aliases": [
+      "Emirates Telecommunications Group Company PJSC",
+      "Emirates Telecommunications Group Company PJSC",
+      "shrkt mjmwt alamarat llatsalat sh.m.."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900XDPQPWEQ9BGB80"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000568",
+        "value": "CN-2031235"
+      }
+    ],
+    "observedAt": "2026-01-21T07:07:31.000Z",
+    "jurisdiction": "AE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900XDPQPWEQ9BGB80"
+  },
+  {
+    "recordRef": "gleif:5493009YO1MGVNTJ0W35",
+    "registry": "gleif",
+    "registryRecordId": "5493009YO1MGVNTJ0W35",
+    "subjectKind": "organisation",
+    "name": "LAZARD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5493009YO1MGVNTJ0W35"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "be/0899695289"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000025",
+        "value": "0899.695.289"
+      }
+    ],
+    "observedAt": "2025-08-27T14:27:17.000Z",
+    "jurisdiction": "BE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5493009YO1MGVNTJ0W35"
+  },
+  {
+    "recordRef": "gleif:DF0BVHAOM8TIXBR3S960",
+    "registry": "gleif",
+    "registryRecordId": "DF0BVHAOM8TIXBR3S960",
+    "subjectKind": "organisation",
+    "name": "الاتحاد للطيران ش م ع",
+    "aliases": [
+      "ETIHAD AIRWAYS PJSC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "DF0BVHAOM8TIXBR3S960"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000752",
+        "value": "111100000ADAFZ00315"
+      }
+    ],
+    "observedAt": "2025-10-01T07:49:55.000Z",
+    "jurisdiction": "AE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/DF0BVHAOM8TIXBR3S960"
+  },
+  {
+    "recordRef": "gleif:6HHLXIOGCDNZ4IRAIW26",
+    "registry": "gleif",
+    "registryRecordId": "6HHLXIOGCDNZ4IRAIW26",
+    "subjectKind": "organisation",
+    "name": "CUBIC CORPORATION",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "6HHLXIOGCDNZ4IRAIW26"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_de/2050509"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000602",
+        "value": "2050509"
+      }
+    ],
+    "observedAt": "2023-08-04T15:16:14.000Z",
+    "jurisdiction": "US-DE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:25:10.683Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/6HHLXIOGCDNZ4IRAIW26"
+  }
+]

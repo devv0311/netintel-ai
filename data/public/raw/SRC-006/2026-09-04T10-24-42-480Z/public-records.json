@@ -1,0 +1,58 @@
+[
+  {
+    "recordRef": "edgar:1099590",
+    "registry": "edgar",
+    "registryRecordId": "1099590",
+    "subjectKind": "organisation",
+    "name": "MERCADOLIBRE INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1099590"
+      }
+    ],
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:40.726Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001099590"
+  },
+  {
+    "recordRef": "edgar:904851",
+    "registry": "edgar",
+    "registryRecordId": "904851",
+    "subjectKind": "organisation",
+    "name": "YPF SOCIEDAD ANONIMA",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "904851"
+      }
+    ],
+    "jurisdiction": "US-C1",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:40.726Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000904851"
+  },
+  {
+    "recordRef": "edgar:1395213",
+    "registry": "edgar",
+    "registryRecordId": "1395213",
+    "subjectKind": "organisation",
+    "name": "EDENOR",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1395213"
+      }
+    ],
+    "jurisdiction": "US-C1",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:40.726Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001395213"
+  }
+]

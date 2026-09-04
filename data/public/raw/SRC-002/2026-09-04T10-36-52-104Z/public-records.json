@@ -1,0 +1,64 @@
+[
+  {
+    "recordRef": "gleif:21380068TTB6Z9ZEU548",
+    "registry": "gleif",
+    "registryRecordId": "21380068TTB6Z9ZEU548",
+    "subjectKind": "organisation",
+    "name": "PLAYTECH PLC",
+    "aliases": [
+      "PLAYTECH LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "21380068TTB6Z9ZEU548"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "im/008505V"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000405",
+        "value": "008505V"
+      }
+    ],
+    "observedAt": "2026-09-02T09:33:35.000Z",
+    "jurisdiction": "IM",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:51.317Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/21380068TTB6Z9ZEU548"
+  },
+  {
+    "recordRef": "gleif:213800GNI3K45LQR8L28",
+    "registry": "gleif",
+    "registryRecordId": "213800GNI3K45LQR8L28",
+    "subjectKind": "organisation",
+    "name": "ENTAIN PLC",
+    "aliases": [
+      "GVC HOLDINGS PLC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800GNI3K45LQR8L28"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "im/004685V"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000405",
+        "value": "004685V"
+      }
+    ],
+    "observedAt": "2026-04-21T13:43:14.000Z",
+    "jurisdiction": "IM",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:51.317Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800GNI3K45LQR8L28"
+  }
+]

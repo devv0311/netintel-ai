@@ -1,0 +1,7995 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005003340"
+      },
+      "official" : {
+        "xml:lang" : "ca",
+        "type" : "literal",
+        "value" : "Ferrocarrils de la Generalitat de Catalunya"
+      },
+      "shortName" : {
+        "xml:lang" : "ca",
+        "type" : "literal",
+        "value" : "FGC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrocarrils de la Generalitat de Catalunya"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005003340"
+      },
+      "official" : {
+        "xml:lang" : "ca",
+        "type" : "literal",
+        "value" : "Ferrocarrils de la Generalitat de Catalunya"
+      },
+      "shortName" : {
+        "xml:lang" : "ca",
+        "type" : "literal",
+        "value" : "FGC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrocarrils de la Generalitat de Catalunya"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005003340"
+      },
+      "official" : {
+        "xml:lang" : "oc",
+        "type" : "literal",
+        "value" : "Camins de hèr dera Generalitat de Catalonha"
+      },
+      "shortName" : {
+        "xml:lang" : "ca",
+        "type" : "literal",
+        "value" : "FGC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrocarrils de la Generalitat de Catalunya"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005003340"
+      },
+      "official" : {
+        "xml:lang" : "oc",
+        "type" : "literal",
+        "value" : "Camins de hèr dera Generalitat de Catalonha"
+      },
+      "shortName" : {
+        "xml:lang" : "ca",
+        "type" : "literal",
+        "value" : "FGC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrocarrils de la Generalitat de Catalunya"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83910"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800TDHMV3S37B3C43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Red Nacional de los Ferrocarriles Españoles"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136503"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005017502"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Mango MNG S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mango"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136503"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005017502"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Mango MNG S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mango"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136503"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005017502"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Mango MNG S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mango"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q160229"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EEJH4FEPDBBR25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telefónica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q160229"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EEJH4FEPDBBR25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telefónica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BSYCX13Y0NOTV14V9N85"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Repsol S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BSYCX13Y0NOTV14V9N85"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Repsol S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BSYCX13Y0NOTV14V9N85"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Repsol S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188217"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900C2P7V7P1UGVX95"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "SEAT S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEAT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188217"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900C2P7V7P1UGVX95"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "SEAT S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEAT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q291464"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800R7QMXKF0NFMT29"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "ENAIRE"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENAIRE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q291464"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800R7QMXKF0NFMT29"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "ENAIRE"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENAIRE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q319039"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8ZQH7RR6DBQZIX8PEQ84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abengoa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q319039"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8ZQH7RR6DBQZIX8PEQ84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abengoa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q319730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GKFVWI02JQ5332"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abertis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q319730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GKFVWI02JQ5332"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abertis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q319730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300GKFVWI02JQ5332"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abertis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q329426"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500KMUQ2B6CBAF162"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "DANONE"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Danone"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "fr/552032534"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q332980"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PE1R72Q4A00C43"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Air Europa Líneas Aéreas, S.A.U."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Air Europa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q339142"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930002KP75TLLLNO21"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "ACCIONA, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acciona"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q339142"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930002KP75TLLLNO21"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "ACCIONA, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acciona"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q339142"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930002KP75TLLLNO21"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "ACCIONA, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acciona"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q383711"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LZEZ8EIEK7W207"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dekra SE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8534_HRB734316"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q383711"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LZEZ8EIEK7W207"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dekra SE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8534_HRB734316"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q474690"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "TL2N6M87CW970S5SV098"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Naturgy Energy Group, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naturgy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q474690"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "TL2N6M87CW970S5SV098"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Naturgy Energy Group, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naturgy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q474690"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "TL2N6M87CW970S5SV098"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Naturgy Energy Group, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naturgy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q509062"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005007414"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Inmobiliaria Colonial, SOCIMI, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Inmobiliaria Colonial"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q509062"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005007414"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Inmobiliaria Colonial, SOCIMI, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Inmobiliaria Colonial"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q525955"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800XKAB9VNAVN9425"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sacyr"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q544532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005693107"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAPFRE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q544532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005693107"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAPFRE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q549127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005178328"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "FCC, S.A."
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "FCC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fomento de Construcciones y Contratas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q549127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005178328"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "FCC, S.A."
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "FCC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fomento de Construcciones y Contratas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q549127"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005178328"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "FCC, S.A."
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "FCC"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fomento de Construcciones y Contratas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q578252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LQ598A5RQASA61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "March Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q578252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LQ598A5RQASA61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "March Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q578252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LQ598A5RQASA61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "March Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q608819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300E1NH9FOTLIFI22"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Compañía Española de Petróleos, S.A."
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Cepsa"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Moeve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q608819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300E1NH9FOTLIFI22"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Compañía Española de Petróleos, S.A."
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Cepsa"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Moeve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q608819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300E1NH9FOTLIFI22"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Compañía Española de Petróleos, S.A."
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Cepsa"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Moeve"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q609159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598003MSLCX8JT38V69"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Bolsas Y Mercados Españoles, Sociedad Holding De Mercados Y Sistemas Financieros, SAU"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bolsas y Mercados Españoles"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q621645"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800M9XCA6NR98E873"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Idiada Automotive Technology, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Applus+ IDIADA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500PMK2A2M1SQQ228"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Triodos Bank N.V."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Triodos Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30062415"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q688452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500PMK2A2M1SQQ228"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Triodos Bank N.V."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Triodos Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30062415"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q696061"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598004A3FTY3TEHHN09"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "AMADEUS"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amadeus IT Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "fr/344496252"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q762330"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "SI5RG2M0WQQLZCXKRM20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabadell Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q762330"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "SI5RG2M0WQQLZCXKRM20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabadell Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q762330"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "SI5RG2M0WQQLZCXKRM20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabadell Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q762330"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "SI5RG2M0WQQLZCXKRM20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabadell Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806189"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "K8MS7FD7N5Z2WQ51AZ71"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "BANCO BILBAO VIZCAYA ARGENTARIA, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Bilbao Vizcaya Argentaria"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150002355"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000842180"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806189"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "K8MS7FD7N5Z2WQ51AZ71"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "BANCO BILBAO VIZCAYA ARGENTARIA, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Bilbao Vizcaya Argentaria"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150002355"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000842180"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806189"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "K8MS7FD7N5Z2WQ51AZ71"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "BANCO BILBAO VIZCAYA ARGENTARIA, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Bilbao Vizcaya Argentaria"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150002355"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000842180"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806189"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "K8MS7FD7N5Z2WQ51AZ71"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "BANCO BILBAO VIZCAYA ARGENTARIA, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Bilbao Vizcaya Argentaria"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150002355"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000842180"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806215"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006QMFDDMYWIAM13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Santander Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806215"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006QMFDDMYWIAM13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Santander Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806807"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300685QG7DJS55M76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806807"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300685QG7DJS55M76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806807"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300685QG7DJS55M76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806807"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300685QG7DJS55M76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806808"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "VWMYAEQSTOPNV0SUGU82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankinter"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806808"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "VWMYAEQSTOPNV0SUGU82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankinter"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806808"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "VWMYAEQSTOPNV0SUGU82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankinter"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806808"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "VWMYAEQSTOPNV0SUGU82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankinter"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806808"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "VWMYAEQSTOPNV0SUGU82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bankinter"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q847225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7CUNS533WID6K7DGFI87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CaixaBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q847225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7CUNS533WID6K7DGFI87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CaixaBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q847225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7CUNS533WID6K7DGFI87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CaixaBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q898851"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JEZBUPZKWJGF49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Técnicas Reunidas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q898851"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JEZBUPZKWJGF49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Técnicas Reunidas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q901262"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800HSSNXWRKBK4N60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grifols"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q901262"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800HSSNXWRKBK4N60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grifols"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q924370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005395317"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Obrascón Huarte Lain, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Obrascón Huarte Lain"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q924370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005395317"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Obrascón Huarte Lain, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Obrascón Huarte Lain"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q925132"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930063C6K2TNFL6H10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q944760"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005007996"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Almirall"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1100969"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980037JECHVQDJDT59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Talgo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1106758"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005772356"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Duro Felguera"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1106758"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005772356"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Duro Felguera"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1124060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OU3FQKGM4M2U23"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Enagás, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enagás"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1124060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OU3FQKGM4M2U23"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Enagás, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enagás"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1124060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OU3FQKGM4M2U23"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Enagás, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enagás"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1274362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MUFAH07Q1TAX06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDP Renewables"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1274362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MUFAH07Q1TAX06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDP Renewables"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1274521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800UFQV1WVKBL0028"
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "EFE"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agencia EFE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/28028744"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1274521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800UFQV1WVKBL0028"
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "EFE"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agencia EFE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/28028744"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1408037"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005757903"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "फेरोवियल"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Ferrovial S.E."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrovial"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1408037"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005757903"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "फेरोवियल"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Ferrovial S.E."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrovial"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1408037"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005757903"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "फेरोवियल"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Ferrovial S.E."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrovial"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1419453"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005582721"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acerinox"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1419453"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005582721"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acerinox"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1437502"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5QK37QC7NWOJ8D7WVQ45"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इबरद्रोला"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iberdrola"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001360587"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1437502"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5QK37QC7NWOJ8D7WVQ45"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इबरद्रोला"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iberdrola"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001360587"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1437502"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5QK37QC7NWOJ8D7WVQ45"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इबरद्रोला"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iberdrola"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001360587"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1437502"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5QK37QC7NWOJ8D7WVQ45"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "इबरद्रोला"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iberdrola"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001360587"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1466106"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800U3NGPXSCQHQW54"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Promotora de Informaciones, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo PRISA"
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "PRISA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1466106"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800U3NGPXSCQHQW54"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Promotora de Informaciones, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo PRISA"
+      },
+      "shortName" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "PRISA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1493131"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598004BR8D81D3M1D64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siemens Gamesa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1493131"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598004BR8D81D3M1D64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siemens Gamesa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1493131"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598004BR8D81D3M1D64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siemens Gamesa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1533296"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N94L4D5NDBFG97"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Prosegur Compañía de Seguridad, S.A"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prosegur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1533296"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N94L4D5NDBFG97"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Prosegur Compañía de Seguridad, S.A"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prosegur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1550888"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005558665"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "ACS, Actividades de Construcción y Servicios, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo ACS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1604631"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LM1RW3PKJ4A296"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NH Hotel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1604631"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LM1RW3PKJ4A296"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NH Hotel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1604631"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LM1RW3PKJ4A296"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NH Hotel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1661823"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005308793"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Indra Sistemas, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indra Sistemas"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001438655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1661823"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005308793"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Indra Sistemas, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indra Sistemas"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001438655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1806995"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800NX3KDU67TW0121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Parques Reunidos"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1806995"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800NX3KDU67TW0121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Parques Reunidos"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1806995"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800NX3KDU67TW0121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Parques Reunidos"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1815030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800JRKSZ6YZD4EL80"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Meliá Hotels International S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meliá Hotels International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1815030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800JRKSZ6YZD4EL80"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Meliá Hotels International S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meliá Hotels International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1815030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800JRKSZ6YZD4EL80"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Meliá Hotels International S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meliá Hotels International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1815030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800JRKSZ6YZD4EL80"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Meliá Hotels International S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meliá Hotels International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1958759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VVXGAWG6MCDO69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Müller"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "DroMaMü"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8537_HRA2271"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1958759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VVXGAWG6MCDO69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Müller"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "DroMaMü"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8537_HRA2271"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1993716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800HYXURABCY3F079"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Nissan Motor Iberica, SA"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissan Motor Ibérica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2476154"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005214121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renfe Operadora"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2476154"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005214121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renfe Operadora"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2523016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005319366"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Deoleo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2523016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005319366"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Deoleo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2638120"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005021479"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Grupo Audiovisual Mediaset España Comunicación, S.A.U."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mediaset España"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2638120"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005021479"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Grupo Audiovisual Mediaset España Comunicación, S.A.U."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mediaset España"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2699863"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800920CSSP8XS1H47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telepizza"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2891018"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400XT3V7WHLSFYY25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liberbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2891018"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400XT3V7WHLSFYY25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liberbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2918415"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900XO1NR6U7L1Y209"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Codere New Topco S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Codere"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3118227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005491929"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Atresmedia Corporación de Medios de Comunicación, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atresmedia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3118227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005491929"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Atresmedia Corporación de Medios de Comunicación, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atresmedia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3359411"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800GJ4GQ117JAEO62"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Orange Espagne, S.A.U."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Orange España"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3359411"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800GJ4GQ117JAEO62"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Orange Espagne, S.A.U."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Orange España"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3395741"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005309084"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ence Energía y Celulosa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3395741"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005309084"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ence Energía y Celulosa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4039380"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005484363"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gestamp Automoción"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4039380"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005484363"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gestamp Automoción"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4738898"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "259400T6ZDQIMDBGDN42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AmRest"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "pl/0000320252"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4738898"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "259400T6ZDQIMDBGDN42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AmRest"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "pl/0000320252"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4738898"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "259400T6ZDQIMDBGDN42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AmRest"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "pl/0000320252"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5011660"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005381252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CIE Automotive"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5391923"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800KXDYYZU0G2LB78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mutua de Accidentes de Zaragoza"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5412075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005543824"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Calidad Pascual S.A.U."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Calidad Pascual"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5412861"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800M9XCA6NR98E873"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Applus+"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "dk/28312725"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5612184"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OILC5Q9AR63B63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo Antolin"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/09092305"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5612184"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OILC5Q9AR63B63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grupo Antolin"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/09092305"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5673283"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800GZESQUFLUH5402"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amper"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/28079226"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5788912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800CJH35NNZQQW653"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corporación Financiera Alba"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5907815"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLBL49CW8CT155"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ibercaja"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/84298975"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5907815"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLBL49CW8CT155"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ibercaja"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/84298975"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5907860"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800RG37G8456RGX60"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Iberpapel"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iberpapel Gestion"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5907860"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800RG37G8456RGX60"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Iberpapel"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iberpapel Gestion"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5936881"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800H2P9S8MS95DT42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Catalana Occidente Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5936881"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800H2P9S8MS95DT42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Catalana Occidente Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5936881"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800H2P9S8MS95DT42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Catalana Occidente Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6102203"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800RGBUGJA3UVZZ88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Realia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6157291"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005244385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uralita Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6163869"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005684765"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Viscofan"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6163869"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005684765"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Viscofan"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7096483"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140006024944"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "OPEN BANK S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Openbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7927666"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005630057"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vidal Golosinas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8210862"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800AXZW3EBUY24W90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Azkoyen Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8243253"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800XAM6EXYVCNJ311"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baron de Ley"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9093556"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005399488"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vidrala"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9093556"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005399488"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vidrala"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9598744"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930056IRBXK0Q1FP96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abanca"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9598744"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930056IRBXK0Q1FP96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abanca"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10960940"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800N1575U0SRS5Z65"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Renta Corporación Real Estate, S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renta Corporación"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11171029"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800IMKAUV5KW28586"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "RENTA 4 BANCO S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renta 4 Banco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11171029"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800IMKAUV5KW28586"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "RENTA 4 BANCO S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renta 4 Banco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11919539"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800Z611RK76NEVF32"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "ERCROS SA"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ercros"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "fr/921116463"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11922225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005026620"
+      },
+      "official" : {
+        "xml:lang" : "ca",
+        "type" : "literal",
+        "value" : "Fluidra"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fluidra"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11923129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005615604"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Frit Ravich, S.L."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Frit Ravich"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/17023995"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12255714"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800M2K7RBFGGEGB77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cementos Portland Valderrivas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12257754"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800FXZQY7U3P1G969"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Faes Farma"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12268268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005703680"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tubacex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15842286"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800UN8NUNN51F4Z17"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q15842286"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16302661"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005614537"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unión Fenosa Gas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17624732"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CQ9NLEHMRCU505"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cecabank"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "CECABANK S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17624732"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CQ9NLEHMRCU505"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cecabank"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "CECABANK S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18168341"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900AL535Q7FCWY921"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rover.com"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001826018"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19355139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005247295"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FerroAtlántica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20908850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007SJLLCTM6J6M37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unicaja Banco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20908850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007SJLLCTM6J6M37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unicaja Banco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20908850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007SJLLCTM6J6M37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unicaja Banco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21036382"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005225955"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dominion Global"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21036382"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005225955"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dominion Global"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21081923"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008T4YG3AQUI7P67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cellnex Telecom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28226300"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598000ANNAL42UJ7X28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Logista"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28226309"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800L8KD863DP30X04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Merlin Properties"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "MERLIN Properties SOCIMI, S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28226309"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800L8KD863DP30X04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Merlin Properties"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "MERLIN Properties SOCIMI, S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28970989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RS84KTD4288I48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siemens S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30254492"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930063UZ23FSMS1324"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pfizer SL"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/28089225"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30256166"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800U3NGPXSCQHQW54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Promotora de Informaciones"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30268717"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TLQK6XFFB81P22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AbbVie Spain S.L."
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "AbbVie Spain S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30269143"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598003MRMJHA81QJF20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reig Jofre"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30633368"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980054KLYU31P8V869"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ID Finance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30633368"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980054KLYU31P8V869"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ID Finance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50214585"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800JRJW1CZ63R8P20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cementos Molins"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50214585"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800JRJW1CZ63R8P20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cementos Molins"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60828532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800MAFGMXMGJHCH48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Audax"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60828532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800MAFGMXMGJHCH48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Audax"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60828532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800MAFGMXMGJHCH48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Audax"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60828532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800MAFGMXMGJHCH48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Audax"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60846290"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800EXHG00L95ZAK22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nicolás Correa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63148175"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800FW4JL65YWSQ217"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Neinor Homes"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nenior Homes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "48274567"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65180652"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005936480"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rovi"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Laboratorios Rovi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "रोवी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q67581155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EHZQQMG2AZCZ13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEMEX España"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/46004214"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q67581155"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EHZQQMG2AZCZ13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEMEX España"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/46004214"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80920851"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800UHXKEJX1QC1146"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hoteles Turisticos Unidos"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/08452567"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q87194683"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800E63JZVSR8S8P81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maeva"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "es/78064706"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q87762175"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980055G5SNZPX8NJ90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HC Marbella International Hospital"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HC Marbella International Hospital"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HC Marbella"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q90119469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800MLRQ27AHDJDG39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Factor Energia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q90119469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800MLRQ27AHDJDG39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Factor Energia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96399023"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800QWKZ45ZQC2AV58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PharmaMar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96399023"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800QWKZ45ZQC2AV58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PharmaMar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97573128"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800L9M5M17NQQBE85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freepik"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Magnific"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97573128"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800L9M5M17NQQBE85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freepik"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Magnific"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107485902"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100VXGA8L6J4ZWG61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Befesa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107485902"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100VXGA8L6J4ZWG61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Befesa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108946845"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800DEQV56LT6FLC39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leask SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110016132"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800V35MGZXBNZP485"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyesa Valores Corporación, S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110018374"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980078NDTDLTDH6130"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alantra Partners, S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110019186"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800CR1BA43ZK65T94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CLÍNICA BAVIERA, S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110020553"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005821826"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Libertas 7 SA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110023040"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800NAFTNQ5VSH4K06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Solarpack"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110024715"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598005H67MP8U20RW81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AEDAS Homes"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110026051"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800L6L2B2GGN73292"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Soltec Power Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110026128"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800WGUAJ7RBWZRY77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Inmobiliaria Del Sur"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110934576"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800DEQV56LT6FLC39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Powerplanet"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111687128"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598001AR4AMMNZ1WR78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corporación Masaveu"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111687128"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598001AR4AMMNZ1WR78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corporación Masaveu"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111841287"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VIPWS827EZUO21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol Butano"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111841288"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300C4E7SC9ILCIW33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol Petróleo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111841289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QTX1QB5KDMCS89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol Química"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WW6KQNSHVCXX37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEPSA GAS Y ELECTRICIDAD, S.A.U"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005607747"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FENIE ENERGIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464313"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300W4VKQKX9GBNP16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGYA VM GESTION DE ENERGIA S.L.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464314"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299007CV5NM5MVOR188"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALPIQ ENERGIA ESPAÑA, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464315"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SC7W4YG8RLMK61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEPSA COMERCIAL PETROLEO, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464316"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002HQS85IRVNQY18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol Comercializadora de Electricidad y Gas, S.L.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464317"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800KYQ9AJ1KPT7K17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JIMTEN"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464318"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WAVG7FR4K2N178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Villar Mir Energia.S.L"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464319"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005973922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIESGO Renovables S.L.U"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464320"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300S5D2AWP1H1PP87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Viesgo Comercializadora de Referencia S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464321"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800221XDBDXELX930"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SERVICIOS ENERGÉTICOS DE ALTA EFICIENCIA, S.A.U"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464323"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DNWCG5QI8NFR34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol Generación Eléctrica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464324"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005948314"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GNERA ENERGIA Y TECNOLOGIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464325"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LSFN8YSR7DCZ12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TERMOPLASTICOS VASSALOS S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464326"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005961021"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ecoparc del Besòs,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464327"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001NHFPCLULFSF50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PLANTA EÓLICA EUROPEA,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464328"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800QN1Q8QGBCU8C65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GIROA S.A:"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464329"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930056OBS0LV2EXW76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enel Green Power España, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464330"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BFKGLC58CEJK54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEPSA GAS COMERCIALIZADORA,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464331"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007NBXS2HJBJI495"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol Trading"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464332"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NFRU34IKER5284"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SHELL ESPAÑA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464333"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005914267"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ESTAMPACIONES METALICAS EPILA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464334"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598004A8RTEQZGK7A83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BASSOLS ENERGIA COMERCIAL SOCIEDAD LIMITADA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000GGZ378WK2X474"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENDESA GENERACION"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464336"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CZ79HKU7MS1H16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GAS Y ELECTRICIDAD GENERACION"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464337"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IRONX5F5IZDY68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENDESA ENERGIA,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464338"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IZ83QL6OSB2R21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BP Gas & Power Iberia, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464339"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ILBIBWI96V6S48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGIA XXI COMERCIALIZADORA DE REFERENCIA, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464340"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005907865"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IBERDROLA ENERGIA ESPAÑA, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464342"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "F6WVXETRO72NKWGJ5E23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IBERDROLA GENERACIÓN, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464344"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SJREBVNAILRD15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CURENERGIA COMERCIALIZADOR DE ÚLTIMO RECURSO, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464345"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800BSKU5QLTNYY546"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gas Natural Comercializadora,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464346"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OZT2AJ5VBSD288"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AXPO IBERIA S.L.U."
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Axpo Iberia SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464346"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OZT2AJ5VBSD288"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AXPO IBERIA S.L.U."
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Axpo Iberia SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005689130"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ELECTRA ENERGÍA, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464348"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930070W8XSY31XK130"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Red Eléctrica de España"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464349"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FRQ67TC5L12751"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Repsol LNG Holding,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464350"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004XKMB1ASQLXT26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENGIE España, S.L.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464351"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598000LS1ADBWA2GA16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WATIUM, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464354"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005936383"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ContourGlobal La Rioja SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464352"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300203SZ3SRZZ4V89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LA UNION ELECTRO INDUSTRIAL SLU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464353"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005561866"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GeoAtlanter, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464355"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KSJ91UU515HQ62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SOLVAY QUIMICA S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464356"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005311315"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Switch Energy SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464357"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800VKA8OF2G91X349"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renta 4 SA SV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464358"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YJSFCLXHDBMF33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agri-Energia,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464359"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O2SZL3XF11I355"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nexus Energia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464360"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300047O5MKCO3K960"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wind to Market,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YENFNR57ZJ3X76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abener Energía"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800N2ZCGRBBM5B749"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rolwind Huelva 1, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464363"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IXFZZEMZKGPC79"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Explotaciones Eólicas El Puerto"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464364"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "543900QJY8K4632JSO73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alumina Española"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464365"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O7WZAPOGMJNE46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SAN FRANCISCO DE BORJA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464366"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800N1ZS4MW1PWVY10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NATURGY APROVISIONAMIENTOS,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464367"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZMRJ2BOFYXV684"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDP Renewables Europe, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464368"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005629960"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SONATRACH GAS COMERCIALIZADORA SAU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464369"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930089KS7B3ATTWL16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENGIE Castelnou, S.L.U"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800YCXBCDRSW1RS44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AUDAX ENERGIA,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464371"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800KJ04UA2WBGRY39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GENERACION IBERIA, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005491638"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acciona Green Energy Developments S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464373"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005614731"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENI ESPAÑA  COMERCIALIZADORA DE GAS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464374"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800QDD7CSG53RZM77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GALP ENERGÍA ESPAÑA, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464375"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140006009036"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sacyr Industrial, S.L.U"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464376"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800E5P1M95CCEXN28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Laboil Energía, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464377"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "948500B9747B8A7CCD56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGÍA EOLICA BOREAS S.L.U"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464378"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006NH5N1IWIS8Y06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGYWORKS CARTAGENA, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464379"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800G87R0QRRNW4T87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GIGABUSINESS, S.L.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464380"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800HGGCQUMG7QQ683"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nabalia Energía 2000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464381"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005482035"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Empresa de Alumbrado Eléctrico de Ceuta,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464382"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800BHJECMPTY6B041"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Insignia Gas SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464383"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598000C5XWV7RQSX121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALCANZIA ENERGIA S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930002N4JRCZDPMG48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dow Chemical Ibérica SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464386"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008Z5E4WQLV3QX88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGYWORKS VIT- VALL, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464387"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005966453"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aldro Energia y Soluciones, S.L.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464388"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980084VRYFBRST0F06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IBERDROLA CLIENTES, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005715320"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZABALGARBI,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464390"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002Z2X3T0GLKMD22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alcoa Inespal Coruña SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464391"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005041849"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CELTICA ENERGIA S.L"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464392"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800ZLLJG0DJZ9N430"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COMERCIALIZADORA LERSA, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464393"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598006PV48W8CAHQR45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dreue Electric, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464394"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800EF0HYHJ0S78Z76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGIA DLR COMERCIALIZADORA, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464395"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900E8S0S0RE6GF413"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BASER COMERCIALIZADORA DE REFERENCIA, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464396"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800T32BHS2V8LGF48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGYA VM ENERGIAS ESPECIALES S.L.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464397"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005743256"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CORPORACION ALIMENTARIA GUISSONA,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464398"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930072UQYBEHQOJ329"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGYWORKS ARANDA, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004K3IJ5KNKRYY78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDP ESPAÑA, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464400"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EZM38Z5CWPPG07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rofeica Energia,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464401"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800SFFWZ3HDJURR98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INER ENERGÍA CASTILLA LA MANCHA, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464402"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800TETSWV270L1B73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGYA VM GENERACION S.L.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464403"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800354G1CWV1A1H71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SAMPOL INGENIERIA Y OBRAS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464404"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NYVM6WC386W906"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TOTALENERGIES CLIENTES, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464405"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005883518"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Molinos del Ebro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464406"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VE9OXVRI9N3W65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Solvay Energy Services Iberica, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464407"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800ADMBL5LL2S7P46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NEOELECTRA ENERGIA SLU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464408"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005811350"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HOLALUZ-CLIDOM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464410"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B0BJ8DMT1LWO90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aluminio Español SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KK9V2YKD6ZWK15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TOTALENERGIES MERCADO, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WGZA7CV1MOAW53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDP ENERGÍA GAS, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464414"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QVNUOYZVIGGK38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilma Oil Trading, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464415"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XJERYFRMOP7O39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BP Oil España SAU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464628"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800PZFP78BUGST028"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PARQUES EOLICOS ALTO LAYNA S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020X2CDM0M1F194"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PRONAT SOC COOP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464631"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800K03L4K396AFS18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Extractos Vegetales"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464632"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LRT2443GDGNC57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indulleida"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464633"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800CSUXQTRL7ZNL47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ESTACION CENTRAL DE AUTOBUSES DE ZARAGOZA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464634"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800LEC14H9FJBNQ26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AVANGREEN ENERGY SOLUTIONS SAU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464635"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005535482"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CANDY SPAIN, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464636"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800KGPA0XJZGYRC51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AZTECA PRODUCTS & SERVICES S.L.U"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464637"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800W3NV2Z38CSUB59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CALCINOR SERVICIOS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464638"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ED8OJNF4XB8H37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pavilion Energy Spain S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464639"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800A02EEHCM9ZVL33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PSFV-CARTUJA, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464640"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800572MDKGVGBTF28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COMERCIAL DE FIBRAS TEXTILES DE TERRASSA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464641"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980025HLKKJ2HP6D03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CERAMICA HERMANOS HERNANDEZ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800Z93QS31ZZ9MN38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MAZARRON TEJAS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464643"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598009UZM9KPP56M356"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CALERA DE ALTZO S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464644"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598002D9Q8NRRNE6T08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CLAVERIA ALCALA BINEFAR S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464645"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500CRG6ZP1JKNF206"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RICO BERBEGAL HNOS. S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800679KAUND98L219"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TAUTRA ENERGIA S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464647"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800KPJCUBCXXCFV29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GENERACION FOTOVOLTAICA DE BARGAS SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464648"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800NNTM8S181ATA29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SCALEVANTE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598005VA03BFR70PC67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AMEFRUITS S.L"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800MNGP9NS4JJMC20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AQUONA GESTION DE AGUAS DE CASTILLA SAU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464651"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800G5ZANUAB4DE310"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIAQUA GESTION INTEGRAL DE AGUAS DE GALICIA SAU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464653"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800EHWN51C4Q7VM09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renovables de la Ribera, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464654"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800N7Y13N58XPYP98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZERMATT POWER SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464655"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500NJRIID34UELU25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UNITEX"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464656"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800NQ2AZCH5Z9K470"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FERIMET, SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464657"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005653240"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bon Preu, S.A.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464658"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800XLAL87K2THE527"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EXTRAGOL, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464659"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800HSZ6R1HTXRE106"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GOMA CAMPS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464661"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800EEWXDP023B2D84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bonete Fotovoltaica 1, S.L.U"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464662"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800FF9N68ZC3ZXP02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CENTRAL SOLAR TERMOELECTRICA CÁCERES"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464663"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598007YJ9FL2P7ACC04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RALOS INVESTMENT FOTOVOLTÁICO SUR, S.L.U."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464664"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800GEK47TUQAMYC11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EMOTION SMART MOBILITY, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464666"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001DXQ2HKYW8KD35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EOLICA VALLE DEL EBRO,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464667"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800P0CKAMA431B582"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Planta FV 102, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464668"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800BMATBWMEWHT587"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Planta FV 100, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464669"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800TPRL9871GDLN35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INER EUSKADI, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800XE3RV0L0UMEU42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SUMINISTRADOR IBERICO DE ENERGIA, SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464671"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800EYGMB4ZQ03YU78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LUZ SOLIDARIA, SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464672"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800646DDJYFSBBL65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conecta Energia Verde, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464673"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005719685"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DERIVADOS ASFALTICOS NORMALIZADOS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464674"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800R1ZFYNFMZ2YS29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RAMILO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464675"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800L5G08R60C8YA87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TEXTIL OLIUS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464676"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800662KY286F33Q92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ACAPERSA 1997 SL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464677"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945007WOURBHO1NRI64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGREEN MOBILITY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464678"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800K86VBA4DBHB910"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LIBERT ENERGIA S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464679"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800Q24KD2AY67G108"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SIROCCO WINCO 2, S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464680"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9598003D90WB480UXY12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dolomitas del Norte"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464681"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800GEMVY3SVG8C716"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BLACKHOLE ENERGY S.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464682"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "959800RRRMFGNBWP1B66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SOLA RICCA EXTREMADURA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113464683"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002DCBEEOKGD4042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CAMPSA ESTACIONES DE SERVICIO"
+      }
+    } ]
+  }
+}

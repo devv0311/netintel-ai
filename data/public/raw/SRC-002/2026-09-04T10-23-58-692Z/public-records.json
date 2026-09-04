@@ -1,0 +1,2807 @@
+[
+  {
+    "recordRef": "gleif:315700F0NM0QAY7IGN64",
+    "registry": "gleif",
+    "registryRecordId": "315700F0NM0QAY7IGN64",
+    "subjectKind": "organisation",
+    "name": "BTG Capital Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700F0NM0QAY7IGN64"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C94275"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 94275"
+      }
+    ],
+    "observedAt": "2026-05-18T11:37:52.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700F0NM0QAY7IGN64"
+  },
+  {
+    "recordRef": "gleif:315700OF3PI5D78TJA22",
+    "registry": "gleif",
+    "registryRecordId": "315700OF3PI5D78TJA22",
+    "subjectKind": "organisation",
+    "name": "J&T AIF FUND SICAV P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700OF3PI5D78TJA22"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 472"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "NULL",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700OF3PI5D78TJA22"
+  },
+  {
+    "recordRef": "gleif:315700O70NU25CFZTV76",
+    "registry": "gleif",
+    "registryRecordId": "315700O70NU25CFZTV76",
+    "subjectKind": "organisation",
+    "name": "J&T SICAV, a.s.",
+    "aliases": [
+      "J&T SICAV P.L.C."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700O70NU25CFZTV76"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000163",
+        "value": "24928771"
+      }
+    ],
+    "observedAt": "2026-06-16T10:35:03.000Z",
+    "jurisdiction": "CZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700O70NU25CFZTV76"
+  },
+  {
+    "recordRef": "gleif:315700L36SU5E0AFG451",
+    "registry": "gleif",
+    "registryRecordId": "315700L36SU5E0AFG451",
+    "subjectKind": "organisation",
+    "name": "J&T SICAV, a.s. J&T DIVIDEND podfond",
+    "aliases": [
+      "J&T SICAV P.L.C. - J&T Dividend Fund"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700L36SU5E0AFG451"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000168",
+        "value": "75166569"
+      }
+    ],
+    "observedAt": "2026-06-16T10:35:03.000Z",
+    "jurisdiction": "CZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700L36SU5E0AFG451"
+  },
+  {
+    "recordRef": "gleif:315700JURYYEIM2ZKW97",
+    "registry": "gleif",
+    "registryRecordId": "315700JURYYEIM2ZKW97",
+    "subjectKind": "organisation",
+    "name": "IJC Special Situation Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700JURYYEIM2ZKW97"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700JURYYEIM2ZKW97"
+  },
+  {
+    "recordRef": "gleif:315700S5WYP9AVIMHX21",
+    "registry": "gleif",
+    "registryRecordId": "315700S5WYP9AVIMHX21",
+    "subjectKind": "organisation",
+    "name": "IJC Opportunity Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700S5WYP9AVIMHX21"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700S5WYP9AVIMHX21"
+  },
+  {
+    "recordRef": "gleif:315700CQZT9M3FG79B23",
+    "registry": "gleif",
+    "registryRecordId": "315700CQZT9M3FG79B23",
+    "subjectKind": "organisation",
+    "name": "J&T AIF Fund SICAV P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700CQZT9M3FG79B23"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 472"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700CQZT9M3FG79B23"
+  },
+  {
+    "recordRef": "gleif:315700N4TLZCMSF1PG82",
+    "registry": "gleif",
+    "registryRecordId": "315700N4TLZCMSF1PG82",
+    "subjectKind": "organisation",
+    "name": "Hero Holdings Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700N4TLZCMSF1PG82"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C69662"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 69662"
+      }
+    ],
+    "observedAt": "2026-08-10T09:39:23.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700N4TLZCMSF1PG82"
+  },
+  {
+    "recordRef": "gleif:315700KTHVWPD78RED38",
+    "registry": "gleif",
+    "registryRecordId": "315700KTHVWPD78RED38",
+    "subjectKind": "organisation",
+    "name": "Commerg Ltd",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700KTHVWPD78RED38"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C61678"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 61678"
+      }
+    ],
+    "observedAt": "2026-04-28T07:25:32.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700KTHVWPD78RED38"
+  },
+  {
+    "recordRef": "gleif:315700SXQX0LR88LGZ83",
+    "registry": "gleif",
+    "registryRecordId": "315700SXQX0LR88LGZ83",
+    "subjectKind": "organisation",
+    "name": "Tuffieh Elstar Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700SXQX0LR88LGZ83"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "TUFS-SF706"
+      }
+    ],
+    "observedAt": "2026-05-18T07:56:09.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700SXQX0LR88LGZ83"
+  },
+  {
+    "recordRef": "gleif:315700CX033U26A0P363",
+    "registry": "gleif",
+    "registryRecordId": "315700CX033U26A0P363",
+    "subjectKind": "organisation",
+    "name": "WOOD Waste Management Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700CX033U26A0P363"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C45903"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 45903"
+      }
+    ],
+    "observedAt": "2025-12-15T06:55:00.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700CX033U26A0P363"
+  },
+  {
+    "recordRef": "gleif:315700NKFO6BSG2W2745",
+    "registry": "gleif",
+    "registryRecordId": "315700NKFO6BSG2W2745",
+    "subjectKind": "organisation",
+    "name": "IJC Funds SICAV p.l.c.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700NKFO6BSG2W2745"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 282"
+      }
+    ],
+    "observedAt": "2026-05-12T13:31:36.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700NKFO6BSG2W2745"
+  },
+  {
+    "recordRef": "gleif:315700QYLDVJM80ZVS07",
+    "registry": "gleif",
+    "registryRecordId": "315700QYLDVJM80ZVS07",
+    "subjectKind": "organisation",
+    "name": "Florida Trading Company Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700QYLDVJM80ZVS07"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C68179"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C68179"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700QYLDVJM80ZVS07"
+  },
+  {
+    "recordRef": "gleif:315700F81QCQQ93DTK12",
+    "registry": "gleif",
+    "registryRecordId": "315700F81QCQQ93DTK12",
+    "subjectKind": "organisation",
+    "name": "A-MARK Trading Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700F81QCQQ93DTK12"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C62563"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C62563"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700F81QCQQ93DTK12"
+  },
+  {
+    "recordRef": "gleif:315700JX9SUIBHV41L76",
+    "registry": "gleif",
+    "registryRecordId": "315700JX9SUIBHV41L76",
+    "subjectKind": "organisation",
+    "name": "V-MARK Trading Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700JX9SUIBHV41L76"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C62560"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C62560"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700JX9SUIBHV41L76"
+  },
+  {
+    "recordRef": "gleif:315700EEHQTVG6320W22",
+    "registry": "gleif",
+    "registryRecordId": "315700EEHQTVG6320W22",
+    "subjectKind": "organisation",
+    "name": "ROVA CONSULTING LTD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700EEHQTVG6320W22"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C60752"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C60752"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700EEHQTVG6320W22"
+  },
+  {
+    "recordRef": "gleif:315700FXEDT4U8ER9C29",
+    "registry": "gleif",
+    "registryRecordId": "315700FXEDT4U8ER9C29",
+    "subjectKind": "organisation",
+    "name": "Greenhub Ltd.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700FXEDT4U8ER9C29"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C61047"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 61047"
+      }
+    ],
+    "observedAt": "2026-04-27T06:50:30.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700FXEDT4U8ER9C29"
+  },
+  {
+    "recordRef": "gleif:315700UXWIRVPL7B8E85",
+    "registry": "gleif",
+    "registryRecordId": "315700UXWIRVPL7B8E85",
+    "subjectKind": "organisation",
+    "name": "Executed Vision Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700UXWIRVPL7B8E85"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C50668"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 50668"
+      }
+    ],
+    "observedAt": "2026-05-15T08:54:40.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700UXWIRVPL7B8E85"
+  },
+  {
+    "recordRef": "gleif:549300QIYUX3GA7JGB11",
+    "registry": "gleif",
+    "registryRecordId": "549300QIYUX3GA7JGB11",
+    "subjectKind": "organisation",
+    "name": "Mr Green & Co AB",
+    "aliases": [
+      "Mr Green & Co AB (publ)",
+      "Aktiebolaget Grundstenen 139580",
+      "Iacta Management AB"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300QIYUX3GA7JGB11"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556883-1449"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000544",
+        "value": "556883-1449"
+      }
+    ],
+    "observedAt": "2025-02-06T14:32:00.000Z",
+    "jurisdiction": "SE",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300QIYUX3GA7JGB11"
+  },
+  {
+    "recordRef": "gleif:315700HBPJ61UZBG9N47",
+    "registry": "gleif",
+    "registryRecordId": "315700HBPJ61UZBG9N47",
+    "subjectKind": "organisation",
+    "name": "WOOD FINANCE LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700HBPJ61UZBG9N47"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C69536"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 69536"
+      }
+    ],
+    "observedAt": "2026-08-07T08:49:10.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700HBPJ61UZBG9N47"
+  },
+  {
+    "recordRef": "gleif:315700JQHHGD3W2C3B41",
+    "registry": "gleif",
+    "registryRecordId": "315700JQHHGD3W2C3B41",
+    "subjectKind": "organisation",
+    "name": "BB SERVICES LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700JQHHGD3W2C3B41"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C64893"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 64893"
+      }
+    ],
+    "observedAt": "2026-07-27T11:15:16.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700JQHHGD3W2C3B41"
+  },
+  {
+    "recordRef": "gleif:213800D1MJVOT6SNBX11",
+    "registry": "gleif",
+    "registryRecordId": "213800D1MJVOT6SNBX11",
+    "subjectKind": "organisation",
+    "name": "KINDRED GROUP PLC",
+    "aliases": [
+      "UNIBET GROUP PLC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800D1MJVOT6SNBX11"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C39017"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 39017"
+      }
+    ],
+    "observedAt": "2025-06-30T00:06:21.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800D1MJVOT6SNBX11"
+  },
+  {
+    "recordRef": "gleif:315700JJMRAWDPIP8507",
+    "registry": "gleif",
+    "registryRecordId": "315700JJMRAWDPIP8507",
+    "subjectKind": "organisation",
+    "name": "Metatron Options Trading Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700JJMRAWDPIP8507"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700JJMRAWDPIP8507"
+  },
+  {
+    "recordRef": "gleif:315700HKPFO0UU20TD43",
+    "registry": "gleif",
+    "registryRecordId": "315700HKPFO0UU20TD43",
+    "subjectKind": "organisation",
+    "name": "Wood & Company Central and Eastern European Fund",
+    "aliases": [
+      "WOOD & Company Funds SICAV p.l.c. - Wood & Company Central & Eastern European Sub-Fund"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700HKPFO0UU20TD43"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "WCFS-SF617"
+      }
+    ],
+    "observedAt": "2026-03-19T16:01:18.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700HKPFO0UU20TD43"
+  },
+  {
+    "recordRef": "gleif:315700F9HVT8L8SYO019",
+    "registry": "gleif",
+    "registryRecordId": "315700F9HVT8L8SYO019",
+    "subjectKind": "organisation",
+    "name": "Mediterranean Travel Services Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700F9HVT8L8SYO019"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C66595"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 66595"
+      }
+    ],
+    "observedAt": "2026-07-15T05:55:00.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700F9HVT8L8SYO019"
+  },
+  {
+    "recordRef": "gleif:315700N1R0NP36KYBG63",
+    "registry": "gleif",
+    "registryRecordId": "315700N1R0NP36KYBG63",
+    "subjectKind": "organisation",
+    "name": "Tuffieh Funds Sicav Plc - Commodity Trading Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700N1R0NP36KYBG63"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700N1R0NP36KYBG63"
+  },
+  {
+    "recordRef": "gleif:315700MCK6HNW7L4O683",
+    "registry": "gleif",
+    "registryRecordId": "315700MCK6HNW7L4O683",
+    "subjectKind": "organisation",
+    "name": "Metatron NLS Hedging Fund",
+    "aliases": [
+      "Metatron Global Macro Fund"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700MCK6HNW7L4O683"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "METS-SF756"
+      }
+    ],
+    "observedAt": "2026-02-13T13:31:02.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700MCK6HNW7L4O683"
+  },
+  {
+    "recordRef": "gleif:315700FJI4TT7Y0E9V25",
+    "registry": "gleif",
+    "registryRecordId": "315700FJI4TT7Y0E9V25",
+    "subjectKind": "organisation",
+    "name": "Metatron Emerging and Frontier Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700FJI4TT7Y0E9V25"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700FJI4TT7Y0E9V25"
+  },
+  {
+    "recordRef": "gleif:315700GMBDMBQPS73K10",
+    "registry": "gleif",
+    "registryRecordId": "315700GMBDMBQPS73K10",
+    "subjectKind": "organisation",
+    "name": "Polaris Finance SICAV p.l.c. - Harvest Alpha Capital",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700GMBDMBQPS73K10"
+      }
+    ],
+    "observedAt": "2026-04-27T10:43:59.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700GMBDMBQPS73K10"
+  },
+  {
+    "recordRef": "gleif:315700DD8NCJQOV6YX13",
+    "registry": "gleif",
+    "registryRecordId": "315700DD8NCJQOV6YX13",
+    "subjectKind": "organisation",
+    "name": "Polaris Finance SICAV p.l.c. - Polaris Alpha",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700DD8NCJQOV6YX13"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "POLS-SF716"
+      }
+    ],
+    "observedAt": "2026-08-07T13:52:52.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700DD8NCJQOV6YX13"
+  },
+  {
+    "recordRef": "gleif:315700B68IQEJ6I1JQ76",
+    "registry": "gleif",
+    "registryRecordId": "315700B68IQEJ6I1JQ76",
+    "subjectKind": "organisation",
+    "name": "Polaris Finance SICAV p.l.c.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700B68IQEJ6I1JQ76"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 173"
+      }
+    ],
+    "observedAt": "2026-08-07T13:48:21.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700B68IQEJ6I1JQ76"
+  },
+  {
+    "recordRef": "gleif:315700MZTJRZGFE2NV35",
+    "registry": "gleif",
+    "registryRecordId": "315700MZTJRZGFE2NV35",
+    "subjectKind": "organisation",
+    "name": "Polaris Finance SICAV p.l.c.- Charles Bridge Global Macro Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700MZTJRZGFE2NV35"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "POLS-SF718"
+      }
+    ],
+    "observedAt": "2026-08-10T13:51:29.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700MZTJRZGFE2NV35"
+  },
+  {
+    "recordRef": "gleif:315700CXSHTD5UH5FF68",
+    "registry": "gleif",
+    "registryRecordId": "315700CXSHTD5UH5FF68",
+    "subjectKind": "organisation",
+    "name": "Polaris Finance SICAV p.l.c. - Polaris Omega",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700CXSHTD5UH5FF68"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "POLS-SF719"
+      }
+    ],
+    "observedAt": "2026-08-07T13:52:15.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700CXSHTD5UH5FF68"
+  },
+  {
+    "recordRef": "gleif:315700C5KVLADU8HAG38",
+    "registry": "gleif",
+    "registryRecordId": "315700C5KVLADU8HAG38",
+    "subjectKind": "organisation",
+    "name": "Metatron AI Sector Fund",
+    "aliases": [
+      "Metatron LongShort Equity Fund",
+      "Metatron Short Equity Fund"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700C5KVLADU8HAG38"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "METS-SF758"
+      }
+    ],
+    "observedAt": "2026-02-13T13:41:50.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700C5KVLADU8HAG38"
+  },
+  {
+    "recordRef": "gleif:315700NBCBDH4POXZ266",
+    "registry": "gleif",
+    "registryRecordId": "315700NBCBDH4POXZ266",
+    "subjectKind": "organisation",
+    "name": "Tuffieh Equity Trading Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700NBCBDH4POXZ266"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700NBCBDH4POXZ266"
+  },
+  {
+    "recordRef": "gleif:315700T55NVU7F653O34",
+    "registry": "gleif",
+    "registryRecordId": "315700T55NVU7F653O34",
+    "subjectKind": "organisation",
+    "name": "Tuffieh Wealth Management Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700T55NVU7F653O34"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700T55NVU7F653O34"
+  },
+  {
+    "recordRef": "gleif:315700DNV9M558KASY72",
+    "registry": "gleif",
+    "registryRecordId": "315700DNV9M558KASY72",
+    "subjectKind": "organisation",
+    "name": "J&T Advanced Solutions SICAV p.l.c. - J&T MONEY II Fund",
+    "aliases": [
+      "J&T Advanced Solutions SICAV p.l.c. - J&T High YIELD II FUND"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700DNV9M558KASY72"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "JTAS-SF2643"
+      }
+    ],
+    "observedAt": "2026-04-24T13:58:00.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700DNV9M558KASY72"
+  },
+  {
+    "recordRef": "gleif:315700DYPU1AFZKB5977",
+    "registry": "gleif",
+    "registryRecordId": "315700DYPU1AFZKB5977",
+    "subjectKind": "organisation",
+    "name": "J&T Alternative Investments Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700DYPU1AFZKB5977"
+      }
+    ],
+    "observedAt": "2026-04-24T14:09:16.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700DYPU1AFZKB5977"
+  },
+  {
+    "recordRef": "gleif:315700MZN6IRN5C07D07",
+    "registry": "gleif",
+    "registryRecordId": "315700MZN6IRN5C07D07",
+    "subjectKind": "organisation",
+    "name": "J&T Advanced Solutions SICAV p.l.c. - J&T Credit Opportunities Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700MZN6IRN5C07D07"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "JTAS-SF2713"
+      }
+    ],
+    "observedAt": "2026-04-28T13:16:28.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700MZN6IRN5C07D07"
+  },
+  {
+    "recordRef": "gleif:529900SYUCFQHI3JZQ05",
+    "registry": "gleif",
+    "registryRecordId": "529900SYUCFQHI3JZQ05",
+    "subjectKind": "organisation",
+    "name": "MEDIRECT BANK (MALTA) PLC",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900SYUCFQHI3JZQ05"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C34125"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 34125"
+      }
+    ],
+    "observedAt": "2026-04-16T13:18:06.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900SYUCFQHI3JZQ05"
+  },
+  {
+    "recordRef": "gleif:315700CDNG9QXMGHOO41",
+    "registry": "gleif",
+    "registryRecordId": "315700CDNG9QXMGHOO41",
+    "subjectKind": "organisation",
+    "name": "Tuffieh Ontario Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700CDNG9QXMGHOO41"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "TUFS-SF2922"
+      }
+    ],
+    "observedAt": "2026-05-18T07:53:38.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700CDNG9QXMGHOO41"
+  },
+  {
+    "recordRef": "gleif:315700CXNTW384RDKB36",
+    "registry": "gleif",
+    "registryRecordId": "315700CXNTW384RDKB36",
+    "subjectKind": "organisation",
+    "name": "Cayan Holdings Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700CXNTW384RDKB36"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C91000"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 91000"
+      }
+    ],
+    "observedAt": "2025-07-14T09:47:19.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700CXNTW384RDKB36"
+  },
+  {
+    "recordRef": "gleif:315700WKSKNME4J0OH27",
+    "registry": "gleif",
+    "registryRecordId": "315700WKSKNME4J0OH27",
+    "subjectKind": "organisation",
+    "name": "FINRENT INVEST LIMITED",
+    "aliases": [
+      "FINRENT HOLDING LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700WKSKNME4J0OH27"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C103832"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 103832"
+      }
+    ],
+    "observedAt": "2026-01-06T07:30:26.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700WKSKNME4J0OH27"
+  },
+  {
+    "recordRef": "gleif:3157005QJHAUKDVM1N15",
+    "registry": "gleif",
+    "registryRecordId": "3157005QJHAUKDVM1N15",
+    "subjectKind": "organisation",
+    "name": "Fraternity Capital Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157005QJHAUKDVM1N15"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C70769"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 70769"
+      }
+    ],
+    "observedAt": "2026-05-19T06:56:05.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157005QJHAUKDVM1N15"
+  },
+  {
+    "recordRef": "gleif:315700WLWZEL2312TF56",
+    "registry": "gleif",
+    "registryRecordId": "315700WLWZEL2312TF56",
+    "subjectKind": "organisation",
+    "name": "JCK GROUP P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700WLWZEL2312TF56"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C100886"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 100886"
+      }
+    ],
+    "observedAt": "2026-05-18T08:53:04.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700WLWZEL2312TF56"
+  },
+  {
+    "recordRef": "gleif:315700NR95HAQUJJX404",
+    "registry": "gleif",
+    "registryRecordId": "315700NR95HAQUJJX404",
+    "subjectKind": "organisation",
+    "name": "Mezaconti Ltd",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700NR95HAQUJJX404"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C83243"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 83243"
+      }
+    ],
+    "observedAt": "2026-05-12T14:08:55.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700NR95HAQUJJX404"
+  },
+  {
+    "recordRef": "gleif:315700IO3TEL0RS9P210",
+    "registry": "gleif",
+    "registryRecordId": "315700IO3TEL0RS9P210",
+    "subjectKind": "organisation",
+    "name": "WOOD GLOBAL SERVICES LTD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700IO3TEL0RS9P210"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C100616"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 100616"
+      }
+    ],
+    "observedAt": "2026-04-27T13:13:50.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700IO3TEL0RS9P210"
+  },
+  {
+    "recordRef": "gleif:315700C4ERBE02P7SN31",
+    "registry": "gleif",
+    "registryRecordId": "315700C4ERBE02P7SN31",
+    "subjectKind": "organisation",
+    "name": "Polaris Advisors Ltd",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700C4ERBE02P7SN31"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C57823"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 57823"
+      }
+    ],
+    "observedAt": "2026-04-24T10:39:48.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700C4ERBE02P7SN31"
+  },
+  {
+    "recordRef": "gleif:549300YD55O8IUMG7H12",
+    "registry": "gleif",
+    "registryRecordId": "549300YD55O8IUMG7H12",
+    "subjectKind": "organisation",
+    "name": "KING.COM LIMITED",
+    "aliases": [
+      "KING.COM OPERATIONS (MALTA) LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300YD55O8IUMG7H12"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C42504"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 42504"
+      }
+    ],
+    "observedAt": "2026-07-07T08:14:17.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300YD55O8IUMG7H12"
+  },
+  {
+    "recordRef": "gleif:3157005SGUZVHKBSOW59",
+    "registry": "gleif",
+    "registryRecordId": "3157005SGUZVHKBSOW59",
+    "subjectKind": "organisation",
+    "name": "Plan B Investments Limited",
+    "aliases": [
+      "abienne investments limited"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157005SGUZVHKBSOW59"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C97138"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 97138"
+      }
+    ],
+    "observedAt": "2025-10-06T12:13:22.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157005SGUZVHKBSOW59"
+  },
+  {
+    "recordRef": "gleif:3157001KWKTHIEBVY167",
+    "registry": "gleif",
+    "registryRecordId": "3157001KWKTHIEBVY167",
+    "subjectKind": "organisation",
+    "name": "Alpha Quest Funds SICAV p.l.c.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157001KWKTHIEBVY167"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 430"
+      }
+    ],
+    "observedAt": "2025-10-15T07:38:51.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157001KWKTHIEBVY167"
+  },
+  {
+    "recordRef": "gleif:3157007P5NKY91F93Q47",
+    "registry": "gleif",
+    "registryRecordId": "3157007P5NKY91F93Q47",
+    "subjectKind": "organisation",
+    "name": "Ironside limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157007P5NKY91F93Q47"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C38054"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 38054"
+      }
+    ],
+    "observedAt": "2026-08-07T13:38:19.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157007P5NKY91F93Q47"
+  },
+  {
+    "recordRef": "gleif:315700Y8TS2MQE1Z6Z52",
+    "registry": "gleif",
+    "registryRecordId": "315700Y8TS2MQE1Z6Z52",
+    "subjectKind": "organisation",
+    "name": "JULIUS MEINL LIVING PLC",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700Y8TS2MQE1Z6Z52"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C76799"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 76799"
+      }
+    ],
+    "observedAt": "2026-05-28T12:33:31.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700Y8TS2MQE1Z6Z52"
+  },
+  {
+    "recordRef": "gleif:315700255SLD81SKMZ37",
+    "registry": "gleif",
+    "registryRecordId": "315700255SLD81SKMZ37",
+    "subjectKind": "organisation",
+    "name": "J&T SICAV, a.s. - J&T RENTIER podfond",
+    "aliases": [
+      "J&T SICAV P.L.C. - J&T Rentier Fund"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700255SLD81SKMZ37"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000168",
+        "value": "75166577"
+      }
+    ],
+    "observedAt": "2026-06-16T10:35:03.000Z",
+    "jurisdiction": "CZ",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700255SLD81SKMZ37"
+  },
+  {
+    "recordRef": "gleif:315700XWLZ8WH7GQW808",
+    "registry": "gleif",
+    "registryRecordId": "315700XWLZ8WH7GQW808",
+    "subjectKind": "organisation",
+    "name": "J&T AIF Fund SICAV P.L.C. - J&T LOAN FUND I",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700XWLZ8WH7GQW808"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700XWLZ8WH7GQW808"
+  },
+  {
+    "recordRef": "gleif:3157008D3X214YPGV479",
+    "registry": "gleif",
+    "registryRecordId": "3157008D3X214YPGV479",
+    "subjectKind": "organisation",
+    "name": "J&T Advanced Solutions SICAV p.l.c.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157008D3X214YPGV479"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 69"
+      }
+    ],
+    "observedAt": "2026-06-18T14:19:28.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157008D3X214YPGV479"
+  },
+  {
+    "recordRef": "gleif:549300AOLMEKXO0DSU51",
+    "registry": "gleif",
+    "registryRecordId": "549300AOLMEKXO0DSU51",
+    "subjectKind": "organisation",
+    "name": "PAPAYA LTD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300AOLMEKXO0DSU51"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C55146"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 55146"
+      }
+    ],
+    "observedAt": "2026-08-12T08:55:00.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300AOLMEKXO0DSU51"
+  },
+  {
+    "recordRef": "gleif:213800RPLJ8TD5YIGD84",
+    "registry": "gleif",
+    "registryRecordId": "213800RPLJ8TD5YIGD84",
+    "subjectKind": "organisation",
+    "name": "EQUA GROUP LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800RPLJ8TD5YIGD84"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C48269"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 48269"
+      }
+    ],
+    "observedAt": "2022-04-07T00:05:59.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800RPLJ8TD5YIGD84"
+  },
+  {
+    "recordRef": "gleif:315700WISIDRB70REZ15",
+    "registry": "gleif",
+    "registryRecordId": "315700WISIDRB70REZ15",
+    "subjectKind": "organisation",
+    "name": "IJC Equity Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700WISIDRB70REZ15"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "IJCS-SF1045"
+      }
+    ],
+    "observedAt": "2026-05-07T06:48:37.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700WISIDRB70REZ15"
+  },
+  {
+    "recordRef": "gleif:3157000TKAG4JVD83A80",
+    "registry": "gleif",
+    "registryRecordId": "3157000TKAG4JVD83A80",
+    "subjectKind": "organisation",
+    "name": "Tuffieh Akane Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157000TKAG4JVD83A80"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "TUFS-SF704"
+      }
+    ],
+    "observedAt": "2026-05-18T07:56:38.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157000TKAG4JVD83A80"
+  },
+  {
+    "recordRef": "gleif:3157004KN8BSNYPNQ329",
+    "registry": "gleif",
+    "registryRecordId": "3157004KN8BSNYPNQ329",
+    "subjectKind": "organisation",
+    "name": "Tuffieh Topaz Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157004KN8BSNYPNQ329"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "TUFS-SF707"
+      }
+    ],
+    "observedAt": "2026-05-18T07:57:09.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157004KN8BSNYPNQ329"
+  },
+  {
+    "recordRef": "gleif:529900BQXPX2BHJTO269",
+    "registry": "gleif",
+    "registryRecordId": "529900BQXPX2BHJTO269",
+    "subjectKind": "organisation",
+    "name": "GREENSHARK INVESTMENT SICAV P.L.C. - Greenshark Technology Fund",
+    "aliases": [
+      "Greenshark Technology Fund"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900BQXPX2BHJTO269"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "GSSS-SF1947"
+      }
+    ],
+    "observedAt": "2025-12-01T07:46:41.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900BQXPX2BHJTO269"
+  },
+  {
+    "recordRef": "gleif:529900HIX50FN8L8JK88",
+    "registry": "gleif",
+    "registryRecordId": "529900HIX50FN8L8JK88",
+    "subjectKind": "organisation",
+    "name": "CPHCL COMPANY LIMITED",
+    "aliases": [
+      "CORINTHIA PALACE HOTEL COMPANY LIMITED"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900HIX50FN8L8JK88"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C257"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 257"
+      }
+    ],
+    "observedAt": "2025-12-22T08:44:04.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900HIX50FN8L8JK88"
+  },
+  {
+    "recordRef": "gleif:3157007AHDRYG8EHQC82",
+    "registry": "gleif",
+    "registryRecordId": "3157007AHDRYG8EHQC82",
+    "subjectKind": "organisation",
+    "name": "Faust Trading Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157007AHDRYG8EHQC82"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C62464"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C62464"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157007AHDRYG8EHQC82"
+  },
+  {
+    "recordRef": "gleif:315700X3VIBMYCYNM219",
+    "registry": "gleif",
+    "registryRecordId": "315700X3VIBMYCYNM219",
+    "subjectKind": "organisation",
+    "name": "BARBERO INVESTCO LTD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700X3VIBMYCYNM219"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C61739"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C61739"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700X3VIBMYCYNM219"
+  },
+  {
+    "recordRef": "gleif:31570027CKJLXF8CVH62",
+    "registry": "gleif",
+    "registryRecordId": "31570027CKJLXF8CVH62",
+    "subjectKind": "organisation",
+    "name": "M-MARK Trading Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "31570027CKJLXF8CVH62"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C62555"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C62555"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/31570027CKJLXF8CVH62"
+  },
+  {
+    "recordRef": "gleif:315700XKYE0FV7FPZ090",
+    "registry": "gleif",
+    "registryRecordId": "315700XKYE0FV7FPZ090",
+    "subjectKind": "organisation",
+    "name": "WOOD Trade Finance Ltd",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700XKYE0FV7FPZ090"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C80076"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 80076"
+      }
+    ],
+    "observedAt": "2026-05-18T09:33:29.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700XKYE0FV7FPZ090"
+  },
+  {
+    "recordRef": "gleif:3157007NYA7DQOFZLS85",
+    "registry": "gleif",
+    "registryRecordId": "3157007NYA7DQOFZLS85",
+    "subjectKind": "organisation",
+    "name": "All-Star Holding Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157007NYA7DQOFZLS85"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C43151"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 43151"
+      }
+    ],
+    "observedAt": "2026-08-07T08:39:32.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157007NYA7DQOFZLS85"
+  },
+  {
+    "recordRef": "gleif:315700G1P98ENYR8W689",
+    "registry": "gleif",
+    "registryRecordId": "315700G1P98ENYR8W689",
+    "subjectKind": "organisation",
+    "name": "Livesport Holding Ltd",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700G1P98ENYR8W689"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C65224"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 65224"
+      }
+    ],
+    "observedAt": "2026-04-27T06:56:15.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700G1P98ENYR8W689"
+  },
+  {
+    "recordRef": "gleif:315700C1YL1Q8NNKED81",
+    "registry": "gleif",
+    "registryRecordId": "315700C1YL1Q8NNKED81",
+    "subjectKind": "organisation",
+    "name": "StLaurent Holdco Ltd",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700C1YL1Q8NNKED81"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C61737"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C61737"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700C1YL1Q8NNKED81"
+  },
+  {
+    "recordRef": "gleif:529900LVB0R279MUX376",
+    "registry": "gleif",
+    "registryRecordId": "529900LVB0R279MUX376",
+    "subjectKind": "organisation",
+    "name": "INTERNATIONAL HOTEL INVESTMENTS P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900LVB0R279MUX376"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C26136"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 26136"
+      }
+    ],
+    "observedAt": "2026-07-15T13:49:52.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900LVB0R279MUX376"
+  },
+  {
+    "recordRef": "gleif:315700K34QGK7YV5ZW89",
+    "registry": "gleif",
+    "registryRecordId": "315700K34QGK7YV5ZW89",
+    "subjectKind": "organisation",
+    "name": "Accolade Fund SICAV",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700K34QGK7YV5ZW89"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 322"
+      }
+    ],
+    "observedAt": "2026-04-30T13:52:38.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700K34QGK7YV5ZW89"
+  },
+  {
+    "recordRef": "gleif:3157000OYXXAE5SYI563",
+    "registry": "gleif",
+    "registryRecordId": "3157000OYXXAE5SYI563",
+    "subjectKind": "organisation",
+    "name": "Metatron Long-Term Equity Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157000OYXXAE5SYI563"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "METS-SF759"
+      }
+    ],
+    "observedAt": "2026-02-13T13:27:46.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157000OYXXAE5SYI563"
+  },
+  {
+    "recordRef": "gleif:2138003WBERIMWQVKZ64",
+    "registry": "gleif",
+    "registryRecordId": "2138003WBERIMWQVKZ64",
+    "subjectKind": "organisation",
+    "name": "MEDSERVREGIS P.L.C",
+    "aliases": [
+      "MEDSERV P.L.C."
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138003WBERIMWQVKZ64"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C28847"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 28847"
+      }
+    ],
+    "observedAt": "2026-08-14T12:36:44.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138003WBERIMWQVKZ64"
+  },
+  {
+    "recordRef": "gleif:315700YJYSDPIKSIHM71",
+    "registry": "gleif",
+    "registryRecordId": "315700YJYSDPIKSIHM71",
+    "subjectKind": "organisation",
+    "name": "WOOD & Company Funds SICAV p.l.c.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700YJYSDPIKSIHM71"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 51"
+      }
+    ],
+    "observedAt": "2025-10-15T07:51:01.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700YJYSDPIKSIHM71"
+  },
+  {
+    "recordRef": "gleif:315700ZZISH5O4MCBY19",
+    "registry": "gleif",
+    "registryRecordId": "315700ZZISH5O4MCBY19",
+    "subjectKind": "organisation",
+    "name": "Metatron Capital SICAV plc",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700ZZISH5O4MCBY19"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 177"
+      }
+    ],
+    "observedAt": "2026-02-13T13:21:31.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700ZZISH5O4MCBY19"
+  },
+  {
+    "recordRef": "gleif:315700ZG8GPC7DWLPE38",
+    "registry": "gleif",
+    "registryRecordId": "315700ZG8GPC7DWLPE38",
+    "subjectKind": "organisation",
+    "name": "J&T Advanced Equity Fund",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700ZG8GPC7DWLPE38"
+      }
+    ],
+    "observedAt": "2024-06-15T06:52:20.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700ZG8GPC7DWLPE38"
+  },
+  {
+    "recordRef": "gleif:529900ZIF78FSY4ZT673",
+    "registry": "gleif",
+    "registryRecordId": "529900ZIF78FSY4ZT673",
+    "subjectKind": "organisation",
+    "name": "ENEMALTA P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900ZIF78FSY4ZT673"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C65836"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 65836"
+      }
+    ],
+    "observedAt": "2025-12-12T10:28:35.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900ZIF78FSY4ZT673"
+  },
+  {
+    "recordRef": "gleif:31570030000000001229",
+    "registry": "gleif",
+    "registryRecordId": "31570030000000001229",
+    "subjectKind": "organisation",
+    "name": "LiveSport Media Ltd.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "31570030000000001229"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C54555"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 54555"
+      }
+    ],
+    "observedAt": "2026-08-07T09:14:56.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/31570030000000001229"
+  },
+  {
+    "recordRef": "gleif:549300ZOB7NM74E7OU49",
+    "registry": "gleif",
+    "registryRecordId": "549300ZOB7NM74E7OU49",
+    "subjectKind": "organisation",
+    "name": "AIR MALTA P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300ZOB7NM74E7OU49"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C2685"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 2685"
+      }
+    ],
+    "observedAt": "2023-09-13T00:10:27.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300ZOB7NM74E7OU49"
+  },
+  {
+    "recordRef": "gleif:254900GDCT8070R2VV26",
+    "registry": "gleif",
+    "registryRecordId": "254900GDCT8070R2VV26",
+    "subjectKind": "organisation",
+    "name": "Blue Cube (Malta) Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900GDCT8070R2VV26"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C112722"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 112722"
+      }
+    ],
+    "observedAt": "2026-08-07T15:24:42.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900GDCT8070R2VV26"
+  },
+  {
+    "recordRef": "gleif:984500EBA2E9980CDD80",
+    "registry": "gleif",
+    "registryRecordId": "984500EBA2E9980CDD80",
+    "subjectKind": "organisation",
+    "name": "Socios Europe Services Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500EBA2E9980CDD80"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 108717"
+      }
+    ],
+    "observedAt": "2026-01-23T08:57:13.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500EBA2E9980CDD80"
+  },
+  {
+    "recordRef": "gleif:2138002QAMX8PPKSO715",
+    "registry": "gleif",
+    "registryRecordId": "2138002QAMX8PPKSO715",
+    "subjectKind": "organisation",
+    "name": "GEMINI INTERGALACTIC EU, LTD.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138002QAMX8PPKSO715"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 110029"
+      }
+    ],
+    "observedAt": "2025-12-15T15:58:51.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138002QAMX8PPKSO715"
+  },
+  {
+    "recordRef": "gleif:9845001DD90AF543DC90",
+    "registry": "gleif",
+    "registryRecordId": "9845001DD90AF543DC90",
+    "subjectKind": "organisation",
+    "name": "PAYHOUND LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "9845001DD90AF543DC90"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C86493"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 86493"
+      }
+    ],
+    "observedAt": "2025-09-18T07:10:47.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/9845001DD90AF543DC90"
+  },
+  {
+    "recordRef": "gleif:984500D6A0F945BB5A15",
+    "registry": "gleif",
+    "registryRecordId": "984500D6A0F945BB5A15",
+    "subjectKind": "organisation",
+    "name": "GATE TECHNOLOGY LTD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500D6A0F945BB5A15"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C89337"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 89337"
+      }
+    ],
+    "observedAt": "2026-06-22T07:40:43.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500D6A0F945BB5A15"
+  },
+  {
+    "recordRef": "gleif:984500DEID7B03J77118",
+    "registry": "gleif",
+    "registryRecordId": "984500DEID7B03J77118",
+    "subjectKind": "organisation",
+    "name": "BP23 CA LTD.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500DEID7B03J77118"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C106261"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 106261"
+      }
+    ],
+    "observedAt": "2026-08-20T13:30:33.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500DEID7B03J77118"
+  },
+  {
+    "recordRef": "gleif:3157000QXQDVZQEGCI97",
+    "registry": "gleif",
+    "registryRecordId": "3157000QXQDVZQEGCI97",
+    "subjectKind": "organisation",
+    "name": "Tuffieh Funds SICAV plc",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "3157000QXQDVZQEGCI97"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "SV 162"
+      }
+    ],
+    "observedAt": "2026-07-01T06:56:36.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/3157000QXQDVZQEGCI97"
+  },
+  {
+    "recordRef": "gleif:54930069NLWEIGLHXU42",
+    "registry": "gleif",
+    "registryRecordId": "54930069NLWEIGLHXU42",
+    "subjectKind": "organisation",
+    "name": "OKX Europe Limited",
+    "aliases": [
+      "OKCOIN EUROPE LTD"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "54930069NLWEIGLHXU42"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C88193"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 88193"
+      }
+    ],
+    "observedAt": "2026-02-12T11:46:59.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/54930069NLWEIGLHXU42"
+  },
+  {
+    "recordRef": "gleif:254900FESD7AF56FOQ37",
+    "registry": "gleif",
+    "registryRecordId": "254900FESD7AF56FOQ37",
+    "subjectKind": "organisation",
+    "name": "Zillion Bits Ltd",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900FESD7AF56FOQ37"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C88757"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 88757"
+      }
+    ],
+    "observedAt": "2026-08-07T09:30:12.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900FESD7AF56FOQ37"
+  },
+  {
+    "recordRef": "gleif:213800WJM99CLMJD3646",
+    "registry": "gleif",
+    "registryRecordId": "213800WJM99CLMJD3646",
+    "subjectKind": "organisation",
+    "name": "SAMSARA",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800WJM99CLMJD3646"
+      }
+    ],
+    "observedAt": "2026-01-09T15:53:57.000Z",
+    "jurisdiction": "LU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800WJM99CLMJD3646"
+  },
+  {
+    "recordRef": "gleif:2549002NUHXN3V1WHQ97",
+    "registry": "gleif",
+    "registryRecordId": "2549002NUHXN3V1WHQ97",
+    "subjectKind": "organisation",
+    "name": "Crecol Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2549002NUHXN3V1WHQ97"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C97685"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 97685"
+      }
+    ],
+    "observedAt": "2025-10-17T09:16:08.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2549002NUHXN3V1WHQ97"
+  },
+  {
+    "recordRef": "gleif:315700H7SQ6LOI9H0L24",
+    "registry": "gleif",
+    "registryRecordId": "315700H7SQ6LOI9H0L24",
+    "subjectKind": "organisation",
+    "name": "ENVIEN INTERNATIONAL LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "315700H7SQ6LOI9H0L24"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C58766"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 58766"
+      }
+    ],
+    "observedAt": "2026-08-07T13:59:15.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/315700H7SQ6LOI9H0L24"
+  },
+  {
+    "recordRef": "gleif:2549005CVR5HH70FDO07",
+    "registry": "gleif",
+    "registryRecordId": "2549005CVR5HH70FDO07",
+    "subjectKind": "organisation",
+    "name": "FORIS DAX MT LIMITED",
+    "aliases": [
+      "MCO Malta Dax Limited"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2549005CVR5HH70FDO07"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C88392"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 88392"
+      }
+    ],
+    "observedAt": "2026-06-23T10:59:48.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2549005CVR5HH70FDO07"
+  },
+  {
+    "recordRef": "gleif:254900Y773UTH7DPMU12",
+    "registry": "gleif",
+    "registryRecordId": "254900Y773UTH7DPMU12",
+    "subjectKind": "organisation",
+    "name": "SAVARIN P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900Y773UTH7DPMU12"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C92435"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 92435"
+      }
+    ],
+    "observedAt": "2025-10-17T09:16:08.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900Y773UTH7DPMU12"
+  },
+  {
+    "recordRef": "gleif:529900S8U9OL57V41N88",
+    "registry": "gleif",
+    "registryRecordId": "529900S8U9OL57V41N88",
+    "subjectKind": "organisation",
+    "name": "VIE (MALTA) LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900S8U9OL57V41N88"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C29862"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 29862"
+      }
+    ],
+    "observedAt": "2026-06-24T12:53:05.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900S8U9OL57V41N88"
+  },
+  {
+    "recordRef": "gleif:984500N46H778DF50875",
+    "registry": "gleif",
+    "registryRecordId": "984500N46H778DF50875",
+    "subjectKind": "organisation",
+    "name": "E & T CONSULT LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500N46H778DF50875"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C82333"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 82333"
+      }
+    ],
+    "observedAt": "2026-05-01T09:17:28.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500N46H778DF50875"
+  },
+  {
+    "recordRef": "gleif:529900140HG3DZGBK427",
+    "registry": "gleif",
+    "registryRecordId": "529900140HG3DZGBK427",
+    "subjectKind": "organisation",
+    "name": "Eurener Fund",
+    "aliases": [
+      "Audentia Capital SICAV II Plc - Eurener Fund"
+    ],
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900140HG3DZGBK427"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000945",
+        "value": "n.a."
+      }
+    ],
+    "observedAt": "2025-05-26T10:55:56.000Z",
+    "jurisdiction": "MT",
+    "status": "INACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900140HG3DZGBK427"
+  },
+  {
+    "recordRef": "gleif:5299000X84JRI8MS7D35",
+    "registry": "gleif",
+    "registryRecordId": "5299000X84JRI8MS7D35",
+    "subjectKind": "organisation",
+    "name": "ALTARIUS ASSET MANAGEMENT LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299000X84JRI8MS7D35"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C33168"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 33168"
+      }
+    ],
+    "observedAt": "2026-03-02T14:14:21.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299000X84JRI8MS7D35"
+  },
+  {
+    "recordRef": "gleif:254900Y38OXTS23ARZ62",
+    "registry": "gleif",
+    "registryRecordId": "254900Y38OXTS23ARZ62",
+    "subjectKind": "organisation",
+    "name": "A & R INVESTMENTS LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "254900Y38OXTS23ARZ62"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C36498"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 36498"
+      }
+    ],
+    "observedAt": "2025-09-15T08:01:20.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/254900Y38OXTS23ARZ62"
+  },
+  {
+    "recordRef": "gleif:549300UWJTIDIVBBHB45",
+    "registry": "gleif",
+    "registryRecordId": "549300UWJTIDIVBBHB45",
+    "subjectKind": "organisation",
+    "name": "BURTON & SIMPSON LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300UWJTIDIVBBHB45"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C42467"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 42467"
+      }
+    ],
+    "observedAt": "2026-04-17T05:55:00.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300UWJTIDIVBBHB45"
+  },
+  {
+    "recordRef": "gleif:2138008EKXNMKZRXCT63",
+    "registry": "gleif",
+    "registryRecordId": "2138008EKXNMKZRXCT63",
+    "subjectKind": "organisation",
+    "name": "MALTA INTERNATIONAL AIRPORT P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138008EKXNMKZRXCT63"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C12663"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 12663"
+      }
+    ],
+    "observedAt": "2026-01-29T12:34:28.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138008EKXNMKZRXCT63"
+  },
+  {
+    "recordRef": "gleif:635400HEVTYHONROBR24",
+    "registry": "gleif",
+    "registryRecordId": "635400HEVTYHONROBR24",
+    "subjectKind": "organisation",
+    "name": "PREMIER CAPITAL P.L.C.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "635400HEVTYHONROBR24"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C36522"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 36522"
+      }
+    ],
+    "observedAt": "2026-07-14T10:37:19.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/635400HEVTYHONROBR24"
+  },
+  {
+    "recordRef": "gleif:5299005TGVVCMQRZ7O90",
+    "registry": "gleif",
+    "registryRecordId": "5299005TGVVCMQRZ7O90",
+    "subjectKind": "organisation",
+    "name": "ERDAL TRADING LTD",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "5299005TGVVCMQRZ7O90"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C75283"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 75283"
+      }
+    ],
+    "observedAt": "2026-02-23T12:37:24.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/5299005TGVVCMQRZ7O90"
+  },
+  {
+    "recordRef": "gleif:529900G40BUBIU7I1S70",
+    "registry": "gleif",
+    "registryRecordId": "529900G40BUBIU7I1S70",
+    "subjectKind": "organisation",
+    "name": "ENERGY COMMODITIES TRADING LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900G40BUBIU7I1S70"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C67221"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 67221"
+      }
+    ],
+    "observedAt": "2026-06-24T14:43:32.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900G40BUBIU7I1S70"
+  },
+  {
+    "recordRef": "gleif:549300UH8VKHBL5BW645",
+    "registry": "gleif",
+    "registryRecordId": "549300UH8VKHBL5BW645",
+    "subjectKind": "organisation",
+    "name": "RASCASSE INVESTMENTS LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300UH8VKHBL5BW645"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C58198"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 58198"
+      }
+    ],
+    "observedAt": "2025-09-05T09:54:28.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300UH8VKHBL5BW645"
+  },
+  {
+    "recordRef": "gleif:2138002E3XKON2QW6B96",
+    "registry": "gleif",
+    "registryRecordId": "2138002E3XKON2QW6B96",
+    "subjectKind": "organisation",
+    "name": "CFP TRADING LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2138002E3XKON2QW6B96"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mt/C55225"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000443",
+        "value": "C 55225"
+      }
+    ],
+    "observedAt": "2025-12-01T16:24:01.000Z",
+    "jurisdiction": "MT",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:56.099Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2138002E3XKON2QW6B96"
+  }
+]

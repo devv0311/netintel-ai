@@ -112,6 +112,38 @@ partition of any compared model. On the final test that is all 5,257
 pairs (0 excluded). Expected: v1 recall 2.7%, v2 recall 76.5%, both
 `digest ok`.
 
+## 3.1 The P6.26 cross-border experiment and final test #2
+
+Neither is shipped; both are reproducible, and the second frozen test is
+the instrument that judged the first.
+
+```bash
+npm run ml:v3:corpus       # v2's runs + the targeted cross-border collection
+npm run ml:v3:dataset
+npm run ml:v3:leakage      # PASS 13/13
+npm run ml:v3:train        # GBDT wins on 9,304 training pairs
+npm run ml:v3:evaluate
+
+npm run ml:final-test-2:corpus    # 40 countries disjoint from every prior collection
+npm run ml:final-test-2:dataset
+npm run ml:final-test-2:leakage   # PASS 13/13, L13 = 0 fitted on
+npm run ml:final-test-2           # the SHIPPED v2 model, scored once
+npm run ml:final-test-2:v3        # the P6.26 model, scored once
+```
+
+Expected — corpus v3: 10,055 scorable records, 5,139 positives, 1,774
+hard negatives, 154 jurisdictions; dataset 32,808 pairs; shipped
+experiment `E3-gradient-boosted-trees`, weightsDigest
+`12df4c241d4547f9492471fd65f7f41ddb3c0bc0b99c5654fee5ac974e765a09`.
+
+Expected — final test #2: 16,675 pairs, 1,792 positives, 716 curated hard
+negatives, 1,794 subjects. **v2** recall 81.7% (1,464/1,792), 28 false
+merges, cross-border 2/39; **v3** recall 77.1% (1,382/1,792), 25 false
+merges, cross-border 18/39; baseline recall 19.3%.
+
+Why v3 is not shipped, with both columns:
+[`ml-cross-border-experiment.md`](./ml-cross-border-experiment.md).
+
 ## 4. Reproducing the superseded P6.24 results
 
 The P6.24 numbers remain reproducible from this same repository. The

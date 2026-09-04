@@ -1,0 +1,85 @@
+[
+  {
+    "recordRef": "edgar:1523101",
+    "registry": "edgar",
+    "registryRecordId": "1523101",
+    "subjectKind": "organisation",
+    "name": "Sberbank of Russia",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1523101"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:40.930Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001523101"
+  },
+  {
+    "recordRef": "edgar:840302",
+    "registry": "edgar",
+    "registryRecordId": "840302",
+    "subjectKind": "organisation",
+    "name": "MTS INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "840302"
+      }
+    ],
+    "jurisdiction": "US-CA",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:40.930Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000840302"
+  },
+  {
+    "recordRef": "edgar:1302362",
+    "registry": "edgar",
+    "registryRecordId": "1302362",
+    "subjectKind": "organisation",
+    "name": "Mechel PAO",
+    "aliases": [
+      "Mechel OAO",
+      "Mechel Steel Group OAO"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1302362"
+      }
+    ],
+    "jurisdiction": "US-1Z",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:40.930Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001302362"
+  },
+  {
+    "recordRef": "edgar:1561566",
+    "registry": "edgar",
+    "registryRecordId": "1561566",
+    "subjectKind": "organisation",
+    "name": "QIWI",
+    "aliases": [
+      "QIWI plc",
+      "QIWI Ltd"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1561566"
+      }
+    ],
+    "jurisdiction": "US-G4",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:40.930Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001561566"
+  }
+]

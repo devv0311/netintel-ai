@@ -1,0 +1,3980 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27893"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2EULGUTUI56JI9SAL165"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आर्सेलर मित्तल"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001243429"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ArcelorMittal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27893"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SWTDSNLYQSQR64"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आर्सेलर मित्तल"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001243429"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ArcelorMittal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27893"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2EULGUTUI56JI9SAL165"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आर्सेलर मित्तल"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001243429"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ArcelorMittal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27893"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SWTDSNLYQSQR64"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आर्सेलर मित्तल"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001243429"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ArcelorMittal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q615954"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100KIDRQ6NNVYUH61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPI FIM"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B44996"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q701088"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009B5F43O0IWIJ90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GfK"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/D3310V_HRB9398"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q778126"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YI9I36GOXH4729"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001525773"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Intelsat"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B162135"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q778126"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YI9I36GOXH4729"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001525773"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Intelsat"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B162135"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000C8J3C3SZYS040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RTL Group"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Compagnie Luxembourgeoise de Radiodiffusion"
+      },
+      "shortName" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RTL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000C8J3C3SZYS040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RTL Group"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Compagnie Luxembourgeoise de Radiodiffusion"
+      },
+      "shortName" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RTL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000C8J3C3SZYS040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RTL Group"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Compagnie Luxembourgeoise de Radiodiffusion"
+      },
+      "shortName" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RTL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000C8J3C3SZYS040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RTL Group"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Compagnie Luxembourgeoise de Télédiffusion"
+      },
+      "shortName" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RTL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000C8J3C3SZYS040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RTL Group"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Compagnie Luxembourgeoise de Télédiffusion"
+      },
+      "shortName" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RTL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000C8J3C3SZYS040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RTL Group"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Compagnie Luxembourgeoise de Télédiffusion"
+      },
+      "shortName" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RTL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1142797"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001YYBULX5SZ2H24"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001439579"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Schroders"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/03909886"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1142797"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001YYBULX5SZ2H24"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001439579"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Schroders"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/03909886"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1653968"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OWPNY9XD8V4C46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IKB International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6326005"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KHCL65TP05J1HUW2D560"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Quintet Private Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0755503702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6479764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001136GE6L4R7M63"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001502636"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aperam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6479764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001136GE6L4R7M63"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001502636"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aperam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6706375"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100WPYK3JKB5F4D19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxempart"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6706375"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100WPYK3JKB5F4D19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxempart"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7122687"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300S4K0XY1ZHCZ105"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pacific Securities"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13105066"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "00000000019512200047"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Société électrique de l'Our"
+      },
+      "shortName" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "SEO"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13417819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008S3YTQJP20YS91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HB Reavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16763485"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001R2HL1TAFZ8Z20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enovos Luxembourg"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25051733"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100CO2ZOTEPGJO223"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPI Property Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25051733"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100CO2ZOTEPGJO223"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPI Property Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27436261"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100Q327KEJAGLTH90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ICAMAP"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B184448"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28449523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2221008462KYO6NPKI38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eurasian Resources Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29051899"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900KRS1CC6G7TLV88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "4finance Holding S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31734868"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WC7S3MTA351724"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q31734868"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31840389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002QLUYKK2WBMB18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grand City Properties"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32788516"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900H4DWG3KWMBMQ39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aroundtown SA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33092807"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008XZEFQ6KAZF246"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Volkswagen Finance Luxemburg"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B166745"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43929576"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZZ3JLYQHWDA051"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEI Investments"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50378996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500N1WITB1AKEPD14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amber Beverage Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lv/40103839550"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54954068"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003XGHFYU1H38919"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001594266"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SecurityScorecard"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55103739"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002LJWU6BH3FU174"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sybil Holdings"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B183968"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56285051"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "CAF7KSNT1N0CTA93RI98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NORD/LB Luxembourg"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NORD/LB Luxembourg S.A. Covered Bond Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60050649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "22210015QOTYLTLWM541"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Promet Holding"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B149261"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60269744"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B4X0JHWV0DTD60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spotify Technology"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B123052"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Spotify Technology S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60269744"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B4X0JHWV0DTD60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spotify Technology"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B123052"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Spotify Technology S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61740611"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800PKSAUPIE67Y964"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bock Capital EU Luxembourg WAG"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B202010"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61791566"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100WYWKOAFCZP5W43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HR GLL Europe Holding"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B176880"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63258098"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2221005EBJAA3LVJ4C46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Communications Investments Europe"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B153536"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63258103"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005140CK3YDUNM76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MEIF II Luxembourg Holdings"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B117627"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63969264"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002324XYX4878951"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doosan Power Systems"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B125754"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q73136791"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZA9VCFI5XMQR82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amazon Europe Core"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B180022"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102323829"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RB91HSADSGVM06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B83396"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "WOOD & Company Group S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336657"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157006R2E59QIOX2D06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maidford Finance"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B148074"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "MAIDFORD FINANCE S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337459"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Y6LYJGJAUCPW02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renaissance Finance"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B148870"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RENAISSANCE FINANCE S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416280"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AH0J2DM3AUYF90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Twenty House"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B190749"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Twenty House S.a r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416281"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DLYUEE1MBOZ408"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RUBY Equity Investment S.á r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B222534"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RUBY Equity Investment S.á r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416282"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DXU22UTKQRV435"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DEKAN SE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B109200"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "DEKAN SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416283"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GZSNZ4AG634353"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EIGHT House S.á r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B195928"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "EIGHT House S.á r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416284"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ITX4FKSKAJXK16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "One Westferry Circus"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B175495"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "One Westferry Circus S.a r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416285"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700IXRWBBOWAPE970"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PES S.a r.L."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B222321"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "PES S.a r.L."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416286"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JVKH13XGQHS286"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LU GE XXIV, S. a r. l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B229152"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "LU GE XXIV, S. a r. l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416288"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700LIBCW22RWQ0Q58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPIPG Holding S.á r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B223183"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "CPIPG Holding S.á r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OJAANQZBAQTF77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "One House S.á r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B210026"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "One House S.á r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416290"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PWOAO6SRXT1Q51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KANEBO INVESTMENTS"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B53118"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "KANEBO INVESTMENTS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XVXZMYC0JU0K62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMR Russia S.a.r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B107320"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "MMR Russia S.a.r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416296"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Z4DDU2DJ1EFG89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atlas - Investment Solutions"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B191301"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Atlas - Investment Solutions S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416297"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001NDT54WWSIK183"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LU GE XVII"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B210790"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "LU GE XVII S.a r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416298"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001SXDJSFVIVGX85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Endurance Residential Asset S.á.r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B120651"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Endurance Residential Asset S.á.r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416299"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004SAQPDO7JJIK27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARY Equity Investment S.a.r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B243755"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "MARY Equity Investment S.a.r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416301"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007SB9FYYCZGII45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mountfort Investments"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B229086"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Mountfort Investments S.á.r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416302"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700896WA1G4K4PZ74"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UBX 2 Objekt Berlin S.á.r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B216192"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "UBX 2 Objekt Berlin S.á.r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104674194"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EVDI272Y48Y215"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MEIF 3 Luxembourg C Holdings"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B142792"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105729380"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100QAY9O5ZKNSG115"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vitavest"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B175862"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106239557"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2221003M23QLERR89585"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "InPost"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106239557"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2221003M23QLERR89585"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "InPost"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106488597"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300502MVL52NR6221"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ABH Holdings S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107490482"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YI4GDH4JTNYF23"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001859723"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EP Equity Investment"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110731211"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MQC452SFMN5167"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Al Sirona (Luxembourg) Acquisition"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112961342"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O482B6CBF38D50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telecom Italia Finance"
+      },
+      "official" : {
+        "xml:lang" : "lb",
+        "type" : "literal",
+        "value" : "Telecom Italia Finance S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466463"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800I96PPJNNAC9A10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DXT International"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466464"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SZHW8VHNCJWN54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ArcelorMittal Energy SCA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100F3EMD4NMJGIY45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EIDA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466561"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "00000000020112220756"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wandpark Bënzelt"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466565"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HNQ1VD2L7UR697"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ArcelorMittal Belval & Differdange"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466568"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "00000000020012235764"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wandpark Kehmen-Heischent"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466589"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "00000000019982205460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wandpark Hengischt"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466615"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "00000000020012217227"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Société Luxembourgeoise des Energies Renouvelables (SOLER)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466642"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900LXO8A6BGNV4T28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENGC Endion North Gas Corporation S.a.r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466806"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003PZI87J2MGZW31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SOCAR Trading Gas & Power sarl"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167233"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100G1I5GZATXY2511"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q115167233"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167525"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100VRLXV3FPMG4982"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALLEGRO.EU"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q132862493"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845001EF47EH9FE4F87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Next Luxembourg"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136484199"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990058LK28U070KA75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mixvoip"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B138372"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136484199"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990058LK28U070KA75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mixvoip"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B138372"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779179"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XIBGTJ0PLIEO72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bitstamp Europe"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Bitstamp Europe S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779180"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500F14CA4571AAC11"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Coinbase Luxembourg S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coinbase Luxembourg"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779181"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800K35A9YPYDQKB81"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Zodia Custody (Europe) S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zodia Custody (Europe)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140227297"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100ZJU57ZQLLYNO89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Codere Online"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27893"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2EULGUTUI56JI9SAL165"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ArcelorMittal"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आर्सेलर मित्तल"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001243429"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27893"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SWTDSNLYQSQR64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ArcelorMittal"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "आर्सेलर मित्तल"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001243429"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q615954"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100KIDRQ6NNVYUH61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPI FIM"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B44996"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q701088"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009B5F43O0IWIJ90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GfK"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/D3310V_HRB9398"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q701088"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009B5F43O0IWIJ90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GfK"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/D3310V_HRB9398"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q778126"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YI9I36GOXH4729"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Intelsat"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001525773"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B162135"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1142797"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001YYBULX5SZ2H24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Schroders"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001439579"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/03909886"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6479764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001136GE6L4R7M63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aperam"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001502636"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13417819"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008S3YTQJP20YS91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HB Reavis"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25051733"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100CO2ZOTEPGJO223"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPI Property Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55103739"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002LJWU6BH3FU174"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sybil Holdings"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B183968"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60269744"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B4X0JHWV0DTD60"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Spotify Technology S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spotify Technology"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B123052"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102323829"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RB91HSADSGVM06"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "WOOD & Company Group S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Company Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B83396"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102336657"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157006R2E59QIOX2D06"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "MAIDFORD FINANCE S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maidford Finance"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B148074"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102337459"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Y6LYJGJAUCPW02"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RENAISSANCE FINANCE S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renaissance Finance"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B148870"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416280"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AH0J2DM3AUYF90"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Twenty House S.a r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Twenty House"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B190749"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416281"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DLYUEE1MBOZ408"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "RUBY Equity Investment S.á r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RUBY Equity Investment S.á r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B222534"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416282"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700DXU22UTKQRV435"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "DEKAN SE"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DEKAN SE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B109200"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416283"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GZSNZ4AG634353"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "EIGHT House S.á r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EIGHT House S.á r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B195928"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416284"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ITX4FKSKAJXK16"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "One Westferry Circus S.a r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "One Westferry Circus"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B175495"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416285"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700IXRWBBOWAPE970"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "PES S.a r.L."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PES S.a r.L."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B222321"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416286"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700JVKH13XGQHS286"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "LU GE XXIV, S. a r. l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LU GE XXIV, S. a r. l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B229152"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416288"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700LIBCW22RWQ0Q58"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "CPIPG Holding S.á r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CPIPG Holding S.á r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B223183"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OJAANQZBAQTF77"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "One House S.á r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "One House S.á r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B210026"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416290"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700PWOAO6SRXT1Q51"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "KANEBO INVESTMENTS"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KANEBO INVESTMENTS"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B53118"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XVXZMYC0JU0K62"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "MMR Russia S.a.r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMR Russia S.a.r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B107320"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416296"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Z4DDU2DJ1EFG89"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Atlas - Investment Solutions S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atlas - Investment Solutions"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B191301"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416297"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001NDT54WWSIK183"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "LU GE XVII S.a r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LU GE XVII"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B210790"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416298"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001SXDJSFVIVGX85"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Endurance Residential Asset S.á.r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Endurance Residential Asset S.á.r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B120651"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416299"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004SAQPDO7JJIK27"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "MARY Equity Investment S.a.r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARY Equity Investment S.a.r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B243755"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416301"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007SB9FYYCZGII45"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Mountfort Investments S.á.r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mountfort Investments"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B229086"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102416302"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700896WA1G4K4PZ74"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "UBX 2 Objekt Berlin S.á.r.l."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UBX 2 Objekt Berlin S.á.r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B216192"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112961342"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300O482B6CBF38D50"
+      },
+      "official" : {
+        "xml:lang" : "lb",
+        "type" : "literal",
+        "value" : "Telecom Italia Finance S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telecom Italia Finance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140227297"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100ZJU57ZQLLYNO89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Codere Online"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q77401233"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BVU6L11SBXP4L4E88P78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TE Connectivity Holding International I"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B169801"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q81074621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900AEH8X83DIDX348"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "real added value SCS"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B202579"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83419367"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300K11JPENR1PEH43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Czech Gas Networks Investments"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83419900"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ED4HQN430UYW15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allianz Infrastructure Luxembourg II"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B35910"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83420099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EJDHPIMEQ39003"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CGN Holdings"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B169686"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83425129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300S6ZX4SE37C5975"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MEIF 4 Luxembourg C Holdings"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B166043"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q89511554"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500N14T2GUDX0FL66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mogo Finance"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B174457"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94639662"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FFHI3FGFQ1SA88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NexGen"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B138963"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95989661"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700O11FA16ZSRUT31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vesa Equity Investment"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B215769"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96288107"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XFIR4126IZ3L85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UTC Fire & Security Luxembourg"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B151396"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q99964758"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100MQZ1SVWDODUK57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agilent Technologies Luxco S.à r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B112905"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116053753"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F2MGI1HB3QDR05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NeXgen Patners"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B138783"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q119522303"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300777DJZOR5C4L39"
+      },
+      "official" : {
+        "xml:lang" : "lb",
+        "type" : "literal",
+        "value" : "Telecom Italia Capital S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telecom Italia Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q119522303"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300777DJZOR5C4L39"
+      },
+      "official" : {
+        "xml:lang" : "lb",
+        "type" : "literal",
+        "value" : "Telecom Italia Capital S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telecom Italia Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124734254"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500FE0708ACF84D52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GTV Special Opportunities III - OpenAI LLP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558266"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CUQDM8T7C0B897"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "France Retail Holdings S.à r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558266"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700CUQDM8T7C0B897"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "France Retail Holdings S.à r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558284"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700E0KXF6Q0T7IH91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flabeg RE S.à r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558284"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700E0KXF6Q0T7IH91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flabeg RE S.à r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FRED1DGH1PVU85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARNY INVESTISSEMENT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FRED1DGH1PVU85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MARNY INVESTISSEMENT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558294"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GBMPTULWZ4SI85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EP Equity Investment II S.a.r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558294"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GBMPTULWZ4SI85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EP Equity Investment II S.a.r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558330"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700LLQIYJR6VMOF02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FORTYTWO House S.a r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558330"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700LLQIYJR6VMOF02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FORTYTWO House S.a r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558432"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700X9ZLZKGLEG9809"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Co. Astra Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558432"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700X9ZLZKGLEG9809"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WOOD & Co. Astra Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558457"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570003ZMY735M26L61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "REIL (Real Estate Investments in Luxembourg)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558457"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570003ZMY735M26L61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "REIL (Real Estate Investments in Luxembourg)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558514"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008J5KM4L93EZI28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HB Reavis Investments Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558514"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008J5KM4L93EZI28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HB Reavis Investments Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558525"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009X7WUHRHGKWD61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Immeubles Place D'Armes s.a."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558525"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009X7WUHRHGKWD61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Immeubles Place D'Armes s.a."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558528"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570091NDPVS5HSRS51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EP Equity Investment III S.a r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558528"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570091NDPVS5HSRS51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EP Equity Investment III S.a r.l."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133848867"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CLGXJ3ZDL9PZ27"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amazon EU S.à r.l."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B101818"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138754215"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100DKH3X2TO7IQV91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airports Group Europe"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "lu/B167449"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140065663"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MEI5JPD3OSHQ73"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LUXHUB SA"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LUXHUB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140624238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "222100BWAL3F1HUWJF67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Three Seas Initiative Investment Fund"
+      }
+    } ]
+  }
+}

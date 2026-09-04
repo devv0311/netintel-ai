@@ -1,0 +1,30 @@
+[
+  {
+    "recordRef": "gleif:529900GL92L3558EMS17",
+    "registry": "gleif",
+    "registryRecordId": "529900GL92L3558EMS17",
+    "subjectKind": "organisation",
+    "name": "H2O SPORTSWEAR A/S",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900GL92L3558EMS17"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "dk/34687641"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000170",
+        "value": "34687641"
+      }
+    ],
+    "observedAt": "2025-09-29T05:06:14.000Z",
+    "jurisdiction": "DK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:25.353Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900GL92L3558EMS17"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "recordRef": "edgar:1665584",
+    "registry": "edgar",
+    "registryRecordId": "1665584",
+    "subjectKind": "organisation",
+    "name": "ISS A/S",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1665584"
+      }
+    ],
+    "jurisdiction": "US-G7",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:58.222Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001665584"
+  },
+  {
+    "recordRef": "edgar:1826018",
+    "registry": "edgar",
+    "registryRecordId": "1826018",
+    "subjectKind": "organisation",
+    "name": "ROVER GROUP, INC.",
+    "aliases": [
+      "Nebula Caravel Acquisition Corp."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1826018"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:58.222Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826018"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "sourceId": "SRC-002",
+  "endpoint": "https://api.gleif.org/api/v1/lei-records",
+  "request": "filter[lei]=<293 LEIs from an already-collected source>&page[size]=40",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+  "retrievedAt": "2026-09-04T10:35:59.972Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "16d832c276288b909874e93cee367cd6a83f85bd9a83d5d08ff459a8d1e3ec1a",
+  "rawBytes": 789918,
+  "sourcePayloads": [
+    {
+      "file": "lei-records-batch-01.json",
+      "sha256": "b61fed8c690c1d2c9c4f8be87e897e68717d6a2adc1c71eb8bb8dd440002a74d",
+      "bytes": 110659,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-01.json"
+    },
+    {
+      "file": "lei-records-batch-02.json",
+      "sha256": "22c3e46a0aa2fb82105093a3ef1d729ba8de71b7a9eeaaf99edf0c601a8a87a9",
+      "bytes": 104794,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-02.json"
+    },
+    {
+      "file": "lei-records-batch-03.json",
+      "sha256": "dc9952314730f118a10c3781726b2063d1c046064d810a96d876c3b5d8d61000",
+      "bytes": 109837,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-03.json"
+    },
+    {
+      "file": "lei-records-batch-04.json",
+      "sha256": "940704a7f5f02e153891434f7159d3e06cafcc3e7707692dab6aeabde329f1c2",
+      "bytes": 104759,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-04.json"
+    },
+    {
+      "file": "lei-records-batch-05.json",
+      "sha256": "ce188e668986a6a03b81785c5160c9d60744316f3897960129ecbe3579ca728e",
+      "bytes": 107030,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-05.json"
+    },
+    {
+      "file": "lei-records-batch-06.json",
+      "sha256": "567b0672957f1911885fa3ba5afd88241eeadbddc8640031a3aabb47bf8a39f6",
+      "bytes": 106815,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-06.json"
+    },
+    {
+      "file": "lei-records-batch-07.json",
+      "sha256": "98c61806d3f136a01d3c76185eca52d97969b294fccce7671b3481cd424e3263",
+      "bytes": 110062,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-07.json"
+    },
+    {
+      "file": "lei-records-batch-08.json",
+      "sha256": "692d6d92781e67e0aac7d89c8dd30a75c00a255af1812f6b22afed211ac91d6f",
+      "bytes": 35962,
+      "records": 13,
+      "storedAt": "raw/lei-records-batch-08.json"
+    }
+  ],
+  "recordCount": 293,
+  "recordsSha256": "5c4331a689b351135d17ca860afae8f714c60801a9828acae488e86246113615",
+  "warnings": []
+}

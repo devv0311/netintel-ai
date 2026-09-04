@@ -1,0 +1,24 @@
+{
+  "sourceId": "SRC-002",
+  "endpoint": "https://api.gleif.org/api/v1/lei-records",
+  "request": "filter[lei]=<2 LEIs from an already-collected source>&page[size]=40",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+  "retrievedAt": "2026-09-04T10:36:52.104Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "80662bdaac1aaa870f78b39301c3c571b83c31e98b03518e5921d42c09d87db6",
+  "rawBytes": 6978,
+  "sourcePayloads": [
+    {
+      "file": "lei-records-batch-01.json",
+      "sha256": "80662bdaac1aaa870f78b39301c3c571b83c31e98b03518e5921d42c09d87db6",
+      "bytes": 6978,
+      "records": 2,
+      "storedAt": "raw/lei-records-batch-01.json"
+    }
+  ],
+  "recordCount": 2,
+  "recordsSha256": "fc3e09efb6880317e6398e53eaac83371a37eb332b2dd002690a54bbf180057e",
+  "warnings": []
+}

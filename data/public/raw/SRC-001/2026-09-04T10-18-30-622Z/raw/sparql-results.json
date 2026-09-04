@@ -1,0 +1,366 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q611064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900EDH4XZT6UXKU54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Charoen Pokphand"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q611064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900EDH4XZT6UXKU54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Charoen Pokphand"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q611064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900EDH4XZT6UXKU54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Charoen Pokphand"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806483"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CCL2BKJGMYXV60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bangkok Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150005162"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806483"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CCL2BKJGMYXV60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bangkok Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150005162"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806483"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CCL2BKJGMYXV60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bangkok Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150005162"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806483"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CCL2BKJGMYXV60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bangkok Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4700150005162"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806706"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HJD00HOXYCA262"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Thailand"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1330208"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900R211PTUP8K9M82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stock Exchange of Thailand"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1810389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QOGMPTKB6W7G56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PTT Public Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3268422"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500HQD71STX0DQK07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "True Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4857049"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900AJ2Z6SUR6TSW75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banpu"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4857049"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900AJ2Z6SUR6TSW75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banpu"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6579845"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001O8YYGP5N7Q076"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PTT Exploration and Production Public Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13017045"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009MZ255FT79SF55"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Electricity Generating Public Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13017045"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009MZ255FT79SF55"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Electricity Generating Public Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16307140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SXM74NQ438EE35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TTW Public Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16307140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SXM74NQ438EE35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TTW Public Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65281131"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900L46WX9IXF5VA41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gulf Development"
+      }
+    } ]
+  }
+}

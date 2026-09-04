@@ -1,0 +1,946 @@
+[
+  {
+    "recordRef": "edgar:51296",
+    "registry": "edgar",
+    "registryRecordId": "51296",
+    "subjectKind": "organisation",
+    "name": "Navistar, Inc.",
+    "aliases": [
+      "INTERNATIONAL TRUCK & ENGINE CORP",
+      "NAVISTAR INTERNATIONAL TRANSPORTATION CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "51296"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000051296"
+  },
+  {
+    "recordRef": "edgar:733099",
+    "registry": "edgar",
+    "registryRecordId": "733099",
+    "subjectKind": "organisation",
+    "name": "ROGERS COMMUNICATIONS INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "733099"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000733099"
+  },
+  {
+    "recordRef": "edgar:868675",
+    "registry": "edgar",
+    "registryRecordId": "868675",
+    "subjectKind": "organisation",
+    "name": "TELUS CORP",
+    "aliases": [
+      "TELUS CORPORATION"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "868675"
+      }
+    ],
+    "jurisdiction": "US-A1",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000868675"
+  },
+  {
+    "recordRef": "edgar:943003",
+    "registry": "edgar",
+    "registryRecordId": "943003",
+    "subjectKind": "organisation",
+    "name": "AGRIUM INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "943003"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000943003"
+  },
+  {
+    "recordRef": "edgar:39911",
+    "registry": "edgar",
+    "registryRecordId": "39911",
+    "subjectKind": "organisation",
+    "name": "GAP INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "39911"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039911"
+  },
+  {
+    "recordRef": "edgar:814020",
+    "registry": "edgar",
+    "registryRecordId": "814020",
+    "subjectKind": "organisation",
+    "name": "BANK OF NOVA SCOTIA                                     /FI",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "814020"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000814020"
+  },
+  {
+    "recordRef": "edgar:1048911",
+    "registry": "edgar",
+    "registryRecordId": "1048911",
+    "subjectKind": "organisation",
+    "name": "FEDEX CORP",
+    "aliases": [
+      "FDX CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1048911"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048911"
+  },
+  {
+    "recordRef": "edgar:876883",
+    "registry": "edgar",
+    "registryRecordId": "876883",
+    "subjectKind": "organisation",
+    "name": "Stagwell Inc",
+    "aliases": [
+      "MDC Stagwell Holdings Inc",
+      "MDC PARTNERS INC",
+      "MDC CORP INC",
+      "MDC COMMUNICATIONS CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "876883"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000876883"
+  },
+  {
+    "recordRef": "edgar:701818",
+    "registry": "edgar",
+    "registryRecordId": "701818",
+    "subjectKind": "organisation",
+    "name": "KINROSS GOLD CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "701818"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000701818"
+  },
+  {
+    "recordRef": "edgar:16868",
+    "registry": "edgar",
+    "registryRecordId": "16868",
+    "subjectKind": "organisation",
+    "name": "CANADIAN NATIONAL RAILWAY CO",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "16868"
+      }
+    ],
+    "jurisdiction": "US-A8",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000016868"
+  },
+  {
+    "recordRef": "edgar:1584509",
+    "registry": "edgar",
+    "registryRecordId": "1584509",
+    "subjectKind": "organisation",
+    "name": "Aramark",
+    "aliases": [
+      "ARAMARK Holdings Corp"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1584509"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001584509"
+  },
+  {
+    "recordRef": "edgar:16847",
+    "registry": "edgar",
+    "registryRecordId": "16847",
+    "subjectKind": "organisation",
+    "name": "CANADIAN IMPERIAL BANK OF COMMERCE",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "16847"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000016847"
+  },
+  {
+    "recordRef": "edgar:749098",
+    "registry": "edgar",
+    "registryRecordId": "749098",
+    "subjectKind": "organisation",
+    "name": "MAGNA INTERNATIONAL INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "749098"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000749098"
+  },
+  {
+    "recordRef": "edgar:1000275",
+    "registry": "edgar",
+    "registryRecordId": "1000275",
+    "subjectKind": "organisation",
+    "name": "ROYAL BANK OF CANADA",
+    "aliases": [
+      "ROYAL BANK OF CANADA \\"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1000275"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000275"
+  },
+  {
+    "recordRef": "edgar:1264089",
+    "registry": "edgar",
+    "registryRecordId": "1264089",
+    "subjectKind": "organisation",
+    "name": "YAMANA GOLD INC.",
+    "aliases": [
+      "YAMANA GOLD INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1264089"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001264089"
+  },
+  {
+    "recordRef": "edgar:1097362",
+    "registry": "edgar",
+    "registryRecordId": "1097362",
+    "subjectKind": "organisation",
+    "name": "SUN LIFE FINANCIAL INC",
+    "aliases": [
+      "SUN LIFE FINANCIAL SERVICES INC",
+      "SUN LIFE FINANCIAL SERVICES OF CANADA INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1097362"
+      }
+    ],
+    "jurisdiction": "US-Z4",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362"
+  },
+  {
+    "recordRef": "edgar:201283",
+    "registry": "edgar",
+    "registryRecordId": "201283",
+    "subjectKind": "organisation",
+    "name": "REPSOL OIL & GAS CANADA INC.",
+    "aliases": [
+      "TALISMAN ENERGY INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "201283"
+      }
+    ],
+    "jurisdiction": "US-Z4",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000201283"
+  },
+  {
+    "recordRef": "edgar:855931",
+    "registry": "edgar",
+    "registryRecordId": "855931",
+    "subjectKind": "organisation",
+    "name": "POTASH CORP OF SASKATCHEWAN INC",
+    "aliases": [
+      "POTASH CORPORATION OF SASKATCHEWAN INC",
+      "POTASH CORPORATION OF SASKATCHEWAN INC."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "855931"
+      }
+    ],
+    "jurisdiction": "US-Z4",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000855931"
+  },
+  {
+    "recordRef": "edgar:937226",
+    "registry": "edgar",
+    "registryRecordId": "937226",
+    "subjectKind": "organisation",
+    "name": "ONEX CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "937226"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000937226"
+  },
+  {
+    "recordRef": "edgar:1001085",
+    "registry": "edgar",
+    "registryRecordId": "1001085",
+    "subjectKind": "organisation",
+    "name": "BROOKFIELD Corp /ON/",
+    "aliases": [
+      "BROOKFIELD ASSET MANAGEMENT INC.",
+      "BRASCAN CORP/",
+      "EDPERBRASCAN CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1001085"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001085"
+  },
+  {
+    "recordRef": "edgar:1075124",
+    "registry": "edgar",
+    "registryRecordId": "1075124",
+    "subjectKind": "organisation",
+    "name": "THOMSON REUTERS CORP /CAN/",
+    "aliases": [
+      "THOMSON CORP /CAN/"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1075124"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001075124"
+  },
+  {
+    "recordRef": "edgar:1718420",
+    "registry": "edgar",
+    "registryRecordId": "1718420",
+    "subjectKind": "organisation",
+    "name": "METRO INC.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1718420"
+      }
+    ],
+    "jurisdiction": "US-A8",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001718420"
+  },
+  {
+    "recordRef": "edgar:947263",
+    "registry": "edgar",
+    "registryRecordId": "947263",
+    "subjectKind": "organisation",
+    "name": "TORONTO DOMINION BANK",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "947263"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000947263"
+  },
+  {
+    "recordRef": "edgar:1627606",
+    "registry": "edgar",
+    "registryRecordId": "1627606",
+    "subjectKind": "organisation",
+    "name": "DAVIDsTEA Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1627606"
+      }
+    ],
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001627606"
+  },
+  {
+    "recordRef": "edgar:1156831",
+    "registry": "edgar",
+    "registryRecordId": "1156831",
+    "subjectKind": "organisation",
+    "name": "QUEBECOR MEDIA INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1156831"
+      }
+    ],
+    "jurisdiction": "US-A8",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156831"
+  },
+  {
+    "recordRef": "edgar:1313103",
+    "registry": "edgar",
+    "registryRecordId": "1313103",
+    "subjectKind": "organisation",
+    "name": "CMC Electronics Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1313103"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001313103"
+  },
+  {
+    "recordRef": "edgar:1363851",
+    "registry": "edgar",
+    "registryRecordId": "1363851",
+    "subjectKind": "organisation",
+    "name": "Catamaran Corp",
+    "aliases": [
+      "SXC Health Solutions Corp.",
+      "SXC Health Solutions Inc.",
+      "Systems Xcellence Inc."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1363851"
+      }
+    ],
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001363851"
+  },
+  {
+    "recordRef": "edgar:913353",
+    "registry": "edgar",
+    "registryRecordId": "913353",
+    "subjectKind": "organisation",
+    "name": "Colliers International Group Inc.",
+    "aliases": [
+      "FIRSTSERVICE CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "913353"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000913353"
+  },
+  {
+    "recordRef": "edgar:1545851",
+    "registry": "edgar",
+    "registryRecordId": "1545851",
+    "subjectKind": "organisation",
+    "name": "Veren Inc.",
+    "aliases": [
+      "Crescent Point Energy Corp."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1545851"
+      }
+    ],
+    "jurisdiction": "US-A0",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001545851"
+  },
+  {
+    "recordRef": "edgar:1547061",
+    "registry": "edgar",
+    "registryRecordId": "1547061",
+    "subjectKind": "organisation",
+    "name": "D-Wave Systems Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1547061"
+      }
+    ],
+    "jurisdiction": "US-A1",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001547061"
+  },
+  {
+    "recordRef": "edgar:935703",
+    "registry": "edgar",
+    "registryRecordId": "935703",
+    "subjectKind": "organisation",
+    "name": "DOLLAR TREE, INC.",
+    "aliases": [
+      "DOLLAR TREE INC",
+      "DOLLAR TREE STORES INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "935703"
+      }
+    ],
+    "jurisdiction": "US-VA",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000935703"
+  },
+  {
+    "recordRef": "edgar:897455",
+    "registry": "edgar",
+    "registryRecordId": "897455",
+    "subjectKind": "organisation",
+    "name": "DUNDEE CORP",
+    "aliases": [
+      "DUNDEE BANCORP INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "897455"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000897455"
+  },
+  {
+    "recordRef": "edgar:1127248",
+    "registry": "edgar",
+    "registryRecordId": "1127248",
+    "subjectKind": "organisation",
+    "name": "EMERA INC",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1127248"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001127248"
+  },
+  {
+    "recordRef": "edgar:1458891",
+    "registry": "edgar",
+    "registryRecordId": "1458891",
+    "subjectKind": "organisation",
+    "name": "Noble Corp",
+    "aliases": [
+      "Noble Holding Corp plc",
+      "Noble Corp plc",
+      "Noble Corp / Switzerland"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1458891"
+      }
+    ],
+    "jurisdiction": "US-X0",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001458891"
+  },
+  {
+    "recordRef": "edgar:877365",
+    "registry": "edgar",
+    "registryRecordId": "877365",
+    "subjectKind": "organisation",
+    "name": "Norbord Inc.",
+    "aliases": [
+      "NORBORD INC",
+      "NEXFOR INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "877365"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000877365"
+  },
+  {
+    "recordRef": "edgar:1546066",
+    "registry": "edgar",
+    "registryRecordId": "1546066",
+    "subjectKind": "organisation",
+    "name": "PEMBINA PIPELINE CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1546066"
+      }
+    ],
+    "jurisdiction": "US-A0",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001546066"
+  },
+  {
+    "recordRef": "edgar:895728",
+    "registry": "edgar",
+    "registryRecordId": "895728",
+    "subjectKind": "organisation",
+    "name": "ENBRIDGE INC",
+    "aliases": [
+      "IPL ENERGY INC"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "895728"
+      }
+    ],
+    "jurisdiction": "US-A0",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895728"
+  },
+  {
+    "recordRef": "edgar:1666175",
+    "registry": "edgar",
+    "registryRecordId": "1666175",
+    "subjectKind": "organisation",
+    "name": "Fortis Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1666175"
+      }
+    ],
+    "jurisdiction": "US-A4",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001666175"
+  },
+  {
+    "recordRef": "edgar:311337",
+    "registry": "edgar",
+    "registryRecordId": "311337",
+    "subjectKind": "organisation",
+    "name": "SUNCOR ENERGY INC",
+    "aliases": [
+      "SUNCOR ENERGY INC."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "311337"
+      }
+    ],
+    "jurisdiction": "US-A0",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000311337"
+  },
+  {
+    "recordRef": "edgar:91440",
+    "registry": "edgar",
+    "registryRecordId": "91440",
+    "subjectKind": "organisation",
+    "name": "Snap-on Inc",
+    "aliases": [
+      "SNAP ON INC",
+      "SNAP ON TOOLS CORP"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "91440"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000091440"
+  },
+  {
+    "recordRef": "edgar:921582",
+    "registry": "edgar",
+    "registryRecordId": "921582",
+    "subjectKind": "organisation",
+    "name": "IMAX CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "921582"
+      }
+    ],
+    "jurisdiction": "US-A6",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921582"
+  },
+  {
+    "recordRef": "edgar:866028",
+    "registry": "edgar",
+    "registryRecordId": "866028",
+    "subjectKind": "organisation",
+    "name": "POLYMET MINING CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "866028"
+      }
+    ],
+    "jurisdiction": "US-A1",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866028"
+  },
+  {
+    "recordRef": "edgar:1503812",
+    "registry": "edgar",
+    "registryRecordId": "1503812",
+    "subjectKind": "organisation",
+    "name": "PREMIUM BRANDS HOLDINGS Corp",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1503812"
+      }
+    ],
+    "jurisdiction": "US-Z4",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001503812"
+  },
+  {
+    "recordRef": "edgar:1108320",
+    "registry": "edgar",
+    "registryRecordId": "1108320",
+    "subjectKind": "organisation",
+    "name": "SMTC CORP",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1108320"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001108320"
+  },
+  {
+    "recordRef": "edgar:1594805",
+    "registry": "edgar",
+    "registryRecordId": "1594805",
+    "subjectKind": "organisation",
+    "name": "SHOPIFY INC.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1594805"
+      }
+    ],
+    "jurisdiction": "US-Z4",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001594805"
+  },
+  {
+    "recordRef": "edgar:1851803",
+    "registry": "edgar",
+    "registryRecordId": "1851803",
+    "subjectKind": "organisation",
+    "name": "Good Natured Products Inc.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1851803"
+      }
+    ],
+    "jurisdiction": "US-A1",
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:25:18.380Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001851803"
+  }
+]

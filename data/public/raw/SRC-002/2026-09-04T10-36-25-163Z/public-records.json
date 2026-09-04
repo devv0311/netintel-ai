@@ -1,0 +1,58 @@
+[
+  {
+    "recordRef": "gleif:529900X6XIDYH83WGV81",
+    "registry": "gleif",
+    "registryRecordId": "529900X6XIDYH83WGV81",
+    "subjectKind": "organisation",
+    "name": "Allied Bank Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "529900X6XIDYH83WGV81"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "pk/0000099"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000475",
+        "value": "0000099"
+      }
+    ],
+    "observedAt": "2025-09-25T10:19:09.000Z",
+    "jurisdiction": "PK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:24.448Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/529900X6XIDYH83WGV81"
+  },
+  {
+    "recordRef": "gleif:213800HCLGMIPPAF9976",
+    "registry": "gleif",
+    "registryRecordId": "213800HCLGMIPPAF9976",
+    "subjectKind": "organisation",
+    "name": "LUCKY CEMENT LIMITED",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800HCLGMIPPAF9976"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "pk/0031182"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000475",
+        "value": "0031182"
+      }
+    ],
+    "observedAt": "2019-04-11T07:34:44.000Z",
+    "jurisdiction": "PK",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:24.448Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800HCLGMIPPAF9976"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      }
+    } ]
+  }
+}

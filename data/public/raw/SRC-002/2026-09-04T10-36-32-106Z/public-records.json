@@ -1,0 +1,82 @@
+[
+  {
+    "recordRef": "gleif:984500ABAOJEEDVA9333",
+    "registry": "gleif",
+    "registryRecordId": "984500ABAOJEEDVA9333",
+    "subjectKind": "organisation",
+    "name": "Luramic Ltd",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "984500ABAOJEEDVA9333"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000447",
+        "value": "C230364"
+      }
+    ],
+    "observedAt": "2026-06-26T15:03:05.000Z",
+    "jurisdiction": "MU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:31.296Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/984500ABAOJEEDVA9333"
+  },
+  {
+    "recordRef": "gleif:549300X5CVD2GPQFGT84",
+    "registry": "gleif",
+    "registryRecordId": "549300X5CVD2GPQFGT84",
+    "subjectKind": "organisation",
+    "name": "Phoenix Beverages, Inc.",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "549300X5CVD2GPQFGT84"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "us_ny/754590"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000628",
+        "value": "754590"
+      }
+    ],
+    "observedAt": "2025-12-01T21:47:56.000Z",
+    "jurisdiction": "US-NY",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:31.296Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300X5CVD2GPQFGT84"
+  },
+  {
+    "recordRef": "gleif:2549006Z2WEMVZ49ES85",
+    "registry": "gleif",
+    "registryRecordId": "2549006Z2WEMVZ49ES85",
+    "subjectKind": "organisation",
+    "name": "Air Mauritius Limited",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "2549006Z2WEMVZ49ES85"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "mu/C1600"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000447",
+        "value": "C1600"
+      }
+    ],
+    "observedAt": "2026-07-31T08:49:21.000Z",
+    "jurisdiction": "MU",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:36:31.296Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/2549006Z2WEMVZ49ES85"
+  }
+]

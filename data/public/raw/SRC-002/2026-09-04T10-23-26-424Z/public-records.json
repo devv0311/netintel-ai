@@ -1,0 +1,58 @@
+[
+  {
+    "recordRef": "gleif:213800TB53ELEUKM7Q61",
+    "registry": "gleif",
+    "registryRecordId": "213800TB53ELEUKM7Q61",
+    "subjectKind": "organisation",
+    "name": "VODAFONE GROUP PUBLIC LIMITED COMPANY",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "213800TB53ELEUKM7Q61"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/01833679"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "01833679"
+      }
+    ],
+    "observedAt": "2026-02-03T10:39:51.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:25.545Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/213800TB53ELEUKM7Q61"
+  },
+  {
+    "recordRef": "gleif:GBQKSY6W7G0OHCQ8OQ72",
+    "registry": "gleif",
+    "registryRecordId": "GBQKSY6W7G0OHCQ8OQ72",
+    "subjectKind": "organisation",
+    "name": "ASSOCIATED BRITISH FOODS PLC",
+    "identifiers": [
+      {
+        "scheme": "LEI",
+        "value": "GBQKSY6W7G0OHCQ8OQ72"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "gb/00293262"
+      },
+      {
+        "scheme": "NATIONAL_REGISTER:RA000585",
+        "value": "00293262"
+      }
+    ],
+    "observedAt": "2025-10-10T16:04:00.000Z",
+    "jurisdiction": "GB",
+    "status": "ACTIVE",
+    "retrievedAt": "2026-09-04T10:23:25.545Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+    "sourceUrl": "https://api.gleif.org/api/v1/lei-records/GBQKSY6W7G0OHCQ8OQ72"
+  }
+]

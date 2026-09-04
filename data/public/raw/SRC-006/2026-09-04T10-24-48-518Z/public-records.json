@@ -1,0 +1,81 @@
+[
+  {
+    "recordRef": "edgar:842180",
+    "registry": "edgar",
+    "registryRecordId": "842180",
+    "subjectKind": "organisation",
+    "name": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+    "aliases": [
+      "BANCO BILBAO VIZCAYA ARGENTARIA S A"
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "842180"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:45.870Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000842180"
+  },
+  {
+    "recordRef": "edgar:1360587",
+    "registry": "edgar",
+    "registryRecordId": "1360587",
+    "subjectKind": "organisation",
+    "name": "Iberdrola, S.A.",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1360587"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:45.870Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001360587"
+  },
+  {
+    "recordRef": "edgar:1438655",
+    "registry": "edgar",
+    "registryRecordId": "1438655",
+    "subjectKind": "organisation",
+    "name": "Indra Sistemas",
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1438655"
+      }
+    ],
+    "status": "other",
+    "retrievedAt": "2026-09-04T10:24:45.870Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001438655"
+  },
+  {
+    "recordRef": "edgar:1826018",
+    "registry": "edgar",
+    "registryRecordId": "1826018",
+    "subjectKind": "organisation",
+    "name": "ROVER GROUP, INC.",
+    "aliases": [
+      "Nebula Caravel Acquisition Corp."
+    ],
+    "identifiers": [
+      {
+        "scheme": "CIK",
+        "value": "1826018"
+      }
+    ],
+    "jurisdiction": "US-DE",
+    "status": "operating",
+    "retrievedAt": "2026-09-04T10:24:45.870Z",
+    "license": "US Government work / public domain (EDGAR filing content free to access and reuse)",
+    "licenseUrl": "https://www.sec.gov/os/webmaster-faq",
+    "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826018"
+  }
+]
