@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-04T08:35:07.411Z",
+  "createdAt": "2026-09-04T09:48:43.824Z",
   "datasetId": "cipher-er-pairs",
   "datasetVersion": "2.0.0",
   "decisionThreshold": 0.9774753387972909,
@@ -33,7 +33,7 @@
     "structuralTokenAsymmetry"
   ],
   "format": "cipher-er-model/1",
-  "gitCommit": "57e317ad5048e21b52ce64cec45c87e6c46cc403",
+  "gitCommit": "6599c70e0a07b8383f914c11eacc2018212fd1ae",
   "modelId": "cipher-er-pair-classifier",
   "modelVersion": "2.0.0",
   "notes": "Pairwise same-entity classifier over name, jurisdiction and missingness features. Reads NO identifier: every label in this project is derived from identifier agreement, so an identifier feature would be the answer, not evidence. The deterministic resolver remains authoritative for merges; this score is advisory and is always shown with its features.",

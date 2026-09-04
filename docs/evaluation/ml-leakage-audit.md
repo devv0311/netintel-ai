@@ -1,124 +1,128 @@
-# Leakage audit — CIPHER entity-resolution model
+# Leakage audit
 
-**Gate:** `scripts/ml/leakage-audit.ts` **Result:** `reports/ml/leakage-audit.json`
-**Verdict: PASS** (10 of 10 checks), re-verified independently by
-`tests/unit/ml-dataset.test.ts`.
+`scripts/ml/leakage-audit.ts` runs **before** any training and fails
+loudly. Every check is a hard assertion with a printed verdict; a FAIL
+exits non-zero and the split is rebuilt, not argued with.
 
-The gate runs before training and exits non-zero on any failure. It has
-already failed once and forced a rebuild; §3 records that.
+```
+npm run ml:leakage                                        # v1 (superseded) — FAILS L12, deliberately
+node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts \
+  --dataset evidence/ml/pair-dataset-v2.json --out leakage-audit-v2.json \
+  --prior-datasets evidence/ml/pair-dataset.json            # v2 — PASS 12/12
+node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts \
+  --dataset evidence/ml/pair-dataset-final-test.json --out leakage-audit-final-test.json \
+  --prior-datasets evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-v2.json   # PASS 12/12
+```
+
+| Dataset | Verdict | Report |
+| --- | --- | --- |
+| `cipher-er-pairs` v1.0.0 (superseded) | **FAIL — L12** | `reports/ml/leakage-audit.json` |
+| `cipher-er-pairs` v2.0.0 (shipped) | **PASS 12/12** | `reports/ml/leakage-audit-v2.json` |
+| `cipher-er-pairs-final-test` v1.0.0 | **PASS 12/12** | `reports/ml/leakage-audit-final-test.json` |
+
+The v1 FAIL is left in the repository as it stands. It is a finding about
+a shipped model, and regenerating it into a pass would delete the
+evidence.
 
 ---
 
-## 1. The leakage that would have been fatal, and how it is prevented
+## The checks
 
-Every label in this project is derived from an identifier. A positive is
-identifier AGREEMENT; a negative is identifier DISAGREEMENT. The label is
-therefore a deterministic function of the identifiers.
+| ID | Asserts |
+| --- | --- |
+| L1 | **Subject disjointness** — the split unit appears in one partition only. |
+| L2 | **Declared partition agrees with emitted pairs.** |
+| L3 | **Record disjointness** — a record reachable from two partitions is the same entity in both. |
+| L4 | **Pair uniqueness** — no unordered record pair twice. |
+| L5 | **No identifier field** in the record projection the model sees. |
+| L6 | **No identifier accessor** in `src/lib/ml/features.ts`, checked against the source. |
+| L7 | **Single-feature AUC** — no feature alone separates the classes almost perfectly (band [0.01, 0.99]). |
+| L8 | **Cross-partition identity** — no subject is one entity in two partitions. |
+| L9 | **Standardiser fitted on TRAIN rows only.** |
+| L10 | **Test untouched** — the training script never references the test partition, checked by grep. |
+| L11 | **The frozen test is a ratchet** *(new in P6.25)*. |
+| L12 | **No trainable feature value is a one-way veto** *(new in P6.25)*. |
 
-It follows that **an identifier feature is not a feature — it is the
-answer.** A model given `sharesLEI` would score 100% on every partition,
-learn nothing about names, and be useless at the only job worth doing:
-judging pairs where an identifier is absent, which is exactly where the
-deterministic resolver fails.
+L1–L10 are unchanged from P6.24. L11 and L12 exist because each caught a
+real defect that the other ten could not.
 
-Three independent barriers enforce this:
+## L11 — a frozen test can thaw when the corpus grows
 
-1. **Type.** `buildFeatures` accepts a `FeatureRecord`, which has four
-   fields — `name`, `officialName`, `aliases`, `jurisdiction` — and no
-   identifier field. The contract is enforced by the compiler.
-2. **Data.** The anchored corpus physically withholds identifiers from
-   748 of 1,245 records.
-3. **Check.** L5 asserts the stored projection carries no identifier key;
-   L6 greps `src/lib/ml/features.ts` for identifier accessors outside
-   comments.
+A subject reaches TEST either by its own `heldout_evaluation` designation
+**or by contagion through its connected component**, and component
+boundaries move when records are added.
 
-The OpenCorporates id is excluded on the same reasoning one step removed:
-`ocid_agrees` is recorded as corroboration on positives and is
-co-determined with LEI agreement.
+The first v2 build dropped five subjects out of the P6.24 frozen test —
+four into TRAIN, one into VALIDATION. Nothing in L1–L10 could see it: the
+new split is internally disjoint, and disjointness says nothing about what
+an *earlier* frozen test contained.
 
-## 2. The ten checks
+L11 reads every declared prior dataset and asserts that no subject its
+test partition held appears in this dataset's train or validation. The v2
+corpus builder additionally reads the P6.24 pair dataset back and promotes
+every subject that partition actually held (74 of them) to
+`heldout_evaluation`, making the promotion permanent rather than a side
+effect of a component boundary that can move again.
 
-| # | Check | Result |
-|---|---|---|
-| L1 | Subject disjointness | PASS — 756 subjects, 0 in more than one partition |
-| L2 | Declared partition agrees with emitted pairs | PASS — 0 disagreements |
-| L3 | Record disjointness | PASS — 1,240 records, 0 in more than one partition |
-| L4 | No duplicated record pair | PASS — 4,053 distinct pairs, 0 repeats |
-| L5 | Record projection carries no identifier field | PASS — only the four readable fields |
-| L6 | Feature code reads no identifier | PASS — no accessor outside comments |
-| L7 | No single feature separates the classes almost perfectly | PASS — every standalone ROC-AUC inside [0.01, 0.99] |
-| L8 | No identical entity spans two partitions | PASS — 1 normalised name recurs across partitions, under DIFFERENT subjects |
-| L9 | Standardiser fitted on TRAIN rows only | PASS |
-| L10 | Training script never reads the held-out partition | PASS |
+**A subject that has once been frozen can never enter TRAIN.**
 
-**On L7.** A feature that alone separates the classes almost perfectly is
-the signature of target leakage. The strongest single features sit well
-inside the band, which is what one expects when the label comes from
-identifiers and the features come from names.
+## L12 — a one-way veto, which L7 provably cannot catch
 
-**On L8.** One normalised name occurs in more than one partition. Its
-records belong to *different* subjects — two distinct legal entities that
-share a name. That is the phenomenon the hard negatives exist to capture;
-it is not leakage. The check distinguishes it from the same subject
-appearing twice, which would be.
+In the P6.24 dataset:
 
-## 3. The failure the gate caught
+| Feature | =1 in TRAIN | Alongside a positive |
+| --- | --- | --- |
+| `jurisdictionBothKnown` | 134 | **0** |
+| `jurisdictionCountryMatch` | 59 | **0** |
+| `jurisdictionCountryConflict` | 75 | **0** |
+| `officialNameBothPresent` | 38 | **0** |
 
-On its first run L3 FAILED: `wikidata:EXP-0926` — Rocky Mountain
-Chocolate — appeared in both validation and the held-out partition. That
-single Wikidata record is a positive partner of three subjects: an LEI,
-and two CIKs belonging to a predecessor filer and its successor.
-Assigning those subjects independently put one record on both sides of
-the wall.
+Wikidata published no jurisdiction, and every positive was cross-source
+*with* Wikidata, so "both sides state a jurisdiction" meant "same-source"
+and therefore "not a positive". The model learned it — correctly for that
+corpus, and catastrophically for any other: its recall on unseen pairs is
+2.7%. Only Wikidata publishes an official name, making
+`officialNameBothPresent` the same artefact in different clothes.
 
-The split was **invalidated and rebuilt**, not argued with. The builder
-now joins any subjects reachable through a shared record before
-assignment (4 such joins, plus 92 LEI/CIK scheme bridges). L3 passes on
-the rebuilt split and `tests/unit/ml-dataset.test.ts` re-derives it
-independently from the committed dataset.
+**L7 could not have caught this and cannot be tuned to.** It rates a
+feature by standalone ROC-AUC and passes anything in [0.01, 0.99]. A
+one-way indicator firing on 16% of one class and 0% of the other scores
+≈0.42 — comfortably inside the band — because AUC averages over the whole
+distribution and cannot see that one *value* is a categorical veto. That
+is the wrong statistic for this failure, not a badly chosen band.
 
-## 4. Preprocessing and the frozen test
+L12 asks the question directly: **is there a binary feature value which,
+with at least 30 TRAIN rows of support, never co-occurs with one of the
+labels?** It is audited over the *trainable* feature set, since a feature
+excluded from training cannot be learned from.
 
-- Centring and scaling statistics are fitted on the TRAIN rows only
-  (`fitStandardiser(trainExamples, …)`) and are stored inside the model
-  artifact, so inference applies the same numbers the training saw.
-- Every feature is otherwise parameter-free: no vocabulary, no IDF, no
-  quantity estimated from the corpus.
-- Model choice and threshold were both fixed against VALIDATION. The
-  held-out partition is not read by `scripts/ml/train-model.ts` — L10
-  greps the file — and is opened once, by
-  `scripts/ml/evaluate-model.ts`, after the artifact is written.
+The response was not to delete evidence. Wikidata now publishes a real
+country (P17 → P297), which broke the jurisdiction proxy by making the
+field genuinely informative; `officialNameBothPresent` — a pure
+missingness flag with no other content — is excluded from training, while
+the official name itself still feeds the variant comparisons where it is
+real evidence.
 
-## 5. Assessed, and deliberately NOT shipped: registry pairing
+## Extra guarantees for the final frozen test
 
-Every positive in the corpus is cross-source by construction, while many
-negatives are same-source. `sameRegistry` therefore predicts the label
-partly because of how the labels were BUILT.
+Beyond 12/12, the final-test corpus asserts a stricter property: **no
+subject appears in any partition of any earlier dataset**, verified at 0
+overlap across 963 subjects.
 
-It is measured rather than assumed. Experiment **E4** adds the feature to
-the logistic model and is recorded in the registry:
+Exclusion is applied at the **record** level, not the pair level.
+Filtering only labelled pairs was tried first and left 1,563 of 2,520
+subjects in place, because mined and sampled negatives are *derived* from
+whatever records the corpus holds — the positives were clean and the
+negatives were not.
 
-| | validation recall at the false-merge ceiling |
-|---|---|
-| E2 logistic regression, 25 features | 86.7% |
-| E4 the same, plus `sameRegistry` | 91.7% |
+## What the suite still does not check
 
-**Five points of the apparent gain are that artefact.** The feature is
-excluded from the shipped model. This is the clearest reason to read the
-held-out numbers as a lower bound on a real corpus rather than an
-inflated one.
-
-## 6. Residual risks, stated
-
-- **Validation is small** — 60 positives and 4 curated hard negatives. A
-  threshold chosen on it carries real variance, and the held-out result
-  (3 false merges against the ceiling's implied 0) shows that variance
-  materialising.
-- **The corpus is one snapshot of three publishers.** Entity-disjointness
-  is enforced within it; nothing here establishes generalisation to a
-  fourth publisher or a later vintage.
-- **Mined hard negatives are selected by name collision.** The selection
-  rule is the ground truth's own and is applied identically in all three
-  partitions, but it does shift the negative distribution toward hard
-  cases relative to a uniform draw. The curated 146 are reported
-  separately throughout for exactly this reason.
+- **Development-decision contamination.** No automated check can see that
+  a human read a test partition's errors and changed a feature. That
+  happened to the v2 development test, is recorded in
+  [`ml-evaluation-and-error-analysis.md`](./ml-evaluation-and-error-analysis.md),
+  and was handled by collecting a new frozen test rather than by
+  redefining what "frozen" means.
+- **Publisher-side correlation.** If two publishers copy each other, an
+  identifier agreement is less independent than it looks. Not currently
+  measurable from what they publish.

@@ -1,5 +1,20 @@
 # P6.18 — Can the remaining real failures be solved deterministically, and is ML justified yet?
 
+> **STATUS: SUPERSEDED as a verdict, retained as a record.** This document
+> concluded that ML was not yet justified, and that conclusion was correct
+> on the evidence available at the time. It no longer describes the
+> repository: a pairwise entity-resolution model is trained, evaluated and
+> integrated as an advisory signal (P6.24, revised at P6.25).
+>
+> What has NOT changed is this document's reasoning, which is why it is kept
+> rather than rewritten: the gate it defined is the one the model was
+> eventually held to, and the residual it identified — group-and-member
+> pairs under an undecided P6.21.2 policy — is still the model's principal
+> limitation, now measured at 41 of 244 curated hard negatives on the final
+> frozen test. Current state:
+> [`ml-model-card.md`](./ml-model-card.md),
+> [`ml-evaluation-and-error-analysis.md`](./ml-evaluation-and-error-analysis.md).
+
 **Date:** 2026-09-04
 **Corpora:** the P6.16 real no-identifier corpus (257 records) and the P6.17.3
 Devanagari pilot (51 real Devanagari/Latin primary-name pairs)

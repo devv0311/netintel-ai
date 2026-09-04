@@ -1,17 +1,17 @@
 {
   "evaluation": "P6.24.4 frozen held-out evaluation",
   "dataClass": "REAL",
-  "ranAt": "2026-09-04T08:50:14.969Z",
+  "ranAt": "2026-09-04T09:48:44.230Z",
   "artifact": {
     "path": "models/cipher-er-pair-classifier.v2.json",
-    "sha256": "29525a3e357b9bde521e37fd264d42776691b62fe6f4e74e960e83ca92c287a8",
+    "sha256": "8948a73fa3d5640a978eb80fd1dddd623bdf286c8a6ae03e8d63f0d37b706e22",
     "modelId": "cipher-er-pair-classifier",
     "modelVersion": "2.0.0",
     "experimentId": "E2-logistic-regression",
     "modelKind": "logistic_regression",
     "decisionThreshold": 0.9774753387972909,
     "thresholdPolicy": "Chosen on the validation partition as the threshold maximising F1 subject to a false-merge rate no higher than the deterministic resolver's on the same partition (0.0013), AND no higher than that resolver's false-merge rate over the CURATED HARD NEGATIVES alone (1/25 = 0.0400). The second ceiling exists because hard negatives are 25 of the partition's negatives, so an overall ceiling alone barely constrains the pairs a merge decision actually turns on. The held-out partition was not consulted.",
-    "gitCommit": "57e317ad5048e21b52ce64cec45c87e6c46cc403",
+    "gitCommit": "6599c70e0a07b8383f914c11eacc2018212fd1ae",
     "datasetId": "cipher-er-pairs",
     "datasetVersion": "2.0.0"
   },

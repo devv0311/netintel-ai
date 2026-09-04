@@ -3,6 +3,20 @@
 **Date:** 2026-09-03 · **Verified against commit `4493a3e`**
 **Bottom line: nothing in this repository can be trained, and nothing in it should be. No ML framework was installed, and none should be.**
 
+> **STATUS: SUPERSEDED, retained as a record.** Read the bottom line above as
+> what was true on 2026-09-03 at commit `4493a3e`, not as a description of
+> this repository today. A pairwise entity-resolution model is now trained
+> on real public-register data, evaluated on a frozen test and integrated
+> as an advisory signal (P6.24, revised at P6.25 —
+> [`../evaluation/ml-model-card.md`](../evaluation/ml-model-card.md)).
+>
+> Two of this document's conditions were met rather than waived, which is
+> why it is kept: **still no ML framework is installed** (the trainer is
+> plain TypeScript in `src/lib/ml/train.ts` and the artifact is JSON), and
+> the training data is real, licensed and identifier-labelled rather than
+> synthetic. Operation DarkNet Delhi remains EVALUATION-ONLY and has never
+> been trained on.
+
 ---
 
 ## 1. What "training" could mean, and what actually applies

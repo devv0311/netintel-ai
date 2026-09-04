@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "CIPHER — synthetic-data investigative intelligence platform (application foundation)",
+  "description": "CIPHER \u2014 synthetic-data investigative intelligence platform (application foundation)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,10 +19,20 @@
     "collect:public": "node --use-env-proxy --import ./scripts/eval-resolve.mjs scripts/collect-public.ts",
     "fixture:morphology": "node --import ./scripts/eval-resolve.mjs scripts/build-morphology-fixture.ts",
     "experiment:generalisation": "node --import ./scripts/eval-resolve.mjs scripts/generalisation-experiment.ts",
-    "ml:dataset": "node --import ./scripts/eval-resolve.mjs scripts/ml/build-pair-dataset.ts",
-    "ml:leakage": "node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts",
-    "ml:train": "node --import ./scripts/eval-resolve.mjs scripts/ml/train-model.ts",
-    "ml:evaluate": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts"
+    "ml:dataset": "node --import ./scripts/eval-resolve.mjs scripts/ml/build-pair-dataset.ts --corpus evidence/expanded-v2/expanded-v2-anchored.corpus.json --ground-truth evidence/expanded-v2/expanded-v2.ground-truth.json --out pair-dataset-v2.json --dataset-version 2.0.0 --seed cipher-p6.25-pair-dataset-v2",
+    "ml:corpus": "node --import ./scripts/eval-resolve.mjs scripts/build-corpus-v2.ts",
+    "ml:leakage": "node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts --dataset evidence/ml/pair-dataset-v2.json --out leakage-audit-v2.json --prior-datasets evidence/ml/pair-dataset.json",
+    "ml:train": "node --import ./scripts/eval-resolve.mjs scripts/ml/train-model.ts --dataset evidence/ml/pair-dataset-v2.json --registry experiment-registry-v2.json --artifact cipher-er-pair-classifier.v2.json --model-version 2.0.0",
+    "ml:evaluate": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts --dataset evidence/ml/pair-dataset-v2.json --artifact models/cipher-er-pair-classifier.v2.json --eval-out heldout-evaluation-v2.json --errors-out error-analysis-v2.json",
+    "ml:final-test:corpus": "node --import ./scripts/eval-resolve.mjs scripts/build-final-test-corpus.ts",
+    "ml:final-test:dataset": "node --import ./scripts/eval-resolve.mjs scripts/ml/build-pair-dataset.ts --corpus evidence/final-test/final-test-anchored.corpus.json --ground-truth evidence/final-test/final-test.ground-truth.json --out pair-dataset-final-test.json --dataset-id cipher-er-pairs-final-test --dataset-version 1.0.0 --seed cipher-p6.25-final-test --all-test",
+    "ml:final-test:leakage": "node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts --dataset evidence/ml/pair-dataset-final-test.json --out leakage-audit-final-test.json --prior-datasets evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-v2.json",
+    "ml:final-test": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts --dataset evidence/ml/pair-dataset-final-test.json --artifact models/cipher-er-pair-classifier.v2.json --eval-out final-test-evaluation.json --errors-out final-test-error-analysis.json",
+    "ml:compare": "node --import ./scripts/eval-resolve.mjs scripts/ml/compare-models.ts --dataset evidence/ml/pair-dataset-final-test.json --fit-datasets evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-v2.json --out final-test-comparison.json",
+    "ml:v1:dataset": "node --import ./scripts/eval-resolve.mjs scripts/ml/build-pair-dataset.ts",
+    "ml:v1:leakage": "node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts",
+    "ml:v1:train": "node --import ./scripts/eval-resolve.mjs scripts/ml/train-model.ts",
+    "ml:v1:evaluate": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.123.0",

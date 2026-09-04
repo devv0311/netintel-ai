@@ -1,7 +1,7 @@
 {
   "registry": "P6.24 experiment registry",
-  "ranAt": "2026-09-04T08:35:07.425Z",
-  "gitCommit": "57e317ad5048e21b52ce64cec45c87e6c46cc403",
+  "ranAt": "2026-09-04T09:48:43.839Z",
+  "gitCommit": "6599c70e0a07b8383f914c11eacc2018212fd1ae",
   "dataset": {
     "id": "cipher-er-pairs",
     "version": "2.0.0",
@@ -135,7 +135,7 @@
         "positiveWeight": 4
       },
       "seed": 20260904,
-      "trainingMillis": 641,
+      "trainingMillis": 596,
       "validation": {
         "rocAuc": 0.9921,
         "prAuc": 0.9712,
@@ -291,7 +291,7 @@
         "positiveWeight": 4
       },
       "seed": 20260904,
-      "trainingMillis": 3469,
+      "trainingMillis": 3406,
       "validation": {
         "rocAuc": 0.9928,
         "prAuc": 0.9729,
@@ -340,7 +340,7 @@
         "positiveWeight": 4
       },
       "seed": 20260904,
-      "trainingMillis": 676,
+      "trainingMillis": 652,
       "validation": {
         "rocAuc": 0.9958,
         "prAuc": 0.9844,
@@ -494,7 +494,7 @@
         "positiveWeight": 4
       },
       "seed": 20260904,
-      "trainingMillis": 639,
+      "trainingMillis": 615,
       "validation": {
         "rocAuc": 0.9654,
         "prAuc": 0.9407,
@@ -650,7 +650,7 @@
         "positiveWeight": 4
       },
       "seed": 20260904,
-      "trainingMillis": 11298,
+      "trainingMillis": 11519,
       "validation": {
         "rocAuc": 0.9908,
         "prAuc": 0.9583,
@@ -701,7 +701,7 @@
         "positiveWeight": 4
       },
       "seed": 20260904,
-      "trainingMillis": 22129,
+      "trainingMillis": 21700,
       "validation": {
         "rocAuc": 0.9906,
         "prAuc": 0.9611,
@@ -742,7 +742,7 @@
   "shipped": {
     "experimentId": "E2-logistic-regression",
     "artifactPath": "models/cipher-er-pair-classifier.v2.json",
-    "artifactSha256": "29525a3e357b9bde521e37fd264d42776691b62fe6f4e74e960e83ca92c287a8",
+    "artifactSha256": "8948a73fa3d5640a978eb80fd1dddd623bdf286c8a6ae03e8d63f0d37b706e22",
     "weightsDigest": "6948e6bc6bb94b0aebe937fe0bd445e39b4c49e62cb456efa7eac742fde2f849",
     "decisionThreshold": 0.9774753387972909
   }

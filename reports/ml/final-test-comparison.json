@@ -1,6 +1,6 @@
 {
   "comparison": "P6.25.4 head-to-head on pairs neither model was fitted on",
-  "ranAt": "2026-09-04T08:50:57.944Z",
+  "ranAt": "2026-09-04T09:48:44.771Z",
   "evaluationDataset": {
     "path": "evidence/ml/pair-dataset-final-test.json",
     "id": "cipher-er-pairs-final-test",
@@ -114,7 +114,7 @@
       "experimentId": "E2-logistic-regression",
       "datasetVersionFittedOn": "2.0.0",
       "decisionThreshold": 0.9774753387972909,
-      "artifactSha256": "29525a3e357b9bde521e37fd264d42776691b62fe6f4e74e960e83ca92c287a8",
+      "artifactSha256": "8948a73fa3d5640a978eb80fd1dddd623bdf286c8a6ae03e8d63f0d37b706e22",
       "weightsDigest": "6948e6bc6bb94b0aebe937fe0bd445e39b4c49e62cb456efa7eac742fde2f849",
       "weightsDigestRecordedInArtifact": "6948e6bc6bb94b0aebe937fe0bd445e39b4c49e62cb456efa7eac742fde2f849",
       "weightsDigestMatches": true,

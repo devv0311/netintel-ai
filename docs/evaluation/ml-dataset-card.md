@@ -1,165 +1,184 @@
-# CIPHER entity-resolution pair dataset — data card
+# Dataset card — CIPHER entity-resolution pairs
 
-**Dataset id:** `cipher-er-pairs` **Version:** 1.0.0
-**Data class:** REAL. No synthetic data, no Operation DarkNet Delhi record,
-no manufactured name, no model-generated label.
-**Artifact:** `evidence/ml/pair-dataset.json`
-**Built by:** `scripts/ml/build-pair-dataset.ts` (P6.24.1)
-**Seed:** `cipher-p6.24-pair-dataset-v1`
+Three datasets. They are not three attempts at one thing; each has a
+different job, and mixing them would destroy what the others measure.
+
+| Dataset | Version | Pairs | Role |
+| --- | --- | --- | --- |
+| `cipher-er-pairs` | 1.0.0 | 4,053 | P6.24. **Superseded**, kept for the head-to-head. Fails leakage check L12 retrospectively. |
+| `cipher-er-pairs` | 2.0.0 | 10,764 | Trained and selected the shipped model. Its test partition is a **development** test. |
+| `cipher-er-pairs-final-test` | 1.0.0 | 5,257 | The **final frozen test**. Overlap with either dataset above: **0 subjects**. |
 
 ---
 
-## 1. What the dataset is
+## 1. Sources, licences and provenance
 
-4,053 record PAIRS drawn from 1,240 real public records, each labelled
-same-entity or different-entities. The unit of learning is the pair, not
-the record, because the question the model answers is a question about
-two records.
+All data is real, collected from three publishers approved in
+[`../data-research/source-registry.md`](../data-research/source-registry.md).
+No synthetic data. No manufactured name variants. Every name, official
+name and alias is the publisher's own string.
 
-## 2. Sources
+| Source | Registry | Licence | Licence URL | Channel |
+| --- | --- | --- | --- | --- |
+| SRC-001 | Wikidata | CC0 1.0 | `wikidata.org/wiki/Wikidata:Data_access` | direct-https |
+| SRC-002 | GLEIF LEI (L1+L2) | CC0 1.0 | `gleif.org/en/meta/lei-data-terms-of-use` | direct-https |
+| SRC-006 | SEC EDGAR | US Government work / public domain | `sec.gov/os/webmaster-faq` | direct-https |
 
-Nothing was collected for this phase. Both inputs already existed in the
-repository, and both are derived from raw payloads written before
-anything derived, hashed individually, and retained.
+All three permit training use and redistribution. **Operation DarkNet
+Delhi and every synthetic fixture are excluded from all three datasets by
+construction** and must never be mixed in.
 
-| Source | Registry | Licence | Channel | Records |
-|---|---|---|---|---|
-| SRC-001 | Wikidata | CC0 1.0 | `direct-https` | 648 |
-| SRC-002 | GLEIF LEI (Level 1 + Level 2) | CC0 1.0 | `direct-https` | 497 |
-| SRC-006 | SEC EDGAR | US Government work / public domain | `direct-https` | 100 |
+**What is preserved for every collection run**, under
+`data/public/raw/<source>/<retrievedAt>/`: the raw payload bytes as the
+publisher sent them, `rawSha256` over those bytes, byte counts, the exact
+endpoint and query, the retrieval channel, the licence and licence URL,
+per-payload record counts, and every warning raised during transformation.
+A manifest recording a hash of bytes kept nowhere is not provenance —
+nobody can verify it and the derived records cannot be rebuilt.
 
-Raw payload directories, recorded in the ground truth's `builtFrom` and
-carried into the dataset:
+`retrievalChannel` distinguishes `direct-https` (this process opened the
+socket; `rawSha256` is a wire-byte hash) from `agent-relay` (retrieved
+out-of-band because egress was blocked; the hash covers the *stored*
+payload only). Every run in these three datasets is `direct-https`.
 
-- Wikidata `data/public/raw/SRC-001/2026-09-04T03-07-48-927Z`
-- GLEIF `data/public/raw/SRC-002/2026-09-04T03-08-22-399Z`
-- EDGAR `data/public/raw/SRC-006/2026-09-04T03-09-43-738Z`
+**Collection is bounded by construction, not by restraint.** The
+collector takes a registry `source_id`, never a URL; endpoints and queries
+are constants inside each adapter; `--limit` is capped by the adapter's
+own `MAX_LIMIT`; there is no "fetch everything" mode. Cross-source linkage
+sets are always derived from an already-collected approved source, never
+hand-typed. `--dry-run` prints exactly what would be requested and exits
+before any socket opens, and was run before every collection here.
 
-All three are `APPROVED` or `APPROVED_WITH_RESTRICTIONS` in
-`docs/data-research/source-registry.csv`. **No ambiguously licensed
-source is present.** No source outside those three was read. No
-personal data: only the company-level block of EDGAR is used, and no
-natural person is collected by any adapter.
+## 2. `cipher-er-pairs` v2.0.0 — what the model learned from
 
-## 3. Immediate inputs
+Built by `scripts/build-corpus-v2.ts` → `scripts/ml/build-pair-dataset.ts`.
 
-```
-evidence/expanded/expanded-anchored.corpus.json   1,245 records (P6.19)
-evidence/expanded/expanded.ground-truth.json      labels + provenance (P6.19)
-```
+| | |
+| --- | --- |
+| Collection runs merged | Wikidata 4, GLEIF 14, EDGAR 2 |
+| Distinct records collected | 3,575 |
+| Excluded (prior-evaluation subject) | 257 |
+| Undetermined (record states 2+ LEIs) | 28 |
+| **Scorable records** | **3,290** |
+| With a stated jurisdiction | 3,256, over **126 distinct jurisdictions** |
+| Cross-source positives | **1,711** (gleif×wikidata 1,508, edgar×wikidata 203) |
+| Curated hard negatives | **477** |
+| Former-name pairs (own class, never trained) | 169 |
+| Name collisions scored as NOT COMPARABLE | 247 |
 
-The **anchored** corpus is used deliberately. It masks every non-GLEIF
-record behind a surrogate id and withholds its identifiers, so for 748 of
-1,245 records the identifier the label is derived from is not merely
-unused by the model — it is physically absent from the record the model
+Partitions, split by **subject** and grouped into connected components so
+no labelled pair can straddle a boundary:
+
+| Partition | Pairs | Positives | Curated hard neg | Mined hard neg | Sampled neg | Subjects |
+| --- | --- | --- | --- | --- | --- | --- |
+| train | 3,121 | 512 | 101 | 460 | 2,048 | 563 |
+| validation | 951 | 177 | 25 | 41 | 708 | 183 |
+| test (development) | 6,692 | 1,022 | 351 | 1,231 | 4,088 | 1,028 |
+
+**The v1 → v2 change that mattered most was one field.** The P6.19
+Wikidata query returned no jurisdiction at all, so every Wikidata record
+carried a null, the jurisdiction breakdown had a single bucket, and the
+three cross-border features could never fire on a Wikidata side. v2 adds
+P17 → P297, the ISO 3166-1 alpha-2 country code — the same vocabulary
+GLEIF already uses, so the publishers become comparable without a mapping
+table of our own. It is a **feature** field: agreement never creates a
+positive, disagreement never creates a negative. (§5 records what this
+field does *not* mean.)
+
+The v2 builder also merges **every** collection run rather than the
+latest. Reading only the latest, as the P6.19 builder did, would have
+discarded 1,678 of 1,743 GLEIF records.
+
+## 3. `cipher-er-pairs-final-test` v1.0.0 — the untouched exam
+
+Built by `scripts/build-final-test-corpus.ts`.
+
+**Why it exists.** The v2 test partition stopped being a clean exam the
+moment it informed a development decision, and it did: its false merges
+were read, they were overwhelmingly corporate-family pairs, and two
+features were added in response. Model *selection* never touched it —
+that was always validation — but feature *design* did. Reporting it as
+though it had stayed frozen would be the self-deception the leakage suite
+exists to prevent.
+
+So this corpus was collected **after** all feature work, from nine bounded
+country queries (IN, GB, FR, JP, AU, BR, ZA, SG and what they bridge to),
+which also widens jurisdiction coverage beyond the US/DE/CZ/NO
+concentration an unordered worldwide `LIMIT` returns.
+
+| | |
+| --- | --- |
+| Records collected | 5,400 |
+| **Dropped because a prior dataset had seen the subject** | **3,312** |
+| Excluded (prior-evaluation subject) | 257 |
+| Scorable records | 1,801, over **46 jurisdictions** |
+| **Pairs / positives / curated hard negatives** | **5,257 / 892 / 244** |
+| Subjects | 963 |
+| **Overlap with any partition of v1 or v2** | **0** |
+
+Exclusion runs at the **record** level, not the pair level. Filtering only
+the labelled pairs was tried first and was not enough: 1,563 of 2,520
+subjects still appeared, because mined and sampled negatives are *derived*
+from whatever records the corpus holds. The positives were clean and the
+negatives were not.
+
+It has **one partition**. Nothing in it is ever fitted on, so a
+train/validation cut would only leave rows that look available for
+training — and the builder's `--all-test` mode exists because carving one
+silently discarded 20 curated hard negatives the evaluator never reads.
+
+## 4. How a label is created
+
+Fully specified in [`ml-label-specification.md`](./ml-label-specification.md).
+In brief, and identical character-for-character across all three datasets:
+
+- **Positive** — two publishers independently state the same LEI (ISO
+  17442: one LEI, one legal entity) or the same SEC CIK.
+- **Curated hard negative** — the two records *share an identifier scheme
+  and disagree on its value*, **and** their names actually collide.
+- **Sampled / mined negative** — same scheme, disagreeing value, without
+  the name-collision requirement.
+- **Not comparable** — no shared scheme (GLEIF publishes no CIK, EDGAR no
+  LEI). Scored as neither. Getting this wrong once produced 117 false hard
+  negatives.
+- **Former name** — a temporal claim by one authority. Its own class,
+  never cross-source agreement, never trained on.
+- **Undetermined** — a record asserting 2+ distinct LEIs names no single
+  legal entity. Kept, never scored.
+
+**No label anywhere is created from name similarity, and no
+model-generated label is used.**
+
+## 5. Known limitations of the data
+
+**`jurisdiction` conflates two different properties, and it is not yet
+fixed.** GLEIF publishes the legal jurisdiction of *incorporation*
+(Jersey, Cyprus, BVI); EDGAR publishes the US state of incorporation;
+Wikidata P17 is the country the entity is *associated with*. So a
+"conflict" between a GLEIF and a Wikidata record frequently means
+"incorporated offshore, operating onshore" rather than "different
+entities" — `CAPITAL COM SV INVESTMENTS LIMITED` (CY) and `Capital.com`
+(AU) are one company. On the final test this costs real recall: 6 of 106
+cross-border positives recovered, against the resolver's 54. Discovered by
+reading the final test, therefore **not** to be fixed by tuning against it.
+
+**The anchored regime is deliberate.** GLEIF keeps the LEI it issues;
+every other record is masked behind a surrogate id and its identifiers are
+withheld. For most records the identifier a label was derived from is not
+merely unused by the model — it is physically absent from what the model
 sees.
 
-## 4. Composition
+**Class balance is not natural.** Sampled negatives are drawn at 4 per
+positive, so the negative-heavy ratio is a construction choice. Any
+false-merge rate quoted over all negatives is therefore diluted, which is
+why hard-negative rates are reported separately everywhere.
 
-| Class | Count | Label |
-|---|---|---|
-| `cross_source_positive` | 578 | same entity |
-| `hard_negative` (curated by P6.19) | 146 | different entities |
-| `mined_hard_negative` | 1,017 | different entities |
-| `sampled_negative` | 2,312 | different entities |
-| **Total** | **4,053** | |
+**Coverage is three publishers, corporate entities only.** No natural
+persons, no vessels, no addresses. Latin script dominates; 106 of 892
+final-test positives are script variants, which is the largest such slice
+the project has had but is still not broad multilingual coverage.
 
-| Partition | Pairs | Positives | Curated HN | Mined HN | Sampled neg | Subjects | Records |
-|---|---|---|---|---|---|---|---|
-| train | 1,044 | 162 | 28 | 206 | 648 | 284 | 426 |
-| validation | 394 | 60 | 4 | 90 | 240 | 96 | 146 |
-| **test (frozen)** | **2,615** | **356** | **114** | **721** | **1,424** | **376** | **668** |
+## 6. Reproduction
 
-The test partition is unusually large (64% of pairs) and that is a
-consequence, not a choice: the P6.19 ground truth had already reserved
-302 of 580 subjects as `heldout_evaluation` by a fixed hash, and this
-phase honours that reservation rather than redrawing it. See §6.
-
-## 5. Fields the model may read
-
-`name`, `officialName`, `aliases`, `jurisdiction`. Nothing else. The
-record projection stored in the dataset contains no identifier field of
-any kind and the leakage gate asserts it (check L5).
-
-Field coverage across the 1,245 records: `name` 100%, `status` 48.0%,
-`jurisdiction` 46.7%, `aliases` 25.5%, `officialName` 17.5%. Jurisdiction
-is absent from every Wikidata record in the anchored corpus, so the
-jurisdiction features are mostly a missingness signal on the
-`gleif x wikidata` pairs that dominate the positives. This is a stated
-limitation, not an oversight.
-
-## 6. Splits
-
-**Unit: the subject** — a GLEIF-issued LEI or an SEC-issued CIK — never
-the pair.
-
-Subjects are grouped into 603 connected components before assignment, so
-that no labelled pair can straddle a boundary. Three kinds of edge join
-subjects into a component:
-
-1. a curated hard negative, whose two endpoints are two subjects;
-2. a **scheme bridge** — 92 records state both an LEI and a CIK, which
-   makes `LEI:x` and `CIK:y` two names for one entity;
-3. a **record bridge** — 4 joins where one record is a positive partner
-   of more than one subject. The Wikidata record for Rocky Mountain
-   Chocolate is a positive against an LEI subject *and* two CIK subjects
-   (a predecessor filer and its successor). Without this the single
-   record landed in two partitions at once; the leakage gate caught it
-   and the split was rebuilt.
-
-Assignment rule, in order:
-
-- any component touching a subject the P6.19 ground truth marked
-  `heldout_evaluation` → **test**, in whole (270 of 603 components);
-- the remaining components → **train** / **validation**, 75/25 by seeded
-  shuffle.
-
-Sampled and mined negatives are drawn **within a partition only**, after
-assignment, so they cannot introduce a cross-partition pair.
-
-## 7. Dataset classes and what each is for
-
-| Class | TRAIN | VALIDATION | TEST | RUNTIME |
-|---|---|---|---|---|
-| `cipher-er-pairs` train partition | fits model parameters | — | — | — |
-| `cipher-er-pairs` validation partition | — | model choice + threshold | — | — |
-| `cipher-er-pairs` test partition | — | — | one frozen evaluation | — |
-| former-name slice (79 pairs) | never | never | reported only | — |
-| Operation DarkNet Delhi (SRC-019) | **never** | **never** | **never** | demo corpus only |
-| live records via `POST /api/ml/pair-score` | — | — | — | inference input |
-
-Operation DarkNet Delhi is synthetic and is registered EVALUATION ONLY.
-It contributed nothing to this dataset and is not represented as real
-investigative data anywhere.
-
-## 8. What was deliberately excluded
-
-- **The 154 GLEIF Level-2 consolidation edges.** Not a label, not a
-  feature, not a filter. P6.21.2's four policy decisions are unresolved
-  and consolidation is not identity; the semantics are frozen rather than
-  guessed. This is the single largest deliberate omission and §5 of the
-  evaluation report shows exactly what it costs.
-- **11 undetermined records** stating two or more distinct LEIs.
-- **79 former-name pairs** — a temporal claim by one authority, not
-  cross-source agreement. Kept as a reported slice, never trained on.
-- **94 name collisions that are not comparable** (GLEIF × EDGAR, which
-  share no identifier scheme). Neither positive nor negative.
-
-## 9. Transformations applied
-
-1. Ground-truth `recordRef` resolved through the surrogate map to the
-   anchored corpus record.
-2. Subject derived from the record's single publisher-stated LEI, else its
-   single CIK.
-3. Components built, partitions assigned (§6).
-4. Pairs emitted; mined and sampled negatives drawn within partitions.
-5. Record projection reduced to the four readable fields (§5).
-
-No name was altered, normalised or invented in the dataset itself.
-Normalisation happens only inside feature computation, using the
-resolver's own `normalizeName`.
-
-## 10. Reproduction
-
-`docs/evaluation/ml-reproduction.md`. The build is deterministic: same
-inputs and same seed give a byte-identical dataset.
+Every count above regenerates from committed inputs — see
+[`ml-reproduction.md`](./ml-reproduction.md).

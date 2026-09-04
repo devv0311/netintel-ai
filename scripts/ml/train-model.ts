@@ -13,7 +13,7 @@
  * THE LADDER, run in order and all four recorded whatever the outcome:
  *
  *   E1  the deterministic resolver's own pair-level rule, replayed
- *   E2  logistic regression on the 25 engineered features
+ *   E2  logistic regression on the engineered feature set
  *   E3  gradient-boosted trees on the same features
  *   E4  E2 plus a registry-pairing feature — an ABLATION, never shipped,
  *       run to measure how much of any gain is an artefact of the labels
