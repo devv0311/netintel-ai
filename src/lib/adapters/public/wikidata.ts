@@ -90,6 +90,43 @@ SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik WHERE 
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 LIMIT ${limit}`,
+  /**
+   * P6.25 — the enriched query, plus the one field its predecessor never
+   * asked for: the country the publisher states.
+   *
+   * `companies-with-lei-enriched` returns no jurisdiction at all, and the
+   * consequence was measurable rather than cosmetic. Every Wikidata record
+   * in the P6.24 corpus carried a null jurisdiction, so every positive pair
+   * fell into a single "not stated by both publishers" slice, the
+   * jurisdiction generalisation breakdown had one bucket, and the three
+   * features that exist to catch a cross-border name collision
+   * (`jurisdictionBothKnown`, `jurisdictionCountryMatch`,
+   * `jurisdictionCountryConflict`) could not fire on a Wikidata side. Two
+   * of the three false merges on the frozen test are cross-border pairs —
+   * a French retailer against a Norwegian bank, a French bank against a
+   * Czech insurer — that the model had no way to see as cross-border.
+   *
+   * P17 is the country; P297 is its ISO 3166-1 alpha-2 code, which is the
+   * same vocabulary GLEIF's `jurisdiction` already uses, so the two
+   * publishers become comparable without a mapping table of our own. It is
+   * read through an OPTIONAL: a missing country stays missing rather than
+   * dropping the record.
+   *
+   * Still one constant query, still one request, still bounded by MAX_LIMIT.
+   */
+  "companies-with-lei-enriched-v2": (limit: number) => `
+SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q4830453 ;
+        wdt:P1278 ?lei .
+  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = "hi") }
+  OPTIONAL { ?item wdt:P1448 ?official }
+  OPTIONAL { ?item wdt:P1813 ?shortName }
+  OPTIONAL { ?item wdt:P1320 ?ocid }
+  OPTIONAL { ?item wdt:P5531 ?cik }
+  OPTIONAL { ?item wdt:P17/wdt:P297 ?countryCode }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+LIMIT ${limit}`,
 } as const;
 
 export type WikidataQueryName = keyof typeof QUERIES;
@@ -128,6 +165,15 @@ interface SparqlBinding {
   ocid?: { value?: string };
   /** P5531 SEC CIK — the bridge to SRC-006. */
   cik?: { value?: string };
+  /**
+   * P17 country, resolved to its P297 ISO 3166-1 alpha-2 code — the same
+   * vocabulary GLEIF's `jurisdiction` field uses. A FEATURE field, never a
+   * label: two records agreeing on a country are not thereby the same
+   * entity, and two disagreeing are not thereby different. It is evidence
+   * the classifier may weigh, and it is not consulted by the resolver's
+   * identifier rules at all.
+   */
+  countryCode?: { value?: string };
 }
 
 /** Pure mapper — testable against a saved SPARQL response with no live source. */
@@ -159,6 +205,11 @@ export function mapWikidataBinding(
     ...(hindi && hindi !== name ? [hindi.normalize("NFC")] : []),
     ...(short && short !== name ? [short.normalize("NFC")] : []),
   ])];
+  // Only a well-formed alpha-2 code is kept. Anything else is dropped
+  // rather than passed through, so `jurisdiction` never carries a value
+  // that cannot be compared against GLEIF's.
+  const country = binding.countryCode?.value;
+  const jurisdiction = country && /^[A-Z]{2}$/.test(country) ? country : undefined;
   return parsePublicRecord({
     recordRef: `wikidata:${qid}`,
     registry: "wikidata",
@@ -167,6 +218,7 @@ export function mapWikidataBinding(
     name: name.normalize("NFC"),
     ...(official && official !== name ? { officialName: official.normalize("NFC") } : {}),
     ...(aliases.length > 0 ? { aliases } : {}),
+    ...(jurisdiction ? { jurisdiction } : {}),
     identifiers,
     retrievedAt: context.retrievedAt,
     license: context.license,

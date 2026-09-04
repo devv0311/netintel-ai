@@ -39,13 +39,32 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const CORPUS_PATH = "evidence/expanded/expanded-anchored.corpus.json";
-const GROUND_TRUTH_PATH = "evidence/expanded/expanded.ground-truth.json";
+
+/**
+ * P6.25 — the corpus this reads is now a flag, and the defaults are the
+ * P6.24 files unchanged. `npm run ml:dataset` with no arguments still
+ * rebuilds the v1 dataset byte for byte (only `builtAt` moves), so the
+ * published P6.24 numbers stay reproducible from this same script rather
+ * than from a version of it that no longer exists.
+ *
+ * The dataset id and version travel with the corpus, because a model
+ * artifact records them and an artifact that cannot name the exact pairs
+ * it was fitted on is not auditable.
+ */
+const arg = (name: string, fallback: string): string => {
+  const i = process.argv.indexOf(`--${name}`);
+  return i >= 0 && process.argv[i + 1] ? (process.argv[i + 1] as string) : fallback;
+};
+
+const CORPUS_PATH = arg("corpus", "evidence/expanded/expanded-anchored.corpus.json");
+const GROUND_TRUTH_PATH = arg("ground-truth", "evidence/expanded/expanded.ground-truth.json");
 const OUT_DIR = "evidence/ml";
-const OUT_PATH = path.join(OUT_DIR, "pair-dataset.json");
+const OUT_PATH = path.join(OUT_DIR, arg("out", "pair-dataset.json"));
+const DATASET_ID = arg("dataset-id", "cipher-er-pairs");
+const DATASET_VERSION = arg("dataset-version", "1.0.0");
 
 /** Fixed for reproducibility. Changing it draws a different sample and is a dataset version change. */
-const SEED = "cipher-p6.24-pair-dataset-v1";
+const SEED = arg("seed", "cipher-p6.24-pair-dataset-v1");
 /** Sampled negatives per positive, per partition. Bounded so the class balance stays declarable. */
 const SAMPLED_NEGATIVES_PER_POSITIVE = 4;
 
@@ -639,8 +658,8 @@ function main(): void {
   }
 
   const dataset = {
-    datasetId: "cipher-er-pairs",
-    datasetVersion: "1.0.0",
+    datasetId: DATASET_ID,
+    datasetVersion: DATASET_VERSION,
     dataClass: "REAL",
     builtAt: new Date().toISOString(),
     seed: SEED,

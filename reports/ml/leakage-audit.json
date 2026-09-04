@@ -5,7 +5,8 @@
     "version": "1.0.0",
     "path": "evidence/ml/pair-dataset.json"
   },
-  "ranAt": "2026-09-04T07:33:34.073Z",
+  "priorFrozenTestsHonoured": [],
+  "ranAt": "2026-09-04T08:15:37.618Z",
   "verdict": "PASS",
   "checks": [
     {
@@ -122,6 +123,13 @@
       "name": "training script does not read the test partition",
       "passed": true,
       "detail": "no reference to the test partition in scripts/ml/train-model.ts"
+    },
+    {
+      "id": "L11",
+      "name": "no subject from an earlier frozen test appears in train or validation",
+      "passed": true,
+      "detail": "no prior dataset declared; this is the first frozen test, so there is nothing to ratchet against",
+      "evidence": []
     }
   ]
 }

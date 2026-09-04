@@ -27,6 +27,20 @@
  *                                 that are in fact one entity.
  *   L9 standardiser fit         - statistics come from TRAIN rows only.
  *   L10 test untouched          - the training script never reads test.
+ *   L11 frozen test is a ratchet - no subject that a PREVIOUS frozen test
+ *                                 contained may appear in this dataset's
+ *                                 train or validation partition.
+ *
+ * L11 exists because a corpus expansion can undo a freeze without anyone
+ * touching the split rule. A subject reaches TEST either by its own
+ * `heldout_evaluation` designation or by contagion through its connected
+ * component, and component boundaries MOVE when records are added. Five
+ * subjects frozen into the P6.24 test partition by contagion fell out of
+ * it the first time the v2 corpus was built, and four landed in TRAIN.
+ * Nothing in L1-L10 could see that: the new split is internally
+ * disjoint, and disjointness says nothing about what an EARLIER frozen
+ * test contained. The freeze is a ratchet across dataset versions, and
+ * this is the check that makes it one.
  */
 
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
@@ -36,9 +50,24 @@ import { rocAuc } from "@/lib/ml/metrics";
 import { normalizeName } from "@/lib/resolution/name-normalization";
 
 const ROOT = process.cwd();
-const DATASET_PATH = "evidence/ml/pair-dataset.json";
+
+const arg = (name: string, fallback: string): string => {
+  const i = process.argv.indexOf(`--${name}`);
+  return i >= 0 && process.argv[i + 1] ? (process.argv[i + 1] as string) : fallback;
+};
+
+const DATASET_PATH = arg("dataset", "evidence/ml/pair-dataset.json");
 const OUT_DIR = "reports/ml";
-const OUT_PATH = path.join(OUT_DIR, "leakage-audit.json");
+const OUT_PATH = path.join(OUT_DIR, arg("out", "leakage-audit.json"));
+/**
+ * Datasets whose frozen test partition this one must not have absorbed into
+ * train or validation. Comma-separated; empty means there is no earlier
+ * frozen test to honour, which is true only of the first dataset version.
+ */
+const PRIOR_DATASETS = arg("prior-datasets", "")
+  .split(",")
+  .map((p) => p.trim())
+  .filter(Boolean);
 
 interface Pair {
   pairId: string;
@@ -283,10 +312,50 @@ function main(): void {
       : "no reference to the test partition in scripts/ml/train-model.ts",
   });
 
+  // ---- L11 the frozen test is a ratchet ----------------------------------
+  const nonTestSubjects = new Set<string>();
+  for (const pair of dataset.pairs) {
+    if (pair.partition === "test") continue;
+    nonTestSubjects.add(pair.subjectA);
+    nonTestSubjects.add(pair.subjectB);
+  }
+  const escapees: { priorDataset: string; subject: string; nowIn: string[] }[] = [];
+  for (const priorPath of PRIOR_DATASETS) {
+    const prior = JSON.parse(readFileSync(path.join(ROOT, priorPath), "utf8")) as Dataset;
+    const priorFrozen = new Set<string>();
+    for (const pair of prior.pairs) {
+      if (pair.partition !== "test") continue;
+      priorFrozen.add(pair.subjectA);
+      priorFrozen.add(pair.subjectB);
+    }
+    for (const subject of priorFrozen) {
+      if (!nonTestSubjects.has(subject)) continue;
+      const nowIn = [
+        ...new Set(
+          dataset.pairs
+            .filter((p) => p.partition !== "test" && (p.subjectA === subject || p.subjectB === subject))
+            .map((p) => p.partition),
+        ),
+      ].sort();
+      escapees.push({ priorDataset: priorPath, subject, nowIn });
+    }
+  }
+  checks.push({
+    id: "L11",
+    name: "no subject from an earlier frozen test appears in train or validation",
+    passed: escapees.length === 0,
+    detail:
+      PRIOR_DATASETS.length === 0
+        ? "no prior dataset declared; this is the first frozen test, so there is nothing to ratchet against"
+        : `${PRIOR_DATASETS.length} prior dataset(s) checked; ${escapees.length} subject(s) escaped a frozen test into train or validation`,
+    evidence: escapees.slice(0, 10),
+  });
+
   const passed = checks.every((check) => check.passed);
   const report = {
     audit: "P6.24.2 leakage gate",
     dataset: { id: dataset.datasetId, version: dataset.datasetVersion, path: DATASET_PATH },
+    priorFrozenTestsHonoured: PRIOR_DATASETS,
     ranAt: new Date().toISOString(),
     verdict: passed ? "PASS" : "FAIL",
     checks,
