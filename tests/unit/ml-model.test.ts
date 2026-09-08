@@ -23,7 +23,16 @@ import {
 import { ML_SUGGESTION_CLASSIFICATION, pairClassifier, suggestSameEntity } from "@/lib/ml/service";
 
 const ROOT = process.cwd();
-const ARTIFACT_PATH = path.join(ROOT, "models/cipher-er-pair-classifier.v2.json");
+/**
+ * The SHIPPED artifact. P6.28 replaced v2 with v2lr — the same logistic
+ * regression on the P6.27 feature set — after frozen test #4 scored it once
+ * against v2 under a rule fixed before the test existed. This constant is the
+ * shipped one on purpose: the point of the contract test below is that the
+ * service serves the artifact the frozen evaluation actually measured.
+ */
+const ARTIFACT_PATH = path.join(ROOT, "models/cipher-er-pair-classifier.v2lr.json");
+/** The superseded P6.25 artifact, still loadable — the format has not changed. */
+const V2_ARTIFACT_PATH = path.join(ROOT, "models/cipher-er-pair-classifier.v2.json");
 /** The superseded P6.24 artifact, kept loadable on purpose — see the backward-compatibility test. */
 const V1_ARTIFACT_PATH = path.join(ROOT, "models/cipher-er-pair-classifier.v1.json");
 
@@ -192,6 +201,19 @@ describe("artifact compatibility across feature-set versions", () => {
     expect(scored.score).toBeGreaterThanOrEqual(0);
     expect(scored.score).toBeLessThanOrEqual(1);
     expect(scored.features).toHaveLength(25);
+  });
+
+  it("still loads and scores the superseded P6.25 artifact, which P6.28 replaced", () => {
+    // v2 is the model the shipped one was measured against on frozen test #4,
+    // and the head-to-head in reports/ml/final-test-4-comparison.json only
+    // exists because an artifact keeps working after it stops shipping. It is
+    // 26 features against the shipped 31; the contract is by NAME, so both
+    // load against the same build.
+    const v2 = loadArtifact(readFileSync(V2_ARTIFACT_PATH, "utf8"));
+    expect(v2.featureNames.length).toBe(26);
+    expect(v2.decisionThreshold).toBe(0.9774753387972909);
+    const scored = scoreWithModel(v2, record("Barclays PLC"), record("Barclays Bank PLC"));
+    expect(scored.features).toHaveLength(26);
   });
 
   it("scores a full vector and a pre-projected vector identically", () => {

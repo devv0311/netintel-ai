@@ -5,6 +5,17 @@
 record of it exists on disk, no country has been swept for it, and no model
 has scored anything it will contain.
 
+> **OUTCOME, appended after the evaluation:** the rule below returned
+> **SHIP E2**. The candidate passed (a) with 4,395 true positives against
+> 4,378 and passed (b) decisively — **one** wholly-unrelated merge against the
+> shipped model's **nine**, with 21 fewer false merges in total. The
+> validation-to-test false-merge inflation §3.1 required was **×6.3** for the
+> candidate against **×6.8** for the shipped model, so E2 does not show the
+> v2lf failure mode. The Latvian measurement §5 pre-registered returned
+> **nothing**: test #4 contains zero `sabiedriba` pairs. Results in
+> `ml-final-test-4.md`. Nothing in this document was edited except this note;
+> the rule stands as it was written.
+
 This document fixes the candidate, its corpus, its features, its
 hyperparameters, its seed, its threshold, the decision rule and the ship /
 reject criteria **before the instrument that will judge them is built.** It is

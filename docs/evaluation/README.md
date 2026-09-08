@@ -53,20 +53,29 @@ Earlier deterministic-resolver studies, still valid and still referenced:
 [`ownership-evidence-and-rule-attribution.md`](./ownership-evidence-and-rule-attribution.md),
 [`identifier-authority-policy.md`](./identifier-authority-policy.md).
 
-## 3. The three datasets, and why there are three
+## 3. The eight datasets, and why there are eight
 
-They are **not** three attempts at one thing. Each has a different job,
-and mixing them would destroy what the others measure.
+They are **not** eight attempts at one thing. Each has a different job, and
+mixing them would destroy what the others measure. **Every model decision
+consumes a frozen test**, which is why the count keeps growing:
+`ml-evaluation-protocol.md` §2 classifies all of them and is the authority.
 
 | Dataset | Pairs | Role |
 | --- | --- | --- |
 | `cipher-er-pairs` v1.0.0 | 4,053 | The P6.24 dataset. **Superseded**, kept for the head-to-head. Fails leakage check L12 retrospectively — see below. |
-| `cipher-er-pairs` v2.0.0 | 10,764 | What the shipped model was trained and selected on. Its test partition is a **development** test: it informed feature design and is no longer a clean exam. |
-| `cipher-er-pairs-final-test` v1.0.0 | 5,257 | The **final frozen test**. 963 subjects, overlap with any partition of either dataset above: **0**. Collected after all feature work. Scored once. |
+| `cipher-er-pairs` v2.0.0 | 10,764 | What the shipped model is trained and selected on. Its test partition is a **development** test: it informed feature design and is no longer a clean exam. |
+| `cipher-er-pairs` v3.0.0 | 32,808 | P6.26 cross-border training corpus. **Corpus-design-exposed** — collected against a measured failure, which disqualifies it as test data. |
+| `cipher-er-pairs` v4.0.0 | 17,078 | P6.27 training half. Used **only** to mine the legal-form vocabulary and token document frequencies; no model is fitted on it. |
+| `cipher-er-pairs-final-test` v1.0.0 | 5,257 | Frozen test #1 (P6.25). **SPENT** — its breakdown was read and v3's collection was designed against it. |
+| `…-final-test-2` v1.0.0 | 16,675 | Frozen test #2 (P6.26). **SPENT** — used to choose v2 over v3, which is selection. |
+| `…-final-test-3` v1.0.0 | 17,442 | Frozen test #3 (P6.27). **SPENT** — used to decide KEEP V2. |
+| `…-final-test-4` v1.0.0 | 40,004 | Frozen test #4 (P6.28). **SPENT** — used to decide SHIP E2, the model that now ships. |
 
-The published headline numbers come from the third. The second is
-reported alongside it precisely because the gap between them is
-informative.
+The published headline numbers come from the most recent frozen test, and the
+limits of that instrument are reported with them: see `ml-final-test-4.md` §4.
+A test is frozen until it is read, and reading it is what spends it — no
+leakage check can see that, which is the finding `ml-evaluation-protocol.md`
+exists to record.
 
 ## 4. Two findings that changed how this directory works
 

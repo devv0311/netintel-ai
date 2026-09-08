@@ -42,7 +42,7 @@ had to be collected rather than reusing one that still reports PASS 13/13.
 | `evidence/ml/pair-dataset-v4.json` (v4) | train / mining | **TRAIN** | The training half of the P6.27 sweep. Used ONLY to mine the legal-form vocabulary and token document frequencies; no model is fitted on it. Subject-disjoint from test #3 by construction. |
 | `evidence/ml/pair-dataset-final-test-3.json` (frozen test #3) | test only | **SELECTION-EXPOSED - SPENT** | Was the untouched instrument. Scored once, on 2026-09-08, on three models, and used to decide KEEP V2 (see `ml-final-test-3.md`). Reading it spent it. It must never again be quoted as unseen. |
 
-| `evidence/ml/pair-dataset-final-test-4.json` (frozen test #4) | test only | **UNTOUCHED at the time of collection** | Declared in `evidence/final-test-4/collection-declaration.json` and collected in P6.28, after the candidate was frozen. Becomes SPENT the moment it is scored. |
+| `evidence/ml/pair-dataset-final-test-4.json` (frozen test #4) | test only | **SELECTION-EXPOSED — SPENT** | Declared in `evidence/final-test-4/collection-declaration.json`, collected after the candidate was frozen, scored once on 2026-09-09 on two models and used to decide SHIP E2 (see `ml-final-test-4.md`). Reading it spent it. |
 
 **Consequence, stated plainly:** at the start of P6.27 the project had **no
 untouched instrument**. Every number it could quote came from data that had
@@ -211,3 +211,11 @@ whole fresh pool is the test.
 fixes a floor of 1,200 subjects and 800 positives before collection. Below it,
 the freshness rule is not weakened, the country list is not extended to chase
 yield, and no prior test is re-used.
+
+**6.7 What test #4 said, and what it could not say.** It was scored once, on the
+shipped model and on E2, and it shipped E2: 4,395 true positives against 4,378
+and **one** wholly-unrelated merge against **nine**. It is also easier than test
+#3 (91.6% of its positives are in the three easy variation classes, against
+67.6%), narrower (25 countries, no non-Latin script), and it holds only 30
+cross-border positives and zero Latvian pairs. `ml-final-test-4.md` §4 states
+what that bounds. The project again has no untouched instrument.

@@ -18,7 +18,7 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { normalizeName } from "@/lib/resolution/name-normalization";
+import { foldName, stripLegalForms } from "@/lib/ml/legal-forms";
 
 const ROOT = process.cwd();
 const read = <T,>(p: string): T => JSON.parse(readFileSync(path.join(ROOT, p), "utf8")) as T;
@@ -58,11 +58,10 @@ const MODELS = [
  * finding does not depend on which one a reader prefers: the publisher-stated
  * jurisdiction, and the token itself wherever it appears.
  */
-const LATVIAN_FORM_TOKENS = ["sabiedriba", "sabiedrība"];
+const LATVIAN_FORM_TOKEN = "sabiedriba";
 const hasLatvianForm = (record: Rec): boolean => {
-  const haystack = [record.name, record.officialName ?? "", ...(record.aliases ?? [])].join(" ").toLowerCase();
-  const normalised = normalizeName(haystack).normalized;
-  return LATVIAN_FORM_TOKENS.some((token) => haystack.includes(token) || normalised.includes(token));
+  const folded = foldName([record.name, record.officialName ?? "", ...(record.aliases ?? [])].join(" "));
+  return folded.split(" ").includes(LATVIAN_FORM_TOKEN);
 };
 
 /**
@@ -75,11 +74,12 @@ const VOCAB = read<{ forms: { form: string; position: string; tokens: number }[]
 const FORMS = VOCAB.forms.map((f) => f.form.toLowerCase()).filter((f) => f.length > 0);
 /**
  * Forms are PHRASES, not tokens — `anonim sirketi`, `публичное акционерное
- * общество` — so membership is a token-boundary phrase match on the normalised
- * name rather than a set lookup on single tokens.
+ * общество` — so membership is a token-boundary phrase match on the ML layer's
+ * folded name — deliberately not the resolver's `normalizeName`, which spaces
+ * dots and strips English suffixes and would erase the very signal measured here.
  */
 const formsOf = (record: Rec): Set<string> => {
-  const padded = ` ${normalizeName(record.name).normalized} `;
+  const padded = ` ${foldName(record.name)} `;
   return new Set(FORMS.filter((form) => padded.includes(` ${form} `)));
 };
 const legalFormSensitive = (a: Rec, b: Rec): boolean => {
@@ -104,6 +104,7 @@ function main(): void {
     { name: "jurisdiction not stated by both", note: "no jurisdiction feature can fire", test: (_p, a, b) => a.jurisdiction === null || b.jurisdiction === null },
     { name: "legal-form-sensitive (forms differ or one side has none)", note: "what the P6.27 feature set was built for", test: (_p, a, b) => legalFormSensitive(a, b) },
     { name: "aliases present on at least one side", note: "name-variant evidence available", test: (_p, a, b) => (a.aliases?.length ?? 0) > 0 || (b.aliases?.length ?? 0) > 0 },
+    { name: "boilerplate asymmetry (one side keeps a legal form the other lacks)", note: "the shape of every wholly-unrelated merge P6.27 and P6.28 recorded", test: (_p, a, b) => (foldName(a.name) !== stripLegalForms(a.name)) !== (foldName(b.name) !== stripLegalForms(b.name)) },
     { name: "Latvian legal form present (sabiedriba token)", note: "pre-registered known limitation; df=7 in 8,146 training documents", test: (_p, a, b) => hasLatvianForm(a) || hasLatvianForm(b) },
     { name: "Latvian jurisdiction on either side", note: "the publisher-stated version of the same slice", test: (_p, a, b) => a.jurisdiction?.slice(0, 2) === "LV" || b.jurisdiction?.slice(0, 2) === "LV" },
   ];

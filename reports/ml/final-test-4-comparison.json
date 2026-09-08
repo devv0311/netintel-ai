@@ -1,0 +1,724 @@
+{
+  "report": "P6.28 frozen test #4 — one-shot comparison",
+  "dataClass": "REAL",
+  "ranAt": "2026-09-08T22:57:08.888Z",
+  "dataset": {
+    "path": "evidence/ml/pair-dataset-final-test-4.json",
+    "id": "cipher-er-pairs-final-test-4",
+    "version": "1.0.0"
+  },
+  "instrument": {
+    "partition": "test",
+    "pairs": 40004,
+    "positives": 4672,
+    "negatives": 35332,
+    "curatedHardNegatives": 2049,
+    "minedHardNegatives": 14595,
+    "sampledNegatives": 18688,
+    "subjects": 4709,
+    "jurisdictions": 25
+  },
+  "decisionRule": {
+    "source": "docs/evaluation/ml-selection-freeze-e2.md §3, carried forward unchanged from the P6.27 freeze",
+    "criterionA": {
+      "statement": "net identity recovery improves — the candidate recovers more true positives than the shipped model, each at its own frozen threshold",
+      "shippedTruePositives": 4378,
+      "candidateTruePositives": 4395,
+      "passed": true
+    },
+    "criterionB": {
+      "statement": "false merges do not get qualitatively worse — the candidate introduces no merges between wholly unrelated companies beyond the shipped model's",
+      "shippedWhollyUnrelated": 9,
+      "candidateWhollyUnrelated": 1,
+      "passed": true
+    },
+    "f1IsNotTheCriterion": "A false merge fuses two real companies into one node and every downstream inference inherits it; a miss leaves two nodes a human can still join. A blended score treats them as interchangeable and they are not.",
+    "decision": "SHIP E2"
+  },
+  "models": [
+    {
+      "tag": "v2",
+      "label": "shipped v2 (LR, 26 features)",
+      "artifact": {
+        "path": "models/cipher-er-pair-classifier.v2.json",
+        "sha256": "8948a73fa3d5640a978eb80fd1dddd623bdf286c8a6ae03e8d63f0d37b706e22",
+        "modelId": "cipher-er-pair-classifier",
+        "modelVersion": "2.0.0",
+        "experimentId": "E2-logistic-regression",
+        "modelKind": "logistic_regression",
+        "decisionThreshold": 0.9774753387972909,
+        "thresholdPolicy": "Chosen on the validation partition as the threshold maximising F1 subject to a false-merge rate no higher than the deterministic resolver's on the same partition (0.0013), AND no higher than that resolver's false-merge rate over the CURATED HARD NEGATIVES alone (1/25 = 0.0400). The second ceiling exists because hard negatives are 25 of the partition's negatives, so an overall ceiling alone barely constrains the pairs a merge decision actually turns on. The held-out partition was not consulted.",
+        "gitCommit": "6599c70e0a07b8383f914c11eacc2018212fd1ae",
+        "datasetId": "cipher-er-pairs",
+        "datasetVersion": "2.0.0"
+      },
+      "confusion": {
+        "truePositives": 4378,
+        "falsePositives": 310,
+        "trueNegatives": 35022,
+        "falseNegatives": 294
+      },
+      "precision": 0.9338737201365188,
+      "recall": 0.9370719178082192,
+      "f1": 0.9354700854700856,
+      "falseMergeRate": 0.008773915996830068,
+      "falsePositiveRate": 0.008774,
+      "falseNegativeRate": 0.062928,
+      "validationFalseMergeRate": 0.0012919896640826874,
+      "falseMergeInflationFactor": 6.79,
+      "falseMergesByClass": {
+        "identicalNormalisedName": 1,
+        "sharedLeadingTokenCorporateFamily": 300,
+        "whollyUnrelated": 9
+      },
+      "whollyUnrelatedMerges": [
+        {
+          "pairId": "ES-15127",
+          "score": 0.9871,
+          "sources": "wikidata x gleif",
+          "a": "CV2",
+          "b": "Tmlg s. r. o.",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        },
+        {
+          "pairId": "ES-00700",
+          "score": 0.9849,
+          "sources": "gleif x wikidata",
+          "a": "DOL GROUP, s.r.o.",
+          "b": "EEWS",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        },
+        {
+          "pairId": "ES-16025",
+          "score": 0.9844,
+          "sources": "gleif x wikidata",
+          "a": "Facep s.r.o.",
+          "b": "SWL",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        },
+        {
+          "pairId": "ES-15516",
+          "score": 0.9833,
+          "sources": "gleif x wikidata",
+          "a": "GEOFER, s.r.o.",
+          "b": "NLC",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        },
+        {
+          "pairId": "ES-16489",
+          "score": 0.9809,
+          "sources": "gleif x wikidata",
+          "a": "Dagi s.r.o.",
+          "b": "LOVEX",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        },
+        {
+          "pairId": "ES-09090",
+          "score": 0.9804,
+          "sources": "gleif x wikidata",
+          "a": "R.P.M. s.r.o.",
+          "b": "DELCO",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        },
+        {
+          "pairId": "ES-09866",
+          "score": 0.9793,
+          "sources": "wikidata x gleif",
+          "a": "ORRI",
+          "b": "Hasada s.r.o.",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        },
+        {
+          "pairId": "ES-08657",
+          "score": 0.9785,
+          "sources": "gleif x wikidata",
+          "a": "Vitalis, s.r.o.",
+          "b": "DONE",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        },
+        {
+          "pairId": "ES-10913",
+          "score": 0.9784,
+          "sources": "gleif x wikidata",
+          "a": "MINI-comp s.r.o.",
+          "b": "SWL",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        }
+      ],
+      "slices": [
+        {
+          "slice": "domestic (both stated, same country)",
+          "note": "the majority case",
+          "positives": 4642,
+          "negatives": 21370,
+          "truePositives": 4375,
+          "falseNegatives": 267,
+          "falseMerges": 310,
+          "recall": 0.9425,
+          "falseMergeRate": 0.014506
+        },
+        {
+          "slice": "cross-border (both stated, different country)",
+          "note": "the gap P6.25/P6.26/P6.27 measured three times",
+          "positives": 30,
+          "negatives": 13962,
+          "truePositives": 3,
+          "falseNegatives": 27,
+          "falseMerges": 0,
+          "recall": 0.1,
+          "falseMergeRate": 0
+        },
+        {
+          "slice": "jurisdiction not stated by both",
+          "note": "no jurisdiction feature can fire",
+          "positives": 0,
+          "negatives": 0,
+          "truePositives": 0,
+          "falseNegatives": 0,
+          "falseMerges": 0,
+          "recall": null,
+          "falseMergeRate": null
+        },
+        {
+          "slice": "legal-form-sensitive (forms differ or one side has none)",
+          "note": "what the P6.27 feature set was built for",
+          "positives": 1967,
+          "negatives": 11875,
+          "truePositives": 1875,
+          "falseNegatives": 92,
+          "falseMerges": 55,
+          "recall": 0.9532,
+          "falseMergeRate": 0.004632
+        },
+        {
+          "slice": "aliases present on at least one side",
+          "note": "name-variant evidence available",
+          "positives": 1286,
+          "negatives": 10333,
+          "truePositives": 1150,
+          "falseNegatives": 136,
+          "falseMerges": 98,
+          "recall": 0.8942,
+          "falseMergeRate": 0.009484
+        },
+        {
+          "slice": "boilerplate asymmetry (one side keeps a legal form the other lacks)",
+          "note": "the shape of every wholly-unrelated merge P6.27 and P6.28 recorded",
+          "positives": 1905,
+          "negatives": 10718,
+          "truePositives": 1832,
+          "falseNegatives": 73,
+          "falseMerges": 54,
+          "recall": 0.9617,
+          "falseMergeRate": 0.005038
+        },
+        {
+          "slice": "Latvian legal form present (sabiedriba token)",
+          "note": "pre-registered known limitation; df=7 in 8,146 training documents",
+          "positives": 0,
+          "negatives": 0,
+          "truePositives": 0,
+          "falseNegatives": 0,
+          "falseMerges": 0,
+          "recall": null,
+          "falseMergeRate": null
+        },
+        {
+          "slice": "Latvian jurisdiction on either side",
+          "note": "the publisher-stated version of the same slice",
+          "positives": 0,
+          "negatives": 0,
+          "truePositives": 0,
+          "falseNegatives": 0,
+          "falseMerges": 0,
+          "recall": null,
+          "falseMergeRate": null
+        }
+      ],
+      "reportBreakdowns": [
+        {
+          "dimension": "name variation (ground-truth class)",
+          "slices": {
+            "containment": {
+              "positives": 3123,
+              "model": 3081,
+              "deterministic": 0,
+              "modelPct": "98.7%",
+              "deterministicPct": "0.0%"
+            },
+            "exact / near-exact": {
+              "positives": 782,
+              "model": 772,
+              "deterministic": 782,
+              "modelPct": "98.7%",
+              "deterministicPct": "100.0%"
+            },
+            "partial token overlap": {
+              "positives": 194,
+              "model": 76,
+              "deterministic": 0,
+              "modelPct": "39.2%",
+              "deterministicPct": "0.0%"
+            },
+            "legal suffix or punctuation": {
+              "positives": 380,
+              "model": 371,
+              "deterministic": 380,
+              "modelPct": "97.6%",
+              "deterministicPct": "100.0%"
+            },
+            "divergent": {
+              "positives": 193,
+              "model": 78,
+              "deterministic": 0,
+              "modelPct": "40.4%",
+              "deterministicPct": "0.0%"
+            }
+          }
+        },
+        {
+          "dimension": "source pairing",
+          "slices": {
+            "gleif x wikidata": {
+              "positives": 4665,
+              "model": 4378,
+              "deterministic": 1158,
+              "modelPct": "93.8%",
+              "deterministicPct": "24.8%"
+            },
+            "edgar x wikidata": {
+              "positives": 7,
+              "model": 0,
+              "deterministic": 4,
+              "modelPct": "0.0%",
+              "deterministicPct": "57.1%"
+            }
+          }
+        },
+        {
+          "dimension": "abbreviation / acronym",
+          "slices": {
+            "no acronym match": {
+              "positives": 4671,
+              "model": 4378,
+              "deterministic": 1162,
+              "modelPct": "93.7%",
+              "deterministicPct": "24.9%"
+            },
+            "acronym match": {
+              "positives": 1,
+              "model": 0,
+              "deterministic": 0,
+              "modelPct": "0.0%",
+              "deterministicPct": "0.0%"
+            }
+          }
+        },
+        {
+          "dimension": "name order",
+          "slices": {
+            "not a pure reordering": {
+              "positives": 4672,
+              "model": 4378,
+              "deterministic": 1162,
+              "modelPct": "93.7%",
+              "deterministicPct": "24.9%"
+            }
+          }
+        },
+        {
+          "dimension": "legal suffix",
+          "slices": {
+            "other": {
+              "positives": 4292,
+              "model": 4007,
+              "deterministic": 782,
+              "modelPct": "93.4%",
+              "deterministicPct": "18.2%"
+            },
+            "suffix or punctuation only": {
+              "positives": 380,
+              "model": 371,
+              "deterministic": 380,
+              "modelPct": "97.6%",
+              "deterministicPct": "100.0%"
+            }
+          }
+        },
+        {
+          "dimension": "script",
+          "slices": {
+            "same script": {
+              "positives": 4672,
+              "model": 4378,
+              "deterministic": 1162,
+              "modelPct": "93.7%",
+              "deterministicPct": "24.9%"
+            }
+          }
+        },
+        {
+          "dimension": "publisher aliases present",
+          "slices": {
+            "neither side has aliases": {
+              "positives": 4671,
+              "model": 4378,
+              "deterministic": 1162,
+              "modelPct": "93.7%",
+              "deterministicPct": "24.9%"
+            },
+            "at least one side has aliases": {
+              "positives": 1,
+              "model": 0,
+              "deterministic": 0,
+              "modelPct": "0.0%",
+              "deterministicPct": "0.0%"
+            }
+          }
+        },
+        {
+          "dimension": "jurisdiction",
+          "slices": {
+            "both stated, same country": {
+              "positives": 4642,
+              "model": 4375,
+              "deterministic": 1143,
+              "modelPct": "94.2%",
+              "deterministicPct": "24.6%"
+            },
+            "both stated, different country": {
+              "positives": 30,
+              "model": 3,
+              "deterministic": 19,
+              "modelPct": "10.0%",
+              "deterministicPct": "63.3%"
+            }
+          }
+        }
+      ],
+      "errorCategoryCounts": {
+        "false_merge_shared_leading_token": 300,
+        "false_merge_identical_normalised_name": 1,
+        "false_merge_unrelated_pair": 9,
+        "false_split_containment": 42,
+        "false_split_partial_overlap": 137,
+        "false_split_no_shared_token": 115
+      }
+    },
+    {
+      "tag": "v2lr",
+      "label": "candidate E2 (LR, 31 features)",
+      "artifact": {
+        "path": "models/cipher-er-pair-classifier.v2lr.json",
+        "sha256": "9a3acea47cdb7d9baf3569b0736e4000816b71ce99a664ff8bd18483e85b97c4",
+        "modelId": "cipher-er-pair-classifier",
+        "modelVersion": "2.2.0",
+        "experimentId": "E2-logistic-regression",
+        "modelKind": "logistic_regression",
+        "decisionThreshold": 0.9823449517890187,
+        "thresholdPolicy": "Chosen on the validation partition as the threshold maximising F1 subject to a false-merge rate no higher than the deterministic resolver's on the same partition (0.0013), AND no higher than that resolver's false-merge rate over the CURATED HARD NEGATIVES alone (1/25 = 0.0400). The second ceiling exists because hard negatives are 25 of the partition's negatives, so an overall ceiling alone barely constrains the pairs a merge decision actually turns on. The held-out partition was not consulted.",
+        "gitCommit": "6509ee9bd70244864e758b7037c3907d2be164ce",
+        "datasetId": "cipher-er-pairs",
+        "datasetVersion": "2.0.0"
+      },
+      "confusion": {
+        "truePositives": 4395,
+        "falsePositives": 289,
+        "trueNegatives": 35043,
+        "falseNegatives": 277
+      },
+      "precision": 0.9383005977796754,
+      "recall": 0.9407106164383562,
+      "f1": 0.9395040615647713,
+      "falseMergeRate": 0.008179553945431904,
+      "falsePositiveRate": 0.00818,
+      "falseNegativeRate": 0.059289,
+      "validationFalseMergeRate": 0.0012919896640826874,
+      "falseMergeInflationFactor": 6.33,
+      "falseMergesByClass": {
+        "identicalNormalisedName": 2,
+        "sharedLeadingTokenCorporateFamily": 286,
+        "whollyUnrelated": 1
+      },
+      "whollyUnrelatedMerges": [
+        {
+          "pairId": "ES-15127",
+          "score": 0.9825,
+          "sources": "wikidata x gleif",
+          "a": "CV2",
+          "b": "Tmlg s. r. o.",
+          "aJurisdiction": "SK",
+          "bJurisdiction": "SK"
+        }
+      ],
+      "slices": [
+        {
+          "slice": "domestic (both stated, same country)",
+          "note": "the majority case",
+          "positives": 4642,
+          "negatives": 21370,
+          "truePositives": 4390,
+          "falseNegatives": 252,
+          "falseMerges": 288,
+          "recall": 0.9457,
+          "falseMergeRate": 0.013477
+        },
+        {
+          "slice": "cross-border (both stated, different country)",
+          "note": "the gap P6.25/P6.26/P6.27 measured three times",
+          "positives": 30,
+          "negatives": 13962,
+          "truePositives": 5,
+          "falseNegatives": 25,
+          "falseMerges": 1,
+          "recall": 0.1667,
+          "falseMergeRate": 0.000072
+        },
+        {
+          "slice": "jurisdiction not stated by both",
+          "note": "no jurisdiction feature can fire",
+          "positives": 0,
+          "negatives": 0,
+          "truePositives": 0,
+          "falseNegatives": 0,
+          "falseMerges": 0,
+          "recall": null,
+          "falseMergeRate": null
+        },
+        {
+          "slice": "legal-form-sensitive (forms differ or one side has none)",
+          "note": "what the P6.27 feature set was built for",
+          "positives": 1967,
+          "negatives": 11875,
+          "truePositives": 1883,
+          "falseNegatives": 84,
+          "falseMerges": 46,
+          "recall": 0.9573,
+          "falseMergeRate": 0.003874
+        },
+        {
+          "slice": "aliases present on at least one side",
+          "note": "name-variant evidence available",
+          "positives": 1286,
+          "negatives": 10333,
+          "truePositives": 1154,
+          "falseNegatives": 132,
+          "falseMerges": 93,
+          "recall": 0.8974,
+          "falseMergeRate": 0.009
+        },
+        {
+          "slice": "boilerplate asymmetry (one side keeps a legal form the other lacks)",
+          "note": "the shape of every wholly-unrelated merge P6.27 and P6.28 recorded",
+          "positives": 1905,
+          "negatives": 10718,
+          "truePositives": 1840,
+          "falseNegatives": 65,
+          "falseMerges": 45,
+          "recall": 0.9659,
+          "falseMergeRate": 0.004199
+        },
+        {
+          "slice": "Latvian legal form present (sabiedriba token)",
+          "note": "pre-registered known limitation; df=7 in 8,146 training documents",
+          "positives": 0,
+          "negatives": 0,
+          "truePositives": 0,
+          "falseNegatives": 0,
+          "falseMerges": 0,
+          "recall": null,
+          "falseMergeRate": null
+        },
+        {
+          "slice": "Latvian jurisdiction on either side",
+          "note": "the publisher-stated version of the same slice",
+          "positives": 0,
+          "negatives": 0,
+          "truePositives": 0,
+          "falseNegatives": 0,
+          "falseMerges": 0,
+          "recall": null,
+          "falseMergeRate": null
+        }
+      ],
+      "reportBreakdowns": [
+        {
+          "dimension": "name variation (ground-truth class)",
+          "slices": {
+            "containment": {
+              "positives": 3123,
+              "model": 3090,
+              "deterministic": 0,
+              "modelPct": "98.9%",
+              "deterministicPct": "0.0%"
+            },
+            "exact / near-exact": {
+              "positives": 782,
+              "model": 773,
+              "deterministic": 782,
+              "modelPct": "98.8%",
+              "deterministicPct": "100.0%"
+            },
+            "partial token overlap": {
+              "positives": 194,
+              "model": 89,
+              "deterministic": 0,
+              "modelPct": "45.9%",
+              "deterministicPct": "0.0%"
+            },
+            "legal suffix or punctuation": {
+              "positives": 380,
+              "model": 372,
+              "deterministic": 380,
+              "modelPct": "97.9%",
+              "deterministicPct": "100.0%"
+            },
+            "divergent": {
+              "positives": 193,
+              "model": 71,
+              "deterministic": 0,
+              "modelPct": "36.8%",
+              "deterministicPct": "0.0%"
+            }
+          }
+        },
+        {
+          "dimension": "source pairing",
+          "slices": {
+            "gleif x wikidata": {
+              "positives": 4665,
+              "model": 4395,
+              "deterministic": 1158,
+              "modelPct": "94.2%",
+              "deterministicPct": "24.8%"
+            },
+            "edgar x wikidata": {
+              "positives": 7,
+              "model": 0,
+              "deterministic": 4,
+              "modelPct": "0.0%",
+              "deterministicPct": "57.1%"
+            }
+          }
+        },
+        {
+          "dimension": "abbreviation / acronym",
+          "slices": {
+            "no acronym match": {
+              "positives": 4671,
+              "model": 4395,
+              "deterministic": 1162,
+              "modelPct": "94.1%",
+              "deterministicPct": "24.9%"
+            },
+            "acronym match": {
+              "positives": 1,
+              "model": 0,
+              "deterministic": 0,
+              "modelPct": "0.0%",
+              "deterministicPct": "0.0%"
+            }
+          }
+        },
+        {
+          "dimension": "name order",
+          "slices": {
+            "not a pure reordering": {
+              "positives": 4672,
+              "model": 4395,
+              "deterministic": 1162,
+              "modelPct": "94.1%",
+              "deterministicPct": "24.9%"
+            }
+          }
+        },
+        {
+          "dimension": "legal suffix",
+          "slices": {
+            "other": {
+              "positives": 4292,
+              "model": 4023,
+              "deterministic": 782,
+              "modelPct": "93.7%",
+              "deterministicPct": "18.2%"
+            },
+            "suffix or punctuation only": {
+              "positives": 380,
+              "model": 372,
+              "deterministic": 380,
+              "modelPct": "97.9%",
+              "deterministicPct": "100.0%"
+            }
+          }
+        },
+        {
+          "dimension": "script",
+          "slices": {
+            "same script": {
+              "positives": 4672,
+              "model": 4395,
+              "deterministic": 1162,
+              "modelPct": "94.1%",
+              "deterministicPct": "24.9%"
+            }
+          }
+        },
+        {
+          "dimension": "publisher aliases present",
+          "slices": {
+            "neither side has aliases": {
+              "positives": 4671,
+              "model": 4395,
+              "deterministic": 1162,
+              "modelPct": "94.1%",
+              "deterministicPct": "24.9%"
+            },
+            "at least one side has aliases": {
+              "positives": 1,
+              "model": 0,
+              "deterministic": 0,
+              "modelPct": "0.0%",
+              "deterministicPct": "0.0%"
+            }
+          }
+        },
+        {
+          "dimension": "jurisdiction",
+          "slices": {
+            "both stated, same country": {
+              "positives": 4642,
+              "model": 4390,
+              "deterministic": 1143,
+              "modelPct": "94.6%",
+              "deterministicPct": "24.6%"
+            },
+            "both stated, different country": {
+              "positives": 30,
+              "model": 5,
+              "deterministic": 19,
+              "modelPct": "16.7%",
+              "deterministicPct": "63.3%"
+            }
+          }
+        }
+      ],
+      "errorCategoryCounts": {
+        "false_merge_shared_leading_token": 286,
+        "false_merge_identical_normalised_name": 2,
+        "false_merge_unrelated_pair": 1,
+        "false_split_partial_overlap": 122,
+        "false_split_no_shared_token": 122,
+        "false_split_containment": 33
+      }
+    }
+  ]
+}
