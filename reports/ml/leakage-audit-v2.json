@@ -9,7 +9,7 @@
     "evidence/ml/pair-dataset.json",
     "evidence/ml/pair-dataset-final-test.json"
   ],
-  "ranAt": "2026-09-04T10:09:42.138Z",
+  "ranAt": "2026-09-08T22:16:20.180Z",
   "verdict": "PASS",
   "checks": [
     {
@@ -67,28 +67,28 @@
           "auc": 0.141
         },
         {
+          "feature": "maxSharedTokenIdf",
+          "auc": 0.8539
+        },
+        {
           "feature": "jurisdictionCountryMatch",
           "auc": 0.8507
+        },
+        {
+          "feature": "idfWeightedJaccard",
+          "auc": 0.8498
         },
         {
           "feature": "trigramDice",
           "auc": 0.8468
         },
         {
+          "feature": "coreTrigramDice",
+          "auc": 0.8444
+        },
+        {
           "feature": "tokenContainment",
           "auc": 0.8434
-        },
-        {
-          "feature": "tokenJaccard",
-          "auc": 0.8346
-        },
-        {
-          "feature": "anyVariantNormalizedMatch",
-          "auc": 0.8076
-        },
-        {
-          "feature": "jaroWinkler",
-          "auc": 0.7923
         }
       ]
     },

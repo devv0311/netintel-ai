@@ -75,6 +75,28 @@ const REGISTRY_PATH = path.join(OUT_DIR, arg("registry", "experiment-registry.js
 const ARTIFACT_PATH = path.join(MODEL_DIR, arg("artifact", "cipher-er-pair-classifier.v1.json"));
 const MODEL_VERSION = arg("model-version", "1.0.0");
 
+/**
+ * P6.28 - name the experiment that ships, instead of letting the ladder rank.
+ *
+ * The ladder ranks on VALIDATION recall, and P6.27 measured what that costs:
+ * it chose E3 over E2 on 3.9 points of validation recall, and the false-merge
+ * ceiling that was supposed to hold E3 in check was measured on the very
+ * partition the ranking ran on. On frozen test #3 that ceiling turned out to
+ * be eighteen times looser than validation said (0.13% -> 2.380%), and the
+ * model merged ten pairs of wholly unrelated companies.
+ *
+ * So this flag exists to let a candidate be named ahead of a test rather than
+ * ranked into place by the statistic that already failed once. It changes
+ * WHICH recorded experiment is written to the artifact and nothing else: every
+ * experiment still runs, every result is still recorded, and the named one
+ * must be a real, non-ablation candidate or the run fails. It cannot reach the
+ * held-out partition, which this script never loads.
+ */
+const SELECT_EXPERIMENT: string | null = (() => {
+  const i = process.argv.indexOf("--select-experiment");
+  return i >= 0 && process.argv[i + 1] ? (process.argv[i + 1] as string) : null;
+})();
+
 const SEED = 20260904;
 const FIT_PARTITION = "train";
 const SELECT_PARTITION = "validation";
@@ -456,6 +478,20 @@ function main(): void {
   ) {
     selected = logistic;
   }
+
+  // An explicitly named candidate overrides the ranking. Ablations stay
+  // ineligible: `candidates` already excludes them, so naming one fails here
+  // rather than shipping a diagnostic.
+  if (SELECT_EXPERIMENT !== null) {
+    const named = candidates.find((experiment) => experiment.experimentId === SELECT_EXPERIMENT);
+    if (!named || !named.parameters) {
+      throw new Error(
+        `--select-experiment ${SELECT_EXPERIMENT} names no eligible experiment. Eligible: ` +
+          candidates.map((experiment) => experiment.experimentId).join(", "),
+      );
+    }
+    selected = named;
+  }
   selected.shipped = true;
 
   const base = {
@@ -539,6 +575,10 @@ function main(): void {
     })),
     shipped: {
       experimentId: selected.experimentId,
+      selectionMode:
+        SELECT_EXPERIMENT === null
+          ? "ladder ranking on validation recall, with the logistic-regression tie-break"
+          : `named ahead of evaluation with --select-experiment ${SELECT_EXPERIMENT}`,
       artifactPath: ARTIFACT_PATH,
       artifactSha256: sha256,
       weightsDigest: artifact.weightsDigest,
