@@ -62,6 +62,22 @@ const PRIOR_TRUTH = "evidence/expanded/expanded.ground-truth.json";
  * question was "was this subject ever frozen?", here it is "has this
  * subject ever been seen at all?".
  */
+/**
+ * Which half of the fresh pool to keep: "test", "train", or absent for all of
+ * it. See the `inBucket` comment below for why the split is on a hash of the
+ * subject rather than on the country.
+ */
+const SUBJECT_BUCKET: "test" | "train" | null = (() => {
+  const i = process.argv.indexOf("--subject-bucket");
+  const value = i >= 0 ? process.argv[i + 1] : undefined;
+  if (value === undefined) return null;
+  if (value !== "test" && value !== "train") {
+    throw new Error(`--subject-bucket must be "test" or "train", got "${value}"`);
+  }
+  return value;
+})();
+const SUBJECT_SPLIT_SEED = arg("subject-split-seed", "cipher-p6.27-subject-split");
+
 const PRIOR_PAIR_DATASETS = arg(
   "prior-datasets",
   "evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-v2.json",
@@ -211,9 +227,41 @@ function main(): void {
     idsOf(r, "LEI").some((v) => seenSubjects.has(`LEI:${v}`)) ||
     idsOf(r, "CIK").some((v) => seenSubjects.has(`CIK:${v}`));
 
-  const excluded = all.filter((r) => touchesReserved(r) || seenRecord(r));
-  const kept = all.filter((r) => !touchesReserved(r) && !seenRecord(r));
+  /**
+   * P6.27 — a deterministic, country-blind halving of the fresh pool.
+   *
+   * The P6.27 sweep collects one pool, and two disjoint things have to come
+   * out of it: a frozen test, and training records broad enough to teach the
+   * feature layer what boilerplate looks like OUTSIDE the handful of
+   * jurisdictions the earlier corpora happen to cover. P6.27 measured that
+   * gap directly - the Latvian legal form that caused the defect cannot be
+   * learned from v2/v3 because they hold fewer than 20 Latvian entities, and
+   * an IDF table that has never seen a Latvian token scores every one of them
+   * as maximally RARE, which is exactly backwards.
+   *
+   * Splitting by COUNTRY would put the test's jurisdiction mix back in the
+   * experimenter's hands, which §3.1 of the protocol exists to prevent. So
+   * the split is a hash of the subject id: country-blind, seeded, stable
+   * across runs, and reproducible by anyone with the same subject.
+   *
+   * `--subject-bucket test` keeps one half, `train` the other, and omitting
+   * the flag keeps everything - so tests #1 and #2 rebuild exactly as before.
+   */
+  const inBucket = (r: Rec): boolean => {
+    if (SUBJECT_BUCKET === null) return true;
+    const subject =
+      idsOf(r, "LEI").map((v) => `LEI:${v}`)[0] ?? idsOf(r, "CIK").map((v) => `CIK:${v}`)[0] ?? null;
+    if (subject === null) return true;
+    const digest = crypto.createHash("sha256").update(`${SUBJECT_SPLIT_SEED}|${subject}`).digest();
+    return ((digest[0] as number) & 1) === (SUBJECT_BUCKET === "test" ? 0 : 1);
+  };
+
+  const excluded = all.filter((r) => touchesReserved(r) || seenRecord(r) || !inBucket(r));
+  const kept = all.filter((r) => !touchesReserved(r) && !seenRecord(r) && inBucket(r));
   const droppedAsSeenRecords = all.filter((r) => !touchesReserved(r) && seenRecord(r)).length;
+  const droppedByBucket = all.filter(
+    (r) => !touchesReserved(r) && !seenRecord(r) && !inBucket(r),
+  ).length;
 
   /* ---- undetermined: a record contradicting itself on a mergeable scheme ---- */
   const undetermined = kept.filter((r) => new Set(idsOf(r, "LEI")).size > 1)
@@ -437,6 +485,15 @@ function main(): void {
         records: droppedAsSeenRecords,
         positives: droppedPositives,
         hardNegatives: droppedNegatives,
+      },
+      subjectBucket: {
+        bucket: SUBJECT_BUCKET,
+        seed: SUBJECT_SPLIT_SEED,
+        droppedToOtherBucket: droppedByBucket,
+        rule:
+          SUBJECT_BUCKET === null
+            ? "no split - every fresh subject kept"
+            : "sha256(seed|subject) low bit; country-blind so the test's jurisdiction mix is not an experimenter's choice",
       },
     },
     counts: {

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "CIPHER \u2014 synthetic-data investigative intelligence platform (application foundation)",
+  "description": "CIPHER — synthetic-data investigative intelligence platform (application foundation)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -42,7 +42,8 @@
     "ml:final-test-2:dataset": "node --import ./scripts/eval-resolve.mjs scripts/ml/build-pair-dataset.ts --corpus evidence/final-test-2/final-test-2-anchored.corpus.json --ground-truth evidence/final-test-2/final-test-2.ground-truth.json --out pair-dataset-final-test-2.json --dataset-id cipher-er-pairs-final-test-2 --dataset-version 1.0.0 --seed cipher-p6.26-final-test-2 --all-test",
     "ml:final-test-2:leakage": "node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts --dataset evidence/ml/pair-dataset-final-test-2.json --out leakage-audit-final-test-2.json --prior-datasets evidence/ml/pair-dataset.json,evidence/ml/pair-dataset-v2.json,evidence/ml/pair-dataset-v3.json,evidence/ml/pair-dataset-final-test.json",
     "ml:final-test-2": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts --dataset evidence/ml/pair-dataset-final-test-2.json --artifact models/cipher-er-pair-classifier.v2.json --eval-out final-test-2-evaluation-v2.json --errors-out final-test-2-error-analysis-v2.json",
-    "ml:final-test-2:v3": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts --dataset evidence/ml/pair-dataset-final-test-2.json --artifact models/cipher-er-pair-classifier.v3.json --eval-out final-test-2-evaluation-v3.json --errors-out final-test-2-error-analysis-v3.json"
+    "ml:final-test-2:v3": "node --import ./scripts/eval-resolve.mjs scripts/ml/evaluate-model.ts --dataset evidence/ml/pair-dataset-final-test-2.json --artifact models/cipher-er-pair-classifier.v3.json --eval-out final-test-2-evaluation-v3.json --errors-out final-test-2-error-analysis-v3.json",
+    "ml:legal-forms": "node --import ./scripts/eval-resolve.mjs scripts/ml/mine-legal-forms.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.123.0",

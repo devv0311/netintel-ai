@@ -98,7 +98,27 @@ describe("model artifact", () => {
     // `officialNameBothPresent` is computed but excluded from training.
     for (const name of artifact.featureNames) expect(FEATURE_NAMES).toContain(name);
     expect(new Set(artifact.featureNames).size).toBe(artifact.featureNames.length);
-    expect(artifact.featureNames).toEqual([...TRAINABLE_FEATURE_NAMES]);
+    /**
+     * A SUBSET, not an equality — which is what the comment above always
+     * said, while the assertion underneath it said something stricter.
+     *
+     * Equality reads as "the shipped model uses every feature this build
+     * trains on", and that is false the moment a feature is added ahead of a
+     * retrain: P6.27 added five, and this artifact is the frozen P6.25 model,
+     * which was fitted without them and must keep scoring exactly as it did.
+     * Asserting equality here would force every feature experiment to ship a
+     * new model in the same commit, which is the opposite of the separation
+     * the name-based feature contract and `weightsDigest` exist to provide.
+     *
+     * What must hold is that the artifact asks for nothing this build cannot
+     * compute (above), asks for nothing twice (above), and does not use a
+     * feature excluded from training (below). A NEWLY trained artifact gets
+     * the full trainable set by construction, because the trainer builds its
+     * matrix from TRAINABLE_FEATURE_NAMES.
+     */
+    for (const name of artifact.featureNames) {
+      expect(TRAINABLE_FEATURE_NAMES, `${name} is excluded from training`).toContain(name);
+    }
     expect(Number.isFinite(artifact.decisionThreshold)).toBe(true);
   });
 

@@ -41,6 +41,8 @@
  * and excluded from the shipped model. See `docs/evaluation/ml-leakage-audit.md`.
  */
 
+import { maxSharedIdf, stripLegalForms, weightedJaccard } from "@/lib/ml/legal-forms";
+import { STRUCTURAL_TOKENS } from "@/lib/ml/structural-tokens";
 import { LEGAL_SUFFIXES, normalizeName } from "@/lib/resolution/name-normalization";
 import {
   acronym,
@@ -99,6 +101,15 @@ export const FEATURE_NAMES = [
   "romanNumeralConflict",
   "legalFormConflict",
   "structuralTokenAsymmetry",
+  // P6.27. Everything above reads a name as a bag of equally-weighted
+  // characters and tokens, which is what let two unrelated companies score
+  // 0.9922 on thirty characters of shared Latvian for "limited liability
+  // company". These five read WHICH tokens are shared, not how many.
+  "coreNameMatch",
+  "coreTokenJaccard",
+  "coreTrigramDice",
+  "idfWeightedJaccard",
+  "maxSharedTokenIdf",
 ] as const;
 
 export type FeatureName = (typeof FEATURE_NAMES)[number];
@@ -225,28 +236,8 @@ const legalFormOf = (name: string): string | null => {
   return FORM_OF_TOKEN.get(last) ?? null;
 };
 
-/**
- * Tokens that name a ROLE INSIDE a corporate group rather than the group's
- * brand. One side carrying one that the other lacks is the signature of a
- * parent/subsidiary or holding/operating pair — "Allergan plc" against
- * "Allergan Finance LLC", "Novartis AG" against "Novartis Pharma AG",
- * "Humana AB" against "Humana Holding AB".
- *
- * This is a NAME feature and nothing more. It is derived from the two
- * strings alone, reads no relationship record, and asserts no view about
- * whether a parent and its subsidiary are the same entity — that question
- * is the owner's under P6.21.2 and is untouched here. All this says is
- * that the two names describe different POSITIONS in a group, which is
- * evidence they denote different legal persons, and it can only ever push
- * a pair away from a merge.
- */
-const STRUCTURAL_TOKENS = new Set([
-  "holding", "holdings", "group", "groupe", "finance", "financial", "capital",
-  "international", "intressenter", "pharma", "pharmaceutical", "pharmaceuticals",
-  "services", "solutions", "trust", "partners", "partnership", "ventures",
-  "investments", "investment", "management", "operating", "properties",
-  "entertainment", "technologies", "systems", "industries", "enterprises",
-]);
+/** Re-exported from its own module; see `structural-tokens.ts` for why. */
+export { STRUCTURAL_TOKENS };
 
 const setsDiffer = (a: readonly string[], b: readonly string[]): boolean => {
   if (a.length === 0 || b.length === 0) return false;
@@ -307,6 +298,17 @@ export function buildFeatures(a: FeatureRecord, b: FeatureRecord): FeatureVector
   const formB = legalFormOf(b.name);
   const legalFormConflict = formA !== null && formB !== null && formA !== formB;
 
+  /**
+   * P6.27 — the name with mined legal-form boilerplate removed, and its
+   * tokens. Computed from the RAW name rather than from `normA`, because the
+   * resolver's normalisation strips trailing English suffixes and would hide
+   * exactly the spelled-out foreign forms this is here to reach.
+   */
+  const coreA = stripLegalForms(a.name);
+  const coreB = stripLegalForms(b.name);
+  const coreTokA = coreA.length === 0 ? [] : coreA.split(" ");
+  const coreTokB = coreB.length === 0 ? [] : coreB.split(" ");
+
   const structuralA = tokA.filter((token) => STRUCTURAL_TOKENS.has(token));
   const structuralB = tokB.filter((token) => STRUCTURAL_TOKENS.has(token));
   const structuralTokenAsymmetry = setsDiffer(
@@ -347,6 +349,11 @@ export function buildFeatures(a: FeatureRecord, b: FeatureRecord): FeatureVector
     bool(setsDiffer(romanTokens(tokA), romanTokens(tokB))),
     bool(legalFormConflict),
     bool(structuralTokenAsymmetry),
+    bool(coreA.length > 0 && coreA === coreB),
+    jaccard(coreTokA, coreTokB),
+    trigramDice(coreA, coreB),
+    weightedJaccard(coreTokA, coreTokB),
+    maxSharedIdf(coreTokA, coreTokB),
   ];
 
   if (values.length !== FEATURE_NAMES.length) {
