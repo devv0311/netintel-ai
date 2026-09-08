@@ -1,0 +1,230 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DSTCVDE3FXGX20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Speedy Global Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DSTCVDE3FXGX20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Speedy Global Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29026384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800X8MBI5VQITLW60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Syncona"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29026384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800X8MBI5VQITLW60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Syncona"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56453129"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800IXRTBCLHNTUM08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Buteo Rapax"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gg/1-53433"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63258117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800D39CS7T5FTC763"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macquarie European Infrastructure Fund II"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/LP011265"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63258117"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800D39CS7T5FTC763"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macquarie European Infrastructure Fund II"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/LP011265"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85766647"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XJIPNDVKXMOC11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hipgnosis Songs Fund"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gg/1-65158"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85766647"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XJIPNDVKXMOC11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hipgnosis Songs Fund"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gg/1-65158"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112897776"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380061FGAJ8K7ZIK45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macquarie European Infrastructure Fund 4"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/LP014601"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466408"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "K4RPB4GFEGVL1V93O265"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Compass Offshore HTV PCC"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,1957 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OYHR1MPQ5VJL60"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OYHR1MPQ5VJL60"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OYHR1MPQ5VJL60"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OYHR1MPQ5VJL60"
+      },
+      "official" : {
+        "xml:lang" : "el",
+        "type" : "literal",
+        "value" : "ΤΡΑΠΕΖΑ ΠΕΙΡΑΙΩΣ Ανώνυμος Εταιρεία"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OYHR1MPQ5VJL60"
+      },
+      "official" : {
+        "xml:lang" : "el",
+        "type" : "literal",
+        "value" : "ΤΡΑΠΕΖΑ ΠΕΙΡΑΙΩΣ Ανώνυμος Εταιρεία"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OYHR1MPQ5VJL60"
+      },
+      "official" : {
+        "xml:lang" : "el",
+        "type" : "literal",
+        "value" : "ΤΡΑΠΕΖΑ ΠΕΙΡΑΙΩΣ Ανώνυμος Εταιρεία"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piraeus Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206678"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "ELPUFM0XZRZO4LFXW404"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OTE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206678"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "ELPUFM0XZRZO4LFXW404"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OTE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206678"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "ELPUFM0XZRZO4LFXW404"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OTE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206678"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "ELPUFM0XZRZO4LFXW404"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OTE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q326345"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800T9Y5XCOVRZ4Y57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Public Power Corporation SA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q326345"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800T9Y5XCOVRZ4Y57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Public Power Corporation SA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q326345"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800T9Y5XCOVRZ4Y57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Public Power Corporation SA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q380580"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800VI8OH5EJM18L21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aegean Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q380580"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800VI8OH5EJM18L21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aegean Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q650036"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800Q5O2WIDKF6SZ42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marfin Investment Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q747394"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DBQIB6VBNU5C64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpha Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q747394"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DBQIB6VBNU5C64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpha Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q747394"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DBQIB6VBNU5C64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpha Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q747394"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DBQIB6VBNU5C64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpha Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q838387"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800H2CDP9I374WH83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Cement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q838387"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OREKC9BL58G144"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Cement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q838387"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800H2CDP9I374WH83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Cement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q838387"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OREKC9BL58G144"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Cement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903198"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YUBJMZYR1SNG35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HELLENiQ ENERGY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903198"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YUBJMZYR1SNG35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HELLENiQ ENERGY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q951850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "JEUVK5RWVJEN8W0C9M24"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Eurobank Ergasias SA"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eurobank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q951850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "JEUVK5RWVJEN8W0C9M24"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Eurobank Ergasias SA"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eurobank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q951850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "JEUVK5RWVJEN8W0C9M24"
+      },
+      "official" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Eurobank Ergasias SA"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eurobank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1136433"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003L6NPTZ25LN818"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Costamare"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1136433"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003L6NPTZ25LN818"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Costamare"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1166195"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008SAAQBO2AA3G77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TT Hellenic Postbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1166195"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008SAAQBO2AA3G77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TT Hellenic Postbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1605453"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138001MLH1KP6Q2Y726"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korres"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1605646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KT8MEUJEJ2KW41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metlen Energy & Metals"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1605646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KT8MEUJEJ2KW41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metlen Energy & Metals"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1605646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KT8MEUJEJ2KW41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metlen Energy & Metals"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1816028"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5UMCZOEYKCVFAW8ZLO05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Bank of Greece"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1816028"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5UMCZOEYKCVFAW8ZLO05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Bank of Greece"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1816028"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5UMCZOEYKCVFAW8ZLO05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Bank of Greece"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2007823"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800M4NRGFJCI34834"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allwyn Greece"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2007823"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800M4NRGFJCI34834"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allwyn Greece"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2007823"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800M4NRGFJCI34834"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allwyn Greece"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6686948"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UCL9HIVTYTQX26"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Celestyal Cruises"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Celestyal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6918149"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800U3Y9UL7Y4QVM11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Motor Oil Hellas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6918149"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800U3Y9UL7Y4QVM11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Motor Oil Hellas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12876543"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400XINPMOREM6Y125"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elinoil Hellenic Petroleum Company S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12876543"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "635400XINPMOREM6Y125"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elinoil Hellenic Petroleum Company S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12877510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007NMAX2LCGJSQ47"
+      },
+      "official" : {
+        "xml:lang" : "el",
+        "type" : "literal",
+        "value" : "Ζυθοποιία Μακεδονίας Θράκης Α.Ε."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gr/014029110000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12877510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007NMAX2LCGJSQ47"
+      },
+      "official" : {
+        "xml:lang" : "el",
+        "type" : "literal",
+        "value" : "Ζυθοποιία Μακεδονίας Θράκης Α.Ε."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gr/014029110000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12877510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007NMAX2LCGJSQ47"
+      },
+      "official" : {
+        "xml:lang" : "el",
+        "type" : "literal",
+        "value" : "Ζυθοποιία Μακεδονίας Θράκης Α.Ε."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gr/014029110000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12877510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007NMAX2LCGJSQ47"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gr/014029110000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12877510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007NMAX2LCGJSQ47"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gr/014029110000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12877510"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138007NMAX2LCGJSQ47"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery S.A."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian Thrace Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gr/014029110000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17076380"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380051TUVZ3KYK5G44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Profile Software"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17076380"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380051TUVZ3KYK5G44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Profile Software"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22952859"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DHU6PT1H6NEO59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Protergia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55610870"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300RVMKU0CYUZBB05"
+      },
+      "official" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אנרג'יאן פי אל סי"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energean Plc"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/10758801"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104502032"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WUIFSMCQGSLD63"
+      },
+      "official" : {
+        "xml:lang" : "el",
+        "type" : "literal",
+        "value" : "Tanweer Alliances Α.Ε."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tanweer Alliances"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gr/007812001000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104502032"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800WUIFSMCQGSLD63"
+      },
+      "official" : {
+        "xml:lang" : "el",
+        "type" : "literal",
+        "value" : "Tanweer Alliances Α.Ε."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tanweer Alliances"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gr/007812001000"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466393"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000N0X2GI3961054"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VOLTERRA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466432"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002AZKMYTA5OU719"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greek Environmental & Energy Network"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466466"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VEQ8G86ON8W290"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "STRATEGIC ENERGY TRADING (SENTRADE)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466496"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900J8SGVEAAMB9C02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ΤΖΕΝ ΑΙ ΑΘΗΝΑ Προμήθεια Ηλεκτρικής Ενέργειας Μονοπρόσωπη Εταιρεία Περιορισμένης Ευθύνης  (GEN-I Athens M.E.Π.E )"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466544"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NVIEIX2H1T4Z17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elpedison"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466563"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008C2DR3LUKQOV54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALPIQ ENERGY HELLAS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466593"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380066ILAAIU2TKV79"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Watt and Volt"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800MMR4ZEAARRJX47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Windenergy Investments Hellas A.E. & SIA Arkadikos Garbis E.E."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466604"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800Y7Q2MLDOA3K333"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ATTIKI GAS SUPPLY COMPANY-HELLENIC COMPANY OF ENERGY SINGLE MEMBER SOCIETE ANONYME"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466616"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138005BXCB29GMQF588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KΟRINTHOS POWER SOCIÉTÉ ANONYME OF GENERATION AND TRADING OF ELECTRICITY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466633"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800IFZQ8CC38A8604"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AIOLIKI ANDROU TSIROVLIDI SOCIETE ANONYME"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466643"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800IPY2GT2E4XWD04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Windenergy Investments Hellas A.E. & SIA Arkadikos Zefiros E.E."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466647"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002MVZIUIOTMRM72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SIDENOR STEEL INDUSTRY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466648"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800S4WWZXO6QT6I76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AIOLIKI SIDIROKASTROU SOCIÉTÉ ANONYME"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800MN9DX7AM7RGF26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ELVAL HELLENIC ALUMINUM INDUSTRY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LMUJXQ16HBA286"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SOVEL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466652"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900PBN5232OAHJ373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AIOLIKO PARKO VOIOTIAS KEDROS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466653"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WTL4NRQ31MLC70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ARKADIKA MELTEMIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466654"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FF7HP9RLOSMN82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AIOLIKA PARKA ARKADIAS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466660"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YLLEQIFX4U5O15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIOLAR"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466661"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800K5R2QP7P9PQ525"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KONSTANTINOS V . MARKOU S . A ."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466665"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NVVVFU18M5QO34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EOLIKI LAFKOY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466666"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DQ8PXP5PRBLX43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AIOLIKO PARKO AETOS SINGLE MEMBER"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466681"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005719394"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aioliki Panachaikou"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466685"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380043G8YKDCT87924"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGEIAKI DERVENOCHORION"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466686"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800RBHN2TNJ87J652"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AIOLIKI PASTRA ATTIKIS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466687"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OMMIUQPZ7V0B82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AIOLIKI ENERGY PELOPONISOY"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466688"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900N9TRFXG2ETO712"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AKTINA LAKONIAS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466689"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900U1MNCRJ8D0TG68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EOLIKI HELLAS SINGLE MEMBER"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466690"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990082156TNZVJ5G84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "E.E.N. VOIOTIA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466696"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900XA8I4EFE5ZHT31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VOREAS ENERGEIAKI"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NHD9MCHPVCUS57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AIOLIKI RACHOULAS DERVENOCHORION"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466705"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300V1EMPK3SA5YL42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VIENER SA ENERGY FIRMS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466727"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800U69Z5SIP18VG64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VENTO KEFALLONIA ENERGEIAKI"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466728"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XAFH78BF5GNM86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AKTINA SKALAS SINGLE MEMBER"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466742"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JM9GVGXKVZXI31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Duferco Hellas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466782"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800S8GSFD9TFCJE21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GORITSA AIOLOS ENERGY SINGLE MEMBER"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167385"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800V54ASIMZREDX49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fourlis"
+      }
+    } ]
+  }
+}

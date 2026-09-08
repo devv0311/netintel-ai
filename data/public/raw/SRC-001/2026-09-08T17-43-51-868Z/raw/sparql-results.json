@@ -1,0 +1,192 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q920699"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "QPLH1J8M7Y52YWI9GF53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Bank of Egypt"
+      },
+      "official" : {
+        "xml:lang" : "ar",
+        "type" : "literal",
+        "value" : "البنك المركزي المصري"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1370287"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NCMRGIBJYUOE57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Orascom Construction Industries"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106301298"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009F7ZFOJY44V768"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Edita Food Industries S.A.E."
+      }
+    } ]
+  }
+}

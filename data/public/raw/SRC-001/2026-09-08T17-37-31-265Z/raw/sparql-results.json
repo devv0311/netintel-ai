@@ -1,0 +1,125 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7939279"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009VR2ZATPS69V91"
+      },
+      "official" : {
+        "xml:lang" : "sq",
+        "type" : "literal",
+        "value" : "Vodafone Albania SH.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "al/K11715005L"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodafone Albania"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7939279"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009VR2ZATPS69V91"
+      },
+      "official" : {
+        "xml:lang" : "sq",
+        "type" : "literal",
+        "value" : "Vodafone Albania SH.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "al/K11715005L"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodafone Albania"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7939279"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009VR2ZATPS69V91"
+      },
+      "official" : {
+        "xml:lang" : "sq",
+        "type" : "literal",
+        "value" : "Vodafone Albania SH.A."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "al/K11715005L"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vodafone Albania"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466531"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900ZABTUMR58SS885"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axpo Albania Sh.a."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466564"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900A3A0L04R76L193"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALPIQ ENERGY ALBANIA SHPK"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,3229 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5281"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400QS6NB20B1EVG74"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यांदेक्स"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ООО «Яндекс»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yandex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5281"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400QS6NB20B1EVG74"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यांदेक्स"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ООО «Яндекс»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yandex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400MSLG0NS4C3NB96"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एयरोफ़्लोट"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aeroflot"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400MSLG0NS4C3NB96"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एयरोफ़्लोट"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aeroflot"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102673"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FD9J2IHTA7YX78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gazprom"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150124062"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102673"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FD9J2IHTA7YX78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gazprom"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150124062"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102673"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FD9J2IHTA7YX78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gazprom"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150124062"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DR5QSH8MEGZZ11"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450016D1DA0D640356"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DR5QSH8MEGZZ11"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450016D1DA0D640356"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q205012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WE6TAF5EEWQS81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sberbank"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001523101"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q205012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WE6TAF5EEWQS81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sberbank"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001523101"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251546"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008R6GCRVBDFA581"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novatek"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251546"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008R6GCRVBDFA581"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novatek"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258748"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800J17UJJJDGUVF56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "X5 Retail Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258748"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800J17UJJJDGUVF56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "X5 Retail Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q294508"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500DKUWVBYZLLE651"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALROSA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q294508"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500DKUWVBYZLLE651"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALROSA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q329347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LCJ1UJXHYBWI24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lukoil"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q329347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LCJ1UJXHYBWI24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lukoil"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q386414"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340053KRUNNYUWF472"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PhosAgro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q386414"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340053KRUNNYUWF472"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PhosAgro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q512482"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DYLWR5A6YAWJ69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sovcomflot"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q512482"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DYLWR5A6YAWJ69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sovcomflot"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q660770"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400XX5U3XALBF5728"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Российские железные дороги"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Railways"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RZD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q660770"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400XX5U3XALBF5728"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Российские железные дороги"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Railways"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RZD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q660770"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400XX5U3XALBF5728"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Российские железные дороги"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Railways"
+      },
+      "shortName" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "РЖД"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q660770"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400XX5U3XALBF5728"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Российские железные дороги"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Railways"
+      },
+      "shortName" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "РЖД"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q670084"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340076UP17XECUF417"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vnesheconombank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q680776"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002GZLU65FRAC894"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Surgutneftegas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q680776"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002GZLU65FRAC894"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Surgutneftegas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q904594"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008CWTSB8JAUM458"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uralkali"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q904594"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008CWTSB8JAUM458"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uralkali"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1141123"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400JT3MQWNDKMJE44"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «НК «Роснефть»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosneft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1141123"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400JT3MQWNDKMJE44"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «НК «Роснефть»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosneft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1284261"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400JPTEEW143W3E47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nornickel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1284261"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400JPTEEW143W3E47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nornickel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OJSC «Mobile TeleSystems»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OJSC «Mobile TeleSystems»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OJSC «Mobile TeleSystems»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OJSC «Mobile TeleSystems»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OJSC «Mobile TeleSystems»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «Мобильные ТелеСистемы»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «Мобильные ТелеСистемы»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «Мобильные ТелеСистемы»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «Мобильные ТелеСистемы»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1368919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008FX8EXH1FMJA74"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «Мобильные ТелеСистемы»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile TeleSystems"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000840302"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1435010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900U7YWQAAT1QBP44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxoft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1435010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900U7YWQAAT1QBP44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxoft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1461799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400KXA9P2AN72P004"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gazprom Neft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1461799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400KXA9P2AN72P004"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gazprom Neft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1477012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534001D752JPNM0H170"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rostelecom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1477012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534001D752JPNM0H170"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rostelecom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1477012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534001D752JPNM0H170"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rostelecom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400V1H6ART1UQ0N98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VTB Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400V1H6ART1UQ0N98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VTB Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1616858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400PAT768SVJMV121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatneft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1616858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400PAT768SVJMV121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatneft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1720713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800HE6VDVJWT85874"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MegaFon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1720713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800HE6VDVJWT85874"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MegaFon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1751278"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500BWICTDJXSYHA71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Azur Air"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1768082"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800913TPW32I84456"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novolipetsk Steel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1768082"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800913TPW32I84456"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novolipetsk Steel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1781702"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JSZ2UUK4QQK694"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sistema"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1781702"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JSZ2UUK4QQK694"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sistema"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1884500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400XSJ4C01YMCXG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Magnitogorsk Iron and Steel Works"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1885456"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009IXUP41SPL5B50"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "VK"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1915579"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400C9GSPBSKERRP65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mechel"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001302362"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1915579"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400C9GSPBSKERRP65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mechel"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001302362"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2005769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FUXVT7TF6ZKV71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polyus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2005769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FUXVT7TF6ZKV71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polyus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2035424"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534005TJN9DX4YWVT97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RusHydro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2035424"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534005TJN9DX4YWVT97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RusHydro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4040469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IMUCFEWXP6RU11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Headhunter"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cy/HE178226"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4040469"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IMUCFEWXP6RU11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Headhunter"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "cy/HE332806"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4047736"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400VWDGA1977ZTQ68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Qiwi"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001561566"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4047736"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400VWDGA1977ZTQ68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Qiwi"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001561566"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4059809"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400R9KWF00G0V2542"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acron Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4059809"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400R9KWF00G0V2542"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acron Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4146653"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400AZ1GVUT9AB6E44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Transport Leasing Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4154232"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400YGH90JM0RMLU50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Far Eastern Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4251645"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340067LEEMJ79K8X43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LSR Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4251645"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340067LEEMJ79K8X43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LSR Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4258608"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OMCE8QATH73N15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lenta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4258608"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OMCE8QATH73N15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lenta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4258608"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OMCE8QATH73N15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lenta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4315073"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400M18U5TB02TW421"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Settlement Depository"
+      },
+      "shortName" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "НРД"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4400856"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534004L951WTUL81746"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Coal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4411267"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400EUVJ68M201Y139"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sviaz Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4476693"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400HYBTF10T9XBR98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uralsib"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4499024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400FZQ7Z49QZNSG30"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Публичное акционерное общество «Российские сети»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosseti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4499024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BVSSKP13UVXI08"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Публичное акционерное общество «Российские сети»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosseti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4499024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400FZQ7Z49QZNSG30"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Публичное акционерное общество «Российские сети»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosseti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4499024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BVSSKP13UVXI08"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Публичное акционерное общество «Российские сети»"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosseti"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4500466"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534007XNRQ38CWWDP74"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Home Credit and Finance Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14623477"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GQV9YLNSWECU41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nordgold"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14623477"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GQV9YLNSWECU41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nordgold"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15134140"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HYJEPSBNG1RL03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AGR Automotive Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21843099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500NH5LDB23SI2A38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freedom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106295049"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300XQRN9MR54V1W18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "T-Technologies"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114973122"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400F8K126F5WX2996"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Qiwi Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BMQ60TLPDPFJ37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "General Logistic Solutions LLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558271"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700C6LDKIOQJ7OZ48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OOO UniCredit Leasing"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558425"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700W801DBQKVMIA62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZAO Locat Leasing Russia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21843099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500NH5LDB23SI2A38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freedom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48681940"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800913TPW32I84456"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novolipetsk Steel Plant"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21843099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500NH5LDB23SI2A38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freedom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58707"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400MSLG0NS4C3NB96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aeroflot"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एयरोफ़्लोट"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DR5QSH8MEGZZ11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450016D1DA0D640356"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unipro"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिप्रो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q205012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WE6TAF5EEWQS81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sberbank"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001523101"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q205012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WE6TAF5EEWQS81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sberbank"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001523101"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251546"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008R6GCRVBDFA581"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novatek"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258748"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800J17UJJJDGUVF56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "X5 Retail Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q329347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LCJ1UJXHYBWI24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lukoil"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q329347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LCJ1UJXHYBWI24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lukoil"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q512482"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400DYLWR5A6YAWJ69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sovcomflot"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q660770"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400XX5U3XALBF5728"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Railways"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Российские железные дороги"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RZD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q660770"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400XX5U3XALBF5728"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Railways"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Российские железные дороги"
+      },
+      "shortName" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "РЖД"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q670084"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340076UP17XECUF417"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vnesheconombank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q670084"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340076UP17XECUF417"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vnesheconombank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q680776"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002GZLU65FRAC894"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Surgutneftegas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q904594"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534008CWTSB8JAUM458"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uralkali"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1141123"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400JT3MQWNDKMJE44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosneft"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «НК «Роснефть»"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1141123"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400JT3MQWNDKMJE44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosneft"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ПАО «НК «Роснефть»"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1284261"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400JPTEEW143W3E47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nornickel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1461799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400KXA9P2AN72P004"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gazprom Neft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1477012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534001D752JPNM0H170"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rostelecom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549389"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400V1H6ART1UQ0N98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VTB Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1616858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400PAT768SVJMV121"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatneft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1720713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800HE6VDVJWT85874"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MegaFon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1751278"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500BWICTDJXSYHA71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Azur Air"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1768082"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800913TPW32I84456"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novolipetsk Steel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1781702"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JSZ2UUK4QQK694"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sistema"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1884500"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400XSJ4C01YMCXG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Magnitogorsk Iron and Steel Works"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1885456"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009IXUP41SPL5B50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VK"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "VK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1915579"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400C9GSPBSKERRP65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mechel"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001302362"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2035424"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534005TJN9DX4YWVT97"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RusHydro"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4059809"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400R9KWF00G0V2542"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acron Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4146653"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400AZ1GVUT9AB6E44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Transport Leasing Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4154232"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400YGH90JM0RMLU50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Far Eastern Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4251645"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25340067LEEMJ79K8X43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LSR Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4258608"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OMCE8QATH73N15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lenta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4400856"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534004L951WTUL81746"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Coal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4411267"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400EUVJ68M201Y139"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sviaz Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4476693"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400HYBTF10T9XBR98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uralsib"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4499024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400FZQ7Z49QZNSG30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosseti"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Публичное акционерное общество «Российские сети»"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4499024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300BVSSKP13UVXI08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosseti"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Публичное акционерное общество «Российские сети»"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4500466"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2534007XNRQ38CWWDP74"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Home Credit and Finance Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14623477"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GQV9YLNSWECU41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nordgold"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48681940"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800913TPW32I84456"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Novolipetsk Steel Plant"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BMQ60TLPDPFJ37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "General Logistic Solutions LLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558271"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700C6LDKIOQJ7OZ48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OOO UniCredit Leasing"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558425"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700W801DBQKVMIA62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZAO Locat Leasing Russia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16912944"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400PT5760286MJW82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian National Commercial Bank"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "РОССИЙСКИЙ НАЦИОНАЛЬНЫЙ КОММЕРЧЕСКИЙ БАНК (публичное акционерное общество)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121316039"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "UNYGG3DC3W0FZQWM1779"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Bank (Eurasia)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558439"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Y26905XLYUUM93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GOPAK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558439"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Y26905XLYUUM93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GOPAK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140788180"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400GL21TKKLSCCT84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wildberries Bank"
+      }
+    } ]
+  }
+}

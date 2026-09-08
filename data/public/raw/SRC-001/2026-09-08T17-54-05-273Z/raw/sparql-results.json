@@ -1,0 +1,860 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "JU1U6S0DG9YLT7N8ZV32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Comercial Português"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "JU1U6S0DG9YLT7N8ZV32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Comercial Português"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q249850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KIOVJ65H18U209"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Águas de Portugal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q249850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KIOVJ65H18U209"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Águas de Portugal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q444971"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800AKSTYRLHY3X497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Altri"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q444971"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800AKSTYRLHY3X497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Altri"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q537886"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3DM5DPGI3W6OU6GJ4N92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Portuguese Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q537886"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3DM5DPGI3W6OU6GJ4N92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Portuguese Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q537886"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3DM5DPGI3W6OU6GJ4N92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Portuguese Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806190"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300526KR9XDKDMS56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Nacional Ultramarino"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1341222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900CLC3WDMGI9VH80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energias de Portugal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1341222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900CLC3WDMGI9VH80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energias de Portugal"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1817568"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930071D35BVUPC5942"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Optimus Telecomunicações"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1817568"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930071D35BVUPC5942"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Optimus Telecomunicações"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1862842"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FR1FN48IGHR915"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Redes Energéticas Nacionais"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1862842"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FR1FN48IGHR915"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Redes Energéticas Nacionais"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1862842"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FR1FN48IGHR915"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Redes Energéticas Nacionais"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1862842"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FR1FN48IGHR915"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Redes Energéticas Nacionais"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2205178"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P1SZ5HB3VNZF36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Azores Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8045861"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PKXMR7UTNJMW70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "YDreams"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001732162"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9581725"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GYIFZ0EH50GF42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ActivoBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9581725"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900GYIFZ0EH50GF42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ActivoBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18712957"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QFQ74Z0F96NS78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Farfetch"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001740915"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111920377"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900QNP8AD0GCZKL29"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q111920377"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LOXJVWGOH84656"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDP - GESTÃO DA PRODUÇÃO DE ENERGIA,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466453"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UCYW0O2AKLVB53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SU ELETRICIDADE,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466454"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DOHLO3S0HG9326"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDP COMERCIAL-COMERCIALIZAÇÃO DE ENERGIA,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466455"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003M3OGC7IO9CB93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EDP GÁS.COM - COMÉRCIO DE GÁS NATURAL,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466543"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800G8NB799BOEIR49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "REN Trading,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466588"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800ZWKG61JG7ZCF61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petroleos de Portugal - Petrogal,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466662"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845000674F60880D519"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DOUROGÁS NATURAL - MEDIÇÃO E EXPLORAÇÃO DE SISTEMAS DE GÁS,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466675"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DNY96I88D7ZA41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEPSA PORTUGUESA DE PETRÓLEOS,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "95980020140005966453"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALDRO ENERGIA Y SOLUCIONES S.L.U. SUCURSAL EM PORTUGAL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466724"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800RUN9U51JVNQB53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEN - SERVIÇOS ENERGÉTICOS LDA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466748"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845009F1AECS3B9EK15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MOVHERA - HIDROELÉTRICAS DO NORTE,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466766"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945009MQHQ5TP37G226"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BLUNT, UNIPESSOAL LDA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466776"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500B282F6F42EYF14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ignichoice Renewable Energy,"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167321"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZSZ6VJXXCVUM49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greenvolt"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167587"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZG20XRKSRKZ238"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ibersol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q126735347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930064KMMEDNV6ZM58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Finerge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q126735347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930064KMMEDNV6ZM58"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Finerge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558286"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FJ844GLCJA9030"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ONE WAY TEX, LDA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558286"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FJ844GLCJA9030"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ONE WAY TEX, LDA"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140553487"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "89450023G6PYRM5R4A88"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q140553487"
+      }
+    } ]
+  }
+}

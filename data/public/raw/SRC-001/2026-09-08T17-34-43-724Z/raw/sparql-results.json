@@ -1,0 +1,3040 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140388"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7478000050A040C0D041"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zagreb Stock Exchange"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140388"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7478000050A040C0D041"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zagreb Stock Exchange"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q342143"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7478000070H8IW3J9L75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Đuro Đaković"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q342143"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7478000070H8IW3J9L75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Đuro Đaković"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q342143"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7478000070H8IW3J9L75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Đuro Đaković"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q866463"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000F06H8UWC7I70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jamnica"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Jamnica plus"
+      },
+      "shortName" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Jamnica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q866463"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000F06H8UWC7I70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jamnica"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Jamnica plus"
+      },
+      "shortName" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Jamnica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q866463"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000F06H8UWC7I70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jamnica"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Jamnica plus"
+      },
+      "shortName" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Jamnica"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1664911"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TMC6BYESPQ7W85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Podravka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1664911"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TMC6BYESPQ7W85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Podravka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1664911"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TMC6BYESPQ7W85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Podravka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1958759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VVXGAWG6MCDO69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Müller"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "DroMaMü"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8537_HRA2271"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1958759"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VVXGAWG6MCDO69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Müller"
+      },
+      "shortName" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "DroMaMü"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "de/B8537_HRA2271"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7246343"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZHFZ4CSK7VS460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Privredna banka Zagreb"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7246343"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZHFZ4CSK7VS460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Privredna banka Zagreb"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12643627"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000205HZTYFG629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tisak"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12643627"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000205HZTYFG629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tisak"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12643627"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000205HZTYFG629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tisak"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13636760"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930046RT4B6IZJAL08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hrvatska elektroprivreda"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Hrvatska elektroprivreda"
+      },
+      "shortName" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "HEP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13636760"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930046RT4B6IZJAL08"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hrvatska elektroprivreda"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Hrvatska elektroprivreda"
+      },
+      "shortName" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "HEP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25382167"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Q1DHHS9RDVHY29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BANKA KOVANICA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "BANKA KOVANICA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25382167"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Q1DHHS9RDVHY29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BANKA KOVANICA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "BANKA KOVANICA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43894915"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "747800A045PORKIVU392"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dukat (Croatia)"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hr/01454935"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43894915"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "747800A045PORKIVU392"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dukat (Croatia)"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hr/01454935"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338198"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700BYN60D3Y1P6Z02"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Blitz Film i Video Distribucija"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Blitz Film i Video Distribucija Društvo s ograničenom odgovornošću"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hr/03890503"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338199"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700D3HU6XAF8GPG72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZABA Partner"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ZABA Partner d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338199"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700D3HU6XAF8GPG72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ZABA Partner"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ZABA Partner d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338201"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700D50E8FFOSKTH78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AFAKTOR - faktoring d.o.o. za factoring"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "AFAKTOR - faktoring d.o.o. za factoring"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338201"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700D50E8FFOSKTH78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AFAKTOR - faktoring d.o.o. za factoring"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "AFAKTOR - faktoring d.o.o. za factoring"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338202"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GKPILKKT90RE35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KONČAR-GENERATORI I MOTORI .D.D"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "KONČAR-GENERATORI I MOTORI .D.D"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338202"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700GKPILKKT90RE35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KONČAR-GENERATORI I MOTORI .D.D"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "KONČAR-GENERATORI I MOTORI .D.D"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338203"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HEJ9JNRJ3MZX85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PET NETWORK INTERNATIONAL"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "PET NETWORK INTERNATIONAL D.O.O."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338203"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700HEJ9JNRJ3MZX85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PET NETWORK INTERNATIONAL"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "PET NETWORK INTERNATIONAL D.O.O."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700H3R0QON3HOCJ19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CODE WAVE"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "CODE WAVE d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700H3R0QON3HOCJ19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CODE WAVE"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "CODE WAVE d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338205"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700I5J7YPIDCVR987"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MULTIPLUS CARD"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "MULTIPLUS CARD d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338205"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700I5J7YPIDCVR987"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MULTIPLUS CARD"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "MULTIPLUS CARD d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338207"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700KBEP7JJCM7OW04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Safir"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Safir d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338207"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700KBEP7JJCM7OW04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Safir"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Safir d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338208"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700LKU3AKMVSLVG06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VRBANI PORTA"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "VRBANI PORTA d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338208"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700LKU3AKMVSLVG06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VRBANI PORTA"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "VRBANI PORTA d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338209"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MBTVFTO41U5H78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PRIMORAC,"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "PRIMORAC, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338209"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MBTVFTO41U5H78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PRIMORAC,"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "PRIMORAC, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338212"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NZKP67AVB3GN16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HANGAR 18"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "HANGAR 18 d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338215"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RVRLXIWZTGPH12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGIE2"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ENERGIE2 d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338216"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RWKYRYWM4ZO689"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SAZKA Group Adriatic"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "SAZKA Group Adriatic d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338218"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700SN0PPPO4DUML13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A.N. PEK"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "A.N. PEK d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338220"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700TEKPODBVYFJ991"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ASBISC-CR"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ASBISC-CR D.O.O."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700TQPUTQML6K1T75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rox"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Rox d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338223"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UDPTKUTN3T0928"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "THERMO STONE"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "THERMO STONE d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XNZSXXVR6DQR03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IMEX BANKA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "IMEX BANKA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338226"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YZD48SYNRNFB23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ANAMARIJA-COMPANY"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ANAMARIJA-COMPANY d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZF5ZM7ZDTX7Z67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hattrick-PSK"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Hattrick-PSK d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZK9AE3ONWLCV72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CITY EX"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "CITY EX d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZSNAGKVNZYXH39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Calucem"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Calucem d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Z16V0SDTJ01525"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INETEC - Institut za nuklearnu tehnologiju"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "INETEC - Institut za nuklearnu tehnologiju d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338232"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Z8UEYMFPIW1R65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dagmar"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Dagmar D.O.O."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338233"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000HNA7FFWER4M29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Duplicato Media"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "DUPLICATO MEDIA D.O.O."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hr/00767387"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338233"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000HNA7FFWER4M29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Duplicato Media"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "DUPLICATO MEDIA D.O.O."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hr/00767387"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338234"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000MY3HZU68CYZ09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DRADAR"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "DRADAR d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000681VS401RU717"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FORTUNA Virtual"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "FORTUNA Virtual d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338236"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001GN045X5LK4T33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NUTRIFIT"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "NUTRIFIT d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001H8N2Q741MIT70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KARLOVAČKA BANKA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "KARLOVAČKA BANKA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157002LOV8L7ILA0941"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medora hoteli i ljetovalista d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Medora hoteli i ljetovalista d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338240"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003DFNSFHEG1HF89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tekonet"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Tekonet d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338241"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003HVUZB46DL8F42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BELING"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "BELING d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003YH8W7UMWA4R33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aero Logistika"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Aero Logistika d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338245"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570039NCELBP9XK402"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALUMINA III"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ALUMINA III d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338246"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004TEBNCPX47LK87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VBH OKOVI"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "VBH OKOVI d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007GSCMCGXR0TH18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PET SEZONA"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "PET SEZONA d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338248"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008NZWQJE4MUNM40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "B.M.V. inženjering"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "B.M.V. inženjering d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338249"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008U1HAD8HKHR432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "APFEL"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "APFEL d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338251"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009XBRAFO75DCO28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MediaCom Central Europe Zagreb"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "MediaCom Central Europe Zagreb d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110017873"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900NRAH6YWL3TLD24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JADRAN – GALENSKI LABORATORIJ d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110024846"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000Y04HB9CIA883"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tankerska Next Generation d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110024846"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000Y04HB9CIA883"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tankerska Next Generation d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466450"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900I42OE7V8NUAP77"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INTERENERGO d.o.o. za trgovinu i usluge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466491"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003NZMO90KK4VA96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GEN-I Hrvatska d.o.o. trgovina i prodaja električne energije"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466512"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OA4AE06QOC8K50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EZPADA d.o.o. za trgovinu i usluge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466520"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493005GX8CUG8IDFZ41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PETROL društvo s ograničenom odgovornošću za trgovinu i prijevoz nafte i naftnih derivata"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QUJBZSXX5F3N16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axpo Trgovina društvo s ograničenom odgovornošću za trgovinu i usluge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466539"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004ZX4H2TUXQ7D47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Proenergy d.o.o. za proizvodnju električne energije"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466774"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990055HV7LUQVYGA61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MVM CEEnergy Croatia Limited Liability Company for Import, Supply and Trade in Gas"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466800"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "747800F08DR7TOS6X192"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGETSKI PARK KORLAT društvo s ograničenom odgovornošću za proizvodnju električne energije"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466814"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780090E1D2KMQO8Q56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OMS - Upravljanje društvo s ograničenom odgovornošću za upravljanje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466820"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "747800C0N7PI5MB6G824"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENNA Opskrba društvo s ograničenom odgovornošću za opskrbu i usluge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DUWS1DGNEK4C68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Valamar Riviera d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DUWS1DGNEK4C68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Valamar Riviera d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000Z0PH7TFW3I85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arena Hospitality Group d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115167399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000Z0PH7TFW3I85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arena Hospitality Group d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125728355"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930041AKTSEYG3RV93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wiener osiguranje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125769894"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000T0V81VFIT960"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maistra"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130530409"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "747800S06AYJL4DSCT25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mon Perin"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558290"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FU93DTFFH4QC85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RC Samobor Logistics d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700M381KJ9RQXDC24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VOX KOMUNIKACIJE D.O.O."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558355"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700N11CLBWG9XG162"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OPG NIVES MOROVIC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558358"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OE5V26NII31531"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KOLOMEJEC d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558410"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700VMFDTI0M36RR98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DABAR INFORMATIKA, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558443"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZCFDP5RJPMW443"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sunny Bay Apartments d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141246143"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7478000070X8LWJUBX45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sunce hoteli d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7246343"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZHFZ4CSK7VS460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Privredna banka Zagreb"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25382167"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Q1DHHS9RDVHY29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BANKA KOVANICA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "BANKA KOVANICA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338212"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NZKP67AVB3GN16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HANGAR 18"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "HANGAR 18 d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338215"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RVRLXIWZTGPH12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENERGIE2"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ENERGIE2 d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338216"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700RWKYRYWM4ZO689"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SAZKA Group Adriatic"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "SAZKA Group Adriatic d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338218"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700SN0PPPO4DUML13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A.N. PEK"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "A.N. PEK d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338220"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700TEKPODBVYFJ991"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ASBISC-CR"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ASBISC-CR D.O.O."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700TQPUTQML6K1T75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rox"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Rox d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338223"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700UDPTKUTN3T0928"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "THERMO STONE"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "THERMO STONE d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XNZSXXVR6DQR03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IMEX BANKA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "IMEX BANKA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338225"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700XNZSXXVR6DQR03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IMEX BANKA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "IMEX BANKA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338226"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700YZD48SYNRNFB23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ANAMARIJA-COMPANY"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ANAMARIJA-COMPANY d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZF5ZM7ZDTX7Z67"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hattrick-PSK"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Hattrick-PSK d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZK9AE3ONWLCV72"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CITY EX"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "CITY EX d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338230"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZSNAGKVNZYXH39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Calucem"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Calucem d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338231"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Z16V0SDTJ01525"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INETEC - Institut za nuklearnu tehnologiju"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "INETEC - Institut za nuklearnu tehnologiju d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338232"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700Z8UEYMFPIW1R65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dagmar"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Dagmar D.O.O."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338233"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000HNA7FFWER4M29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Duplicato Media"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "DUPLICATO MEDIA D.O.O."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "hr/00767387"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338234"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000MY3HZU68CYZ09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DRADAR"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "DRADAR d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157000681VS401RU717"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FORTUNA Virtual"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "FORTUNA Virtual d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338236"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001GN045X5LK4T33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NUTRIFIT"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "NUTRIFIT d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001H8N2Q741MIT70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KARLOVAČKA BANKA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "KARLOVAČKA BANKA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157001H8N2Q741MIT70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KARLOVAČKA BANKA d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "KARLOVAČKA BANKA d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157002LOV8L7ILA0941"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medora hoteli i ljetovalista d.d."
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Medora hoteli i ljetovalista d.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338240"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003DFNSFHEG1HF89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tekonet"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Tekonet d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338241"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003HVUZB46DL8F42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BELING"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "BELING d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157003YH8W7UMWA4R33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aero Logistika"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "Aero Logistika d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338245"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570039NCELBP9XK402"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALUMINA III"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "ALUMINA III d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338246"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157004TEBNCPX47LK87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VBH OKOVI"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "VBH OKOVI d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157007GSCMCGXR0TH18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PET SEZONA"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "PET SEZONA d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338248"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008NZWQJE4MUNM40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "B.M.V. inženjering"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "B.M.V. inženjering d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338249"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157008U1HAD8HKHR432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "APFEL"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "APFEL d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102338251"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3157009XBRAFO75DCO28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MediaCom Central Europe Zagreb"
+      },
+      "official" : {
+        "xml:lang" : "hr",
+        "type" : "literal",
+        "value" : "MediaCom Central Europe Zagreb d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558290"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700FU93DTFFH4QC85"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RC Samobor Logistics d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558347"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700M381KJ9RQXDC24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VOX KOMUNIKACIJE D.O.O."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558355"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700N11CLBWG9XG162"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "OPG NIVES MOROVIC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558358"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700OE5V26NII31531"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KOLOMEJEC d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558410"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700VMFDTI0M36RR98"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DABAR INFORMATIKA, d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558443"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700ZCFDP5RJPMW443"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sunny Bay Apartments d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q308974"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000B0QHXQ0LQW20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Croatia Airlines"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "क्रोएशिया एयरलाइन्स"
+      }
+    } ]
+  }
+}

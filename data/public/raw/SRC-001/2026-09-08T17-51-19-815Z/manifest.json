@@ -1,0 +1,24 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"NA\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nLIMIT 2000",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-08T17:51:19.815Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "74eebcbb934b01ee682bf9778a3a8226ef21be31fd3f6bca407734c5ab1b84a7",
+  "rawBytes": 594,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "74eebcbb934b01ee682bf9778a3a8226ef21be31fd3f6bca407734c5ab1b84a7",
+      "bytes": 594,
+      "records": 1,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 1,
+  "recordsSha256": "f4d0ad5e030cf9b52a5a9c5b56442e57824e929ea47a12e67790e3875ba90cfc",
+  "warnings": []
+}

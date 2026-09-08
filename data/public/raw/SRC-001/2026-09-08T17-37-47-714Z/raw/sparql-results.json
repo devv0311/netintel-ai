@@ -1,0 +1,640 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q950419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DKPDN9M5S8GB14"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001099590"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mercado Libre"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q950419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DKPDN9M5S8GB14"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001099590"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mercado Libre"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q950419"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DKPDN9M5S8GB14"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001099590"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mercado Libre"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1544312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MKPIRSJD8SB782"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telecom Argentina"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Telecom Argentina S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1544312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MKPIRSJD8SB782"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telecom Argentina"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Telecom Argentina S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1544312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MKPIRSJD8SB782"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telecom Argentina"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Telecom Argentina S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1544312"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MKPIRSJD8SB782"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telecom Argentina"
+      },
+      "official" : {
+        "xml:lang" : "es",
+        "type" : "literal",
+        "value" : "Telecom Argentina S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2006989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003N7447U18U5U53"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000904851"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "YPF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2006989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003N7447U18U5U53"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000904851"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "YPF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2006989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003N7447U18U5U53"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000904851"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "YPF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2006989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003N7447U18U5U53"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000904851"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "YPF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2335199"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100KKDKKIFEBKK040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macro Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2335199"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100KKDKKIFEBKK040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macro Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2335199"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100KKDKKIFEBKK040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macro Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2335199"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100KKDKKIFEBKK040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macro Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2838738"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900QNIK0CVURGML24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pampa Energía"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2838738"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900QNIK0CVURGML24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pampa Energía"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2838738"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900QNIK0CVURGML24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pampa Energía"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2843192"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JU7TV6VS9GRW29"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001395213"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Edenor S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2843192"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JU7TV6VS9GRW29"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001395213"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Edenor S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2876788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100KKDBKJFDKKD024"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BBVA Argentina"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2876788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100KKDBKJFDKKD024"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BBVA Argentina"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18924139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300F1RPI7RYS3QH03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Isaura S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18924139"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300F1RPI7RYS3QH03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Isaura S.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22905362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SFRPHMM26ZOQ87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flow"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22905362"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SFRPHMM26ZOQ87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flow"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27778993"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QG9TOWTXWOBF90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pan American Energy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27778993"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QG9TOWTXWOBF90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pan American Energy"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125132818"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100GDDGGEGJGIE042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Santiago del Estero"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125132818"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100GDDGGEGJGIE042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Santiago del Estero"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125132818"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100GDDGGEGJGIE042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Santiago del Estero"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125132818"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "579100GDDGGEGJGIE042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Santiago del Estero"
+      }
+    } ]
+  }
+}

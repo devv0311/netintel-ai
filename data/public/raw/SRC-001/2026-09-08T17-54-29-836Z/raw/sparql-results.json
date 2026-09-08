@@ -1,0 +1,604 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q460373"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZEAVBXBTBAUD92"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एयर सर्बिया"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Air Serbia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q460373"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZEAVBXBTBAUD92"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एयर सर्बिया"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Air Serbia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q743264"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MF2S6O7SB8OJ26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erste Bank Novi Sad"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q743264"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900MF2S6O7SB8OJ26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erste Bank Novi Sad"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1194664"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900WJU5CCU5P7N911"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Bank of Serbia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1327532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100D6O75BH8V9F768"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elektroprivreda Srbije"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1327532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100D6O75BH8V9F768"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elektroprivreda Srbije"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1536320"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WZI2AGR4NZU538"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NLB banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1536320"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WZI2AGR4NZU538"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NLB banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001XF6EC2NJXK304"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa Beograd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa ad Beograd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001XF6EC2NJXK304"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa Beograd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa ad Beograd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001XF6EC2NJXK304"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa Beograd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa ad Beograd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001XF6EC2NJXK304"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa Beograd"
+      },
+      "official" : {
+        "xml:lang" : "sr",
+        "type" : "literal",
+        "value" : "Банка Интеза АД Београд"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001XF6EC2NJXK304"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa Beograd"
+      },
+      "official" : {
+        "xml:lang" : "sr",
+        "type" : "literal",
+        "value" : "Банка Интеза АД Београд"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2882046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001XF6EC2NJXK304"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banca Intesa Beograd"
+      },
+      "official" : {
+        "xml:lang" : "sr",
+        "type" : "literal",
+        "value" : "Банка Интеза АД Београд"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3041201"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000LDWKSZXHAH16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dunav osiguranje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3041201"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "74780000LDWKSZXHAH16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dunav osiguranje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3334459"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100004FEO5ULFDP03"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q3334459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3334459"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100004FEO5ULFDP03"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q3334459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4698860"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500C8TA88VBPG8H56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Air Pink"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5411684"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HUR1IZS4PY5912"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eurobank a.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5411684"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HUR1IZS4PY5912"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eurobank a.d."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7283807"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299009JBOOJN1CD4M89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raiffeisen banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12644909"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NNVS11JCO34740"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vojvođanska banka"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466528"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FUBOK4YD0QK706"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axpo d.o.o. Beograd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008C4F6EQRBOL402"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enel Trade Serbia doo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466721"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300R6JQPI60H8FY15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PETROL Društvo za trgovinu naftom i naftnim derivatima d.o.o. Beograd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D12DOPXOKD4O36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JAS BUDAPEST DOO ČANTAVIR"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900TOXCOKGOVLBS79"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GEN-I d.o.o. Beograd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AJ6HR1XK69KC33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AFAKTOR - faktoring finansiranje d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700AJ6HR1XK69KC33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AFAKTOR - faktoring finansiranje d.o.o."
+      }
+    } ]
+  }
+}

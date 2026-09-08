@@ -1,0 +1,814 @@
+{
+  "registry": "P6.24 experiment registry",
+  "ranAt": "2026-09-08T18:08:44.444Z",
+  "gitCommit": "bcde674578d95bc6ea6273bcf869d2a4191b6112",
+  "dataset": {
+    "id": "cipher-er-pairs",
+    "version": "2.0.0",
+    "path": "evidence/ml/pair-dataset-v2.json",
+    "seed": "cipher-p6.25-pair-dataset-v2"
+  },
+  "partitionCounts": {
+    "train": 3121,
+    "validation": 951
+  },
+  "partitionsUsed": [
+    "train",
+    "validation"
+  ],
+  "heldOutPartition": "NOT READ by this script. Opened only by scripts/ml/evaluate-model.ts.",
+  "classBalance": {
+    "train": {
+      "pairs": 3121,
+      "positives": 512,
+      "negatives": 2609,
+      "hardNegatives": 101,
+      "minedHardNegatives": 460,
+      "sampledNegatives": 2048
+    },
+    "validation": {
+      "pairs": 951,
+      "positives": 177,
+      "negatives": 774,
+      "hardNegatives": 25,
+      "minedHardNegatives": 41,
+      "sampledNegatives": 708
+    }
+  },
+  "baselineOnFitPartition": {
+    "truePositives": 173,
+    "falsePositives": 5,
+    "trueNegatives": 2604,
+    "falseNegatives": 339,
+    "threshold": 0.5,
+    "precision": 0.9719101123595506,
+    "recall": 0.337890625,
+    "f1": 0.5014492753623189,
+    "falseMergeRate": 0.0019164430816404753,
+    "falseSplitRate": 0.662109375
+  },
+  "falseMergeCeiling": 0.0012919896640826874,
+  "hardNegativeCeiling": {
+    "rate": 0.04,
+    "deterministicMerges": 1,
+    "hardNegatives": 25,
+    "note": "Curated hard negatives only. A model may not merge genuine name collisions more often than the deterministic resolver does on the same pairs."
+  },
+  "featureNames": [
+    "exactNameMatch",
+    "normalizedNameMatch",
+    "anyVariantNormalizedMatch",
+    "sortedTokenMatch",
+    "tokenJaccard",
+    "tokenContainment",
+    "orderedPrefixContainment",
+    "firstTokenMatch",
+    "lastTokenMatch",
+    "levenshteinRatio",
+    "jaroWinkler",
+    "trigramDice",
+    "bestVariantTrigramDice",
+    "lengthRatio",
+    "tokenCountRatio",
+    "singleTokenSide",
+    "acronymMatch",
+    "sameScript",
+    "jurisdictionBothKnown",
+    "jurisdictionCountryMatch",
+    "jurisdictionCountryConflict",
+    "aliasesEitherPresent",
+    "digitSetConflict",
+    "romanNumeralConflict",
+    "legalFormConflict",
+    "structuralTokenAsymmetry",
+    "coreNameMatch",
+    "coreTokenJaccard",
+    "coreTrigramDice",
+    "idfWeightedJaccard",
+    "maxSharedTokenIdf"
+  ],
+  "experiments": [
+    {
+      "experimentId": "E1-deterministic-baseline",
+      "model": "deterministic normalised-name equality (src/lib/resolution/name-normalization.ts)",
+      "featureSet": "none — the shipped resolver's own Tier B/B2 rule, replayed at pair level",
+      "featureCount": 0,
+      "hyperparameters": {},
+      "seed": 0,
+      "trainingMillis": 0,
+      "validation": {
+        "rocAuc": null,
+        "prAuc": null,
+        "selected": {
+          "truePositives": 50,
+          "falsePositives": 1,
+          "trueNegatives": 773,
+          "falseNegatives": 127,
+          "threshold": 0.5,
+          "precision": 0.9803921568627451,
+          "recall": 0.2824858757062147,
+          "f1": 0.43859649122807026,
+          "falseMergeRate": 0.0012919896640826874,
+          "falseSplitRate": 0.7175141242937854
+        },
+        "atFixedHalf": {
+          "truePositives": 50,
+          "falsePositives": 1,
+          "trueNegatives": 773,
+          "falseNegatives": 127,
+          "threshold": 0.5,
+          "precision": 0.9803921568627451,
+          "recall": 0.2824858757062147,
+          "f1": 0.43859649122807026,
+          "falseMergeRate": 0.0012919896640826874,
+          "falseSplitRate": 0.7175141242937854
+        }
+      },
+      "shipped": false,
+      "note": "Not a learned model and not tuneable. This is the number every other row must beat, measured on the same pairs. It is deliberately NOT the 70.7% figure from the earlier India-filtered 75-pair corpus, which is a different corpus and not comparable.",
+      "parameterSummary": null
+    },
+    {
+      "experimentId": "E2-logistic-regression",
+      "model": "logistic_regression",
+      "featureSet": "engineered-31",
+      "featureCount": 31,
+      "hyperparameters": {
+        "learningRate": 0.5,
+        "epochs": 4000,
+        "l2": 0.002,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 689,
+      "validation": {
+        "rocAuc": 0.9931,
+        "prAuc": 0.9753,
+        "selected": {
+          "truePositives": 144,
+          "falsePositives": 1,
+          "trueNegatives": 773,
+          "falseNegatives": 33,
+          "threshold": 0.9823449517890187,
+          "precision": 0.993103448275862,
+          "recall": 0.8135593220338984,
+          "f1": 0.8944099378881988,
+          "falseMergeRate": 0.0012919896640826874,
+          "falseSplitRate": 0.1864406779661017
+        },
+        "atFixedHalf": {
+          "truePositives": 164,
+          "falsePositives": 24,
+          "trueNegatives": 750,
+          "falseNegatives": 13,
+          "threshold": 0.5,
+          "precision": 0.8723404255319149,
+          "recall": 0.9265536723163842,
+          "f1": 0.8986301369863015,
+          "falseMergeRate": 0.031007751937984496,
+          "falseSplitRate": 0.07344632768361582
+        }
+      },
+      "shipped": false,
+      "note": "The simplest interpretable model the ladder allows. Every coefficient is readable and every score decomposes into per-feature contributions, which is what makes a merge suggestion auditable.",
+      "parameterSummary": {
+        "kind": "logistic_regression",
+        "intercept": -3.0858,
+        "weights": [
+          {
+            "feature": "bestVariantTrigramDice",
+            "weight": 1.3995
+          },
+          {
+            "feature": "firstTokenMatch",
+            "weight": -1.3236
+          },
+          {
+            "feature": "idfWeightedJaccard",
+            "weight": 1.2847
+          },
+          {
+            "feature": "jurisdictionCountryMatch",
+            "weight": 1.1237
+          },
+          {
+            "feature": "jurisdictionCountryConflict",
+            "weight": -1.1203
+          },
+          {
+            "feature": "jaroWinkler",
+            "weight": -1.006
+          },
+          {
+            "feature": "coreTokenJaccard",
+            "weight": -1.0053
+          },
+          {
+            "feature": "maxSharedTokenIdf",
+            "weight": 1.0013
+          },
+          {
+            "feature": "orderedPrefixContainment",
+            "weight": 0.8617
+          },
+          {
+            "feature": "anyVariantNormalizedMatch",
+            "weight": 0.7275
+          },
+          {
+            "feature": "singleTokenSide",
+            "weight": 0.5237
+          },
+          {
+            "feature": "trigramDice",
+            "weight": 0.5233
+          },
+          {
+            "feature": "legalFormConflict",
+            "weight": -0.4229
+          },
+          {
+            "feature": "tokenCountRatio",
+            "weight": -0.3389
+          },
+          {
+            "feature": "coreNameMatch",
+            "weight": 0.3378
+          },
+          {
+            "feature": "sortedTokenMatch",
+            "weight": 0.2565
+          },
+          {
+            "feature": "normalizedNameMatch",
+            "weight": 0.253
+          },
+          {
+            "feature": "tokenContainment",
+            "weight": -0.19
+          },
+          {
+            "feature": "lengthRatio",
+            "weight": -0.1473
+          },
+          {
+            "feature": "structuralTokenAsymmetry",
+            "weight": 0.1388
+          },
+          {
+            "feature": "romanNumeralConflict",
+            "weight": -0.1262
+          },
+          {
+            "feature": "tokenJaccard",
+            "weight": 0.1235
+          },
+          {
+            "feature": "levenshteinRatio",
+            "weight": -0.1057
+          },
+          {
+            "feature": "aliasesEitherPresent",
+            "weight": -0.0936
+          },
+          {
+            "feature": "digitSetConflict",
+            "weight": 0.0706
+          },
+          {
+            "feature": "exactNameMatch",
+            "weight": -0.0567
+          },
+          {
+            "feature": "lastTokenMatch",
+            "weight": -0.0222
+          },
+          {
+            "feature": "acronymMatch",
+            "weight": 0.0204
+          },
+          {
+            "feature": "sameScript",
+            "weight": -0.0156
+          },
+          {
+            "feature": "coreTrigramDice",
+            "weight": 0.0056
+          },
+          {
+            "feature": "jurisdictionBothKnown",
+            "weight": -0.0037
+          }
+        ]
+      }
+    },
+    {
+      "experimentId": "E3-gradient-boosted-trees",
+      "model": "gradient_boosted_trees",
+      "featureSet": "engineered-31",
+      "featureCount": 31,
+      "hyperparameters": {
+        "rounds": 120,
+        "learningRate": 0.1,
+        "maxDepth": 3,
+        "minSamplesPerLeaf": 12,
+        "l2": 1,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 4767,
+      "validation": {
+        "rocAuc": 0.9946,
+        "prAuc": 0.9811,
+        "selected": {
+          "truePositives": 151,
+          "falsePositives": 1,
+          "trueNegatives": 773,
+          "falseNegatives": 26,
+          "threshold": 0.9708364394896696,
+          "precision": 0.993421052631579,
+          "recall": 0.8531073446327684,
+          "f1": 0.9179331306990882,
+          "falseMergeRate": 0.0012919896640826874,
+          "falseSplitRate": 0.14689265536723164
+        },
+        "atFixedHalf": {
+          "truePositives": 165,
+          "falsePositives": 18,
+          "trueNegatives": 756,
+          "falseNegatives": 12,
+          "threshold": 0.5,
+          "precision": 0.9016393442622951,
+          "recall": 0.9322033898305084,
+          "f1": 0.9166666666666666,
+          "falseMergeRate": 0.023255813953488372,
+          "falseSplitRate": 0.06779661016949153
+        }
+      },
+      "shipped": true,
+      "note": "Tried because the failures this model exists to recover are interactions a linear model cannot express: a high token overlap is evidence of identity ONLY when the pair does not also look like a shared-leading-token family.",
+      "parameterSummary": {
+        "kind": "gradient_boosted_trees",
+        "trees": 120,
+        "learningRate": 0.1
+      }
+    },
+    {
+      "experimentId": "E4-ablation-registry-pairing",
+      "model": "logistic_regression",
+      "featureSet": "engineered-31 + sameRegistry (ablation)",
+      "featureCount": 32,
+      "hyperparameters": {
+        "learningRate": 0.5,
+        "epochs": 4000,
+        "l2": 0.002,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 720,
+      "validation": {
+        "rocAuc": 0.9962,
+        "prAuc": 0.9861,
+        "selected": {
+          "truePositives": 148,
+          "falsePositives": 0,
+          "trueNegatives": 774,
+          "falseNegatives": 29,
+          "threshold": 0.971416382513492,
+          "precision": 1,
+          "recall": 0.8361581920903954,
+          "f1": 0.9107692307692308,
+          "falseMergeRate": 0,
+          "falseSplitRate": 0.1638418079096045
+        },
+        "atFixedHalf": {
+          "truePositives": 167,
+          "falsePositives": 23,
+          "trueNegatives": 751,
+          "falseNegatives": 10,
+          "threshold": 0.5,
+          "precision": 0.8789473684210526,
+          "recall": 0.943502824858757,
+          "f1": 0.9100817438692098,
+          "falseMergeRate": 0.029715762273901807,
+          "falseSplitRate": 0.05649717514124294
+        }
+      },
+      "shipped": false,
+      "note": "ABLATION, NEVER SHIPPED. Every positive in this corpus is cross-source by construction while many negatives are same-source, so `sameRegistry` predicts the label partly because of how the labels were BUILT. The gap between this row and E2 is the size of that artefact, measured rather than assumed.",
+      "parameterSummary": {
+        "kind": "logistic_regression",
+        "intercept": -4.2128,
+        "weights": [
+          {
+            "feature": "firstTokenMatch",
+            "weight": -1.2749
+          },
+          {
+            "feature": "bestVariantTrigramDice",
+            "weight": 1.2565
+          },
+          {
+            "feature": "jurisdictionCountryMatch",
+            "weight": 1.0884
+          },
+          {
+            "feature": "jurisdictionCountryConflict",
+            "weight": -1.0862
+          },
+          {
+            "feature": "idfWeightedJaccard",
+            "weight": 1.0852
+          },
+          {
+            "feature": "maxSharedTokenIdf",
+            "weight": 1.0518
+          },
+          {
+            "feature": "orderedPrefixContainment",
+            "weight": 0.8875
+          },
+          {
+            "feature": "jaroWinkler",
+            "weight": -0.8747
+          },
+          {
+            "feature": "coreTokenJaccard",
+            "weight": -0.693
+          },
+          {
+            "feature": "anyVariantNormalizedMatch",
+            "weight": 0.6271
+          },
+          {
+            "feature": "singleTokenSide",
+            "weight": 0.5786
+          },
+          {
+            "feature": "trigramDice",
+            "weight": 0.4055
+          },
+          {
+            "feature": "lastTokenMatch",
+            "weight": 0.2895
+          },
+          {
+            "feature": "tokenContainment",
+            "weight": -0.2738
+          },
+          {
+            "feature": "coreNameMatch",
+            "weight": 0.248
+          },
+          {
+            "feature": "structuralTokenAsymmetry",
+            "weight": 0.1829
+          },
+          {
+            "feature": "sortedTokenMatch",
+            "weight": 0.1495
+          },
+          {
+            "feature": "normalizedNameMatch",
+            "weight": 0.1445
+          },
+          {
+            "feature": "legalFormConflict",
+            "weight": -0.1414
+          },
+          {
+            "feature": "levenshteinRatio",
+            "weight": -0.1304
+          },
+          {
+            "feature": "aliasesEitherPresent",
+            "weight": -0.1243
+          },
+          {
+            "feature": "tokenCountRatio",
+            "weight": -0.1157
+          },
+          {
+            "feature": "lengthRatio",
+            "weight": -0.1077
+          },
+          {
+            "feature": "digitSetConflict",
+            "weight": 0.0913
+          },
+          {
+            "feature": "tokenJaccard",
+            "weight": 0.0767
+          },
+          {
+            "feature": "exactNameMatch",
+            "weight": -0.0631
+          },
+          {
+            "feature": "romanNumeralConflict",
+            "weight": -0.0608
+          },
+          {
+            "feature": "coreTrigramDice",
+            "weight": -0.0416
+          },
+          {
+            "feature": "acronymMatch",
+            "weight": 0.0235
+          },
+          {
+            "feature": "sameScript",
+            "weight": -0.0166
+          },
+          {
+            "feature": "jurisdictionBothKnown",
+            "weight": -0.0106
+          }
+        ]
+      }
+    },
+    {
+      "experimentId": "E5-ablation-no-jurisdiction",
+      "model": "logistic_regression",
+      "featureSet": "engineered-31 minus the 3 jurisdiction features (ablation)",
+      "featureCount": 31,
+      "hyperparameters": {
+        "learningRate": 0.5,
+        "epochs": 4000,
+        "l2": 0.002,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 693,
+      "validation": {
+        "rocAuc": 0.9716,
+        "prAuc": 0.9462,
+        "selected": {
+          "truePositives": 145,
+          "falsePositives": 1,
+          "trueNegatives": 773,
+          "falseNegatives": 32,
+          "threshold": 0.9499641523690194,
+          "precision": 0.9931506849315068,
+          "recall": 0.8192090395480226,
+          "f1": 0.8978328173374612,
+          "falseMergeRate": 0.0012919896640826874,
+          "falseSplitRate": 0.1807909604519774
+        },
+        "atFixedHalf": {
+          "truePositives": 157,
+          "falsePositives": 16,
+          "trueNegatives": 758,
+          "falseNegatives": 20,
+          "threshold": 0.5,
+          "precision": 0.9075144508670521,
+          "recall": 0.8870056497175142,
+          "f1": 0.897142857142857,
+          "falseMergeRate": 0.020671834625323,
+          "falseSplitRate": 0.11299435028248588
+        }
+      },
+      "shipped": false,
+      "note": "ABLATION, NEVER SHIPPED. P6.25 gave the Wikidata side a publisher-stated country for the first time, and jurisdiction agreement immediately reached a standalone ROC-AUC of 0.85 on TRAIN. Some of that is real evidence and some is an artefact of how sampled negatives are drawn: two randomly paired companies are usually in different countries whether or not that is why they are different companies. The gap between this row and E2 sizes the total contribution; the hard-negative false-merge rate in the held-out evaluation is where the REAL part shows, because a curated hard negative is a genuine name collision rather than a random pair.",
+      "parameterSummary": {
+        "kind": "logistic_regression",
+        "intercept": -1.8424,
+        "weights": [
+          {
+            "feature": "bestVariantTrigramDice",
+            "weight": 2.1313
+          },
+          {
+            "feature": "maxSharedTokenIdf",
+            "weight": 1.2347
+          },
+          {
+            "feature": "jaroWinkler",
+            "weight": -1.2335
+          },
+          {
+            "feature": "firstTokenMatch",
+            "weight": -1.145
+          },
+          {
+            "feature": "coreTokenJaccard",
+            "weight": -0.9245
+          },
+          {
+            "feature": "idfWeightedJaccard",
+            "weight": 0.8683
+          },
+          {
+            "feature": "orderedPrefixContainment",
+            "weight": 0.6495
+          },
+          {
+            "feature": "anyVariantNormalizedMatch",
+            "weight": 0.6419
+          },
+          {
+            "feature": "trigramDice",
+            "weight": 0.6207
+          },
+          {
+            "feature": "legalFormConflict",
+            "weight": -0.5623
+          },
+          {
+            "feature": "tokenCountRatio",
+            "weight": -0.4561
+          },
+          {
+            "feature": "coreNameMatch",
+            "weight": 0.4176
+          },
+          {
+            "feature": "singleTokenSide",
+            "weight": 0.3502
+          },
+          {
+            "feature": "coreTrigramDice",
+            "weight": 0.3106
+          },
+          {
+            "feature": "levenshteinRatio",
+            "weight": -0.2975
+          },
+          {
+            "feature": "sameScript",
+            "weight": 0.2209
+          },
+          {
+            "feature": "structuralTokenAsymmetry",
+            "weight": 0.1768
+          },
+          {
+            "feature": "exactNameMatch",
+            "weight": -0.1583
+          },
+          {
+            "feature": "romanNumeralConflict",
+            "weight": -0.1377
+          },
+          {
+            "feature": "aliasesEitherPresent",
+            "weight": -0.084
+          },
+          {
+            "feature": "digitSetConflict",
+            "weight": 0.0836
+          },
+          {
+            "feature": "tokenJaccard",
+            "weight": -0.0678
+          },
+          {
+            "feature": "sortedTokenMatch",
+            "weight": 0.0565
+          },
+          {
+            "feature": "tokenContainment",
+            "weight": 0.0486
+          },
+          {
+            "feature": "normalizedNameMatch",
+            "weight": 0.0485
+          },
+          {
+            "feature": "lengthRatio",
+            "weight": -0.0281
+          },
+          {
+            "feature": "acronymMatch",
+            "weight": 0.0278
+          },
+          {
+            "feature": "lastTokenMatch",
+            "weight": -0.0026
+          },
+          {
+            "feature": "jurisdictionBothKnown",
+            "weight": 0
+          },
+          {
+            "feature": "jurisdictionCountryMatch",
+            "weight": 0
+          },
+          {
+            "feature": "jurisdictionCountryConflict",
+            "weight": 0
+          }
+        ]
+      }
+    },
+    {
+      "experimentId": "E6-gradient-boosted-trees-deeper",
+      "model": "gradient_boosted_trees",
+      "featureSet": "engineered-31",
+      "featureCount": 31,
+      "hyperparameters": {
+        "rounds": 300,
+        "learningRate": 0.06,
+        "maxDepth": 4,
+        "minSamplesPerLeaf": 8,
+        "l2": 1,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 15446,
+      "validation": {
+        "rocAuc": 0.9939,
+        "prAuc": 0.9787,
+        "selected": {
+          "truePositives": 142,
+          "falsePositives": 1,
+          "trueNegatives": 773,
+          "falseNegatives": 35,
+          "threshold": 0.9944876035880922,
+          "precision": 0.993006993006993,
+          "recall": 0.8022598870056498,
+          "f1": 0.8875000000000001,
+          "falseMergeRate": 0.0012919896640826874,
+          "falseSplitRate": 0.1977401129943503
+        },
+        "atFixedHalf": {
+          "truePositives": 164,
+          "falsePositives": 17,
+          "trueNegatives": 757,
+          "falseNegatives": 13,
+          "threshold": 0.5,
+          "precision": 0.9060773480662984,
+          "recall": 0.9265536723163842,
+          "f1": 0.9162011173184358,
+          "falseMergeRate": 0.021963824289405683,
+          "falseSplitRate": 0.07344632768361582
+        }
+      },
+      "shipped": false,
+      "note": "E3's capacity, re-fitted to the larger TRAIN: more rounds at a lower learning rate, one level deeper, and a smaller leaf minimum. More rounds at a lower rate also spreads the score distribution, which is what a false-merge-capped threshold needs in order to sit anywhere useful.",
+      "parameterSummary": {
+        "kind": "gradient_boosted_trees",
+        "trees": 300,
+        "learningRate": 0.06
+      }
+    },
+    {
+      "experimentId": "E7-gradient-boosted-trees-wide",
+      "model": "gradient_boosted_trees",
+      "featureSet": "engineered-31",
+      "featureCount": 31,
+      "hyperparameters": {
+        "rounds": 500,
+        "learningRate": 0.04,
+        "maxDepth": 5,
+        "minSamplesPerLeaf": 6,
+        "l2": 2,
+        "positiveWeight": 4
+      },
+      "seed": 20260904,
+      "trainingMillis": 29757,
+      "validation": {
+        "rocAuc": 0.994,
+        "prAuc": 0.9794,
+        "selected": {
+          "truePositives": 141,
+          "falsePositives": 1,
+          "trueNegatives": 773,
+          "falseNegatives": 36,
+          "threshold": 0.9951160745375511,
+          "precision": 0.9929577464788732,
+          "recall": 0.7966101694915254,
+          "f1": 0.884012539184953,
+          "falseMergeRate": 0.0012919896640826874,
+          "falseSplitRate": 0.2033898305084746
+        },
+        "atFixedHalf": {
+          "truePositives": 164,
+          "falsePositives": 15,
+          "trueNegatives": 759,
+          "falseNegatives": 13,
+          "threshold": 0.5,
+          "precision": 0.9162011173184358,
+          "recall": 0.9265536723163842,
+          "f1": 0.9213483146067416,
+          "falseMergeRate": 0.01937984496124031,
+          "falseSplitRate": 0.07344632768361582
+        }
+      },
+      "shipped": false,
+      "note": "The upper end of the capacity sweep, with the L2 penalty raised to pay for it. Recorded whatever the outcome: if the extra capacity does not buy recall at the same false-merge ceiling, that is the evidence that the smaller model is the right one, and it is worth having rather than assuming.",
+      "parameterSummary": {
+        "kind": "gradient_boosted_trees",
+        "trees": 500,
+        "learningRate": 0.04
+      }
+    }
+  ],
+  "shipped": {
+    "experimentId": "E3-gradient-boosted-trees",
+    "artifactPath": "models/cipher-er-pair-classifier.v2lf.json",
+    "artifactSha256": "64241aced86688e5fef202c3caf800ee1dfb95886ad3795081db147e7e3c8a08",
+    "weightsDigest": "b9a90ca9e1d76e2ef35f3755ea5569d540f5cc342cb598fe2ff15cd2cba0bf1d",
+    "decisionThreshold": 0.9708364394896696
+  }
+}

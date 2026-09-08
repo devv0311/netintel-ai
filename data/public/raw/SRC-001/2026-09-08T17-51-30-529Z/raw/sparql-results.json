@@ -1,0 +1,386 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q579747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0292001868F6N5VI5G15"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guaranty Trust Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guaranty Trust Holding Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q579747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0292001868F6N5VI5G15"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guaranty Trust Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guaranty Trust Holding Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q579747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0292001868F6N5VI5G15"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guaranty Trust Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guaranty Trust Holding Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5270729"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "029200738G7T8AI6H992"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5270729"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YY36UO9MBPH808"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5270729"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "029200738G7T8AI6H992"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5270729"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YY36UO9MBPH808"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5616584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0292002192H7C7H2H732"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guinness Nigeria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16994999"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "029200840G5MA6F60G17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "International Breweries Plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17061030"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200JWCL5VCOSXNT56"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumia"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jumià"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001756708"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18636309"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "029200388A7S7Z5I0H57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stanbic IBTC Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25991756"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0292003626J3K6UG9D04"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MTN Nigeria Communications Plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q39045808"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0292002087D4NH3E6743"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flour Mills of Nigeria"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flour Mills of Nigeria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56274919"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "029200573E4MD4E63E74"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MRS Oil Nigeria Plc"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MRS Oil Nigeria Plc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60744751"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0292002173F4KD5E5347"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nestle Nigeria Plc"
+      }
+    } ]
+  }
+}

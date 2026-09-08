@@ -1,0 +1,80 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1441532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800HCLGMIPPAF9976"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lucky Cement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1441532"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800HCLGMIPPAF9976"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lucky Cement"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4732553"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900X6XIDYH83WGV81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allied Bank Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4732553"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900X6XIDYH83WGV81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allied Bank Limited"
+      }
+    } ]
+  }
+}

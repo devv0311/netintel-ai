@@ -1,0 +1,26 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ME"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466812"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Y61WIO1U9W7749"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Društvo za proizvodnju, promet roba i usluga PETROL Crna Gora MNE d.o.o."
+      }
+    } ]
+  }
+}

@@ -1,0 +1,736 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188822"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X0MVH42CY8Q105"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एशियाई विकास बैंक"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asian Development Bank"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ADB"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000311669"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asian Development Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188822"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X0MVH42CY8Q105"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एशियाई विकास बैंक"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asian Development Bank"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ADB"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000311669"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asian Development Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188822"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X0MVH42CY8Q105"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एशियाई विकास बैंक"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asian Development Bank"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ADB"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000311669"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asian Development Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q644167"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ADE8GQHM5P2648"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PLDT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q644167"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ADE8GQHM5P2648"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PLDT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q792735"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900EWT10TQ6DKTV34"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ayala Land, Inc."
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ALI"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ayala Land"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q846910"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002A4AR5XK37G321"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "फ़िलीपींस एयरलाइंस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Philippine Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1657971"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AFS0UU6SDK2K95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Philippine National Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2700150005429"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1657971"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AFS0UU6SDK2K95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Philippine National Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2700150005429"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1925799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SQYI82RVWFN715"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metropolitan Bank and Trust Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150003411"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1925799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SQYI82RVWFN715"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metropolitan Bank and Trust Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150003411"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1925799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SQYI82RVWFN715"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metropolitan Bank and Trust Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150003411"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1925799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300SQYI82RVWFN715"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Metropolitan Bank and Trust Company"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7700150003411"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1994975"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900QJ68UH8GKNGI69"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001398500"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ayala Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2501256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UW4UH6XT2X8C50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of the Philippine Islands"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2501256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UW4UH6XT2X8C50"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of the Philippine Islands"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3543983"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GPWI1816YIM923"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001096692"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Globe Telecom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3543983"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GPWI1816YIM923"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001096692"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Globe Telecom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4708565"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HP5KXSGMEBD023"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alaska Milk Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4708565"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HP5KXSGMEBD023"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alaska Milk Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6108205"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945008FXJ2QCVCRJM25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JG Summit Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6817918"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RDFLCM12O8SK69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meralco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6817918"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RDFLCM12O8SK69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meralco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6817918"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RDFLCM12O8SK69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meralco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7185272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WJRIVY626H7D76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Philippine Veterans Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7185272"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WJRIVY626H7D76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Philippine Veterans Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7186319"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B14PK448EZ1Q88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Philtrust Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7186319"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300B14PK448EZ1Q88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Philtrust Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7444945"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JSVDZIR2CPTP95"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000925464"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Security Bank Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7444945"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JSVDZIR2CPTP95"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000925464"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Security Bank Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7550838"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549006Q0HAZIJT9E809"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Social Security System"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18345141"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900NFV7QTJB821G52"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Century Pacific Food"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96417534"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LGUZQ61GQQXQ60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ACEN Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114325646"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007GUMSN1M6VM945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SeaBank Philippines"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,1610 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32245"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZG62N2599PWR15"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सिंगापुर इंटनेशनल एयरलाइंस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singapore Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32245"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZG62N2599PWR15"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सिंगापुर इंटनेशनल एयरलाइंस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singapore Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q263204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900KNRZSJOJRKPW61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singapore Press Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q263204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900KNRZSJOJRKPW61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singapore Press Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B3H0RSWJ089K63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Razer Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B3H0RSWJ089K63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Razer Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367412"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900B3H0RSWJ089K63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Razer Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900RIBCDJSUFG1A11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637440"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493009YO1MGVNTJ0W35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lazard, Inc"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q687508"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Z2X1L1L3MID765"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trafigura"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trafigura Group Pte Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34069319"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q687508"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HJ8VS88NIO3006"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trafigura"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trafigura Group Pte Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34069319"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q687508"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300Z2X1L1L3MID765"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trafigura"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trafigura Group Pte Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34069319"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q687508"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HJ8VS88NIO3006"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trafigura"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trafigura Group Pte Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34069319"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q721064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NYFBZNS57ZX444"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "नानयांग प्रौद्योगिकी विश्वविद्यालय"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nanyang Technological University"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746413"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300CK8SNXO0RB7F13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elsevier"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33158992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q790060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WV6GIDOZJTV909"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Broadcom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Broadcom Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/201505572G"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001730168"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q790060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WV6GIDOZJTV909"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Broadcom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Broadcom Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/201505572G"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001730168"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q790060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WV6GIDOZJTV909"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Broadcom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Broadcom Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/6610117"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001730168"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q790060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WV6GIDOZJTV909"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Broadcom"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Broadcom Inc."
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "us_de/6610117"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001730168"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807019"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900PU1R3XDPBY5390"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banyan Tree Holdings"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q864923"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003XJKIQO8YDYD89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singtel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q864923"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003XJKIQO8YDYD89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singtel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q864923"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003XJKIQO8YDYD89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singtel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1515558"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IQ650PPXM76X03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singapore Stock Exchange"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1585610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SQ7IPDOY6IDW33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Keppel Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1585610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SQ7IPDOY6IDW33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Keppel Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1585610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SQ7IPDOY6IDW33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Keppel Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1654187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200ZOAI9BOLGC1D37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INIT SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1786712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H2EAI4YRLWBB20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wilmar International"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wilmar International Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1786712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H2EAI4YRLWBB20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wilmar International"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wilmar International Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1786712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H2EAI4YRLWBB20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wilmar International"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wilmar International Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1819222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZUZBPFM4BQH847"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renewable Energy Corporation"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "no/912218929"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1819222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZUZBPFM4BQH847"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renewable Energy Corporation"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "no/912218929"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1819222"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZUZBPFM4BQH847"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renewable Energy Corporation"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "no/912218929"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3719328"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OEXGGWCR24DG90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ST Engineering"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3719328"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OEXGGWCR24DG90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ST Engineering"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3719328"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OEXGGWCR24DG90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ST Engineering"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4049531"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001SP50468BWD892"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singapore Post"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6955519"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300PJTCQSCZT20U69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NTUC FairPrice"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7122344"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800K6MJLXCTVRQG53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pacific Century Regional Developments Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7247211"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YTQRMII0IRM239"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Procera Networks"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001165231"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7247211"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300YTQRMII0IRM239"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Procera Networks"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001165231"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11175403"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WQVJ0ZE1ILB637"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Midas Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11175403"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900WQVJ0ZE1ILB637"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Midas Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16259060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BPLPJS0RJ72373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "City Developments Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/196300316Z"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16259060"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900BPLPJS0RJ72373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "City Developments Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/196300316Z"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20983913"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GB4SX7JAK74O59"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rex International Holding Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30338649"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900LKLLIG1X4M2169"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MediaTek (Singapore)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80055723"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945006UNIT4VSLO5077"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Microsoft Regional Sales"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/201906581Z"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q93520415"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OM6JLLW44YKI15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sea Ltd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Garena Interactive Holding Limited"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001264806"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q93520415"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OM6JLLW44YKI15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sea Ltd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sea Limited"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001264806"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q93520415"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OM6JLLW44YKI15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sea Ltd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Garena Interactive Holding Limited"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001703399"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q93520415"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900OM6JLLW44YKI15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sea Ltd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sea Limited"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001703399"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96184887"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QBRYUEDB4J3977"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SEFE Marketing & Trading Singapore"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102047190"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001O837NU3SNKN73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sivantos Pte. Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466425"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004E0NSW70161F83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shell Eastern Trading (PTE)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466490"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZFUTMYZMB2DY91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Engelhart CTP (Singapore) Pte. Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466514"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008AK18LHGVTO838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pavilion Energy Trading and Supply Pte Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JRJY4TXFLLDN93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ExxonMobil Asia Pacific PTE. Ltd"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC038276"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800DFMWQCG7SX3C31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "JERA Global Markets Pte. Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466784"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MVAP38LIQ35N36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Total Gas & Power Asia Private"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466789"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T3F2W8W8FQU315"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Six One Commodities Asia Pte.Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466810"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900YEU05SFCYLUW25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diamond Gas International Pte. Ltd.(DGI)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125458107"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HJ82V6EH3STP87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BIGO Technology"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/201426996D"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125458107"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HJ82V6EH3STP87"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BIGO Technology"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/201426996D"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q132225436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008R8H4WCHBJDX28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Roanoke Investment"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "sg/202135355K"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141141946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "25490056CDQQ1WGOYU70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tata Power International"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TATA POWER INTERNATIONAL PTE. LIMITED"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TPIPL"
+      }
+    } ]
+  }
+}

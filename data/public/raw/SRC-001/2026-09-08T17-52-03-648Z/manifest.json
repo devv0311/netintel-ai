@@ -1,0 +1,31 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"NO\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nLIMIT 2000",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-08T17:52:03.648Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "8cf647777438d924912160f7a9ae4fca938a839efbeaf02734ddd0928f67bd4f",
+  "rawBytes": 606502,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "8cf647777438d924912160f7a9ae4fca938a839efbeaf02734ddd0928f67bd4f",
+      "bytes": 606502,
+      "records": 840,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 840,
+  "recordsSha256": "702b4fb82cfba14280e0a3e4af8c03ba69b2c96a5d84ef0b00e227266b236813",
+  "warnings": [
+    "1106 SPARQL rows folded into 840 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q182197 states 2 LEIs (5493008VUW8GJVRSVZ19, 5967007LIEEXZXJDCG21); all kept, none chosen between.",
+    "wikidata:Q215639 states 2 LEIs (254900PJCMAXIP9CXN50, 391200EWTTF186UWWH07); all kept, none chosen between.",
+    "wikidata:Q5321386 states 2 LEIs (549300GO1ETT3OKCKN44, 549300UAIWLC88DDWH20); all kept, none chosen between.",
+    "wikidata:Q105720709 states 2 LEIs (254900L455D7HKO4YW76, 549300NL4BW7UGP9WV14); all kept, none chosen between.",
+    "wikidata:Q107245921 states 2 LEIs (5493008EHBDDLBE46344, 549300RVSTRSI5FD1050); all kept, none chosen between."
+  ]
+}

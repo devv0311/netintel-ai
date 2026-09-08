@@ -1,0 +1,108 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q407556"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549006Z2WEMVZ49ES85"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "एयर मारीशस"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Air Mauritius"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3381370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X5CVD2GPQFGT84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Phoenix Beverages"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3381370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X5CVD2GPQFGT84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Phoenix Beverages"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3381370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X5CVD2GPQFGT84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Phoenix Beverages"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MU"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140574684"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500ABAOJEEDVA9333"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "luramic ltd"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luramic Ltd"
+      }
+    } ]
+  }
+}

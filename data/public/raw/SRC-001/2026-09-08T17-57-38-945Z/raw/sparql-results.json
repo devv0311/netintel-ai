@@ -1,0 +1,149 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11055610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990002N6UQUBN3YE10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unitas Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11055610"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990002N6UQUBN3YE10"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Unitas Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50390569"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NZKFBQAMMLXC39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "European Metals Holdings"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EUROPEAN METALS HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50390569"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NZKFBQAMMLXC39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "European Metals Holdings"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EUROPEAN METALS HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q99976763"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O97Q8EBC2RBV34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nam Tai Property"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107998958"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900J45F1XD6MNW660"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bravo Transport Services"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bravo Transport Services Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112626367"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004PPTP8I282TC83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karuna Ventures Company"
+      }
+    } ]
+  }
+}

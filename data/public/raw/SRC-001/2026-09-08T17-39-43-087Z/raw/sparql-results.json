@@ -1,0 +1,88 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2286599"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000SU80NQC387X39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Silversea Cruises"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2286599"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000SU80NQC387X39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Silversea Cruises"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111384721"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900V9Q3EHA3CYRI43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meridian Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001750735"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BS"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111384721"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900V9Q3EHA3CYRI43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meridian Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001750735"
+      }
+    } ]
+  }
+}

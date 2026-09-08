@@ -1,0 +1,1854 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4548"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000EV8M3BL7ZPFB03"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टर्किश एयरलाइंस"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Türk Hava Yolları"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150005428"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Turkish Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4548"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000EV8M3BL7ZPFB03"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टर्किश एयरलाइंस"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Türk Hava Yolları"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150005428"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Turkish Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000NBAE8C7SELC90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Otokar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206228"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000NBAE8C7SELC90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Otokar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q263700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000A2TXOI10JZLF90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Türk Telekom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q263700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000A2TXOI10JZLF90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Türk Telekom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q263700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000A2TXOI10JZLF90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Türk Telekom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q272361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890007TRLORYBSJFA51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Çalık Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q272361"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890007TRLORYBSJFA51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Çalık Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q283852"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890003EX1LTLS2FFL84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Turkcell"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q283852"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890003EX1LTLS2FFL84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Turkcell"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q283852"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890003EX1LTLS2FFL84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Turkcell"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q297600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890008XT4M710MU8714"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q297600"
+      },
+      "shortName" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "ASELSAN"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q297600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890008XT4M710MU8714"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q297600"
+      },
+      "shortName" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "ASELSAN"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q297600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890008XT4M710MU8714"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q297600"
+      },
+      "shortName" : {
+        "xml:lang" : "ota",
+        "type" : "literal",
+        "value" : "عسلصن"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q297600"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890008XT4M710MU8714"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q297600"
+      },
+      "shortName" : {
+        "xml:lang" : "ota",
+        "type" : "literal",
+        "value" : "عسلصن"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q334789"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890009HEU9BS7J3DA93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ülker"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q334789"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890009HEU9BS7J3DA93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ülker"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q334789"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890009HEU9BS7J3DA93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ülker"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q334789"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890009HEU9BS7J3DA93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ülker"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q416624"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000TUMN63Z28TJ497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q416624"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000TUMN63Z28TJ497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q416624"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000TUMN63Z28TJ497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q580829"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000B8K6KNUMHC1Y64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Bank of the Republic of Turkey"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q580829"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000B8K6KNUMHC1Y64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Bank of the Republic of Turkey"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q580829"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000B8K6KNUMHC1Y64"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Bank of the Republic of Turkey"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q640497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000748KTQCUMJ0R25"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अर्चेलिक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arçelik"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q640497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000748KTQCUMJ0R25"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अर्चेलिक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arçelik"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q640497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000748KTQCUMJ0R25"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अर्चेलिक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arçelik"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q640497"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000748KTQCUMJ0R25"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "अर्चेलिक"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arçelik"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q909613"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000FIRX9MDN0KTM91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "İşbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q909613"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000FIRX9MDN0KTM91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "İşbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q909613"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000FIRX9MDN0KTM91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "İşbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q909613"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000FIRX9MDN0KTM91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "İşbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q934796"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000VYQF5IDGG49908"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erdemir"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q934796"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000VYQF5IDGG49908"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erdemir"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001GCDJQD8DJKE29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BIM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001GCDJQD8DJKE29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BIM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001GCDJQD8DJKE29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BIM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001GCDJQD8DJKE29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BIM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1022075"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001GCDJQD8DJKE29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BIM"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1100424"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000B1MW5PQ58A8T03"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पेगासस एयरलाइन्स"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Pegasus Hava Taşımacılığı A.Ş."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pegasus Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1100424"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000B1MW5PQ58A8T03"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पेगासस एयरलाइन्स"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Pegasus Hava Taşımacılığı A.Ş."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pegasus Airlines"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1115064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3RV7W250LTUQH12INJ88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Denizbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1115064"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3RV7W250LTUQH12INJ88"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Denizbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1148521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000KAIHOLSQKQ9858"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VakıfBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1148521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000KAIHOLSQKQ9858"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VakıfBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1148521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000KAIHOLSQKQ9858"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VakıfBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1148521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000KAIHOLSQKQ9858"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VakıfBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1275858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000TJ06JOB2EKO140"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Esas Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1275858"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000TJ06JOB2EKO140"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Esas Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1306571"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890005U0H950VH19H45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koç Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1306571"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890005U0H950VH19H45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koç Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1306571"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890005U0H950VH19H45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koç Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1631623"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000PBM9TT5D88M597"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TAV Airports Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1734420"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000EXC8NO2004MU85"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Karsan Otomotiv Sanayi ve Ticaret A.Ş."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karsan"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1734420"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000EXC8NO2004MU85"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Karsan Otomotiv Sanayi ve Ticaret A.Ş."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karsan"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1734420"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000EXC8NO2004MU85"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Karsan Otomotiv Sanayi ve Ticaret A.Ş."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karsan"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1734420"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000EXC8NO2004MU85"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Karsan Otomotiv Sanayi ve Ticaret A.Ş."
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karsan"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1779812"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000QCORIZW10H1919"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bera Holding Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2191408"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000X20ITI3ANQEL70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vestel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2191408"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000X20ITI3ANQEL70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vestel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2729871"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890006LGARYVIPOJX03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Efes Beverage Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3546423"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000RCNG97UV50EE03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tüpraş"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3546423"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000RCNG97UV50EE03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tüpraş"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4701730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000OKY3ICX0Y2NY41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aksa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4701730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000OKY3ICX0Y2NY41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aksa"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6100799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000HKISRM8ZEH0128"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kardemir"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6100799"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000HKISRM8ZEH0128"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kardemir"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7695334"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890005HRE0XXST1BR56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tekfen Construction and Installation Co.Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7695334"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890005HRE0XXST1BR56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tekfen Construction and Installation Co.Inc."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8049138"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "B85ZYWEZ5IZCZ2WNIO12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yapı ve Kredi Bankası"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8049138"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "B85ZYWEZ5IZCZ2WNIO12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yapı ve Kredi Bankası"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "ING"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "ING"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "ING Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "ING Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Oyak Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Oyak Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "The First National Bank of Boston"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "The First National Bank of Boston"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Türk Boston Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12811293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890001L64KNSIBT1H47"
+      },
+      "official" : {
+        "xml:lang" : "tr",
+        "type" : "literal",
+        "value" : "Türk Boston Bank"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ING Türkiye"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16988436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000WT80VVLUWJDK41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coca-Cola İçecek"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16988436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000WT80VVLUWJDK41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coca-Cola İçecek"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16988436"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000WT80VVLUWJDK41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coca-Cola İçecek"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58408963"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890006JO4YATIQAG941"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akenerji Elektrik Üretim"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58408963"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7890006JO4YATIQAG941"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akenerji Elektrik Üretim"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85756594"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000U2SXW9JZG7L430"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Deva Holding Company"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466573"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900H1LOU4FS68VN33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpiq Turkey Enerji Toptan Satis Limited Sirketi"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466632"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000IM9AUXA1R46N41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yesilyurt Elektrik Enerjisi Toptan Satıs ve Ithalat Ihracat A.S."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HV1ZH81K8YXU03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ARASA GIDA PERAKENDE YATIRIM VE İŞLETME SANAYİ TİCARET ANONİM ŞİRKETİ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466765"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UI2KO5A5S8KP78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GEN-I İSTANBUL ELEKTRİK ENERJİSİ TOPTAN SATIŞ LİMİTED ŞİRKETİ"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466828"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000LDWC76HSMBUR73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akenerji Elektrik Enerjisi İthalat İhracat ve Toptan Ticaret A.Ş."
+      }
+    } ]
+  }
+}

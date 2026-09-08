@@ -1,0 +1,855 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q377788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500R38HLH2G58KQ51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Astarta Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q377788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500R38HLH2G58KQ51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Astarta Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q377788"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500R38HLH2G58KQ51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Astarta Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1058657"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945005MM7RKB4870583"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skyline Express Airlines"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ua/36129430"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1058657"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945005MM7RKB4870583"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skyline Express Airlines"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ua/36129430"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4037598"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549006L4JDWZU8JBG94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dragon Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4037598"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549006L4JDWZU8JBG94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dragon Capital"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4055332"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008DWQ5QKDY8UI12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Avangardco"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4349698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UY81ESCZJ0GR95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "First Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4349698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UY81ESCZJ0GR95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "First Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4349698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UY81ESCZJ0GR95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "First Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4349698"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UY81ESCZJ0GR95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "First Investment Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5445324"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CEDKSNUTPAQZ41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrexpo"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ch/656532"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5445324"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CEDKSNUTPAQZ41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrexpo"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ch/656532"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5445324"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CEDKSNUTPAQZ41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrexpo"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/05432915"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5445324"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800CEDKSNUTPAQZ41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrexpo"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/05432915"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "bg",
+        "type" : "literal",
+        "value" : "Titan Machinery Bulgaria EAD"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "bg",
+        "type" : "literal",
+        "value" : "Titan Machinery Bulgaria EAD"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Titan Machinery Austria GmbH"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Titan Machinery Austria GmbH"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en-au",
+        "type" : "literal",
+        "value" : "Titan Machinery Holdings Australia Pty. Ltd."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en-au",
+        "type" : "literal",
+        "value" : "Titan Machinery Holdings Australia Pty. Ltd."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "ro",
+        "type" : "literal",
+        "value" : "Titan Machinery Romania SRL"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "ro",
+        "type" : "literal",
+        "value" : "Titan Machinery Romania SRL"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "uk",
+        "type" : "literal",
+        "value" : "Titan Machinery Ukraine, LLC"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "uk",
+        "type" : "literal",
+        "value" : "Titan Machinery Ukraine, LLC"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12123536"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500GBLXUUBVXNIP21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MHP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12123536"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "969500GBLXUUBVXNIP21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MHP"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12132842"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945009LCLS92V4AK321"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Power Company Ukrenergo"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ua/00100227"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12132842"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945009LCLS92V4AK321"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Power Company Ukrenergo"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "ua/00100227"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16912944"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400PT5760286MJW82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian National Commercial Bank"
+      },
+      "official" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "РОССИЙСКИЙ НАЦИОНАЛЬНЫЙ КОММЕРЧЕСКИЙ БАНК (публичное акционерное общество)"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21843099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500NH5LDB23SI2A38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freedom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21843099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500NH5LDB23SI2A38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freedom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21843099"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500NH5LDB23SI2A38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freedom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466620"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945000AGPSZJTCNF244"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Joint Stock Company \"National Joint Stock Company \"Naftogaz of Ukraine\""
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558342"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MG0U5NUYGZPC40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrotrade International PrAT"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558342"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700MG0U5NUYGZPC40"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferrotrade International PrAT"
+      }
+    } ]
+  }
+}

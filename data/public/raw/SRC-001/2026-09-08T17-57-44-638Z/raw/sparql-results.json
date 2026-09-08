@@ -1,0 +1,254 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1435010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900U7YWQAAT1QBP44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxoft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1435010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900U7YWQAAT1QBP44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxoft"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19893327"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900M1892CMJ87XD24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masan Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "vn/0002623145"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19893327"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900M1892CMJ87XD24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masan Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "vn/0002623145"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101575325"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003IUT1BV50L7X69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saigon Joint Stock Commercial Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "vn/0002731320"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saigon Joint Stock Commercial Bank - SCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101575325"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549003IUT1BV50L7X69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saigon Joint Stock Commercial Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "vn/0002731320"
+      },
+      "official" : {
+        "xml:lang" : "vi",
+        "type" : "literal",
+        "value" : "Ngân Hàng Thương Mại Cổ Phần Sài Gòn - SCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135899451"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZRFNB8CRAHHO95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile World Investment Corporation"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile World Investment Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MWG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135899451"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZRFNB8CRAHHO95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile World Investment Corporation"
+      },
+      "official" : {
+        "xml:lang" : "vi",
+        "type" : "literal",
+        "value" : "Công ty Cổ phần Đầu Tư Thế Giới Di Động"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MWG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135899451"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZRFNB8CRAHHO95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile World Investment Corporation"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile World Investment Corporation"
+      },
+      "shortName" : {
+        "xml:lang" : "vi",
+        "type" : "literal",
+        "value" : "MWG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135899451"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ZRFNB8CRAHHO95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobile World Investment Corporation"
+      },
+      "official" : {
+        "xml:lang" : "vi",
+        "type" : "literal",
+        "value" : "Công ty Cổ phần Đầu Tư Thế Giới Di Động"
+      },
+      "shortName" : {
+        "xml:lang" : "vi",
+        "type" : "literal",
+        "value" : "MWG"
+      }
+    } ]
+  }
+}

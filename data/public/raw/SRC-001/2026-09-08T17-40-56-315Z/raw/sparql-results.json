@@ -1,0 +1,124 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806206"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930052NWJRPNMP1W58"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001071371"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bancolombia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806206"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930052NWJRPNMP1W58"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001071371"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bancolombia"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1282130"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900IDGKCJICKBPA66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ecopetrol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1282130"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900IDGKCJICKBPA66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ecopetrol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1282130"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900IDGKCJICKBPA66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ecopetrol"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "CO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1569421"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003UWHNNZEJZO875"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "University of the Andes"
+      }
+    } ]
+  }
+}

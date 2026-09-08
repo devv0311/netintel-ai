@@ -1,0 +1,31 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "PG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109625712"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300000S0LQCY5B370"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BSP FINANCIAL GROUP LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BSP FINANCIAL GROUP LIMITED"
+      }
+    } ]
+  }
+}

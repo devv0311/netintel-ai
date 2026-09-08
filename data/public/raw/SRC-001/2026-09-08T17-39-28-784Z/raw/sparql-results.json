@@ -1,0 +1,1437 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q753801"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XCHYNRPAYGXW28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hongkong Land"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q753801"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XCHYNRPAYGXW28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hongkong Land"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q753801"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800XCHYNRPAYGXW28"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hongkong Land"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q837244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FVJ8C1OTM8OL03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shangri-La Hotels and Resorts"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "शांगरी-ला होटल"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1053787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930067ZPEG8H2PPN39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central European Media Enterprises"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1053787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930067ZPEG8H2PPN39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central European Media Enterprises"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1053787"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930067ZPEG8H2PPN39"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central European Media Enterprises"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1236521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KQ1UMKZ1JXJR80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mandarin Oriental Hotel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1236521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KQ1UMKZ1JXJR80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mandarin Oriental Hotel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1236521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KQ1UMKZ1JXJR80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mandarin Oriental Hotel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1236521"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KQ1UMKZ1JXJR80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mandarin Oriental Hotel Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1477156"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LZ4WWG15NAC829"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seadrill"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001737706"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1477156"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LZ4WWG15NAC829"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seadrill"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001737706"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1477156"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LZ4WWG15NAC829"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seadrill"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001737706"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1537339"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3SHLIX0OPDNYROUX5331"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Noble Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1537339"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "3SHLIX0OPDNYROUX5331"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Noble Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1562826"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008CA3NMHYEVT131"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEON"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001468091"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEON Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1562826"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008CA3NMHYEVT131"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEON"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001468091"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEON Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1562826"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008CA3NMHYEVT131"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEON"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001468091"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VEON Ltd."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1683452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009KENVUNWOLPK41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jardine Matheson"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1683452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009KENVUNWOLPK41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jardine Matheson"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1683452"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138009KENVUNWOLPK41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jardine Matheson"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3179970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800VZX4LWJSGRLR94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stolt-Nielsen"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3179970"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800VZX4LWJSGRLR94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stolt-Nielsen"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4382153"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SKC2U9O25M2019"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Foods Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4382153"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SKC2U9O25M2019"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Foods Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5053566"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LQFWRX97FVH232"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Catlin Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5578424"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800C2VSFZG3EZLO34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Golar LNG"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001207179"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5578424"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800C2VSFZG3EZLO34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Golar LNG"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001207179"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5617503"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800QTAQOSSTNTPO15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gulf Keystone Petroleum"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5617503"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800QTAQOSSTNTPO15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gulf Keystone Petroleum"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5635859"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "0W1U67PTV5WY3WYWKD79"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HSBC Bank Bermuda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HSBC Bank Bermuda Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6569399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NOTG41PZVNNX48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DFI Retail Group"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dairy Farm International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6569399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NOTG41PZVNNX48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DFI Retail Group"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dairy Farm International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6569399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NOTG41PZVNNX48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DFI Retail Group"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dairy Farm International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6569399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NOTG41PZVNNX48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DFI Retail Group"
+      },
+      "official" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "牛奶國際控股有限公司"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6569399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NOTG41PZVNNX48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DFI Retail Group"
+      },
+      "official" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "牛奶國際控股有限公司"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6569399"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800NOTG41PZVNNX48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DFI Retail Group"
+      },
+      "official" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "牛奶國際控股有限公司"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6735371"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000GQUKNWGNXRZ91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maiden Holdings"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001412100"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7512923"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N3XPGE91WV7M22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Signet Jewelers Limited"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000832988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7512923"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N3XPGE91WV7M22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Signet Jewelers Limited"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000832988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7522713"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900M7TIYQVKDO8547"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sing Tao News Corporation Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8025118"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002ICXRUDJG20N51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wing Tai Properties Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8025118"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299002ICXRUDJG20N51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wing Tai Properties Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8061773"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900C6PP062BE88M21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yurun Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8061773"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900C6PP062BE88M21"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yurun Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874666"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IQ4VPWSH3VFM30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Solar Energy Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10874666"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300IQ4VPWSH3VFM30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "China Solar Energy Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10875763"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003E71CKRAUCKP31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chinese People Holdings Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10875763"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299003E71CKRAUCKP31"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chinese People Holdings Company Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10882817"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004YXGD1GKV5CH80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asia Tele-Net and Technology Corporation Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10882817"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004YXGD1GKV5CH80"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asia Tele-Net and Technology Corporation Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11072813"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990087CQM1WZXS0649"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WANDA HOTEL DEVELOPMENT COMPANY LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11072813"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990087CQM1WZXS0649"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WANDA HOTEL DEVELOPMENT COMPANY LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11104472"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004ET1N628LCQC47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pine Technology Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11104472"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299004ET1N628LCQC47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pine Technology Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VPAGLCNHCGGI94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Huabao International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900VPAGLCNHCGGI94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Huabao International Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926368"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006P35UZZASMAZ95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Clear Media Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926368"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006P35UZZASMAZ95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Clear Media Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008CRGPD1WZXCD36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PAX Global Technology Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16926370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008CRGPD1WZXCD36"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PAX Global Technology Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24110304"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004J5Z0TZW83NU62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brookfield Property Partners"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001545772"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brookfield Property Partners L.P."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24110304"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004J5Z0TZW83NU62"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brookfield Property Partners"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001545772"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brookfield Property Partners L.P."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28135486"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900QQ64C1XSZG5E12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Everbright Water"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53308720"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300DL466NY5J6U724"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Roivant"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63296010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800ZCMYDPET5F2D06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nordic American Offshore"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001597659"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "bm/51869"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63296010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800ZCMYDPET5F2D06"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nordic American Offshore"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001597659"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "bm/51869"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106150152"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000O3IE3DNOY3R07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HAL Trust"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106150152"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493000O3IE3DNOY3R07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HAL Trust"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110016319"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800KW6MZUK12CQ815"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oakley Capital Investments Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466462"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006VS13CBNYBI229"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shell International Trading Middle East"
+      }
+    } ]
+  }
+}

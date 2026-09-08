@@ -1,0 +1,527 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q246946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UPHQTT2LG75045"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FLETCHER BUILDING LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fletcher Building"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q246946"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300UPHQTT2LG75045"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FLETCHER BUILDING LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fletcher Building"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q946370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NCQQ9E4O5JX172"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fonterra"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q946370"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NCQQ9E4O5JX172"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fonterra"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HUN51H3Y7QBB66"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPARK NEW ZEALAND LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spark New Zealand"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "स्पार्क न्यूजीलैंड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HUN51H3Y7QBB66"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPARK NEW ZEALAND LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spark New Zealand"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "स्पार्क न्यूजीलैंड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1549526"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900HUN51H3Y7QBB66"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SPARK NEW ZEALAND LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spark New Zealand"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "स्पार्क न्यूजीलैंड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1654187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "391200ZOAI9BOLGC1D37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INIT SE"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5105276"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "R7NJHU48LTCIOB9BVU57"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CHORUS LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chorus Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5105276"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "R7NJHU48LTCIOB9BVU57"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CHORUS LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chorus Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192235"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6HHLXIOGCDNZ4IRAIW26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cubic Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5532825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900HM1ABRDJ7T5718"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GENESIS ENERGY LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Genesis Energy Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5532825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900HM1ABRDJ7T5718"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GENESIS ENERGY LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Genesis Energy Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7385191"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UR74KKRFG56I57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryman Healthcare"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7385191"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UR74KKRFG56I57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryman Healthcare"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7829092"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300V6QK7IM7HZ2F86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tourism Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7829092"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300V6QK7IM7HZ2F86"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tourism Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7939291"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FEF7L8M4ESA972"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "One NZ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nz/927212"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7939291"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800FEF7L8M4ESA972"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "One NZ"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nz/927212"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63557330"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MRUONIBH8QBL91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kennards Hire"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "au/001740727"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106241087"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300HFZIZDJWB7AK60"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AUCKLAND INTERNATIONAL AIRPORT LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Auckland International Airport Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109625725"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900KJ40C7HBYTWC21"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EBOS GROUP LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EBOS GROUP LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109627012"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003WFKAUU0ZULX12"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEARTLAND GROUP HOLDINGS LIMITED"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEARTLAND GROUP HOLDINGS LIMITED"
+      }
+    } ]
+  }
+}

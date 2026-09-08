@@ -1,0 +1,44 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3631439"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800SOMRK8LV85UJ26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Azienda Autonoma di Stato per i Servizi Pubblici"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "SM"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3631439"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800SOMRK8LV85UJ26"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Azienda Autonoma di Stato per i Servizi Pubblici"
+      }
+    } ]
+  }
+}
