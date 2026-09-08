@@ -30,8 +30,8 @@ import { normalizeName } from "@/lib/resolution/name-normalization";
 
 const feature = (a: string, b: string, name: string): number => {
   const vector = buildFeatures(
-    { recordRef: "a", name: a, registry: "gleif" },
-    { recordRef: "b", name: b, registry: "wikidata" },
+    { name: a },
+    { name: b },
   );
   const index = FEATURE_NAMES.indexOf(name as (typeof FEATURE_NAMES)[number]);
   expect(index, `unknown feature ${name}`).toBeGreaterThanOrEqual(0);
@@ -193,8 +193,8 @@ describe("symmetry and contract", () => {
 
   it("keeps every feature finite and inside [0,1]", () => {
     const vector = buildFeatures(
-      { recordRef: "a", name: "Sabiedriba ar ierobezotu atbildibu \"AKZ\"", registry: "gleif" },
-      { recordRef: "b", name: "Frigate AS", registry: "gleif" },
+      { name: "Sabiedriba ar ierobezotu atbildibu \"AKZ\"" },
+      { name: "Frigate AS" },
     );
     for (const [index, value] of vector.values.entries()) {
       expect(Number.isFinite(value), FEATURE_NAMES[index]).toBe(true);
@@ -205,8 +205,8 @@ describe("symmetry and contract", () => {
 
   it("emits exactly one value per declared feature name", () => {
     const vector = buildFeatures(
-      { recordRef: "a", name: "A", registry: "gleif" },
-      { recordRef: "b", name: "B", registry: "wikidata" },
+      { name: "A" },
+      { name: "B" },
     );
     expect(vector.values.length).toBe(FEATURE_NAMES.length);
   });

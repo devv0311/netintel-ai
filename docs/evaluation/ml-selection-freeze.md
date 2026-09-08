@@ -4,6 +4,12 @@
 **Status at the time of writing:** test #3 is built, leakage-audited PASS 13/13,
 and **has not been scored by any model.**
 
+> **OUTCOME, appended after the evaluation:** the rule below returned
+> **KEEP V2**. The candidate passed (a) with +242 true positives and failed (b)
+> decisively - 10 wholly unrelated merges against the shipped model's 0, and
+> +301 false merges in total. Results in `ml-final-test-3.md`. Nothing in this
+> document was edited except this note; the rule stands as it was written.
+
 This document fixes the candidate, the threshold and the decision rule before
 a single number comes back from the untouched test. It is committed in its own
 commit, ahead of the evaluation commit, so the ordering is provable from

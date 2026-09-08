@@ -39,11 +39,18 @@ had to be collected rather than reusing one that still reports PASS 13/13.
 | `evidence/ml/pair-dataset-v3.json` (v3) | train / validation / test | **TRAIN + CORPUS-DESIGN-EXPOSED** | Collected in P6.26 *specifically to close the cross-border gap that the P6.25 frozen test had revealed*. The corpus itself is a response to a measured failure, which is legitimate for training data and disqualifying for test data. |
 | `evidence/ml/pair-dataset-final-test.json` (frozen test #1) | test only | **SELECTION-EXPOSED — SPENT** | Frozen and scored once in P6.25, correctly. Then in P6.26 its breakdown was read, the 5.7% cross-border recall was diagnosed from it, and v3's entire collection strategy was designed against it. It is now a development instrument. |
 | `evidence/ml/pair-dataset-final-test-2.json` (frozen test #2) | test only | **SELECTION-EXPOSED — SPENT** | Frozen and scored once in P6.26, correctly, on both models. Then it was used to **choose v2 over v3** and to characterise v3's false merges. Choosing between two models on a test set is selection. |
-| `evidence/ml/pair-dataset-final-test-3.json` (frozen test #3) | test only | **UNTOUCHED FINAL TEST** | Built under §3. Scored **once**, after selection is frozen. |
+| `evidence/ml/pair-dataset-v4.json` (v4) | train / mining | **TRAIN** | The training half of the P6.27 sweep. Used ONLY to mine the legal-form vocabulary and token document frequencies; no model is fitted on it. Subject-disjoint from test #3 by construction. |
+| `evidence/ml/pair-dataset-final-test-3.json` (frozen test #3) | test only | **SELECTION-EXPOSED - SPENT** | Was the untouched instrument. Scored once, on 2026-09-08, on three models, and used to decide KEEP V2 (see `ml-final-test-3.md`). Reading it spent it. It must never again be quoted as unseen. |
 
 **Consequence, stated plainly:** at the start of P6.27 the project had **no
 untouched instrument**. Every number it could quote came from data that had
-either been fitted on or read. That is the gap this phase closes.
+either been fitted on or read. P6.27 closed that gap by building test #3 - and
+then spent it, deliberately and in one shot, to make the KEEP V2 decision.
+
+**So the gap is open again, and that is not a failure of the process but its
+price.** A frozen test is consumed by the decision it informs. The project is
+back to having no untouched instrument, which is the honest state after any
+model decision, and the next one costs a fourth test.
 
 ---
 

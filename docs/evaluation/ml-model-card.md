@@ -175,6 +175,31 @@ atbildību`), a worse failure class than the corporate-family pairs above.
 Full record, both columns, in
 [`ml-cross-border-experiment.md`](./ml-cross-border-experiment.md).
 
+**P6.27 measured this a THIRD time, on a third frozen test, and the number
+moved: 10.0%** (5 of 50 cross-border positives) against the deterministic
+resolver's 58.0%. Three instruments, none of which the model was fitted
+on, now put this model's cross-border recovery at 5.7%, 5.1% and 10.0%.
+The weakness is not an artefact of any one test.
+
+P6.27 also built the fix that P6.26 could not: deterministic legal-form
+normalisation mined from training data, plus IDF-weighted name similarity
+that reads token RARITY rather than token count. On test #3 those features
+take cross-border recovery from **10.0% to 76.0%** — above the resolver for
+the first time — and edgar×wikidata from 29.2% to 87.5%.
+
+**That model is not shipped either, and the reason is a different one.** It
+recovers 242 more real pairs and makes 301 more false merges, including
+**10 between wholly unrelated companies** (`Abbott Japan` with a bank,
+`John Menzies` with `FirstGroup plc`) where this model makes **zero**. The
+failure is attributable to the model family rather than the features: the
+experiment ladder auto-selected gradient-boosted trees, whose validation
+false-merge rate of 0.13% understated its test rate of 2.380% by eighteen
+times. Logistic regression with the same features reached 81.4% validation
+recall against this model's 79.7% and has **not** been scored on a frozen
+test — doing so after reading test #3 would be selection on the test set.
+That is the named next step, and it needs a fourth instrument. Full record
+in [`ml-final-test-3.md`](./ml-final-test-3.md).
+
 The original diagnosis, kept because it is the thing that was tested:
 GLEIF's `jurisdiction` is the legal jurisdiction of *incorporation*
 (Jersey, Cyprus, BVI) and EDGAR's is the US state of incorporation, while

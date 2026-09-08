@@ -1,0 +1,386 @@
+{
+  "evaluation": "P6.24.4 frozen held-out evaluation",
+  "dataClass": "REAL",
+  "ranAt": "2026-09-08T18:15:07.450Z",
+  "artifact": {
+    "path": "models/cipher-er-pair-classifier.v3lf.json",
+    "sha256": "f2fd3bed70da26dd6984966db3699df7ec429a78ff4f36f4a01d6d07016ecfcf",
+    "modelId": "cipher-er-pair-classifier",
+    "modelVersion": "3.1.0",
+    "experimentId": "E3-gradient-boosted-trees",
+    "modelKind": "gradient_boosted_trees",
+    "decisionThreshold": 0.9481230784070942,
+    "thresholdPolicy": "Chosen on the validation partition as the threshold maximising F1 subject to a false-merge rate no higher than the deterministic resolver's on the same partition (0.0009), AND no higher than that resolver's false-merge rate over the CURATED HARD NEGATIVES alone (2/67 = 0.0299). The second ceiling exists because hard negatives are 67 of the partition's negatives, so an overall ceiling alone barely constrains the pairs a merge decision actually turns on. The held-out partition was not consulted.",
+    "gitCommit": "bcde674578d95bc6ea6273bcf869d2a4191b6112",
+    "datasetId": "cipher-er-pairs",
+    "datasetVersion": "3.0.0"
+  },
+  "heldOut": {
+    "partition": "test",
+    "pairs": 17442,
+    "positives": 2823,
+    "negatives": 14619,
+    "curatedHardNegatives": 969,
+    "minedHardNegatives": 2358,
+    "sampledNegatives": 11292,
+    "subjects": 2851
+  },
+  "headline": {
+    "model": {
+      "truePositives": 2447,
+      "falsePositives": 440,
+      "trueNegatives": 14179,
+      "falseNegatives": 376,
+      "threshold": 0.9481230784070942,
+      "precision": 0.8475926567370974,
+      "recall": 0.8668083599008147,
+      "f1": 0.8570928196147112,
+      "falseMergeRate": 0.030097817908201655,
+      "falseSplitRate": 0.13319164009918527,
+      "rocAuc": 0.9917,
+      "prAuc": 0.9609,
+      "positivePairRecovery": "2447/2823"
+    },
+    "deterministicBaseline": {
+      "truePositives": 516,
+      "falsePositives": 6,
+      "trueNegatives": 14613,
+      "falseNegatives": 2307,
+      "threshold": 0.5,
+      "precision": 0.9885057471264368,
+      "recall": 0.18278427205100956,
+      "f1": 0.30852017937219733,
+      "falseMergeRate": 0.0004104247896572953,
+      "falseSplitRate": 0.8172157279489904,
+      "rocAuc": null,
+      "prAuc": null,
+      "positivePairRecovery": "516/2823",
+      "note": "The shipped resolver's Tier B/B2 rule replayed at pair level. NOT the 70.7% figure from the earlier 75-pair India-filtered corpus, which is a different dataset and not comparable."
+    },
+    "deltaRecallPoints": 68.4,
+    "deltaFalseMergeRatePoints": 2.969
+  },
+  "falseMergeByNegativeClass": [
+    {
+      "labelClass": "hard_negative",
+      "negatives": 969,
+      "modelFalseMerges": 323,
+      "modelFalseMergeRate": 0.3333333333333333,
+      "deterministicFalseMerges": 6,
+      "deterministicFalseMergeRate": 0.006191950464396285
+    },
+    {
+      "labelClass": "mined_hard_negative",
+      "negatives": 2358,
+      "modelFalseMerges": 102,
+      "modelFalseMergeRate": 0.043256997455470736,
+      "deterministicFalseMerges": 0,
+      "deterministicFalseMergeRate": 0
+    },
+    {
+      "labelClass": "sampled_negative",
+      "negatives": 11292,
+      "modelFalseMerges": 15,
+      "modelFalseMergeRate": 0.001328374070138151,
+      "deterministicFalseMerges": 0,
+      "deterministicFalseMergeRate": 0
+    }
+  ],
+  "hardNegativeFalseMergeRate": {
+    "denominator": 3327,
+    "model": 425,
+    "modelPct": "12.77%",
+    "deterministic": 6,
+    "deterministicPct": "0.18%"
+  },
+  "falseSplitRate": {
+    "model": "376/2823",
+    "modelPct": "13.32%",
+    "deterministic": "2307/2823",
+    "deterministicPct": "81.72%"
+  },
+  "breakdowns": [
+    {
+      "dimension": "name variation (ground-truth class)",
+      "slices": {
+        "containment": {
+          "positives": 1394,
+          "model": 1363,
+          "deterministic": 0,
+          "modelPct": "97.8%",
+          "deterministicPct": "0.0%"
+        },
+        "partial token overlap": {
+          "positives": 343,
+          "model": 290,
+          "deterministic": 0,
+          "modelPct": "84.5%",
+          "deterministicPct": "0.0%"
+        },
+        "exact / near-exact": {
+          "positives": 326,
+          "model": 326,
+          "deterministic": 326,
+          "modelPct": "100.0%",
+          "deterministicPct": "100.0%"
+        },
+        "divergent": {
+          "positives": 444,
+          "model": 154,
+          "deterministic": 0,
+          "modelPct": "34.7%",
+          "deterministicPct": "0.0%"
+        },
+        "legal suffix or punctuation": {
+          "positives": 190,
+          "model": 190,
+          "deterministic": 190,
+          "modelPct": "100.0%",
+          "deterministicPct": "100.0%"
+        },
+        "transliteration / script variant": {
+          "positives": 126,
+          "model": 124,
+          "deterministic": 0,
+          "modelPct": "98.4%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "source pairing",
+      "slices": {
+        "gleif x wikidata": {
+          "positives": 2799,
+          "model": 2425,
+          "deterministic": 498,
+          "modelPct": "86.6%",
+          "deterministicPct": "17.8%"
+        },
+        "edgar x wikidata": {
+          "positives": 24,
+          "model": 22,
+          "deterministic": 18,
+          "modelPct": "91.7%",
+          "deterministicPct": "75.0%"
+        }
+      }
+    },
+    {
+      "dimension": "abbreviation / acronym",
+      "slices": {
+        "no acronym match": {
+          "positives": 2822,
+          "model": 2446,
+          "deterministic": 516,
+          "modelPct": "86.7%",
+          "deterministicPct": "18.3%"
+        },
+        "acronym match": {
+          "positives": 1,
+          "model": 1,
+          "deterministic": 0,
+          "modelPct": "100.0%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "name order",
+      "slices": {
+        "not a pure reordering": {
+          "positives": 2823,
+          "model": 2447,
+          "deterministic": 516,
+          "modelPct": "86.7%",
+          "deterministicPct": "18.3%"
+        }
+      }
+    },
+    {
+      "dimension": "legal suffix",
+      "slices": {
+        "other": {
+          "positives": 2633,
+          "model": 2257,
+          "deterministic": 326,
+          "modelPct": "85.7%",
+          "deterministicPct": "12.4%"
+        },
+        "suffix or punctuation only": {
+          "positives": 190,
+          "model": 190,
+          "deterministic": 190,
+          "modelPct": "100.0%",
+          "deterministicPct": "100.0%"
+        }
+      }
+    },
+    {
+      "dimension": "script",
+      "slices": {
+        "same script": {
+          "positives": 2683,
+          "model": 2311,
+          "deterministic": 516,
+          "modelPct": "86.1%",
+          "deterministicPct": "19.2%"
+        },
+        "different script": {
+          "positives": 140,
+          "model": 136,
+          "deterministic": 0,
+          "modelPct": "97.1%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "publisher aliases present",
+      "slices": {
+        "neither side has aliases": {
+          "positives": 2817,
+          "model": 2445,
+          "deterministic": 516,
+          "modelPct": "86.8%",
+          "deterministicPct": "18.3%"
+        },
+        "at least one side has aliases": {
+          "positives": 6,
+          "model": 2,
+          "deterministic": 0,
+          "modelPct": "33.3%",
+          "deterministicPct": "0.0%"
+        }
+      }
+    },
+    {
+      "dimension": "jurisdiction",
+      "slices": {
+        "both stated, same country": {
+          "positives": 2766,
+          "model": 2396,
+          "deterministic": 481,
+          "modelPct": "86.6%",
+          "deterministicPct": "17.4%"
+        },
+        "both stated, different country": {
+          "positives": 50,
+          "model": 44,
+          "deterministic": 29,
+          "modelPct": "88.0%",
+          "deterministicPct": "58.0%"
+        },
+        "not stated by both publishers": {
+          "positives": 7,
+          "model": 7,
+          "deterministic": 6,
+          "modelPct": "100.0%",
+          "deterministicPct": "85.7%"
+        }
+      }
+    }
+  ],
+  "previouslyKnownRealFailures": [
+    {
+      "pairId": "EN-0001",
+      "names": [
+        "LACTALIS CANADA INC.",
+        "Lactalis Canada Inc."
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.9998,
+      "modelMerges": true,
+      "deterministicMerges": true
+    },
+    {
+      "pairId": "EN-0002",
+      "names": [
+        "Lactalis Canada Inc.",
+        "LACTALIS CANADA INC."
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.9998,
+      "modelMerges": true,
+      "deterministicMerges": true
+    },
+    {
+      "pairId": "EN-0003",
+      "names": [
+        "DAGROFA ApS",
+        "Dagrofa ApS"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.9998,
+      "modelMerges": true,
+      "deterministicMerges": true
+    },
+    {
+      "pairId": "EN-0103",
+      "names": [
+        "EN PLUS S.R.L.",
+        "EN.E.R. TRADING"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.0117,
+      "modelMerges": false,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0124",
+      "names": [
+        "Allwyn AG",
+        "Allwyn Entertainment AG"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.9502,
+      "modelMerges": true,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0129",
+      "names": [
+        "BANCA ZARATTINI & CO. SA",
+        "BANCA INTESA AKCIONARSKO DRUSTVO BEOGRAD"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.0033,
+      "modelMerges": false,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0130",
+      "names": [
+        "BANCA ZARATTINI & CO. SA",
+        "BANCA CENTRALA COOPERATISTA CREDITCOOP"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.0031,
+      "modelMerges": false,
+      "deterministicMerges": false
+    },
+    {
+      "pairId": "EN-0143",
+      "names": [
+        "SWECO Sverige AB",
+        "Sweco Danmark"
+      ],
+      "truth": "different_entities",
+      "modelScore": 0.8919,
+      "modelMerges": false,
+      "deterministicMerges": false
+    }
+  ],
+  "formerNameSlice": {
+    "note": "A former name is a TEMPORAL claim by a single authority. It is not an identity label, was never trained on, and is reported here only so the number is visible.",
+    "pairs": 33
+  },
+  "errorCategoryCounts": {
+    "false_merge_identical_normalised_name": 6,
+    "false_merge_shared_leading_token": 419,
+    "false_merge_unrelated_pair": 15,
+    "false_split_no_shared_token": 292,
+    "false_split_containment": 31,
+    "false_split_partial_overlap": 53
+  }
+}
