@@ -184,22 +184,35 @@ thrown error.
 
 | Metric | Count |
 | --- | --- |
-| Entities analyzed | 54 |
+| Entities analyzed | 61 |
 | Locations analyzed (also graph nodes) | 14 |
-| Edges analyzed | 196 |
-| Centrality signals | 136 (68 nodes × 2 methods) |
+| Edges analyzed | 191 |
+| Centrality signals | 150 (75 nodes × 2 methods) |
 | Bridge entities | 19 |
-| Communities | 11 |
-| Ranked entities | 68 |
-| **Total persisted signals** | **234** |
+| Communities | 19 |
+| Ranked entities | 75 |
+| **Total persisted signals** | **263** |
 
-Communities split cleanly along real structural lines: an 8-account
-bank-account-only community (the financial-chain cluster), a 20-member
-phone/imei/location community (the communication cluster), a 15-member
-person/vehicle-dominant community (the core suspect cluster), and
-several 1-member communities for isolated locations and the standalone
-"Rahul Mehta" / "W6" entities — never merged into a larger cluster they
-have no structural connection to.
+Communities split cleanly along real structural lines: a 12-account
+bank-account-only community (the financial-chain cluster), a 21-member
+phone/imei/location community and a 13-member one (the communication
+clusters), a 14-member person/vehicle-dominant community (the core
+suspect cluster), and 15 one-member communities for isolated locations
+and the standalone person entities — never merged into a larger cluster
+they have no structural connection to.
+
+Those 15 singletons (9 person, 6 location) are the reason the community
+count reads 19 rather than 11. The 9 person singletons are every person
+entity outside the core suspect cluster: the `W6` placeholder artifact,
+plus the 8 mule/intermediary fragments — Sunil Gupta, Pooja Rani and
+Ashok Kumar at two entities each, and Rahul Mehta (X1) at two. Seven of
+those 8 exist only because P6.2 (`021eaae`) began reading the fields
+that name a person in a record about something else; the eighth
+(X1 as named in witness W8) predates it and became one half of a pair
+when its phone-record twin appeared. None of them is corroborated by a
+shared identifier, so none joins a cluster. Analytics is reporting that
+fragmentation, not causing it; the underlying resolver limitation is
+recorded in `docs/evaluation/resolver-failure-analysis.md`.
 
 ---
 

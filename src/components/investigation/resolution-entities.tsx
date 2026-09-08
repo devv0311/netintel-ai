@@ -24,12 +24,27 @@ const KIND_LABELS: Record<string, string> = {
   organisation: "organisation",
 };
 
+/**
+ * Every member of RESOLUTION_TYPES (src/lib/domain/resolution.ts) needs a
+ * row here: the badge is prose the reader is meant to understand, and a
+ * missing row falls through to the raw snake_case enum. Four rows were
+ * missing — `normalized_name_match` and the two extra ambiguous kinds,
+ * and `unlinked_mention`, which P6.17.2 (`58860e2`) added to the domain
+ * and the resolver while updating only the summary panel and the list
+ * row. On the Operation DarkNet Delhi corpus that is not hypothetical:
+ * the fragmented mule/X1 mentions are all `unlinked_mention`, so the
+ * screen showed the user a bare identifier where a phrase belongs.
+ */
 const RESOLUTION_TYPE_LABELS: Record<string, string> = {
   canonicalized_identifier: "canonicalized identifier",
   shared_identifier_merge: "shared identifier merge",
   exact_name_match: "exact name match",
+  normalized_name_match: "normalized name match",
   new_entity: "new entity",
   ambiguous_name_conflict: "ambiguous — not merged",
+  ambiguous_identifier_conflict: "ambiguous identifier — not merged",
+  ambiguous_normalized_name_conflict: "ambiguous normalized name — not merged",
+  unlinked_mention: "unlinked mention — not corroborated",
 };
 
 /**
@@ -168,7 +183,11 @@ function EntityCard({ entity }: { entity: ResolvedEntityView }) {
                   {d.extractedRecordIds.join(", ")}
                 </span>
                 <span aria-hidden>→</span>
-                <Badge variant={d.status === "ambiguous" ? "outline" : "accent"} data-testid="decision-type">
+                {/* Only a genuinely resolved decision gets the success
+                    accent. `ambiguous` and `unresolved` both reuse the
+                    muted outline treatment, so an uncorroborated mention
+                    stops reading as a success (P6.17.2). */}
+                <Badge variant={d.status === "resolved" ? "accent" : "outline"} data-testid="decision-type">
                   {RESOLUTION_TYPE_LABELS[d.resolutionType] ?? d.resolutionType}
                 </Badge>
                 <span aria-hidden>→</span>

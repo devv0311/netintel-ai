@@ -120,8 +120,11 @@ test.describe.serial("graph synthesis workflow", () => {
     await expect(page.getByTestId("graph-synthesis-complete")).toBeVisible({ timeout: 60_000 });
     await page.getByTestId("graph-synthesis-complete").scrollIntoViewIfNeeded();
 
+    // 17, and identically to the resolution screen's count: graph
+    // synthesis reads the resolved entities and invents no person of its
+    // own. See investigation-resolution.spec.ts for what the 17 are.
     const personCount = await page.getByTestId("graph-count-person").textContent();
-    expect(Number((personCount ?? "0").replace(/,/g, ""))).toBe(10);
+    expect(Number((personCount ?? "0").replace(/,/g, ""))).toBe(17);
     const locationCount = await page.getByTestId("graph-count-location").textContent();
     expect(Number((locationCount ?? "0").replace(/,/g, ""))).toBe(14);
     const ownershipCount = await page.getByTestId("graph-edge-count-ownership").textContent();

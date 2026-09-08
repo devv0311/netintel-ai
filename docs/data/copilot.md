@@ -242,7 +242,7 @@ A question whose placeholder cannot be bound is omitted rather than
 shown with a dangling name.
 
 Against the full corpus — **1,820 evidence items, 1,996 extracted
-records, 54 entities, 25 aliases, 196 relationships, 234 analytical
+records, 61 entities, 25 aliases, 191 relationships, 263 analytical
 signals, 456 corroboration findings** — all eight answer, producing
 roughly **65 grounded claims across ~225 cited records**:
 

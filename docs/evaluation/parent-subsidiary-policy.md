@@ -102,10 +102,10 @@ This is not an oversight; the code says why, and the reason is the right one:
 
 **And `ownership` is genuinely not available.** In this codebase `ownership`
 already means *person → identifier* — `has_phone`, `has_account`,
-`has_vehicle`, `phone_bound_to_imei`, `vehicle_registered_to`. Thirty-eight of
-Operation DarkNet Delhi's 196 edges are that. Routing corporate consolidation
+`has_vehicle`, `phone_bound_to_imei`, `vehicle_registered_to`. Thirty-seven of
+Operation DarkNet Delhi's 191 edges are that. Routing corporate consolidation
 into the same enum value would give one edge type two incompatible meanings and
-would silently change what the existing synthetic evaluation's 38 `ownership`
+would silently change what the existing synthetic evaluation's 37 `ownership`
 edges mean.
 
 **Net effect today: all 154 edges are collected, provenanced, extracted, and

@@ -162,18 +162,43 @@ canonical entities — that is graph synthesis's job.
 
 | Entity kind | Count |
 | --- | --- |
-| person | 10 (8 canonical suspects + 1 communication intermediary + 1 corpus self-reference artifact — see §6) |
+| person | 17 (8 canonical suspects + 1 communication intermediary + 1 corpus self-reference artifact + 7 fragmented mule/intermediary mentions — see below) |
 | phone | 14 |
 | imei | 14 |
 | vehicle | 4 |
 | bank_account | 12 |
-| **Total entities** | **54** |
+| **Total entities** | **61** |
 
-25 aliases; 85 resolution decisions (45 canonicalized identifiers, 10
-shared-identifier merges, 23 exact-name matches, 7 new/isolated
-entities); **0 ambiguous decisions** — the real corpus contains no
-identifier-anchored name collision (see §6 for why, and how the
-safeguard is proven anyway).
+25 aliases; 133 resolution decisions (45 canonicalized identifiers, 10
+shared-identifier merges, 64 exact-name matches, 5 new entities, 9
+unlinked mentions); **0 ambiguous decisions** — the real corpus contains
+no identifier-anchored name collision (see §6 for why, and how the
+safeguard is proven anyway); **9 unresolved decisions**, which are the
+uncorroborated mentions P6.17.2 stopped reporting as successes.
+
+The person count was **10** until P6.2 (`021eaae`) began emitting a
+person mention from every field that NAMES a person — a phone's
+`subscriberName`, an account's `holderName`, a vehicle's `registeredTo`,
+an alias record's `primaryName` (`src/lib/extraction/extract.ts`,
+`personMention()`). The 10 were the 8 suspects, X1 (Rahul Mehta, named
+in witness W8's `aboutNames`), and the `W6` placeholder artifact. The 7
+added are the money mules M1/M2/M3 (Sunil Gupta, Pooja Rani, Ashok
+Kumar) and a second X1 fragment, each named ONLY in a phone record's
+`subscriberName` and/or a bank account's `holderName`:
+
+| Person | Entities | Named by |
+| --- | --- | --- |
+| Sunil Gupta (M1) | 2 | `phone:M1:0#subscriberName`, `account:SYN-MA-000001#holderName` |
+| Pooja Rani (M2) | 2 | `phone:M2:0#subscriberName`, `account:SYN-MA-000002#holderName` |
+| Ashok Kumar (M3) | 2 | `phone:M3:0#subscriberName`, `account:SYN-MA-000003#holderName` |
+| Rahul Mehta (X1) | 1 extra | `phone:X1:0#subscriberName` |
+
+Each mule's two mentions share no identifier and no `suspect_record`
+anchors them, so Tier A finds nothing to merge on and Tier B does not
+apply (both mentions carry identifier evidence of their own) — two
+entities per mule. That split is a KNOWN resolver limitation, left
+deliberately unfixed so it stays measurable; see
+`docs/evaluation/resolver-failure-analysis.md`.
 
 ---
 

@@ -124,8 +124,13 @@ test.describe.serial("topology analytics workflow", () => {
     // C. after synthesis — wait for genuine completion
     await expect(page.getByTestId("analytics-synthesis-complete")).toBeVisible({ timeout: 60_000 });
     await page.getByTestId("analytics-synthesis-complete").scrollIntoViewIfNeeded();
+    // 75 = 61 entities + 14 locations, one ranking signal per graph node
+    // (the same arithmetic tests/unit/analytics.test.ts asserts). It was
+    // 68 = 54 + 14 before P6.2 (`021eaae`) added the 7 person entities
+    // described in investigation-resolution.spec.ts; analytics ranks
+    // whatever the graph holds, so the +7 lands here unchanged.
     const rankedCount = await page.getByTestId("analytics-count-ranked").textContent();
-    expect(Number((rankedCount ?? "0").replace(/,/g, ""))).toBe(68);
+    expect(Number((rankedCount ?? "0").replace(/,/g, ""))).toBe(75);
     const bridgeCount = await page.getByTestId("analytics-count-bridges").textContent();
     expect(Number((bridgeCount ?? "0").replace(/,/g, ""))).toBeGreaterThan(0);
 

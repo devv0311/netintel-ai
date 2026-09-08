@@ -173,25 +173,44 @@ every contributing event.
 
 | Node kind | Count |
 | --- | --- |
-| person | 10 |
+| person | 17 |
 | phone | 14 |
 | imei | 14 |
 | vehicle | 4 |
 | bank_account | 12 |
 | location | 14 |
-| **Total nodes** | **68** |
+| **Total nodes** | **75** |
 
 | Edge type | Count |
 | --- | --- |
-| ownership | 38 |
-| communication | 69 |
+| ownership | 37 |
+| communication | 65 |
 | co_location | 63 |
 | financial | 26 |
-| **Total edges** | **196** |
+| **Total edges** | **191** |
 
-By classification: 156 `corroborated_fact`, 2 `observed_fact`, 38
+By classification: 156 `corroborated_fact`, 1 `observed_fact`, 34
 `ai_inference` (the derived person↔person communication/financial
 edges).
+
+These figures were 68 nodes / 196 edges, with 10 person nodes, until
+P6.2 (`021eaae`) began emitting a person mention from every field that
+NAMES a person — a phone's `subscriberName`, an account's `holderName`,
+a vehicle's `registeredTo`, an alias record's `primaryName`. That added
+exactly 7 person entities: the money mules M1/M2/M3 and X1, who are
+named ONLY in those fields. Each mule is named in a phone record and a
+bank-account record with no shared identifier between them and no
+`suspect_record` to anchor them, so the resolver splits each into two
+unlinked entities (3 × 2) and X1 into one more — 7 in total. That split
+is a KNOWN resolver limitation, deliberately left unfixed so it stays
+measurable; see `docs/evaluation/resolver-failure-analysis.md`. The edge
+totals moved in the same commit (X1's split drops 2 edges).
+
+The counts above are asserted, not just recorded: `tests/unit/graph.test.ts`
+and `tests/unit/analytics.test.ts` check them against the pipeline, and
+`tests/e2e/investigation-synthesis.spec.ts` /
+`tests/e2e/investigation-topology.spec.ts` check what the UI displays
+(75 ranked nodes = 61 entities + 14 locations).
 
 ---
 

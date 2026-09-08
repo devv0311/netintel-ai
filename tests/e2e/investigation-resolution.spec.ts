@@ -95,8 +95,18 @@ test.describe.serial("entity resolution workflow", () => {
     await expect(page.getByTestId("resolution-complete")).toBeVisible({ timeout: 60_000 });
     await page.getByTestId("resolution-complete").scrollIntoViewIfNeeded();
 
+    // 17 = the 10 people anchored by a record that names them directly
+    // (a suspect_record, an FIR accused entry, a witness aboutNames entry)
+    // + the 7 that exist only because P6.2 (`021eaae`) began reading the
+    // fields that NAME a person in a record about something else — a
+    // phone's subscriberName, an account's holderName. Those 7 are the
+    // money mules M1/M2/M3 and X1, each named in a phone record and a
+    // bank-account record with no shared identifier to anchor them, so
+    // each resolves to two unlinked entities (M1/M2/M3) or one (X1).
+    // The split is a KNOWN, deliberately unfixed resolver limitation —
+    // see docs/evaluation/resolver-failure-analysis.md — not drift here.
     const personCount = await page.getByTestId("resolution-count-person").textContent();
-    expect(Number((personCount ?? "0").replace(/,/g, ""))).toBe(10);
+    expect(Number((personCount ?? "0").replace(/,/g, ""))).toBe(17);
     const phoneCount = await page.getByTestId("resolution-count-phone").textContent();
     expect(Number((phoneCount ?? "0").replace(/,/g, ""))).toBe(14);
 
@@ -107,6 +117,17 @@ test.describe.serial("entity resolution workflow", () => {
     // (no corroborating identifier or matching cluster) and verify the
     // resolution type / reasoning is visible, not force-merged into
     // anything else.
+    //
+    // Rahul Mehta (X1) is that case, and the expected type is
+    // `unlinked mention`, not `new entity`: P6.17.2 (`58860e2`) split the
+    // two meanings that were sharing `new_entity`, which now means
+    // ESTABLISHED FROM ITS OWN IDENTIFIER. A mention with no identifier,
+    // no exact name match and no normalised name match is
+    // `unlinked_mention` / `unresolved`. Asserting `new entity` here
+    // asserted the silent-failure defect P6.16 surfaced and P6.17.2
+    // fixed. The status is asserted alongside the type, because the
+    // point of that commit was that this outcome stops LOOKING like a
+    // success — so the badge must not carry the success accent either.
     const cards = page.getByTestId("resolved-entity");
     const count = await cards.count();
     let foundNonMerge = false;
@@ -117,7 +138,12 @@ test.describe.serial("entity resolution workflow", () => {
         await card.scrollIntoViewIfNeeded();
         await card.getByTestId("entity-toggle").click();
         await expect(card.getByTestId("resolution-decision").first()).toBeVisible({ timeout: 10_000 });
-        await expect(card.getByTestId("decision-type")).toContainText("new entity");
+        const decisionType = card.getByTestId("decision-type").first();
+        await expect(decisionType).toContainText("unlinked mention");
+        // prose, never the bare enum: every RESOLUTION_TYPES member is
+        // labelled in resolution-entities.tsx.
+        await expect(decisionType).not.toContainText("_");
+        await expect(decisionType).not.toHaveClass(/bg-accent/);
         await captureEvidence(page, "screenshot-nonmerge");
         foundNonMerge = true;
         break;
