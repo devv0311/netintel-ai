@@ -155,10 +155,41 @@ export type WikidataQueryName = keyof typeof QUERIES;
  * first lets it start from the country. Same result, and the difference
  * between a query that answers and one that does not.
  */
-export function countryQuery(countryCode: string, limit: number): string {
+/**
+ * P6.28 - `offset` makes the sweep able to reach past its own row limit.
+ *
+ * Two facts about this query, both measured rather than assumed, mean a
+ * single `LIMIT 2000` page never took "everything the publisher returns"
+ * for a country of any size:
+ *
+ *   The property path `wdt:P31/wdt:P279*` returns one row per DERIVATION,
+ *   not per item, and the OPTIONAL enrichments cross-multiply on top. CZ
+ *   returns 521 distinct items in 2,000 rows; US returns 280. So the row
+ *   limit binds far below the item count - which is why GB reported 185
+ *   distinct items against 851 available in P6.25.
+ *
+ *   `LIMIT` without `ORDER BY` returns an ARBITRARY subset, and SPARQL
+ *   guarantees nothing about which. Re-running the same query is not a way
+ *   to reach the rest, and treating the first page as the whole population
+ *   is how a sweep silently becomes a sample nobody declared.
+ *
+ * `ORDER BY ?item` is ascending QID: publisher-assigned creation order,
+ * content-blind, stable across runs, and unrelated to name, jurisdiction or
+ * anything either model was observed to do. With it, OFFSET pages a country
+ * deterministically.
+ *
+ * The ordering is added ONLY when an offset is supplied, so a call without
+ * one emits the byte-identical query tests #1, #2 and #3 were collected
+ * with and those corpora stay reproducible.
+ */
+export function countryQuery(countryCode: string, limit: number, offset?: number): string {
   if (!/^[A-Z]{2}$/.test(countryCode)) {
     throw new Error(`country must be an ISO 3166-1 alpha-2 code, got "${countryCode}"`);
   }
+  if (offset !== undefined && (!Number.isInteger(offset) || offset < 0)) {
+    throw new Error(`offset must be a non-negative integer, got ${offset}`);
+  }
+  const paging = offset === undefined ? `LIMIT ${limit}` : `ORDER BY ?item\nLIMIT ${limit}\nOFFSET ${offset}`;
   return `
 SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {
   BIND("${countryCode}" AS ?countryCode)
@@ -173,13 +204,14 @@ SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?count
   OPTIONAL { ?item wdt:P5531 ?cik }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-LIMIT ${limit}`.trim();
+${paging}`.trim();
 }
 
 export function planWikidata(
   queryName: WikidataQueryName,
   options: AdapterOptions,
   country?: string,
+  offset?: number,
 ): AdapterPlan {
   const entry = requireApprovedSource(WIKIDATA_SOURCE_ID, options.root);
   const limit = Math.min(options.limit, MAX_LIMIT);
@@ -188,15 +220,18 @@ export function planWikidata(
       sourceId: WIKIDATA_SOURCE_ID,
       sourceName: entry.sourceName,
       endpoint: ENDPOINT,
-      request: countryQuery(country, limit),
+      request: countryQuery(country, limit, offset),
       license: entry.license,
       licenseUrl: entry.licenseUrl,
       rateLimit: entry.rateLimit,
       limit,
       estimatedRequests: 1,
       estimatedBytes: limit * 512,
-      destination: `data/public/raw/${WIKIDATA_SOURCE_ID}/<retrievedAt>/companies-with-lei-${country}.json`,
+      destination: `data/public/raw/${WIKIDATA_SOURCE_ID}/<retrievedAt>/companies-with-lei-${country}${offset === undefined ? "" : `-offset-${offset}`}.json`,
     };
+  }
+  if (offset !== undefined) {
+    throw new Error("offset is only defined for the country-scoped query; the worldwide query has no stable ordering to page");
   }
   return {
     sourceId: WIKIDATA_SOURCE_ID,
@@ -292,8 +327,9 @@ export async function collectWikidata(
   queryName: WikidataQueryName,
   options: AdapterOptions,
   country?: string,
+  offset?: number,
 ): Promise<AdapterResult> {
-  const plan = planWikidata(queryName, options, country);
+  const plan = planWikidata(queryName, options, country, offset);
   const retrievedAt = new Date().toISOString();
   const warnings: string[] = [];
 

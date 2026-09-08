@@ -56,10 +56,23 @@ async function main(): Promise<void> {
   // sub-resource, so there is no jurisdiction-wide relationship mode to
   // ask for. SRC-002 is registered as Level 1 + Level 2 and APPROVED.
   const withRelationships = flag("with-relationships");
+  /**
+   * P6.28 - page offset for the country-scoped Wikidata query. Supplying it
+   * also switches the query to `ORDER BY ?item`, so pages are a partition of
+   * the country rather than repeated arbitrary samples; omitting it emits the
+   * byte-identical query the earlier corpora were collected with.
+   */
+  const offsetArg = arg("offset");
+  const offset = offsetArg === undefined ? undefined : Number(offsetArg);
+  if (offset !== undefined && (!Number.isInteger(offset) || offset < 0)) {
+    console.error("--offset must be a non-negative integer");
+    process.exitCode = 1;
+    return;
+  }
 
   if (source !== "gleif" && source !== "wikidata" && source !== "edgar") {
     console.error(
-      "usage: --source gleif|wikidata|edgar [--limit N] [--query NAME] [--country CC] [--leis-from PATH] [--ciks-from PATH] [--with-relationships] [--from-file PATH] [--from-dir DIR] [--dry-run]",
+      "usage: --source gleif|wikidata|edgar [--limit N] [--query NAME] [--country CC] [--offset N] [--leis-from PATH] [--ciks-from PATH] [--with-relationships] [--from-file PATH] [--from-dir DIR] [--dry-run]",
     );
     console.error("No other source is collectable: the adapter set is the allowlist.");
     process.exitCode = 1;
@@ -116,6 +129,7 @@ async function main(): Promise<void> {
             (query ?? "indian-companies-with-lei") as WikidataQueryName,
             options,
             arg("country"),
+            offset,
           );
 
   console.log("PLAN");
@@ -145,6 +159,7 @@ async function main(): Promise<void> {
             (query ?? "indian-companies-with-lei") as WikidataQueryName,
             options,
             arg("country"),
+            offset,
           );
 
   const retrievedAt = new Date().toISOString();
