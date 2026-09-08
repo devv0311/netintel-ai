@@ -1,0 +1,158 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104429717"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "54930021WBKGRDW2WV14"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Comet Commercial Limited"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gi/75328"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109626989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900ISXDIMUVJZVJ49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EQT HOLDINGS LIMITED"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EQT HOLDINGS LIMITED"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15933697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845009586B7AE81DC47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LT Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15933697"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "9845009586B7AE81DC47"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LT Holdings Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800H84UJQYSVF9750"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evoke plc"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evoke PLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800H84UJQYSVF9750"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evoke plc"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evoke PLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "GI"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800H84UJQYSVF9750"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evoke plc"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evoke PLC"
+      }
+    } ]
+  }
+}

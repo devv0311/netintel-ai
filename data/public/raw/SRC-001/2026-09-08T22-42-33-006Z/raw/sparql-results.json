@@ -1,0 +1,5073 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "30ZMPDNA1RHIBH89C294"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300A0CD4KNFGIIS89"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/61036137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mylan"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mylan N.V."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001623613"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q899255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "BN6WCCZ8OVP3ITUUVN49"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24473890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LyondellBasell"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001489393"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500SNT1MK246AHP04"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/14022069"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koninklijke DSM"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke DSM N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500SNT1MK246AHP04"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/14022069"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koninklijke DSM"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke DSM N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500SNT1MK246AHP04"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/14022069"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koninklijke DSM"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke DSM N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500SNT1MK246AHP04"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/14022069"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koninklijke DSM"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke DSM N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902650"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500SNT1MK246AHP04"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/14022069"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koninklijke DSM"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke DSM N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AMCKY57OK2CO56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon & Co."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001821825"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AMCKY57OK2CO56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon & Co."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001821825"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AMCKY57OK2CO56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon & Co."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001821825"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AMCKY57OK2CO56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon & Co."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001821825"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903372"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300AMCKY57OK2CO56"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon & Co."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001821825"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Organon"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916488"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500UHTYC0QQ6YPS06"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34284016"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Royal FloraHolland"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Coöperatie Royal FloraHolland U.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916488"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500UHTYC0QQ6YPS06"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34284016"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Royal FloraHolland"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Coöperatie Royal FloraHolland U.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916488"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500UHTYC0QQ6YPS06"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34284016"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Royal FloraHolland"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Coöperatie Royal FloraHolland U.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916488"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500UHTYC0QQ6YPS06"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34284016"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Royal FloraHolland"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Coöperatie Royal FloraHolland U.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916488"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500UHTYC0QQ6YPS06"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34284016"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Royal FloraHolland"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Coöperatie Royal FloraHolland U.A."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DXFSLW607W5827"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917031"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500CA8ZUHJUE1M753"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/28000012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brill"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Koninklijke Brill N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500MQFZSYSBC5H178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gasunie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500MQFZSYSBC5H178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gasunie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500MQFZSYSBC5H178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gasunie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500MQFZSYSBC5H178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gasunie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918239"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500MQFZSYSBC5H178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gasunie"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q91905252"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "72450009QLIV38GTKN14"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34166287"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Robert Bosch Investment Nederland"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KHZMXF57E8LG44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global Telecom Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q930915"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000CMF80GY2U0U47"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/16074305"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nutreco"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nutreco N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q930915"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000CMF80GY2U0U47"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/16074305"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nutreco"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nutreco N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q930915"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000CMF80GY2U0U47"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/16074305"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nutreco"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nutreco N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q930915"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000CMF80GY2U0U47"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/16074305"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nutreco"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nutreco N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q930915"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299000CMF80GY2U0U47"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/16074305"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nutreco"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nutreco N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q931726"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "P2HWO703XN8TPXCGU747"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33256675"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nexent Bank"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nexent Bank N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q931726"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "P2HWO703XN8TPXCGU747"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33256675"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nexent Bank"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nexent Bank N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q931726"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "P2HWO703XN8TPXCGU747"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33256675"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nexent Bank"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nexent Bank N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q931726"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "P2HWO703XN8TPXCGU747"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33256675"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nexent Bank"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nexent Bank N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q931726"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "P2HWO703XN8TPXCGU747"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33256675"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nexent Bank"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Nexent Bank N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95552428"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450064AC9753611E09"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30204462"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mollie"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mollie B.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95552428"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450064AC9753611E09"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30204462"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mollie"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mollie B.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95552428"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450064AC9753611E09"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30204462"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mollie"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mollie B.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95552428"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450064AC9753611E09"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30204462"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mollie"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mollie B.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95552428"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "98450064AC9753611E09"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30204462"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mollie"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Mollie B.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97306244"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GWTMSKWB96YG38"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/01054848"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q97306244"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hellema-Hallum B.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97439162"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LKT9PW7ZIBDF31"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60372958"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stellantis"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Stellantis N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97927899"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7245001LBJIAN1TKCU19"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30135547"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eosta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97927899"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7245001LBJIAN1TKCU19"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30135547"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eosta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97927899"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7245001LBJIAN1TKCU19"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30135547"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eosta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97927899"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "7245001LBJIAN1TKCU19"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/30135547"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eosta"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98024446"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500DWJ5USFH0LSX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/10042215"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Royal SMIT Transformers"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Royal SMIT Transformers B.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98590326"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500M8GREJP158CZ36"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/33172728"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renault Group"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98703447"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YTIU9TN5V85N39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/72335734"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vitesco Technologies Holding Netherlands"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500TXS5HH3GY4UW42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nederlandse Spoorwegen"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "NS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500TXS5HH3GY4UW42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nederlandse Spoorwegen"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "NS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500TXS5HH3GY4UW42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nederlandse Spoorwegen"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "NS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23076"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500TXS5HH3GY4UW42"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nederlandse Spoorwegen"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "NS"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2311"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "MINO79WLOO247M1IL051"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/24288945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus SE"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airbus"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27489"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300J6XLKHOHLU6N77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/17078445"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DAF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27489"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300J6XLKHOHLU6N77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/17078445"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DAF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27489"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300J6XLKHOHLU6N77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/17078445"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DAF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27489"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300J6XLKHOHLU6N77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/17078445"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "DAF"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38903"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500GJBUL3D9TW9Y18"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/81106661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal Music Group"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UMG"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "यूनिवर्सल म्यूज़िक समूह"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50912"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500XYIJUGXAA5QD70"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AkzoNobel"
+      }
+    } ]
+  }
+}

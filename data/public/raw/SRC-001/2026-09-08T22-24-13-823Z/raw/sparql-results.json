@@ -1,0 +1,6339 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q773164"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008DSBGESD0H4G19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alken-Maes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405655681"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q773164"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008DSBGESD0H4G19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alken-Maes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405655681"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q773164"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008DSBGESD0H4G19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alken-Maes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405655681"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q773164"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008DSBGESD0H4G19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alken-Maes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405655681"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q773164"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008DSBGESD0H4G19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alken-Maes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405655681"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q773164"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008DSBGESD0H4G19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alken-Maes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405655681"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q773164"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008DSBGESD0H4G19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alken-Maes"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405655681"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7830825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380076YXF6KFRJMP45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota Motor Europe"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0441571714"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7830825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "21380076YXF6KFRJMP45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota Motor Europe"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC016063"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7831621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZSTW3D1UXOXY91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tractebel"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0412639681"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Tractebel Engineering"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7831621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300ZSTW3D1UXOXY91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tractebel"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/FC019339"
+      },
+      "official" : {
+        "xml:lang" : "fr",
+        "type" : "literal",
+        "value" : "Tractebel Engineering"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7938134"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N2YYRLQ8YX5385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Medialaan"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0432306234"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796827"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "KGCEPHLVVKVRZYO1T647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BNP Paribas Fortis"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403199702"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q80335"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LI4SL50S2OKL46"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonidas"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0407824919"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8043256"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "875500IT79OPV0771E48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xavier Hufkens"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0430373459"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q807964"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300N17QCD827TII61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barco"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0473191041"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q814204"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900UM10B3V374TA43"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Befimmo"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q814989"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493008SR6XZECH6BN71"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bekaert"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405388536"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q823010"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LEMMBXNRX31N35"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyrstar"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0888728945"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KUL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "KU Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833670"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299001MN2MYAHLGXD65"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit Leuven"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0419052173"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Katholieke Universiteit te Leuven"
+      },
+      "shortName" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "K.U.Leuven"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842108"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500QJ4QSZ3H9QU415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Euronext"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/60234520"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Euronext N.V."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860761"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300H0248631WJLV25"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chimay Brewery"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0438560655"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86451016"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "315700NENYPIXFR94T49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VGP Group"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0887216042"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902046"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138008J191VLSGY5A09"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "UCB"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900F3AIQECS8ZSV61"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umicore"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0401574852"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001477038"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903523"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300OLOH8YMZM9O838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janssen Pharmaceutica"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0403834160"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903805"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "724500Y2C2W9YWLRDC69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HEMA"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "nl/34215639"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Hollandse Eenheidsprijzen Maatschappij Amsterdam"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917050"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493007JS0ZHJVBUWP18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mobistar"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q918289"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500LLK3FTX3B98U54"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Centre for European Policy Studies"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0424123986"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q928183"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003VSSKT3BHJX740"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q928183"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0405770992"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941020"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6B2PBRV1FCJDMR45RZ53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KBC Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97142699"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "6994005SI79OB7KBZ779"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Batopin"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0744908035"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Batopin"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q972966"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300KV0ZEHT2KVU152"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Groupe Bruxelles Lambert"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980704"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493001TJRY4PLYBKG51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Studio 100"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0457622640"
+      },
+      "official" : {
+        "xml:lang" : "nl",
+        "type" : "literal",
+        "value" : "Studio 100 NV"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q99770800"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493002GTF0NOZT4MG17"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "VYNCKE"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "be/0447690830"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121059628"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800F9JM669WH34359"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anglo Asian Mining"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134699479"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "789000TZGA7P2TU3FX81"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AzOil"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1622293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002HARR1VE257O76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Oil Company of Azerbaijan Republic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1622293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002HARR1VE257O76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Oil Company of Azerbaijan Republic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1622293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002HARR1VE257O76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Oil Company of Azerbaijan Republic"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1622293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549002HARR1VE257O76"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Oil Company of Azerbaijan Republic"
+      }
+    } ]
+  }
+}

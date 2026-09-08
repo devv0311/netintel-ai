@@ -1,0 +1,26 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MC"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131548822"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300JWO836U8W2PR12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banque Richelieu Monaco"
+      }
+    } ]
+  }
+}

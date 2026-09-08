@@ -1,0 +1,98 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q120972313"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JDA8GXK9UN7Z19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Millennium Atlântico"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4854132"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900SQWLFR0HNNRC82"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Savings and Credit Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q72338377"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TP70GP7J3FPI13"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Económico"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806172"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QU4YNWBS829190"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Angolano de Investimentos"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "AO"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806172"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300QU4YNWBS829190"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banco Angolano de Investimentos"
+      }
+    } ]
+  }
+}

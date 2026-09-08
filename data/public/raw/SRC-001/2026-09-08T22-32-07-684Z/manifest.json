@@ -1,0 +1,30 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"FR\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nORDER BY ?item\nLIMIT 2000\nOFFSET 0",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-08T22:32:07.684Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "2c7c323ddf61581d03ea6a213f242c976f0431d529378dbdeecdbec941c2dac0",
+  "rawBytes": 1200202,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "2c7c323ddf61581d03ea6a213f242c976f0431d529378dbdeecdbec941c2dac0",
+      "bytes": 1200202,
+      "records": 260,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 260,
+  "recordsSha256": "bb4ba68fdd6bf204dfe26bd561663e6c8a9eb6e5c2fa7b3e2c9d6a948f7ddc90",
+  "warnings": [
+    "2000 SPARQL rows folded into 260 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q11320256 states 2 LEIs (529900T9JQP7I5LDY154, 984500BDBC9F43363369); all kept, none chosen between.",
+    "wikidata:Q131005 states 2 LEIs (969500TQO0037942GI28, 969500YFR8LV8JTEUI91); all kept, none chosen between.",
+    "wikidata:Q151107 states 2 LEIs (549300SOSI58J6VIW052, 549300U45EBW2GJV2X93); all kept, none chosen between.",
+    "wikidata:Q28873035 states 2 LEIs (969500DWZ4IMXC8VWW55, 969500NGP4RH8OTIJ755); all kept, none chosen between."
+  ]
+}

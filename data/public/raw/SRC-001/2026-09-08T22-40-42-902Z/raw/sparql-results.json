@@ -1,0 +1,80 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466498"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900RGFI5N3EJHYP22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpiq Energija Skopje DOOEL"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466508"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900H0T4VDH9KHIX30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axpo DOOEL MK"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466574"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138002X9685AHS67O69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HSE MAK ENERGY DOOEL Skopje"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MK"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466723"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VVE5G00VYNS662"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Društvo za trgovija so električna energija PETROL- ENERGETIKA D.O.O.E.L. Skopje"
+      }
+    } ]
+  }
+}

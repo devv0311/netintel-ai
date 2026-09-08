@@ -1,0 +1,984 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106647560"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "4851001TYY1CRDILGJ93"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "EMCO"
+      },
+      "official" : {
+        "xml:lang" : "bg",
+        "type" : "literal",
+        "value" : "\"ЕМКО\" ООД"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "bg/040474262"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466470"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900FGH0R73JYH2V83"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GEN-I Sofia – Electricity Trading and Sales SpLLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466479"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900W0ORCCVSX5TM03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axpo Bulgaria EAD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466480"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900LWTYDZV6OOYV78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Frea Axpo OOD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466484"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299005G3P2MZR2QP436"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpiq Energia Bulgaria EOOD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466545"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299008KOCB7J1AFSO11"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vetrocom"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466546"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900KO188TB2NG8T44"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energo-Pro Energy Services EAD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466556"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "747800R0Y0RRG7M43R37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grand Energy Distribution EOOD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466560"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300L3FN3RTSH8QH23"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Energy Supply EOOD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466581"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493004BD45E4GZXFV75"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ENEKOD AD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466671"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900SQ0QLF42Q5YL53"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Udinex"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466677"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EKLZCD8S8O1Q63"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agropolychim AD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "17500038500000000000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GVI Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466715"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900V49HHFDTKMRZ22"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MK Brokers AD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466716"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "259400B5NQ1SWZ4ID183"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WPG"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466730"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500SM8074K2VCZ576"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shanfari Gaz Ltd"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466747"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OZ6OG2BE1O1V60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "INTELEKT ENERGINI I EMISIONNI KONSULTANTI"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466769"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100QGIY16B17B1D29"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "TERNA ENERGY TRADING EOOD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466825"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "984500DFC6JA1D2DDA90"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Allianz Energy Bulgaria LLC"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558509"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570076I9IF3IWCCC91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MEDIL TRADE EOOD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130558509"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "31570076I9IF3IWCCC91"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MEDIL TRADE EOOD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133271159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008RXWOGEV5R9X96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Payhawk"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/11747263"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133271159"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008RXWOGEV5R9X96"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Payhawk"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "gb/11747263"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137779116"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300I48OJHSE9OZS95"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alaric Securities"
+      },
+      "official" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Alaric Securities OOD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139782368"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900H1OT06BP9DAT78"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Varchev Finance"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2188613"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D80RYON74MEJ03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CMB.TECH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2188613"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300D80RYON74MEJ03"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CMB.TECH"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30285363"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945007AD80FTJTEGH37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sirma Group Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30285363"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945007AD80FTJTEGH37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sirma Group Holding"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58409146"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100EIG60FUWAYX484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEZ Elektro Bulgaria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58409146"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "485100EIG60FUWAYX484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEZ Elektro Bulgaria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58409353"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WKP6IQDP3A7Y38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEZ Razpredelenie Bulgaria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58409353"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300WKP6IQDP3A7Y38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CEZ Razpredelenie Bulgaria"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "bg",
+        "type" : "literal",
+        "value" : "Titan Machinery Bulgaria EAD"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "bg",
+        "type" : "literal",
+        "value" : "Titan Machinery Bulgaria EAD"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Titan Machinery Austria GmbH"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "de-at",
+        "type" : "literal",
+        "value" : "Titan Machinery Austria GmbH"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en-au",
+        "type" : "literal",
+        "value" : "Titan Machinery Holdings Australia Pty. Ltd."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "en-au",
+        "type" : "literal",
+        "value" : "Titan Machinery Holdings Australia Pty. Ltd."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "ro",
+        "type" : "literal",
+        "value" : "Titan Machinery Romania SRL"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "ro",
+        "type" : "literal",
+        "value" : "Titan Machinery Romania SRL"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "uk",
+        "type" : "literal",
+        "value" : "Titan Machinery Ukraine, LLC"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7809764"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300835ZM8G0BT5C94"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Titan Machinery"
+      },
+      "official" : {
+        "xml:lang" : "uk",
+        "type" : "literal",
+        "value" : "Titan Machinery Ukraine, LLC"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001224389"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94675"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MM93X5THV8K719"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karlsberg Bulgaria AD"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94675"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300MM93X5THV8K719"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karlsberg Bulgaria AD"
+      }
+    } ]
+  }
+}

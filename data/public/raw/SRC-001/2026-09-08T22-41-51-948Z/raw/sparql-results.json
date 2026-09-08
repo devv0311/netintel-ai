@@ -1,0 +1,341 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1129117"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "G8NWFN4YP7CR6FOP4886"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tupperware"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1129117"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "G8NWFN4YP7CR6FOP4886"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tupperware"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2064074"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "IO66REGK3RCBAMA8HR66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Overseas Bank"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/3700150002747"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221692"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003RZQYJM7QGNE15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petronas"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221692"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003RZQYJM7QGNE15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petronas"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221692"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493003RZQYJM7QGNE15"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Petronas"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3045976"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FYDN5UD7USZW18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CIMB"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3045976"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300FYDN5UD7USZW18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CIMB"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q308952"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OXA1QQLTW68560"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malaysia Airlines"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मलेशिया एयरलाइंस"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q308952"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900OXA1QQLTW68560"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malaysia Airlines"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मलेशिया एयरलाइंस"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5973440"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X7UWHMKP3F4R66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IRC Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5973440"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300X7UWHMKP3F4R66"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "IRC Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806646"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300NROGNBV2T1GS07"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank Negara Malaysia"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24259"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549009JSTRFMR7A8D34"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kuala Lumpur Kepong Berhad"
+      },
+      "shortName" : {
+        "xml:lang" : "ms",
+        "type" : "literal",
+        "value" : "KLK"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43335"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900VH5AOK4HHV4I38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bursa Malaysia"
+      }
+    } ]
+  }
+}

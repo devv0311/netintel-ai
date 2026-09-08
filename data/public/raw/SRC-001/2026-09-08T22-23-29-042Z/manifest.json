@@ -1,0 +1,31 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"AU\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nORDER BY ?item\nLIMIT 2000\nOFFSET 0",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-08T22:23:29.042Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "63ffea08fcc985a10519975834b7e19cea0a62474b35afa730846da4ccc716aa",
+  "rawBytes": 194541,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "63ffea08fcc985a10519975834b7e19cea0a62474b35afa730846da4ccc716aa",
+      "bytes": 194541,
+      "records": 199,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 199,
+  "recordsSha256": "2234b40adc652f117da9865927e7a415e5ee379d935fad12e56a8857117eb2db",
+  "warnings": [
+    "335 SPARQL rows folded into 199 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q111914575 states 2 LEIs (OE40RLQ75J24YY161R59, XJ73T0B31LKHL9Q4HE61); all kept, none chosen between.",
+    "wikidata:Q4823756 states 2 LEIs (549300OBJKQMWQ5R4797, 549300SDK641VC1FPE36); all kept, none chosen between.",
+    "wikidata:Q625713 states 2 LEIs (549300C116EOWV835768, WZE1WSENV6JSZFK0JC28); all kept, none chosen between.",
+    "wikidata:Q637440 states 2 LEIs (254900RIBCDJSUFG1A11, 5493009YO1MGVNTJ0W35); all kept, none chosen between.",
+    "wikidata:Q721162 states 2 LEIs (894500WRW54CVN62K416, PCTXNQGRJVR3OG33JG65); all kept, none chosen between."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZW"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17107908"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900J5HFOUC3SLM620"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NMB Bank Limited"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "ZW"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17107908"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900J5HFOUC3SLM620"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NMB Bank Limited"
+      }
+    } ]
+  }
+}

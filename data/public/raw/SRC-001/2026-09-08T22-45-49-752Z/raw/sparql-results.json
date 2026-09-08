@@ -1,0 +1,481 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113536762"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800UWVX5JSNXJS434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ipoteka bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113536762"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800UWVX5JSNXJS434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ipoteka bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121536384"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800OQBGR93O2MAS20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tenge Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12166841"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400QLNK164AFJ2E30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hamkorbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125484580"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "8945004C9RHH5PWJ1W19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alkes Research"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125487629"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900KEDRMUYT46HS37"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Davr Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125490024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500UUAOXCC20MT056"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mikrokreditbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125490024"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500UUAOXCC20MT056"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mikrokreditbank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125490182"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500KZ2LY6SC72PG69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125490182"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "894500KZ2LY6SC72PG69"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Universal bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125490255"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400WWB8PVV2YNZC20"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "KDB Bank Uzbekistan"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125490260"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900TRFDM80XIUTU57"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "InFinBank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125490267"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008TGRJ60HAHDT33"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asia Alliance Bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125499484"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400SW1QJQSB3A2U49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uzbekistan Central Securities Depository"
+      },
+      "official" : {
+        "xml:lang" : "uz",
+        "type" : "literal",
+        "value" : "QIMMATLI QOG'OZLARNING MARKAZIY DEPOZITARIYSI aksiyadorlik jamiyati"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1804128"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LUZJZFLJD4MJ51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uzbekneftegaz"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1804128"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LUZJZFLJD4MJ51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uzbekneftegaz"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1804128"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800LUZJZFLJD4MJ51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uzbekneftegaz"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18746447"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900JPMU0LFCP18673"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agrobank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25534044"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900DUB01DA37PQR38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ipak Yuli bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25534044"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900DUB01DA37PQR38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ipak Yuli bank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4062812"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900B2WJGJ0SR7JC84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aloqabank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4062812"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900B2WJGJ0SR7JC84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aloqabank"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4311411"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YLNAGERZ4C3M60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navoi Mining and Metallurgy Combinat"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4311411"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YLNAGERZ4C3M60"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navoi Mining and Metallurgy Combinat"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4314979"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400TZJ7T1YULTGN68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Bank of Uzbekistan"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4314979"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "253400TZJ7T1YULTGN68"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Bank of Uzbekistan"
+      }
+    } ]
+  }
+}

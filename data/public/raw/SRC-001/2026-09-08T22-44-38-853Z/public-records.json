@@ -1,0 +1,50 @@
+[
+  {
+    "recordRef": "wikidata:Q54075",
+    "registry": "wikidata",
+    "registryRecordId": "Q54075",
+    "subjectKind": "organisation",
+    "name": "SSAB",
+    "identifiers": [
+      {
+        "scheme": "WIKIDATA",
+        "value": "Q54075"
+      },
+      {
+        "scheme": "LEI",
+        "value": "529900329VS14ZIML164"
+      },
+      {
+        "scheme": "OPENCORPORATES",
+        "value": "se/556016-3429"
+      }
+    ],
+    "jurisdiction": "SE",
+    "retrievedAt": "2026-09-08T22:44:30.983Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q54075"
+  },
+  {
+    "recordRef": "wikidata:Q62233",
+    "registry": "wikidata",
+    "registryRecordId": "Q62233",
+    "subjectKind": "organisation",
+    "name": "Q62233",
+    "identifiers": [
+      {
+        "scheme": "WIKIDATA",
+        "value": "Q62233"
+      },
+      {
+        "scheme": "LEI",
+        "value": "H0YX5LBGKDVOWCXBZ594"
+      }
+    ],
+    "jurisdiction": "SE",
+    "retrievedAt": "2026-09-08T22:44:30.983Z",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q62233"
+  }
+]

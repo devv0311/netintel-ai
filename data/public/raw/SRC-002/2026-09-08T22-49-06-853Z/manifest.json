@@ -1,0 +1,108 @@
+{
+  "sourceId": "SRC-002",
+  "endpoint": "https://api.gleif.org/api/v1/lei-records",
+  "request": "filter[lei]=<500 LEIs from an already-collected source>&page[size]=40",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
+  "retrievedAt": "2026-09-08T22:49:06.853Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "d85443e7b66b777f51b0865e3da128ec94e99487fc586f7a4e120f1aac3ff62f",
+  "rawBytes": 1330035,
+  "sourcePayloads": [
+    {
+      "file": "lei-records-batch-01.json",
+      "sha256": "ae7a36dd65006f7001822f68335417e5611f31f0ea933c7e6e6bc75527ef8a9b",
+      "bytes": 106734,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-01.json"
+    },
+    {
+      "file": "lei-records-batch-02.json",
+      "sha256": "262ecc849eb3f017245503ce85132c2e70f3a64b124ffbb4ae2d5c9aed47a010",
+      "bytes": 104806,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-02.json"
+    },
+    {
+      "file": "lei-records-batch-03.json",
+      "sha256": "396efa6f540fa098fdb4c299c2df63adc12de9ad9f15a3b2e3a8dfa4793f49cf",
+      "bytes": 102462,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-03.json"
+    },
+    {
+      "file": "lei-records-batch-04.json",
+      "sha256": "7532d65869aee15c948aa135d00f1f5426a0e249ca929532b1dfdf9d28f99731",
+      "bytes": 106249,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-04.json"
+    },
+    {
+      "file": "lei-records-batch-05.json",
+      "sha256": "aca9cd2dcb9e1a5f7d0a6e5b8fe3b3a19098e1e0dfa16c08b8e3e2cbfdaa2aff",
+      "bytes": 103405,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-05.json"
+    },
+    {
+      "file": "lei-records-batch-06.json",
+      "sha256": "fe2d1e17d119e65a99fe5e808ce7b9415dd09411bb1cc3e204d19ccae9eea824",
+      "bytes": 107611,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-06.json"
+    },
+    {
+      "file": "lei-records-batch-07.json",
+      "sha256": "adbec7e2608e213059c8c15cacd383a1d094924f2779eac7250b5d4621b78f8f",
+      "bytes": 107010,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-07.json"
+    },
+    {
+      "file": "lei-records-batch-08.json",
+      "sha256": "13623861bbf2d82b04414a03f07ce8c5b5d8dd90e08e861b3e7c3af3594ce6f0",
+      "bytes": 106412,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-08.json"
+    },
+    {
+      "file": "lei-records-batch-09.json",
+      "sha256": "eba3815b6b04d6e32b6f665eb28c58887a694da552a8e8bfd02180a490306bf4",
+      "bytes": 109945,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-09.json"
+    },
+    {
+      "file": "lei-records-batch-10.json",
+      "sha256": "cf757d0ec060d21540b63fbc6af0ee912e33db95d25696531a39109f7c289bb9",
+      "bytes": 107815,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-10.json"
+    },
+    {
+      "file": "lei-records-batch-11.json",
+      "sha256": "672d84ce916244f0cc5fddaf2d0122fa3e886f3e3d5c09505f2f525dd751ebfc",
+      "bytes": 108152,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-11.json"
+    },
+    {
+      "file": "lei-records-batch-12.json",
+      "sha256": "d69d5cb1a9d55d355719185e8236d06e7370d8b3a36aa0a0d5c309f04c720644",
+      "bytes": 106920,
+      "records": 40,
+      "storedAt": "raw/lei-records-batch-12.json"
+    },
+    {
+      "file": "lei-records-batch-13.json",
+      "sha256": "fc0de6c4a824ca27aa2426d83027580b3fff6732c32641bf8fb023e85133d203",
+      "bytes": 52514,
+      "records": 20,
+      "storedAt": "raw/lei-records-batch-13.json"
+    }
+  ],
+  "recordCount": 500,
+  "recordsSha256": "01bc99c55104898abb16b605b469d777baca69fda6bcb6298734132164e14689",
+  "warnings": []
+}

@@ -1,0 +1,6380 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800P62OOYUY3I8T51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nagoya Railroad"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "名古屋鉄道株式会社"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "名鉄"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800P62OOYUY3I8T51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nagoya Railroad"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "名古屋鉄道株式会社"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "名鉄"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30850"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800P62OOYUY3I8T51"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nagoya Railroad"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "名古屋鉄道株式会社"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "名鉄"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990044YZJLICDQKK92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990044YZJLICDQKK92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990044YZJLICDQKK92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990044YZJLICDQKK92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990044YZJLICDQKK92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990044YZJLICDQKK92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990044YZJLICDQKK92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35996"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "52990044YZJLICDQKK92"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazda"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMC"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMC"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMC"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMC"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMC"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMC"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMC"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MMC"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自動車"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自動車"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自動車"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自動車"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自動車"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自動車"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自動車"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自動車"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自工"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自工"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自工"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自工"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自工"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自工"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自工"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36033"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5299006ZTN6MO1N5BR16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Motors"
+      },
+      "shortName" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "三菱自工"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी मोटर्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41187"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900R5WX9N2OI2N910"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5010401067252"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sony Group"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ソニーグループ株式会社"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000313838"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "सोनी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45700"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FC4A5QCMIZFV94"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/9010401070789"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konami"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "कोनामी"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49125"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300LBHTST91VKHO68"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/2010401044997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshiba"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "तोशिबा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53227"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800YEPK9PD7QO3449"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6120001005484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sharp Corporation"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53238"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300T6IPOCDWLKC615"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/7010001008844"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hitachi"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "हिटाची, लिमिटेड"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53247"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900GE1G59KGWPHX32"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/5120001158218"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panasonic Holdings Corporation"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000063271"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "पैनासॉनिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53257"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300TRXM9Y6561AX39"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/4010001008772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsubishi Electric"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मित्सुबिशी इलेक्ट्रिक"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006W3QUS5LMH6R84"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1180301018771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001094517"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टोयोटा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006W3QUS5LMH6R84"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1180301018771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001094517"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टोयोटा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006W3QUS5LMH6R84"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1180301018771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001094517"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टोयोटा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006W3QUS5LMH6R84"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1180301018771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001094517"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टोयोटा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006W3QUS5LMH6R84"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1180301018771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001094517"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टोयोटा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006W3QUS5LMH6R84"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1180301018771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001094517"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टोयोटा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006W3QUS5LMH6R84"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1180301018771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001094517"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टोयोटा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53268"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "5493006W3QUS5LMH6R84"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1180301018771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toyota"
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0001094517"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "टोयोटा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YMZMNSHC1W6V41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissin Food Products"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "中交総社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निस्सिन फूड्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YMZMNSHC1W6V41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissin Food Products"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "中交総社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निस्सिन फूड्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YMZMNSHC1W6V41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissin Food Products"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "中交総社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निस्सिन फूड्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YMZMNSHC1W6V41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissin Food Products"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "中交総社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निस्सिन फूड्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YMZMNSHC1W6V41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissin Food Products"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "中交総社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निस्सिन फूड्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YMZMNSHC1W6V41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissin Food Products"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "中交総社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निस्सिन फूड्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YMZMNSHC1W6V41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissin Food Products"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "中交総社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निस्सिन फूड्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53293"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900YMZMNSHC1W6V41"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nissin Food Products"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "中交総社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निस्सिन फूड्स"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62621"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900JH1GSC035SSP77"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/6010801003186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canon Inc."
+      },
+      "cik" : {
+        "type" : "literal",
+        "value" : "0000016988"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo Co., Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8093"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "353800FEEXU6I9M0ZF27"
+      },
+      "ocid" : {
+        "type" : "literal",
+        "value" : "jp/1130001011420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nintendo"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "任天堂株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "निनटेंडो"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda Motor Company, Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9584"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300P7ZYCQJ36CCS16"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honda"
+      },
+      "official" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "本田技研工業株式会社"
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "होंडा"
+      }
+    } ]
+  }
+}

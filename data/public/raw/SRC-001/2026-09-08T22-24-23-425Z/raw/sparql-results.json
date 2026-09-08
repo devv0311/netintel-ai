@@ -1,0 +1,44 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466682"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300VFDTC6BKPD4415"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vitol Bahrain E.C."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BH"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q447457"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800YLHRSLSVOHFH73"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aluminum Bahrain"
+      }
+    } ]
+  }
+}

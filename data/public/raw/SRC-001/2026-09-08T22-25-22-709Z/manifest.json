@@ -1,0 +1,37 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"CH\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nORDER BY ?item\nLIMIT 2000\nOFFSET 0",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-08T22:25:22.709Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "3c2a189bd1c771cbd3bcacad9e5242021d87775b4b877b67653ce343c2585154",
+  "rawBytes": 269413,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "3c2a189bd1c771cbd3bcacad9e5242021d87775b4b877b67653ce343c2585154",
+      "bytes": 269413,
+      "records": 352,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 352,
+  "recordsSha256": "0d4a15b403383f2d31578ec2e31407ea5662d625aec64effc5c854c27667f0b8",
+  "warnings": [
+    "544 SPARQL rows folded into 352 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q1122965 states 2 LEIs (549300O3WME82RDPEN66, H6IQ3SWWWBLDBI06ZX04); all kept, none chosen between.",
+    "wikidata:Q1341261 states 2 LEIs (529900B5RUD2Z4UYFD31, 529900FULJ8KC20RIY48); all kept, none chosen between.",
+    "wikidata:Q1404191 states 2 LEIs (5067008UT6890I0YM937, 5XM5CVQNGEH1IRAZ3775); all kept, none chosen between.",
+    "wikidata:Q169339 states 2 LEIs (Q4ZWFZ2PKK979ZCHTR12, 2138002658CPO9NBH955); all kept, none chosen between.",
+    "wikidata:Q193199 states 2 LEIs (549300SZJ9VS8SGXAN81, BFM8T61CT2L1QCEMIK50); all kept, none chosen between.",
+    "wikidata:Q2509061 states 2 LEIs (529900R30EKFHO09CN42, 529900Z7NMGN5XV0RV34); all kept, none chosen between.",
+    "wikidata:Q288285 states 2 LEIs (E0JAN6VLUDI1HITHT809, EF8VLWWQ6IHEGDX1TU23); all kept, none chosen between.",
+    "wikidata:Q637440 states 2 LEIs (254900RIBCDJSUFG1A11, 5493009YO1MGVNTJ0W35); all kept, none chosen between.",
+    "wikidata:Q661845 states 2 LEIs (213800Z8NOHIKRI42W10, 984500C1CEE9D475BC11); all kept, none chosen between.",
+    "wikidata:Q670895 states 2 LEIs (549300IE30SKTUO98Q38, HP4455X23HMJWUDSIO96); all kept, none chosen between.",
+    "wikidata:Q970695 states 2 LEIs (549300GLF98S992BC502, 549300U68JXSOE16IN60); all kept, none chosen between."
+  ]
+}

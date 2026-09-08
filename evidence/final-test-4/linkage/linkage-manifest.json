@@ -1,0 +1,22 @@
+{
+  "wikidataRunDirs": 130,
+  "wikidataRecords": 16072,
+  "consumedSubjects": 13877,
+  "freshLeis": 4782,
+  "freshCiks": 62,
+  "leiChunks": [
+    "evidence/final-test-4/linkage/lei-chunk-001.json",
+    "evidence/final-test-4/linkage/lei-chunk-002.json",
+    "evidence/final-test-4/linkage/lei-chunk-003.json",
+    "evidence/final-test-4/linkage/lei-chunk-004.json",
+    "evidence/final-test-4/linkage/lei-chunk-005.json",
+    "evidence/final-test-4/linkage/lei-chunk-006.json",
+    "evidence/final-test-4/linkage/lei-chunk-007.json",
+    "evidence/final-test-4/linkage/lei-chunk-008.json",
+    "evidence/final-test-4/linkage/lei-chunk-009.json",
+    "evidence/final-test-4/linkage/lei-chunk-010.json"
+  ],
+  "cikChunks": [
+    "evidence/final-test-4/linkage/cik-chunk-001.json"
+  ]
+}

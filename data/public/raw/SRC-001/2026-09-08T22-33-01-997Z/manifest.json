@@ -1,0 +1,30 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"GB\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nORDER BY ?item\nLIMIT 2000\nOFFSET 0",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-08T22:33:01.997Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "02f7483a91e9ae0a76be27ad1f4a9e3f273b5afa71744ecbba1c559f7963bc92",
+  "rawBytes": 1092365,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "02f7483a91e9ae0a76be27ad1f4a9e3f273b5afa71744ecbba1c559f7963bc92",
+      "bytes": 1092365,
+      "records": 270,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 270,
+  "recordsSha256": "2b07804077bc7c417c960362cacf2e65d49c82b541ef3f4960739918ab0d324c",
+  "warnings": [
+    "2000 SPARQL rows folded into 270 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q1044059 states 2 LEIs (4DR1VPDQMHD3N3QW8W95, F1OF2ZSX47CR0BCWA982); all kept, none chosen between.",
+    "wikidata:Q1181484 states 2 LEIs (5493007MMUEIF4NJG110, UF7DSJDW6T06IGSDEO69); all kept, none chosen between.",
+    "wikidata:Q1318049 states 2 LEIs (549300HTNGX0DU8W1F65, 549300LSGBXPYHXGDT93); all kept, none chosen between.",
+    "wikidata:Q136385725 states 2 LEIs (549300YLXPCNZRDKVR97, 549300179JQ6OMG9XG71); all kept, none chosen between."
+  ]
+}

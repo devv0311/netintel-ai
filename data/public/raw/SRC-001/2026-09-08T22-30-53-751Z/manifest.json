@@ -1,0 +1,31 @@
+{
+  "sourceId": "SRC-001",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "request": "SELECT ?item ?itemLabel ?itemLabelHi ?lei ?official ?shortName ?ocid ?cik ?countryCode WHERE {\n  BIND(\"DK\" AS ?countryCode)\n  ?country wdt:P297 ?countryCode .\n  ?item wdt:P17 ?country ;\n        wdt:P31/wdt:P279* wd:Q4830453 ;\n        wdt:P1278 ?lei .\n  OPTIONAL { ?item rdfs:label ?itemLabelHi FILTER(LANG(?itemLabelHi) = \"hi\") }\n  OPTIONAL { ?item wdt:P1448 ?official }\n  OPTIONAL { ?item wdt:P1813 ?shortName }\n  OPTIONAL { ?item wdt:P1320 ?ocid }\n  OPTIONAL { ?item wdt:P5531 ?cik }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\nORDER BY ?item\nLIMIT 2000\nOFFSET 4000",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+  "retrievedAt": "2026-09-08T22:30:53.751Z",
+  "retrievalChannel": "direct-https",
+  "rawSha256Caveat": "rawSha256 hashes the bytes received from the publisher.",
+  "rawSha256": "54d9a9a519d208ffc42e011ae846c7f43ba6d446be3059af17ab7633b09266a3",
+  "rawBytes": 1003739,
+  "sourcePayloads": [
+    {
+      "file": "sparql-results.json",
+      "sha256": "54d9a9a519d208ffc42e011ae846c7f43ba6d446be3059af17ab7633b09266a3",
+      "bytes": 1003739,
+      "records": 212,
+      "storedAt": "raw/sparql-results.json"
+    }
+  ],
+  "recordCount": 212,
+  "recordsSha256": "0ac0b61f27313bfd079e80dda29496bf2a23bb7c2432be4724b26f36b58e091a",
+  "warnings": [
+    "1851 SPARQL rows folded into 212 records by item id (multi-valued properties produce a cross-product).",
+    "wikidata:Q689791 states 2 LEIs (213800LEZA58SZNCBN19, 213800W6DPUGWBGTD766); all kept, none chosen between.",
+    "wikidata:Q694872 states 2 LEIs (213800A5UXABGUQ3PX11, 213800VL1H1ABVM1ZF63); all kept, none chosen between.",
+    "wikidata:Q7919317 states 2 LEIs (5493003DUEOIW0NPT736, 549300YD7MO7TUE8GX79); all kept, none chosen between.",
+    "wikidata:Q969760 states 2 LEIs (529900FSU45YYVLKB451, 529900EFI0OD4JHP6569); all kept, none chosen between.",
+    "wikidata:Q45557 states 2 LEIs (213800G7EG4156NNPG91, 213800MXXDGQ3ITPXI41); all kept, none chosen between."
+  ]
+}

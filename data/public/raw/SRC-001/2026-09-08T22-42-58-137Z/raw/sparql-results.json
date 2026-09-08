@@ -1,0 +1,444 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10972363"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JT1H4W9XL5LT32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Himalayan Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10972363"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "213800JT1H4W9XL5LT32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Himalayan Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13181317"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2138006VBU737LSOYW38"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zenith Finance Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zenith Finance Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13184141"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549008TZK21O538V203"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bank of Kathmandu Ltd."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13185689"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900NAZH4DXOL12Y19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Laxmi Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13185689"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900NAZH4DXOL12Y19"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Laxmi Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17107908"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900J5HFOUC3SLM620"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NMB Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17107908"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900J5HFOUC3SLM620"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "NMB Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19682668"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001A6GHO2T9RCO30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mega Bank Nepal Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mega Bank Nepal Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मेगा बैंक नेपाल लिमिटेड"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19682668"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549001A6GHO2T9RCO30"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mega Bank Nepal Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mega Bank Nepal Ltd."
+      },
+      "itemLabelHi" : {
+        "xml:lang" : "hi",
+        "type" : "literal",
+        "value" : "मेगा बैंक नेपाल लिमिटेड"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19713130"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900QBRJZY4ZF5KT45"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siddhartha Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25110229"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900WSSAQS6RU4SE89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sunrise Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25110229"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900WSSAQS6RU4SE89"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sunrise Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25110235"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549005NFP04P9CJUJ84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prabhu Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25110235"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "2549005NFP04P9CJUJ84"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prabhu Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6443607"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900LT6XJDNQSUIS05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kumari Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6443607"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900LT6XJDNQSUIS05"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kumari Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6956890"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900860GPB3ZDW1548"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nabil Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6956890"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900860GPB3ZDW1548"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nabil Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6994329"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900C6L8RLKUF1AG24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nepal Bank Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nepal Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6994329"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "254900C6L8RLKUF1AG24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nepal Bank Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nepal Bank Limited"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96112611"
+      },
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "335800LXWJ8LHZIRP203"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oriental Hotels Limited"
+      },
+      "official" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oriental Hotels Limited"
+      }
+    } ]
+  }
+}

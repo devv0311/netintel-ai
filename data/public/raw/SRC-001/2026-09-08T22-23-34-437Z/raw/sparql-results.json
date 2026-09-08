@@ -1,0 +1,62 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemLabelHi", "lei", "official", "shortName", "ocid", "cik", "countryCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466509"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900DIHMKE6EUEJW18"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Axpo BH d.o.o."
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466533"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "529900O0KUUWHZ46EZ32"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alpiq Energija BH društvo sa ograničenom odgovornošću za trgovinu i usluge"
+      }
+    }, {
+      "countryCode" : {
+        "type" : "literal",
+        "value" : "BA"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113466722"
+      },
+      "lei" : {
+        "type" : "literal",
+        "value" : "549300EIP9ILSN7JJD48"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Društvo Petrol BH Oil Company, d.o.o., Sarajevo"
+      }
+    } ]
+  }
+}
