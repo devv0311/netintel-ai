@@ -2,18 +2,19 @@
 
 ## Purpose
 
-This directory will hold the specification for the synthetic investigative dataset used to demonstrate CIPHER — its design, generation methodology, and documentation of what the dataset contains.
+This directory documents the **synthetic** investigative dataset used to
+demonstrate CIPHER, and how each implemented pipeline stage behaves on it. Each
+stage document is the canonical home for that stage's measured counts.
 
-## What Will Eventually Live Here
-
-- Specification of the synthetic scenario(s) used for demonstration
-- Data generation methodology and provenance for synthetic evidence
-- Documentation of entity types, relationship types, and evidence categories represented in the dataset
-- Ground-truth documentation supporting evaluation
+Real public-register data (Wikidata, GLEIF, SEC EDGAR) is a **separate data
+class** used only for resolver evaluation and ML training, never for the
+demonstration narrative. It is documented elsewhere: provenance and licensing in
+[`../data-research/source-registry.md`](../data-research/source-registry.md),
+datasets in [`../evaluation/ml-dataset-card.md`](../evaluation/ml-dataset-card.md).
 
 ## Current Status
 
-**Generated (P5.1).** The Operation DarkNet Delhi corpus now exists:
+**Generated (P5.1).** The Operation DarkNet Delhi corpus exists:
 
 - `synthetic-investigation-spec.md` — the case specification (design intent).
 - `ground-truth-spec.md` — the ground-truth specification.
@@ -26,7 +27,10 @@ This directory will hold the specification for the synthetic investigative datas
 The corpus data lives under `evidence/synthetic/` and
 `evidence/ground-truth/`; the generator is `src/lib/corpus/`.
 
-Each implemented pipeline stage is documented here as it lands:
+Each implemented pipeline stage is documented here, and each stage document
+owns its own measured counts — resolved entities, graph nodes and edges, signals,
+findings. Do not restate those numbers elsewhere; link to the stage document.
+Overall project state is in [`../progress/README.md`](../progress/README.md).
 
 - `ingestion.md` — evidence ingestion (P5.2)
 - `extraction.md` — structured extraction (P5.3)

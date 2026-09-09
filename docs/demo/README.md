@@ -2,23 +2,30 @@
 
 ## Purpose
 
-This directory will hold the demo runbook for CIPHER — the concrete steps to run and present the end-to-end demonstration once implemented.
+The demo contract and runbook for CIPHER — what the demonstration must prove, and
+how to run it.
 
-## What Will Eventually Live Here
+## Current contents
 
-- Step-by-step runbook for starting and operating the demo
-- Walkthrough of the intended demonstration flow (upload evidence → ingestion → extraction → entity resolution → graph synthesis → analytics → spatial/temporal corroboration → investigation copilot → dossier/report)
-- Presentation notes and talking points for stakeholders/judges
-- Known limitations to disclose during a live demo
+- **[demo-contract.md](./demo-contract.md)** — the minimum winning demonstration
+  and its observable success criteria, including the eight canonical investigator
+  questions the Copilot is measured against.
 
-## Current Status
+## Status
 
-**Empty.** No demo exists yet. This repository is currently in the pre-setup / foundation phase.
+**Contract defined; the flow it specifies is implemented and runnable.** The full
+pipeline — ingestion through dossier — runs locally against the Operation DarkNet
+Delhi synthetic corpus. The step-by-step walkthrough with the numbers each stage
+produces is in the repository [`README.md`](../../README.md#demo-workflow);
+current implementation status is in [`../progress/README.md`](../progress/README.md).
 
-## What Must NOT Be Prematurely Decided
+A presentation runbook (talking points, timing, rehearsal notes) has **not** been
+written — it belongs to M13, which has not started.
 
-- The specific UI or presentation technology
+## What must NOT be prematurely decided
+
 - Demo environment/hosting decisions
 - Claims of feature completeness that have not been implemented and verified
 
-This document must only describe what has actually been built and verified, never aspirational functionality presented as working.
+This directory must only describe what has actually been built and verified, never
+aspirational functionality presented as working.
