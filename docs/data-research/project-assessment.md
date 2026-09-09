@@ -4,6 +4,14 @@
 **Repository inspected:** `devv0311/netintel-ai` @ `master` (`4493a3e`, shallow clone, depth 50)
 **Supersedes:** parts of `recommendation-report.md` and `source-registry.md` — see §4
 
+> ### HISTORICAL — a point-in-time assessment, correct for `4493a3e` (2026-09-03).
+>
+> Every count below (ledger rows, file counts, milestone state) describes the
+> repository as it was at that commit, before the P6 public-data collection, the
+> P6.24–P6.28 ML work and the P6.29 corrections. It is kept as the record of what
+> was assessed, and is **not** a description of the project today. For that, read
+> [`../progress/README.md`](../progress/README.md).
+
 This is the Section 0 / Section 3 assessment that could not be produced earlier. It also
 corrects my own Phase 1 output, which was written against assumptions the codebase contradicts.
 

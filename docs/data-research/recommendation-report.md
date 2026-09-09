@@ -1,9 +1,36 @@
 # CIPHER — Source Recommendation Report (Phase 1D)
 
-**Date:** 2026-09-03 · **Phase:** 1 (research only) · **Collection status: NOT approved**
+**Date:** 2026-09-03 · **Phase:** 1 (research only) · **Collection status at the time of writing: NOT approved**
 
 Companion to [`source-registry.md`](./source-registry.md) and
 [`github-repository-audit.md`](./github-repository-audit.md).
+
+> ### Status as of P6.30 — read this before quoting anything below
+>
+> This is a **Phase 1 research document, dated 2026-09-03.** Its collection-status
+> lines were true then and are **superseded now**. Public-register collection was
+> subsequently approved and performed:
+>
+> | | Sources |
+> |---|---|
+> | **Researched** | 19, all in this registry |
+> | **Approved and COLLECTED** | **3** — `SRC-001` Wikidata (CC0 1.0), `SRC-002` GLEIF LEI L1+L2 (CC0 1.0), `SRC-006` SEC EDGAR (US public domain) |
+> | **Implemented collectors** | those three only, in `scripts/collect-public.ts` (`npm run collect:public`), registry-gated and bounded; raw payloads committed under `data/public/raw/SRC-001|002|006/` with source, retrieval time, licence and payload hash |
+> | **Researched but never collected or integrated** | the other 16, including DocRED, Naamapadam, FEVER and OpenSanctions |
+>
+> **A source listed here is a recommendation, not an integration.** Nothing below
+> may be read as describing data the project holds. Real public-register data is
+> used only for resolver evaluation and ML training — never in the demonstration
+> narrative, and never mixed with the synthetic corpus. Current provenance and
+> dataset state: [`../evaluation/ml-dataset-card.md`](../evaluation/ml-dataset-card.md).
+
+> **Specific to this report:** it recommends five sources to start — Wikidata,
+> GLEIF, SEC EDGAR, DocRED and Naamapadam, plus FEVER in a licence-isolated
+> partition. **Three were collected** (Wikidata, GLEIF, SEC EDGAR). **DocRED,
+> Naamapadam and FEVER were never collected, vendored or integrated**, and no
+> licence-isolated partition exists. Its recommendation to keep Operation
+> DarkNet Delhi as an evaluation harness and never train on it **was adopted and
+> still holds.**
 
 ---
 

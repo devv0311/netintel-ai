@@ -1,8 +1,28 @@
 # Real-World Generalisation Test — Design (NOT EXECUTED)
 
-**Date:** 2026-09-03 · **Status:** design only. **No data has been collected. The research gate remains closed.**
-**Blocked on:** the Option B decision (`docs/architecture/public-data-schema-options.md`) and the fix to `er.mentionCoverage`
-**Depends on:** `docs/data-research/public-data-adapter-design.md`
+**Date:** 2026-09-03 · **Status when written:** design only.
+**Blocked on at the time:** the Option B decision (`../architecture/public-data-schema-options.md`) and the fix to `er.mentionCoverage`
+**Depends on:** `../data-research/public-data-adapter-design.md`
+
+> ### SUPERSEDED — the question was answered, twice, on real data. Retained as the design.
+>
+> Both blockers below were cleared. Option B was taken and implemented, and real
+> public-register collection was approved and performed (P6.5 onward).
+>
+> - **Partially executed against a synthetic stand-in.** `npm run experiment:generalisation`
+>   ran this protocol over `evidence/public-pilot/name-morphology.corpus.json` — a
+>   **synthetic** name-morphology fixture with deliberately fake identifiers, built
+>   because real collection was blocked by egress policy at the time. Results:
+>   `reports/generalisation/generalisation-results.json`. Its rates are properties
+>   of that fixture by construction and say **nothing** about how often each
+>   variation occurs in GLEIF or Wikidata.
+> - **Answered on real data by later work.** The real-world version of this
+>   question — does the deterministic resolver hold up on real entity variation
+>   without identifiers — was measured on collected public-register records in
+>   [`no-identifier-experiment.md`](./no-identifier-experiment.md) (P6.16),
+>   [`name-normalization-and-resolution-semantics.md`](./name-normalization-and-resolution-semantics.md)
+>   (P6.17) and [`expanded-corpus-and-ml-readiness.md`](./expanded-corpus-and-ml-readiness.md) (P6.19).
+>   Those are the canonical answers; this document is the design that framed them.
 
 ---
 

@@ -2,6 +2,15 @@
 
 **Date:** 2026-09-03 · **Phase:** 1 (research only) · **Nothing installed, nothing vendored yet.**
 
+> ### HISTORICAL — and still accurate on the point that matters.
+>
+> **Nothing in this audit was ever adopted, installed or vendored.** No
+> `followthemoney` schema, no third-party resolver, no external ontology entered
+> the codebase; the entity model in `src/lib/domain/` is the project's own. Read
+> the recommendations below as research that was considered and not taken, never
+> as a description of dependencies. Current stack:
+> [`../architecture/stack-contract.md`](../architecture/stack-contract.md).
+
 Scope: what each repository actually does, what is reusable, what is *not* reusable, and where
 code licensing and data licensing diverge.
 

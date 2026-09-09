@@ -106,8 +106,8 @@ export function computeLayout(nodes: LayoutNode[], edges: LayoutEdge[]): Map<str
     }
 
     // Attraction — spring force along real edges only. Scaled down from
-    // the textbook Fruchterman-Reingold `dist^2/k`: with ~196 edges over
-    // only 68 nodes (avg degree ~5.8), unscaled attraction compounds
+    // the textbook Fruchterman-Reingold `dist^2/k`: with ~191 edges over
+    // only 75 nodes (avg degree ~5.1), unscaled attraction compounds
     // across every node's several simultaneous edges and overwhelms
     // repulsion, collapsing the whole layout into a dense, unreadable
     // core regardless of how large `k`/AREA is set.

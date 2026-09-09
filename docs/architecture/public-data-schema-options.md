@@ -1,7 +1,22 @@
 # Public-Data Schema Options (Decision Required)
 
-**Date:** 2026-09-03 · **Status:** decision pending — **no schema change has been made**
-**Inputs:** `docs/architecture/current-system-assessment.md`, `docs/data-research/source-registry.md`, `reports/evaluation/evaluation-summary.md`
+**Date:** 2026-09-03 · **Status when written:** decision pending — no schema change had been made.
+**Inputs:** `./current-system-assessment.md`, `../data-research/source-registry.md`, `../../reports/evaluation/evaluation-summary.md`
+
+> ### DECIDED — **Option B was taken and implemented.** Retained as the record of the reasoning.
+>
+> `EVIDENCE_ITEM_TYPES` (`src/lib/domain/evidence.ts`) is now a **thirteen**-value
+> enum. The added value is **`public_record`**: the single type through which
+> externally-fetched data may enter the pipeline, its content shape enforced by
+> `PublicRecordContentSchema` and its mandatory source, licence and retrieval
+> metadata carried with every row. The original twelve investigative types are
+> unchanged, so the synthetic demonstration path is untouched.
+>
+> The two data classes stay strictly apart: real public-register records are used
+> for resolver evaluation and ML training only, never in the demonstration
+> narrative. The "466 passing tests" figure cited in Option A below was the count
+> at 2026-09-03 — current validation state is in
+> [`../progress/README.md`](../progress/README.md) §5.
 
 ---
 

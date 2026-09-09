@@ -3,6 +3,19 @@
 **Date:** 2026-09-03
 **Supersedes:** the "egress is blocked, full stop" conclusion recorded in P6.5/P6.6
 
+> ### SUPERSEDED IN TURN, at P6.12. Retained as the record of the diagnosis.
+>
+> The `query.wikidata.org` / `www.wikidata.org` **BLOCKED** rows below were a
+> correct observation with an incomplete cause. P6.12 found it: Node's `fetch`
+> ignores `https_proxy`/`no_proxy` entirely, so the collector was going *around*
+> the environment's egress proxy rather than through it. `npm run collect:public`
+> now passes `--use-env-proxy`, and Wikidata has been collected directly since.
+>
+> The general lesson is the durable part, and it is the reason this document is
+> kept: **an egress allowlist is an environment blocker, not a publisher refusal
+> and not a product failure.** Diagnose which one you have before designing
+> around it.
+
 ## Summary
 
 | Publisher | Direct socket (`fetch`/`curl`) | Operator web tool | Usable for the pilot |

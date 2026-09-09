@@ -1,5 +1,5 @@
 /**
- * P6.25.6 — the model inside CIPHER.
+ * The model inside CIPHER (P6.25.6; artifact updated to E2 at P6.28).
  *
  * WHAT THIS IS NOT. It is not a resolution tier, it does not merge
  * anything, and no code path in `src/lib/resolution/` calls it. The
@@ -9,33 +9,36 @@
  *
  * WHY IT IS ADVISORY, IN THE NUMBERS THAT DECIDED IT.
  *
- * On the P6.25.5 FINAL frozen test — 5,257 pairs over 963 subjects that
- * appear in no partition of any earlier dataset, collected after the
- * feature work was finished, and scored once — the model recovers 76.5%
- * of real positive pairs against the deterministic resolver's 48.7%.
- * That is the case for having it.
+ * The shipped artifact is E2 / v2.2.0, selected at P6.28 under a rule
+ * frozen before the test that judged it existed, and measured ONCE on
+ * frozen test #4 — 40,004 real pairs over 4,709 subjects appearing in no
+ * partition of any of the seven earlier datasets. It recovers 4,395 of
+ * 4,672 true same-entity pairs where the deterministic resolver recovers
+ * 1,162. That is the case for having it.
  *
  * The case against promoting it is the same table's other column. Over
- * the 244 CURATED HARD NEGATIVES — genuine name collisions between
+ * the 2,049 CURATED HARD NEGATIVES — genuine name collisions between
  * entities with different, publisher-issued identifiers — the model
- * suggests a merge for 41 of them, 16.8%, where the resolver merges 16,
- * 6.6%. It is roughly two and a half times more likely to be wrong about
- * precisely the pairs that are hard.
+ * suggests a merge for 111 where the resolver merges 5. It is far more
+ * likely to be wrong about precisely the pairs that are hard.
  *
- * And the errors are not scattered. Every one of the 46 false merges on
- * that test is a CORPORATE-FAMILY pair: BARCLAYS PLC against BARCLAYS
- * BANK PLC, ROLLS-ROYCE HOLDINGS PLC against ROLLS-ROYCE PLC, AMUNDI
- * against AMUNDI ASSET MANAGEMENT, Virgin Australia against Virgin
- * Australia Holdings, Renault against RENAULT SAS. These are exactly the
- * pairs P6.21.2 is about, and whether a parent and its subsidiary may
- * ever be one entity is an owner decision that has not been taken.
- * Promoting this score to a merge would take that decision by accident,
- * so it stays a suggestion until someone decides on purpose.
+ * And the errors are not scattered. 286 of its 289 false merges are
+ * CORPORATE-FAMILY pairs: a company against a same-named affiliate
+ * carrying a different registration — `SIHOTPARK B s.r.o.` against
+ * `SIHOTPARK`, `Mercurtrade` against `Mercurtrade Holding`. These are
+ * exactly the pairs P6.21.2 is about, and whether a parent and its
+ * subsidiary may ever be one entity is an owner decision that has not
+ * been taken. Promoting this score to a merge would take that decision
+ * by accident, so it stays a suggestion until someone decides on purpose.
  *
  * So the contract here is deliberately narrow: a probability, the
  * threshold it is judged against, the model version that produced it,
  * and every feature value behind it. An investigator is shown a
  * SUGGESTION with its evidence, never a fact.
+ *
+ * Canonical for these figures, and for the limits of the instrument that
+ * produced them: `docs/evaluation/ml-final-test-4.md` and
+ * `docs/evaluation/ml-model-card.md`. Do not restate them elsewhere.
  */
 
 import artifactDocument from "../../../models/cipher-er-pair-classifier.v2lr.json";

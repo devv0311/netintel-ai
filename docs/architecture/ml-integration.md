@@ -17,38 +17,49 @@ The deterministic resolver decides merges. The model produces a score.
 
 ## 2. Why it stays advisory
 
-Measured on the **final frozen test** — 5,257 pairs over 963 subjects
-that appear in no partition of any earlier dataset, collected after all
-feature work and scored once:
+The shipped artifact is **E2 / v2.2.0** (`models/cipher-er-pair-classifier.v2lr.json`,
+31 trainable features), selected at P6.28 under a rule frozen before the test
+that judged it existed. Measured **once** on frozen test #4 — 40,004 pairs over
+4,709 subjects appearing in no partition of any of the seven earlier datasets,
+declared before collection and collected before scoring
+(`reports/ml/final-test-4-evaluation-v2lr.json`):
 
 | | Deterministic resolver | Model |
 | --- | --- | --- |
-| Positive-pair recovery | 434/892 (48.7%) | **682/892 (76.5%)** |
-| Curated hard-negative false merges | 16/244 (6.6%) | **41/244 (16.8%)** |
+| Positive-pair recovery | 1,162/4,672 (24.9%) | **4,395/4,672 (94.1%)** |
+| Curated hard-negative false merges | 5/2,049 (0.24%) | **111/2,049 (5.42%)** |
+| Wholly unrelated merges | 0 | **1** |
 
-The first row is why the model ships. The second is why it ships as a
-suggestion: it is roughly two and a half times more likely than the
-resolver to be wrong about precisely the pairs that are hard.
+The first row is why the model ships. The second is why it ships as a suggestion:
+it is roughly twenty times more likely than the resolver to be wrong about
+precisely the pairs that are hard.
 
-And the errors are one phenomenon, not forty-six. **Every** false merge
-is a corporate-family pair — `BARCLAYS PLC` against `BARCLAYS BANK PLC`,
-`ROLLS-ROYCE HOLDINGS PLC` against `ROLLS-ROYCE PLC`, `AMUNDI` against
-`AMUNDI ASSET MANAGEMENT`, `Renault` against `RENAULT SAS`. At scores
-≥0.98 no threshold separates them from true positives, so this is not
-something calibration fixes.
+And the errors are one phenomenon, not 289. **286 of its 289 false merges are
+corporate-family pairs** — a company against a same-named affiliate carrying a
+different registration (`SIHOTPARK B s.r.o.` / `SIHOTPARK`, `Mercurtrade` /
+`Mercurtrade Holding`). At scores above the threshold no calibration separates
+them from true positives.
 
-P6.20.3 measured that GLEIF publishes a consolidation edge for pairs of
-this shape, and P6.21.2's Policy B would refuse them — but Policy B is
-one of four owner decisions that remain unapproved. Promoting this score
-to a merge would settle that decision by accident, in code, without
-anyone taking it. So it does not.
+P6.20.3 measured that GLEIF publishes a consolidation edge for pairs of this
+shape, and P6.21.2's Policy B would refuse them — but Policy B is one of the
+owner decisions that remain unapproved. Promoting this score to a merge would
+settle that decision by accident, in code, without anyone taking it. So it does not.
+
+> **Scope of this table.** It is the model's only measurement, and the
+> instrument's limits are reported with it, not after it: test #4 is an *easier*
+> distribution than test #3, holds 30 cross-border positives and **zero** Latvian
+> pairs. Full record — including what this measurement does **not** establish —
+> in [`../evaluation/ml-final-test-4.md`](../evaluation/ml-final-test-4.md) §4 and
+> [`../evaluation/ml-model-card.md`](../evaluation/ml-model-card.md) §6.
+> Those two documents are canonical for every ML figure; this one is canonical
+> only for the integration boundary.
 
 ## 3. Modules
 
 | Module | Responsibility |
 |---|---|
 | `src/lib/ml/similarity.ts` | string primitives — Levenshtein, Jaro-Winkler, trigram Dice, token set ops, script class |
-| `src/lib/ml/features.ts` | the 27-feature vector (26 trainable), the leakage contract, and the deterministic pair rule replayed |
+| `src/lib/ml/features.ts` | the 32-name feature vector (**31 trainable** — `officialNameBothPresent` is computed and excluded), the leakage contract, and the deterministic pair rule replayed |
 | `src/lib/ml/metrics.ts` | precision/recall/F1, ROC-AUC, PR-AUC, false-merge and false-split rates, threshold selection under an overall **and** a hard-negative ceiling |
 | `src/lib/ml/train.ts` | logistic regression and gradient-boosted trees; no dependency |
 | `src/lib/ml/model.ts` | artifact type, canonical serialisation, sha256, `weightsDigest`, `loadArtifact`, `scoreWithModel` |
@@ -85,9 +96,9 @@ Four properties are load-bearing:
    rather than recomputed, so a caller cannot display a score next to a
    verdict it disagrees with.
 4. **The disclaimer names the known failure mode with its measurement**
-   at the point of use, not only in a document: it states the 16.8%
-   against 6.6% hard-negative comparison and that every error was a
-   corporate-family pair. A caution that gives the number is one a
+   at the point of use, not only in a document: it states the model's
+   hard-negative false-merge rate against the resolver's, and that the error
+   class is corporate-family pairs. A caution that gives the number is one a
    reviewer can act on; one that gestures at a risk is not.
 
 ## 5. Versioning and the artifact
@@ -124,8 +135,11 @@ not a claim tested across two implementations.
 
 - No resolution semantics, no graph semantics, no data model.
 - No UI. The e2e suite's `data-testid`, accessible-name and label
-  contracts are untouched, and the three pre-existing Playwright failures
-  recorded in P6.23.2 are neither fixed nor re-baselined here.
+  contracts are untouched by the ML work. (The three pre-existing Playwright
+  failures P6.23.2 recorded were later resolved at their own cause in P6.29 —
+  stale spec constants plus one masked resolution-label defect — with nothing in
+  `src/lib/ml/`, `models/` or `src/lib/resolution/` touched. See
+  [`../progress/README.md`](../progress/README.md) §2.)
 - The API route's request and response shapes. Only the model behind it,
   the feature count in `evidence`, and the disclaimer text changed.
 - No new dependency in `package.json`.
@@ -138,9 +152,9 @@ enabled and measured; the threshold re-selected against the constraint;
 and a resolution tier with its own confidence, its own decision-row type
 and its own audit trail — none of which exists today.
 
-P6.25 adds one measured prerequisite to that list. On the final frozen
-test the model merges 16.8% of curated hard negatives against the
-resolver's 6.6%, and **every** error is a corporate-family pair. Until
-that gap closes, promotion would not merely pre-empt the policy decision
-— it would make the product measurably worse at the one thing a resolver
-must not get wrong.
+There is one measured prerequisite on top of those. On frozen test #4 the
+model merges **5.42%** of curated hard negatives against the resolver's
+**0.24%**, and 286 of its 289 false merges are corporate-family pairs. Until
+that gap closes, promotion would not merely pre-empt the policy decision — it
+would make the product measurably worse at the one thing a resolver must not
+get wrong.

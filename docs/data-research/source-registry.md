@@ -2,9 +2,28 @@
 
 **Phase:** 1 (research only)
 **Date:** 2026-09-03
-**Status:** Research complete for the sources listed. **Large-scale collection NOT approved.**
+**Status at the time of writing:** research complete for the sources listed; large-scale collection NOT approved. **See the status banner below for what has since been approved and collected.**
 **Machine-readable companion:** [`source-registry.csv`](./source-registry.csv) (19 sources × 46 fields — the 35 specified in the brief, plus 9 per-task fit scores, `task_total` and `tier`)
 **Regenerate with:** `python3 scripts/build_source_registry.py`
+
+> ### Status as of P6.30 — read this before quoting anything below
+>
+> This is a **Phase 1 research document, dated 2026-09-03.** Its collection-status
+> lines were true then and are **superseded now**. Public-register collection was
+> subsequently approved and performed:
+>
+> | | Sources |
+> |---|---|
+> | **Researched** | 19, all in this registry |
+> | **Approved and COLLECTED** | **3** — `SRC-001` Wikidata (CC0 1.0), `SRC-002` GLEIF LEI L1+L2 (CC0 1.0), `SRC-006` SEC EDGAR (US public domain) |
+> | **Implemented collectors** | those three only, in `scripts/collect-public.ts` (`npm run collect:public`), registry-gated and bounded; raw payloads committed under `data/public/raw/SRC-001|002|006/` with source, retrieval time, licence and payload hash |
+> | **Researched but never collected or integrated** | the other 16, including DocRED, Naamapadam, FEVER and OpenSanctions |
+>
+> **A source listed here is a recommendation, not an integration.** Nothing below
+> may be read as describing data the project holds. Real public-register data is
+> used only for resolver evaluation and ML training — never in the demonstration
+> narrative, and never mixed with the synthetic corpus. Current provenance and
+> dataset state: [`../evaluation/ml-dataset-card.md`](../evaluation/ml-dataset-card.md).
 
 ---
 

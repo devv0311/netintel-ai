@@ -7,16 +7,40 @@
 ## Project Status
 
 ```text
-Status: Early Implementation
+Status: Implemented end to end on synthetic data · P6 ML closed · M10 UI in progress
 ```
 
-The repository foundation, governance, requirements/data/agent/demo/evaluation contracts, and the technology stack (ADR-001) are complete. The application bootstrap (P4.1) and the domain/data foundation (P4.2) — typed domain models, deterministic IDs, executable provenance, a migrated SQLite schema, and a validated fixture-loading boundary — are in place. The full synthetic investigation corpus (P5.1) — Operation DarkNet Delhi, generated deterministically from a fixed version/seed: 5 FIRs, 8 suspects, 1,150 CDRs, 560 transactions and supporting records, with a held-out ground-truth answer key kept isolated from the evidence path (`docs/data/corpus.md`) — exists under `evidence/`. The **evidence ingestion workflow** (P5.2) is implemented: a real, streamed, 8-stage pipeline (validate → normalize → assign deterministic IDs → attach provenance → persist) that loads the corpus into the application and shows the investigation loaded with its evidence summary; deterministic and idempotent (`docs/data/ingestion.md`). The **evidence extraction workflow** (P5.3) is implemented: a real, streamed, 7-stage pipeline (select evidence → parse content → extract explicit facts → validate → attach provenance → persist) that structures every explicitly-stated fact across the 12 evidence types into 1,996 extracted records, each classified Observed Fact with full provenance; deterministic and idempotent, with no entity resolution or investigative inference performed (`docs/data/extraction.md`). The **entity resolution workflow** (P5.4) is implemented: a real, streamed, 8-stage pipeline (select records → canonicalize identifiers → cluster identities → resolve mentions → validate → attach provenance → persist) that resolves 1,996 extracted facts into 61 canonical entities (17 people, 44 phone/IMEI/vehicle/bank-account identifiers) and 25 aliases via 133 resolution decisions, each classified AI Inference with full provenance back to the extracted record it came from; deterministic and idempotent, with every merge justified by a shared identifier or an unambiguous exact-name match — ambiguous name matches are left deliberately unmerged, never force-resolved (`docs/data/resolution.md`). The **graph synthesis workflow** (P5.5) is implemented: a real, streamed, 10-stage pipeline (load resolved entities → load extracted records → map evidence to canonical entities → construct candidates → validate endpoints → construct edges → attach provenance → persist → build in-memory graph → result) that assembles 61 canonical entities and 14 real locations into 75 graph nodes and 191 relationship edges (ownership, communication, financial, co-location), each with full provenance and an evidence-classification label; deterministic and idempotent, with the deliberately hidden S1↔S4 connection staying structurally indirect and the money-mule chain represented only through real account entities (`docs/data/graph.md`). The sidebar's Graph screen is live: node/edge selection, filtering, and full evidence traceability from any relationship back to its source. The **topology analytics workflow** (P5.6) is implemented: a real, streamed, 10-stage pipeline (load graph state → build analysis graph → compute centrality → compute bridges → compute communities → compute ranking → validate → attach provenance → persist → result) that computes deterministic degree, degree/betweenness centrality, bridge/intermediary detection, Louvain community clustering, and a combined structural-prominence ranking over the 75-node, 191-edge graph, plus live relationship-type-filterable shortest-path queries — every result classified Algorithmic Signal and explicitly labeled "never a claim of guilt or criminal involvement" (`docs/data/analytics.md`). The sidebar's Analytics screen is live: ranked/bridge/community views, entity metric detail, a shortest-path panel, and cross-navigation back to the Graph screen. The **spatial & temporal corroboration workflow** (P5.7) is implemented: a real, streamed, 10-stage pipeline (load graph state & observable activity → build activity index → compute spatial corroboration → compute temporal corroboration → compute spatiotemporal overlap & contradictions → classify → validate → attach provenance → persist → result) that compares 3,332 persisted communication/financial activity events to find co-location, haversine proximity within a documented 1 km threshold, shared 30-minute time windows, repeated spatiotemporal overlap, and travel-speed contradictions — 456 findings over the full corpus, each classified either **Corroborated Fact** (independent evidence agrees) or **Algorithmic Signal** (a derived pattern), never an observed fact, and never a claim that two entities were together or that timing implies contact (`docs/data/corroboration.md`). The sidebar's Corroboration screen is live: an entity-pair overlap roll-up, spatial/temporal/repeated-overlap/contradiction views with a corroborated-fact vs algorithmic-signal filter, a timeline, side-by-side conflicting placements, and a detail panel with the full provenance chain and cited evidence ids. The **dossier / report workflow** (P5.9) is implemented: a real, streamed, 11-stage pipeline (load case state → assemble summary & evidence inventory → assemble entities & relationships → assemble signals & corroboration → assemble contradictions & leads → collect Copilot material → compose report → validate → verify traceability → persist → result) that assembles what the earlier stages already established into one twelve-section investigator-facing report — 104 findings over the full corpus, each carrying the classification and confidence of the record it came from and resolving to persisted ids. The dossier is an assembly, never a new analysis: it never re-derives, never re-labels, and never promotes a claim — an Algorithmic Signal stays an Algorithmic Signal, a contradiction stays a contradiction, and a lead stays a lead, enforced by the schema rather than by convention. Generation fails loudly and writes nothing if any claim cannot be classified or traced; it is deterministic and idempotent, and never requires a live AI request (`docs/data/dossier.md`). The sidebar's Dossier screen is live: every finding shows its own classification and confidence inline and expands to its explanation, the persisted ids behind it, its full provenance chain, and cross-navigation into the Evidence, Graph, Analytics and Corroboration screens. The **Investigation Copilot** (P5.8) is implemented and verified: a real, streamed, 9-stage pipeline (parse & normalize the question → ground entity/alias/identifier references → deterministic structured retrieval → assemble a handle-addressed evidence pack → build the grounded claim set → synthesize prose over it → validate against the strict response contract → verify every citation resolves → result) that answers an investigator's question grounded only in already-persisted case intelligence. A language model never contributes a fact: every claim is built in deterministic TypeScript from persisted records and carries that record's own classification and confidence; the model is handed a handle-addressed claim set and asked for wording only, and its output is discarded whole if a guardrail catches a fabricated identifier, an uncited claim, an unsupported contact/causation phrase, or a citation that does not resolve. Ambiguous references are surfaced with their candidates, unanswerable questions return an explicit "insufficient evidence", conflicts are reported and never resolved, and with no `AI_PROVIDER_API_KEY` the deterministic narration of the same grounded claim set is served and labelled as such. All eight canonical demo-contract questions answer, fully cited and classified; four reproduce the ground-truth narrative exactly and four are grounded-but-divergent for documented reasons (`docs/data/copilot.md`). The sidebar's "Ask a Question" screen is live once corroboration completes.
+**Canonical current state — what is built, closed, in progress, blocked and next —
+is [`docs/progress/README.md`](./docs/progress/README.md).** Per-task truth, with
+commit hashes and evidence, is the
+[implementation ledger](./docs/progress/implementation-ledger.md). This section is
+a summary and defers to both.
 
-The **entity-resolution model** (P6.25) is trained and integrated as an advisory signal. It reads **no identifier**, because every label in the project is derived from identifier agreement and an identifier feature would be the answer rather than evidence; the leakage gate enforces that in the type system, in the data and by inspection. **It does not merge anything.** `src/lib/resolution/` is unchanged and remains the sole authority on identity; the model emits an `algorithmic_signal` carrying its score, threshold, model version, the deterministic verdict beside it, and every feature value behind the number, so a suggestion is always shown with its evidence and never as a fact.
+The full demonstration pipeline runs end to end, locally and deterministically,
+against the Operation DarkNet Delhi synthetic corpus — ingestion → extraction →
+deterministic entity resolution → graph synthesis → topology analytics →
+spatial/temporal corroboration → grounded Investigation Copilot → dossier. No
+Docker, and no network call is required at any stage. Each stage's contract,
+guarantees and measured counts live in its own document under
+[`docs/data/`](./docs/data/), which is canonical for those numbers.
 
-Measured on the **fourth frozen test** (P6.28) — 40,004 real record pairs over 4,709 subjects appearing in no partition of any of the seven earlier datasets, declared before collection, collected before scoring and scored **once** — the shipped model recovers **4,395 of 4,672** true same-entity pairs where the deterministic resolver recovers **1,162**. Both halves are reported. Over the 2,049 curated hard negatives it suggests a merge for **111** where the resolver merges **5**, and **286 of its 289 false merges are corporate-family pairs** — a company against a same-named affiliate carrying a different registration. That is the still-undecided P6.21.2 policy question with a number attached, and it is why the score stays advisory rather than being promoted. The instrument's own limits are reported with the result and not after it: test #4 is an **easier** distribution than test #3 (91.6% of its positives are in the three easy name-variation classes against 67.6%), it is narrow in jurisdiction (25 countries, no non-Latin script), it holds only **30** cross-border positives, and it contains **zero** Latvian pairs — so the cross-border and Latvian questions are open rather than answered (`docs/evaluation/ml-final-test-4.md`, `docs/evaluation/ml-model-card.md`, `docs/architecture/ml-integration.md`).
+An **advisory** entity-resolution model (P6.24–P6.28) ships alongside. It reads
+**no identifier** — every label in the project is derived from identifier
+agreement, so an identifier feature would be the answer rather than evidence —
+and **it does not merge anything.** `src/lib/resolution/` is unchanged and remains
+the sole authority on identity; the model emits an `algorithmic_signal` carrying
+its score, threshold, model version, the deterministic verdict beside it, and
+every feature value behind the number, so a suggestion is always shown with its
+evidence and never as a fact. Its one measurement, the limits of the instrument
+that produced it, and the reason it stays advisory are in
+[`docs/evaluation/ml-final-test-4.md`](./docs/evaluation/ml-final-test-4.md) and
+[`docs/evaluation/ml-model-card.md`](./docs/evaluation/ml-model-card.md); how it is
+exposed is in [`docs/architecture/ml-integration.md`](./docs/architecture/ml-integration.md).
+Those are the only places ML figures are quoted.
 
-P6.25 also recorded two findings about the **superseded P6.24 model**, both kept in the repository rather than regenerated away. Scored on pairs it was never fitted on it recovers **2.7%** of positives at its own frozen threshold — it had learned that "both records state a jurisdiction" meant "same-source", true for 0 of 222 positives in that corpus, because Wikidata published no jurisdiction at all. Leakage check **L7 provably cannot catch that class of artefact**, so **L12** was added to test for it directly; `reports/ml/leakage-audit.json` records the P6.24 dataset failing it. Separately, a frozen test can thaw when a corpus grows — components move, and five P6.24 test subjects landed in training the first time the new corpus was built — so **L11** now makes the freeze a ratchet across dataset versions.
+Remaining: the Map, Timeline and rich Evidence surfaces of the UI milestone (M10),
+then integration hardening, evaluation and demo rehearsal (M11–M13). One owner
+decision is open — parent/subsidiary policy, P6.21.2.
 
 ## ⚠️ Important Disclaimer
 
@@ -49,9 +73,11 @@ Since P6.5 the project also uses **real, openly licensed public-register data** 
 
 Operation DarkNet Delhi is registered **EVALUATION ONLY** and is **never** represented as real investigative data. The real public-register data contains no personal, private or restricted information: only company-level records under CC0 or public-domain terms, every one carrying its source, retrieval time, licence and payload hash.
 
-## Intended Demonstration Flow
+## Demonstration Flow
 
-The following describes the **intended** end-to-end workflow this project aims to demonstrate. It reflects project direction, not current implementation status.
+Every stage below is **implemented and runnable** — see [Demo workflow](#demo-workflow)
+for the walkthrough, and [`docs/data/`](./docs/data/) for each stage's contract and
+measured output.
 
 ```text
 Upload Evidence
@@ -77,35 +103,34 @@ Dossier / Report
 
 ```text
 netintel-ai/
+├── CLAUDE.md              # Durable AI operating rules — read first
 ├── docs/                  # Project documentation
-│   ├── architecture/        # ADR-001 technology stack + stack contract
-│   ├── contracts/            # Interface / data contracts between components
-│   ├── data/                  # Synthetic data specification and generation notes
-│   ├── demo/                   # Demo runbook and walkthrough materials
-│   ├── evaluation/               # Evaluation methodology and criteria
-│   └── progress/                  # Implementation ledger and visual-progress evidence
-├── evidence/               # Synthetic evidence artifacts used by the demo
-│   ├── ground-truth/         # Known-correct answers for synthetic scenarios
-│   │   └── fixtures/           # Small ground-truth fixtures for testing (not the full dataset)
-│   └── synthetic/              # Generated synthetic evidence (documents, records, etc.)
-│       └── fixtures/             # Small synthetic fixtures for testing (not Operation DarkNet Delhi)
-├── evaluation/             # Evaluation scripts and results
-├── scripts/                # Utility and automation scripts
+│   ├── architecture/        # ADR-001 stack, stack contract, ML integration boundary
+│   ├── contracts/            # Interface / data contracts between pipeline stages
+│   ├── data/                  # Synthetic corpus spec + one document per implemented stage
+│   ├── data-research/          # Phase-1 public-source research, registry, licensing
+│   ├── demo/                    # Demo contract
+│   ├── evaluation/               # Evaluation + ML methodology, model/dataset cards, frozen tests
+│   ├── progress/                  # Canonical project status, implementation ledger, visual evidence
+│   └── training/                   # Training-feasibility record (historical)
+├── evidence/               # Corpora — synthetic demo data and real public-register datasets
+│   ├── ground-truth/         # Held-out answer key for the synthetic scenario
+│   ├── synthetic/             # Operation DarkNet Delhi (the demonstration corpus)
+│   ├── expanded*/ · final-test*/ · ml/ · no-identifier/ · public-pilot/
+│   │                           # Real public-register corpora and frozen ML test sets
+├── models/                 # Trained model artifacts (JSON; the shipped one is v2lr)
+├── reports/                # Generated evaluation, experiment and ML reports — never hand-edited
+├── data/                   # Local SQLite databases (git-ignored) + committed public/raw payloads
+├── scripts/                # Corpus generation, evaluation, public collection, scripts/ml/ training
 ├── src/                    # Application source (Next.js App Router)
 │   ├── app/                  # Routes, layout, global styles
 │   ├── components/            # UI — components/ui (shadcn primitives), components/shell (app shell)
-│   └── lib/                     # ai/, analytics/ (P5.6 topology analytics pipeline), copilot/
-│                                   (investigation Copilot), corroboration/ (P5.7 spatial/temporal
-│                                   corroboration pipeline), corpus/
-│                                   (deterministic corpus generator/loader), db/ (schema + validated
-│                                   repository), domain/ (typed domain models), env, extraction/ (P5.3
-│                                   extraction pipeline), fixtures/ (synthetic + ground-truth loaders),
-│                                   graph/ (P5.5 graph synthesis pipeline), ingestion/ (P5.2 ingestion
-│                                   pipeline), dossier/ (P5.9 dossier/report pipeline), pipeline/,
-│                                   resolution/ (P5.4 entity resolution pipeline), utils
+│   └── lib/                     # adapters/ (public-register collectors), ai/, analytics/, copilot/,
+│                                   corpus/, corroboration/, db/, domain/, dossier/, evaluation/,
+│                                   extraction/, fixtures/, graph/, ingestion/, ml/ (advisory
+│                                   classifier), pipeline/, resolution/ (FROZEN), utils
 ├── tests/                  # tests/unit (Vitest), tests/e2e (Playwright)
 ├── drizzle/                # Generated SQL migrations
-├── data/                   # Local SQLite database (git-ignored, created on first run)
 ├── package.json, tsconfig.json, next.config.ts, drizzle.config.ts,
 │   vitest.config.ts, playwright.config.ts, components.json
 ├── .env.example            # Environment variable template (no real secrets)
@@ -145,7 +170,17 @@ Deliberately **not** used: Neo4j, PostgreSQL, vector databases, Docker for appli
 
 ## Getting Started
 
-**Status**: the application foundation (P4.1), domain/data foundation (P4.2), the synthetic corpus (P5.1), the **evidence ingestion workflow** (P5.2), the **evidence extraction workflow** (P5.3), the **entity resolution workflow** (P5.4), the **graph synthesis workflow** (P5.5), the **topology analytics workflow** (P5.6), and the **spatial & temporal corroboration workflow** (P5.7) are in place. You can load the Operation DarkNet Delhi synthetic corpus through a real ingestion pipeline, extract every explicitly-stated fact from it into provenance-tracked, Observed-Fact-classified records, resolve those facts into canonical entities and aliases, synthesize a browsable investigative graph, compute deterministic structural analytics over it — centrality, bridges, communities, a structural-prominence ranking, and shortest-path queries — and corroborate spatially and temporally: where entities were active, what shared a location or a 30-minute window, which pairs repeatedly overlapped, and which placements are physically impossible — every signal traceable back to the graph edges and extracted evidence that justify it, and every corroboration finding classified Corroborated Fact or Algorithmic Signal, never an observed fact or a claim of guilt. The **Investigation Copilot** (P5.8) answers a natural-language investigative question grounded only in that persisted intelligence — every claim built deterministically from a persisted record and carrying its classification and confidence, a model used for wording only and its output discarded if it fabricates or over-asserts, ambiguity and insufficient evidence surfaced rather than guessed, and a deterministic narration served when no model key is configured. Finally, the **dossier / report workflow** (P5.9) assembles all of it into a twelve-section case report in which every finding keeps the classification and confidence of the record it came from and resolves to the persisted ids behind it — deterministic, idempotent, and generated without any live AI request.
+**Status**: the full pipeline is implemented — see
+[`docs/progress/README.md`](./docs/progress/README.md) for what is built, closed,
+in progress and blocked. You can load the Operation DarkNet Delhi synthetic corpus
+through a real ingestion pipeline, extract every explicitly-stated fact from it
+into provenance-tracked Observed-Fact records, resolve those facts into canonical
+entities and aliases, synthesize a browsable investigative graph, compute
+deterministic structural analytics over it, corroborate spatially and temporally,
+ask the grounded Investigation Copilot a natural-language question, and generate
+the twelve-section dossier — every claim classified, every claim traceable back to
+the evidence item behind it, and nothing promoted up the evidence ladder along the
+way.
 
 Requirements: Node.js 26.8.1+ (provides the built-in `node:sqlite` module). No Docker required.
 
@@ -156,6 +191,11 @@ npm run dev            # http://localhost:3000
 ```
 
 ### Demo workflow
+
+The counts below are what the pipeline produces on the committed corpus. If any of
+them ever disagrees with the stage document under [`docs/data/`](./docs/data/),
+**the stage document is canonical** — it is regenerated from a measured run, this
+is a runbook.
 
 ```text
 start the app  →  open http://localhost:3000
@@ -243,12 +283,13 @@ which any claim cannot be classified or traced back to a persisted record.
 Other scripts:
 
 ```bash
-npm run build       # production build
-npm run typecheck   # tsc --noEmit
-npm run lint         # eslint .
+npm run build         # production build
+npm run typecheck     # tsc --noEmit
+npm run lint          # eslint .
 npm test              # vitest run (unit tests)
-npm run test:e2e      # playwright test (end-to-end)
+npm run test:e2e      # playwright test (end-to-end; needs `npx playwright install chromium`)
 npm run db:generate   # regenerate Drizzle migrations after a schema change
+npm run evaluate      # deterministic evaluation harness -> reports/evaluation/
 ```
 
 The SQLite database is a local file at `DATABASE_URL` (default `./data/cipher.db`), created and migrated automatically on first use — nothing to provision manually.
@@ -267,16 +308,22 @@ Verified baseline:
 
 This project is licensed under the [MIT License](./LICENSE).
 
-## Future Documentation
+## Documentation Map
 
-The following areas will be developed as the project progresses:
+`CLAUDE.md` carries the durable operating rules and the full canonical-document
+table. The short version:
 
-- **Architecture** — `docs/architecture/` — [ADR-001 technology stack](./docs/architecture/technology-stack.md) and [stack contract](./docs/architecture/stack-contract.md) are complete; component-level system design follows
-- **Contracts** — `docs/contracts/` — interface and data contracts between components
-- **Data Specification** — `docs/data/` — synthetic dataset design and generation methodology
-- **Evaluation Methodology** — `docs/evaluation/` — how correctness and quality will be measured
-- **Demo Runbook** — `docs/demo/` — how to run and present the demonstration
-- **Visual Progress** — `docs/progress/` — the implementation ledger and visual-evidence convention
-- **Implementation Ledger** — `docs/progress/implementation-ledger.md` — feature-by-feature status tracking
+| Question | Document |
+|---|---|
+| What is built, closed, in progress, blocked, next | [`docs/progress/README.md`](./docs/progress/README.md) |
+| Did task X complete, at which commit | [`docs/progress/implementation-ledger.md`](./docs/progress/implementation-ledger.md) |
+| What must the system do | [`docs/requirements.md`](./docs/requirements.md) |
+| What may I build with | [`docs/architecture/stack-contract.md`](./docs/architecture/stack-contract.md) · [ADR-001](./docs/architecture/technology-stack.md) |
+| How does pipeline stage X behave | [`docs/data/`](./docs/data/) |
+| How good is the model, on what | [`docs/evaluation/README.md`](./docs/evaluation/README.md) |
+| Where did the data come from | [`docs/data-research/source-registry.md`](./docs/data-research/source-registry.md) |
+| Git, branch and secret protocol | [`docs/repository-governance.md`](./docs/repository-governance.md) |
 
-No details beyond what is documented in this repository have been established.
+Historical material — point-in-time captures under `docs/progress/evidence/`, the
+Phase-1 research in `docs/data-research/`, and superseded assessments — is labelled
+as such in each file and is never retouched when later counts change.

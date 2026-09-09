@@ -1,6 +1,21 @@
 # Public-Data Adapter — Design (NOT IMPLEMENTED)
 
-**Date:** 2026-09-03 · **Status:** design only. **No collection has been performed. No collector exists. The research gate remains closed.**
+**Date:** 2026-09-03 · **Status when written:** design only.
+
+> ### SUPERSEDED — the design was built. Retained as the record of why.
+>
+> The line that stood here — *"No collection has been performed. No collector
+> exists. The research gate remains closed."* — was true on 2026-09-03 and is
+> **no longer true.** `scripts/collect-public.ts` implements registry-gated,
+> read-only, bounded adapters for **GLEIF (SRC-002)**, **Wikidata (SRC-001)** and
+> **SEC EDGAR (SRC-006)** — the third was deferred by this document and later
+> approved. Raw payloads are committed under `data/public/raw/`, each carrying
+> source, retrieval time, licence and payload hash.
+>
+> The sources this document blocked stayed blocked: **Indian court judgments**
+> (privacy policy) and **OpenSanctions** (CC BY-NC / commercial posture) were
+> never collected. Current state:
+> [`../progress/README.md`](../progress/README.md).
 **Depends on:** the Option B decision in `docs/architecture/public-data-schema-options.md`
 **Sources:** GLEIF (`SRC-002`) and Wikidata (`SRC-001`) — both CC0 — per `docs/data-research/source-registry.md`
 
