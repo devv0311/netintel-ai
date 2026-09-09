@@ -57,6 +57,17 @@ The following free, public-repository security features were verified/enabled:
 
 No paid features were enabled. No repository visibility, credentials, or secrets were modified.
 
+## Where the Rules Live
+
+This document governs the **repository**: canonical remote, branch protection,
+secret handling, and the synchronization protocol below.
+
+The durable rules an AI session must follow while working in it — architectural
+boundaries, evidence provenance, completed-phase protection, testing and
+documentation expectations — are in [`../CLAUDE.md`](../CLAUDE.md), which restates
+the Git discipline below rather than replacing it. If the two ever disagree about
+Git, this document wins.
+
 ## Secret-Handling Rule
 
 - Real credentials, API keys, tokens, and certificates must never be committed.
@@ -88,3 +99,4 @@ No accepted progress may exist only locally. Remote verification means confirmin
 | --- | --- | --- |
 | 2026-09-01 | Repository foundation established | `df66560` |
 | 2026-09-01 | Branch protection and repository security hardening (P0.18) | See `docs/progress/implementation-ledger.md` |
+| 2026-09-09 | Repository-wide documentation and governance reconciliation (P6.30). `CLAUDE.md` becomes the durable AI operating record; `docs/progress/README.md` becomes the canonical current-status document. | See `docs/progress/implementation-ledger.md` |

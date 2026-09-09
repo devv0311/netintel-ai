@@ -148,8 +148,8 @@ evaluation, because none of them changes what "same legal entity" means.
 ## 6. How test #4 is built
 
 P6.28 needs a fourth instrument for one reason: **P6.27's comparison confounded
-two changes.** The shipped model is logistic regression on 26 features; the
-rejected candidate was gradient-boosted trees on 31. Test #3 could not say
+two changes.** The model shipping at the time — v2.0.0 — was logistic regression
+on 26 features; the rejected candidate was gradient-boosted trees on 31. Test #3 could not say
 which of the two changes produced the ten unrelated merges, and the E2
 candidate — logistic regression on the same 31 features — is the experiment
 that separates them. Scoring E2 on test #3 now would be selection on a spent
