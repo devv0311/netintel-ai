@@ -41,7 +41,6 @@ had to be collected rather than reusing one that still reports PASS 13/13.
 | `evidence/ml/pair-dataset-final-test-2.json` (frozen test #2) | test only | **SELECTION-EXPOSED — SPENT** | Frozen and scored once in P6.26, correctly, on both models. Then it was used to **choose v2 over v3** and to characterise v3's false merges. Choosing between two models on a test set is selection. |
 | `evidence/ml/pair-dataset-v4.json` (v4) | train / mining | **TRAIN** | The training half of the P6.27 sweep. Used ONLY to mine the legal-form vocabulary and token document frequencies; no model is fitted on it. Subject-disjoint from test #3 by construction. |
 | `evidence/ml/pair-dataset-final-test-3.json` (frozen test #3) | test only | **SELECTION-EXPOSED - SPENT** | Was the untouched instrument. Scored once, on 2026-09-08, on three models, and used to decide KEEP V2 (see `ml-final-test-3.md`). Reading it spent it. It must never again be quoted as unseen. |
-
 | `evidence/ml/pair-dataset-final-test-4.json` (frozen test #4) | test only | **SELECTION-EXPOSED — SPENT** | Declared in `evidence/final-test-4/collection-declaration.json`, collected after the candidate was frozen, scored once on 2026-09-09 on two models and used to decide SHIP E2 (see `ml-final-test-4.md`). Reading it spent it. |
 
 **Consequence, stated plainly:** at the start of P6.27 the project had **no
@@ -53,6 +52,15 @@ then spent it, deliberately and in one shot, to make the KEEP V2 decision.
 price.** A frozen test is consumed by the decision it informs. The project is
 back to having no untouched instrument, which is the honest state after any
 model decision, and the next one costs a fourth test.
+
+> **Appended at P6.30.** That fourth test was built and spent: P6.28 declared it
+> before collection, collected it before scoring, and read it once to decide
+> SHIP E2 — the model that now ships (`ml-final-test-4.md`). The table above
+> classifies it. **The state today is the one this section describes: there is no
+> untouched instrument, and a fifth model decision costs a fifth test.** P6 ML is
+> closed, so none is planned. This document's title says P6.27 because that is
+> when the protocol was written; the protocol itself is not phase-scoped and
+> governs every dataset in the project.
 
 ---
 

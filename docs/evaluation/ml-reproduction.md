@@ -52,9 +52,14 @@ absorbed — so nothing would have reported it.
 corpus deliberately, pass `--adopt-runs`, which re-declares the pin from
 disk; nothing else changes it.
 
-## 1. The shipped model (`cipher-er-pairs` v2.0.0)
+## 1. The training corpus, and the superseded v2.0.0 artifact
 
-**Every `ml:*` script defaults to the SHIPPED pipeline.** The superseded
+> **`npm run ml:train` does not produce the shipped model.** It reproduces
+> **v2.0.0**, which was superseded at P6.28. The shipped artifact is E2 / v2.2.0
+> and is built in [§1.1](#11-the-shipped-model-e2--v220). Both are fitted on the
+> same corpus, which is why this section comes first.
+
+The base `ml:*` scripts build the corpus and the v2.0.0 artifact. The superseded
 P6.24 chain is still reproducible under the `ml:v1:*` names (§4).
 
 ```bash
@@ -71,10 +76,44 @@ Expected:
 | Scorable records / positives / hard negatives | 3,290 / 1,711 / 477 |
 | Partitions (train / validation / test) | 3,121 / 951 / 6,692 pairs |
 | Leakage verdict | **PASS 13/13**, against BOTH frozen tests |
-| Shipped experiment | `E2-logistic-regression`, recall 79.7%, threshold 0.9774753387972909 |
+| Selected experiment | `E2-logistic-regression` (26 features), recall 79.7%, threshold 0.9774753387972909 |
 | **weightsDigest** | `6948e6bc6bb94b0aebe937fe0bd445e39b4c49e62cb456efa7eac742fde2f849` |
 
-## 2. The final frozen test
+## 1.1 The shipped model (E2 / v2.2.0)
+
+The artifact the application imports. Same corpus as §1, same model family, same
+seed — what differs is the **P6.27 feature set**, so the mined vocabulary must be
+built before training. It is mined from the three **training** datasets only —
+v2 (3,282 records), v3 (10,041) and v4 (5,683), 19,006 in total, each pinned by
+sha256 in `evidence/ml/legal-form-vocabulary.json`. **No frozen test contributes
+a token**, which is what keeps the features from reading the exam.
+
+```bash
+npm run ml:corpus && npm run ml:dataset && npm run ml:leakage   # as in §1
+npm run ml:legal-forms   # mine legal-form vocabulary + token document frequencies
+npm run ml:e2:train      # E2 NAMED, not ranked: --select-experiment E2-logistic-regression
+```
+
+Expected:
+
+| | |
+| --- | --- |
+| Artifact | `models/cipher-er-pair-classifier.v2lr.json`, model version **2.2.0** |
+| Experiment | `E2-logistic-regression`, `featureSet: engineered-31`, seed 20260904 |
+| Hyperparameters | lr 0.5 · 4,000 epochs · L2 0.002 · positive weight 4 |
+| Validation recall at the selected threshold | **81.4%** (144/177), precision 99.3% |
+| Threshold | `0.9823449517890187` |
+| **weightsDigest** | `40d3ceee6ce99419dcd2b100abe1ad08a6e5edd8372fb69d1b1278b4e6eb78ac` |
+| Registry | `reports/ml/experiment-registry-v2lr.json` |
+
+**`--select-experiment` names the rung that ships rather than ranking into it**,
+and that is deliberate: at P6.27 the ladder auto-selected gradient-boosted trees
+whose validation false-merge rate understated its test rate by eighteen times. A
+ceiling measured on the partition being selected on is not a ceiling. Every rung
+still runs and the registry still records what won the ranking. Why the family was
+named ahead of the test: [`ml-selection-freeze-e2.md`](./ml-selection-freeze-e2.md).
+
+## 2. The first frozen test
 
 ```bash
 npm run ml:final-test:corpus     # collected AFTER all feature work
@@ -143,6 +182,42 @@ merges, cross-border 18/39; baseline recall 19.3%.
 
 Why v3 is not shipped, with both columns:
 [`ml-cross-border-experiment.md`](./ml-cross-border-experiment.md).
+
+## 3.2 Frozen tests #3 and #4
+
+Test #4 is the instrument that selected the shipped model. Both are **spent** —
+reproducing them re-derives published numbers; it does not restore an unseen test.
+
+```bash
+npm run ml:test3:corpus     # --subject-bucket test; disjoint from v4 by construction
+npm run ml:test3:dataset
+npm run ml:test3:leakage    # PASS 13/13, L13 = 0
+npm run ml:test3            # shipped v2, scored once
+npm run ml:test3:candidate  # the P6.27 GBDT candidate v2lf, scored once
+
+npm run ml:test4:corpus     # declared before collection; excludes all seven prior datasets
+npm run ml:test4:dataset
+npm run ml:test4:leakage    # PASS 13/13, L13 = 0
+npm run ml:test4            # v2.0.0, scored once
+npm run ml:test4:candidate  # E2 / v2lr — the shipped model, scored once
+```
+
+Expected — **test #3**: 17,442 pairs, 2,823 positives, 969 curated hard negatives,
+2,812 subjects, 70 jurisdictions. v2 recall 75.8% (2,140), **0** wholly unrelated
+merges; v2lf recall 84.4% (2,382), **10**. Decision: KEEP V2
+([`ml-final-test-3.md`](./ml-final-test-3.md)).
+
+Expected — **test #4**: 40,004 pairs, 4,672 positives, 2,049 curated hard
+negatives, 4,709 subjects, 25 countries. v2.0.0 recall 93.71% (4,378), 9 wholly
+unrelated merges; **E2 recall 94.07% (4,395/4,672)**, precision 93.83%,
+hard-negative false merges **111/2,049**, **1** wholly unrelated merge; baseline
+recall 24.87% (1,162/4,672), hard-negative false merges 5/2,049. Decision: SHIP E2
+([`ml-final-test-4.md`](./ml-final-test-4.md)).
+
+The comparison across models on identical pairs is
+`reports/ml/final-test-4-comparison.json`. What these numbers do **not**
+establish — the easier distribution, the 30 cross-border positives, the zero
+Latvian pairs — is `ml-final-test-4.md` §4, and must be quoted with them.
 
 ## 4. Reproducing the superseded P6.24 results
 

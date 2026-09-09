@@ -1,5 +1,19 @@
 # Evaluation and error analysis — `cipher-er-pair-classifier` v2.0.0
 
+> ### Scope: this document is about **v2.0.0, which is superseded.**
+>
+> It is the full error analysis of the model that shipped from P6.25 to P6.28, on
+> frozen test #1. It is kept because it is where the corporate-family failure
+> class, the cross-border weakness and the jurisdiction-conflict diagnosis were
+> established — findings that still hold and that later work builds on.
+>
+> **It is not the current model's evaluation.** The shipped artifact is
+> **E2 / v2.2.0** (`…v2lr.json`), measured on frozen test #4. For current numbers
+> read [`ml-final-test-4.md`](./ml-final-test-4.md) and
+> [`ml-model-card.md`](./ml-model-card.md) §6, and never mix a figure from this
+> document with one from those — they are different models on different
+> instruments.
+
 **Artifact:** `models/cipher-er-pair-classifier.v2.json`
 **weightsDigest:** `6948e6bc6bb94b0aebe937fe0bd445e39b4c49e62cb456efa7eac742fde2f849`
 **Threshold:** 0.9774753387972909 (fixed on validation, never re-picked here)

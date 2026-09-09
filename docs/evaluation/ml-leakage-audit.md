@@ -17,10 +17,20 @@ node --import ./scripts/eval-resolve.mjs scripts/ml/leakage-audit.ts \
 | Dataset | Verdict | Report |
 | --- | --- | --- |
 | `cipher-er-pairs` v1.0.0 (superseded) | **FAIL — L12** | `reports/ml/leakage-audit.json` |
-| `cipher-er-pairs` v2.0.0 (shipped) | **PASS 13/13** | `reports/ml/leakage-audit-v2.json` |
-| `cipher-er-pairs-final-test` v1.0.0 | **PASS 13/13** | `reports/ml/leakage-audit-final-test.json` |
+| `cipher-er-pairs` v2.0.0 (the shipped model's training corpus) | **PASS 13/13** | `reports/ml/leakage-audit-v2.json` |
 | `cipher-er-pairs` v3.0.0 (P6.26, not shipped) | **PASS 13/13** | `reports/ml/leakage-audit-v3.json` |
-| `cipher-er-pairs-final-test-2` v1.0.0 | **PASS 13/13**, L13 = 0 | `reports/ml/leakage-audit-final-test-2.json` |
+| `cipher-er-pairs-final-test` v1.0.0 (test #1) | **PASS 13/13** | `reports/ml/leakage-audit-final-test.json` |
+| `cipher-er-pairs-final-test` v1.0.0 vs v3 | **PASS 13/13** | `reports/ml/leakage-audit-final-test-vs-v3.json` |
+| `cipher-er-pairs-final-test-2` v1.0.0 (test #2) | **PASS 13/13**, L13 = 0 | `reports/ml/leakage-audit-final-test-2.json` |
+| `cipher-er-pairs-final-test-3` v1.0.0 (test #3) | **PASS 13/13**, L13 = 0 | `reports/ml/leakage-audit-final-test-3.json` |
+| `cipher-er-pairs-final-test-4` v1.0.0 (test #4 — **selected the shipped model**) | **PASS 13/13**, L13 = 0 | `reports/ml/leakage-audit-final-test-4.json` |
+
+> **`cipher-er-pairs` v4.0.0 has no committed leakage report.** `npm run ml:v4:leakage`
+> exists and builds one, but the artifact was not committed. v4 is the P6.27
+> training half, used **only** to mine legal-form vocabulary and token document
+> frequencies — no model is fitted on it — and it is subject-disjoint from test #3
+> by construction (`--subject-bucket train`). Stated rather than quietly omitted:
+> the guarantee rests on the construction, not on a committed report.
 
 The v1 FAIL is left in the repository as it stands. It is a finding about
 a shipped model, and regenerating it into a pass would delete the

@@ -1,13 +1,30 @@
 # Dataset card — CIPHER entity-resolution pairs
 
-Three datasets. They are not three attempts at one thing; each has a
-different job, and mixing them would destroy what the others measure.
+**Eight datasets.** They are not eight attempts at one thing; each has a different
+job, and mixing them would destroy what the others measure. **Every model decision
+consumes a frozen test**, which is why the count grew.
 
 | Dataset | Version | Pairs | Role |
 | --- | --- | --- | --- |
 | `cipher-er-pairs` | 1.0.0 | 4,053 | P6.24. **Superseded**, kept for the head-to-head. Fails leakage check L12 retrospectively. |
 | `cipher-er-pairs` | 2.0.0 | 10,764 | Trained and selected the shipped model. Its test partition is a **development** test. |
-| `cipher-er-pairs-final-test` | 1.0.0 | 5,257 | The **final frozen test**. Overlap with either dataset above: **0 subjects**. |
+| `cipher-er-pairs` | 3.0.0 | 32,808 | P6.26 cross-border training corpus. **Corpus-design-exposed**; the model fitted on it is not shipped. |
+| `cipher-er-pairs` | 4.0.0 | 17,078 | P6.27 training half. Used **only** to mine legal-form vocabulary and token document frequencies — no model is fitted on it. |
+| `cipher-er-pairs-final-test` | 1.0.0 | 5,257 | Frozen test #1 (P6.25). **SPENT.** |
+| `cipher-er-pairs-final-test-2` | 1.0.0 | 16,675 | Frozen test #2 (P6.26). **SPENT.** |
+| `cipher-er-pairs-final-test-3` | 1.0.0 | 17,442 | Frozen test #3 (P6.27). **SPENT.** |
+| `cipher-er-pairs-final-test-4` | 1.0.0 | 40,004 | Frozen test #4 (P6.28) — the instrument that selected the **shipped** model. **SPENT.** |
+
+> **This card is canonical for provenance: sources, licences, how a label is
+> created, and the data's known limitations.** It is *not* canonical for what a
+> dataset may be used for — [`ml-evaluation-protocol.md`](./ml-evaluation-protocol.md) §2
+> is, and it classifies all eight. Read it before quoting any dataset as unseen.
+>
+> §2 and §3 below describe v2.0.0 and frozen test #1 in detail because those are
+> the corpus the shipped model learned from and the first frozen instrument. The
+> later datasets share their collection method, their publishers and their
+> labelling rule exactly; what differs is the country sweep and the subject
+> exclusions, recorded per test in `ml-final-test-{2,3,4}.md`.
 
 ---
 

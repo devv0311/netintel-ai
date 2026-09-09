@@ -41,8 +41,10 @@ Corollaries the codebase enforces rather than assumes:
 | What data exists, from whom, under what licence | [`ml-dataset-card.md`](./ml-dataset-card.md) | `evidence/expanded-v2/`, `evidence/final-test/` |
 | What a label means and how each one was derived | [`ml-label-specification.md`](./ml-label-specification.md) | `*.ground-truth.json` |
 | Could the model have cheated | [`ml-leakage-audit.md`](./ml-leakage-audit.md) | `reports/ml/leakage-audit*.json` |
-| Which models were tried and why one shipped | [`ml-model-card.md`](./ml-model-card.md) | `reports/ml/experiment-registry-v2.json` |
-| How well it actually does, and where it fails | [`ml-evaluation-and-error-analysis.md`](./ml-evaluation-and-error-analysis.md) | `reports/ml/final-test-*.json` |
+| Which models were tried and why one shipped | [`ml-model-card.md`](./ml-model-card.md) | `reports/ml/experiment-registry-v2*.json` |
+| The rule that decided it, fixed before the test existed | [`ml-selection-freeze-e2.md`](./ml-selection-freeze-e2.md) | — |
+| **How well the shipped model does, and where it fails** | [`ml-final-test-4.md`](./ml-final-test-4.md) + [`ml-model-card.md`](./ml-model-card.md) §6 | `reports/ml/final-test-4-evaluation-v2lr.json` |
+| How the **superseded v2.0.0** did — where the error classes were first established | [`ml-evaluation-and-error-analysis.md`](./ml-evaluation-and-error-analysis.md) | `reports/ml/final-test-*.json` |
 | How to reproduce every number here | [`ml-reproduction.md`](./ml-reproduction.md) | — |
 | How the model is exposed in the product | [`../architecture/ml-integration.md`](../architecture/ml-integration.md) | — |
 
@@ -71,8 +73,10 @@ consumes a frozen test**, which is why the count keeps growing:
 | `…-final-test-3` v1.0.0 | 17,442 | Frozen test #3 (P6.27). **SPENT** — used to decide KEEP V2. |
 | `…-final-test-4` v1.0.0 | 40,004 | Frozen test #4 (P6.28). **SPENT** — used to decide SHIP E2, the model that now ships. |
 
-The published headline numbers come from the most recent frozen test, and the
-limits of that instrument are reported with them: see `ml-final-test-4.md` §4.
+**The shipped model is E2 / v2.2.0** (`models/cipher-er-pair-classifier.v2lr.json`,
+31 trainable features), selected on frozen test #4 at P6.28. **P6 ML model
+selection is closed.** The published headline numbers come from that test, and the
+limits of the instrument are reported with them: see `ml-final-test-4.md` §4.
 A test is frozen until it is read, and reading it is what spends it — no
 leakage check can see that, which is the finding `ml-evaluation-protocol.md`
 exists to record.

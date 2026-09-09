@@ -84,7 +84,10 @@ explainable model is simply also the better one.
 
 ## 4. Features
 
-**26 trained features**, all symmetric — `f(a,b) = f(b,a)`, because "same
+**31 trained features** — the 26 of v2.0.0 plus the five P6.27 rarity features
+(`coreNameMatch`, `coreTokenJaccard`, `coreTrigramDice`, `idfWeightedJaccard`,
+`maxSharedTokenIdf`). `src/lib/ml/features.ts` declares 32 names; one is computed
+and excluded from training (see the end of this section). All symmetric — `f(a,b) = f(b,a)`, because "same
 entity" is symmetric and an asymmetric feature would let the model learn
 the arbitrary order the dataset builder emitted each pair in. Listed in
 `src/lib/ml/features.ts`.
